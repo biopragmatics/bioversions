@@ -2,11 +2,11 @@
 
 What's the current version for each biological database?
 
-## Installation
+## 🚀 Installation
 
 `pip install -e .`
 
-## Usage
+## 💪 Usage
 
 ```python
 import bioversions
@@ -16,11 +16,11 @@ assert bioversion.version == '4.2.192', 'This was true on Dec 5th, 2020!'
 ```
 
 By default, the results are cached and only refreshed once per day with
-the help of `cachier`. The cache is stored in `~/.data/bioversions`. The
-cache location can be overridden by setting the `BIOVERSIONS_HOME` environment
-variable via `pystow`.
+the help of [`cachier`](https://github.com/shaypal5/cachier). The cache is stored
+in `~/.data/bioversions`. The  cache location can be overridden by setting the
+`BIOVERSIONS_HOME` environment variable via [`pystow`](https://github.com/cthoyt/pystow).
 
-## Web Application
+## 🌐 Web Application
 
 Run the web application in your shell with
 
@@ -44,7 +44,7 @@ assert res['result']['name'] == 'BioGRID'
 assert res['result']['version'] == '4.2.192', 'This was true on Dec 5th, 2020!'
 ```
 
-## Contributing
+## 🙏 Contributing
 
 To add more databases to the list, you can create a new submodule of
 `bioversions.sources` and extend the `bioversions.utils.Getter` class
