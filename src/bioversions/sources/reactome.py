@@ -1,9 +1,19 @@
+# -*- coding: utf-8 -*-
+
+"""A getter for Reactome."""
+
 from bioversions.utils import Getter, get_soup
+
+__all__ = [
+    'ReactomeGetter',
+]
 
 URL = 'https://reactome.org/'
 
 
 class ReactomeGetter(Getter):
+    """A getter for Reactome."""
+
     name = 'Reactome'
 
     def get(self):

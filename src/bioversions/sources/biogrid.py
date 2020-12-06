@@ -1,9 +1,19 @@
+# -*- coding: utf-8 -*-
+
+"""A getter for BioGRID."""
+
 from bioversions.utils import Getter, get_soup
+
+__all__ = [
+    'BioGRIDGetter',
+]
 
 URL = 'https://downloads.thebiogrid.org/BioGRID/Latest-Release/'
 
 
 class BioGRIDGetter(Getter):
+    """A getter for BioGRID."""
+
     name = 'BioGRID'
     homepage_fmt = 'https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-{version}'
 

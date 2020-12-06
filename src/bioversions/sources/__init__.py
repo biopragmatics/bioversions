@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+
+"""Sources for Bioversions."""
+
 from typing import List, Mapping, Optional, Tuple, Type
 
 from bioversions.sources.biogrid import BioGRIDGetter
@@ -24,6 +28,7 @@ getter_dict: Mapping[str, Type[Getter]] = {
 
 @refresh_daily
 def resolve(name: str) -> Bioversion:
+    """Resolve the database name to a :class:`Bioversion` instance."""
     norm_name = norm(name)
     getter: Type[Getter] = getter_dict[norm_name]
     return getter.resolve()
