@@ -98,3 +98,25 @@ class Getter(metaclass=MetaGetter):
     def to_dict(cls) -> Mapping[str, Any]:
         """Get a dict with the data for this database."""
         return cls.resolve().to_dict()
+
+
+def get_obo_version(url: str) -> str:
+    """Get the data version from an OBO file."""
+    with requests.get(url, stream=True) as res:
+        for line in res.iter_lines():
+            line = line.decode('utf-8')
+            if line.startswith('data-version:'):
+                version = line[len('data-version:'):].strip()
+                return version
+    raise ValueError(f'No data-version line contained in {url}')
+
+
+class OboGetter(Getter):
+    """An implementation for getting OBO versions."""
+
+    key: ClassVar[str]
+
+    def get(self) -> str:
+        """Get the OBO version."""
+        url = f'http://purl.obolibrary.org/obo/{self.key}.obo'
+        return get_obo_version(url)
