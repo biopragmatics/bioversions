@@ -7,7 +7,7 @@ from click_default_group import DefaultGroup
 
 
 @click.group(cls=DefaultGroup, default='web', default_if_no_args=True)
-def main():
+def main():  # noqa:D401
     """The bioversions CLI."""
 
 

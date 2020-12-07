@@ -36,6 +36,7 @@ class DoidGetter(OboGetter):
 
 class PrGetter(OboGetter):
     """A getter for the Protein Ontology (PR)."""
+
     name = 'Protein Ontology'
     key = 'pr'
 

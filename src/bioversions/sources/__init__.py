@@ -4,7 +4,6 @@
 
 from typing import List, Mapping, Optional, Tuple, Type
 
-from bioversions.sources import obo
 from bioversions.sources.biogrid import BioGRIDGetter
 from bioversions.sources.obo import ChebiGetter, DoidGetter, GoGetter, PrGetter, XaoGetter
 from bioversions.sources.reactome import ReactomeGetter
