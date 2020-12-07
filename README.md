@@ -11,8 +11,11 @@ What's the current version for each biological database?
 ```python
 import bioversions
 
+assert bioversions.get_version('biogrid') == '4.2.192', 'This was true on Dec 5th, 2020!'
+
+# If you want more information, use the resolve() function
 bioversion = bioversions.resolve('biogrid')
-assert bioversion.version == '4.2.192', 'This was true on Dec 5th, 2020!'
+assert bioversion.version == '4.2.192'
 ```
 
 By default, the results are cached and only refreshed once per day with
@@ -25,7 +28,7 @@ in `~/.data/bioversions`. The  cache location can be overridden by setting the
 Run the web application in your shell with
 
 ```bash
-$ bioversions
+$ bioversions web
 ```
 
 Options can be listed with `bioversions --help`.
@@ -42,6 +45,15 @@ res = requests.get('http://localhost:5000/database/biogrid').json()
 assert res['success']
 assert res['result']['name'] == 'BioGRID'
 assert res['result']['version'] == '4.2.192', 'This was true on Dec 5th, 2020!'
+```
+
+## CLI Usage
+
+You can use `bioversions get` to incorporate the latest versions in your shell scripts
+or REPL usage like in:
+
+```bash
+$ wget "https://downloads.thebiogrid.org/Download/BioGRID/Release-Archive/BIOGRID-$(bioversions get biogrid)/BIOGRID-ALL-$(bioversions get biogrid).mitab.zip"
 ```
 
 ## 🙏 Contributing

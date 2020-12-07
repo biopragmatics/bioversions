@@ -13,6 +13,7 @@ __all__ = [
     'getter_dict',
     'resolve',
     'get_rows',
+    'get_version',
 ]
 
 # TODO replace with entrypoint lookup
@@ -32,6 +33,12 @@ def resolve(name: str) -> Bioversion:
     norm_name = norm(name)
     getter: Type[Getter] = getter_dict[norm_name]
     return getter.resolve()
+
+
+@refresh_daily
+def get_version(name: str) -> str:
+    """Resolve a database name to its version string."""
+    return resolve(name).version
 
 
 @refresh_daily

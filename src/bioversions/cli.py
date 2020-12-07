@@ -18,5 +18,13 @@ def web():
     app.run()
 
 
+@main.command()
+@click.argument('key')
+def get(key: str):
+    """Print the version."""
+    from . import get_version
+    click.echo(get_version(key))
+
+
 if __name__ == '__main__':
     main()
