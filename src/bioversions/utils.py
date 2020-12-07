@@ -81,9 +81,9 @@ class Getter(metaclass=MetaGetter):
         raise NotImplementedError
 
     @classmethod
-    def print(cls, file=None):
+    def print(cls, sep: str = '\t', file=None):
         """Print the latest version of this database."""
-        print(cls.version, file=file)
+        print(cls.name, cls.version, sep=sep, file=file)
 
     @classmethod
     def resolve(cls) -> Bioversion:
