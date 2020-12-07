@@ -1,15 +1,23 @@
 # Bioversions
 
-<img alt="PyPI" src="https://img.shields.io/pypi/v/bioversions">
-<img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/bioversions">
-<img alt="PyPI - License" src="https://img.shields.io/pypi/l/bioversions">
-<a href="https://zenodo.org/badge/latestdoi/318852276"><img src="https://zenodo.org/badge/318852276.svg" alt="DOI"></a>
+<a href="https://pypi.org/project/bioversions">
+    <img alt="PyPI" src="https://img.shields.io/pypi/v/bioversions" />
+</a>
+<a href="https://pypi.org/project/bioversions">
+    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/bioversions" />
+</a>
+<a href="https://github.com/cthoyt/bioversions/blob/main/LICENSE">
+    <img alt="PyPI - License" src="https://img.shields.io/pypi/l/bioversions" />
+</a>
+<a href="https://zenodo.org/badge/latestdoi/318852276">
+    <img src="https://zenodo.org/badge/318852276.svg" alt="DOI" />
+</a>
 
 🪝 What's the current version for each biological database?
 
 ## 🚀 Installation
 
-`pip install -e .`
+`pip install bioversions`
 
 ## 💪 Usage
 
