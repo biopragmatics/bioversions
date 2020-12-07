@@ -13,11 +13,13 @@
     <img src="https://zenodo.org/badge/318852276.svg" alt="DOI" />
 </a>
 
-🪝 What's the current version for each biological database?
+What's the current version for each biological database?
 
 ## 🚀 Installation
 
-`pip install bioversions`
+```bash
+$ pip install bioversions
+```
 
 ## 💪 Usage
 
