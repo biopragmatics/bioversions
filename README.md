@@ -1,6 +1,11 @@
 # Bioversions
 
-What's the current version for each biological database?
+<img alt="PyPI" src="https://img.shields.io/pypi/v/bioversions">
+<img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/bioversions">
+<img alt="PyPI - License" src="https://img.shields.io/pypi/l/bioversions">
+<a href="https://zenodo.org/badge/latestdoi/318852276"><img src="https://zenodo.org/badge/318852276.svg" alt="DOI"></a>
+
+🪝 What's the current version for each biological database?
 
 ## 🚀 Installation
 
@@ -18,9 +23,9 @@ bioversion = bioversions.resolve('biogrid')
 assert bioversion.version == '4.2.192'
 ```
 
-By default, the results are cached and only refreshed once per day with
-the help of [`cachier`](https://github.com/shaypal5/cachier). The cache is stored
-in `~/.data/bioversions`. The  cache location can be overridden by setting the
+By default, the results are cached and only refreshed once per day with the help
+of [`cachier`](https://github.com/shaypal5/cachier). The cache is stored in `~/.data/bioversions`. The cache location
+can be overridden by setting the
 `BIOVERSIONS_HOME` environment variable via [`pystow`](https://github.com/cthoyt/pystow).
 
 ## 🌐 Web Application
@@ -33,10 +38,9 @@ $ bioversions web
 
 Options can be listed with `bioversions --help`.
 
-You can navigate to http://localhost:5000 to see all versions
-as HTML or programmatically resolve given databases with the
-`http://localhost:5000/database/<name>` endpoint like in the
-following:
+You can navigate to http://localhost:5000 to see all versions as HTML or programmatically resolve given databases with
+the
+`http://localhost:5000/database/<name>` endpoint like in the following:
 
 ```python
 import requests
@@ -49,8 +53,7 @@ assert res['result']['version'] == '4.2.192', 'This was true on Dec 5th, 2020!'
 
 ## CLI Usage
 
-You can use `bioversions get` to incorporate the latest versions in your shell scripts
-or REPL usage like in:
+You can use `bioversions get` to incorporate the latest versions in your shell scripts or REPL usage like in:
 
 ```bash
 $ wget "https://downloads.thebiogrid.org/Download/BioGRID/Release-Archive/BIOGRID-$(bioversions get biogrid)/BIOGRID-ALL-$(bioversions get biogrid).mitab.zip"
@@ -59,6 +62,6 @@ $ wget "https://downloads.thebiogrid.org/Download/BioGRID/Release-Archive/BIOGRI
 ## 🙏 Contributing
 
 To add more databases to the list, you can create a new submodule of
-`bioversions.sources` and extend the `bioversions.utils.Getter` class
-to identify the most recent version for your target database. See
+`bioversions.sources` and extend the `bioversions.utils.Getter` class to identify the most recent version for your
+target database. See
 `bioversions.sources.biogrid` as an example.
