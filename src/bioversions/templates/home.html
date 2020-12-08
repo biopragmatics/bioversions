@@ -22,17 +22,17 @@
                     <tr>
                         <th>Name</th>
                         <th>Version</th>
-                        <th>Homepage</th>
-                        <th>JSON</th>
+                        <th class="text-center">JSON</th>
                     </tr>
                     </thead>
                     <tbody>
                     {% for name, version, homepage in rows %}
                         <tr>
                             <td>{{ name }}</td>
-                            <td>{{ version }}</td>
-                            <td>{% if homepage %}<a href="{{ homepage }}">Homepage</a>{% endif %}</td>
-                            <td><a href="{{ url_for('database', name=name) }}">JSON</a></td>
+                            <td>
+                                {% if homepage %}<a href="{{ homepage }}">{{ version }} <span class="glyphicon glyphicon-link" aria-hidden="true"></span></a>{% else %}{{ version }}{% endif %}
+                            </td>
+                            <td class="text-center"><a href="{{ url_for('database', name=name) }}"><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a></td>
                         </tr>
                     {% endfor %}
                     </tbody>
