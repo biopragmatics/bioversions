@@ -25,13 +25,17 @@ class GoGetter(OboGetter):
 
     name = 'Gene Ontology'
     key = 'go'
+    strip_version_prefix = True
 
 
 class DoidGetter(OboGetter):
     """A getter for the Disease Ontology (DO)."""
 
     name = 'Disease Ontology'
+    homepage_fmt = 'https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/{version}'
     key = 'doid'
+    strip_version_prefix = True
+    strip_file_suffix = True
 
 
 class PrGetter(OboGetter):
@@ -46,6 +50,7 @@ class XaoGetter(OboGetter):
 
     name = 'Xenopus Anatomy Ontology'
     key = 'xao'
+    strip_version_prefix = True
 
 
 if __name__ == '__main__':
