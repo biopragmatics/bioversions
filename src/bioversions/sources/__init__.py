@@ -34,26 +34,36 @@ getter_dict: Mapping[str, Type[Getter]] = {
 }
 
 
-@refresh_daily
-def resolve(name: str) -> Bioversion:
+def resolve(name: str, use_cache: bool = True) -> Bioversion:
     """Resolve the database name to a :class:`Bioversion` instance."""
+    if use_cache:
+        return _resolve_helper_cached(name)
+    else:
+        return _resolve_helper(name)
+
+
+@refresh_daily
+def _resolve_helper_cached(name: str) -> Bioversion:
+    return _resolve_helper(name)
+
+
+def _resolve_helper(name: str) -> Bioversion:
     norm_name = norm(name)
     getter: Type[Getter] = getter_dict[norm_name]
     return getter.resolve()
 
 
-@refresh_daily
 def get_version(name: str) -> str:
     """Resolve a database name to its version string."""
     return resolve(name).version
 
 
-@refresh_daily
 def get_rows() -> List[Tuple[str, str, Optional[str]]]:
     """Get the rows, refreshing once per day."""
-    rv = [
-        (getter.name, getter.version, getter.homepage)
-        for getter in getters
-    ]
-    # TODO sort?
-    return rv
+    return list(_iter_rows())
+
+
+def _iter_rows():
+    for name in getter_dict:
+        bv = resolve(name)
+        yield bv.name, bv.version, bv.homepage
