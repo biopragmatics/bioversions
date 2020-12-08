@@ -31,5 +31,12 @@ def get(key: str):
     click.echo(get_version(key))
 
 
+@main.command()
+def ls():
+    """List versions."""
+    from . import get_rows
+    click.echo(tabulate(get_rows()))
+
+
 if __name__ == '__main__':
     main()
