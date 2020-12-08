@@ -31,7 +31,7 @@ def get_soup(url: str) -> BeautifulSoup:
 #: should be cached and refreshed once per day
 refresh_daily = cachier(
     stale_after=timedelta(days=1),
-    backend='pickle',
+    backend='memory',
     cache_dir=BIOVERSIONS_HOME,
 )
 
