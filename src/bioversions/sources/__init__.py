@@ -4,10 +4,10 @@
 
 from typing import List, Mapping, Optional, Tuple, Type
 
-from bioversions.sources.biogrid import BioGRIDGetter
-from bioversions.sources.obo import ChebiGetter, DoidGetter, GoGetter, PrGetter, XaoGetter
-from bioversions.sources.reactome import ReactomeGetter
-from bioversions.utils import Bioversion, Getter, norm, refresh_daily
+from .biogrid import BioGRIDGetter
+from .obo import ChebiGetter, DoidGetter, GoGetter, PrGetter, XaoGetter
+from .reactome import ReactomeGetter
+from ..utils import Bioversion, Getter, norm, refresh_daily
 
 __all__ = [
     'getters',

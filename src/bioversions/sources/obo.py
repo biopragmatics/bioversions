@@ -2,7 +2,7 @@
 
 """Getters for OBO ontologies."""
 
-from bioversions.utils import OboGetter
+from ..utils import OboGetter
 
 __all__ = [
     'ChebiGetter',

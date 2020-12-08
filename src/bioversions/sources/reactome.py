@@ -2,7 +2,7 @@
 
 """A getter for Reactome."""
 
-from bioversions.utils import Getter, get_soup
+from ..utils import Getter, get_soup
 
 __all__ = [
     'ReactomeGetter',
