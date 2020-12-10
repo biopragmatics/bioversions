@@ -6,6 +6,7 @@ layout: home
 <tr>
     <th>Name</th>
     <th>Version</th>
+    <th>Updated</th>
 </tr>
 </thead>
 <tbody>
@@ -15,6 +16,7 @@ layout: home
         <td>
             {% if entry.homepage %}<a href="{{ entry.homepage }}">{{ entry.version }} </a>{% else %}{{ entry.version }}{% endif %}
         </td>
+        <td>{{ entry.updated }}</td>
     </tr>
 {% endfor %}
 </tbody>

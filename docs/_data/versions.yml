@@ -1,21 +1,28 @@
 - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.192
   name: BioGRID
+  updated: '2020-12-10'
   version: 4.2.192
 - homepage: null
   name: Reactome
+  updated: '2020-12-10'
   version: '75'
 - homepage: null
   name: ChEBI
+  updated: '2020-12-10'
   version: '194'
 - homepage: null
   name: Protein Ontology
+  updated: '2020-12-10'
   version: '61.0'
 - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-02
   name: Disease Ontology
+  updated: '2020-12-10'
   version: '2020-12-02'
 - homepage: null
   name: Gene Ontology
+  updated: '2020-12-10'
   version: '2020-11-18'
 - homepage: null
   name: Xenopus Anatomy Ontology
+  updated: '2020-12-10'
   version: '2020-06-26'
