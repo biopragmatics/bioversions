@@ -34,7 +34,7 @@ def update():
     for bv in _iter_versions():
         click.echo(str(bv))
         rv.append({
-            'updated': today,
+            'retrieved': today,
             **_get_clean_dict(bv),
         })
 

@@ -9,7 +9,7 @@ the latest version of each biological database is.
 <tr>
     <th>Name</th>
     <th>Version</th>
-    <th>Updated</th>
+    <th>Retrieved</th>
 </tr>
 </thead>
 <tbody>
@@ -19,7 +19,7 @@ the latest version of each biological database is.
         <td>
             {% if entry.homepage %}<a href="{{ entry.homepage }}">{{ entry.version }} </a>{% else %}{{ entry.version }}{% endif %}
         </td>
-        <td>{{ entry.updated }}</td>
+        <td>{{ entry.retrieved }}</td>
     </tr>
 {% endfor %}
 </tbody>
