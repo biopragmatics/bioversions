@@ -15,7 +15,7 @@
 
 What's the current version for each biological database?
 
-A static listing of all current versions (that are incorporated) can be found at
+A daily updated static listing of all current versions (that are incorporated) can be found at
 https://cthoyt.github.io/bioversions.
 
 ## 🚀 Installation
@@ -43,7 +43,7 @@ can be overridden by setting the
 
 ## 🌐 Web Application
 
-While https://cthoyt.github.io/bioversions provides a static listing of the database,
+While https://cthoyt.github.io/bioversions provides a daily updated static listing of the database,
 you can run a dynamic version with an API from your shell with:
 
 ```bash
