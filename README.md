@@ -15,6 +15,9 @@
 
 What's the current version for each biological database?
 
+A static listing of all current versions (that are incorporated) can be found at
+https://cthoyt.github.io/bioversions.
+
 ## 🚀 Installation
 
 ```bash
