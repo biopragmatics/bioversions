@@ -40,13 +40,14 @@ can be overridden by setting the
 
 ## 🌐 Web Application
 
-Run the web application in your shell with
+While https://cthoyt.github.io/bioversions provides a static listing of the database,
+you can run a dynamic version with an API from your shell with:
 
 ```bash
 $ bioversions web
 ```
 
-Options can be listed with `bioversions --help`.
+Options can be listed with `bioversions web --help`.
 
 You can navigate to http://localhost:5000 to see all versions as HTML or programmatically resolve given databases with
 the

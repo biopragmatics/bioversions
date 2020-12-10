@@ -40,3 +40,10 @@ import bioversions
 
 assert bioversions.get_version('biogrid') == '4.2.192', 'This was true on Dec 5th, 2020!'
 ```
+
+The source code can be found at [https://github.com/cthoyt/bioversions](https://github.com/cthoyt/bioversions).
+
+## Adding More Databases
+
+More databases can be added by sending a pull request to [cthoyt/bioversions](https://github.com/cthoyt/bioversions)
+by following the [contribution guidelines](https://github.com/cthoyt/bioversions#-contributing).
