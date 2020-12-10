@@ -2,7 +2,7 @@
 
 """Sources for Bioversions."""
 
-from typing import List, Mapping, Optional, Tuple, Type
+from typing import Iterable, List, Mapping, Optional, Tuple, Type
 
 from .biogrid import BioGRIDGetter
 from .obo import ChebiGetter, DoidGetter, GoGetter, PrGetter, XaoGetter
@@ -63,7 +63,11 @@ def get_rows() -> List[Tuple[str, str, Optional[str]]]:
     return list(_iter_rows())
 
 
-def _iter_rows():
+def _iter_versions() -> Iterable[Bioversion]:
     for name in getter_dict:
-        bv = resolve(name)
+        yield resolve(name)
+
+
+def _iter_rows() -> Iterable[Tuple[str, str, Optional[str]]]:
+    for bv in _iter_versions():
         yield bv.name, bv.version, bv.homepage

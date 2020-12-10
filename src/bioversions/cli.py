@@ -7,11 +7,15 @@ from click_default_group import DefaultGroup
 from more_click import make_web_command, verbose_option
 from tabulate import tabulate
 
+from .update import update
+
 
 @click.group(cls=DefaultGroup, default='web', default_if_no_args=True)
 def main():  # noqa:D401
     """The bioversions CLI."""
 
+
+main.add_command(update)
 
 web = make_web_command(
     app='bioversions.wsgi:app',

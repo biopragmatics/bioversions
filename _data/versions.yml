@@ -1,0 +1,28 @@
+- !!python/object:bioversions.utils.Bioversion
+  homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.192
+  name: BioGRID
+  version: 4.2.192
+- !!python/object:bioversions.utils.Bioversion
+  homepage: null
+  name: Reactome
+  version: '75'
+- !!python/object:bioversions.utils.Bioversion
+  homepage: null
+  name: ChEBI
+  version: '194'
+- !!python/object:bioversions.utils.Bioversion
+  homepage: null
+  name: Protein Ontology
+  version: '61.0'
+- !!python/object:bioversions.utils.Bioversion
+  homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-02
+  name: Disease Ontology
+  version: '2020-12-02'
+- !!python/object:bioversions.utils.Bioversion
+  homepage: null
+  name: Gene Ontology
+  version: '2020-11-18'
+- !!python/object:bioversions.utils.Bioversion
+  homepage: null
+  name: Xenopus Anatomy Ontology
+  version: '2020-06-26'
