@@ -1,14 +1,11 @@
 ---
 layout: home
 ---
-# Biological Database Versions
-
 <table>
 <thead>
 <tr>
     <th>Name</th>
     <th>Version</th>
-    <th class="text-center">JSON</th>
 </tr>
 </thead>
 <tbody>

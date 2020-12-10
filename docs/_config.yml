@@ -4,9 +4,7 @@ email: cthoyt@gmail.com
 description: >
   What's the current version for each biological database?
 
-url: "https://cthoyt.com/bioversions"
-
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
