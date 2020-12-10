@@ -11,7 +11,8 @@ layout: home
     <th class="text-center">JSON</th>
 </tr>
 </thead>
-<tbody>{% for entry in site.data.versions %}
+<tbody>
+{% for entry in site.data.versions %}
     <tr>
         <td>{{ entry.name }}</td>
         <td>

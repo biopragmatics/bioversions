@@ -19,9 +19,9 @@ PATH = os.path.join(DATA, 'versions.yml')
 @click.command()
 def update():
     """Update the data file."""
-    from .sources import _iter_versions
+    from bioversions.sources import _iter_versions
     with open(PATH, 'w') as file:
-        yaml.dump(list(_iter_versions()), file)
+        yaml.dump([x.to_dict() for x in _iter_versions()], file)
 
 
 if __name__ == '__main__':
