@@ -17,6 +17,10 @@ DATA = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'docs', '_data')
 PATH = os.path.join(DATA, 'versions.yml')
 
 
+def _get_clean_dict(d):
+    return {k: v for k, v in d.to_dict().items() if k and v}
+
+
 @click.command()
 def update():
     """Update the data file."""
@@ -27,7 +31,7 @@ def update():
             [
                 {
                     'updated': today,
-                    **x.to_dict(),
+                    **_get_clean_dict(x),
                 }
                 for x in _iter_versions()
             ],
