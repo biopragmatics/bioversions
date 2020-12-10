@@ -1,5 +1,6 @@
 graft src
 graft tests
+graft docs
 
 global-exclude *.py[cod] __pycache__ *.so *.dylib .DS_Store *.gpickle
 
