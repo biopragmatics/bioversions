@@ -47,3 +47,8 @@ The source code can be found at [https://github.com/cthoyt/bioversions](https://
 
 More databases can be added by sending a pull request to [cthoyt/bioversions](https://github.com/cthoyt/bioversions)
 by following the [contribution guidelines](https://github.com/cthoyt/bioversions#-contributing).
+
+## Database Updates
+
+The database is automatically updated daily thanks to scheduled workflows in GitHub Actions.
+The workflow's configuration can be found [here](https://github.com/cthoyt/bioversions/blob/main/.github/workflows/update.yml).
