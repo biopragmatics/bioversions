@@ -53,3 +53,5 @@ by following the [contribution guidelines](https://github.com/cthoyt/bioversions
 The database is automatically updated daily thanks to scheduled workflows in GitHub Actions.
 The workflow's configuration can be found [here](https://github.com/cthoyt/bioversions/blob/main/.github/workflows/update.yml)
 and the last run can be seen [here](https://github.com/cthoyt/bioversions/actions?query=workflow%3A%22Update+Database%22).
+Further, a [changelog](https://github.com/cthoyt/bioversions/commits?author=actions-user) can be recapitulated from
+the commits of the GitHub Actions bot.
