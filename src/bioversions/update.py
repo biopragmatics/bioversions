@@ -26,17 +26,17 @@ def update():
     """Update the data file."""
     from bioversions.sources import _iter_versions
     today = datetime.now().strftime('%Y-%m-%d')
+
+    rv = []
+    for bv in _iter_versions():
+        click.echo(str(bv))
+        rv.append({
+            'updated': today,
+            **_get_clean_dict(bv),
+        })
+
     with open(PATH, 'w') as file:
-        yaml.dump(
-            [
-                {
-                    'updated': today,
-                    **_get_clean_dict(x),
-                }
-                for x in _iter_versions()
-            ],
-            file,
-        )
+        yaml.dump(rv, file)
 
 
 if __name__ == '__main__':
