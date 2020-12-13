@@ -4,7 +4,7 @@
 
 from dataclasses import dataclass
 from datetime import timedelta
-from typing import Any, ClassVar, Mapping, Optional
+from typing import Any, ClassVar, Mapping, Optional, Union
 
 import pystow
 import requests
@@ -39,10 +39,29 @@ refresh_daily = cachier(
 class MetaGetter(type):
     """A metatype to expose two class properties."""
 
+    _cache = None
+
+    @property
+    def _cache_prop(cls):
+        if cls._cache is None:
+            cls._cache = cls().get()
+        return cls._cache
+
     @property
     def version(cls) -> str:
         """Get the version of the getter based on the inheriting class's implementation."""
-        return cls().get()
+        if isinstance(cls._cache_prop, str):
+            return cls._cache_prop
+        elif isinstance(cls._cache_prop, dict):
+            return cls._cache_prop['version']
+        else:
+            raise TypeError
+
+    @property
+    def date(cls) -> Optional[str]:
+        """Get the date if it's set."""
+        if isinstance(cls._cache_prop, dict):
+            return cls._cache_prop['date']
 
     @property
     def homepage(cls) -> Optional[str]:
@@ -60,6 +79,8 @@ class Bioversion:
     name: str
     #: The database current version
     version: str
+    #: The date of the current release
+    date: Optional[str]
     #: The URL for the homepage of the specific version of the database
     homepage: Optional[str]
 
@@ -74,16 +95,20 @@ class Getter(metaclass=MetaGetter):
 
     # The following two are automatically calculated based on the metaclass
     version: ClassVar[str]
+    date: ClassVar[str]
     homepage: ClassVar[str]
 
-    def get(self) -> str:
+    def get(self) -> Union[str, Mapping[str, str]]:
         """Get the latest of this database."""
         raise NotImplementedError
 
     @classmethod
     def print(cls, sep: str = '\t', file=None):
         """Print the latest version of this database."""
-        print(cls.name, cls.version, sep=sep, file=file)
+        if cls.date:
+            print(cls.name, cls.version, f'({cls.date})', sep=sep, file=file)
+        else:
+            print(cls.name, cls.version, sep=sep, file=file)
 
     @classmethod
     def resolve(cls) -> Bioversion:
@@ -92,6 +117,7 @@ class Getter(metaclass=MetaGetter):
             name=cls.name,
             version=cls.version,
             homepage=cls.homepage,
+            date=cls.date,
         )
 
     @classmethod

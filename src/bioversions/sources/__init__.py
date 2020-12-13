@@ -2,11 +2,20 @@
 
 """Sources for Bioversions."""
 
+from operator import attrgetter
 from typing import Iterable, List, Mapping, Optional, Tuple, Type
 
 from .biogrid import BioGRIDGetter
-from .obo import ChebiGetter, DoidGetter, GoGetter, PrGetter, XaoGetter
+from .drugbank import DrugBankGetter
+from .drugcentral import DrugCentralGetter
+from .mirbase import MirbaseGetter
+from .msigdb import MSigDBGetter
+from .obo import (
+    ChebiGetter, ClGetter, DoidGetter, GoGetter, PatoGetter, PoGetter, PrGetter, XaoGetter,
+    ZfaGetter,
+)
 from .reactome import ReactomeGetter
+from .wikipathways import WikiPathwaysGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
 
 __all__ = [
@@ -20,13 +29,23 @@ __all__ = [
 # TODO replace with entrypoint lookup
 getters = [
     BioGRIDGetter,
+    DrugBankGetter,
+    DrugCentralGetter,
     ReactomeGetter,
     ChebiGetter,
     PrGetter,
     DoidGetter,
     GoGetter,
     XaoGetter,
+    WikiPathwaysGetter,
+    MirbaseGetter,
+    MSigDBGetter,
+    PatoGetter,
+    PoGetter,
+    ClGetter,
+    ZfaGetter,
 ]
+getters = sorted(getters, key=attrgetter('__name__'))
 
 getter_dict: Mapping[str, Type[Getter]] = {
     norm(getter.name): getter

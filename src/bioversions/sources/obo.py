@@ -6,10 +6,14 @@ from ..utils import OboGetter
 
 __all__ = [
     'ChebiGetter',
+    'ClGetter',
     'GoGetter',
     'DoidGetter',
+    'PatoGetter',
+    'PoGetter',
     'PrGetter',
     'XaoGetter',
+    'ZfaGetter',
 ]
 
 
@@ -18,6 +22,14 @@ class ChebiGetter(OboGetter):
 
     name = 'ChEBI'
     key = 'chebi'
+
+
+class ClGetter(OboGetter):
+    """A getter for the Cell Ontology (cl)."""
+
+    name = 'Cell Ontology'
+    key = 'cl'
+    strip_version_prefix = True
 
 
 class GoGetter(OboGetter):
@@ -38,6 +50,23 @@ class DoidGetter(OboGetter):
     strip_file_suffix = True
 
 
+class PatoGetter(OboGetter):
+    """A getter for the Phenotype and Trait Ontology (PATO)."""
+
+    name = 'Phenotype And Trait Ontology '
+    key = 'pato'
+    strip_version_prefix = True
+    strip_file_suffix = True
+
+
+class PoGetter(OboGetter):
+    """A getter for the Plant Ontology (PO)."""
+
+    name = 'Plant Ontology'
+    key = 'po'
+    strip_version_prefix = True
+
+
 class PrGetter(OboGetter):
     """A getter for the Protein Ontology (PR)."""
 
@@ -50,6 +79,14 @@ class XaoGetter(OboGetter):
 
     name = 'Xenopus Anatomy Ontology'
     key = 'xao'
+    strip_version_prefix = True
+
+
+class ZfaGetter(OboGetter):
+    """A getter for the Zebrafish anatomy and development ontology (ZFA)."""
+
+    name = 'Zebrafish anatomy and development ontology'
+    key = 'zfa'
     strip_version_prefix = True
 
 
