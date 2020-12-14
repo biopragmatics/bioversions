@@ -16,6 +16,7 @@ class WikiPathwaysGetter(Getter):
 
     name = 'WikiPathways'
     homepage_fmt = 'http://data.wikipathways.org/{version}/'
+    date_version_fmt = '%Y%m%d'
 
     def get(self):
         """Get the latest WikiPathways version number."""

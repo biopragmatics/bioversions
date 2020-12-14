@@ -15,6 +15,7 @@ class DrugCentralGetter(Getter):
     """A getter for DrugCentral."""
 
     name = 'DrugCentral'
+    date_version_fmt = '%-m/-%d/%Y'
 
     def get(self) -> str:
         """Get the latest DrugCentral version number."""

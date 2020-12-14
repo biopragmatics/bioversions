@@ -2,8 +2,8 @@
 
 """Utilities and implementation for bioversions."""
 
+import datetime
 from dataclasses import dataclass
-from datetime import timedelta
 from typing import Any, ClassVar, Mapping, Optional, Union
 
 import pystow
@@ -30,7 +30,7 @@ def get_soup(url: str) -> BeautifulSoup:
 #: A decorator for functions whose return values
 #: should be cached and refreshed once per day
 refresh_daily = cachier(
-    stale_after=timedelta(days=1),
+    stale_after=datetime.timedelta(days=1),
     backend='memory',
     cache_dir=BIOVERSIONS_HOME,
 )
@@ -64,6 +64,12 @@ class MetaGetter(type):
             return cls._cache_prop['date']
 
     @property
+    def version_date_parsed(cls) -> Optional[datetime.date]:
+        """Get the date as a parsed class there's a format string."""
+        if cls.date_version_fmt:
+            return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
+
+    @property
     def homepage(cls) -> Optional[str]:
         """Get the homepage's URL if a format string was specified."""
         if cls.homepage_fmt:
@@ -92,6 +98,7 @@ class Getter(metaclass=MetaGetter):
     name: ClassVar[str]
     #: The URL with `{version}` to format in the version. Specify this in the inheriting class.
     homepage_fmt: ClassVar[Optional[str]] = None
+    date_version_fmt: ClassVar[Optional[str]] = None
 
     # The following two are automatically calculated based on the metaclass
     version: ClassVar[str]

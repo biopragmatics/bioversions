@@ -2,9 +2,10 @@
 
 """Tests for bioversions."""
 
+import datetime
 import unittest
 
-from bioversions.sources.biogrid import BioGRIDGetter
+from bioversions.sources import BioGRIDGetter, DoidGetter, WikiPathwaysGetter
 
 
 class TestGetter(unittest.TestCase):
@@ -14,3 +15,13 @@ class TestGetter(unittest.TestCase):
         """Test the BioGRID getter."""
         s = BioGRIDGetter.version
         self.assertIsInstance(s, str)
+
+    def test_date(self):
+        """Test getters that have versions as dates."""
+        for getter in [DoidGetter, WikiPathwaysGetter]:
+            with self.subTest(getter=getter.name):
+                s = getter.version
+                self.assertIsInstance(s, str)
+
+                d = getter.version_date_parsed
+                self.assertIsInstance(d, datetime.date)

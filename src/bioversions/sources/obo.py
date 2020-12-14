@@ -30,6 +30,7 @@ class ClGetter(OboGetter):
     name = 'Cell Ontology'
     key = 'cl'
     strip_version_prefix = True
+    date_version_fmt = '%Y-%m-%d'
 
 
 class GoGetter(OboGetter):
@@ -38,6 +39,7 @@ class GoGetter(OboGetter):
     name = 'Gene Ontology'
     key = 'go'
     strip_version_prefix = True
+    date_version_fmt = '%Y-%m-%d'
 
 
 class DoidGetter(OboGetter):
@@ -48,6 +50,7 @@ class DoidGetter(OboGetter):
     key = 'doid'
     strip_version_prefix = True
     strip_file_suffix = True
+    date_version_fmt = '%Y-%m-%d'
 
 
 class PatoGetter(OboGetter):
@@ -57,6 +60,7 @@ class PatoGetter(OboGetter):
     key = 'pato'
     strip_version_prefix = True
     strip_file_suffix = True
+    date_version_fmt = '%Y-%m-%d'
 
 
 class PoGetter(OboGetter):
@@ -65,6 +69,7 @@ class PoGetter(OboGetter):
     name = 'Plant Ontology'
     key = 'po'
     strip_version_prefix = True
+    date_version_fmt = '%Y-%m-%d'
 
 
 class PrGetter(OboGetter):
@@ -80,6 +85,7 @@ class XaoGetter(OboGetter):
     name = 'Xenopus Anatomy Ontology'
     key = 'xao'
     strip_version_prefix = True
+    date_version_fmt = '%Y-%m-%d'
 
 
 class ZfaGetter(OboGetter):
@@ -88,6 +94,7 @@ class ZfaGetter(OboGetter):
     name = 'Zebrafish anatomy and development ontology'
     key = 'zfa'
     strip_version_prefix = True
+    date_version_fmt = '%Y-%m-%d'
 
 
 if __name__ == '__main__':
