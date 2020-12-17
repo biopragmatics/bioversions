@@ -1,54 +1,54 @@
 - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.192
   name: BioGRID
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: 4.2.192
 - name: ChEBI
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '194'
 - name: Cell Ontology
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '2020-11-11'
 - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-02
   name: Disease Ontology
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '2020-12-02'
 - date: '2020-07-02'
   name: DrugBank
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: 5.1.7
 - name: DrugCentral
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: 9/18/2020
 - name: Gene Ontology
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '2020-12-08'
 - date: September 2020
   name: MSigDB
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '7.2'
 - homepage: ftp://mirbase.org/pub/mirbase/22.1/
   name: miRBase
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '22.1'
 - name: 'Phenotype And Trait Ontology '
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '2020-08-02'
 - name: Plant Ontology
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '2020-08-20'
 - name: Protein Ontology
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '62.0'
 - name: Reactome
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '75'
 - homepage: http://data.wikipathways.org/20201210/
   name: WikiPathways
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '20201210'
 - name: Xenopus Anatomy Ontology
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '2020-06-26'
 - name: Zebrafish anatomy and development ontology
-  retrieved: '2020-12-16'
+  retrieved: '2020-12-17'
   version: '2020-04-14'
