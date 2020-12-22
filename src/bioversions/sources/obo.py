@@ -56,7 +56,7 @@ class DoidGetter(OboGetter):
 class PatoGetter(OboGetter):
     """A getter for the Phenotype and Trait Ontology (PATO)."""
 
-    name = 'Phenotype And Trait Ontology '
+    name = 'Phenotype And Trait Ontology'
     key = 'pato'
     strip_version_prefix = True
     strip_file_suffix = True

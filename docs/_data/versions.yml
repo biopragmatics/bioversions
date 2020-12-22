@@ -39,7 +39,7 @@
   - date: September 2020
     retrieved: '2020-12-22'
     version: '7.2'
-- name: 'Phenotype And Trait Ontology '
+- name: Phenotype And Trait Ontology
   releases:
   - retrieved: '2020-12-22'
     version: '2020-08-02'
