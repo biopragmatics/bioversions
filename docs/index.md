@@ -1,6 +1,10 @@
 ---
 layout: home
 ---
+<p align="center">
+  <img src="docs/source/logo.png" height="150">
+</p>
+
 This site and accompanying package are a resource for informing you what
 the latest version of each biological database is.
 

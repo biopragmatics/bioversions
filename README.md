@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/source/logo.png" height="150">
+</p>
+
 <h1 align="center">
     Bioversions
 </h1>
