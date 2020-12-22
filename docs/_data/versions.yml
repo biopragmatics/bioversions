@@ -11,6 +11,12 @@
   releases:
   - retrieved: '2020-12-11'
     version: '194'
+- name: ChEBML
+  releases:
+  - date: 18/05/2020
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
+    retrieved: '2020-12-22'
+    version: '27'
 - name: Disease Ontology
   releases:
   - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-02

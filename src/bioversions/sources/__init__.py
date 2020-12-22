@@ -6,6 +6,7 @@ from operator import attrgetter
 from typing import Iterable, List, Mapping, Optional, Tuple, Type
 
 from .biogrid import BioGRIDGetter
+from .chembl import ChEBMLGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .mirbase import MirbaseGetter
@@ -29,6 +30,7 @@ __all__ = [
 # TODO replace with entrypoint lookup
 getters = [
     BioGRIDGetter,
+    ChEBMLGetter,
     DrugBankGetter,
     DrugCentralGetter,
     ReactomeGetter,
