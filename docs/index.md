@@ -14,12 +14,13 @@ the latest version of each biological database is.
 </thead>
 <tbody>
 {% for entry in site.data.versions %}
+    {% assign latest = entry.releases | last %}
     <tr>
         <td>{{ entry.name }}</td>
         <td>
-            {% if entry.homepage %}<a href="{{ entry.homepage }}">{{ entry.version }} </a>{% else %}{{ entry.version }}{% endif %}
+            {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
         </td>
-        <td>{{ entry.retrieved }}</td>
+        <td>{{ latest.retrieved }}</td>
     </tr>
 {% endfor %}
 </tbody>
