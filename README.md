@@ -1,17 +1,21 @@
-# Bioversions
+<h1 align="center">
+    Bioversions
+</h1>
 
-<a href="https://pypi.org/project/bioversions">
-    <img alt="PyPI" src="https://img.shields.io/pypi/v/bioversions" />
-</a>
-<a href="https://pypi.org/project/bioversions">
-    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/bioversions" />
-</a>
-<a href="https://github.com/cthoyt/bioversions/blob/main/LICENSE">
-    <img alt="PyPI - License" src="https://img.shields.io/pypi/l/bioversions" />
-</a>
-<a href="https://zenodo.org/badge/latestdoi/318852276">
-    <img src="https://zenodo.org/badge/318852276.svg" alt="DOI" />
-</a>
+<p align="center">
+    <a href="https://pypi.org/project/bioversions">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/bioversions" />
+    </a>
+    <a href="https://pypi.org/project/bioversions">
+        <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/bioversions" />
+    </a>
+    <a href="https://github.com/cthoyt/bioversions/blob/main/LICENSE">
+        <img alt="PyPI - License" src="https://img.shields.io/pypi/l/bioversions" />
+    </a>
+    <a href="https://zenodo.org/badge/latestdoi/318852276">
+        <img src="https://zenodo.org/badge/318852276.svg" alt="DOI" />
+    </a>
+</p>
 
 What's the current version for each biological database?
 
@@ -43,8 +47,8 @@ can be overridden by setting the
 
 ## 🌐 Web Application
 
-While https://cthoyt.github.io/bioversions provides a daily updated static listing of the database,
-you can run a dynamic version with an API from your shell with:
+While https://cthoyt.github.io/bioversions provides a daily updated static listing of the database, you can run a
+dynamic version with an API from your shell with:
 
 ```bash
 $ bioversions web
