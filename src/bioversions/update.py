@@ -45,7 +45,7 @@ def update():
             }
 
         if not v['releases'] or v['releases'][-1]['version'] != bv.version:
-            click.secho(f'Updating {bv.name} to {bv.version}', fg='green', bold=True)
+            _log_update(bv)
             changes = True
             append_dict = {
                 'retrieved': today,
@@ -64,6 +64,28 @@ def update():
         click.secho(f'Writing new {PATH}', fg='green', bold=True)
         with open(PATH, 'w') as file:
             yaml.dump(rv, file)
+
+
+def _log_update(bv) -> None:
+    text = f'{bv.name} was updated to v{bv.version}'
+    if bv.homepage:
+        text += f'. See {bv.homepage}'
+
+    click.secho(text, fg='green', bold=True)
+
+    try:
+        from . import slack_client
+    except ImportError:
+        pass
+    else:
+        slack_client.post(text)
+
+    try:
+        from . import twitter_client
+    except ImportError:
+        pass
+    else:
+        twitter_client.post(text)
 
 
 if __name__ == '__main__':
