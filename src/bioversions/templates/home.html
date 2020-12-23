@@ -1,17 +1,13 @@
-{% extends "bootstrap/base.html" %}
+{% extends "base.html" %}
 
-{% import "bootstrap/wtf.html" as wtf %}
-{% import "bootstrap/fixes.html" as fixes %}
-{% import "bootstrap/utils.html" as util %}
+{% block title %}Bioversions{% endblock %}
 
 {% block content %}
-    <div class="container" style="margin-top: 50px">
-        <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <h2>Biological Database Latest Versions</h2>
-                </div>
-                <div class="panel-body">
+    <div class="container" style="margin-top: 50px; margin-bottom: 50px">
+        <div class="row">
+            <div class="card">
+                <h5 class="card-header text-center">Biological Database Latest Versions</h5>
+                <div class="card-body">
                     <p>
                         This web application lists the latest versions for biological databases.
                         It refreshes once per day.
@@ -30,14 +26,14 @@
                         <tr>
                             <td>{{ name }}</td>
                             <td>
-                                {% if homepage %}<a href="{{ homepage }}">{{ version }} <span class="glyphicon glyphicon-link" aria-hidden="true"></span></a>{% else %}{{ version }}{% endif %}
+                                {% if homepage %}<a href="{{ homepage }}">{{ version }} <i class="fas fa-link"></i></a>{% else %}{{ version }}{% endif %}
                             </td>
-                            <td class="text-center"><a href="{{ url_for('database', name=name) }}"><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a></td>
+                            <td class="text-center"><a href="{{ url_for('database', name=name) }}"><i class="fas fa-download"></i></a></td>
                         </tr>
                     {% endfor %}
                     </tbody>
                 </table>
-                <div class="panel-footer">
+                <div class="card-footer">
                     <p style="text-align: center">
                         Developed with ❤️ in 🇩🇪 by <a href="https://github.com/cthoyt">@cthoyt</a>. Source code
                         available at
