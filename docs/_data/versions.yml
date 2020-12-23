@@ -31,7 +31,8 @@
 - name: DrugBank
   releases:
   - date: '2020-07-02'
-    retrieved: '2020-12-22'
+    homepage: https://go.drugbank.com/releases/5-1-7
+    retrieved: '2020-12-23'
     version: 5.1.7
 - name: DrugCentral
   releases:

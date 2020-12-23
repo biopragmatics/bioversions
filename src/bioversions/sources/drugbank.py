@@ -15,7 +15,7 @@ class DrugBankGetter(Getter):
     """A getter for DrugBank."""
 
     name = 'DrugBank'
-    homepage = 'https://go.drugbank.com/releases/{version}'
+    homepage_fmt = 'https://go.drugbank.com/releases/{version}'
 
     def get(self):
         """Get the latest DrugBank version number."""
@@ -25,6 +25,11 @@ class DrugBankGetter(Getter):
         date = manifest[1].text
         version = manifest[2].text
         return dict(date=date, version=version)
+
+    @staticmethod
+    def homepage_version_transform(version: str) -> str:
+        """Replace dots with dashes for DrugBank homepage format."""
+        return version.replace('.', '-')
 
 
 if __name__ == '__main__':

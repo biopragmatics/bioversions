@@ -73,7 +73,13 @@ class MetaGetter(type):
     def homepage(cls) -> Optional[str]:
         """Get the homepage's URL if a format string was specified."""
         if cls.homepage_fmt:
-            return cls.homepage_fmt.format(version=cls.version)
+            version = cls.homepage_version_transform(cls.version)
+            return cls.homepage_fmt.format(version=version)
+
+    @staticmethod
+    def homepage_version_transform(version: str) -> str:
+        """Transform the version for formatting into the homepage."""
+        return version
 
 
 @dataclass_json
@@ -112,10 +118,12 @@ class Getter(metaclass=MetaGetter):
     @classmethod
     def print(cls, sep: str = '\t', file=None):
         """Print the latest version of this database."""
+        x = [cls.name, cls.version]
         if cls.date:
-            print(cls.name, cls.version, f'({cls.date})', sep=sep, file=file)
-        else:
-            print(cls.name, cls.version, sep=sep, file=file)
+            x.append(f'({cls.date})')
+        if cls.homepage:
+            x.append(cls.homepage)
+        print(*x, sep=sep, file=file)
 
     @classmethod
     def resolve(cls) -> Bioversion:
