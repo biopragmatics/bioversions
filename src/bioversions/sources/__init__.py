@@ -12,8 +12,7 @@ from .drugcentral import DrugCentralGetter
 from .mirbase import MirbaseGetter
 from .msigdb import MSigDBGetter
 from .obo import (
-    ChebiGetter, ClGetter, DoidGetter, GoGetter, PatoGetter, PoGetter, PrGetter, XaoGetter,
-    ZfaGetter,
+    ChebiGetter, ClGetter, DoidGetter, GoGetter, HpGetter, PatoGetter, PoGetter, PrGetter, XaoGetter, ZfaGetter,
 )
 from .reactome import ReactomeGetter
 from .wikipathways import WikiPathwaysGetter
@@ -33,6 +32,7 @@ getters = [
     ChEBMLGetter,
     DrugBankGetter,
     DrugCentralGetter,
+    HpGetter,
     ReactomeGetter,
     ChebiGetter,
     PrGetter,

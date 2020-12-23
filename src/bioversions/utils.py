@@ -148,6 +148,7 @@ class OboGetter(Getter):
     """An implementation for getting OBO versions."""
 
     key: ClassVar[str]
+    strip_key_prefix: ClassVar[bool] = False
     strip_version_prefix: ClassVar[bool] = False
     strip_file_suffix: ClassVar[bool] = False
 
@@ -158,6 +159,8 @@ class OboGetter(Getter):
 
     def process(self, version: str) -> str:
         """Post-process the version string."""
+        if self.strip_key_prefix:
+            version = version[len(f'{self.key}/'):]
         if self.strip_version_prefix:
             version = version[len('releases/'):]
         if self.strip_file_suffix:

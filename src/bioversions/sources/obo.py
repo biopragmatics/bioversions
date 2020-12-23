@@ -9,6 +9,7 @@ __all__ = [
     'ClGetter',
     'GoGetter',
     'DoidGetter',
+    'HpGetter',
     'PatoGetter',
     'PoGetter',
     'PrGetter',
@@ -50,6 +51,16 @@ class DoidGetter(OboGetter):
     key = 'doid'
     strip_version_prefix = True
     strip_file_suffix = True
+    date_version_fmt = '%Y-%m-%d'
+
+
+class HpGetter(OboGetter):
+    """A getter for the Human Phenotype Ontology (HP)."""
+
+    name = 'Human Phenotype Ontology'
+    key = 'hp'
+    strip_key_prefix = True
+    strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
 
 
