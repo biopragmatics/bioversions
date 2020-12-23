@@ -2,7 +2,6 @@
 
 """Update the web page."""
 
-import operator
 import os
 from datetime import datetime
 
@@ -60,7 +59,7 @@ def update():
     if not changes:
         click.secho(f'No changes to {PATH}', fg='yellow', bold=True)
     else:
-        rv = sorted(versions.values(), key=operator.itemgetter('name'))
+        rv = sorted(versions.values(), key=lambda version: version['name'].lower())
         click.secho(f'Writing new {PATH}', fg='green', bold=True)
         with open(PATH, 'w') as file:
             yaml.dump(rv, file)
