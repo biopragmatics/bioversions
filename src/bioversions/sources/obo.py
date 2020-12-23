@@ -23,6 +23,7 @@ class ChebiGetter(OboGetter):
 
     name = 'ChEBI'
     key = 'chebi'
+    homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel{version}/'
 
 
 class ClGetter(OboGetter):
@@ -41,6 +42,7 @@ class GoGetter(OboGetter):
     key = 'go'
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
+    homepage_fmt = 'http://archive.geneontology.org/full/{version}/'
 
 
 class DoidGetter(OboGetter):
@@ -88,6 +90,7 @@ class PrGetter(OboGetter):
 
     name = 'Protein Ontology'
     key = 'pr'
+    homepage_fmt = 'https://proconsortium.org/download/release_{version}/'
 
 
 class XaoGetter(OboGetter):
