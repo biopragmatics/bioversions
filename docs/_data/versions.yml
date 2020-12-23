@@ -25,6 +25,9 @@
   - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-21
     retrieved: '2020-12-22'
     version: '2020-12-21'
+  - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-22
+    retrieved: '2020-12-23'
+    version: '2020-12-22'
 - name: DrugBank
   releases:
   - date: '2020-07-02'
@@ -40,6 +43,10 @@
     version: '2020-11-18'
   - retrieved: '2020-12-22'
     version: '2020-12-08'
+- name: Human Phenotype Ontology
+  releases:
+  - retrieved: '2020-12-23'
+    version: '2020-12-07'
 - name: MSigDB
   releases:
   - date: September 2020
