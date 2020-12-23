@@ -22,7 +22,8 @@ def _get_clean_dict(d):
 
 
 @click.command()
-def update():
+@click.option('--force', is_flag=True)
+def update(force: bool):
     """Update the data file."""
     with open(PATH) as file:
         versions = {
@@ -56,7 +57,7 @@ def update():
                 append_dict['date'] = bv.date
             v['releases'].append(append_dict)
 
-    if not changes:
+    if not changes and not force:
         click.secho(f'No changes to {PATH}', fg='yellow', bold=True)
     else:
         rv = sorted(versions.values(), key=lambda version: version['name'].lower())

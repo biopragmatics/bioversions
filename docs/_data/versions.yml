@@ -47,6 +47,11 @@
   releases:
   - retrieved: '2020-12-23'
     version: '2020-12-07'
+- name: miRBase
+  releases:
+  - homepage: ftp://mirbase.org/pub/mirbase/22.1/
+    retrieved: '2020-12-22'
+    version: '22.1'
 - name: MSigDB
   releases:
   - date: September 2020
@@ -83,8 +88,3 @@
   releases:
   - retrieved: '2020-12-22'
     version: '2020-04-14'
-- name: miRBase
-  releases:
-  - homepage: ftp://mirbase.org/pub/mirbase/22.1/
-    retrieved: '2020-12-22'
-    version: '22.1'
