@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""A getter for WikiPathways."""
+"""A getter for miRBase."""
 
 import ftplib
 
@@ -20,7 +20,7 @@ class MirbaseGetter(Getter):
     homepage_fmt = 'ftp://mirbase.org/pub/mirbase/{version}/'
 
     def get(self):
-        """Get the latest Mirbase version number."""
+        """Get the latest miRBase version number."""
         with ftplib.FTP('mirbase.org') as ftp:
             ftp.login()
             ftp.cwd('pub/mirbase/CURRENT')

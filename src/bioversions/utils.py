@@ -3,6 +3,7 @@
 """Utilities and implementation for bioversions."""
 
 import datetime
+import ftplib
 from dataclasses import dataclass
 from typing import Any, ClassVar, Mapping, Optional, Union
 
@@ -174,3 +175,42 @@ class OboGetter(Getter):
         if self.strip_file_suffix:
             version = version[:-(len(self.key) + 5)]
         return version
+
+
+def _get_ftp_version(host: str, directory: str) -> str:
+    with ftplib.FTP(host) as ftp:
+        ftp.login()
+        ftp.cwd(directory)
+        names = sorted([
+            tuple(int(part) for part in name.split('.'))
+            for name in ftp.nlst()
+            if _is_version(name)
+        ])
+    return '.'.join(map(str, names[-1]))
+
+
+def _get_ftp_date_version(host: str, directory: str) -> str:
+    with ftplib.FTP(host) as ftp:
+        ftp.login()
+        ftp.cwd(directory)
+        names = sorted([
+            name
+            for name in ftp.nlst()
+            if _is_iso_8601(name)
+        ])
+    return names[-1]
+
+
+def _is_iso_8601(s: str) -> bool:
+    s = s.split('-')
+    return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()
+
+
+def _is_version(s: str) -> bool:
+    s = s.split('.')
+    return len(s) == 2 and s[0].isnumeric() and s[1].isnumeric()
+
+
+def _is_semantic_version(s: str) -> bool:
+    s = s.split('.')
+    return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()
