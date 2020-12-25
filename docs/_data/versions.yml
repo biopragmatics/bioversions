@@ -17,6 +17,11 @@
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
     retrieved: '2020-12-22'
     version: '27'
+- name: Complex Portal
+  releases:
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2020-12-16/
+    retrieved: '2020-12-25'
+    version: '2020-12-16'
 - name: Disease Ontology
   releases:
   - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-02
@@ -48,6 +53,16 @@
   releases:
   - retrieved: '2020-12-23'
     version: '2020-12-07'
+- name: IntAct
+  releases:
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2020-12-16/
+    retrieved: '2020-12-25'
+    version: '2020-12-16'
+- name: InterPro
+  releases:
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/83.0/
+    retrieved: '2020-12-25'
+    version: '83.0'
 - name: miRBase
   releases:
   - homepage: ftp://mirbase.org/pub/mirbase/22.1/
@@ -58,6 +73,11 @@
   - date: September 2020
     retrieved: '2020-12-22'
     version: '7.2'
+- name: Pfam
+  releases:
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam34.0/
+    retrieved: '2020-12-25'
+    version: '34.0'
 - name: Phenotype And Trait Ontology
   releases:
   - retrieved: '2020-12-22'
@@ -76,6 +96,11 @@
   releases:
   - retrieved: '2020-12-11'
     version: '75'
+- name: Rfam
+  releases:
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.4/
+    retrieved: '2020-12-25'
+    version: '14.4'
 - name: WikiPathways
   releases:
   - homepage: http://data.wikipathways.org/20201210/
