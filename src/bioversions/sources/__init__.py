@@ -9,6 +9,7 @@ from .chembl import ChEBMLGetter
 from .complexportal import ComplexPortalGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
+from .expasy import ExPASyGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
 from .mirbase import MirbaseGetter
@@ -37,6 +38,7 @@ getters = [
     ComplexPortalGetter,
     DrugBankGetter,
     DrugCentralGetter,
+    ExPASyGetter,
     HpGetter,
     IntActGetter,
     InterProGetter,
