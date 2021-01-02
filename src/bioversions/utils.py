@@ -9,11 +9,14 @@ from typing import Any, ClassVar, Mapping, Optional, Union
 
 import pystow
 import requests
+import requests_ftp
 from bs4 import BeautifulSoup
 from cachier import cachier
 from dataclasses_json import dataclass_json
 
 BIOVERSIONS_HOME = pystow.get('bioversions')
+
+requests_ftp.monkeypatch_session()
 
 
 def norm(s: str) -> str:

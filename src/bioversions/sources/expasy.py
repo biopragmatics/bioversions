@@ -3,7 +3,6 @@
 """A getter for ExPASy."""
 
 import requests
-import requests_ftp
 
 from bioversions.utils import Getter
 
@@ -11,7 +10,6 @@ __all__ = [
     'ExPASyGetter',
 ]
 
-requests_ftp.monkeypatch_session()
 URL = 'ftp://ftp.expasy.org/databases/enzyme/enzuser.txt'
 
 

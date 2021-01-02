@@ -5,15 +5,12 @@
 from xml.etree import ElementTree  # noqa:S405
 
 import requests
-import requests_ftp
 
 from bioversions.utils import Getter
 
 __all__ = [
     'UniProtGetter',
 ]
-
-requests_ftp.monkeypatch_session()
 
 
 class UniProtGetter(Getter):
