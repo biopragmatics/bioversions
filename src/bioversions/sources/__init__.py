@@ -4,9 +4,11 @@
 
 from typing import Iterable, List, Mapping, Type
 
+from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
 from .chembl import ChEBMLGetter
 from .complexportal import ComplexPortalGetter
+from .daily import NCBIGeneGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .expasy import ExPASyGetter
@@ -15,6 +17,7 @@ from .interpro import InterProGetter
 from .kegg import KEGGGetter
 from .mirbase import MirbaseGetter
 from .msigdb import MSigDBGetter
+from .npass import NPASSGetter
 from .obo import (
     ChebiGetter, ClGetter, DoidGetter, GoGetter, HpGetter, PatoGetter, PoGetter, PrGetter, XaoGetter, ZfaGetter,
 )
@@ -63,6 +66,9 @@ getters = [
     UniProtGetter,
     KEGGGetter,
     PathBankGetter,
+    NCBIGeneGetter,
+    NPASSGetter,
+    BiofacquimGetter,
 ]
 getters = sorted(getters, key=lambda cls: cls.__name__.lower())
 

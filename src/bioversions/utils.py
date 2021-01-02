@@ -32,7 +32,8 @@ class VersionType(enum.Enum):
     month = 'CalVer (YYYY-MM)'
     semver_minor = 'SemVer (X.Y)'
     sequential = 'Sequential (X)'
-    other = 'Other'
+    daily = 'Daily'
+    unversioned = 'Unversioned'
 
 
 def norm(s: str) -> str:
@@ -179,6 +180,29 @@ class Getter(metaclass=MetaGetter):
     def to_dict(cls) -> Mapping[str, Any]:
         """Get a dict with the data for this database."""
         return cls.resolve().to_dict()
+
+
+class DailyGetter(Getter):
+    """A base getter for daily updated resources."""
+
+    version_type = VersionType.daily
+
+    def get(self) -> Union[str, Mapping[str, str]]:
+        """Return a constant "daily" string."""
+        return 'daily'
+
+
+class UnversionedGetter(Getter):
+    """A base getter for unversioned resources."""
+
+    version_type = VersionType.unversioned
+
+    #: Has this database been apparently abandoned (true) or is it still updated (false)
+    abandoned: ClassVar[bool]
+
+    def get(self) -> Union[str, Mapping[str, str]]:
+        """Return a constant unversioned string."""
+        return 'unversioned'
 
 
 def get_obo_version(url: str) -> str:
