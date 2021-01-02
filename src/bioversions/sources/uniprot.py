@@ -6,7 +6,7 @@ from xml.etree import ElementTree  # noqa:S405
 
 import requests
 
-from bioversions.utils import Getter
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     'UniProtGetter',
@@ -19,6 +19,7 @@ class UniProtGetter(Getter):
     name = 'UniProt'
     homepage_fmt = 'ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-{version}/'
     date_version_fmt = '%Y_%m'
+    version_type = VersionType.month
 
     def get(self):
         """Get the latest UniProt version number."""

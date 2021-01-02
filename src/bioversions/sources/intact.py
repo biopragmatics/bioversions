@@ -2,7 +2,7 @@
 
 """A getter for IntAct."""
 
-from bioversions.utils import Getter, _get_ftp_date_version
+from bioversions.utils import Getter, VersionType, _get_ftp_date_version
 
 __all__ = [
     'IntActGetter',
@@ -15,6 +15,7 @@ class IntActGetter(Getter):
     name = 'IntAct'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/intact/{version}/'
     date_version_fmt = '%Y-%m-%d'
+    version_type = VersionType.date
 
     def get(self):
         """Get the latest IntAct version number."""

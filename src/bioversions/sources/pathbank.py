@@ -2,7 +2,7 @@
 
 """A getter for PathBank."""
 
-from bioversions.utils import Getter, get_soup
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     'PathBankGetter',
@@ -15,6 +15,7 @@ class PathBankGetter(Getter):
     """A getter for PathBank."""
 
     name = 'PathBank'
+    version_type = VersionType.semver_minor
 
     def get(self) -> str:
         """Get the latest PathBank version number."""

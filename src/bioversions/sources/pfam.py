@@ -4,7 +4,7 @@
 
 import ftplib
 
-from bioversions.utils import Getter, _is_version
+from bioversions.utils import Getter, VersionType, _is_version
 
 __all__ = [
     'PfamGetter',
@@ -16,6 +16,7 @@ class PfamGetter(Getter):
 
     name = 'Pfam'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam{version}/'
+    version_type = VersionType.semver_minor
 
     def get(self):
         """Get the latest Pfam version number."""

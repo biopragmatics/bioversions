@@ -2,7 +2,7 @@
 
 """A getter for DrugBank."""
 
-from bioversions.utils import Getter, get_soup
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     'DrugBankGetter',
@@ -17,6 +17,7 @@ class DrugBankGetter(Getter):
     name = 'DrugBank'
     homepage_fmt = 'https://go.drugbank.com/releases/{version}'
     date_fmt = '%Y-%m-%d'
+    version_type = VersionType.semver
 
     def get(self):
         """Get the latest DrugBank version number."""

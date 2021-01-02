@@ -2,7 +2,7 @@
 
 """A getter for BioGRID."""
 
-from ..utils import Getter, get_soup
+from ..utils import Getter, VersionType, get_soup
 
 __all__ = [
     'BioGRIDGetter',
@@ -16,6 +16,7 @@ class BioGRIDGetter(Getter):
 
     name = 'BioGRID'
     homepage_fmt = 'https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-{version}'
+    version_type = VersionType.semver
 
     def get(self) -> str:
         """Get the latest BioGRID version number."""

@@ -4,7 +4,7 @@
 
 import ftplib
 
-from bioversions.utils import Getter
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     'MirbaseGetter',
@@ -18,6 +18,7 @@ class MirbaseGetter(Getter):
 
     name = 'miRBase'
     homepage_fmt = 'ftp://mirbase.org/pub/mirbase/{version}/'
+    version_type = VersionType.semver_minor
 
     def get(self):
         """Get the latest miRBase version number."""

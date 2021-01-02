@@ -2,7 +2,7 @@
 
 """A getter for Rfam."""
 
-from bioversions.utils import Getter, _get_ftp_version
+from bioversions.utils import Getter, VersionType, _get_ftp_version
 
 __all__ = [
     'RfamGetter',
@@ -14,6 +14,7 @@ class RfamGetter(Getter):
 
     name = 'Rfam'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/Rfam/{version}/'
+    version_type = VersionType.semver_minor
 
     def get(self):
         """Get the latest Rfam version number."""

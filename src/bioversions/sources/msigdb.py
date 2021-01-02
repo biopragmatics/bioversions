@@ -4,7 +4,7 @@
 
 from typing import Mapping
 
-from bioversions.utils import Getter, get_soup
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     'MSigDBGetter',
@@ -19,6 +19,7 @@ class MSigDBGetter(Getter):
     name = 'MSigDB'
     homepage_fmt = 'https://data.broadinstitute.org/gsea-msigdb/msigdb/release/{version}'
     date_fmt = '%B %Y'
+    version_type = VersionType.month
 
     def get(self) -> Mapping[str, str]:
         """Get the latest MSigDB version number."""

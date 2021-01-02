@@ -5,7 +5,7 @@
 import ftplib
 import io
 
-from bioversions.utils import Getter
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     'ChEBMLGetter',
@@ -21,6 +21,7 @@ class ChEBMLGetter(Getter):
     name = 'ChEBML'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_{version}'
     date_fmt = '%d/%m/%Y'
+    version_type = VersionType.sequential
 
     def get(self):
         """Get the latest ChEBML version number."""

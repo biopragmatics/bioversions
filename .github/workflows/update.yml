@@ -15,8 +15,9 @@ jobs:
           python-version: 3.9
       - name: Create local changes
         run: |
-          pip install -e .[twitter,slack]
+          pip install -e .[twitter,slack,charts]
           bioversions update
+          python -m bioversions.charts
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"

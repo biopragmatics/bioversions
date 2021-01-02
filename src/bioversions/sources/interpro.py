@@ -6,7 +6,7 @@ import re
 
 import requests
 
-from bioversions.utils import Getter, _get_ftp_version
+from bioversions.utils import Getter, VersionType, _get_ftp_version
 
 __all__ = [
     'InterProGetter',
@@ -21,6 +21,7 @@ class InterProGetter(Getter):
     name = 'InterPro'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/interpro/{version}/'
     date_fmt = '%d %B %Y'
+    version_type = VersionType.semver_minor
 
     def get(self):
         """Get the latest InterPro version number."""

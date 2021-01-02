@@ -3,7 +3,9 @@
 """Utilities and implementation for bioversions."""
 
 import datetime
+import enum
 import ftplib
+import os
 from dataclasses import dataclass
 from typing import Any, ClassVar, Mapping, Optional, Union
 
@@ -15,8 +17,22 @@ from cachier import cachier
 from dataclasses_json import dataclass_json
 
 BIOVERSIONS_HOME = pystow.get('bioversions')
+HERE = os.path.abspath(os.path.dirname(__file__))
+DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'docs'))
+IMG = os.path.join(DOCS, 'img')
 
 requests_ftp.monkeypatch_session()
+
+
+class VersionType(enum.Enum):
+    """Different types of versions."""
+
+    semver = 'SemVer (X.Y.Z)'
+    date = 'CalVer (YYYY-MM-DD)'
+    month = 'CalVer (YYYY-MM)'
+    semver_minor = 'SemVer (X.Y)'
+    sequential = 'Sequential (X)'
+    other = 'Other'
 
 
 def norm(s: str) -> str:
@@ -120,9 +136,14 @@ class Getter(metaclass=MetaGetter):
 
     #: The name of the database. Specify this in the inheriting class!.
     name: ClassVar[str]
+    #: The type of version string. Required!
+    version_type: ClassVar[VersionType]
+
     #: The URL with `{version}` to format in the version. Specify this in the inheriting class.
     homepage_fmt: ClassVar[Optional[str]] = None
+
     date_fmt: ClassVar[Optional[str]] = None
+
     date_version_fmt: ClassVar[Optional[str]] = None
 
     # The following two are automatically calculated based on the metaclass

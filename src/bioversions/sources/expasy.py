@@ -4,7 +4,7 @@
 
 import requests
 
-from bioversions.utils import Getter
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     'ExPASyGetter',
@@ -18,6 +18,7 @@ class ExPASyGetter(Getter):
 
     name = 'ExPASy'
     date_version_fmt = '%d-%b-%Y'
+    version_type = VersionType.date
 
     def get(self) -> str:
         """Get the latest ExPASy version number."""

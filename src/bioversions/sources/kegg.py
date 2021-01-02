@@ -4,7 +4,7 @@
 
 from collections import Mapping
 
-from bioversions.utils import Getter, get_soup
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     'KEGGGetter',
@@ -18,6 +18,7 @@ class KEGGGetter(Getter):
 
     name = 'KEGG'
     date_fmt = '%B %d, %Y'
+    version_type = VersionType.semver_minor
 
     def get(self) -> Mapping[str, str]:
         """Get the latest KEGG version number."""

@@ -2,7 +2,7 @@
 
 """A getter for DrugCentral."""
 
-from bioversions.utils import Getter, get_soup
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     'DrugCentralGetter',
@@ -16,6 +16,7 @@ class DrugCentralGetter(Getter):
 
     name = 'DrugCentral'
     date_version_fmt = '%m/%d/%Y'
+    version_type = VersionType.date
 
     def get(self) -> str:
         """Get the latest DrugCentral version number."""

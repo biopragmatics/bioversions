@@ -2,7 +2,7 @@
 
 """Getters for OBO ontologies."""
 
-from ..utils import OboGetter
+from ..utils import OboGetter, VersionType
 
 __all__ = [
     'ChebiGetter',
@@ -23,6 +23,7 @@ class ChebiGetter(OboGetter):
 
     name = 'ChEBI'
     key = 'chebi'
+    version_type = VersionType.sequential
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel{version}/'
 
 
@@ -31,6 +32,7 @@ class ClGetter(OboGetter):
 
     name = 'Cell Ontology'
     key = 'cl'
+    version_type = VersionType.date
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
 
@@ -40,6 +42,7 @@ class GoGetter(OboGetter):
 
     name = 'Gene Ontology'
     key = 'go'
+    version_type = VersionType.date
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
     homepage_fmt = 'http://archive.geneontology.org/full/{version}/'
@@ -51,6 +54,7 @@ class DoidGetter(OboGetter):
     name = 'Disease Ontology'
     homepage_fmt = 'https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/{version}'
     key = 'doid'
+    version_type = VersionType.date
     strip_version_prefix = True
     strip_file_suffix = True
     date_version_fmt = '%Y-%m-%d'
@@ -61,6 +65,7 @@ class HpGetter(OboGetter):
 
     name = 'Human Phenotype Ontology'
     key = 'hp'
+    version_type = VersionType.date
     strip_key_prefix = True
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
@@ -71,6 +76,7 @@ class PatoGetter(OboGetter):
 
     name = 'Phenotype And Trait Ontology'
     key = 'pato'
+    version_type = VersionType.date
     strip_version_prefix = True
     strip_file_suffix = True
     date_version_fmt = '%Y-%m-%d'
@@ -81,6 +87,7 @@ class PoGetter(OboGetter):
 
     name = 'Plant Ontology'
     key = 'po'
+    version_type = VersionType.date
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
 
@@ -90,6 +97,7 @@ class PrGetter(OboGetter):
 
     name = 'Protein Ontology'
     key = 'pr'
+    version_type = VersionType.semver_minor
     homepage_fmt = 'https://proconsortium.org/download/release_{version}/'
 
 
@@ -98,6 +106,7 @@ class XaoGetter(OboGetter):
 
     name = 'Xenopus Anatomy Ontology'
     key = 'xao'
+    version_type = VersionType.date
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
 
@@ -107,6 +116,7 @@ class ZfaGetter(OboGetter):
 
     name = 'Zebrafish anatomy and development ontology'
     key = 'zfa'
+    version_type = VersionType.date
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
 

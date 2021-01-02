@@ -2,7 +2,7 @@
 
 """A getter for WikiPathways."""
 
-from bioversions.utils import Getter, get_soup
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     'WikiPathwaysGetter',
@@ -17,6 +17,7 @@ class WikiPathwaysGetter(Getter):
     name = 'WikiPathways'
     homepage_fmt = 'http://data.wikipathways.org/{version}/'
     date_version_fmt = '%Y%m%d'
+    version_type = VersionType.date
 
     def get(self):
         """Get the latest WikiPathways version number."""

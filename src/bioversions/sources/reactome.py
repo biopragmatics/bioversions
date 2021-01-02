@@ -2,7 +2,7 @@
 
 """A getter for Reactome."""
 
-from ..utils import Getter, get_soup
+from ..utils import Getter, VersionType, get_soup
 
 __all__ = [
     'ReactomeGetter',
@@ -15,6 +15,7 @@ class ReactomeGetter(Getter):
     """A getter for Reactome."""
 
     name = 'Reactome'
+    version_type = VersionType.sequential
 
     def get(self):
         """Get the latest BioGRID version number."""

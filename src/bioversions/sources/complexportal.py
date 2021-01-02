@@ -2,7 +2,7 @@
 
 """A getter for Complex Portal."""
 
-from bioversions.utils import Getter, _get_ftp_date_version
+from bioversions.utils import Getter, VersionType, _get_ftp_date_version
 
 __all__ = [
     'ComplexPortalGetter',
@@ -15,6 +15,7 @@ class ComplexPortalGetter(Getter):
     name = 'Complex Portal'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/{version}/'
     date_version_fmt = '%Y-%m-%d'
+    version_type = VersionType.date
 
     def get(self):
         """Get the latest ComplexPortal version number."""
