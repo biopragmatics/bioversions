@@ -2,7 +2,7 @@
 
 """Sources for Bioversions."""
 
-from typing import Iterable, List, Mapping, Optional, Tuple, Type
+from typing import Iterable, List, Mapping, Type
 
 from .biogrid import BioGRIDGetter
 from .chembl import ChEBMLGetter
@@ -94,16 +94,11 @@ def get_version(name: str) -> str:
     return resolve(name).version
 
 
-def get_rows() -> List[Tuple[str, str, Optional[str]]]:
+def get_rows() -> List[Bioversion]:
     """Get the rows, refreshing once per day."""
-    return list(_iter_rows())
+    return list(_iter_versions())
 
 
 def _iter_versions() -> Iterable[Bioversion]:
     for name in getter_dict:
         yield resolve(name)
-
-
-def _iter_rows() -> Iterable[Tuple[str, str, Optional[str]]]:
-    for bv in _iter_versions():
-        yield bv.name, bv.version, bv.homepage

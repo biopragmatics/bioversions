@@ -59,16 +59,30 @@ class MetaGetter(type):
             raise TypeError
 
     @property
-    def date(cls) -> Optional[str]:
+    def date(cls) -> Optional[datetime.date]:
         """Get the date if it's set."""
+        vp = cls.version_date_parsed
+        if vp:
+            return vp
         if isinstance(cls._cache_prop, dict):
-            return cls._cache_prop['date']
+            date_str = cls._cache_prop['date']
+            if not cls.date_fmt:
+                raise TypeError(f'Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}')
+            try:
+                return datetime.datetime.strptime(date_str, cls.date_fmt).date()
+            except ValueError:
+                raise ValueError(f'Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}')
 
     @property
     def version_date_parsed(cls) -> Optional[datetime.date]:
         """Get the date as a parsed class there's a format string."""
         if cls.date_version_fmt:
-            return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
+            if not cls.date_version_fmt:
+                raise TypeError
+            try:
+                return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
+            except ValueError:
+                raise ValueError(f'Issue in {cls.__name__} with version {cls.version} and fmt {cls.date_version_fmt}')
 
     @property
     def homepage(cls) -> Optional[str]:
@@ -93,7 +107,7 @@ class Bioversion:
     #: The database current version
     version: str
     #: The date of the current release
-    date: Optional[str]
+    date: Optional[datetime.date]
     #: The URL for the homepage of the specific version of the database
     homepage: Optional[str]
 
@@ -105,6 +119,7 @@ class Getter(metaclass=MetaGetter):
     name: ClassVar[str]
     #: The URL with `{version}` to format in the version. Specify this in the inheriting class.
     homepage_fmt: ClassVar[Optional[str]] = None
+    date_fmt: ClassVar[Optional[str]] = None
     date_version_fmt: ClassVar[Optional[str]] = None
 
     # The following two are automatically calculated based on the metaclass

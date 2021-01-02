@@ -18,17 +18,29 @@
                     <tr>
                         <th>Name</th>
                         <th>Version</th>
+                        <th>Date</th>
                         <th class="text-center">JSON</th>
                     </tr>
                     </thead>
                     <tbody>
-                    {% for name, version, homepage in rows %}
+                    {% for row in rows %}
                         <tr>
-                            <td>{{ name }}</td>
+                            <td>{{ row.name }}</td>
                             <td>
-                                {% if homepage %}<a href="{{ homepage }}">{{ version }} <i class="fas fa-link"></i></a>{% else %}{{ version }}{% endif %}
+                                {% if row.homepage %}
+                                    <a href="{{ row.homepage }}">{{ row.version }} <i class="fas fa-link"></i></a>
+                                {% else %}
+                                    {{ row.version }}
+                                {% endif %}
                             </td>
-                            <td class="text-center"><a href="{{ url_for('database', name=name) }}"><i class="fas fa-download"></i></a></td>
+                            <td>
+                                {% if row.date %}{{ row.date }}{% endif %}
+                            </td>
+                            <td class="text-center">
+                                <a href="{{ url_for('database', name=row.name.lower().replace(" ", "")) }}">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                            </td>
                         </tr>
                     {% endfor %}
                     </tbody>

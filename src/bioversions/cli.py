@@ -39,7 +39,10 @@ def get(key: str):
 def ls():
     """List versions."""
     from . import get_rows
-    click.echo(tabulate(get_rows()))
+    click.echo(tabulate(
+        (bv.name, bv.version, bv.date, bv.homepage)
+        for bv in get_rows()
+    ))
 
 
 if __name__ == '__main__':

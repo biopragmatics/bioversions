@@ -17,7 +17,7 @@ def home():
     return flask.render_template('home.html', rows=get_rows())
 
 
-@app.route('/database/<name>')
+@app.route('/database/<name>.json')
 def database(name: str):
     """Resolve information about a given database."""
     rv = dict(query=name)
