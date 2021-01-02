@@ -20,6 +20,7 @@ from .obo import (
 from .pfam import PfamGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
+from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
 
@@ -57,6 +58,7 @@ getters = [
     PfamGetter,
     ClGetter,
     ZfaGetter,
+    UniProtGetter,
 ]
 getters = sorted(getters, key=lambda cls: cls.__name__.lower())
 

@@ -3,6 +3,9 @@
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.192
     retrieved: '2020-12-11'
     version: 4.2.192
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.193
+    retrieved: '2021-01-02'
+    version: 4.2.193
 - name: Cell Ontology
   releases:
   - retrieved: '2020-12-22'
@@ -11,6 +14,9 @@
   releases:
   - retrieved: '2020-12-11'
     version: '194'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel195/
+    retrieved: '2021-01-02'
+    version: '195'
 - name: ChEBML
   releases:
   - date: 18/05/2020
@@ -43,6 +49,10 @@
   releases:
   - retrieved: '2020-12-22'
     version: 9/18/2020
+- name: ExPASy
+  releases:
+  - retrieved: '2021-01-02'
+    version: 02-Dec-2020
 - name: Gene Ontology
   releases:
   - retrieved: '2020-12-11'
@@ -101,6 +111,11 @@
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.4/
     retrieved: '2020-12-25'
     version: '14.4'
+- name: UniProt
+  releases:
+  - homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2020_06/
+    retrieved: '2021-01-02'
+    version: '2020_06'
 - name: WikiPathways
   releases:
   - homepage: http://data.wikipathways.org/20201210/
