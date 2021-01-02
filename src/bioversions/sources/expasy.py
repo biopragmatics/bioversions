@@ -20,10 +20,9 @@ class ExPASyGetter(Getter):
 
     name = 'ExPASy'
 
-    def get() -> str:
+    def get(self) -> str:
         """Get the latest ExPASy version number."""
         s = requests.Session()
-        s.mount()
         res = s.get(URL, stream=True)
         li = res.iter_lines()
         next(li)
