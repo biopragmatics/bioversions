@@ -1,8 +1,7 @@
 ---
-layout: page
-title: Summary
-permalink: /summary/
+layout: page title: Summary permalink: /summary/
 ---
+
 ## Version Types
 
 The majority of databases use calendar versioning - this is highly skewed by the abundance of calendar versioning used
@@ -17,3 +16,11 @@ from using semantic versioning.
 While the ISO-8601 format of `YYYY-MM-DD` is a standard, many databases manage to chose alternative date formats.
 
 <img src="https://raw.githubusercontent.com/cthoyt/bioversions/main/docs/img/version_date_types.png" alt="Date Version Types"/>
+
+## Has Stable URL for Each Release
+
+It's not enough just to assign a version string to each release of data, but also for it to be possible to download a
+given version of the data after it's been released. This chart shows (for versioned data) how many have stable URLs for
+past versions of the data.
+
+<img src="https://raw.githubusercontent.com/cthoyt/bioversions/main/docs/img/has_release_url.png" alt="Has Stable URL"/>
