@@ -1,7 +1,8 @@
 ---
-layout: page title: Charts permalink: /charts/
+layout: page
+title: Summary
+permalink: /summary/
 ---
-
 ## Version Types
 
 The majority of databases use calendar versioning - this is highly skewed by the abundance of calendar versioning used
