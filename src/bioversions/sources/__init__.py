@@ -18,6 +18,7 @@ from .msigdb import MSigDBGetter
 from .obo import (
     ChebiGetter, ClGetter, DoidGetter, GoGetter, HpGetter, PatoGetter, PoGetter, PrGetter, XaoGetter, ZfaGetter,
 )
+from .pathbank import PathBankGetter
 from .pfam import PfamGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
@@ -61,6 +62,7 @@ getters = [
     ZfaGetter,
     UniProtGetter,
     KEGGGetter,
+    PathBankGetter,
 ]
 getters = sorted(getters, key=lambda cls: cls.__name__.lower())
 

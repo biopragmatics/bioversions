@@ -88,6 +88,10 @@
   - date: September 2020
     retrieved: '2020-12-22'
     version: '7.2'
+- name: PathBank
+  releases:
+  - retrieved: '2021-01-02'
+    version: '2.0'
 - name: Pfam
   releases:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam34.0/
