@@ -3,10 +3,12 @@ layout: page
 title: Download
 permalink: /download/
 ---
-## Download
-
 This table can be downloaded as structured YAML from
 [here](https://github.com/cthoyt/bioversions/blob/main/docs/_data/versions.yml).
+
+## License
+
+These data are available under the CC0 1.0 Universal License.
 
 ## Programmatic Access
 
