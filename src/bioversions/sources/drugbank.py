@@ -16,6 +16,7 @@ class DrugBankGetter(Getter):
 
     name = 'DrugBank'
     homepage_fmt = 'https://go.drugbank.com/releases/{version}'
+    date_fmt = '%Y-%m-%d'
 
     def get(self):
         """Get the latest DrugBank version number."""

@@ -18,6 +18,7 @@ class MSigDBGetter(Getter):
 
     name = 'MSigDB'
     homepage_fmt = 'https://data.broadinstitute.org/gsea-msigdb/msigdb/release/{version}'
+    date_fmt = '%B %Y'
 
     def get(self) -> Mapping[str, str]:
         """Get the latest MSigDB version number."""

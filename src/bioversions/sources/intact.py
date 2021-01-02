@@ -14,6 +14,7 @@ class IntActGetter(Getter):
 
     name = 'IntAct'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/intact/{version}/'
+    date_version_fmt = '%Y-%m-%d'
 
     def get(self):
         """Get the latest IntAct version number."""

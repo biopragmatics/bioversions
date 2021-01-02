@@ -14,6 +14,7 @@ class ComplexPortalGetter(Getter):
 
     name = 'Complex Portal'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/{version}/'
+    date_version_fmt = '%Y-%m-%d'
 
     def get(self):
         """Get the latest ComplexPortal version number."""

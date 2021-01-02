@@ -19,6 +19,7 @@ class ExPASyGetter(Getter):
     """A getter for ExPASy."""
 
     name = 'ExPASy'
+    date_version_fmt = '%d-%b-%Y'
 
     def get(self) -> str:
         """Get the latest ExPASy version number."""
