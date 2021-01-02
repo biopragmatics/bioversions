@@ -12,6 +12,7 @@ from .drugcentral import DrugCentralGetter
 from .expasy import ExPASyGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
+from .kegg import KEGGGetter
 from .mirbase import MirbaseGetter
 from .msigdb import MSigDBGetter
 from .obo import (
@@ -59,6 +60,7 @@ getters = [
     ClGetter,
     ZfaGetter,
     UniProtGetter,
+    KEGGGetter,
 ]
 getters = sorted(getters, key=lambda cls: cls.__name__.lower())
 

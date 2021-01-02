@@ -73,6 +73,11 @@
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/83.0/
     retrieved: '2020-12-25'
     version: '83.0'
+- name: KEGG
+  releases:
+  - date: 2021-01-01
+    retrieved: '2021-01-02'
+    version: '97.0'
 - name: miRBase
   releases:
   - homepage: ftp://mirbase.org/pub/mirbase/22.1/
