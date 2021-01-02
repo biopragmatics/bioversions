@@ -2,7 +2,7 @@
 
 """A getter for KEGG."""
 
-from collections import Mapping
+from typing import Mapping
 
 from bioversions.utils import Getter, VersionType, get_soup
 
