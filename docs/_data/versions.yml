@@ -1,3 +1,7 @@
+- name: Biofacquim
+  releases:
+  - retrieved: '2021-01-03'
+    version: '1.0'
 - name: BioGRID
   releases:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.192
@@ -88,6 +92,14 @@
   - date: September 2020
     retrieved: '2020-12-22'
     version: '7.2'
+- name: NCBI Gene
+  releases:
+  - retrieved: '2021-01-03'
+    version: daily
+- name: NPASS
+  releases:
+  - retrieved: '2021-01-03'
+    version: '1.0'
 - name: PathBank
   releases:
   - retrieved: '2021-01-02'
