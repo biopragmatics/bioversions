@@ -49,6 +49,10 @@
     homepage: https://go.drugbank.com/releases/5-1-7
     retrieved: '2020-12-23'
     version: 5.1.7
+  - date: 2021-01-03
+    homepage: https://go.drugbank.com/releases/5-1-8
+    retrieved: '2021-01-04'
+    version: 5.1.8
 - name: DrugCentral
   releases:
   - retrieved: '2020-12-22'
