@@ -6,7 +6,7 @@ from typing import Iterable, List, Mapping, Type
 
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
-from .chembl import ChEBMLGetter
+from .chembl import ChEMBLGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
 from .drugbank import DrugBankGetter
@@ -40,7 +40,7 @@ __all__ = [
 # TODO replace with entrypoint lookup
 getters = [
     BioGRIDGetter,
-    ChEBMLGetter,
+    ChEMBLGetter,
     ComplexPortalGetter,
     DrugBankGetter,
     DrugCentralGetter,

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""A getter for ChEBML."""
+"""A getter for ChEMBL."""
 
 import ftplib
 import io
@@ -8,23 +8,23 @@ import io
 from bioversions.utils import Getter, VersionType
 
 __all__ = [
-    'ChEBMLGetter',
+    'ChEMBLGetter',
 ]
 
 RELEASE_PREFIX = '* Release:'
 DATE_PREFIX = '* Date:'
 
 
-class ChEBMLGetter(Getter):
-    """A getter for ChEBML."""
+class ChEMBLGetter(Getter):
+    """A getter for ChEMBL."""
 
-    name = 'ChEBML'
+    name = 'ChEMBL'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_{version}'
     date_fmt = '%d/%m/%Y'
     version_type = VersionType.sequential
 
     def get(self):
-        """Get the latest ChEBML version number."""
+        """Get the latest ChEMBL version number."""
         bio = io.BytesIO()
         with ftplib.FTP('ftp.ebi.ac.uk') as ftp:
             ftp.login()
@@ -42,4 +42,4 @@ class ChEBMLGetter(Getter):
 
 
 if __name__ == '__main__':
-    ChEBMLGetter.print()
+    ChEMBLGetter.print()
