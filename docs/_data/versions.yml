@@ -27,6 +27,12 @@
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
     retrieved: '2020-12-22'
     version: '27'
+- name: ChEMBL
+  releases:
+  - date: 2020-05-18
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
+    retrieved: '2021-01-05'
+    version: '27'
 - name: Complex Portal
   releases:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2020-12-16/
