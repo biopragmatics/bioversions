@@ -152,6 +152,10 @@
   - homepage: http://data.wikipathways.org/20201210/
     retrieved: '2020-12-22'
     version: '20201210'
+  - date: 2021-01-10
+    homepage: http://data.wikipathways.org/20210110/
+    retrieved: '2021-01-11'
+    version: '20210110'
 - name: Xenopus Anatomy Ontology
   releases:
   - retrieved: '2020-12-11'
