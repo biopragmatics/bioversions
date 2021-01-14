@@ -73,6 +73,10 @@
     version: '2020-11-18'
   - retrieved: '2020-12-22'
     version: '2020-12-08'
+  - date: 2021-01-01
+    homepage: http://archive.geneontology.org/full/2021-01-01/
+    retrieved: '2021-01-14'
+    version: '2021-01-01'
 - name: Human Phenotype Ontology
   releases:
   - retrieved: '2020-12-23'
