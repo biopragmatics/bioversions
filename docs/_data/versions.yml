@@ -52,6 +52,10 @@
   - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-22
     retrieved: '2020-12-23'
     version: '2020-12-22'
+  - date: 2021-01-28
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-01-28
+    retrieved: '2021-01-29'
+    version: '2021-01-28'
 - name: DrugBank
   releases:
   - date: '2020-07-02'
