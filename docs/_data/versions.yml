@@ -33,12 +33,6 @@
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel196/
     retrieved: '2021-02-02'
     version: '196'
-- name: ChEBML
-  releases:
-  - date: 18/05/2020
-    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
-    retrieved: '2020-12-22'
-    version: '27'
 - name: ChEMBL
   releases:
   - date: 2020-05-18
