@@ -1,8 +1,84 @@
+- name: Agronomy Ontology
+  prefix: agro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-03'
+- name: Allotrope Merged Ontology Suite
+  prefix: afo
+  releases:
+  - retrieved: '2021-02-02'
+    version: REC/2019/05/10
+- name: Amphioxus Development and Anatomy Ontology (AMPHX)
+  prefix: amphx
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-18'
+- name: An ontology of core ecological entities
+  prefix: ecocore
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-18'
+- name: Anatomical Entity Ontology
+  prefix: aeo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2014-12-05'
+- name: Animal Trait Ontology for Livestock
+  prefix: atol
+  releases:
+  - retrieved: '2021-02-02'
+    version: 13-09-2018
+- name: Antibiotic Resistance Ontology
+  prefix: aro
+  releases:
+  - retrieved: '2021-02-02'
+    version: 24-10-2019
+- name: Apollo Structured Vocabulary (Apollo-SV)
+  prefix: apollo_sv
+  releases:
+  - retrieved: '2021-02-02'
+    version: v4.1.1
+- name: Ascomycete phenotype ontology
+  prefix: apo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
+- name: Bambara groundnut ontology
+  prefix: co_366
+  releases:
+  - retrieved: '2021-02-02'
+    version: 23-12-2019
+- name: Banana ontology
+  prefix: co_325
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Barley ontology
+  prefix: co_323
+  releases:
+  - retrieved: '2021-02-02'
+    version: 20-11-2019
+- name: Basic Formal Ontology
+  prefix: bfo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-08-26'
+- name: Beet Ontology ontology
+  prefix: co_333
+  releases:
+  - retrieved: '2021-02-02'
+    version: 23-01-2019
+- name: BioAssay Ontology
+  prefix: bao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2.7'
 - name: Biofacquim
   releases:
   - retrieved: '2021-01-03'
     version: '1.0'
 - name: BioGRID
+  prefix: biogrid
   releases:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.192
     retrieved: '2020-12-11'
@@ -13,6 +89,71 @@
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.3.194
     retrieved: '2021-02-02'
     version: 4.3.194
+- name: Biological Collections Ontology
+  prefix: bco
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-27'
+- name: Biological Imaging Methods Ontology
+  prefix: fbbi
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-11-06'
+- name: Biological Spatial Ontology
+  prefix: bspo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-11'
+- name: Brachiaria ontology
+  prefix: co_345
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Brassica ontology
+  prefix: co_348
+  releases:
+  - retrieved: '2021-02-02'
+    version: 29-11-2019
+- name: Brenda Tissue Ontology
+  prefix: bto
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-02'
+- name: C elegans Phenotype Ontology
+  prefix: wbphenotype
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-15'
+- name: C. elegans Development Ontology
+  prefix: wbls
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-15'
+- name: C. elegans Gross Anatomy Ontology
+  prefix: wbbt
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-14'
+- name: Cardiovascular Disease Ontology
+  prefix: cvdo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-05'
+- name: Cassava ontology
+  prefix: co_334
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Castor bean ontology
+  prefix: co_347
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Cell Cycle Ontology
+  prefix: cco
+  releases:
+  - retrieved: '2021-02-02'
+    version: 23-03-2016
 - name: Cell Ontology
   releases:
   - retrieved: '2020-12-22'
@@ -23,7 +164,23 @@
   - date: 2021-02-01
     retrieved: '2021-02-02'
     version: '2021-02-01'
+- name: Cell Type Ontology
+  prefix: cl
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-22'
+- name: Cellular Microscopy Phenotype Ontology
+  prefix: cmpo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2017-12-19'
+- name: Cephalopod Ontology
+  prefix: ceph
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2016-01-12'
 - name: ChEBI
+  prefix: chebi
   releases:
   - retrieved: '2020-12-11'
     version: '194'
@@ -33,18 +190,145 @@
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel196/
     retrieved: '2021-02-02'
     version: '196'
+- name: ChEBI Integrated Role Ontology
+  prefix: chiro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2015-11-23'
 - name: ChEMBL
   releases:
   - date: 2020-05-18
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
     retrieved: '2021-01-05'
     version: '27'
+- name: Chemical Information Ontology
+  prefix: cheminf
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.9.3
+- name: Chemical Methods Ontology
+  prefix: chmo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 14-11-2019
+- name: Chickpea ontology
+  prefix: co_338
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: 'CIDO: Ontology of Coronavirus Infectious Disease'
+  prefix: cido
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.0.173
+- name: clinical LABoratory Ontology
+  prefix: labo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-08-29'
+- name: Clinical measurement ontology
+  prefix: cmo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-02-19'
+- name: 'CLO: Cell Line Ontology'
+  prefix: clo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 2.1.162
+- name: Clytia hemisphaerica Development and Anatomy Ontology (CLYH)
+  prefix: clyh
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-29'
+- name: Collembola Anatomy Ontology
+  prefix: clao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-15-05'
+- name: Common Anatomy Reference Ontology
+  prefix: caro
+  releases:
+  - retrieved: '2021-02-02'
+    version: 24-05-2019
+- name: Common Bean ontology
+  prefix: co_335
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Comparative Data Analysis Ontology
+  prefix: cdao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-06-26'
 - name: Complex Portal
+  prefix: complexportal
   releases:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2020-12-16/
     retrieved: '2020-12-25'
     version: '2020-12-16'
+- name: Confidence Information Ontology
+  prefix: cio
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2015-03-10'
+- name: Contributor Role Ontology
+  prefix: cro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-12-11'
+- name: Core Ontology for Biology and Biomedicine
+  prefix: cob
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-09-02'
+- name: Cotton ontology
+  prefix: co_358
+  releases:
+  - retrieved: '2021-02-02'
+    version: 03-01-2020
+- name: CoVoc Coronavirus Vocabulary
+  prefix: covoc
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-28'
+- name: Cowpea ontology
+  prefix: co_340
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Ctenophore Ontology
+  prefix: cteno
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2016-10-19'
+- name: 'CTO: Core Ontology of Clinical Trials'
+  prefix: cto
+  releases:
+  - retrieved: '2021-02-02'
+    version: 'Version Release: 1.0.0'
+- name: Data Use Ontology
+  prefix: duo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-02-03'
+- name: DICOM Controlled Terminology
+  prefix: dicom
+  releases:
+  - retrieved: '2021-02-02'
+    version: 2021a_20210130
+- name: Dicty Phenotype Ontology (DDPHENO)
+  prefix: ddpheno
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-06-19'
+- name: Dictyostelium discoideum anatomy
+  prefix: ddanat
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-13'
 - name: Disease Ontology
+  prefix: doid
   releases:
   - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-02
     retrieved: '2020-12-11'
@@ -59,7 +343,23 @@
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-01-28
     retrieved: '2021-01-29'
     version: '2021-01-28'
+- name: Drosophila Anatomy Ontology (DAO)
+  prefix: fbbt
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-14'
+- name: Drosophila Phenotype Ontology (DPO)
+  prefix: dpo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-14'
+- name: Drug-drug Interaction and Drug-drug Interaction Evidence Ontology
+  prefix: dideo
+  releases:
+  - retrieved: '2021-02-02'
+    version: release version 2019-01-30
 - name: DrugBank
+  prefix: drugbank
   releases:
   - date: '2020-07-02'
     homepage: https://go.drugbank.com/releases/5-1-7
@@ -70,14 +370,137 @@
     retrieved: '2021-01-04'
     version: 5.1.8
 - name: DrugCentral
+  prefix: drugcentral
   releases:
   - retrieved: '2020-12-22'
     version: 9/18/2020
+- name: eagle-i resource ontology
+  prefix: ero
+  releases:
+  - retrieved: '2021-02-02'
+    version: 27-07-2016
+- name: Echinoderm Anatomy and Development Ontology
+  prefix: ecao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-22'
+- name: EDAM Ontology
+  prefix: edam
+  releases:
+  - retrieved: '2021-02-02'
+    version: 17-07-2019
+- name: Emotion Ontology
+  prefix: mfoem
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-13'
+- name: eNanoMapper Ontology
+  prefix: enm
+  releases:
+  - retrieved: '2021-02-02'
+    version: 5.0.1
+- name: Ensembl Glossary
+  prefix: ensemblglossary
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-10'
+- name: Environment Exposure Ontology
+  prefix: ecto
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-09-18'
+- name: Environment Ontology
+  prefix: envo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-06-10'
+- name: Environment Ontology for Livestock
+  prefix: eol
+  releases:
+  - retrieved: '2021-02-02'
+    version: 13-09-2018
+- name: Evidence Code Ontology
+  prefix: eco
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-08'
 - name: ExPASy
+  prefix: excode
   releases:
   - retrieved: '2021-01-02'
     version: 02-Dec-2020
+- name: Experimental condition ontology
+  prefix: xco
+  releases:
+  - retrieved: '2021-02-02'
+    version: 18-12-2019
+- name: Experimental Factor Ontology
+  prefix: efo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 3.26.0
+- name: Exposure ontology
+  prefix: exo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
+- name: Fababean ontology
+  prefix: co_365
+  releases:
+  - retrieved: '2021-02-02'
+    version: 15-10-2019
+- name: Fission Yeast Phenotype Ontology
+  prefix: fypo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-27'
+- name: Flora Phenotype Ontology
+  prefix: flopo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-09-2019
+- name: FlyBase Controlled Vocabulary (FBcv)
+  prefix: fbcv
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-14'
+- name: FlyBase Developmental Ontology (FBdv)
+  prefix: fbdv
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-13'
+- name: FMA
+  prefix: fma
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-13'
+- name: FoodOn Food Ontology
+  prefix: foodon
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-04'
+- name: Fungal gross anatomy
+  prefix: fao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-07'
+- name: FuTRES Ontology of Vertebrate Traits
+  prefix: fovt
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-06-08'
+- name: Gazetteer
+  prefix: gaz
+  releases:
+  - retrieved: '2021-02-02'
+    version: 26-06-2018
+- name: Gene Expression Ontology
+  prefix: gexo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 18-09-2019
 - name: Gene Ontology
+  prefix: go
   releases:
   - retrieved: '2020-12-11'
     version: '2020-11-18'
@@ -87,48 +510,520 @@
     homepage: http://archive.geneontology.org/full/2021-01-01/
     retrieved: '2021-01-14'
     version: '2021-01-01'
+- name: GENO ontology
+  prefix: geno
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-08'
+- name: Genomic Epidemiology Ontology
+  prefix: genepio
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-09'
+- name: Genomics Cohorts Knowledge Ontology
+  prefix: gecko
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-18'
+- name: GEO
+  prefix: geo
+  releases:
+  - retrieved: '2021-02-02'
+    version: production version 2016-03-26
+- name: Glycan Naming Ontology
+  prefix: gno
+  releases:
+  - retrieved: '2021-02-02'
+    version: V1.6.3
+- name: Groundnut ontology
+  prefix: co_337
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Health Surveillance Ontology
+  prefix: hso
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-11-28'
+- name: Histopathology Ontology
+  prefix: hpath
+  releases:
+  - retrieved: '2021-02-02'
+    version: 05-07-2019
+- name: Homology Ontology
+  prefix: hom
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2015-01-07'
+- name: Human Ancestry Ontology
+  prefix: hancestro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2.5'
+- name: Human Cell Atlas Ontology
+  prefix: hcao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-03'
+- name: Human developmental anatomy, abstract
+  prefix: ehdaa2
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2013-07-04'
+- name: Human Developmental Stages
+  prefix: hsapdv
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
 - name: Human Phenotype Ontology
+  prefix: hp
   releases:
   - retrieved: '2020-12-23'
     version: '2020-12-07'
+- name: Hymenoptera Anatomy Ontology
+  prefix: hao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2018-04-26'
+- name: Hypertension Ontology For Clinical Data
+  prefix: htn
+  releases:
+  - retrieved: '2021-02-02'
+    version: 10-06-2019
+- name: 'ICEO: Ontology of Integrative and Conjugative Elements'
+  prefix: iceo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2.0'
+- name: Infectious Disease Ontology
+  prefix: ido
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2017-11-03'
+- name: Information Artifact Ontology
+  prefix: iao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-09'
+- name: Informed Consent Ontology
+  prefix: ico
+  releases:
+  - retrieved: '2021-02-02'
+    version: Arbor version; 1.0.100
+- name: 'INO: Interaction Network Ontology'
+  prefix: ino
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.0.112
 - name: IntAct
+  prefix: intact
   releases:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2020-12-16/
     retrieved: '2020-12-25'
     version: '2020-12-16'
 - name: InterPro
+  prefix: interpro
   releases:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/83.0/
     retrieved: '2020-12-25'
     version: '83.0'
 - name: KEGG
+  prefix: kegg.pathway
   releases:
   - date: 2021-01-01
     retrieved: '2021-01-02'
     version: '97.0'
+- name: KiSAO
+  prefix: biomodels.kisao
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2.14'
+- name: Lentil ontology
+  prefix: co_339
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Livestock Breed Ontology
+  prefix: lbo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 26-03-2019
+- name: Maize ontology
+  prefix: co_322
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Malaria Ontology
+  prefix: idomal
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2015-03-16'
+- name: Mammalian Feeding Muscle Ontology
+  prefix: mfmo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2013-11-16'
+- name: Mammalian Phenotype Ontology
+  prefix: mp
+  releases:
+  - retrieved: '2021-02-02'
+    version: 11-11-2019
+- name: Mass Spectrometry Controlled Vocabulary
+  prefix: ms
+  releases:
+  - retrieved: '2021-02-02'
+    version: 21-11-2019
+- name: Mathematical Modelling Ontology
+  prefix: mamo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-24'
+- name: Measurement method ontology
+  prefix: mmo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 27-03-2019
+- name: Medaka Developmental Stages
+  prefix: olatdv
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
+- name: Medical Action Ontology
+  prefix: maxo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-10'
+- name: Mental Disease Ontology
+  prefix: mfomd
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-26'
+- name: Mental Functioning Ontology
+  prefix: mf
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-07'
+- name: Metabolomics Standards Initiative Ontology (MSIO)
+  prefix: msio
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.0.1
+- name: MHC Restriction Ontology
+  prefix: mro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-25'
+- name: Microbial Conditions Ontology
+  prefix: mco
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-05-15'
+- name: Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology
+  prefix: miapa
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-05-2017
+- name: Minimum PDDI Information Ontology
+  prefix: mpio
+  releases:
+  - retrieved: '2021-02-02'
+    version: release version 2019-01-30
 - name: miRBase
+  prefix: mirbase
   releases:
   - homepage: ftp://mirbase.org/pub/mirbase/22.1/
     retrieved: '2020-12-22'
     version: '22.1'
+- name: Molecular Interactions Ontology
+  prefix: mi
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-13'
+- name: Mondo Disease Ontology
+  prefix: mondo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-29'
+- name: MOP
+  prefix: mop
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2014-09-03'
+- name: Mosquito gross anatomy ontology
+  prefix: tgma
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2013-06-03'
+- name: Mosquito insecticide resistance
+  prefix: miro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2014-05-14'
+- name: Mouse Adult Gross Anatomy
+  prefix: ma
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2017-02-07'
+- name: Mouse Developmental Anatomy Ontology
+  prefix: emapa
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-02-12'
+- name: Mouse Developmental Stages
+  prefix: mmusdv
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
+- name: Mouse pathology ontology
+  prefix: mpath
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-19'
 - name: MSigDB
+  prefix: msigdb
   releases:
   - date: September 2020
     retrieved: '2020-12-22'
     version: '7.2'
+- name: Mungbean ontology
+  prefix: co_346
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
 - name: NCBI Gene
+  prefix: ncbigene
   releases:
   - retrieved: '2021-01-03'
     version: daily
+- name: NCI Thesaurus
+  prefix: ncit
+  releases:
+  - retrieved: '2021-02-02'
+    version: 20.06e
+- name: Neuro Behavior Ontology
+  prefix: nbo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-02-10'
+- name: NOMEN - A nomenclatural ontology for biological names
+  prefix: nomen
+  releases:
+  - retrieved: '2021-02-02'
+    version: 17-04-2019
+- name: Non-Coding RNA Ontology
+  prefix: ncro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2015-12-10'
 - name: NPASS
+  prefix: npass
   releases:
   - retrieved: '2021-01-03'
     version: '1.0'
+- name: Nuclear Magnetic Resonance Controlled Vocabulary
+  prefix: nmr
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.1.0
+- name: 'OAE: Ontology of Adverse Events'
+  prefix: oae
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.2.36
+- name: Oat ontology
+  prefix: co_350
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: OBO Metadata Ontology
+  prefix: omo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-06-08'
+- name: Obstetric and Neonatal Ontology
+  prefix: ontoneo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2017-03-04'
+- name: 'OGG: Ontology of Genes and Genomes'
+  prefix: ogg
+  releases:
+  - retrieved: '2021-02-02'
+    version: 'Vision Release: 1.0.59'
+- name: 'OHMI: Ontology of Host-Microbiome Interactions'
+  prefix: ohmi
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-09-17'
+- name: 'OHPI: Ontology of Host-Pathogen Interactions'
+  prefix: ohpi
+  releases:
+  - retrieved: '2021-02-02'
+    version: 02-10-2019
+- name: OMIT
+  prefix: omit
+  releases:
+  - retrieved: '2021-02-02'
+    version: 07-06-2019
+- name: Ontologized MIABIS
+  prefix: omiabis
+  releases:
+  - retrieved: '2021-02-02'
+    version: ' 2014-05-28'
+- name: Ontology for BIoBanking (OBIB)
+  prefix: obib
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-06-20'
+- name: Ontology for Biomedical Investigations
+  prefix: obi
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-16'
+- name: Ontology for General Medical Science
+  prefix: ogms
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-07-06'
+- name: Ontology for genetic interval
+  prefix: ogi
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2.0'
+- name: Ontology for Nutritional Studies
+  prefix: ons
+  releases:
+  - retrieved: '2021-02-02'
+    version: Relese version 1.0
+- name: Ontology for Parasite Lifecycle
+  prefix: opl
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-28'
+- name: Ontology for RNA sequencing (ORNASEQ)
+  prefix: ornaseq
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-07-08'
+- name: Ontology of Arthropod Circulatory Systems
+  prefix: oarcs
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-04-18'
+- name: Ontology of Biological and Clinical Statistics
+  prefix: obcs
+  releases:
+  - retrieved: '2021-02-02'
+    version: '101'
+- name: Ontology of Biological Attributes
+  prefix: oba
+  releases:
+  - retrieved: '2021-02-02'
+    version: 22-05-2019
+- name: Ontology of Genetic Susceptibility Factor
+  prefix: ogsf
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2.0'
+- name: Ontology of Medically Related Social Entities
+  prefix: omrse
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-10-27'
+- name: Ontology of Microbial Phenotypes
+  prefix: omp
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-08'
+- name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
+  prefix: oostt
+  releases:
+  - retrieved: '2021-02-02'
+    version: release version - 2021-01-11
+- name: Ontology of Prokaryotic Phenotypic and Metabolic Characters
+  prefix: micro
+  releases:
+  - retrieved: '2021-02-02'
+    version: 'MicrO (An Ontology of Prokaryotic Phenotypic and Metabolic Characters).  Version
+      1.5.1 released 6/14/2018.
+
+
+      Includes terms and term synonyms extracted from > 3000 prokaryotic taxonomic
+      descriptions, collected from a large number of taxonomic descriptions from Archaea,
+      Cyanobacteria, Bacteroidetes, Firmicutes and Mollicutes.
+
+
+      The ontology and the synonym lists were developed to facilitate the automated
+      extraction of phenotypic data and character states from prokaryotic taxonomic
+      descriptions using a natural language processing algorithm (MicroPIE).  MicroPIE
+      was developed by Hong Cui, Elvis Hsin-Hui Wu, and Jin Mao (University of Arizona)
+      in collaboration with Carrine E. Blank (University of Montana) and Lisa R. Moore
+      (University of Southern Maine).
+
+
+      Descriptions and links to MicroPIE can be found at http://avatol.org/ngp/nlp/overview-2/.
+
+      https://github.com/biosemantics/micropie2
+
+
+      The most current version of MicrO can be downloaded from https://github.com/carrineblank/MicrO.'
+- name: Ontology of units of Measure (OM)
+  prefix: om
+  releases:
+  - retrieved: '2021-02-02'
+    version: 2.0.28
+- name: 'OPMI: Ontology of Precision Medicine and Investigation'
+  prefix: opmi
+  releases:
+  - retrieved: '2021-02-02'
+    version: 'Vision Release: 1.0.118'
+- name: Orphanet Rare Disease Ontology
+  prefix: orphanet.ordo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '3.1'
+- name: 'OVAE: Ontology of Vaccine Adverse Events'
+  prefix: ovae
+  releases:
+  - retrieved: '2021-02-02'
+    version: 'Vision Release: 1.0.34'
 - name: PathBank
+  prefix: pathbank
   releases:
   - retrieved: '2021-01-02'
     version: '2.0'
+- name: Pathogen Host Interactions Phenotype Ontology
+  prefix: phipo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-28'
+- name: Pathogen Transmission Ontology
+  prefix: trans
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-04'
+- name: Pathway Ontology
+  prefix: pw
+  releases:
+  - retrieved: '2021-02-02'
+    version: 23-10-2019
+- name: PATO
+  prefix: pato
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-02'
+- name: Pearl millet ontology
+  prefix: co_327
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Performance Summary Display Ontology
+  prefix: psdo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.0.0
 - name: Pfam
+  prefix: pfam
   releases:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam34.0/
     retrieved: '2020-12-25'
@@ -137,31 +1032,358 @@
   releases:
   - retrieved: '2020-12-22'
     version: '2020-08-02'
+- name: PHI-base Ontology
+  prefix: phi
+  releases:
+  - retrieved: '2021-02-02'
+    version: 10-12-2018
+- name: Physico-chemical methods and properties
+  prefix: fix
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-13'
+- name: Physico-chemical process
+  prefix: rex
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2017-11-19'
+- name: Pigeonpea ontology
+  prefix: co_341
+  releases:
+  - retrieved: '2021-02-02'
+    version: 18-11-2019
+- name: planaria-ontology
+  prefix: plana
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-09'
+- name: Planarian Phenotype Ontology (PLANP)
+  prefix: planp
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-28'
+- name: Plant Environment Ontology
+  prefix: peco
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-21'
 - name: Plant Ontology
+  prefix: po
   releases:
   - retrieved: '2020-12-22'
     version: '2020-08-20'
+- name: Plant Phenology Ontology
+  prefix: ppo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2018-10-26'
+- name: Plant Stress Ontology
+  prefix: pso
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-05-19'
+- name: Plant Trait Ontology
+  prefix: to
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-10-13'
+- name: Platynereis Developmental Stages
+  prefix: pdumdv
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
+- name: Population and Community Ontology
+  prefix: pco
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-26'
+- name: Porifera (sponge) ontology
+  prefix: poro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2016-09-13'
+- name: Potato ontology
+  prefix: co_330
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: PRIDE
+  prefix: pride
+  releases:
+  - retrieved: '2021-02-02'
+    version: 05-11-2019
+- name: ProbOnto
+  prefix: probonto
+  releases:
+  - retrieved: '2021-02-02'
+    version: 2.5.0
+- name: Protein Modification Ontology
+  prefix: mod
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-14'
 - name: Protein Ontology
+  prefix: pr
   releases:
   - retrieved: '2020-12-11'
     version: '61.0'
   - retrieved: '2020-12-22'
     version: '62.0'
+- name: Radiation Biology Ontology
+  prefix: rbo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-20'
+- name: Rat Strain Ontology
+  prefix: rs
+  releases:
+  - retrieved: '2021-02-02'
+    version: 13-12-2019
 - name: Reactome
+  prefix: reactome
   releases:
   - retrieved: '2020-12-11'
     version: '75'
+- name: Regulation of Gene Expression Ontology
+  prefix: rexo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 11-04-2019
+- name: Regulation of Transcription Ontology
+  prefix: reto
+  releases:
+  - retrieved: '2021-02-02'
+    version: 17-09-2019
+- name: Relation Ontology
+  prefix: ro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-18'
+- name: REPRODUCE-ME Ontology
+  prefix: reproduceme
+  releases:
+  - retrieved: '2021-02-02'
+    version: '1.1'
 - name: Rfam
+  prefix: rfam
   releases:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.4/
     retrieved: '2020-12-25'
     version: '14.4'
+- name: Rice ontology
+  prefix: co_320
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: RXNO
+  prefix: rxno
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-21'
+- name: Scientific Evidence and Provenance Information Ontology
+  prefix: sepio
+  releases:
+  - retrieved: '2021-02-02'
+    version: $Revision$
+- name: Semanticscience Integrated Ontology
+  prefix: sio
+  releases:
+  - retrieved: '2021-02-02'
+    version: '1.48'
+- name: Sequence Ontology
+  prefix: so
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-27'
+- name: Sickle Cell Disease Ontology
+  prefix: scdo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-06-26'
+- name: Social Insect Behavior Ontology
+  prefix: sibo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2015-06-15'
+- name: Sorghum ontology
+  prefix: co_324
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: Spider Ontology
+  prefix: spd
+  releases:
+  - retrieved: '2021-02-02'
+    version: 27-02-2019
+- name: 'STATO: the statistical methods ontology'
+  prefix: stato
+  releases:
+  - retrieved: '2021-02-02'
+    version: RC1.4
+- name: Sugar Kelp trait ontology
+  prefix: co_360
+  releases:
+  - retrieved: '2021-02-02'
+    version: 26-06-2019
+- name: Sustainable Development Goals Interface Ontology
+  prefix: sdgio
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2018-08-10'
+- name: Sweet Potato ontology
+  prefix: co_331
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
+- name: SWO (The Software Ontology)
+  prefix: swo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '1.7'
+- name: Symptom Ontology
+  prefix: symp
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-04'
+- name: Systems Biology Ontology
+  prefix: sbo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 20:10:2020 13:19
+- name: Taxonomic rank vocabulary
+  prefix: taxrank
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2016-04-15'
+- name: Taxonomy
+  prefix: ncbitaxon
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-04-18'
+- name: TEDDY
+  prefix: biomodels.teddy
+  releases:
+  - retrieved: '2021-02-02'
+    version: rel-2014-04-24
+- name: Teleost taxonomy ontology
+  prefix: tto
+  releases:
+  - retrieved: '2021-02-02'
+    version: 26-03-2018
+- name: The Behaviour Change Intervention Ontology
+  prefix: bcio
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-12-15'
+- name: The COVID-19 Infectious Disease Ontology
+  prefix: idocovid19
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-21-07'
+- name: The Drug Ontology
+  prefix: dron
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-06-01'
+- name: The Oral Health and Disease Ontology
+  prefix: ohd
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2016-06-27'
+- name: The Prescription of Drugs Ontology
+  prefix: pdro
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2019-09-19'
+- name: 'The RNA Ontology (RNAO): An Ontology for Integrating RNA Sequence and Structure
+    Data'
+  prefix: rnao
+  releases:
+  - retrieved: '2021-02-02'
+    version: 15-04-2019
+- name: The Virus Infectious Disease Ontology
+  prefix: vido
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-25-08'
+- name: Tick Anatomy Ontology
+  prefix: tads
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2015-08-20'
+- name: TOXic Process Ontology (TXPO)
+  prefix: txpo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 2020/07/09
+- name: UBERON
+  prefix: uberon
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-09-16'
+- name: Unified phenotype ontology (uPheno)
+  prefix: upheno
+  releases:
+  - retrieved: '2021-02-02'
+    version: 31-10-2017
+- name: Unimod
+  prefix: unimod
+  releases:
+  - retrieved: '2021-02-02'
+    version: 21-11-2019
+- name: Unipathway
+  prefix: upa
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2018-12-12'
 - name: UniProt
+  prefix: uniprot
   releases:
   - homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2020_06/
     retrieved: '2021-01-02'
     version: '2020_06'
+- name: Unit Ontology
+  prefix: uo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
+- name: Vaccine Ontology
+  prefix: vo
+  releases:
+  - retrieved: '2021-02-02'
+    version: 1.1.138
+- name: VariO
+  prefix: vario
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2018-11-09'
+- name: Vertebrate Taxonomy Ontology
+  prefix: vto
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-11-13'
+- name: Vertebrate trait ontology
+  prefix: vt
+  releases:
+  - retrieved: '2021-02-02'
+    version: 07-06-2019
+- name: VEuPathDB Ontology
+  prefix: eupath
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2021-01-08'
+- name: Vitis ontology
+  prefix: co_356
+  releases:
+  - retrieved: '2021-02-02'
+    version: 29-11-2019
+- name: Wheat ontology
+  prefix: co_321
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
 - name: WikiPathways
+  prefix: wikipathways
   releases:
   - homepage: http://data.wikipathways.org/20201210/
     retrieved: '2020-12-22'
@@ -170,11 +1392,45 @@
     homepage: http://data.wikipathways.org/20210110/
     retrieved: '2021-01-11'
     version: '20210110'
+- name: Woody Plant Ontology ontology
+  prefix: co_357
+  releases:
+  - retrieved: '2021-02-02'
+    version: 18-11-2019
 - name: Xenopus Anatomy Ontology
+  prefix: xao
   releases:
   - retrieved: '2020-12-11'
     version: '2020-06-26'
+- name: Xenopus Phenotype Ontology
+  prefix: xpo
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-07-04'
+- name: Yam ontology
+  prefix: co_343
+  releases:
+  - retrieved: '2021-02-02'
+    version: 09-10-2019
 - name: Zebrafish anatomy and development ontology
+  prefix: zfa
   releases:
   - retrieved: '2020-12-22'
     version: '2020-04-14'
+  - retrieved: '2021-02-02'
+    version: '2020-03-18'
+- name: Zebrafish developmental stages ontology
+  prefix: zfs
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-03-10'
+- name: Zebrafish Experimental Conditions Ontology
+  prefix: zeco
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-11-30'
+- name: Zebrafish Phenotype Ontology
+  prefix: zp
+  releases:
+  - retrieved: '2021-02-02'
+    version: '2020-08-02'

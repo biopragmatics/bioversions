@@ -11,6 +11,7 @@ is.
 <table>
 <thead>
 <tr>
+    <th>Prefix</th>
     <th>Name</th>
     <th>Version</th>
     <th>Retrieved</th>
@@ -20,6 +21,7 @@ is.
 {% for entry in site.data.versions %}
     {% assign latest = entry.releases | last %}
     <tr>
+        <td>{{ entry.prefix }}</td>
         <td>{{ entry.name }}</td>
         <td>
             {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
