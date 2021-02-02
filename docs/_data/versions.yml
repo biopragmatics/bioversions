@@ -10,6 +10,9 @@
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.2.193
     retrieved: '2021-01-02'
     version: 4.2.193
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.3.194
+    retrieved: '2021-02-02'
+    version: 4.3.194
 - name: Cell Ontology
   releases:
   - retrieved: '2020-12-22'
@@ -17,6 +20,9 @@
   - date: 2021-01-22
     retrieved: '2021-01-24'
     version: '2021-01-22'
+  - date: 2021-02-01
+    retrieved: '2021-02-02'
+    version: '2021-02-01'
 - name: ChEBI
   releases:
   - retrieved: '2020-12-11'
@@ -24,6 +30,9 @@
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel195/
     retrieved: '2021-01-02'
     version: '195'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel196/
+    retrieved: '2021-02-02'
+    version: '196'
 - name: ChEBML
   releases:
   - date: 18/05/2020
