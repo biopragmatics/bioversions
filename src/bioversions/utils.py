@@ -35,6 +35,7 @@ class VersionType(enum.Enum):
     sequential = 'Sequential (X)'
     daily = 'Daily'
     unversioned = 'Unversioned'
+    other = 'Other'
 
 
 def norm(s: str) -> str:

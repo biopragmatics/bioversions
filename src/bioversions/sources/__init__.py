@@ -2,7 +2,7 @@
 
 """Sources for Bioversions."""
 
-from typing import Iterable, List, Mapping, Type
+from typing import Iterable, List, Mapping, Optional, Type
 
 from tqdm import tqdm
 
@@ -95,11 +95,11 @@ def get_version(name: str) -> str:
     return resolve(name).version
 
 
-def get_rows(use_tqdm: bool = False) -> List[Bioversion]:
+def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
     """Get the rows, refreshing once per day."""
     return list(_iter_versions(use_tqdm=use_tqdm))
 
 
-def _iter_versions(use_tqdm: bool = False) -> Iterable[Bioversion]:
+def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
     for cls in tqdm(getters, disable=not use_tqdm):
         yield resolve(cls.name)

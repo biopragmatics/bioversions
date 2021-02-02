@@ -35,14 +35,18 @@ def update(force: bool):
     today = datetime.now().strftime('%Y-%m-%d')
 
     changes = False
-    for bv in _iter_versions():
+    for bv in _iter_versions(use_tqdm=True):
         if bv.name in versions:
             v = versions[bv.name]
         else:
             v = versions[bv.name] = {
-                'name': bv.name,
                 'releases': [],
             }
+
+        if bv.name:
+            v['name'] = bv.name
+        if bv.bioregistry_id:
+            v['prefix'] = bv.bioregistry_id
 
         if not v['releases'] or v['releases'][-1]['version'] != bv.version:
             _log_update(bv)
