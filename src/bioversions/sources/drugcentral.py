@@ -14,6 +14,7 @@ URL = 'https://drugcentral.org/download'
 class DrugCentralGetter(Getter):
     """A getter for DrugCentral."""
 
+    bioregistry_id = 'drugcentral'
     name = 'DrugCentral'
     date_version_fmt = '%m/%d/%Y'
     version_type = VersionType.date

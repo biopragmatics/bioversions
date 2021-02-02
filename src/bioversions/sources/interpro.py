@@ -18,6 +18,7 @@ SOLVE_RE = re.compile(r'(\d)(st|nd|rd|th)')
 class InterProGetter(Getter):
     """A getter for InterPro."""
 
+    bioregistry_id = 'interpro'
     name = 'InterPro'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/interpro/{version}/'
     date_fmt = '%d %B %Y'

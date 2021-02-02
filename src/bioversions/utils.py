@@ -9,6 +9,7 @@ import os
 from dataclasses import dataclass
 from typing import Any, ClassVar, Mapping, Optional, Union
 
+import bioregistry
 import pystow
 import requests
 import requests_ftp
@@ -75,8 +76,10 @@ class MetaGetter(type):
             return cls._cache_prop
         elif isinstance(cls._cache_prop, dict):
             return cls._cache_prop['version']
+        elif isinstance(cls._cache_prop, datetime.datetime):
+            return cls._cache_prop.strftime('%Y-%m-%d')
         else:
-            raise TypeError
+            raise TypeError(f'_cache_prop was a {type(cls._cache_prop)}')
 
     @property
     def date(cls) -> Optional[datetime.date]:
@@ -126,10 +129,14 @@ class Bioversion:
     name: str
     #: The database current version
     version: str
+    #: The class that retrieved the version
+    classname: str
     #: The date of the current release
     date: Optional[datetime.date]
     #: The URL for the homepage of the specific version of the database
     homepage: Optional[str]
+    #: The database prefix
+    bioregistry_id: Optional[str]
 
 
 class Getter(metaclass=MetaGetter):
@@ -147,7 +154,9 @@ class Getter(metaclass=MetaGetter):
 
     date_version_fmt: ClassVar[Optional[str]] = None
 
-    # The following two are automatically calculated based on the metaclass
+    bioregistry_id: ClassVar[Optional[str]] = None
+
+    # The following are automatically calculated based on the metaclass
     version: ClassVar[str]
     date: ClassVar[str]
     homepage: ClassVar[str]
@@ -159,7 +168,7 @@ class Getter(metaclass=MetaGetter):
     @classmethod
     def print(cls, sep: str = '\t', file=None):
         """Print the latest version of this database."""
-        x = [cls.name, cls.version]
+        x = [cls.bioregistry_id, cls.name, cls.version]
         if cls.date:
             x.append(f'({cls.date})')
         if cls.homepage:
@@ -172,8 +181,10 @@ class Getter(metaclass=MetaGetter):
         return Bioversion(
             name=cls.name,
             version=cls.version,
+            classname=cls.__name__,
             homepage=cls.homepage,
             date=cls.date,
+            bioregistry_id=cls.bioregistry_id,
         )
 
     @classmethod
@@ -219,10 +230,14 @@ def get_obo_version(url: str) -> str:
 class OboGetter(Getter):
     """An implementation for getting OBO versions."""
 
-    key: ClassVar[str]
     strip_key_prefix: ClassVar[bool] = False
     strip_version_prefix: ClassVar[bool] = False
     strip_file_suffix: ClassVar[bool] = False
+
+    @property
+    def key(self) -> str:
+        """Get the OBO Foundry key."""
+        return bioregistry.read_bioregistry()[self.bioregistry_id]['obofoundry']['prefix']
 
     def get(self) -> str:
         """Get the OBO version."""

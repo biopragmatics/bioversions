@@ -14,6 +14,7 @@ URL = 'http://data.wikipathways.org/current/index/'
 class WikiPathwaysGetter(Getter):
     """A getter for WikiPathways."""
 
+    bioregistry_id = 'wikipathways'
     name = 'WikiPathways'
     homepage_fmt = 'http://data.wikipathways.org/{version}/'
     date_version_fmt = '%Y%m%d'

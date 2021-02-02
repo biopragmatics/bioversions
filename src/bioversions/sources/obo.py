@@ -2,19 +2,16 @@
 
 """Getters for OBO ontologies."""
 
-from ..utils import OboGetter, VersionType
+from typing import Iterable, Type
+
+from bioversions.utils import Getter, OboGetter, VersionType
 
 __all__ = [
+    'iter_obo_getters',
     'ChebiGetter',
-    'ClGetter',
     'GoGetter',
     'DoidGetter',
-    'HpGetter',
-    'PatoGetter',
-    'PoGetter',
     'PrGetter',
-    'XaoGetter',
-    'ZfaGetter',
 ]
 
 
@@ -22,26 +19,16 @@ class ChebiGetter(OboGetter):
     """A getter for ChEBI."""
 
     name = 'ChEBI'
-    key = 'chebi'
+    bioregistry_id = 'chebi'
     version_type = VersionType.sequential
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel{version}/'
-
-
-class ClGetter(OboGetter):
-    """A getter for the Cell Ontology (cl)."""
-
-    name = 'Cell Ontology'
-    key = 'cl'
-    version_type = VersionType.date
-    strip_version_prefix = True
-    date_version_fmt = '%Y-%m-%d'
 
 
 class GoGetter(OboGetter):
     """A getter for the Gene Ontology (GO)."""
 
     name = 'Gene Ontology'
-    key = 'go'
+    bioregistry_id = 'go'
     version_type = VersionType.date
     strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
@@ -53,42 +40,10 @@ class DoidGetter(OboGetter):
 
     name = 'Disease Ontology'
     homepage_fmt = 'https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/{version}'
-    key = 'doid'
+    bioregistry_id = 'doid'
     version_type = VersionType.date
     strip_version_prefix = True
     strip_file_suffix = True
-    date_version_fmt = '%Y-%m-%d'
-
-
-class HpGetter(OboGetter):
-    """A getter for the Human Phenotype Ontology (HP)."""
-
-    name = 'Human Phenotype Ontology'
-    key = 'hp'
-    version_type = VersionType.date
-    strip_key_prefix = True
-    strip_version_prefix = True
-    date_version_fmt = '%Y-%m-%d'
-
-
-class PatoGetter(OboGetter):
-    """A getter for the Phenotype and Trait Ontology (PATO)."""
-
-    name = 'Phenotype And Trait Ontology'
-    key = 'pato'
-    version_type = VersionType.date
-    strip_version_prefix = True
-    strip_file_suffix = True
-    date_version_fmt = '%Y-%m-%d'
-
-
-class PoGetter(OboGetter):
-    """A getter for the Plant Ontology (PO)."""
-
-    name = 'Plant Ontology'
-    key = 'po'
-    version_type = VersionType.date
-    strip_version_prefix = True
     date_version_fmt = '%Y-%m-%d'
 
 
@@ -96,32 +51,20 @@ class PrGetter(OboGetter):
     """A getter for the Protein Ontology (PR)."""
 
     name = 'Protein Ontology'
-    key = 'pr'
+    bioregistry_id = 'pr'
     version_type = VersionType.semver_minor
     homepage_fmt = 'https://proconsortium.org/download/release_{version}/'
 
 
-class XaoGetter(OboGetter):
-    """A getter for the Xenopus Anatomy Ontology."""
-
-    name = 'Xenopus Anatomy Ontology'
-    key = 'xao'
-    version_type = VersionType.date
-    strip_version_prefix = True
-    date_version_fmt = '%Y-%m-%d'
+def iter_obo_getters() -> Iterable[Type[Getter]]:
+    """Iterate over OBO getters."""
+    yield from OboGetter.__subclasses__()
 
 
-class ZfaGetter(OboGetter):
-    """A getter for the Zebrafish anatomy and development ontology (ZFA)."""
-
-    name = 'Zebrafish anatomy and development ontology'
-    key = 'zfa'
-    version_type = VersionType.date
-    strip_version_prefix = True
-    date_version_fmt = '%Y-%m-%d'
+def _main():
+    for getter in iter_obo_getters():
+        getter.print()
 
 
 if __name__ == '__main__':
-    for _name, _cls in list(locals().items()):
-        if _name.endswith('Getter') and hasattr(_cls, 'key'):
-            _cls.print()
+    _main()

@@ -14,6 +14,7 @@ URL = 'https://reactome.org/'
 class ReactomeGetter(Getter):
     """A getter for Reactome."""
 
+    bioregistry_id = 'reactome'
     name = 'Reactome'
     version_type = VersionType.sequential
 

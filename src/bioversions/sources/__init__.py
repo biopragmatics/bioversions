@@ -4,6 +4,8 @@
 
 from typing import Iterable, List, Mapping, Type
 
+from tqdm import tqdm
+
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
 from .chembl import ChEMBLGetter
@@ -18,9 +20,8 @@ from .kegg import KEGGGetter
 from .mirbase import MirbaseGetter
 from .msigdb import MSigDBGetter
 from .npass import NPASSGetter
-from .obo import (
-    ChebiGetter, ClGetter, DoidGetter, GoGetter, HpGetter, PatoGetter, PoGetter, PrGetter, XaoGetter, ZfaGetter,
-)
+from .obo import iter_obo_getters
+from .ols import extend_ols_getters
 from .pathbank import PathBankGetter
 from .pfam import PfamGetter
 from .reactome import ReactomeGetter
@@ -45,24 +46,14 @@ getters = [
     DrugBankGetter,
     DrugCentralGetter,
     ExPASyGetter,
-    HpGetter,
     IntActGetter,
     InterProGetter,
     ReactomeGetter,
     RfamGetter,
-    ChebiGetter,
-    PrGetter,
-    DoidGetter,
-    GoGetter,
-    XaoGetter,
     WikiPathwaysGetter,
     MirbaseGetter,
     MSigDBGetter,
-    PatoGetter,
-    PoGetter,
     PfamGetter,
-    ClGetter,
-    ZfaGetter,
     UniProtGetter,
     KEGGGetter,
     PathBankGetter,
@@ -70,7 +61,9 @@ getters = [
     NPASSGetter,
     BiofacquimGetter,
 ]
-getters = sorted(getters, key=lambda cls: cls.__name__.lower())
+getters.extend(iter_obo_getters())
+extend_ols_getters(getters)
+getters: List[Type[Getter]] = sorted(getters, key=lambda cls: (cls.bioregistry_id or '', cls.__name__.casefold()))
 
 getter_dict: Mapping[str, Type[Getter]] = {
     norm(getter.name): getter
@@ -102,11 +95,11 @@ def get_version(name: str) -> str:
     return resolve(name).version
 
 
-def get_rows() -> List[Bioversion]:
+def get_rows(use_tqdm: bool = False) -> List[Bioversion]:
     """Get the rows, refreshing once per day."""
-    return list(_iter_versions())
+    return list(_iter_versions(use_tqdm=use_tqdm))
 
 
-def _iter_versions() -> Iterable[Bioversion]:
-    for name in getter_dict:
-        yield resolve(name)
+def _iter_versions(use_tqdm: bool = False) -> Iterable[Bioversion]:
+    for cls in tqdm(getters, disable=not use_tqdm):
+        yield resolve(cls.name)

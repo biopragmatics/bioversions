@@ -14,6 +14,7 @@ URL = 'https://downloads.thebiogrid.org/BioGRID/Latest-Release/'
 class BioGRIDGetter(Getter):
     """A getter for BioGRID."""
 
+    bioregistry_id = 'biogrid'
     name = 'BioGRID'
     homepage_fmt = 'https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-{version}'
     version_type = VersionType.semver

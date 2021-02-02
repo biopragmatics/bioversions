@@ -14,6 +14,7 @@ URL = 'https://go.drugbank.com/releases/latest'
 class DrugBankGetter(Getter):
     """A getter for DrugBank."""
 
+    bioregistry_id = 'drugbank'
     name = 'DrugBank'
     homepage_fmt = 'https://go.drugbank.com/releases/{version}'
     date_fmt = '%Y-%m-%d'

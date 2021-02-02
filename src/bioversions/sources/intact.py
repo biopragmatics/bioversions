@@ -12,6 +12,7 @@ __all__ = [
 class IntActGetter(Getter):
     """A getter for IntAct."""
 
+    bioregistry_id = 'intact'
     name = 'IntAct'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/intact/{version}/'
     date_version_fmt = '%Y-%m-%d'

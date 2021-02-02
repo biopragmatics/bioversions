@@ -16,6 +16,7 @@ URL = 'http://www.gsea-msigdb.org/gsea/msigdb/index.jsp'
 class MSigDBGetter(Getter):
     """A getter for MSigDB."""
 
+    bioregistry_id = 'msigdb'
     name = 'MSigDB'
     homepage_fmt = 'https://data.broadinstitute.org/gsea-msigdb/msigdb/release/{version}'
     date_fmt = '%B %Y'

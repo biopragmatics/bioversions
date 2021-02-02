@@ -12,6 +12,7 @@ __all__ = [
 class NPASSGetter(Getter):
     """A getter for NPASS."""
 
+    bioregistry_id = 'npass'
     name = 'NPASS'
     version_type = VersionType.semver_minor
 

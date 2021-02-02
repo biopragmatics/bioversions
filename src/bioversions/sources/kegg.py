@@ -16,6 +16,7 @@ URL = 'https://www.kegg.jp/kegg/docs/relnote.html'
 class KEGGGetter(Getter):
     """A getter for KEGG."""
 
+    bioregistry_id = 'kegg.pathway'
     name = 'KEGG'
     date_fmt = '%B %d, %Y'
     version_type = VersionType.semver_minor

@@ -16,6 +16,7 @@ __all__ = [
 class UniProtGetter(Getter):
     """A getter for UniProt."""
 
+    bioregistry_id = 'uniprot'
     name = 'UniProt'
     homepage_fmt = 'ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-{version}/'
     date_version_fmt = '%Y_%m'

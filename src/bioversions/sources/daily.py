@@ -8,4 +8,5 @@ from bioversions.utils import DailyGetter
 class NCBIGeneGetter(DailyGetter):
     """A getter for NCBI Gene."""
 
+    bioregistry_id = 'ncbigene'
     name = 'NCBI Gene'

@@ -14,6 +14,7 @@ __all__ = [
 class PfamGetter(Getter):
     """A getter for Pfam."""
 
+    bioregistry_id = 'pfam'
     name = 'Pfam'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam{version}/'
     version_type = VersionType.semver_minor

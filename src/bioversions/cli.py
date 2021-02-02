@@ -37,13 +37,27 @@ def get(key: str):
 
 
 @main.command()
-def ls():
+@click.option('--terse', '-t', is_flag=True)
+def ls(terse: bool):
     """List versions."""
     from . import get_rows
-    click.echo(tabulate(
-        (bv.name, bv.version, bv.date, bv.homepage)
-        for bv in get_rows()
-    ))
+
+    if terse:
+        click.echo(tabulate(
+            sorted(
+                (bv.bioregistry_id or '', bv.classname, bv.version)
+                for bv in get_rows(use_tqdm=True)
+            ),
+            headers=['Prefix', 'Class', 'Version'],
+        ))
+    else:
+        click.echo(tabulate(
+            (
+                (bv.bioregistry_id, bv.name, bv.version, bv.date, bv.homepage)
+                for bv in get_rows(use_tqdm=True)
+            ),
+            headers=['Prefix', 'Name', 'Version', 'Release Date', 'Homepage'],
+        ))
 
 
 if __name__ == '__main__':

@@ -14,6 +14,7 @@ URL = 'https://pathbank.org/'
 class PathBankGetter(Getter):
     """A getter for PathBank."""
 
+    bioregistry_id = 'pathbank'
     name = 'PathBank'
     version_type = VersionType.semver_minor
 

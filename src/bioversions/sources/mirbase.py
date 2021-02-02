@@ -16,6 +16,7 @@ PREFIX = '0_THIS_IS_RELEASE_'
 class MirbaseGetter(Getter):
     """A getter for miRBase."""
 
+    bioregistry_id = 'mirbase'
     name = 'miRBase'
     homepage_fmt = 'ftp://mirbase.org/pub/mirbase/{version}/'
     version_type = VersionType.semver_minor

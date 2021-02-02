@@ -12,6 +12,7 @@ __all__ = [
 class RfamGetter(Getter):
     """A getter for Rfam."""
 
+    bioregistry_id = 'rfam'
     name = 'Rfam'
     homepage_fmt = 'ftp://ftp.ebi.ac.uk/pub/databases/Rfam/{version}/'
     version_type = VersionType.semver_minor
