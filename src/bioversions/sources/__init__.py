@@ -26,6 +26,7 @@ from .pathbank import PathBankGetter
 from .pfam import PfamGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
+from .rhea import RheaGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
@@ -60,6 +61,7 @@ getters = [
     NCBIGeneGetter,
     NPASSGetter,
     BiofacquimGetter,
+    RheaGetter,
 ]
 getters.extend(iter_obo_getters())
 extend_ols_getters(getters)
