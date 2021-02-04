@@ -7,7 +7,7 @@ from typing import Iterable, Mapping, Optional, Type, Union
 
 import bioregistry
 from bioregistry.external.ols import get_ols
-from bioregistry.resolve import get_name
+from bioregistry.resolve import _clean_version, get_name
 
 from bioversions.utils import Getter, VersionType
 
@@ -44,6 +44,7 @@ def make_ols_getter(ols, bioregistry_id: str) -> Optional[Type[Getter]]:
         logger.warning('[%s] no OLS version', bioregistry_id)
         return
 
+    version = _clean_version(bioregistry_id, version)
     _brid = bioregistry_id
 
     class OlsGetter(Getter):
