@@ -8,6 +8,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: REC/2019/05/10
+  - retrieved: '2021-02-04'
+    version: 2019/05/10
 - name: Amphioxus Development and Anatomy Ontology (AMPHX)
   prefix: amphx
   releases:
@@ -38,6 +40,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: v4.1.1
+  - retrieved: '2021-02-04'
+    version: 4.1.1
 - name: Ascomycete phenotype ontology
   prefix: apo
   releases:
@@ -169,6 +173,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-22'
+  - retrieved: '2021-02-04'
+    version: '2021-02-01'
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
   releases:
@@ -221,6 +227,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: 1.0.173
+  - retrieved: '2021-02-04'
+    version: 1.0.181
 - name: clinical LABoratory Ontology
   prefix: labo
   releases:
@@ -307,6 +315,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: 'Version Release: 1.0.0'
+  - retrieved: '2021-02-04'
+    version: 1.0.0
 - name: Data Use Ontology
   prefix: duo
   releases:
@@ -358,6 +368,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: release version 2019-01-30
+  - retrieved: '2021-02-04'
+    version: '2019-01-30'
 - name: DrugBank
   prefix: drugbank
   releases:
@@ -454,6 +466,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-27'
+  - retrieved: '2021-02-04'
+    version: '2021-02-01'
 - name: Flora Phenotype Ontology
   prefix: flopo
   releases:
@@ -510,6 +524,10 @@
     homepage: http://archive.geneontology.org/full/2021-01-01/
     retrieved: '2021-01-14'
     version: '2021-01-01'
+  - date: 2021-02-01
+    homepage: http://archive.geneontology.org/full/2021-02-01/
+    retrieved: '2021-02-04'
+    version: '2021-02-01'
 - name: GENO ontology
   prefix: geno
   releases:
@@ -530,11 +548,15 @@
   releases:
   - retrieved: '2021-02-02'
     version: production version 2016-03-26
+  - retrieved: '2021-02-04'
+    version: '2016-03-26'
 - name: Glycan Naming Ontology
   prefix: gno
   releases:
   - retrieved: '2021-02-02'
     version: V1.6.3
+  - retrieved: '2021-02-04'
+    version: 1.6.3
 - name: Groundnut ontology
   prefix: co_337
   releases:
@@ -595,6 +617,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2.0'
+  - retrieved: '2021-02-04'
+    version: '2.1'
 - name: Infectious Disease Ontology
   prefix: ido
   releases:
@@ -610,6 +634,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: Arbor version; 1.0.100
+  - retrieved: '2021-02-04'
+    version: 1.0.100
 - name: 'INO: Interaction Network Ontology'
   prefix: ino
   releases:
@@ -728,6 +754,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: release version 2019-01-30
+  - retrieved: '2021-02-04'
+    version: '2019-01-30'
 - name: miRBase
   prefix: mirbase
   releases:
@@ -850,6 +878,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: 'Vision Release: 1.0.59'
+  - retrieved: '2021-02-04'
+    version: 1.0.59
 - name: 'OHMI: Ontology of Host-Microbiome Interactions'
   prefix: ohmi
   releases:
@@ -870,6 +900,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: ' 2014-05-28'
+  - retrieved: '2021-02-04'
+    version: '2014-05-28'
 - name: Ontology for BIoBanking (OBIB)
   prefix: obib
   releases:
@@ -895,6 +927,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: Relese version 1.0
+  - retrieved: '2021-02-04'
+    version: '1.0'
 - name: Ontology for Parasite Lifecycle
   prefix: opl
   releases:
@@ -940,6 +974,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: release version - 2021-01-11
+  - retrieved: '2021-02-04'
+    version: '2021-01-11'
 - name: Ontology of Prokaryotic Phenotypic and Metabolic Characters
   prefix: micro
   releases:
@@ -967,6 +1003,8 @@
 
 
       The most current version of MicrO can be downloaded from https://github.com/carrineblank/MicrO.'
+  - retrieved: '2021-02-04'
+    version: 1.5.1
 - name: Ontology of units of Measure (OM)
   prefix: om
   releases:
@@ -977,6 +1015,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: 'Vision Release: 1.0.118'
+  - retrieved: '2021-02-04'
+    version: 1.0.118
 - name: Orphanet Rare Disease Ontology
   prefix: orphanet.ordo
   releases:
@@ -987,6 +1027,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: 'Vision Release: 1.0.34'
+  - retrieved: '2021-02-04'
+    version: 1.0.34
 - name: PathBank
   prefix: pathbank
   releases:
@@ -1170,6 +1212,12 @@
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.4/
     retrieved: '2020-12-25'
     version: '14.4'
+- name: Rhea
+  prefix: rhea
+  releases:
+  - date: 2020-12-02
+    retrieved: '2021-02-04'
+    version: '116'
 - name: Rice ontology
   prefix: co_320
   releases:
@@ -1195,6 +1243,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-27'
+  - retrieved: '2021-02-04'
+    version: '2021-02-01'
 - name: Sickle Cell Disease Ontology
   prefix: scdo
   releases:
@@ -1265,6 +1315,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: rel-2014-04-24
+  - retrieved: '2021-02-04'
+    version: '2014-04-24'
 - name: Teleost taxonomy ontology
   prefix: tto
   releases:
