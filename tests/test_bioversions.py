@@ -5,7 +5,7 @@
 import datetime
 import unittest
 
-from bioversions.sources import BioGRIDGetter, DoidGetter, WikiPathwaysGetter
+from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter
 
 
 class TestGetter(unittest.TestCase):
@@ -18,7 +18,7 @@ class TestGetter(unittest.TestCase):
 
     def test_date(self):
         """Test getters that have versions as dates."""
-        for getter in [DoidGetter, WikiPathwaysGetter]:
+        for getter in [WikiPathwaysGetter]:
             with self.subTest(getter=getter.name):
                 s = getter.version
                 self.assertIsInstance(s, str)
