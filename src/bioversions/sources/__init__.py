@@ -2,6 +2,7 @@
 
 """Sources for Bioversions."""
 
+import logging
 from typing import Iterable, List, Mapping, Optional, Type
 
 from tqdm import tqdm
@@ -38,6 +39,8 @@ __all__ = [
     'get_rows',
     'get_version',
 ]
+
+logger = logging.getLogger(__name__)
 
 # TODO replace with entrypoint lookup
 getters = [
@@ -104,4 +107,10 @@ def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
 
 def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
     for cls in tqdm(getters, disable=not use_tqdm):
-        yield resolve(cls.name)
+        try:
+            yv = resolve(cls.name)
+        except IOError:
+            logger.warning('failed to resolve %s', cls.name)
+            continue
+        else:
+            yield yv
