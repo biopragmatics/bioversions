@@ -123,16 +123,22 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2020-05-02'
+  - retrieved: '2021-02-12'
+    version: '2021-02-09'
 - name: C elegans Phenotype Ontology
   prefix: wbphenotype
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-15'
+  - retrieved: '2021-02-12'
+    version: '2021-02-08'
 - name: C. elegans Development Ontology
   prefix: wbls
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-15'
+  - retrieved: '2021-02-12'
+    version: '2021-02-09'
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
   releases:
@@ -436,11 +442,16 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-08'
+  - retrieved: '2021-02-12'
+    version: '2021-02-08'
 - name: ExPASy
   prefix: excode
   releases:
   - retrieved: '2021-01-02'
     version: 02-Dec-2020
+  - date: 2021-02-10
+    retrieved: '2021-02-12'
+    version: 10-Feb-2021
 - name: Experimental condition ontology
   prefix: xco
   releases:
@@ -468,6 +479,8 @@
     version: '2021-01-27'
   - retrieved: '2021-02-04'
     version: '2021-02-01'
+  - retrieved: '2021-02-12'
+    version: '2021-02-10'
 - name: Flora Phenotype Ontology
   prefix: flopo
   releases:
@@ -493,6 +506,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-04'
+  - retrieved: '2021-02-12'
+    version: '2021-02-03'
 - name: Fungal gross anatomy
   prefix: fao
   releases:
@@ -602,6 +617,8 @@
   releases:
   - retrieved: '2020-12-23'
     version: '2020-12-07'
+  - retrieved: '2021-02-12'
+    version: '2021-02-08'
 - name: Hymenoptera Anatomy Ontology
   prefix: hao
   releases:
@@ -653,6 +670,10 @@
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/83.0/
     retrieved: '2020-12-25'
     version: '83.0'
+  - date: 2021-02-11
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/84.0/
+    retrieved: '2021-02-12'
+    version: '84.0'
 - name: KEGG
   prefix: kegg.pathway
   releases:
@@ -719,6 +740,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-10'
+  - retrieved: '2021-02-12'
+    version: '2021-02-09'
 - name: Mental Disease Ontology
   prefix: mfomd
   releases:
@@ -858,6 +881,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: 1.2.36
+  - retrieved: '2021-02-12'
+    version: 1.2.37
 - name: Oat ontology
   prefix: co_350
   releases:
@@ -907,6 +932,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2019-06-20'
+  - retrieved: '2021-02-12'
+    version: '2021-02-02'
 - name: Ontology for Biomedical Investigations
   prefix: obi
   releases:
@@ -969,6 +996,8 @@
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-08'
+  - retrieved: '2021-02-12'
+    version: '2021-02-05'
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
   releases:
@@ -1218,6 +1247,9 @@
   - date: 2020-12-02
     retrieved: '2021-02-04'
     version: '116'
+  - date: 2021-02-10
+    retrieved: '2021-02-12'
+    version: '117'
 - name: Rice ontology
   prefix: co_320
   releases:
@@ -1245,6 +1277,8 @@
     version: '2021-01-27'
   - retrieved: '2021-02-04'
     version: '2021-02-01'
+  - retrieved: '2021-02-12'
+    version: '2021-02-11'
 - name: Sickle Cell Disease Ontology
   prefix: scdo
   releases:
@@ -1394,6 +1428,10 @@
   - homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2020_06/
     retrieved: '2021-01-02'
     version: '2020_06'
+  - date: 2021-01-01
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_01/
+    retrieved: '2021-02-12'
+    version: '2021_01'
 - name: Unit Ontology
   prefix: uo
   releases:
@@ -1444,6 +1482,10 @@
     homepage: http://data.wikipathways.org/20210110/
     retrieved: '2021-01-11'
     version: '20210110'
+  - date: 2021-02-10
+    homepage: http://data.wikipathways.org/20210210/
+    retrieved: '2021-02-12'
+    version: '20210210'
 - name: Woody Plant Ontology ontology
   prefix: co_357
   releases:
