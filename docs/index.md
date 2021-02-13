@@ -15,7 +15,7 @@ by {{ site.data.versions.annotations.author }}.
     <th>Prefix</th>
     <th>Name</th>
     <th>Version</th>
-    <th>Retrieved</th>
+    <th>Release Date</th>
 </tr>
 </thead>
 <tbody>
@@ -27,7 +27,7 @@ by {{ site.data.versions.annotations.author }}.
         <td>
             {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
         </td>
-        <td>{{ latest.retrieved }}</td>
+        <td>{% if latest.date %}{{ latest.date }}{% else %}📥 {{ latest.retrieved }}{% endif %}</td>
     </tr>
 {% endfor %}
 </tbody>
