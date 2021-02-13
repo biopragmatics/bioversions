@@ -6,7 +6,8 @@ layout: home
 </p>
 
 This site and accompanying package are a resource for informing you what the latest version of each biological database
-is.
+is. Last updated on {{ site.data.versions.annotations.date }} (revision {{ site.data.versions.annotations.revision }})
+by {{ site.data.versions.annotations.author }}.
 
 <table>
 <thead>
@@ -18,7 +19,7 @@ is.
 </tr>
 </thead>
 <tbody>
-{% for entry in site.data.versions %}
+{% for entry in site.data.versions.database %}
     {% assign latest = entry.releases | last %}
     <tr>
         <td>{{ entry.prefix }}</td>

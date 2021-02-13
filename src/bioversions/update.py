@@ -2,6 +2,7 @@
 
 """Update the web page."""
 
+import getpass
 import os
 from datetime import datetime
 
@@ -26,10 +27,13 @@ def _get_clean_dict(d):
 def update(force: bool):
     """Update the data file."""
     with open(PATH) as file:
-        versions = {
-            entry['name']: entry
-            for entry in yaml.safe_load(file)
-        }
+        data = yaml.safe_load(file)
+
+    revision = data['annotations']['revision']
+    versions = {
+        entry['name']: entry
+        for entry in data['database']
+    }
 
     from bioversions.sources import _iter_versions
     today = datetime.now().strftime('%Y-%m-%d')
@@ -64,7 +68,15 @@ def update(force: bool):
     if not changes and not force:
         click.secho(f'No changes to {PATH}', fg='yellow', bold=True)
     else:
-        rv = sorted(versions.values(), key=lambda version: version['name'].lower())
+        rv_database = sorted(versions.values(), key=lambda version: version['name'].lower())
+        rv = {
+            'annotations': {
+                'revision': revision + 1,
+                'date': datetime.today().strftime('%Y-%m-%d'),
+                'author': getpass.getuser(),
+            },
+            'database': rv_database,
+        }
         click.secho(f'Writing new {PATH}', fg='green', bold=True)
         with open(PATH, 'w') as file:
             yaml.dump(rv, file)
