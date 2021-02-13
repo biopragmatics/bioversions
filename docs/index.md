@@ -9,13 +9,16 @@ This site and accompanying package are a resource for informing you what the lat
 is. Last updated on {{ site.data.versions.annotations.date }} (revision {{ site.data.versions.annotations.revision }})
 by {{ site.data.versions.annotations.author }}.
 
+Legend: 📥 means the resource reports the date of each release, 📅 means the date of release was inferred based on
+the date when the latest version was retrieved.
+
 <table>
 <thead>
 <tr>
     <th>Prefix</th>
     <th>Name</th>
     <th>Version</th>
-    <th>Release Date</th>
+    <th>Date</th>
     <th></th>
 </tr>
 </thead>
@@ -29,11 +32,7 @@ by {{ site.data.versions.annotations.author }}.
             {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
         </td>
         <td>{% if latest.date %}{{ latest.date }}{% else %}{{ latest.retrieved }}{% endif %}</td>
-        <td>
-            <a href="#" data-toggle="tooltip" data-original-title="{% if latest.date %}Acquired directly from source{% else %}Based on date retrieved{% endif %}">
-               {% if latest.date %}📥{% else %}📅{% endif %}
-            </a>         
-        </td>
+        <td>{% if latest.date %}📥{% else %}📅{% endif %}</td>
     </tr>
 {% endfor %}
 </tbody>
