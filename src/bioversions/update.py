@@ -51,6 +51,8 @@ def update(force: bool):
             v['name'] = bv.name
         if bv.bioregistry_id:
             v['prefix'] = bv.bioregistry_id
+        if bv.vtype:
+            v['type'] = bv.vtype.name
 
         if not v['releases'] or v['releases'][-1]['version'] != bv.version:
             _log_update(bv)

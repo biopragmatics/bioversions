@@ -132,6 +132,8 @@ class Bioversion:
     version: str
     #: The class that retrieved the version
     classname: str
+    #: The version type
+    vtype: VersionType
     #: The date of the current release
     date: Optional[datetime.date]
     #: The URL for the homepage of the specific version of the database
@@ -183,6 +185,7 @@ class Getter(metaclass=MetaGetter):
             name=cls.name,
             version=cls.version,
             classname=cls.__name__,
+            vtype=cls.version_type,
             homepage=cls.homepage,
             date=cls.date,
             bioregistry_id=cls.bioregistry_id,

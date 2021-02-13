@@ -9,8 +9,8 @@ This site and accompanying package are a resource for informing you what the lat
 is. Last updated on {{ site.data.versions.annotations.date }} (revision {{ site.data.versions.annotations.revision }})
 by {{ site.data.versions.annotations.author }}.
 
-Legend: 📥 means the resource reports the date of each release, 📅 means the date of release was inferred based on
-the date when the latest version was retrieved.
+Legend: 📥 means the resource reports the date of each release, 📅 means the date of release was inferred based on the
+date when the latest version was retrieved, 💡 means the date was inferred by the version string.
 
 <table>
 <thead>
@@ -31,8 +31,10 @@ the date when the latest version was retrieved.
         <td>
             {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
         </td>
-        <td>{% if latest.date %}{{ latest.date }}{% else %}{{ latest.retrieved }}{% endif %}</td>
-        <td>{% if latest.date %}📥{% else %}📅{% endif %}</td>
+        {% if latest.date %}<td>{{ latest.date }}</td><td>📥</td>
+        {% elsif latest.vtype == "date" %}<td>-</td><td>💡</td>
+        {% else %}<td>{{ latest.retrieved }}{% endif %}</td><td>📅</td>
+        {% endif %}
     </tr>
 {% endfor %}
 </tbody>
