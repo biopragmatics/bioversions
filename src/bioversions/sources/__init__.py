@@ -3,12 +3,14 @@
 """Sources for Bioversions."""
 
 import logging
+from functools import lru_cache
 from typing import Iterable, List, Mapping, Optional, Type
 
 from tqdm import tqdm
 
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
+from .stringdb import StringDBGetter
 from .chembl import ChEMBLGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
@@ -33,8 +35,6 @@ from .wikipathways import WikiPathwaysGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
 
 __all__ = [
-    'getters',
-    'getter_dict',
     'resolve',
     'get_rows',
     'get_version',
@@ -42,38 +42,47 @@ __all__ = [
 
 logger = logging.getLogger(__name__)
 
-# TODO replace with entrypoint lookup
-getters = [
-    BioGRIDGetter,
-    ChEMBLGetter,
-    ComplexPortalGetter,
-    DrugBankGetter,
-    DrugCentralGetter,
-    ExPASyGetter,
-    IntActGetter,
-    InterProGetter,
-    ReactomeGetter,
-    RfamGetter,
-    WikiPathwaysGetter,
-    MirbaseGetter,
-    MSigDBGetter,
-    PfamGetter,
-    UniProtGetter,
-    KEGGGetter,
-    PathBankGetter,
-    NCBIGeneGetter,
-    NPASSGetter,
-    BiofacquimGetter,
-    RheaGetter,
-]
-getters.extend(iter_obo_getters())
-extend_ols_getters(getters)
-getters: List[Type[Getter]] = sorted(getters, key=lambda cls: (cls.bioregistry_id or '', cls.__name__.casefold()))
 
-getter_dict: Mapping[str, Type[Getter]] = {
-    norm(getter.name): getter
-    for getter in getters
-}
+@lru_cache(maxsize=1)
+def get_getters() -> List[Type[Getter]]:
+    """Get a list of getters."""
+    # TODO replace with entrypoint lookup
+    getters = [
+        BioGRIDGetter,
+        ChEMBLGetter,
+        ComplexPortalGetter,
+        DrugBankGetter,
+        DrugCentralGetter,
+        ExPASyGetter,
+        IntActGetter,
+        InterProGetter,
+        ReactomeGetter,
+        RfamGetter,
+        WikiPathwaysGetter,
+        MirbaseGetter,
+        MSigDBGetter,
+        PfamGetter,
+        UniProtGetter,
+        KEGGGetter,
+        PathBankGetter,
+        NCBIGeneGetter,
+        NPASSGetter,
+        BiofacquimGetter,
+        RheaGetter,
+        StringDBGetter,
+    ]
+    getters.extend(iter_obo_getters())
+    extend_ols_getters(getters)
+    getters: List[Type[Getter]] = sorted(getters, key=lambda cls: (cls.bioregistry_id or '', cls.__name__.casefold()))
+    return getters
+
+
+def get_getter_dict() -> Mapping[str, Type[Getter]]:
+    """Get a dict of getters."""
+    return {
+        norm(getter.name): getter
+        for getter in get_getters()
+    }
 
 
 def resolve(name: str, use_cache: bool = True) -> Bioversion:
@@ -91,7 +100,7 @@ def _resolve_helper_cached(name: str) -> Bioversion:
 
 def _resolve_helper(name: str) -> Bioversion:
     norm_name = norm(name)
-    getter: Type[Getter] = getter_dict[norm_name]
+    getter: Type[Getter] = get_getter_dict()[norm_name]
     return getter.resolve()
 
 
@@ -106,7 +115,7 @@ def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
 
 
 def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
-    for cls in tqdm(getters, disable=not use_tqdm):
+    for cls in tqdm(get_getters(), disable=not use_tqdm):
         try:
             yv = resolve(cls.name)
         except IOError:

@@ -1,7 +1,7 @@
 annotations:
   author: cthoyt
   date: '2021-02-13'
-  revision: 4
+  revision: 5
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1537,6 +1537,12 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: RC1.4
+  vtype: other
+- name: StringDB
+  releases:
+  - date: 2020-10-17
+    retrieved: '2021-02-13'
+    version: 11.0b
   vtype: other
 - name: Sugar Kelp trait ontology
   prefix: co_360
