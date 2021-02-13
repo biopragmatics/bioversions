@@ -16,6 +16,7 @@ by {{ site.data.versions.annotations.author }}.
     <th>Name</th>
     <th>Version</th>
     <th>Release Date</th>
+    <th></th>
 </tr>
 </thead>
 <tbody>
@@ -27,7 +28,12 @@ by {{ site.data.versions.annotations.author }}.
         <td>
             {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
         </td>
-        <td>{% if latest.date %}{{ latest.date }}{% else %}📥 {{ latest.retrieved }}{% endif %}</td>
+        <td>{% if latest.date %}{{ latest.date }}{% else %}{{ latest.retrieved }}{% endif %}</td>
+        <td>
+            <a href="#" data-toggle="tooltip" data-original-title="{% if latest.date %}Acquired directly from source{% else %}Based on date retrieved{% endif %}">
+               {% if latest.date %}📥{% else %}📅{% endif %}
+            </a>         
+        </td>
     </tr>
 {% endfor %}
 </tbody>
