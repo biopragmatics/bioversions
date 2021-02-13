@@ -32,7 +32,7 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
             {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
         </td>
         {% if latest.date %}<td>{{ latest.date }}</td><td>📥</td>
-        {% elsif latest.vtype == "date" %}<td>-</td><td>💡</td>
+        {% elsif entry.vtype == "date" %}<td>-</td><td>💡</td>
         {% else %}<td>{{ latest.retrieved }}</td><td>📅</td>
         {% endif %}
     </tr>
