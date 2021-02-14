@@ -13,7 +13,6 @@ __all__ = [
     'EXPORT_PATH',
     'load_versions',
     'write_versions',
-    'read_export',
     'write_export',
 ]
 
@@ -39,12 +38,6 @@ def write_versions(versions, indent: int = 2, **kwargs):
     """Write Bioversions data."""
     with open(VERSIONS_PATH, 'w') as file:
         json.dump(versions, file, indent=indent, default=_date_converter, **kwargs)
-
-
-def read_export():
-    """Load Bioversions data from the export directory."""
-    with open(EXPORT_PATH) as file:
-        return yaml.safe_load(file)
 
 
 def write_export(versions):

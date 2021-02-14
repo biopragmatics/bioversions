@@ -7,7 +7,7 @@ from datetime import datetime
 
 import click
 
-from bioversions.resources import EXPORT_PATH, read_export, write_export, write_versions
+from bioversions.resources import EXPORT_PATH, load_versions, write_export, write_versions
 from bioversions.sources import _iter_versions
 
 __all__ = [
@@ -23,7 +23,7 @@ def _get_clean_dict(d):
 @click.option('--force', is_flag=True)
 def update(force: bool):
     """Update the data file."""
-    data = read_export()
+    data = load_versions()
 
     revision = data['annotations']['revision']
     versions = {
