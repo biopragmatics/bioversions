@@ -1,6 +1,6 @@
 annotations:
   author: cthoyt
-  date: '2021-02-13'
+  date: '2021-02-14'
   revision: 5
 database:
 - name: Agronomy Ontology
@@ -249,7 +249,7 @@ database:
   vtype: date
 - name: ChEMBL
   releases:
-  - date: 2020-05-18
+  - date: '2020-05-18'
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
     retrieved: '2021-01-05'
     version: '27'
@@ -421,7 +421,7 @@ database:
   - homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2020-12-22
     retrieved: '2020-12-23'
     version: '2020-12-22'
-  - date: 2021-01-28
+  - date: '2021-01-28'
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-01-28
     retrieved: '2021-01-29'
     version: '2021-01-28'
@@ -453,7 +453,7 @@ database:
     homepage: https://go.drugbank.com/releases/5-1-7
     retrieved: '2020-12-23'
     version: 5.1.7
-  - date: 2021-01-03
+  - date: '2021-01-03'
     homepage: https://go.drugbank.com/releases/5-1-8
     retrieved: '2021-01-04'
     version: 5.1.8
@@ -531,7 +531,7 @@ database:
   releases:
   - retrieved: '2021-01-02'
     version: 02-Dec-2020
-  - date: 2021-02-10
+  - date: '2021-02-10'
     retrieved: '2021-02-12'
     version: 10-Feb-2021
   vtype: date
@@ -632,11 +632,11 @@ database:
     version: '2020-11-18'
   - retrieved: '2020-12-22'
     version: '2020-12-08'
-  - date: 2021-01-01
+  - date: '2021-01-01'
     homepage: http://archive.geneontology.org/full/2021-01-01/
     retrieved: '2021-01-14'
     version: '2021-01-01'
-  - date: 2021-02-01
+  - date: '2021-02-01'
     homepage: http://archive.geneontology.org/full/2021-02-01/
     retrieved: '2021-02-04'
     version: '2021-02-01'
@@ -790,7 +790,7 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/83.0/
     retrieved: '2020-12-25'
     version: '83.0'
-  - date: 2021-02-11
+  - date: '2021-02-11'
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/84.0/
     retrieved: '2021-02-12'
     version: '84.0'
@@ -798,7 +798,7 @@ database:
 - name: KEGG
   prefix: kegg.pathway
   releases:
-  - date: 2021-01-01
+  - date: '2021-01-01'
     retrieved: '2021-01-02'
     version: '97.0'
   vtype: semver_minor
@@ -1467,10 +1467,10 @@ database:
 - name: Rhea
   prefix: rhea
   releases:
-  - date: 2020-12-02
+  - date: '2020-12-02'
     retrieved: '2021-02-04'
     version: '116'
-  - date: 2021-02-10
+  - date: '2021-02-10'
     retrieved: '2021-02-12'
     version: '117'
   vtype: date
@@ -1540,7 +1540,7 @@ database:
   vtype: other
 - name: StringDB
   releases:
-  - date: 2020-10-17
+  - date: '2020-10-17'
     retrieved: '2021-02-13'
     version: 11.0b
   vtype: other
@@ -1691,7 +1691,7 @@ database:
   - homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2020_06/
     retrieved: '2021-01-02'
     version: '2020_06'
-  - date: 2021-01-01
+  - date: '2021-01-01'
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_01/
     retrieved: '2021-02-12'
     version: '2021_01'
@@ -1750,11 +1750,11 @@ database:
   - homepage: http://data.wikipathways.org/20201210/
     retrieved: '2020-12-22'
     version: '20201210'
-  - date: 2021-01-10
+  - date: '2021-01-10'
     homepage: http://data.wikipathways.org/20210110/
     retrieved: '2021-01-11'
     version: '20210110'
-  - date: 2021-02-10
+  - date: '2021-02-10'
     homepage: http://data.wikipathways.org/20210210/
     retrieved: '2021-02-12'
     version: '20210210'

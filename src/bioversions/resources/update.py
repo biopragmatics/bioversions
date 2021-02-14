@@ -3,19 +3,16 @@
 """Update the web page."""
 
 import getpass
-import os
 from datetime import datetime
 
 import click
-import yaml
+
+from bioversions.resources import EXPORT_PATH, read_export, write_export, write_versions
+from bioversions.sources import _iter_versions
 
 __all__ = [
     'update',
 ]
-
-HERE = os.path.abspath(os.path.dirname(__file__))
-DATA = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'docs', '_data'))
-PATH = os.path.join(DATA, 'versions.yml')
 
 
 def _get_clean_dict(d):
@@ -26,8 +23,7 @@ def _get_clean_dict(d):
 @click.option('--force', is_flag=True)
 def update(force: bool):
     """Update the data file."""
-    with open(PATH) as file:
-        data = yaml.safe_load(file)
+    data = read_export()
 
     revision = data['annotations']['revision']
     versions = {
@@ -35,7 +31,6 @@ def update(force: bool):
         for entry in data['database']
     }
 
-    from bioversions.sources import _iter_versions
     today = datetime.now().strftime('%Y-%m-%d')
 
     changes = False
@@ -64,11 +59,11 @@ def update(force: bool):
             if bv.homepage:
                 append_dict['homepage'] = bv.homepage
             if bv.date:
-                append_dict['date'] = bv.date
+                append_dict['date'] = bv.date.strftime('%Y-%m-%d')
             v['releases'].append(append_dict)
 
     if not changes and not force:
-        click.secho(f'No changes to {PATH}', fg='yellow', bold=True)
+        click.secho(f'No changes to {EXPORT_PATH}', fg='yellow', bold=True)
     else:
         rv_database = sorted(versions.values(), key=lambda version: version['name'].lower())
         rv = {
@@ -79,9 +74,9 @@ def update(force: bool):
             },
             'database': rv_database,
         }
-        click.secho(f'Writing new {PATH}', fg='green', bold=True)
-        with open(PATH, 'w') as file:
-            yaml.dump(rv, file)
+        click.secho(f'Writing new {EXPORT_PATH}', fg='green', bold=True)
+        write_export(rv)
+        write_versions(rv)
 
 
 def _log_update(bv) -> None:
