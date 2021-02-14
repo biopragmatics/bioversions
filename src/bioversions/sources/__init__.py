@@ -10,7 +10,6 @@ from tqdm import tqdm
 
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
-from .stringdb import StringDBGetter
 from .chembl import ChEMBLGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
@@ -30,6 +29,7 @@ from .pfam import PfamGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
 from .rhea import RheaGetter
+from .stringdb import StringDBGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
