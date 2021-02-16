@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-02-14'
-  revision: 5
+  author: runner
+  date: '2021-02-16'
+  revision: 6
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -203,10 +203,10 @@ database:
   releases:
   - retrieved: '2020-12-22'
     version: '2020-11-11'
-  - date: 2021-01-22
+  - date: '2021-01-22'
     retrieved: '2021-01-24'
     version: '2021-01-22'
-  - date: 2021-02-01
+  - date: '2021-02-01'
     retrieved: '2021-02-02'
     version: '2021-02-01'
 - name: Cell Type Ontology
@@ -568,6 +568,8 @@ database:
     version: '2021-02-01'
   - retrieved: '2021-02-12'
     version: '2021-02-10'
+  - retrieved: '2021-02-16'
+    version: '2021-02-11'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1223,6 +1225,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 2.0.28
+  - retrieved: '2021-02-16'
+    version: 2.0.29
   vtype: semver
 - name: 'OPMI: Ontology of Precision Medicine and Investigation'
   prefix: opmi

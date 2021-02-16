@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 5,
-    "date": "2021-02-14",
-    "author": "cthoyt"
+    "revision": 6,
+    "date": "2021-02-16",
+    "author": "runner"
   },
   "database": [
     {
@@ -1033,6 +1033,10 @@
         {
           "retrieved": "2021-02-12",
           "version": "2021-02-10"
+        },
+        {
+          "retrieved": "2021-02-16",
+          "version": "2021-02-11"
         }
       ],
       "vtype": "date"
@@ -2191,6 +2195,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2.0.28"
+        },
+        {
+          "retrieved": "2021-02-16",
+          "version": "2.0.29"
         }
       ],
       "vtype": "semver"
