@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 6,
-    "date": "2021-02-16",
+    "revision": 7,
+    "date": "2021-02-17",
     "author": "runner"
   },
   "database": [
@@ -461,6 +461,12 @@
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27",
           "retrieved": "2021-01-05",
           "version": "27"
+        },
+        {
+          "retrieved": "2021-02-17",
+          "version": "28",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_28",
+          "date": "2021-01-15"
         }
       ],
       "vtype": "sequential"
@@ -906,6 +912,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-12-10"
+        },
+        {
+          "retrieved": "2021-02-17",
+          "version": "2021-02-15"
         }
       ],
       "vtype": "date"
@@ -992,6 +1002,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "3.26.0"
+        },
+        {
+          "retrieved": "2021-02-17",
+          "version": "3.27.0"
         }
       ],
       "vtype": "semver"
@@ -1833,6 +1847,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "20.06e"
+        },
+        {
+          "retrieved": "2021-02-17",
+          "version": "21.01d"
         }
       ],
       "vtype": "other"
@@ -3083,6 +3101,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "1.1.138"
+        },
+        {
+          "retrieved": "2021-02-17",
+          "version": "1.1.143"
         }
       ],
       "vtype": "semver"

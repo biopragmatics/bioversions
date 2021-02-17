@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-02-16'
-  revision: 6
+  date: '2021-02-17'
+  revision: 7
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -253,6 +253,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
     retrieved: '2021-01-05'
     version: '27'
+  - date: '2021-01-15'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_28
+    retrieved: '2021-02-17'
+    version: '28'
   vtype: sequential
 - name: Chemical Information Ontology
   prefix: cheminf
@@ -499,6 +503,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-10'
+  - retrieved: '2021-02-17'
+    version: '2021-02-15'
   vtype: date
 - name: Environment Exposure Ontology
   prefix: ecto
@@ -546,6 +552,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 3.26.0
+  - retrieved: '2021-02-17'
+    version: 3.27.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1007,6 +1015,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 20.06e
+  - retrieved: '2021-02-17'
+    version: 21.01d
   vtype: other
 - name: Neuro Behavior Ontology
   prefix: nbo
@@ -1711,6 +1721,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 1.1.138
+  - retrieved: '2021-02-17'
+    version: 1.1.143
   vtype: semver
 - name: VariO
   prefix: vario
