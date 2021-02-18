@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-02-17'
-  revision: 7
+  date: '2021-02-18'
+  revision: 8
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1511,6 +1511,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '1.48'
+  - retrieved: '2021-02-18'
+    version: '1.49'
   vtype: semver
 - name: Sequence Ontology
   prefix: so
@@ -1521,6 +1523,8 @@ database:
     version: '2021-02-01'
   - retrieved: '2021-02-12'
     version: '2021-02-11'
+  - retrieved: '2021-02-18'
+    version: '2021-02-16'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
