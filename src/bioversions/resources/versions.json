@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 8,
-    "date": "2021-02-18",
+    "revision": 9,
+    "date": "2021-02-19",
     "author": "runner"
   },
   "database": [
@@ -515,6 +515,10 @@
         {
           "retrieved": "2021-02-04",
           "version": "1.0.181"
+        },
+        {
+          "retrieved": "2021-02-19",
+          "version": "1.0.183"
         }
       ],
       "vtype": "semver"
@@ -1051,6 +1055,10 @@
         {
           "retrieved": "2021-02-16",
           "version": "2021-02-11"
+        },
+        {
+          "retrieved": "2021-02-19",
+          "version": "2021-02-17"
         }
       ],
       "vtype": "date"
@@ -2900,6 +2908,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-04-18"
+        },
+        {
+          "retrieved": "2021-02-19",
+          "version": "2021-02-15"
         }
       ],
       "vtype": "date"
@@ -3036,6 +3048,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-09-16"
+        },
+        {
+          "retrieved": "2021-02-19",
+          "version": "2021-02-12"
         }
       ],
       "vtype": "date"

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-02-18'
-  revision: 8
+  date: '2021-02-19'
+  revision: 9
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -283,6 +283,8 @@ database:
     version: 1.0.173
   - retrieved: '2021-02-04'
     version: 1.0.181
+  - retrieved: '2021-02-19'
+    version: 1.0.183
   vtype: semver
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -578,6 +580,8 @@ database:
     version: '2021-02-10'
   - retrieved: '2021-02-16'
     version: '2021-02-11'
+  - retrieved: '2021-02-19'
+    version: '2021-02-17'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1609,6 +1613,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-04-18'
+  - retrieved: '2021-02-19'
+    version: '2021-02-15'
   vtype: date
 - name: TEDDY
   prefix: biomodels.teddy
@@ -1684,6 +1690,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-09-16'
+  - retrieved: '2021-02-19'
+    version: '2021-02-12'
   vtype: date
 - name: Unified phenotype ontology (uPheno)
   prefix: upheno
