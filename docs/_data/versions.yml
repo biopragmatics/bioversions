@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-02-19'
-  revision: 9
+  date: '2021-02-25'
+  revision: 10
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -28,6 +28,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-18'
+  - retrieved: '2021-02-25'
+    version: '2021-02-17'
   vtype: date
 - name: Anatomical Entity Ontology
   prefix: aeo
@@ -160,6 +162,8 @@ database:
     version: '2020-12-15'
   - retrieved: '2021-02-12'
     version: '2021-02-08'
+  - retrieved: '2021-02-25'
+    version: '2021-02-18'
   vtype: date
 - name: C. elegans Development Ontology
   prefix: wbls
@@ -285,6 +289,8 @@ database:
     version: 1.0.181
   - retrieved: '2021-02-19'
     version: 1.0.183
+  - retrieved: '2021-02-25'
+    version: 1.0.184
   vtype: semver
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -396,6 +402,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-02-03'
+  - retrieved: '2021-02-25'
+    version: '2021-02-23'
   vtype: date
 - name: DICOM Controlled Terminology
   prefix: dicom
@@ -582,6 +590,8 @@ database:
     version: '2021-02-11'
   - retrieved: '2021-02-19'
     version: '2021-02-17'
+  - retrieved: '2021-02-25'
+    version: '2021-02-23'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1027,6 +1037,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-02-10'
+  - retrieved: '2021-02-25'
+    version: '2021-02-15'
   vtype: date
 - name: NOMEN - A nomenclatural ontology for biological names
   prefix: nomen
@@ -1517,6 +1529,8 @@ database:
     version: '1.48'
   - retrieved: '2021-02-18'
     version: '1.49'
+  - retrieved: '2021-02-25'
+    version: '1.51'
   vtype: semver
 - name: Sequence Ontology
   prefix: so
@@ -1659,6 +1673,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2019-09-19'
+  - retrieved: '2021-02-25'
+    version: '2020-02-05'
   vtype: date
 - name: 'The RNA Ontology (RNAO): An Ontology for Integrating RNA Sequence and Structure
     Data'
