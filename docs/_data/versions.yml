@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-02-25'
-  revision: 10
+  date: '2021-02-26'
+  revision: 11
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -439,6 +439,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-01-28
     retrieved: '2021-01-29'
     version: '2021-01-28'
+  - date: '2021-02-24'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-02-24
+    retrieved: '2021-02-26'
+    version: '2021-02-24'
   vtype: date
 - name: Drosophila Anatomy Ontology (DAO)
   prefix: fbbt
@@ -899,6 +903,8 @@ database:
     version: '2020-12-10'
   - retrieved: '2021-02-12'
     version: '2021-02-09'
+  - retrieved: '2021-02-26'
+    version: '2021-02-22'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
