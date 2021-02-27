@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-02-26'
-  revision: 11
+  date: '2021-02-27'
+  revision: 12
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -738,6 +738,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-03'
+  - retrieved: '2021-02-27'
+    version: '2021-02-18'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -905,6 +907,8 @@ database:
     version: '2021-02-09'
   - retrieved: '2021-02-26'
     version: '2021-02-22'
+  - retrieved: '2021-02-27'
+    version: '2021-02-25'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -1293,6 +1297,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-28'
+  - retrieved: '2021-02-27'
+    version: '2021-02-25'
   vtype: date
 - name: Pathogen Transmission Ontology
   prefix: trans
