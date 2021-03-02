@@ -1,7 +1,7 @@
 annotations:
-  author: runner
+  author: cthoyt
   date: '2021-03-02'
-  revision: 13
+  revision: 14
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -391,6 +391,11 @@ database:
   - retrieved: '2021-02-02'
     version: 09-10-2019
   vtype: date
+- name: Crop Dietary Nutrition Ontology
+  prefix: cdno
+  releases:
+  - retrieved: '2021-03-02'
+    version: '2021-02-06'
 - name: Ctenophore Ontology
   prefix: cteno
   releases:
@@ -555,7 +560,7 @@ database:
     version: '2021-02-08'
   vtype: date
 - name: ExPASy
-  prefix: excode
+  prefix: eccode
   releases:
   - retrieved: '2021-01-02'
     version: 02-Dec-2020
@@ -729,6 +734,11 @@ database:
   - retrieved: '2021-02-02'
     version: 05-07-2019
   vtype: date
+- name: HomoloGene
+  releases:
+  - retrieved: '2021-03-02'
+    version: '68'
+  vtype: sequential
 - name: Homology Ontology
   prefix: hom
   releases:
