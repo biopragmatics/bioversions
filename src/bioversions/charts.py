@@ -18,7 +18,7 @@ sns.set(style='whitegrid')
 def version_types_pie_chart():
     """Make a pie chart with types of versions."""
     counts = Counter(
-        getter.version_type.value
+        'Missing' if getter.version_type is None else getter.version_type.value
         for getter in get_getters()
     )
     labels, counts = zip(*counts.most_common())
