@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-02-27'
-  revision: 12
+  date: '2021-03-02'
+  revision: 13
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -116,6 +116,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.3.194
     retrieved: '2021-02-02'
     version: 4.3.194
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.3.195
+    retrieved: '2021-03-02'
+    version: 4.3.195
   vtype: semver
 - name: Biological Collections Ontology
   prefix: bco
@@ -244,6 +247,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel196/
     retrieved: '2021-02-02'
     version: '196'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel197/
+    retrieved: '2021-03-02'
+    version: '197'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -364,6 +370,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-09-02'
+  - retrieved: '2021-03-02'
+    version: '2021-02-21'
   vtype: date
 - name: Cotton ontology
   prefix: co_358
