@@ -16,6 +16,7 @@ from .daily import NCBIGeneGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .expasy import ExPASyGetter
+from .homologene import HomoloGeneGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
 from .kegg import KEGGGetter
@@ -70,6 +71,7 @@ def get_getters() -> List[Type[Getter]]:
         BiofacquimGetter,
         RheaGetter,
         StringDBGetter,
+        HomoloGeneGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
