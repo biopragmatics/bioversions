@@ -15,7 +15,7 @@ from bioversions.utils import IMG, VersionType
 sns.set(style='whitegrid')
 
 
-def verion_types_pie_chart():
+def version_types_pie_chart():
     """Make a pie chart with types of versions."""
     counts = Counter(
         getter.version_type.value
@@ -33,7 +33,7 @@ def verion_types_pie_chart():
     )
     # fig.legend(fontsize='medium')
     fig.tight_layout()
-    path = os.path.join(IMG, 'version_types.png')
+    path = os.path.join(IMG, 'version_types.svg')
     plt.savefig(path, dpi=300)
     plt.close(fig)
 
@@ -55,7 +55,7 @@ def verioning_date_formats_pie_chart():
         explode=[0.01 for _ in range(len(counts))],
     )
     fig.tight_layout()
-    path = os.path.join(IMG, 'version_date_types.png')
+    path = os.path.join(IMG, 'version_date_types.svg')
     plt.savefig(path, dpi=300)
     plt.close(fig)
 
@@ -77,7 +77,7 @@ def has_release_url():
         explode=[0.01 for _ in range(len(counts))],
     )
     fig.tight_layout()
-    path = os.path.join(IMG, 'has_release_url.png')
+    path = os.path.join(IMG, 'has_release_url.svg')
     plt.savefig(path, dpi=300)
     plt.close(fig)
 
@@ -85,7 +85,7 @@ def has_release_url():
 @click.command()
 def charts():
     """Generate charts for bioversions."""
-    verion_types_pie_chart()
+    version_types_pie_chart()
     verioning_date_formats_pie_chart()
     has_release_url()
 
