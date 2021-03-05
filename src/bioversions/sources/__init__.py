@@ -13,6 +13,7 @@ from .biogrid import BioGRIDGetter
 from .chembl import ChEMBLGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
+from .disgenet import DisGeNetGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .expasy import ExPASyGetter
@@ -72,6 +73,7 @@ def get_getters() -> List[Type[Getter]]:
         RheaGetter,
         StringDBGetter,
         HomoloGeneGetter,
+        DisGeNetGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
