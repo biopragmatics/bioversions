@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-04'
-  revision: 16
+  date: '2021-03-05'
+  revision: 17
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -657,6 +657,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-06-08'
+  - retrieved: '2021-03-05'
+    version: '2021-03-03'
   vtype: date
 - name: Gazetteer
   prefix: gaz
@@ -957,6 +959,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-25'
+  - retrieved: '2021-03-05'
+    version: '2021-03-03'
   vtype: date
 - name: Microbial Conditions Ontology
   prefix: mco
@@ -996,6 +1000,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-29'
+  - retrieved: '2021-03-05'
+    version: '2021-03-03'
   vtype: date
 - name: MOP
   prefix: mop
