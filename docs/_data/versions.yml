@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-05'
-  revision: 17
+  date: '2021-03-06'
+  revision: 18
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -459,6 +459,12 @@ database:
     retrieved: '2021-02-26'
     version: '2021-02-24'
   vtype: date
+- name: DisGeNet
+  releases:
+  - date: '2021-02-01'
+    retrieved: '2021-03-06'
+    version: '7'
+  vtype: sequential
 - name: Drosophila Anatomy Ontology (DAO)
   prefix: fbbt
   releases:
@@ -1856,6 +1862,8 @@ database:
   releases:
   - retrieved: '2020-12-11'
     version: '2020-06-26'
+  - retrieved: '2021-03-06'
+    version: '2021-03-04'
   vtype: date
 - name: Xenopus Phenotype Ontology
   prefix: xpo

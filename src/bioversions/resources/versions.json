@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 17,
-    "date": "2021-03-05",
+    "revision": 18,
+    "date": "2021-03-06",
     "author": "runner"
   },
   "database": [
@@ -836,6 +836,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-03-06",
+          "version": "7",
+          "date": "2021-02-01"
+        }
+      ],
+      "name": "DisGeNet",
+      "vtype": "sequential"
     },
     {
       "name": "Drosophila Anatomy Ontology (DAO)",
@@ -3353,6 +3364,10 @@
         {
           "retrieved": "2020-12-11",
           "version": "2020-06-26"
+        },
+        {
+          "retrieved": "2021-03-06",
+          "version": "2021-03-04"
         }
       ],
       "vtype": "date"
