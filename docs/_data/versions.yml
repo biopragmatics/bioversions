@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-06'
-  revision: 18
+  date: '2021-03-08'
+  revision: 19
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -169,6 +169,8 @@ database:
     version: '2021-02-18'
   - retrieved: '2021-03-03'
     version: '2021-03-01'
+  - retrieved: '2021-03-08'
+    version: '2021-03-05'
   vtype: date
 - name: C. elegans Development Ontology
   prefix: wbls
@@ -225,6 +227,8 @@ database:
     version: '2021-01-22'
   - retrieved: '2021-02-04'
     version: '2021-02-01'
+  - retrieved: '2021-03-08'
+    version: '2021-03-05'
   vtype: date
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
@@ -566,6 +570,8 @@ database:
     version: '2021-01-08'
   - retrieved: '2021-02-12'
     version: '2021-02-08'
+  - retrieved: '2021-03-08'
+    version: '2021-03-05'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -727,6 +733,8 @@ database:
     version: V1.6.3
   - retrieved: '2021-02-04'
     version: 1.6.3
+  - retrieved: '2021-03-08'
+    version: 1.7.0
   vtype: semver
 - name: Groundnut ontology
   prefix: co_337
@@ -798,6 +806,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2018-04-26'
+  - retrieved: '2021-03-08'
+    version: '2021-03-05'
   vtype: date
 - name: Hypertension Ontology For Clinical Data
   prefix: htn
@@ -967,6 +977,8 @@ database:
     version: '2021-01-25'
   - retrieved: '2021-03-05'
     version: '2021-03-03'
+  - retrieved: '2021-03-08'
+    version: '2021-03-05'
   vtype: date
 - name: Microbial Conditions Ontology
   prefix: mco
@@ -1253,6 +1265,8 @@ database:
     version: '2021-01-08'
   - retrieved: '2021-02-12'
     version: '2021-02-05'
+  - retrieved: '2021-03-08'
+    version: '2021-03-05'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -1663,6 +1677,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 20:10:2020 13:19
+  - retrieved: '2021-03-08'
+    version: 05:03:2021 10:21
   vtype: date
 - name: Taxonomic rank vocabulary
   prefix: taxrank
@@ -1870,6 +1886,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-07-04'
+  - retrieved: '2021-03-08'
+    version: '2021-03-05'
   vtype: date
 - name: Yam ontology
   prefix: co_343
