@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-08'
-  revision: 19
+  date: '2021-03-09'
+  revision: 20
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -279,6 +279,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 1.9.3
+  - retrieved: '2021-03-09'
+    version: '2.0'
   vtype: semver
 - name: Chemical Methods Ontology
   prefix: chmo
@@ -303,6 +305,8 @@ database:
     version: 1.0.183
   - retrieved: '2021-02-25'
     version: 1.0.184
+  - retrieved: '2021-03-09'
+    version: 1.0.187
   vtype: semver
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -1129,6 +1133,8 @@ database:
     version: 1.2.36
   - retrieved: '2021-02-12'
     version: 1.2.37
+  - retrieved: '2021-03-09'
+    version: 1.2.38
   vtype: semver
 - name: Oat ontology
   prefix: co_350
