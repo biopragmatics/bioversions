@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-09'
-  revision: 20
+  date: '2021-03-10'
+  revision: 21
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -534,6 +534,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-05-13'
+  - retrieved: '2021-03-10'
+    version: '2021-03-09'
   vtype: date
 - name: eNanoMapper Ontology
   prefix: enm
@@ -1548,6 +1550,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-18'
+  - retrieved: '2021-03-10'
+    version: '2021-03-08'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
