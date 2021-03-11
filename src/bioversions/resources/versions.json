@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 21,
-    "date": "2021-03-10",
+    "revision": 22,
+    "date": "2021-03-11",
     "author": "runner"
   },
   "database": [
@@ -1152,6 +1152,10 @@
         {
           "retrieved": "2021-03-04",
           "version": "2021-03-02"
+        },
+        {
+          "retrieved": "2021-03-11",
+          "version": "2021-03-09"
         }
       ],
       "vtype": "date"
@@ -1801,6 +1805,10 @@
         {
           "retrieved": "2021-03-08",
           "version": "2021-03-05"
+        },
+        {
+          "retrieved": "2021-03-11",
+          "version": "2021-03-09"
         }
       ],
       "vtype": "date"
@@ -3394,6 +3402,12 @@
           "homepage": "http://data.wikipathways.org/20210210/",
           "retrieved": "2021-02-12",
           "version": "20210210"
+        },
+        {
+          "retrieved": "2021-03-11",
+          "version": "20210310",
+          "homepage": "http://data.wikipathways.org/20210310/",
+          "date": "2021-03-10"
         }
       ],
       "vtype": "date"
