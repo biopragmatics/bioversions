@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-11'
-  revision: 22
+  date: '2021-03-12'
+  revision: 23
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -171,6 +171,8 @@ database:
     version: '2021-03-01'
   - retrieved: '2021-03-08'
     version: '2021-03-05'
+  - retrieved: '2021-03-12'
+    version: '2021-03-10'
   vtype: date
 - name: C. elegans Development Ontology
   prefix: wbls
@@ -633,6 +635,8 @@ database:
     version: '2021-03-02'
   - retrieved: '2021-03-11'
     version: '2021-03-09'
+  - retrieved: '2021-03-12'
+    version: '2021-03-10'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -651,6 +655,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-13'
+  - retrieved: '2021-03-12'
+    version: '2021-03-10'
   vtype: date
 - name: FMA
   prefix: fma
