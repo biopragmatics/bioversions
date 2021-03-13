@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-12'
-  revision: 23
+  date: '2021-03-13'
+  revision: 24
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -480,12 +480,16 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-14'
+  - retrieved: '2021-03-13'
+    version: '2021-03-11'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-14'
+  - retrieved: '2021-03-13'
+    version: '2021-03-11'
   vtype: date
 - name: Drug-drug Interaction and Drug-drug Interaction Evidence Ontology
   prefix: dideo
@@ -649,6 +653,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-14'
+  - retrieved: '2021-03-13'
+    version: '2021-03-11'
   vtype: date
 - name: FlyBase Developmental Ontology (FBdv)
   prefix: fbdv
@@ -671,6 +677,8 @@ database:
     version: '2020-12-04'
   - retrieved: '2021-02-12'
     version: '2021-02-03'
+  - retrieved: '2021-03-13'
+    version: '2021-03-11'
   vtype: date
 - name: Fungal gross anatomy
   prefix: fao
@@ -1367,6 +1375,8 @@ database:
     version: '2021-01-28'
   - retrieved: '2021-02-27'
     version: '2021-02-25'
+  - retrieved: '2021-03-13'
+    version: '2021-03-11'
   vtype: date
 - name: Pathogen Transmission Ontology
   prefix: trans
