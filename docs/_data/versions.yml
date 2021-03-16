@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-13'
-  revision: 24
+  date: '2021-03-16'
+  revision: 25
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -364,6 +364,10 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2020-12-16/
     retrieved: '2020-12-25'
     version: '2020-12-16'
+  - date: '2021-03-10'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-03-10/
+    retrieved: '2021-03-16'
+    version: '2021-03-10'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -607,6 +611,8 @@ database:
     version: 3.26.0
   - retrieved: '2021-02-17'
     version: 3.27.0
+  - retrieved: '2021-03-16'
+    version: 3.28.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -877,6 +883,10 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2020-12-16/
     retrieved: '2020-12-25'
     version: '2020-12-16'
+  - date: '2021-03-10'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-03-10/
+    retrieved: '2021-03-16'
+    version: '2021-03-10'
   vtype: date
 - name: InterPro
   prefix: interpro
@@ -1339,6 +1349,8 @@ database:
     version: 2.0.28
   - retrieved: '2021-02-16'
     version: 2.0.29
+  - retrieved: '2021-03-16'
+    version: 2.0.30
   vtype: semver
 - name: 'OPMI: Ontology of Precision Medicine and Investigation'
   prefix: opmi

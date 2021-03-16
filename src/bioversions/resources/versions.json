@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 24,
-    "date": "2021-03-13",
+    "revision": 25,
+    "date": "2021-03-16",
     "author": "runner"
   },
   "database": [
@@ -665,6 +665,12 @@
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2020-12-16/",
           "retrieved": "2020-12-25",
           "version": "2020-12-16"
+        },
+        {
+          "retrieved": "2021-03-16",
+          "version": "2021-03-10",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-03-10/",
+          "date": "2021-03-10"
         }
       ],
       "vtype": "date"
@@ -1107,6 +1113,10 @@
         {
           "retrieved": "2021-02-17",
           "version": "3.27.0"
+        },
+        {
+          "retrieved": "2021-03-16",
+          "version": "3.28.0"
         }
       ],
       "vtype": "semver"
@@ -1607,6 +1617,12 @@
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2020-12-16/",
           "retrieved": "2020-12-25",
           "version": "2020-12-16"
+        },
+        {
+          "retrieved": "2021-03-16",
+          "version": "2021-03-10",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-03-10/",
+          "date": "2021-03-10"
         }
       ],
       "vtype": "date"
@@ -2416,6 +2432,10 @@
         {
           "retrieved": "2021-02-16",
           "version": "2.0.29"
+        },
+        {
+          "retrieved": "2021-03-16",
+          "version": "2.0.30"
         }
       ],
       "vtype": "semver"
