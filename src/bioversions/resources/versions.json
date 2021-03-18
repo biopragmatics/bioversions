@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 25,
-    "date": "2021-03-16",
+    "revision": 26,
+    "date": "2021-03-18",
     "author": "runner"
   },
   "database": [
@@ -1019,6 +1019,10 @@
         {
           "retrieved": "2021-02-17",
           "version": "2021-02-15"
+        },
+        {
+          "retrieved": "2021-03-18",
+          "version": "2021-03-16"
         }
       ],
       "vtype": "date"
@@ -1182,6 +1186,10 @@
         {
           "retrieved": "2021-03-12",
           "version": "2021-03-10"
+        },
+        {
+          "retrieved": "2021-03-18",
+          "version": "2021-03-16"
         }
       ],
       "vtype": "date"
@@ -2889,6 +2897,11 @@
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.4/",
           "retrieved": "2020-12-25",
           "version": "14.4"
+        },
+        {
+          "retrieved": "2021-03-18",
+          "version": "14.5",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.5/"
         }
       ],
       "vtype": "semver_minor"
