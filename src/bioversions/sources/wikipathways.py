@@ -8,7 +8,7 @@ __all__ = [
     'WikiPathwaysGetter',
 ]
 
-URL = 'http://data.wikipathways.org/current/index/'
+URL = 'http://data.wikipathways.org/current/gmt/'
 
 
 class WikiPathwaysGetter(Getter):
