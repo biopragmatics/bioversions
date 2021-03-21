@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 26,
-    "date": "2021-03-18",
+    "revision": 27,
+    "date": "2021-03-21",
     "author": "runner"
   },
   "database": [
@@ -753,7 +753,8 @@
         }
       ],
       "name": "Crop Dietary Nutrition Ontology",
-      "prefix": "cdno"
+      "prefix": "cdno",
+      "vtype": "date"
     },
     {
       "name": "Ctenophore Ontology",
@@ -2807,6 +2808,17 @@
         }
       ],
       "vtype": "semver_minor"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-03-21",
+          "version": "2013-04-30"
+        }
+      ],
+      "name": "PROV Namespace",
+      "prefix": "prov",
+      "vtype": "date"
     },
     {
       "name": "Radiation Biology Ontology",

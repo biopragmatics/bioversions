@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-18'
-  revision: 26
+  date: '2021-03-21'
+  revision: 27
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -412,6 +412,7 @@ database:
   releases:
   - retrieved: '2021-03-02'
     version: '2021-02-06'
+  vtype: date
 - name: Ctenophore Ontology
   prefix: cteno
   releases:
@@ -1551,6 +1552,12 @@ database:
   - retrieved: '2020-12-22'
     version: '62.0'
   vtype: semver_minor
+- name: PROV Namespace
+  prefix: prov
+  releases:
+  - retrieved: '2021-03-21'
+    version: '2013-04-30'
+  vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
   releases:
