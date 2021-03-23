@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 27,
-    "date": "2021-03-21",
+    "revision": 28,
+    "date": "2021-03-23",
     "author": "runner"
   },
   "database": [
@@ -2026,6 +2026,12 @@
           "date": "September 2020",
           "retrieved": "2020-12-22",
           "version": "7.2"
+        },
+        {
+          "retrieved": "2021-03-23",
+          "version": "7.3",
+          "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.3",
+          "date": "2021-03-01"
         }
       ],
       "vtype": "month"
