@@ -21,6 +21,7 @@ from .homologene import HomoloGeneGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
 from .kegg import KEGGGetter
+from .mesh import MeshGetter
 from .mirbase import MirbaseGetter
 from .msigdb import MSigDBGetter
 from .npass import NPASSGetter
@@ -74,6 +75,7 @@ def get_getters() -> List[Type[Getter]]:
         StringDBGetter,
         HomoloGeneGetter,
         DisGeNetGetter,
+        MeshGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
