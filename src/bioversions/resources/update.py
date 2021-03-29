@@ -3,12 +3,14 @@
 """Update the web page."""
 
 import getpass
+import sys
 from datetime import datetime
 
 import click
 
 from bioversions.resources import EXPORT_PATH, load_versions, write_export, write_versions
 from bioversions.sources import _iter_versions
+from bioversions.version import get_git_hash
 
 __all__ = [
     'update',
@@ -23,6 +25,10 @@ def _get_clean_dict(d):
 @click.option('--force', is_flag=True)
 def update(force: bool):
     """Update the data file."""
+    if not get_git_hash():
+        click.secho('Not on development installation', fg='red')
+        return sys.exit(1)
+
     data = load_versions()
 
     revision = data['annotations']['revision']
