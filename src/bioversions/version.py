@@ -27,10 +27,6 @@ def get_git_hash() -> str:
             return ret.strip().decode('utf-8')[:8]
 
 
-def get_version(with_git_hash: bool = False):
-    """Get the bioversions version string, including a git hash."""
-    return f'{VERSION}-{get_git_hash()}' if with_git_hash else VERSION
-
 
 if __name__ == '__main__':
     print(get_version(with_git_hash=True))  # noqa: T001
