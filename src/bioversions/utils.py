@@ -36,6 +36,8 @@ class VersionType(enum.Enum):
     daily = 'Daily'
     unversioned = 'Unversioned'
     other = 'Other'
+    #: Saved for the most shameful of data
+    garbage = 'Garbage'
 
 
 def norm(s: str) -> str:
