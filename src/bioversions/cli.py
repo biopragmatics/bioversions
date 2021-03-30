@@ -12,8 +12,8 @@ from bioversions.resources.update import update
 
 @click.group(cls=DefaultGroup, default='web', default_if_no_args=True)
 @click.version_option()
-def main():  # noqa:D401
-    """The bioversions CLI."""
+def main():
+    """The bioversions CLI."""  # noqa:D401
 
 
 main.add_command(update)

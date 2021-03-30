@@ -25,8 +25,3 @@ def get_git_hash() -> str:
             return 'UNHASHED'
         else:
             return ret.strip().decode('utf-8')[:8]
-
-
-
-if __name__ == '__main__':
-    print(get_version(with_git_hash=True))  # noqa: T001
