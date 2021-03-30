@@ -109,7 +109,7 @@ class MetaGetter(type):
             try:
                 return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
             except ValueError:
-                raise ValueError(f'Issue in {cls.__name__} with version {cls.version} and fmt {cls.date_version_fmt}')
+                raise ValueError(f'Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}')
 
     @property
     def homepage(cls) -> Optional[str]:
