@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 29,
-    "date": "2021-03-29",
-    "author": "cthoyt"
+    "revision": 30,
+    "date": "2021-03-30",
+    "author": "runner"
   },
   "database": [
     {
@@ -871,6 +871,12 @@
           "version": "2021-02-24",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-02-24",
           "date": "2021-02-24"
+        },
+        {
+          "retrieved": "2021-03-30",
+          "version": "2021-03-29",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-03-29",
+          "date": "2021-03-29"
         }
       ],
       "vtype": "date"
@@ -915,6 +921,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-03-30",
+          "version": "2020-Nov",
+          "date": "2020-11-01"
+        }
+      ],
+      "name": "Drug Gene Interaction Database",
+      "vtype": "month"
     },
     {
       "name": "Drug-drug Interaction and Drug-drug Interaction Evidence Ontology",

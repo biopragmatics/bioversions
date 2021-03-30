@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-03-29'
-  revision: 29
+  author: runner
+  date: '2021-03-30'
+  revision: 30
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -479,6 +479,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-02-24
     retrieved: '2021-02-26'
     version: '2021-02-24'
+  - date: '2021-03-29'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-03-29
+    retrieved: '2021-03-30'
+    version: '2021-03-29'
   vtype: date
 - name: DisGeNet
   releases:
@@ -502,6 +506,12 @@ database:
   - retrieved: '2021-03-13'
     version: '2021-03-11'
   vtype: date
+- name: Drug Gene Interaction Database
+  releases:
+  - date: '2020-11-01'
+    retrieved: '2021-03-30'
+    version: 2020-Nov
+  vtype: month
 - name: Drug-drug Interaction and Drug-drug Interaction Evidence Ontology
   prefix: dideo
   releases:
