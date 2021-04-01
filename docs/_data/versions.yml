@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-03-30'
-  revision: 30
+  date: '2021-04-01'
+  revision: 31
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -672,6 +672,8 @@ database:
     version: '2021-03-16'
   - retrieved: '2021-03-29'
     version: '2021-03-23'
+  - retrieved: '2021-04-01'
+    version: '2021-03-30'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -934,6 +936,9 @@ database:
   - date: '2021-01-01'
     retrieved: '2021-01-02'
     version: '97.0'
+  - date: '2021-04-01'
+    retrieved: '2021-04-01'
+    version: '98.0'
   vtype: semver_minor
 - name: KiSAO
   prefix: biomodels.kisao
