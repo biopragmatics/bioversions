@@ -33,12 +33,18 @@ class ChEMBLGetter(Getter):
         version, date = None, None
         for line in bio.read().decode('utf-8').split('\n'):
             if line.startswith(RELEASE_PREFIX):
-                version = line.removeprefix(RELEASE_PREFIX).strip().removeprefix('chembl_')
+                version = _removeprefix(_removeprefix(line, RELEASE_PREFIX).strip(), 'chembl_')
             elif line.startswith(DATE_PREFIX):
-                date = line.removeprefix(DATE_PREFIX).strip()
+                date = _removeprefix(line, DATE_PREFIX).strip()
         if version is None or date is None:
             raise ValueError
         return dict(date=date, version=version)
+
+
+def _removeprefix(s, prefix):
+    if s.startswith(prefix):
+        return s[len(prefix):]
+    return s
 
 
 if __name__ == '__main__':
