@@ -28,7 +28,7 @@ class MirbaseGetter(Getter):
             ftp.cwd('pub/mirbase/CURRENT')
             for name, _ in ftp.mlsd():
                 if name.startswith(PREFIX):
-                    return name.removeprefix(PREFIX)
+                    return name[len(PREFIX):]
         raise ValueError
 
 

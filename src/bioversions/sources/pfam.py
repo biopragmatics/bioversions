@@ -25,7 +25,7 @@ class PfamGetter(Getter):
             ftp.login()
             ftp.cwd('pub/databases/Pfam/releases/')
             names = [
-                name.removeprefix('Pfam')
+                name[len('Pfam'):]
                 for name in ftp.nlst()
                 if name.startswith('Pfam')
             ]
