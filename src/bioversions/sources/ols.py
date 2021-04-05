@@ -71,7 +71,7 @@ def iter_ols_getters(*, force_download: bool = True) -> Iterable[Type[Getter]]:
             yield yv
 
 
-def extend_ols_getters(getters, *, force_download: bool = True):
+def extend_ols_getters(getters, *, force_download: bool = False):
     """Extend the getters, without adding duplicates."""
     for ols_getter in iter_ols_getters(force_download=force_download):
         if any(getter.bioregistry_id == ols_getter.bioregistry_id for getter in getters):
