@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 32,
-    "date": "2021-04-02",
+    "revision": 33,
+    "date": "2021-04-05",
     "author": "runner"
   },
   "database": [
@@ -1666,6 +1666,17 @@
       "vtype": "semver"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-05",
+          "version": "1.0.187"
+        }
+      ],
+      "name": "Informed Consent Ontology (ICO)",
+      "prefix": "ico",
+      "vtype": "semver"
+    },
+    {
       "name": "INO: Interaction Network Ontology",
       "prefix": "ino",
       "releases": [
@@ -2115,6 +2126,12 @@
           "version": "7.3",
           "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.3",
           "date": "2021-03-01"
+        },
+        {
+          "retrieved": "2021-04-05",
+          "version": "7.4",
+          "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.4",
+          "date": "2021-04-01"
         }
       ],
       "vtype": "month"

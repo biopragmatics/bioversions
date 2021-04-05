@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-04-02'
-  revision: 32
+  date: '2021-04-05'
+  revision: 33
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -908,6 +908,12 @@ database:
   - retrieved: '2021-02-04'
     version: 1.0.100
   vtype: semver
+- name: Informed Consent Ontology (ICO)
+  prefix: ico
+  releases:
+  - retrieved: '2021-04-05'
+    version: 1.0.187
+  vtype: semver
 - name: 'INO: Interaction Network Ontology'
   prefix: ino
   releases:
@@ -1158,6 +1164,10 @@ database:
     homepage: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.3
     retrieved: '2021-03-23'
     version: '7.3'
+  - date: '2021-04-01'
+    homepage: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.4
+    retrieved: '2021-04-05'
+    version: '7.4'
   vtype: month
 - name: Mungbean ontology
   prefix: co_346
