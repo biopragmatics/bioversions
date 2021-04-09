@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-04-08'
-  revision: 34
+  date: '2021-04-09'
+  revision: 35
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -624,6 +624,9 @@ database:
   - date: '2021-02-10'
     retrieved: '2021-02-12'
     version: 10-Feb-2021
+  - date: '2021-04-07'
+    retrieved: '2021-04-09'
+    version: 07-Apr-2021
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -1111,6 +1114,8 @@ database:
     version: '2021-01-29'
   - retrieved: '2021-03-05'
     version: '2021-03-03'
+  - retrieved: '2021-04-09'
+    version: '2021-04-07'
   vtype: date
 - name: MOP
   prefix: mop
@@ -1536,6 +1541,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-09'
+  - retrieved: '2021-04-09'
+    version: '2021-04-05'
   vtype: date
 - name: Planarian Phenotype Ontology (PLANP)
   prefix: planp
@@ -1696,6 +1703,9 @@ database:
   - date: '2021-02-10'
     retrieved: '2021-02-12'
     version: '117'
+  - date: '2021-04-07'
+    retrieved: '2021-04-09'
+    version: '118'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -1932,6 +1942,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_01/
     retrieved: '2021-02-12'
     version: '2021_01'
+  - date: '2021-02-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_02/
+    retrieved: '2021-04-09'
+    version: '2021_02'
   vtype: month
 - name: Unit Ontology
   prefix: uo

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 34,
-    "date": "2021-04-08",
+    "revision": 35,
+    "date": "2021-04-09",
     "author": "runner"
   },
   "database": [
@@ -1134,6 +1134,11 @@
           "date": "2021-02-10",
           "retrieved": "2021-02-12",
           "version": "10-Feb-2021"
+        },
+        {
+          "retrieved": "2021-04-09",
+          "version": "07-Apr-2021",
+          "date": "2021-04-07"
         }
       ],
       "vtype": "date"
@@ -2031,6 +2036,10 @@
         {
           "retrieved": "2021-03-05",
           "version": "2021-03-03"
+        },
+        {
+          "retrieved": "2021-04-09",
+          "version": "2021-04-07"
         }
       ],
       "vtype": "date"
@@ -2764,6 +2773,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-12-09"
+        },
+        {
+          "retrieved": "2021-04-09",
+          "version": "2021-04-05"
         }
       ],
       "vtype": "date"
@@ -3056,6 +3069,11 @@
           "date": "2021-02-10",
           "retrieved": "2021-02-12",
           "version": "117"
+        },
+        {
+          "retrieved": "2021-04-09",
+          "version": "118",
+          "date": "2021-04-07"
         }
       ],
       "vtype": "date"
@@ -3488,6 +3506,12 @@
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_01/",
           "retrieved": "2021-02-12",
           "version": "2021_01"
+        },
+        {
+          "retrieved": "2021-04-09",
+          "version": "2021_02",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_02/",
+          "date": "2021-02-01"
         }
       ],
       "vtype": "month"
