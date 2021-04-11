@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-04-09'
-  revision: 35
+  date: '2021-04-11'
+  revision: 36
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -944,6 +944,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/84.0/
     retrieved: '2021-02-12'
     version: '84.0'
+  - date: '2021-02-11'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/85.0/
+    retrieved: '2021-04-11'
+    version: '85.0'
   vtype: semver_minor
 - name: KEGG
   prefix: kegg.pathway
