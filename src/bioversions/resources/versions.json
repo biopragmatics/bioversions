@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 37,
-    "date": "2021-04-13",
+    "revision": 38,
+    "date": "2021-04-14",
     "author": "runner"
   },
   "database": [
@@ -89,6 +89,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "4.1.1"
+        }
+      ],
+      "name": "Apollo Structured Vocabulary",
+      "prefix": "apollo_sv",
+      "vtype": "semver"
     },
     {
       "name": "Apollo Structured Vocabulary (Apollo-SV)",
@@ -225,6 +236,17 @@
       "vtype": "semver"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "17-07-2019"
+        }
+      ],
+      "name": "Bioinformatics operations, data types, formats, identifiers and topics",
+      "prefix": "edam",
+      "vtype": "date"
+    },
+    {
       "name": "Biological Collections Ontology",
       "prefix": "bco",
       "releases": [
@@ -277,6 +299,17 @@
           "version": "29-11-2019"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-02-09"
+        }
+      ],
+      "name": "BRENDA tissue / enzyme source",
+      "prefix": "bto",
       "vtype": "date"
     },
     {
@@ -349,6 +382,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-04-09"
+        }
+      ],
+      "name": "C. elegans development ontology",
+      "prefix": "wbls",
+      "vtype": "date"
+    },
+    {
       "name": "C. elegans Gross Anatomy Ontology",
       "prefix": "wbbt",
       "releases": [
@@ -357,6 +401,17 @@
           "version": "2020-12-14"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-04-09"
+        }
+      ],
+      "name": "C. elegans phenotype",
+      "prefix": "wbphenotype",
       "vtype": "date"
     },
     {
@@ -404,6 +459,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2.1.162"
+        }
+      ],
+      "name": "Cell Line Ontology",
+      "prefix": "clo",
+      "vtype": "semver"
+    },
+    {
       "name": "Cell Ontology",
       "releases": [
         {
@@ -419,8 +485,14 @@
           "date": "2021-02-01",
           "retrieved": "2021-02-02",
           "version": "2021-02-01"
+        },
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-05"
         }
-      ]
+      ],
+      "prefix": "cl",
+      "vtype": "date"
     },
     {
       "name": "Cell Type Ontology",
@@ -621,6 +693,17 @@
       "vtype": "semver"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-05-29"
+        }
+      ],
+      "name": "Clytia hemisphaerica Development and Anatomy Ontology",
+      "prefix": "clyh",
+      "vtype": "date"
+    },
+    {
       "name": "Clytia hemisphaerica Development and Anatomy Ontology (CLYH)",
       "prefix": "clyh",
       "releases": [
@@ -729,6 +812,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.0.187"
+        }
+      ],
+      "name": "Coronavirus Infectious Disease Ontology",
+      "prefix": "cido",
+      "vtype": "semver"
     },
     {
       "name": "Cotton ontology",
@@ -860,6 +954,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-06-19"
+        }
+      ],
+      "name": "Dictyostelium discoideum phenotype ontology",
+      "prefix": "ddpheno",
+      "vtype": "date"
+    },
+    {
       "name": "Disease Ontology",
       "prefix": "doid",
       "releases": [
@@ -923,6 +1028,39 @@
           "version": "2021-03-11"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-10"
+        }
+      ],
+      "name": "Drosophila development",
+      "prefix": "fbdv",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-11"
+        }
+      ],
+      "name": "Drosophila gross anatomy",
+      "prefix": "fbbt",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-11"
+        }
+      ],
+      "name": "Drosophila Phenotype Ontology",
+      "prefix": "dpo",
       "vtype": "date"
     },
     {
@@ -1040,6 +1178,10 @@
         {
           "retrieved": "2021-03-10",
           "version": "2021-03-09"
+        },
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-04-12"
         }
       ],
       "vtype": "date"
@@ -1112,6 +1254,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-17"
+        }
+      ],
+      "name": "Environmental conditions, treatments and exposures ontology",
+      "prefix": "ecto",
+      "vtype": "date"
+    },
+    {
       "name": "Evidence Code Ontology",
       "prefix": "eco",
       "releases": [
@@ -1128,6 +1281,17 @@
           "version": "2021-03-05"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-05"
+        }
+      ],
+      "name": "Evidence ontology",
+      "prefix": "eco",
       "vtype": "date"
     },
     {
@@ -1254,6 +1418,10 @@
         {
           "retrieved": "2021-04-01",
           "version": "2021-03-30"
+        },
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-04-12"
         }
       ],
       "vtype": "date"
@@ -1267,6 +1435,17 @@
           "version": "09-09-2019"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-11"
+        }
+      ],
+      "name": "FlyBase Controlled Vocabulary",
+      "prefix": "fbcv",
       "vtype": "date"
     },
     {
@@ -1331,6 +1510,17 @@
           "version": "2021-03-20"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-04-13"
+        }
+      ],
+      "name": "Foundational Model of Anatomy",
+      "prefix": "fma",
       "vtype": "date"
     },
     {
@@ -1442,6 +1632,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-03-08"
+        }
+      ],
+      "name": "Genotype Ontology",
+      "prefix": "geno",
+      "vtype": "date"
+    },
+    {
       "name": "GEO",
       "prefix": "geo",
       "releases": [
@@ -1455,6 +1656,28 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2016-03-26"
+        }
+      ],
+      "name": "Geographical Entity Ontology",
+      "prefix": "geo",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.7.0"
+        }
+      ],
+      "name": "Glycan Naming and Subsumption Ontology (GNOme)",
+      "prefix": "gno",
+      "vtype": "semver"
     },
     {
       "name": "Glycan Naming Ontology",
@@ -1616,6 +1839,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "10-06-2019"
+        }
+      ],
+      "name": "Hypertension Ontology",
+      "prefix": "htn",
+      "vtype": "date"
+    },
+    {
       "name": "Hypertension Ontology For Clinical Data",
       "prefix": "htn",
       "releases": [
@@ -1674,6 +1908,10 @@
         {
           "retrieved": "2021-02-04",
           "version": "1.0.100"
+        },
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.0.187"
         }
       ],
       "vtype": "semver"
@@ -1719,6 +1957,28 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2.1"
+        }
+      ],
+      "name": "Integrative and Conjugative Element Ontology",
+      "prefix": "iceo",
+      "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.0.112"
+        }
+      ],
+      "name": "Interaction Network Ontology",
+      "prefix": "ino",
+      "vtype": "semver"
+    },
+    {
       "name": "InterPro",
       "prefix": "interpro",
       "releases": [
@@ -1758,6 +2018,17 @@
         }
       ],
       "vtype": "semver_minor"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2.14"
+        }
+      ],
+      "name": "Kinetic Simulation Algorithm Ontology",
+      "prefix": "biomodels.kisao",
+      "vtype": "semver"
     },
     {
       "name": "KiSAO",
@@ -1845,6 +2116,28 @@
           "version": "21-11-2019"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "21-11-2019"
+        }
+      ],
+      "name": "Mass spectrometry ontology",
+      "prefix": "ms",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-08-24"
+        }
+      ],
+      "name": "Mathematical modeling ontology",
+      "prefix": "mamo",
       "vtype": "date"
     },
     {
@@ -1942,6 +2235,17 @@
       "vtype": "year"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.0.1"
+        }
+      ],
+      "name": "Metabolomics Standards Initiative Ontology",
+      "prefix": "msio",
+      "vtype": "semver"
+    },
+    {
       "name": "Metabolomics Standards Initiative Ontology (MSIO)",
       "prefix": "msio",
       "releases": [
@@ -1977,6 +2281,17 @@
           "version": "2021-03-23"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "09-05-2017"
+        }
+      ],
+      "name": "MIAPA Ontology",
+      "prefix": "miapa",
       "vtype": "date"
     },
     {
@@ -2029,6 +2344,17 @@
       "vtype": "semver_minor"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-04-13"
+        }
+      ],
+      "name": "Molecular Interactions Controlled Vocabulary",
+      "prefix": "mi",
+      "vtype": "date"
+    },
+    {
       "name": "Molecular Interactions Ontology",
       "prefix": "mi",
       "releases": [
@@ -2037,6 +2363,28 @@
           "version": "2020-04-13"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2014-09-03"
+        }
+      ],
+      "name": "Molecular Process Ontology",
+      "prefix": "mop",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-04-07"
+        }
+      ],
+      "name": "Monarch Disease Ontology",
+      "prefix": "mondo",
       "vtype": "date"
     },
     {
@@ -2100,6 +2448,17 @@
           "version": "2017-02-07"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2017-02-07"
+        }
+      ],
+      "name": "Mouse adult gross anatomy",
+      "prefix": "ma",
       "vtype": "date"
     },
     {
@@ -2171,6 +2530,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-01-21"
+        }
+      ],
+      "name": "Name Reaction Ontology",
+      "prefix": "rxno",
+      "vtype": "date"
+    },
+    {
       "name": "NCBI Gene",
       "prefix": "ncbigene",
       "releases": [
@@ -2180,6 +2550,17 @@
         }
       ],
       "vtype": "daily"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-02-15"
+        }
+      ],
+      "name": "NCBI organismal classification",
+      "prefix": "ncbitaxon",
+      "vtype": "date"
     },
     {
       "name": "NCI Thesaurus",
@@ -2210,6 +2591,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.1.0"
+        }
+      ],
+      "name": "NMR-instrument specific component of metabolomics investigations",
+      "prefix": "nmr",
+      "vtype": "semver"
     },
     {
       "name": "NOMEN - A nomenclatural ontology for biological names",
@@ -2371,6 +2763,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-02-02"
+        }
+      ],
+      "name": "Ontology for Biobanking",
+      "prefix": "obib",
+      "vtype": "date"
+    },
+    {
       "name": "Ontology for BIoBanking (OBIB)",
       "prefix": "obib",
       "releases": [
@@ -2419,6 +2822,17 @@
       "vtype": "semver"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "07-06-2019"
+        }
+      ],
+      "name": "Ontology for MicroRNA Target",
+      "prefix": "omit",
+      "vtype": "date"
+    },
+    {
       "name": "Ontology for Nutritional Studies",
       "prefix": "ons",
       "releases": [
@@ -2445,6 +2859,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-01-28"
+        }
+      ],
+      "name": "Ontology for Parasite LifeCycle",
+      "prefix": "opl",
+      "vtype": "date"
+    },
+    {
       "name": "Ontology for RNA sequencing (ORNASEQ)",
       "prefix": "ornaseq",
       "releases": [
@@ -2454,6 +2879,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.2.38"
+        }
+      ],
+      "name": "Ontology of Adverse Events",
+      "prefix": "oae",
+      "vtype": "semver"
     },
     {
       "name": "Ontology of Arthropod Circulatory Systems",
@@ -2498,6 +2934,28 @@
         }
       ],
       "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "02-10-2019"
+        }
+      ],
+      "name": "Ontology of Host Pathogen Interactions",
+      "prefix": "ohpi",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2019-09-17"
+        }
+      ],
+      "name": "Ontology of Host-Microbiome Interactions",
+      "prefix": "ohmi",
+      "vtype": "date"
     },
     {
       "name": "Ontology of Medically Related Social Entities",
@@ -2545,6 +3003,28 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-01-11"
+        }
+      ],
+      "name": "Ontology of Organizational Structures of Trauma centers and Trauma systems",
+      "prefix": "oostt",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.0.118"
+        }
+      ],
+      "name": "Ontology of Precision Medicine and Investigation",
+      "prefix": "opmi",
+      "vtype": "semver"
+    },
+    {
       "name": "Ontology of Prokaryotic Phenotypic and Metabolic Characters",
       "prefix": "micro",
       "releases": [
@@ -2557,6 +3037,28 @@
           "version": "1.5.1"
         }
       ],
+      "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2019-07-08"
+        }
+      ],
+      "name": "Ontology of RNA Sequencing",
+      "prefix": "ornaseq",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2.0.30"
+        }
+      ],
+      "name": "Ontology of units of Measure",
+      "prefix": "om",
       "vtype": "semver"
     },
     {
@@ -2576,6 +3078,17 @@
           "version": "2.0.30"
         }
       ],
+      "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.0.34"
+        }
+      ],
+      "name": "Ontology of Vaccine Adverse Events",
+      "prefix": "ovae",
       "vtype": "semver"
     },
     {
@@ -2642,6 +3155,17 @@
       "vtype": "semver_minor"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-11"
+        }
+      ],
+      "name": "Pathogen Host Interaction Phenotype Ontology",
+      "prefix": "phipo",
+      "vtype": "date"
+    },
+    {
       "name": "Pathogen Host Interactions Phenotype Ontology",
       "prefix": "phipo",
       "releases": [
@@ -2680,6 +3204,17 @@
           "version": "23-10-2019"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "23-10-2019"
+        }
+      ],
+      "name": "Pathway ontology",
+      "prefix": "pw",
       "vtype": "date"
     },
     {
@@ -2734,7 +3269,9 @@
           "retrieved": "2020-12-22",
           "version": "2020-08-02"
         }
-      ]
+      ],
+      "prefix": "pato",
+      "vtype": "date"
     },
     {
       "name": "PHI-base Ontology",
@@ -2796,6 +3333,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-03-28"
+        }
+      ],
+      "name": "Planarian Phenotype Ontology",
+      "prefix": "planp",
+      "vtype": "date"
+    },
+    {
       "name": "Planarian Phenotype Ontology (PLANP)",
       "prefix": "planp",
       "releases": [
@@ -2815,6 +3363,17 @@
           "version": "2020-08-21"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-08-21"
+        }
+      ],
+      "name": "Plant Experimental Conditions Ontology",
+      "prefix": "peco",
       "vtype": "date"
     },
     {
@@ -2899,6 +3458,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2016-09-13"
+        }
+      ],
+      "name": "Porifera Ontology",
+      "prefix": "poro",
+      "vtype": "date"
+    },
+    {
       "name": "Potato ontology",
       "prefix": "co_330",
       "releases": [
@@ -2921,6 +3491,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2.5.0"
+        }
+      ],
+      "name": "Probability Distribution Ontology",
+      "prefix": "probonto",
+      "vtype": "semver"
+    },
+    {
       "name": "ProbOnto",
       "prefix": "probonto",
       "releases": [
@@ -2930,6 +3511,17 @@
         }
       ],
       "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-04-14"
+        }
+      ],
+      "name": "Protein modification",
+      "prefix": "mod",
+      "vtype": "date"
     },
     {
       "name": "Protein Modification Ontology",
@@ -3104,6 +3696,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "15-04-2019"
+        }
+      ],
+      "name": "RNA ontology",
+      "prefix": "rnao",
+      "vtype": "date"
+    },
+    {
       "name": "RXNO",
       "prefix": "rxno",
       "releases": [
@@ -3168,6 +3771,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-02-16"
+        }
+      ],
+      "name": "Sequence types and features ontology",
+      "prefix": "so",
+      "vtype": "date"
+    },
+    {
       "name": "Sickle Cell Disease Ontology",
       "prefix": "scdo",
       "releases": [
@@ -3188,6 +3802,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.7"
+        }
+      ],
+      "name": "Software ontology",
+      "prefix": "swo",
+      "vtype": "semver"
     },
     {
       "name": "Sorghum ontology",
@@ -3356,6 +3981,28 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2014-04-24"
+        }
+      ],
+      "name": "Terminology for Description of Dynamics",
+      "prefix": "biomodels.teddy",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-12-18"
+        }
+      ],
+      "name": "The Amphioxus Development and Anatomy Ontology",
+      "prefix": "amphx",
+      "vtype": "date"
+    },
+    {
       "name": "The Behaviour Change Intervention Ontology",
       "prefix": "bcio",
       "releases": [
@@ -3387,6 +4034,39 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-05-22"
+        }
+      ],
+      "name": "The Echinoderm Anatomy and Development Ontology",
+      "prefix": "ecao",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-03-20"
+        }
+      ],
+      "name": "The Food Ontology",
+      "prefix": "foodon",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "1.0.59"
+        }
+      ],
+      "name": "The Ontology of Genes and Genomes",
+      "prefix": "ogg",
+      "vtype": "semver"
     },
     {
       "name": "The Oral Health and Disease Ontology",
@@ -3426,6 +4106,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "RC1.4"
+        }
+      ],
+      "name": "The Statistical Methods Ontology",
+      "prefix": "stato",
+      "vtype": "other"
+    },
+    {
       "name": "The Virus Infectious Disease Ontology",
       "prefix": "vido",
       "releases": [
@@ -3448,6 +4139,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020/07/09"
+        }
+      ],
+      "name": "Toxic Process Ontology",
+      "prefix": "txpo",
+      "vtype": "date"
+    },
+    {
       "name": "TOXic Process Ontology (TXPO)",
       "prefix": "txpo",
       "releases": [
@@ -3456,6 +4158,17 @@
           "version": "2020/07/09"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-02-12"
+        }
+      ],
+      "name": "Uber Anatomy Ontology",
+      "prefix": "uberon",
       "vtype": "date"
     },
     {
@@ -3471,6 +4184,17 @@
           "version": "2021-02-12"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "31-10-2017"
+        }
+      ],
+      "name": "Unified Phenotype Ontology",
+      "prefix": "upheno",
       "vtype": "date"
     },
     {
@@ -3493,6 +4217,17 @@
           "version": "21-11-2019"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "21-11-2019"
+        }
+      ],
+      "name": "Unimod protein modification database for mass spectrometry",
+      "prefix": "unimod",
       "vtype": "date"
     },
     {
@@ -3542,6 +4277,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2020-03-10"
+        }
+      ],
+      "name": "Units of measurement ontology",
+      "prefix": "uo",
+      "vtype": "date"
+    },
+    {
       "name": "Vaccine Ontology",
       "prefix": "vo",
       "releases": [
@@ -3555,6 +4301,17 @@
         }
       ],
       "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2018-11-09"
+        }
+      ],
+      "name": "Variation Ontology",
+      "prefix": "vario",
+      "vtype": "date"
     },
     {
       "name": "VariO",
@@ -3598,6 +4355,17 @@
           "version": "2021-01-08"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-04-14",
+          "version": "2021-01-08"
+        }
+      ],
+      "name": "VEuPathDB ontology",
+      "prefix": "eupath",
       "vtype": "date"
     },
     {
