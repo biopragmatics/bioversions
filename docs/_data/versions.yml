@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-04-16'
-  revision: 40
+  date: '2021-04-18'
+  revision: 41
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -737,6 +737,8 @@ database:
     version: 3.27.0
   - retrieved: '2021-03-16'
     version: 3.28.0
+  - retrieved: '2021-04-18'
+    version: 3.29.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1251,6 +1253,8 @@ database:
     version: '2021-03-09'
   - retrieved: '2021-03-29'
     version: '2021-03-23'
+  - retrieved: '2021-04-18'
+    version: '2021-04-15'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
