@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 from cachier import cachier
 from dataclasses_json import dataclass_json
 
-BIOVERSIONS_HOME = pystow.get('bioversions')
+BIOVERSIONS_HOME = pystow.join('bioversions')
 HERE = os.path.abspath(os.path.dirname(__file__))
 DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'docs'))
 IMG = os.path.join(DOCS, 'img')
