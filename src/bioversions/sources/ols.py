@@ -41,7 +41,7 @@ def make_ols_getter(ols, bioregistry_id: str) -> Optional[Type[Getter]]:
 
     version = ols[ols_id]['config'].get('version')
     if version is None:
-        logger.warning('[%s] no OLS version', bioregistry_id)
+        logger.debug('[%s] no OLS version', bioregistry_id)
         return
 
     version = _clean_version(bioregistry_id, version)
