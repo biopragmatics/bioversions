@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-04-18'
-  revision: 41
+  date: '2021-04-21'
+  revision: 42
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -667,6 +667,8 @@ database:
     version: '2021-02-15'
   - retrieved: '2021-03-18'
     version: '2021-03-16'
+  - retrieved: '2021-04-21'
+    version: '2021-04-19'
   vtype: date
 - name: Environment Exposure Ontology
   prefix: ecto
@@ -783,6 +785,8 @@ database:
     version: '2021-04-12'
   - retrieved: '2021-04-15'
     version: '2021-04-13'
+  - retrieved: '2021-04-21'
+    version: '2021-04-19'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -976,6 +980,8 @@ database:
     version: '2021-02-18'
   - retrieved: '2021-03-29'
     version: '2021-03-18'
+  - retrieved: '2021-04-21'
+    version: '2021-04-19'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1537,6 +1543,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-12-16'
+  - retrieved: '2021-04-21'
+    version: '2021-04-06'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -1639,6 +1647,8 @@ database:
     version: '2021-02-05'
   - retrieved: '2021-03-08'
     version: '2021-03-05'
+  - retrieved: '2021-04-21'
+    version: '2021-04-16'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -1823,6 +1833,8 @@ database:
     version: '2020-08-02'
   - retrieved: '2021-04-16'
     version: '2021-04-14'
+  - retrieved: '2021-04-21'
+    version: '2021-04-16'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
