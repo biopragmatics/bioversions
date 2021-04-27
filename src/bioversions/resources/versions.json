@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 44,
-    "date": "2021-04-24",
+    "revision": 45,
+    "date": "2021-04-27",
     "author": "runner"
   },
   "database": [
@@ -3631,6 +3631,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2021-01-20"
+        },
+        {
+          "retrieved": "2021-04-27",
+          "version": "2021-02-26"
         }
       ],
       "vtype": "date"
@@ -3843,6 +3847,10 @@
         {
           "retrieved": "2021-04-23",
           "version": "2021-04-21"
+        },
+        {
+          "retrieved": "2021-04-27",
+          "version": "2021-04-24"
         }
       ],
       "name": "Sequence types and features ontology",

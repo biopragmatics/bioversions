@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-04-24'
-  revision: 44
+  date: '2021-04-27'
+  revision: 45
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -2007,6 +2007,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-20'
+  - retrieved: '2021-04-27'
+    version: '2021-02-26'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -2124,6 +2126,8 @@ database:
     version: '2021-02-16'
   - retrieved: '2021-04-23'
     version: '2021-04-21'
+  - retrieved: '2021-04-27'
+    version: '2021-04-24'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
