@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-04-27'
-  revision: 45
+  date: '2021-04-29'
+  revision: 46
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -671,6 +671,8 @@ database:
     version: '2021-03-16'
   - retrieved: '2021-04-21'
     version: '2021-04-19'
+  - retrieved: '2021-04-29'
+    version: '2021-04-26'
   vtype: date
 - name: Environment Exposure Ontology
   prefix: ecto
@@ -793,6 +795,8 @@ database:
     version: '2021-04-19'
   - retrieved: '2021-04-23'
     version: '2021-04-21'
+  - retrieved: '2021-04-29'
+    version: '2021-04-26'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
