@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 49,
-    "date": "2021-05-02",
+    "revision": 50,
+    "date": "2021-05-04",
     "author": "runner"
   },
   "database": [
@@ -311,6 +311,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-02-09"
+        },
+        {
+          "retrieved": "2021-05-04",
+          "version": "2021-04-27"
         }
       ],
       "name": "BRENDA tissue / enzyme source",
@@ -1646,6 +1650,12 @@
           "homepage": "http://archive.geneontology.org/full/2021-02-01/",
           "retrieved": "2021-02-04",
           "version": "2021-02-01"
+        },
+        {
+          "retrieved": "2021-05-04",
+          "version": "2021-05-01",
+          "homepage": "http://archive.geneontology.org/full/2021-05-01/",
+          "date": "2021-05-01"
         }
       ],
       "vtype": "date"
@@ -2458,6 +2468,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-04-07"
+        },
+        {
+          "retrieved": "2021-05-04",
+          "version": "2021-04-30"
         }
       ],
       "name": "Monarch Disease Ontology",

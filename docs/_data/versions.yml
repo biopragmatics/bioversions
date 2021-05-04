@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-02'
-  revision: 49
+  date: '2021-05-04'
+  revision: 50
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -173,6 +173,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-02-09'
+  - retrieved: '2021-05-04'
+    version: '2021-04-27'
   vtype: date
 - name: Brenda Tissue Ontology
   prefix: bto
@@ -901,6 +903,10 @@ database:
     homepage: http://archive.geneontology.org/full/2021-02-01/
     retrieved: '2021-02-04'
     version: '2021-02-01'
+  - date: '2021-05-01'
+    homepage: http://archive.geneontology.org/full/2021-05-01/
+    retrieved: '2021-05-04'
+    version: '2021-05-01'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -1345,6 +1351,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-04-07'
+  - retrieved: '2021-05-04'
+    version: '2021-04-30'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
