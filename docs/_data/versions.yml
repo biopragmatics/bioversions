@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-05'
-  revision: 51
+  date: '2021-05-06'
+  revision: 52
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1294,6 +1294,8 @@ database:
     version: '2021-04-15'
   - retrieved: '2021-05-01'
     version: '2021-04-29'
+  - retrieved: '2021-05-06'
+    version: '2021-05-04'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
