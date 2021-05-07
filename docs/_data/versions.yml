@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-06'
-  revision: 52
+  date: '2021-05-07'
+  revision: 53
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -229,6 +229,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-04-09'
+  - retrieved: '2021-05-07'
+    version: '2021-05-05'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -809,6 +811,8 @@ database:
     version: '2021-04-21'
   - retrieved: '2021-04-29'
     version: '2021-04-26'
+  - retrieved: '2021-05-07'
+    version: '2021-05-05'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2485,6 +2489,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-01-08'
+  - retrieved: '2021-05-07'
+    version: '2021-04-28'
   vtype: date
 - name: Vitis ontology
   prefix: co_356

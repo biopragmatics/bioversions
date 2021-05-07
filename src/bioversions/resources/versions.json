@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 52,
-    "date": "2021-05-06",
+    "revision": 53,
+    "date": "2021-05-07",
     "author": "runner"
   },
   "database": [
@@ -417,6 +417,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-04-09"
+        },
+        {
+          "retrieved": "2021-05-07",
+          "version": "2021-05-05"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1478,6 +1482,10 @@
         {
           "retrieved": "2021-04-29",
           "version": "2021-04-26"
+        },
+        {
+          "retrieved": "2021-05-07",
+          "version": "2021-05-05"
         }
       ],
       "vtype": "date"
@@ -4501,6 +4509,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-01-08"
+        },
+        {
+          "retrieved": "2021-05-07",
+          "version": "2021-04-28"
         }
       ],
       "name": "VEuPathDB ontology",
