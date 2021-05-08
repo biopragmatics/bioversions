@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-07'
-  revision: 53
+  date: '2021-05-08'
+  revision: 54
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -231,6 +231,8 @@ database:
     version: '2021-04-09'
   - retrieved: '2021-05-07'
     version: '2021-05-05'
+  - retrieved: '2021-05-08'
+    version: '2021-05-06'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -1712,6 +1714,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: 1.0.118
+  - retrieved: '2021-05-08'
+    version: 1.0.125
   vtype: semver
 - name: Ontology of Prokaryotic Phenotypic and Metabolic Characters
   prefix: micro
@@ -2171,6 +2175,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2019-06-26'
+  - retrieved: '2021-05-08'
+    version: '2021-04-15'
   vtype: date
 - name: Social Insect Behavior Ontology
   prefix: sibo
@@ -2453,6 +2459,8 @@ database:
     version: 1.1.138
   - retrieved: '2021-02-17'
     version: 1.1.143
+  - retrieved: '2021-05-08'
+    version: 1.1.148
   vtype: semver
 - name: Variation Ontology
   prefix: vario
