@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-08'
-  revision: 54
+  date: '2021-05-12'
+  revision: 55
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -464,6 +464,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: 1.0.187
+  - retrieved: '2021-05-12'
+    version: 1.0.211
   vtype: semver
 - name: Cotton ontology
   prefix: co_358
@@ -589,6 +591,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-03-10'
+  - retrieved: '2021-05-12'
+    version: '2021-05-10'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -731,6 +735,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-03-05'
+  - retrieved: '2021-05-12'
+    version: '2021-05-07'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -1694,6 +1700,8 @@ database:
     version: '2021-03-05'
   - retrieved: '2021-04-21'
     version: '2021-04-16'
+  - retrieved: '2021-05-12'
+    version: '2021-05-07'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt

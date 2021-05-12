@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 54,
-    "date": "2021-05-08",
+    "revision": 55,
+    "date": "2021-05-12",
     "author": "runner"
   },
   "database": [
@@ -844,6 +844,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "1.0.187"
+        },
+        {
+          "retrieved": "2021-05-12",
+          "version": "1.0.211"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -1067,6 +1071,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-03-10"
+        },
+        {
+          "retrieved": "2021-05-12",
+          "version": "2021-05-10"
         }
       ],
       "name": "Drosophila development",
@@ -1328,6 +1336,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-03-05"
+        },
+        {
+          "retrieved": "2021-05-12",
+          "version": "2021-05-07"
         }
       ],
       "name": "Evidence ontology",
@@ -3102,6 +3114,10 @@
         {
           "retrieved": "2021-04-21",
           "version": "2021-04-16"
+        },
+        {
+          "retrieved": "2021-05-12",
+          "version": "2021-05-07"
         }
       ],
       "vtype": "date"
