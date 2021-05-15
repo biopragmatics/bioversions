@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-14'
-  revision: 56
+  date: '2021-05-15'
+  revision: 57
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -827,6 +827,8 @@ database:
     version: '2021-05-05'
   - retrieved: '2021-05-14'
     version: '2021-05-11'
+  - retrieved: '2021-05-15'
+    version: '2021-05-13'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1839,6 +1841,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-03-11'
+  - retrieved: '2021-05-15'
+    version: '2021-05-13'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
