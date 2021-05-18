@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-15'
-  revision: 57
+  date: '2021-05-18'
+  revision: 58
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -438,6 +438,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-03-10/
     retrieved: '2021-03-16'
     version: '2021-03-10'
+  - date: '2021-05-05'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-05-05/
+    retrieved: '2021-05-18'
+    version: '2021-05-05'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1131,6 +1135,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-03-10/
     retrieved: '2021-03-16'
     version: '2021-03-10'
+  - date: '2021-05-05'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-05-05/
+    retrieved: '2021-05-18'
+    version: '2021-05-05'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
