@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-18'
-  revision: 58
+  date: '2021-05-19'
+  revision: 59
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -777,6 +777,8 @@ database:
     version: 3.29.0
   - retrieved: '2021-04-23'
     version: 3.29.1
+  - retrieved: '2021-05-19'
+    version: 3.30.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
