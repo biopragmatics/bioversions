@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-20'
-  revision: 60
+  date: '2021-05-21'
+  revision: 61
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -715,6 +715,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-06-10'
+  - retrieved: '2021-05-21'
+    version: '2021-05-14'
   vtype: date
 - name: Environment Ontology for Livestock
   prefix: eol
