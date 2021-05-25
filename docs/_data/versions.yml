@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-21'
-  revision: 61
+  date: '2021-05-25'
+  revision: 62
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -837,6 +837,8 @@ database:
     version: '2021-05-11'
   - retrieved: '2021-05-15'
     version: '2021-05-13'
+  - retrieved: '2021-05-25'
+    version: '2021-05-20'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2089,6 +2091,8 @@ database:
     version: '2021-01-20'
   - retrieved: '2021-04-27'
     version: '2021-02-26'
+  - retrieved: '2021-05-25'
+    version: '2021-05-21'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -2364,6 +2368,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-03-20'
+  - retrieved: '2021-05-25'
+    version: '2021-05-24'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
