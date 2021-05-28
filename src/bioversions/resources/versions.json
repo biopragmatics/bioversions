@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 63,
-    "date": "2021-05-26",
+    "revision": 64,
+    "date": "2021-05-28",
     "author": "runner"
   },
   "database": [
@@ -747,6 +747,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-15-05"
+        },
+        {
+          "retrieved": "2021-05-28",
+          "version": "2021-05-26"
         }
       ],
       "vtype": "date"
@@ -806,6 +810,17 @@
           "date": "2021-05-05"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-05-28",
+          "version": "2021-02-06"
+        }
+      ],
+      "name": "Compositional Dietary Nutrition Ontology",
+      "prefix": "cdno",
       "vtype": "date"
     },
     {
@@ -1740,6 +1755,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-08-09"
+        },
+        {
+          "retrieved": "2021-05-28",
+          "version": "2021-05-24"
         }
       ],
       "vtype": "date"
@@ -1789,7 +1808,7 @@
         }
       ],
       "name": "Geographical Entity Ontology",
-      "prefix": "geo",
+      "prefix": "geoeo",
       "vtype": "date"
     },
     {
@@ -2748,6 +2767,10 @@
         {
           "retrieved": "2021-05-26",
           "version": "21.03e"
+        },
+        {
+          "retrieved": "2021-05-28",
+          "version": "21.05d"
         }
       ],
       "vtype": "other"
@@ -3061,6 +3084,17 @@
           "version": "2019-07-08"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-05-28",
+          "version": "2021-05-21"
+        }
+      ],
+      "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
+      "prefix": "aism",
       "vtype": "date"
     },
     {
@@ -3479,6 +3513,10 @@
         {
           "retrieved": "2021-04-21",
           "version": "2021-04-16"
+        },
+        {
+          "retrieved": "2021-05-28",
+          "version": "2021-05-26"
         }
       ],
       "prefix": "pato",

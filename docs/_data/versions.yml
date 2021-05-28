@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-26'
-  revision: 63
+  date: '2021-05-28'
+  revision: 64
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -409,6 +409,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-15-05'
+  - retrieved: '2021-05-28'
+    version: '2021-05-26'
   vtype: date
 - name: Common Anatomy Reference Ontology
   prefix: caro
@@ -442,6 +444,12 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-05-05/
     retrieved: '2021-05-18'
     version: '2021-05-05'
+  vtype: date
+- name: Compositional Dietary Nutrition Ontology
+  prefix: cdno
+  releases:
+  - retrieved: '2021-05-28'
+    version: '2021-02-06'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -951,6 +959,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-08-09'
+  - retrieved: '2021-05-28'
+    version: '2021-05-24'
   vtype: date
 - name: Genomics Cohorts Knowledge Ontology
   prefix: gecko
@@ -973,7 +983,7 @@ database:
     version: '2016-03-26'
   vtype: date
 - name: Geographical Entity Ontology
-  prefix: geo
+  prefix: geoeo
   releases:
   - retrieved: '2021-04-14'
     version: '2016-03-26'
@@ -1502,6 +1512,8 @@ database:
     version: 21.01d
   - retrieved: '2021-05-26'
     version: 21.03e
+  - retrieved: '2021-05-28'
+    version: 21.05d
   vtype: other
 - name: Neuro Behavior Ontology
   prefix: nbo
@@ -1670,6 +1682,12 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2019-07-08'
+  vtype: date
+- name: Ontology for the Anatomy of the Insect SkeletoMuscular system
+  prefix: aism
+  releases:
+  - retrieved: '2021-05-28'
+    version: '2021-05-21'
   vtype: date
 - name: Ontology of Adverse Events
   prefix: oae
@@ -1924,6 +1942,8 @@ database:
     version: '2021-04-14'
   - retrieved: '2021-04-21'
     version: '2021-04-16'
+  - retrieved: '2021-05-28'
+    version: '2021-05-26'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
