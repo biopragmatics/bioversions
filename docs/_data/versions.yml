@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-05-29'
-  revision: 65
+  date: '2021-06-01'
+  revision: 66
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -413,6 +413,8 @@ database:
     version: '2020-15-05'
   - retrieved: '2021-05-28'
     version: '2021-05-26'
+  - retrieved: '2021-06-01'
+    version: '2021-05-30'
   vtype: date
 - name: Common Anatomy Reference Ontology
   prefix: caro
@@ -985,7 +987,7 @@ database:
     version: '2016-03-26'
   vtype: date
 - name: Geographical Entity Ontology
-  prefix: geoeo
+  prefix: geogeo
   releases:
   - retrieved: '2021-04-14'
     version: '2016-03-26'
@@ -1199,6 +1201,9 @@ database:
   - date: '2021-05-01'
     retrieved: '2021-05-01'
     version: '98.1'
+  - date: '2021-06-01'
+    retrieved: '2021-06-01'
+    version: '98.2'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -1776,6 +1781,8 @@ database:
     version: 1.0.125
   - retrieved: '2021-05-14'
     version: 1.0.128
+  - retrieved: '2021-06-01'
+    version: 1.0.130
   vtype: semver
 - name: Ontology of Prokaryotic Phenotypic and Metabolic Characters
   prefix: micro
@@ -2238,6 +2245,8 @@ database:
     version: '2021-04-24'
   - retrieved: '2021-04-30'
     version: '2021-04-27'
+  - retrieved: '2021-06-01'
+    version: '2021-05-27'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo

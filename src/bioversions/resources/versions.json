@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 65,
-    "date": "2021-05-29",
+    "revision": 66,
+    "date": "2021-06-01",
     "author": "runner"
   },
   "database": [
@@ -755,6 +755,10 @@
         {
           "retrieved": "2021-05-28",
           "version": "2021-05-26"
+        },
+        {
+          "retrieved": "2021-06-01",
+          "version": "2021-05-30"
         }
       ],
       "vtype": "date"
@@ -1812,7 +1816,7 @@
         }
       ],
       "name": "Geographical Entity Ontology",
-      "prefix": "geoeo",
+      "prefix": "geogeo",
       "vtype": "date"
     },
     {
@@ -2193,6 +2197,11 @@
           "retrieved": "2021-05-01",
           "version": "98.1",
           "date": "2021-05-01"
+        },
+        {
+          "retrieved": "2021-06-01",
+          "version": "98.2",
+          "date": "2021-06-01"
         }
       ],
       "vtype": "semver_minor"
@@ -3255,6 +3264,10 @@
         {
           "retrieved": "2021-05-14",
           "version": "1.0.128"
+        },
+        {
+          "retrieved": "2021-06-01",
+          "version": "1.0.130"
         }
       ],
       "name": "Ontology of Precision Medicine and Investigation",
@@ -4057,6 +4070,10 @@
         {
           "retrieved": "2021-04-30",
           "version": "2021-04-27"
+        },
+        {
+          "retrieved": "2021-06-01",
+          "version": "2021-05-27"
         }
       ],
       "name": "Sequence types and features ontology",
