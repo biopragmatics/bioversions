@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 67,
-    "date": "2021-06-02",
+    "revision": 68,
+    "date": "2021-06-03",
     "author": "runner"
   },
   "database": [
@@ -839,6 +839,10 @@
         {
           "retrieved": "2021-05-28",
           "version": "2021-02-06"
+        },
+        {
+          "retrieved": "2021-06-03",
+          "version": "2021-05-30"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -2598,6 +2602,10 @@
         {
           "retrieved": "2021-05-04",
           "version": "2021-04-30"
+        },
+        {
+          "retrieved": "2021-06-03",
+          "version": "2021-06-01"
         }
       ],
       "name": "Monarch Disease Ontology",

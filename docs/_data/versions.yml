@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-06-02'
-  revision: 67
+  date: '2021-06-03'
+  revision: 68
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -462,6 +462,8 @@ database:
   releases:
   - retrieved: '2021-05-28'
     version: '2021-02-06'
+  - retrieved: '2021-06-03'
+    version: '2021-05-30'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1420,6 +1422,8 @@ database:
     version: '2021-04-07'
   - retrieved: '2021-05-04'
     version: '2021-04-30'
+  - retrieved: '2021-06-03'
+    version: '2021-06-01'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
