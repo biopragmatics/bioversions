@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 68,
-    "date": "2021-06-03",
+    "revision": 69,
+    "date": "2021-06-04",
     "author": "runner"
   },
   "database": [
@@ -434,6 +434,10 @@
         {
           "retrieved": "2021-05-29",
           "version": "2021-05-27"
+        },
+        {
+          "retrieved": "2021-06-04",
+          "version": "2021-06-01"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1083,6 +1087,12 @@
           "version": "2021-04-29",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-04-29",
           "date": "2021-04-29"
+        },
+        {
+          "retrieved": "2021-06-04",
+          "version": "2021-06-03",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-06-03",
+          "date": "2021-06-03"
         }
       ],
       "vtype": "date"
@@ -1704,6 +1714,10 @@
         {
           "retrieved": "2021-03-05",
           "version": "2021-03-03"
+        },
+        {
+          "retrieved": "2021-06-04",
+          "version": "2021-06-02"
         }
       ],
       "vtype": "date"

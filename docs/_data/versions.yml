@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-06-03'
-  revision: 68
+  date: '2021-06-04'
+  revision: 69
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -238,6 +238,8 @@ database:
     version: '2021-05-06'
   - retrieved: '2021-05-29'
     version: '2021-05-27'
+  - retrieved: '2021-06-04'
+    version: '2021-06-01'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -597,6 +599,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-04-29
     retrieved: '2021-04-30'
     version: '2021-04-29'
+  - date: '2021-06-03'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-06-03
+    retrieved: '2021-06-04'
+    version: '2021-06-03'
   vtype: date
 - name: DisGeNet
   releases:
@@ -929,6 +935,8 @@ database:
     version: '2020-06-08'
   - retrieved: '2021-03-05'
     version: '2021-03-03'
+  - retrieved: '2021-06-04'
+    version: '2021-06-02'
   vtype: date
 - name: Gazetteer
   prefix: gaz
