@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 69,
-    "date": "2021-06-04",
+    "revision": 70,
+    "date": "2021-06-05",
     "author": "runner"
   },
   "database": [
@@ -189,6 +189,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2.7"
+        },
+        {
+          "retrieved": "2021-06-05",
+          "version": "2.7.1"
         }
       ],
       "vtype": "semver"
@@ -1587,6 +1591,10 @@
         {
           "retrieved": "2021-05-25",
           "version": "2021-05-20"
+        },
+        {
+          "retrieved": "2021-06-05",
+          "version": "2021-06-03"
         }
       ],
       "vtype": "date"
@@ -3341,6 +3349,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2.0.30"
+        },
+        {
+          "retrieved": "2021-06-05",
+          "version": "2.0.31"
         }
       ],
       "name": "Ontology of units of Measure",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-06-04'
-  revision: 69
+  date: '2021-06-05'
+  revision: 70
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -104,6 +104,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2.7'
+  - retrieved: '2021-06-05'
+    version: 2.7.1
   vtype: semver
 - name: Biofacquim
   releases:
@@ -867,6 +869,8 @@ database:
     version: '2021-05-13'
   - retrieved: '2021-05-25'
     version: '2021-05-20'
+  - retrieved: '2021-06-05'
+    version: '2021-06-03'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1845,6 +1849,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: 2.0.30
+  - retrieved: '2021-06-05'
+    version: 2.0.31
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
