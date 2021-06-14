@@ -244,7 +244,10 @@ class OboGetter(Getter):
     @property
     def key(self) -> str:
         """Get the OBO Foundry key."""
-        return bioregistry.read_bioregistry()[self.bioregistry_id]['obofoundry']['prefix']
+        rv = bioregistry.get_obofoundry_prefix(self.bioregistry_id)
+        if rv is None:
+            raise ValueError
+        return rv
 
     def get(self) -> str:
         """Get the OBO version."""
