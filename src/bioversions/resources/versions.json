@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 70,
-    "date": "2021-06-05",
-    "author": "runner"
+    "revision": 71,
+    "date": "2021-06-14",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -27,6 +27,10 @@
         {
           "retrieved": "2021-02-04",
           "version": "2019/05/10"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-05-10"
         }
       ],
       "vtype": "date"
@@ -75,6 +79,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "13-09-2018"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2018-09-13"
         }
       ],
       "vtype": "date"
@@ -86,6 +94,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "24-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-24"
         }
       ],
       "vtype": "date"
@@ -134,6 +146,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "23-12-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-12-23"
         }
       ],
       "vtype": "date"
@@ -145,6 +161,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -156,6 +176,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "20-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-20"
         }
       ],
       "vtype": "date"
@@ -178,6 +202,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "23-01-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-01-23"
         }
       ],
       "vtype": "date"
@@ -254,6 +282,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "17-07-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-07-17"
         }
       ],
       "name": "Bioinformatics operations, data types, formats, identifiers and topics",
@@ -300,6 +332,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -311,6 +347,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "29-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-29"
         }
       ],
       "vtype": "date"
@@ -466,6 +506,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -477,6 +521,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -488,6 +536,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "23-03-2016"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2016-03-23"
         }
       ],
       "vtype": "date"
@@ -665,6 +717,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "14-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-14"
         }
       ],
       "vtype": "date"
@@ -676,6 +732,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -792,6 +852,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "24-05-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-05-24"
         }
       ],
       "vtype": "date"
@@ -803,6 +867,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -903,6 +971,10 @@
         {
           "retrieved": "2021-05-12",
           "version": "1.0.211"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "1.0.214"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -916,6 +988,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "03-01-2020"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2020-01-03"
         }
       ],
       "vtype": "date"
@@ -938,6 +1014,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -1097,6 +1177,12 @@
           "version": "2021-06-03",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-06-03",
           "date": "2021-06-03"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-06-08",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-06-08",
+          "date": "2021-06-08"
         }
       ],
       "vtype": "date"
@@ -1250,6 +1336,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "27-07-2016"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2016-07-27"
         }
       ],
       "vtype": "date"
@@ -1370,6 +1460,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "13-09-2018"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2018-09-13"
         }
       ],
       "vtype": "date"
@@ -1413,6 +1507,10 @@
         {
           "retrieved": "2021-05-12",
           "version": "2021-05-07"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-06-04"
         }
       ],
       "name": "Evidence ontology",
@@ -1447,6 +1545,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "18-12-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-12-18"
         }
       ],
       "vtype": "date"
@@ -1500,6 +1602,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "15-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-15"
         }
       ],
       "vtype": "date"
@@ -1595,6 +1701,10 @@
         {
           "retrieved": "2021-06-05",
           "version": "2021-06-03"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-06-09"
         }
       ],
       "vtype": "date"
@@ -1606,6 +1716,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-09-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-09-09"
         }
       ],
       "vtype": "date"
@@ -1737,6 +1851,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "26-06-2018"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2018-06-26"
         }
       ],
       "vtype": "date"
@@ -1748,6 +1866,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "18-09-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-09-18"
         }
       ],
       "vtype": "date"
@@ -1900,6 +2022,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -1922,6 +2048,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "05-07-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-07-05"
         }
       ],
       "vtype": "date"
@@ -2030,6 +2160,10 @@
         {
           "retrieved": "2021-04-16",
           "version": "2021-04-13"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-06-08"
         }
       ],
       "vtype": "date"
@@ -2054,6 +2188,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "10-06-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-06-10"
         }
       ],
       "name": "Hypertension Ontology",
@@ -2215,6 +2353,12 @@
           "version": "85.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/85.0/",
           "date": "2021-02-11"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "86.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/86.0/",
+          "date": "2021-04-08"
         }
       ],
       "vtype": "semver_minor"
@@ -2275,6 +2419,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -2286,6 +2434,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "26-03-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-03-26"
         }
       ],
       "vtype": "date"
@@ -2297,6 +2449,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -2330,6 +2486,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "11-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-11"
         }
       ],
       "vtype": "date"
@@ -2350,6 +2510,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "21-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-21"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -2385,6 +2549,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "27-03-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-03-27"
         }
       ],
       "vtype": "date"
@@ -2527,6 +2695,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "09-05-2017"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2017-05-09"
         }
       ],
       "name": "MIAPA Ontology",
@@ -2772,6 +2944,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -2865,6 +3041,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "17-04-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-04-17"
         }
       ],
       "vtype": "date"
@@ -2928,6 +3108,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -3089,6 +3273,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "07-06-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-06-07"
         }
       ],
       "name": "Ontology for MicroRNA Target",
@@ -3106,6 +3294,10 @@
         {
           "retrieved": "2021-02-04",
           "version": "1.0"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "1.2.0"
         }
       ],
       "vtype": "semver"
@@ -3194,6 +3386,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "22-05-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-05-22"
         }
       ],
       "vtype": "date"
@@ -3214,6 +3410,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "02-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-02"
         }
       ],
       "name": "Ontology of Host Pathogen Interactions",
@@ -3265,6 +3465,10 @@
         {
           "retrieved": "2021-05-12",
           "version": "2021-05-07"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-06-04"
         }
       ],
       "vtype": "date"
@@ -3513,6 +3717,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "23-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-23"
         }
       ],
       "name": "Pathway ontology",
@@ -3537,6 +3745,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -3594,6 +3806,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "10-12-2018"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2018-12-10"
         }
       ],
       "vtype": "date"
@@ -3627,6 +3843,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "18-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-18"
         }
       ],
       "vtype": "date"
@@ -3793,6 +4013,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -3909,6 +4133,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "13-12-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-12-13"
         }
       ],
       "vtype": "date"
@@ -3935,6 +4163,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "11-04-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-04-11"
         }
       ],
       "vtype": "date"
@@ -3946,6 +4178,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "17-09-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-09-17"
         }
       ],
       "vtype": "date"
@@ -4022,6 +4258,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -4031,6 +4271,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "15-04-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-04-15"
         }
       ],
       "name": "RNA ontology",
@@ -4172,6 +4416,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -4183,6 +4431,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "27-02-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-02-27"
         }
       ],
       "vtype": "date"
@@ -4216,6 +4468,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "26-06-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-06-26"
         }
       ],
       "vtype": "date"
@@ -4238,6 +4494,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -4279,6 +4539,10 @@
         {
           "retrieved": "2021-04-24",
           "version": "21:04:2021 17:26"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-04-21"
         }
       ],
       "vtype": "date"
@@ -4331,6 +4595,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "26-03-2018"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2018-03-26"
         }
       ],
       "vtype": "date"
@@ -4375,6 +4643,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-21-07"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2020-07-21"
         }
       ],
       "vtype": "date"
@@ -4449,6 +4721,10 @@
         {
           "retrieved": "2021-02-25",
           "version": "2020-02-05"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-06-08"
         }
       ],
       "vtype": "date"
@@ -4482,6 +4758,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-25-08"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2020-08-25"
         }
       ],
       "vtype": "date"
@@ -4502,6 +4782,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2020/07/09"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2020-07-09"
         }
       ],
       "name": "Toxic Process Ontology",
@@ -4550,6 +4834,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "31-10-2017"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2017-10-31"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -4583,6 +4871,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "21-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-21"
         }
       ],
       "name": "Unimod protein modification database for mass spectrometry",
@@ -4661,6 +4953,10 @@
         {
           "retrieved": "2021-05-08",
           "version": "1.1.148"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "1.1.158"
         }
       ],
       "vtype": "semver"
@@ -4705,6 +5001,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "07-06-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-06-07"
         }
       ],
       "vtype": "date"
@@ -4742,6 +5042,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "29-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-29"
         }
       ],
       "vtype": "date"
@@ -4753,6 +5057,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
       "vtype": "date"
@@ -4795,6 +5103,12 @@
           "version": "20210510",
           "homepage": "http://data.wikipathways.org/20210510/",
           "date": "2021-05-10"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "20210610",
+          "homepage": "http://data.wikipathways.org/20210610/",
+          "date": "2021-06-10"
         }
       ],
       "vtype": "date"
@@ -4806,6 +5120,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "18-11-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-11-18"
         }
       ],
       "vtype": "date"
@@ -4847,8 +5165,23 @@
         {
           "retrieved": "2021-02-02",
           "version": "09-10-2019"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2019-10-09"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-06-14",
+          "version": "2020-03-10"
+        }
+      ],
+      "name": "Yeast phenotypes",
+      "prefix": "apo",
       "vtype": "date"
     },
     {
@@ -4884,6 +5217,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-11-30"
+        },
+        {
+          "retrieved": "2021-06-14",
+          "version": "2021-06-04"
         }
       ],
       "vtype": "date"
