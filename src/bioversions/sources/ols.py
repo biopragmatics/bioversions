@@ -3,7 +3,7 @@
 """Get versions from the OLS."""
 
 import logging
-from typing import Iterable, Mapping, Optional, Type, Union
+from typing import Iterable, List, Mapping, Optional, Type, Union
 
 import bioregistry
 from bioregistry.data import get_ols_processing
@@ -59,7 +59,7 @@ def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
     return OlsGetter
 
 
-def iter_ols_getters(*, force_download: bool = True) -> Iterable[Type[Getter]]:
+def iter_ols_getters() -> Iterable[Type[Getter]]:
     """Iterate over OLS getters."""
     for bioregistry_id in bioregistry.read_registry():
         yv = make_ols_getter(bioregistry_id)
@@ -67,9 +67,9 @@ def iter_ols_getters(*, force_download: bool = True) -> Iterable[Type[Getter]]:
             yield yv
 
 
-def extend_ols_getters(getters, *, force_download: bool = False):
+def extend_ols_getters(getters: List[Type[Getter]]) -> None:
     """Extend the getters, without adding duplicates."""
-    for ols_getter in iter_ols_getters(force_download=force_download):
+    for ols_getter in iter_ols_getters():
         if any(getter.bioregistry_id == ols_getter.bioregistry_id for getter in getters):
             continue
         getters.append(ols_getter)
