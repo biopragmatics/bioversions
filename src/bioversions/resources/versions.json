@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 71,
-    "date": "2021-06-14",
-    "author": "cthoyt"
+    "revision": 72,
+    "date": "2021-06-25",
+    "author": "runner"
   },
   "database": [
     {
@@ -579,6 +579,10 @@
         {
           "retrieved": "2021-04-24",
           "version": "2021-04-22"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-21"
         }
       ],
       "prefix": "cl",
@@ -1295,6 +1299,10 @@
         {
           "retrieved": "2021-02-04",
           "version": "2019-01-30"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-11"
         }
       ],
       "vtype": "date"
@@ -1392,6 +1400,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "5.0.1"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "7.2"
         }
       ],
       "vtype": "semver"
@@ -1534,6 +1546,11 @@
           "retrieved": "2021-04-09",
           "version": "07-Apr-2021",
           "date": "2021-04-07"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "02-Jun-2021",
+          "date": "2021-06-02"
         }
       ],
       "vtype": "date"
@@ -1580,6 +1597,10 @@
         {
           "retrieved": "2021-05-19",
           "version": "3.30.0"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "3.31.0"
         }
       ],
       "vtype": "semver"
@@ -1705,6 +1726,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2021-06-09"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-17"
         }
       ],
       "vtype": "date"
@@ -1903,6 +1928,12 @@
           "version": "2021-05-01",
           "homepage": "http://archive.geneontology.org/full/2021-05-01/",
           "date": "2021-05-01"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-16",
+          "homepage": "http://archive.geneontology.org/full/2021-06-16/",
+          "date": "2021-06-16"
         }
       ],
       "vtype": "date"
@@ -1990,6 +2021,10 @@
         {
           "retrieved": "2021-05-14",
           "version": "1.7.1"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "1.7.2"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology (GNOme)",
@@ -2115,6 +2150,10 @@
         {
           "retrieved": "2021-05-20",
           "version": "2021-05-18"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-16"
         }
       ],
       "vtype": "date"
@@ -2164,6 +2203,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2021-06-08"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-13"
         }
       ],
       "vtype": "date"
@@ -2979,6 +3022,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-02-15"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-10"
         }
       ],
       "name": "NCBI organismal classification",
@@ -3794,6 +3841,10 @@
         {
           "retrieved": "2021-05-28",
           "version": "2021-05-26"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-15"
         }
       ],
       "prefix": "pato",
@@ -4152,6 +4203,10 @@
         {
           "retrieved": "2021-03-29",
           "version": "76"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "77"
         }
       ],
       "vtype": "sequential"
@@ -4247,6 +4302,11 @@
           "retrieved": "2021-04-09",
           "version": "118",
           "date": "2021-04-07"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "119",
+          "date": "2021-06-02"
         }
       ],
       "vtype": "date"
@@ -4366,6 +4426,10 @@
         {
           "retrieved": "2021-06-01",
           "version": "2021-05-27"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021-06-10"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -4912,6 +4976,12 @@
           "version": "2021_02",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_02/",
           "date": "2021-02-01"
+        },
+        {
+          "retrieved": "2021-06-25",
+          "version": "2021_03",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_03/",
+          "date": "2021-03-01"
         }
       ],
       "vtype": "month"

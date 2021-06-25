@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-06-14'
-  revision: 71
+  author: runner
+  date: '2021-06-25'
+  revision: 72
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -314,6 +314,8 @@ database:
     version: '2021-03-05'
   - retrieved: '2021-04-24'
     version: '2021-04-22'
+  - retrieved: '2021-06-25'
+    version: '2021-06-21'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -709,6 +711,8 @@ database:
     version: release version 2019-01-30
   - retrieved: '2021-02-04'
     version: '2019-01-30'
+  - retrieved: '2021-06-25'
+    version: '2021-06-11'
   vtype: date
 - name: DrugBank
   prefix: drugbank
@@ -763,6 +767,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 5.0.1
+  - retrieved: '2021-06-25'
+    version: '7.2'
   vtype: semver
 - name: Ensembl Glossary
   prefix: ensemblglossary
@@ -839,6 +845,9 @@ database:
   - date: '2021-04-07'
     retrieved: '2021-04-09'
     version: 07-Apr-2021
+  - date: '2021-06-02'
+    retrieved: '2021-06-25'
+    version: 02-Jun-2021
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -863,6 +872,8 @@ database:
     version: 3.29.1
   - retrieved: '2021-05-19'
     version: 3.30.0
+  - retrieved: '2021-06-25'
+    version: 3.31.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -927,6 +938,8 @@ database:
     version: '2021-06-03'
   - retrieved: '2021-06-14'
     version: '2021-06-09'
+  - retrieved: '2021-06-25'
+    version: '2021-06-17'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1035,6 +1048,10 @@ database:
     homepage: http://archive.geneontology.org/full/2021-05-01/
     retrieved: '2021-05-04'
     version: '2021-05-01'
+  - date: '2021-06-16'
+    homepage: http://archive.geneontology.org/full/2021-06-16/
+    retrieved: '2021-06-25'
+    version: '2021-06-16'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -1083,6 +1100,8 @@ database:
     version: 1.7.0
   - retrieved: '2021-05-14'
     version: 1.7.1
+  - retrieved: '2021-06-25'
+    version: 1.7.2
   vtype: semver
 - name: Glycan Naming Ontology
   prefix: gno
@@ -1148,6 +1167,8 @@ database:
     version: '2021-04-22'
   - retrieved: '2021-05-20'
     version: '2021-05-18'
+  - retrieved: '2021-06-25'
+    version: '2021-06-16'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1174,6 +1195,8 @@ database:
     version: '2021-04-13'
   - retrieved: '2021-06-14'
     version: '2021-06-08'
+  - retrieved: '2021-06-25'
+    version: '2021-06-13'
   vtype: date
 - name: Hymenoptera Anatomy Ontology
   prefix: hao
@@ -1623,6 +1646,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-02-15'
+  - retrieved: '2021-06-25'
+    version: '2021-06-10'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -2087,6 +2112,8 @@ database:
     version: '2021-04-16'
   - retrieved: '2021-05-28'
     version: '2021-05-26'
+  - retrieved: '2021-06-25'
+    version: '2021-06-15'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -2280,6 +2307,8 @@ database:
     version: '75'
   - retrieved: '2021-03-29'
     version: '76'
+  - retrieved: '2021-06-25'
+    version: '77'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -2333,6 +2362,9 @@ database:
   - date: '2021-04-07'
     retrieved: '2021-04-09'
     version: '118'
+  - date: '2021-06-02'
+    retrieved: '2021-06-25'
+    version: '119'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -2397,6 +2429,8 @@ database:
     version: '2021-04-27'
   - retrieved: '2021-06-01'
     version: '2021-05-27'
+  - retrieved: '2021-06-25'
+    version: '2021-06-10'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
@@ -2693,6 +2727,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_02/
     retrieved: '2021-04-09'
     version: '2021_02'
+  - date: '2021-03-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_03/
+    retrieved: '2021-06-25'
+    version: '2021_03'
   vtype: month
 - name: Unit Ontology
   prefix: uo
