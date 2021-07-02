@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 73,
-    "date": "2021-07-01",
+    "revision": 74,
+    "date": "2021-07-02",
     "author": "runner"
   },
   "database": [
@@ -273,6 +273,11 @@
           "retrieved": "2021-06-02",
           "version": "4.4.198",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.198"
+        },
+        {
+          "retrieved": "2021-07-02",
+          "version": "4.4.199",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.199"
         }
       ],
       "vtype": "semver"
@@ -666,6 +671,11 @@
           "retrieved": "2021-06-02",
           "version": "200",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel200/"
+        },
+        {
+          "retrieved": "2021-07-02",
+          "version": "201",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel201/"
         }
       ],
       "vtype": "sequential"
