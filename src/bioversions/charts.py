@@ -12,13 +12,13 @@ import seaborn as sns
 from bioversions.sources import get_getters
 from bioversions.utils import IMG, VersionType
 
-sns.set(style='whitegrid')
+sns.set(style="whitegrid")
 
 
 def version_types_pie_chart():
     """Make a pie chart with types of versions."""
     counts = Counter(
-        'Missing' if getter.version_type is None else getter.version_type.value
+        "Missing" if getter.version_type is None else getter.version_type.value
         for getter in get_getters()
     )
     labels, counts = zip(*counts.most_common())
@@ -26,14 +26,14 @@ def version_types_pie_chart():
     ax.pie(
         counts,
         labels=labels,
-        autopct='%1.f%%',
+        autopct="%1.f%%",
         startangle=30,
         explode=[0.01 for _ in range(len(counts))],
         # shadow=True,
     )
     # fig.legend(fontsize='medium')
     fig.tight_layout()
-    path = os.path.join(IMG, 'version_types.svg')
+    path = os.path.join(IMG, "version_types.svg")
     plt.savefig(path, dpi=300)
     plt.close(fig)
 
@@ -50,12 +50,12 @@ def verioning_date_formats_pie_chart():
     ax.pie(
         counts,
         labels=labels,
-        autopct='%1.f%%',
+        autopct="%1.f%%",
         startangle=30,
         explode=[0.01 for _ in range(len(counts))],
     )
     fig.tight_layout()
-    path = os.path.join(IMG, 'version_date_types.svg')
+    path = os.path.join(IMG, "version_date_types.svg")
     plt.savefig(path, dpi=300)
     plt.close(fig)
 
@@ -63,7 +63,7 @@ def verioning_date_formats_pie_chart():
 def has_release_url():
     """Make a pie chart for how many have a release URL."""
     counts = Counter(
-        'Has Stable Version URL' if getter.homepage_fmt is not None else 'No Stable Version URL'
+        "Has Stable Version URL" if getter.homepage_fmt is not None else "No Stable Version URL"
         for getter in get_getters()
         if getter.version_type != VersionType.unversioned
     )
@@ -72,12 +72,12 @@ def has_release_url():
     ax.pie(
         counts,
         labels=labels,
-        autopct='%1.f%%',
+        autopct="%1.f%%",
         startangle=30,
         explode=[0.01 for _ in range(len(counts))],
     )
     fig.tight_layout()
-    path = os.path.join(IMG, 'has_release_url.svg')
+    path = os.path.join(IMG, "has_release_url.svg")
     plt.savefig(path, dpi=300)
     plt.close(fig)
 
@@ -90,5 +90,5 @@ def charts():
     has_release_url()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     charts()

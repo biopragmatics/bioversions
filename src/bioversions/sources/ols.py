@@ -29,7 +29,7 @@ def _get_version_type(bioregistry_id: str) -> Optional[VersionType]:
     elif ols_version_type:
         return getattr(VersionType, ols_version_type)
     else:
-        logger.warning('[%s] missing version type', bioregistry_id)
+        logger.warning("[%s] missing version type", bioregistry_id)
 
 
 def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
@@ -38,9 +38,9 @@ def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
     if ols_id is None:
         return
 
-    version = bioregistry.get(bioregistry_id).ols.get('version')
+    version = bioregistry.get(bioregistry_id).ols.get("version")
     if version is None:
-        logger.debug('[%s] no OLS version', bioregistry_id)
+        logger.debug("[%s] no OLS version", bioregistry_id)
         return
 
     _brid = bioregistry_id
@@ -75,5 +75,5 @@ def extend_ols_getters(getters: List[Type[Getter]]) -> None:
         getters.append(ols_getter)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     list(iter_ols_getters())

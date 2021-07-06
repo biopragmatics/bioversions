@@ -16,10 +16,12 @@ def _get_api(
     access_token: Optional[str] = None,
     access_token_secret: Optional[str] = None,
 ) -> Optional[tweepy.API]:
-    consumer_key = pystow.get_config('bioversions', 'consumer_key', consumer_key)
-    consumer_secret = pystow.get_config('bioversions', 'consumer_secret', consumer_secret)
-    access_token = pystow.get_config('bioversions', 'access_token', access_token)
-    access_token_secret = pystow.get_config('bioversions', 'access_token_secret', access_token_secret)
+    consumer_key = pystow.get_config("bioversions", "consumer_key", consumer_key)
+    consumer_secret = pystow.get_config("bioversions", "consumer_secret", consumer_secret)
+    access_token = pystow.get_config("bioversions", "access_token", access_token)
+    access_token_secret = pystow.get_config(
+        "bioversions", "access_token_secret", access_token_secret
+    )
 
     if consumer_key and consumer_secret and access_token and access_token_secret:
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -38,5 +40,5 @@ def post(text: str):
     return api.update_status(text)
 
 
-if __name__ == '__main__':
-    post('Twitter test!')
+if __name__ == "__main__":
+    post("Twitter test!")

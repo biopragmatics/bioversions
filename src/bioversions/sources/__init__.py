@@ -39,9 +39,9 @@ from .wikipathways import WikiPathwaysGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
 
 __all__ = [
-    'resolve',
-    'get_rows',
-    'get_version',
+    "resolve",
+    "get_rows",
+    "get_version",
 ]
 
 logger = logging.getLogger(__name__)
@@ -81,16 +81,15 @@ def get_getters() -> List[Type[Getter]]:
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
-    getters: List[Type[Getter]] = sorted(getters, key=lambda cls: (cls.bioregistry_id or '', cls.__name__.casefold()))
+    getters: List[Type[Getter]] = sorted(
+        getters, key=lambda cls: (cls.bioregistry_id or "", cls.__name__.casefold())
+    )
     return getters
 
 
 def get_getter_dict() -> Mapping[str, Type[Getter]]:
     """Get a dict of getters."""
-    return {
-        norm(getter.name): getter
-        for getter in get_getters()
-    }
+    return {norm(getter.name): getter for getter in get_getters()}
 
 
 def resolve(name: str, use_cache: bool = True) -> Bioversion:
@@ -127,7 +126,7 @@ def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
         try:
             yv = resolve(cls.name)
         except IOError:
-            logger.warning('failed to resolve %s', cls.name)
+            logger.warning("failed to resolve %s", cls.name)
             continue
         else:
             yield yv

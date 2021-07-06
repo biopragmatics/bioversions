@@ -7,30 +7,30 @@ from typing import Mapping
 from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
-    'KEGGGetter',
+    "KEGGGetter",
 ]
 
-URL = 'https://www.kegg.jp/kegg/docs/relnote.html'
+URL = "https://www.kegg.jp/kegg/docs/relnote.html"
 
 
 class KEGGGetter(Getter):
     """A getter for KEGG."""
 
-    bioregistry_id = 'kegg.pathway'
-    name = 'KEGG'
-    date_fmt = '%B %d, %Y'
+    bioregistry_id = "kegg.pathway"
+    name = "KEGG"
+    date_fmt = "%B %d, %Y"
     version_type = VersionType.semver_minor
 
     def get(self) -> Mapping[str, str]:
         """Get the latest KEGG version number."""
         soup = get_soup(URL)
-        main_div = soup.find(id='main')
-        header = main_div.find('h4')
+        main_div = soup.find(id="main")
+        header = main_div.find("h4")
         sibling = header.next_sibling.strip()
-        version, date = [part.strip() for part in sibling.split(',', 1)]
-        version = version[len('Release '):]
+        version, date = [part.strip() for part in sibling.split(",", 1)]
+        version = version[len("Release ") :]
         return dict(version=version, date=date)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     KEGGGetter.print()

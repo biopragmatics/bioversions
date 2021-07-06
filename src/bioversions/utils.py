@@ -17,10 +17,10 @@ from bs4 import BeautifulSoup
 from cachier import cachier
 from dataclasses_json import dataclass_json
 
-BIOVERSIONS_HOME = pystow.join('bioversions')
+BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
-DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'docs'))
-IMG = os.path.join(DOCS, 'img')
+DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, "docs"))
+IMG = os.path.join(DOCS, "img")
 
 requests_ftp.monkeypatch_session()
 
@@ -28,22 +28,22 @@ requests_ftp.monkeypatch_session()
 class VersionType(enum.Enum):
     """Different types of versions."""
 
-    semver = 'SemVer (X.Y.Z)'
-    date = 'CalVer (YYYY-MM-DD)'
-    month = 'CalVer (YYYY-MM)'
-    year = 'CalVer (YYYY)'
-    semver_minor = 'SemVer (X.Y)'
-    sequential = 'Sequential (X)'
-    daily = 'Daily'
-    unversioned = 'Unversioned'
-    other = 'Other'
+    semver = "SemVer (X.Y.Z)"
+    date = "CalVer (YYYY-MM-DD)"
+    month = "CalVer (YYYY-MM)"
+    year = "CalVer (YYYY)"
+    semver_minor = "SemVer (X.Y)"
+    sequential = "Sequential (X)"
+    daily = "Daily"
+    unversioned = "Unversioned"
+    other = "Other"
     #: Saved for the most shameful of data
-    garbage = 'Garbage'
+    garbage = "Garbage"
 
 
 def norm(s: str) -> str:
     """Normalize a string for dictionary lookup."""
-    return s.lower().replace(' ', '').replace('-', '').replace('.', '')
+    return s.lower().replace(" ", "").replace("-", "").replace(".", "")
 
 
 def get_soup(url: str) -> BeautifulSoup:
@@ -57,7 +57,7 @@ def get_soup(url: str) -> BeautifulSoup:
 #: should be cached and refreshed once per day
 refresh_daily = cachier(
     stale_after=datetime.timedelta(days=1),
-    backend='memory',
+    backend="memory",
     cache_dir=BIOVERSIONS_HOME,
 )
 
@@ -79,11 +79,11 @@ class MetaGetter(type):
         if isinstance(cls._cache_prop, str):
             return cls._cache_prop
         elif isinstance(cls._cache_prop, dict):
-            return cls._cache_prop['version']
+            return cls._cache_prop["version"]
         elif isinstance(cls._cache_prop, datetime.datetime):
-            return cls._cache_prop.strftime('%Y-%m-%d')
+            return cls._cache_prop.strftime("%Y-%m-%d")
         else:
-            raise TypeError(f'_cache_prop was a {type(cls._cache_prop)}')
+            raise TypeError(f"_cache_prop was a {type(cls._cache_prop)}")
 
     @property
     def date(cls) -> Optional[datetime.date]:
@@ -92,13 +92,17 @@ class MetaGetter(type):
         if vp:
             return vp
         if isinstance(cls._cache_prop, dict):
-            date_str = cls._cache_prop['date']
+            date_str = cls._cache_prop["date"]
             if not cls.date_fmt:
-                raise TypeError(f'Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}')
+                raise TypeError(
+                    f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}"
+                )
             try:
                 return datetime.datetime.strptime(date_str, cls.date_fmt).date()
             except ValueError:
-                raise ValueError(f'Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}')
+                raise ValueError(
+                    f"Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}"
+                )
 
     @property
     def version_date_parsed(cls) -> Optional[datetime.date]:
@@ -109,7 +113,9 @@ class MetaGetter(type):
             try:
                 return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
             except ValueError:
-                raise ValueError(f'Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}')
+                raise ValueError(
+                    f"Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}"
+                )
 
     @property
     def homepage(cls) -> Optional[str]:
@@ -172,11 +178,11 @@ class Getter(metaclass=MetaGetter):
         raise NotImplementedError
 
     @classmethod
-    def print(cls, sep: str = '\t', file=None):
+    def print(cls, sep: str = "\t", file=None):
         """Print the latest version of this database."""
         x = [cls.bioregistry_id, cls.name, cls.version]
         if cls.date:
-            x.append(f'({cls.date})')
+            x.append(f"({cls.date})")
         if cls.homepage:
             x.append(cls.homepage)
         print(*x, sep=sep, file=file)
@@ -207,7 +213,7 @@ class DailyGetter(Getter):
 
     def get(self) -> Union[str, Mapping[str, str]]:
         """Return a constant "daily" string."""
-        return 'daily'
+        return "daily"
 
 
 class UnversionedGetter(Getter):
@@ -220,18 +226,18 @@ class UnversionedGetter(Getter):
 
     def get(self) -> Union[str, Mapping[str, str]]:
         """Return a constant unversioned string."""
-        return 'unversioned'
+        return "unversioned"
 
 
 def get_obo_version(url: str) -> str:
     """Get the data version from an OBO file."""
     with requests.get(url, stream=True) as res:
         for line in res.iter_lines():
-            line = line.decode('utf-8')
-            if line.startswith('data-version:'):
-                version = line[len('data-version:'):].strip()
+            line = line.decode("utf-8")
+            if line.startswith("data-version:"):
+                version = line[len("data-version:") :].strip()
                 return version
-    raise ValueError(f'No data-version line contained in {url}')
+    raise ValueError(f"No data-version line contained in {url}")
 
 
 class OboGetter(Getter):
@@ -251,17 +257,17 @@ class OboGetter(Getter):
 
     def get(self) -> str:
         """Get the OBO version."""
-        url = f'http://purl.obolibrary.org/obo/{self.key}.obo'
+        url = f"http://purl.obolibrary.org/obo/{self.key}.obo"
         return self.process(get_obo_version(url))
 
     def process(self, version: str) -> str:
         """Post-process the version string."""
         if self.strip_key_prefix:
-            version = version[len(f'{self.key}/'):]
+            version = version[len(f"{self.key}/") :]
         if self.strip_version_prefix:
-            version = version[len('releases/'):]
+            version = version[len("releases/") :]
         if self.strip_file_suffix:
-            version = version[:-(len(self.key) + 5)]
+            version = version[: -(len(self.key) + 5)]
         return version
 
 
@@ -269,36 +275,34 @@ def _get_ftp_version(host: str, directory: str) -> str:
     with ftplib.FTP(host) as ftp:
         ftp.login()
         ftp.cwd(directory)
-        names = sorted([
-            tuple(int(part) for part in name.split('.'))
-            for name in ftp.nlst()
-            if _is_version(name)
-        ])
-    return '.'.join(map(str, names[-1]))
+        names = sorted(
+            [
+                tuple(int(part) for part in name.split("."))
+                for name in ftp.nlst()
+                if _is_version(name)
+            ]
+        )
+    return ".".join(map(str, names[-1]))
 
 
 def _get_ftp_date_version(host: str, directory: str) -> str:
     with ftplib.FTP(host) as ftp:
         ftp.login()
         ftp.cwd(directory)
-        names = sorted([
-            name
-            for name in ftp.nlst()
-            if _is_iso_8601(name)
-        ])
+        names = sorted([name for name in ftp.nlst() if _is_iso_8601(name)])
     return names[-1]
 
 
 def _is_iso_8601(s: str) -> bool:
-    s = s.split('-')
+    s = s.split("-")
     return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()
 
 
 def _is_version(s: str) -> bool:
-    s = s.split('.')
+    s = s.split(".")
     return len(s) == 2 and s[0].isnumeric() and s[1].isnumeric()
 
 
 def _is_semantic_version(s: str) -> bool:
-    s = s.split('.')
+    s = s.split(".")
     return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()

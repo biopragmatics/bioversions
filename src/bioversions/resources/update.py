@@ -13,7 +13,7 @@ from bioversions.sources import _iter_versions
 from bioversions.version import get_git_hash
 
 __all__ = [
-    'update',
+    "update",
 ]
 
 
@@ -22,22 +22,19 @@ def _get_clean_dict(d):
 
 
 @click.command()
-@click.option('--force', is_flag=True)
+@click.option("--force", is_flag=True)
 def update(force: bool):
     """Update the data file."""
     if not get_git_hash():
-        click.secho('Not on development installation', fg='red')
+        click.secho("Not on development installation", fg="red")
         return sys.exit(1)
 
     data = load_versions()
 
-    revision = data['annotations']['revision']
-    versions = {
-        entry['name']: entry
-        for entry in data['database']
-    }
+    revision = data["annotations"]["revision"]
+    versions = {entry["name"]: entry for entry in data["database"]}
 
-    today = datetime.now().strftime('%Y-%m-%d')
+    today = datetime.now().strftime("%Y-%m-%d")
 
     changes = False
     for bv in _iter_versions(use_tqdm=True):
@@ -45,52 +42,52 @@ def update(force: bool):
             v = versions[bv.name]
         else:
             v = versions[bv.name] = {
-                'releases': [],
+                "releases": [],
             }
 
         if bv.name:
-            v['name'] = bv.name
+            v["name"] = bv.name
         if bv.bioregistry_id:
-            v['prefix'] = bv.bioregistry_id
+            v["prefix"] = bv.bioregistry_id
         if bv.vtype:
-            v['vtype'] = bv.vtype.name
+            v["vtype"] = bv.vtype.name
 
-        if not v['releases'] or v['releases'][-1]['version'] != bv.version:
+        if not v["releases"] or v["releases"][-1]["version"] != bv.version:
             _log_update(bv)
             changes = True
             append_dict = {
-                'retrieved': today,
-                'version': bv.version,
+                "retrieved": today,
+                "version": bv.version,
             }
             if bv.homepage:
-                append_dict['homepage'] = bv.homepage
+                append_dict["homepage"] = bv.homepage
             if bv.date:
-                append_dict['date'] = bv.date.strftime('%Y-%m-%d')
-            v['releases'].append(append_dict)
+                append_dict["date"] = bv.date.strftime("%Y-%m-%d")
+            v["releases"].append(append_dict)
 
     if not changes and not force:
-        click.secho(f'No changes to {EXPORT_PATH}', fg='yellow', bold=True)
+        click.secho(f"No changes to {EXPORT_PATH}", fg="yellow", bold=True)
     else:
-        rv_database = sorted(versions.values(), key=lambda version: version['name'].lower())
+        rv_database = sorted(versions.values(), key=lambda version: version["name"].lower())
         rv = {
-            'annotations': {
-                'revision': revision + 1,
-                'date': datetime.today().strftime('%Y-%m-%d'),
-                'author': getpass.getuser(),
+            "annotations": {
+                "revision": revision + 1,
+                "date": datetime.today().strftime("%Y-%m-%d"),
+                "author": getpass.getuser(),
             },
-            'database': rv_database,
+            "database": rv_database,
         }
-        click.secho(f'Writing new {EXPORT_PATH}', fg='green', bold=True)
+        click.secho(f"Writing new {EXPORT_PATH}", fg="green", bold=True)
         write_export(rv)
         write_versions(rv)
 
 
 def _log_update(bv) -> None:
-    text = f'{bv.name} was updated to v{bv.version}'
+    text = f"{bv.name} was updated to v{bv.version}"
     if bv.homepage:
-        text += f'. See {bv.homepage}'
+        text += f". See {bv.homepage}"
 
-    click.secho(text, fg='green', bold=True)
+    click.secho(text, fg="green", bold=True)
 
     try:
         from . import slack_client
@@ -107,5 +104,5 @@ def _log_update(bv) -> None:
         twitter_client.post(text)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     update()

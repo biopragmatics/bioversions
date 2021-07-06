@@ -6,22 +6,22 @@ import os
 from subprocess import CalledProcessError, check_output  # noqa: S404
 
 __all__ = [
-    'VERSION',
+    "VERSION",
 ]
 
-VERSION = '0.1.4-dev'
+VERSION = "0.1.4-dev"
 
 
 def get_git_hash() -> str:
     """Get the bioversions git hash."""
-    with open(os.devnull, 'w') as devnull:
+    with open(os.devnull, "w") as devnull:
         try:
             ret = check_output(  # noqa: S603,S607
-                ['git', 'rev-parse', 'HEAD'],
+                ["git", "rev-parse", "HEAD"],
                 cwd=os.path.dirname(__file__),
                 stderr=devnull,
             )
         except CalledProcessError:
-            return 'UNHASHED'
+            return "UNHASHED"
         else:
-            return ret.strip().decode('utf-8')[:8]
+            return ret.strip().decode("utf-8")[:8]

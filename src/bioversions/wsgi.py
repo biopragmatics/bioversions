@@ -11,25 +11,25 @@ app = flask.Flask(__name__)
 Bootstrap(app)
 
 
-@app.route('/')
+@app.route("/")
 def home():
     """Show the home page with a list of latest database versions."""
-    return flask.render_template('home.html', rows=get_rows())
+    return flask.render_template("home.html", rows=get_rows())
 
 
-@app.route('/database/<name>.json')
+@app.route("/database/<name>.json")
 def database(name: str):
     """Resolve information about a given database."""
     rv = dict(query=name)
     try:
         bioversion = resolve(name)
     except KeyError:
-        rv['success'] = False
+        rv["success"] = False
     else:
-        rv['success'] = True
-        rv['result'] = bioversion.to_dict()
+        rv["success"] = True
+        rv["result"] = bioversion.to_dict()
     return flask.jsonify(rv)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()

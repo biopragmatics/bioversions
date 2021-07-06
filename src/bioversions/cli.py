@@ -10,7 +10,7 @@ from tabulate import tabulate
 from bioversions.resources.update import update
 
 
-@click.group(cls=DefaultGroup, default='web', default_if_no_args=True)
+@click.group(cls=DefaultGroup, default="web", default_if_no_args=True)
 @click.version_option()
 def main():
     """The bioversions CLI."""  # noqa:D401
@@ -19,46 +19,51 @@ def main():
 main.add_command(update)
 
 web = make_web_command(
-    app='bioversions.wsgi:app',
+    app="bioversions.wsgi:app",
     group=main,
     command_kwargs=dict(
-        help='Run the bioversions web application.',
+        help="Run the bioversions web application.",
     ),
 )
 
 
 @main.command()
-@click.argument('key')
+@click.argument("key")
 @verbose_option
 def get(key: str):
     """Print the version."""
     from . import get_version
+
     click.echo(get_version(key))
 
 
 @main.command()
-@click.option('--terse', '-t', is_flag=True)
+@click.option("--terse", "-t", is_flag=True)
 def ls(terse: bool):
     """List versions."""
     from . import get_rows
 
     if terse:
-        click.echo(tabulate(
-            sorted(
-                (bv.bioregistry_id or '', bv.classname, bv.version)
-                for bv in get_rows(use_tqdm=True)
-            ),
-            headers=['Prefix', 'Class', 'Version'],
-        ))
+        click.echo(
+            tabulate(
+                sorted(
+                    (bv.bioregistry_id or "", bv.classname, bv.version)
+                    for bv in get_rows(use_tqdm=True)
+                ),
+                headers=["Prefix", "Class", "Version"],
+            )
+        )
     else:
-        click.echo(tabulate(
-            (
-                (bv.bioregistry_id, bv.name, bv.version, bv.date, bv.homepage)
-                for bv in get_rows(use_tqdm=True)
-            ),
-            headers=['Prefix', 'Name', 'Version', 'Release Date', 'Homepage'],
-        ))
+        click.echo(
+            tabulate(
+                (
+                    (bv.bioregistry_id, bv.name, bv.version, bv.date, bv.homepage)
+                    for bv in get_rows(use_tqdm=True)
+                ),
+                headers=["Prefix", "Name", "Version", "Release Date", "Homepage"],
+            )
+        )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

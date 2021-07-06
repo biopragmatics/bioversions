@@ -7,16 +7,16 @@ import requests
 from bioversions.utils import Getter, VersionType
 
 __all__ = [
-    'HomoloGeneGetter',
+    "HomoloGeneGetter",
 ]
 
-URL = 'https://ftp.ncbi.nih.gov/pub/HomoloGene/current/RELEASE_NUMBER'
+URL = "https://ftp.ncbi.nih.gov/pub/HomoloGene/current/RELEASE_NUMBER"
 
 
 class HomoloGeneGetter(Getter):
     """A getter for HomoloGene."""
 
-    name = 'HomoloGene'
+    name = "HomoloGene"
     version_type = VersionType.sequential
 
     def get(self) -> str:
@@ -26,5 +26,5 @@ class HomoloGeneGetter(Getter):
         return res.text.strip()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     HomoloGeneGetter.print()

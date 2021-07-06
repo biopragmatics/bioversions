@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/source/logo.png" height="150">
+  <img src="https://github.com/cthoyt/bioversions/raw/main/docs/source/logo.png" height="150">
 </p>
 
 <h1 align="center">
@@ -18,6 +18,9 @@
     </a>
     <a href="https://zenodo.org/badge/latestdoi/318852276">
         <img src="https://zenodo.org/badge/318852276.svg" alt="DOI" />
+    </a>
+    <a href="https://github.com/psf/black">
+        <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black">
     </a>
 </p>
 

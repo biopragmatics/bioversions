@@ -11,7 +11,7 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 __all__ = [
-    'post',
+    "post",
 ]
 
 logger = logging.getLogger(__name__)
@@ -19,19 +19,19 @@ logger = logging.getLogger(__name__)
 
 @lru_cache(maxsize=1)
 def _get_client(token: Optional[str] = None) -> Optional[WebClient]:
-    token = pystow.get_config('bioversions', 'slack_api_token', token)
+    token = pystow.get_config("bioversions", "slack_api_token", token)
     if token is not None:
         return WebClient(token=token)
 
 
-def post(text: str, channel: str = 'random', token: Optional[str] = None):
+def post(text: str, channel: str = "random", token: Optional[str] = None):
     """Post the message to a given Slack channel."""
     client = _get_client(token)
     if client is None:
         return
 
-    if not channel.startswith('#'):
-        channel = f'#{channel}'
+    if not channel.startswith("#"):
+        channel = f"#{channel}"
     try:
         response = client.chat_postMessage(
             channel=channel,
@@ -46,5 +46,5 @@ def post(text: str, channel: str = 'random', token: Optional[str] = None):
         return response
 
 
-if __name__ == '__main__':
-    post('Slack test!')
+if __name__ == "__main__":
+    post("Slack test!")
