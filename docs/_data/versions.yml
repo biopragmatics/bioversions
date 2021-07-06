@@ -1,7 +1,7 @@
 annotations:
-  author: runner
-  date: '2021-07-02'
-  revision: 74
+  author: cthoyt
+  date: '2021-07-06'
+  revision: 75
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1827,7 +1827,9 @@ database:
     version: '1.0'
   - retrieved: '2021-06-14'
     version: 1.2.0
-  vtype: semver
+  - retrieved: '2021-07-06'
+    version: June 2021 release
+  vtype: date
 - name: Ontology for Parasite Lifecycle
   prefix: opl
   releases:
@@ -2342,6 +2344,8 @@ database:
     version: '2020-12-18'
   - retrieved: '2021-03-10'
     version: '2021-03-08'
+  - retrieved: '2021-07-06'
+    version: '2021-06-23'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme

@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 74,
-    "date": "2021-07-02",
-    "author": "runner"
+    "revision": 75,
+    "date": "2021-07-06",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -3360,9 +3360,13 @@
         {
           "retrieved": "2021-06-14",
           "version": "1.2.0"
+        },
+        {
+          "retrieved": "2021-07-06",
+          "version": "June 2021 release"
         }
       ],
-      "vtype": "semver"
+      "vtype": "date"
     },
     {
       "name": "Ontology for Parasite Lifecycle",
@@ -4267,6 +4271,10 @@
         {
           "retrieved": "2021-03-10",
           "version": "2021-03-08"
+        },
+        {
+          "retrieved": "2021-07-06",
+          "version": "2021-06-23"
         }
       ],
       "vtype": "date"
