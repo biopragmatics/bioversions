@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 75,
-    "date": "2021-07-06",
-    "author": "cthoyt"
+    "revision": 76,
+    "date": "2021-07-08",
+    "author": "runner"
   },
   "database": [
     {
@@ -1944,6 +1944,12 @@
           "version": "2021-06-16",
           "homepage": "http://archive.geneontology.org/full/2021-06-16/",
           "date": "2021-06-16"
+        },
+        {
+          "retrieved": "2021-07-08",
+          "version": "2021-07-02",
+          "homepage": "http://archive.geneontology.org/full/2021-07-02/",
+          "date": "2021-07-02"
         }
       ],
       "vtype": "date"
