@@ -38,7 +38,7 @@ def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
     if ols_id is None:
         return
 
-    version = bioregistry.get(bioregistry_id).ols.get("version")
+    version = bioregistry.get_resource(bioregistry_id).ols.get("version")
     if version is None:
         logger.debug("[%s] no OLS version", bioregistry_id)
         return
