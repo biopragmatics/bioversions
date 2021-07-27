@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 77,
-    "date": "2021-07-11",
-    "author": "runner"
+    "revision": 78,
+    "date": "2021-07-27",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -12,6 +12,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-04-03"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-01"
         }
       ],
       "vtype": "date"
@@ -221,6 +225,10 @@
         {
           "retrieved": "2021-06-05",
           "version": "2.7.1"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2.7.2"
         }
       ],
       "vtype": "semver"
@@ -449,6 +457,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-04-09"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-06"
         }
       ],
       "name": "C. elegans development ontology",
@@ -462,6 +474,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-12-14"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-06"
         }
       ],
       "vtype": "date"
@@ -487,6 +503,10 @@
         {
           "retrieved": "2021-06-04",
           "version": "2021-06-01"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-06"
         }
       ],
       "name": "C. elegans phenotype",
@@ -588,6 +608,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "2021-06-21"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-06-29"
         }
       ],
       "prefix": "cl",
@@ -705,6 +729,12 @@
           "version": "28",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_28",
           "date": "2021-01-15"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "29",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_29",
+          "date": "2021-07-01"
         }
       ],
       "vtype": "sequential"
@@ -920,6 +950,12 @@
           "version": "2021-05-05",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-05-05/",
           "date": "2021-05-05"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-06",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-07-06/",
+          "date": "2021-07-06"
         }
       ],
       "vtype": "date"
@@ -1236,6 +1272,10 @@
         {
           "retrieved": "2021-05-12",
           "version": "2021-05-10"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-05"
         }
       ],
       "name": "Drosophila development",
@@ -1251,6 +1291,10 @@
         {
           "retrieved": "2021-05-14",
           "version": "2021-05-11"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-09"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -1266,6 +1310,10 @@
         {
           "retrieved": "2021-05-14",
           "version": "2021-05-12"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-15"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -1399,6 +1447,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-04-12"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-06"
         }
       ],
       "vtype": "date"
@@ -1441,6 +1493,10 @@
         {
           "retrieved": "2021-04-29",
           "version": "2021-04-26"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-14"
         }
       ],
       "vtype": "date"
@@ -1533,6 +1589,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2021-06-04"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-02"
         }
       ],
       "name": "Evidence ontology",
@@ -1611,6 +1671,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "3.31.0"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "3.32.0"
         }
       ],
       "vtype": "semver"
@@ -1740,6 +1804,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "2021-06-17"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-21"
         }
       ],
       "vtype": "date"
@@ -1768,6 +1836,10 @@
         {
           "retrieved": "2021-05-14",
           "version": "2021-05-12"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-15"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -2170,6 +2242,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "2021-06-16"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-19"
         }
       ],
       "vtype": "date"
@@ -2366,6 +2442,12 @@
           "version": "2021-05-05",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-05-05/",
           "date": "2021-05-05"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-06",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-07-06/",
+          "date": "2021-07-06"
         }
       ],
       "vtype": "date"
@@ -2655,6 +2737,10 @@
         {
           "retrieved": "2021-03-29",
           "version": "2021-03-22"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-06-11"
         }
       ],
       "vtype": "date"
@@ -2750,6 +2836,10 @@
         {
           "retrieved": "2021-05-06",
           "version": "2021-05-04"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-09"
         }
       ],
       "vtype": "date"
@@ -2864,6 +2954,10 @@
         {
           "retrieved": "2021-06-03",
           "version": "2021-06-01"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-12"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -3412,6 +3506,10 @@
         {
           "retrieved": "2021-05-28",
           "version": "2021-05-21"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-03"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -3541,6 +3639,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2021-06-04"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-02"
         }
       ],
       "vtype": "date"
@@ -3687,6 +3789,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "3.1"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "3.2"
         }
       ],
       "vtype": "semver"
@@ -3737,6 +3843,10 @@
         {
           "retrieved": "2021-05-15",
           "version": "2021-05-13"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-14"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -3870,6 +3980,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "2021-06-15"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-09"
         }
       ],
       "prefix": "pato",
@@ -4309,6 +4423,11 @@
           "retrieved": "2021-03-18",
           "version": "14.5",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.5/"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "14.6",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.6/"
         }
       ],
       "vtype": "semver_minor"
@@ -4407,6 +4526,10 @@
         {
           "retrieved": "2021-02-25",
           "version": "1.51"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "1.53"
         }
       ],
       "vtype": "semver"
@@ -4459,6 +4582,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "2021-06-10"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-12"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -4901,6 +5028,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-02-12"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "2021-07-21"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -5056,6 +5187,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "1.1.158"
+        },
+        {
+          "retrieved": "2021-07-27",
+          "version": "1.1.165"
         }
       ],
       "vtype": "semver"
