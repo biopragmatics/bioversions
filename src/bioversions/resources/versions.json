@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 78,
-    "date": "2021-07-27",
-    "author": "cthoyt"
+    "revision": 79,
+    "date": "2021-07-28",
+    "author": "runner"
   },
   "database": [
     {
@@ -229,6 +229,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2.7.2"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2.7.1"
         }
       ],
       "vtype": "semver"
@@ -1314,6 +1318,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-15"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-07-09"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -1497,6 +1505,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-14"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-04-26"
         }
       ],
       "vtype": "date"
@@ -1675,6 +1687,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "3.32.0"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "3.31.0"
         }
       ],
       "vtype": "semver"
@@ -1808,6 +1824,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-21"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-07-06"
         }
       ],
       "vtype": "date"
@@ -1840,6 +1860,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-15"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-05-12"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -2246,6 +2270,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-19"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-06-16"
         }
       ],
       "vtype": "date"
@@ -2958,6 +2986,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-12"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-06-01"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -3847,6 +3879,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-14"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-05-13"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -4586,6 +4622,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-12"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-07-01"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -5032,6 +5072,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-21"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "2021-07-06"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -5191,6 +5235,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "1.1.165"
+        },
+        {
+          "retrieved": "2021-07-28",
+          "version": "1.1.158"
         }
       ],
       "vtype": "semver"

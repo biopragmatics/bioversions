@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-07-27'
-  revision: 78
+  author: runner
+  date: '2021-07-28'
+  revision: 79
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -124,6 +124,8 @@ database:
     version: 2.7.1
   - retrieved: '2021-07-27'
     version: 2.7.2
+  - retrieved: '2021-07-28'
+    version: 2.7.1
   vtype: semver
 - name: Biofacquim
   releases:
@@ -721,6 +723,8 @@ database:
     version: '2021-05-12'
   - retrieved: '2021-07-27'
     version: '2021-07-15'
+  - retrieved: '2021-07-28'
+    version: '2021-07-09'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -819,6 +823,8 @@ database:
     version: '2021-04-26'
   - retrieved: '2021-07-27'
     version: '2021-07-14'
+  - retrieved: '2021-07-28'
+    version: '2021-04-26'
   vtype: date
 - name: Environment Exposure Ontology
   prefix: ecto
@@ -914,6 +920,8 @@ database:
     version: 3.31.0
   - retrieved: '2021-07-27'
     version: 3.32.0
+  - retrieved: '2021-07-28'
+    version: 3.31.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -982,6 +990,8 @@ database:
     version: '2021-06-17'
   - retrieved: '2021-07-27'
     version: '2021-07-21'
+  - retrieved: '2021-07-28'
+    version: '2021-07-06'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1000,6 +1010,8 @@ database:
     version: '2021-05-12'
   - retrieved: '2021-07-27'
     version: '2021-07-15'
+  - retrieved: '2021-07-28'
+    version: '2021-05-12'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -1219,6 +1231,8 @@ database:
     version: '2021-06-16'
   - retrieved: '2021-07-27'
     version: '2021-07-19'
+  - retrieved: '2021-07-28'
+    version: '2021-06-16'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1610,6 +1624,8 @@ database:
     version: '2021-06-01'
   - retrieved: '2021-07-27'
     version: '2021-07-12'
+  - retrieved: '2021-07-28'
+    version: '2021-06-01'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2116,6 +2132,8 @@ database:
     version: '2021-05-13'
   - retrieved: '2021-07-27'
     version: '2021-07-14'
+  - retrieved: '2021-07-28'
+    version: '2021-05-13'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -2515,6 +2533,8 @@ database:
     version: '2021-06-10'
   - retrieved: '2021-07-27'
     version: '2021-07-12'
+  - retrieved: '2021-07-28'
+    version: '2021-07-01'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
@@ -2756,6 +2776,8 @@ database:
     version: '2021-02-12'
   - retrieved: '2021-07-27'
     version: '2021-07-21'
+  - retrieved: '2021-07-28'
+    version: '2021-07-06'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -2843,6 +2865,8 @@ database:
     version: 1.1.158
   - retrieved: '2021-07-27'
     version: 1.1.165
+  - retrieved: '2021-07-28'
+    version: 1.1.158
   vtype: semver
 - name: Variation Ontology
   prefix: vario
