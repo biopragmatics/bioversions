@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 79,
-    "date": "2021-07-28",
+    "revision": 80,
+    "date": "2021-07-30",
     "author": "runner"
   },
   "database": [
@@ -233,6 +233,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2.7.1"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2.7.2"
         }
       ],
       "vtype": "semver"
@@ -1029,6 +1033,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "1.0.214"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "1.0.235"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -1237,6 +1245,12 @@
           "version": "2021-06-08",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-06-08",
           "date": "2021-06-08"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-29",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-07-29",
+          "date": "2021-07-29"
         }
       ],
       "vtype": "date"
@@ -1322,6 +1336,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-07-09"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-15"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -1509,6 +1527,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-04-26"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-14"
         }
       ],
       "vtype": "date"
@@ -1691,6 +1713,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "3.31.0"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "3.32.0"
         }
       ],
       "vtype": "semver"
@@ -1828,6 +1854,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-21"
         }
       ],
       "vtype": "date"
@@ -1864,6 +1894,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-05-12"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-15"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -2127,6 +2161,17 @@
     {
       "releases": [
         {
+          "retrieved": "2021-07-30",
+          "version": "1.7.2"
+        }
+      ],
+      "name": "Glycan Naming and Subsumption Ontology",
+      "prefix": "gno",
+      "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
           "retrieved": "2021-04-14",
           "version": "1.7.0"
         },
@@ -2274,6 +2319,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-06-16"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-19"
         }
       ],
       "vtype": "date"
@@ -2868,6 +2917,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-09"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-23"
         }
       ],
       "vtype": "date"
@@ -2990,6 +3043,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-06-01"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-12"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -3883,6 +3940,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-05-13"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-14"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -4626,6 +4687,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-07-01"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-12"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -5076,6 +5141,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "2021-07-25"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -5239,6 +5308,10 @@
         {
           "retrieved": "2021-07-28",
           "version": "1.1.158"
+        },
+        {
+          "retrieved": "2021-07-30",
+          "version": "1.1.165"
         }
       ],
       "vtype": "semver"

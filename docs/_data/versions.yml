@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-07-28'
-  revision: 79
+  date: '2021-07-30'
+  revision: 80
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -126,6 +126,8 @@ database:
     version: 2.7.2
   - retrieved: '2021-07-28'
     version: 2.7.1
+  - retrieved: '2021-07-30'
+    version: 2.7.2
   vtype: semver
 - name: Biofacquim
   releases:
@@ -562,6 +564,8 @@ database:
     version: 1.0.211
   - retrieved: '2021-06-14'
     version: 1.0.214
+  - retrieved: '2021-07-30'
+    version: 1.0.235
   vtype: semver
 - name: Cotton ontology
   prefix: co_358
@@ -679,6 +683,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-06-08
     retrieved: '2021-06-14'
     version: '2021-06-08'
+  - date: '2021-07-29'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-07-29
+    retrieved: '2021-07-30'
+    version: '2021-07-29'
   vtype: date
 - name: DisGeNet
   releases:
@@ -725,6 +733,8 @@ database:
     version: '2021-07-15'
   - retrieved: '2021-07-28'
     version: '2021-07-09'
+  - retrieved: '2021-07-30'
+    version: '2021-07-15'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -825,6 +835,8 @@ database:
     version: '2021-07-14'
   - retrieved: '2021-07-28'
     version: '2021-04-26'
+  - retrieved: '2021-07-30'
+    version: '2021-07-14'
   vtype: date
 - name: Environment Exposure Ontology
   prefix: ecto
@@ -922,6 +934,8 @@ database:
     version: 3.32.0
   - retrieved: '2021-07-28'
     version: 3.31.0
+  - retrieved: '2021-07-30'
+    version: 3.32.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -992,6 +1006,8 @@ database:
     version: '2021-07-21'
   - retrieved: '2021-07-28'
     version: '2021-07-06'
+  - retrieved: '2021-07-30'
+    version: '2021-07-21'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1012,6 +1028,8 @@ database:
     version: '2021-07-15'
   - retrieved: '2021-07-28'
     version: '2021-05-12'
+  - retrieved: '2021-07-30'
+    version: '2021-07-15'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -1153,6 +1171,12 @@ database:
   - retrieved: '2021-04-14'
     version: '2016-03-26'
   vtype: date
+- name: Glycan Naming and Subsumption Ontology
+  prefix: gno
+  releases:
+  - retrieved: '2021-07-30'
+    version: 1.7.2
+  vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
   releases:
@@ -1233,6 +1257,8 @@ database:
     version: '2021-07-19'
   - retrieved: '2021-07-28'
     version: '2021-06-16'
+  - retrieved: '2021-07-30'
+    version: '2021-07-19'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1559,6 +1585,8 @@ database:
     version: '2021-05-04'
   - retrieved: '2021-07-27'
     version: '2021-07-09'
+  - retrieved: '2021-07-30'
+    version: '2021-07-23'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -1626,6 +1654,8 @@ database:
     version: '2021-07-12'
   - retrieved: '2021-07-28'
     version: '2021-06-01'
+  - retrieved: '2021-07-30'
+    version: '2021-07-12'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2134,6 +2164,8 @@ database:
     version: '2021-07-14'
   - retrieved: '2021-07-28'
     version: '2021-05-13'
+  - retrieved: '2021-07-30'
+    version: '2021-07-14'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -2535,6 +2567,8 @@ database:
     version: '2021-07-12'
   - retrieved: '2021-07-28'
     version: '2021-07-01'
+  - retrieved: '2021-07-30'
+    version: '2021-07-12'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
@@ -2778,6 +2812,8 @@ database:
     version: '2021-07-21'
   - retrieved: '2021-07-28'
     version: '2021-07-06'
+  - retrieved: '2021-07-30'
+    version: '2021-07-25'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -2867,6 +2903,8 @@ database:
     version: 1.1.165
   - retrieved: '2021-07-28'
     version: 1.1.158
+  - retrieved: '2021-07-30'
+    version: 1.1.165
   vtype: semver
 - name: Variation Ontology
   prefix: vario
