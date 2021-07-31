@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-07-30'
-  revision: 80
+  date: '2021-07-31'
+  revision: 81
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1420,6 +1420,9 @@ database:
   - date: '2021-07-01'
     retrieved: '2021-07-01'
     version: '99.0'
+  - date: '2021-08-01'
+    retrieved: '2021-07-31'
+    version: '99.1'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao

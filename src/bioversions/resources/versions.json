@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 80,
-    "date": "2021-07-30",
+    "revision": 81,
+    "date": "2021-07-31",
     "author": "runner"
   },
   "database": [
@@ -2609,6 +2609,11 @@
           "retrieved": "2021-07-01",
           "version": "99.0",
           "date": "2021-07-01"
+        },
+        {
+          "retrieved": "2021-07-31",
+          "version": "99.1",
+          "date": "2021-08-01"
         }
       ],
       "vtype": "semver_minor"
