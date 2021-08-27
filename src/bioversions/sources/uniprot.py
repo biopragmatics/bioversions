@@ -28,7 +28,7 @@ class UniProtGetter(Getter):
         """Get the latest UniProt version number."""
         session = requests.Session()
         f = session.get(
-            "ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/RELEASE.metalink"
+            "https://ftp.uniprot.org/pub/databases/uniprot/current_release/RELEASE.metalink"
         )
         tree = ElementTree.fromstring(f.text)  # noqa:S314
         version_tag = tree.find("{http://www.metalinker.org/}version")
