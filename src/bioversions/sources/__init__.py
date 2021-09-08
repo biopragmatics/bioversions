@@ -2,6 +2,7 @@
 
 """Sources for Bioversions."""
 
+import ftplib
 import logging
 from functools import lru_cache
 from typing import Iterable, List, Mapping, Optional, Type
@@ -122,11 +123,14 @@ def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
 
 
 def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
-    for cls in tqdm(get_getters(), disable=not use_tqdm):
+    it = tqdm(get_getters(), disable=not use_tqdm)
+
+    for cls in it:
+        it.set_postfix(name=cls.name)
         try:
             yv = resolve(cls.name)
-        except IOError:
-            logger.warning("failed to resolve %s", cls.name)
+        except (IOError, AttributeError, ftplib.error_perm):
+            tqdm.write(f"failed to resolve {cls.name}")
             continue
         else:
             yield yv
