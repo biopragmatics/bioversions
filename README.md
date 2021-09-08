@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/cthoyt/bioversions/raw/main/docs/source/logo.png" height="150">
+  <img src="https://github.com/biopragmatics/bioversions/raw/main/docs/source/logo.png" height="150">
 </p>
 
 <h1 align="center">
@@ -13,7 +13,7 @@
     <a href="https://pypi.org/project/bioversions">
         <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/bioversions" />
     </a>
-    <a href="https://github.com/cthoyt/bioversions/blob/main/LICENSE">
+    <a href="https://github.com/biopragmatics/bioversions/blob/main/LICENSE">
         <img alt="PyPI - License" src="https://img.shields.io/pypi/l/bioversions" />
     </a>
     <a href="https://zenodo.org/badge/latestdoi/318852276">
@@ -27,7 +27,7 @@
 What's the current version for each biological database?
 
 A daily updated static listing of all current versions (that are incorporated) can be found at
-https://cthoyt.github.io/bioversions.
+https://biopragmatics.github.io/bioversions.
 
 ## 🚀 Installation
 
@@ -54,7 +54,7 @@ can be overridden by setting the
 
 ## 🌐 Web Application
 
-While https://cthoyt.github.io/bioversions provides a daily updated static listing of the database, you can run a
+While https://biopragmatics.github.io/bioversions provides a daily updated static listing of the database, you can run a
 dynamic version with an API from your shell with:
 
 ```bash
