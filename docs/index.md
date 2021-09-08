@@ -12,7 +12,7 @@ by {{ site.data.versions.annotations.author }}.
 Legend: 📥 means the resource reports the date of each release, 📅 means the date of release was inferred based on the
 date when the latest version was retrieved, 💡 means the date was inferred by the version string.
 
-<table>
+<table id="versions-table">
 <thead>
 <tr>
     <th>Prefix</th>
@@ -39,6 +39,14 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
 {% endfor %}
 </tbody>
 </table>
+
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script>
+$(document).ready(function () {
+   $("#versions-table").DataTable();
+});
+</script>
 
 ## Adding More Databases
 
