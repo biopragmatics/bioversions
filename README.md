@@ -90,3 +90,21 @@ To add more databases to the list, you can create a new submodule of
 `bioversions.sources` and extend the `bioversions.utils.Getter` class to identify the most recent version for your
 target database. See
 `bioversions.sources.biogrid` as an example.
+
+## 👋 Attribution
+
+### ⚖️ License
+
+Code is licensed under the MIT License.
+
+### 🎁 Support
+
+The Bioversions service was developed by the [INDRA Lab](https://indralab.github.io), a part of the
+[Laboratory of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/)
+and the [Harvard Program in Therapeutic Science (HiTS)](https://hits.harvard.edu)
+at [Harvard Medical School](https://hms.harvard.edu/).
+
+### 💰 Funding
+
+The development of the Bioregistry is funded by the DARPA Young Faculty Award W911NF2010255 (PI:
+Benjamin M. Gyori).
