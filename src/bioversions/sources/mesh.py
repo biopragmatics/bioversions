@@ -23,16 +23,10 @@ class MeshGetter(Getter):
         """Get the latest MeSH version number."""
         with ftplib.FTP("nlmpubs.nlm.nih.gov") as ftp:
             ftp.login()
-            ftp.cwd("online/mesh/")
-            versions = []
+            ftp.cwd("/online/mesh/MESH_FILES/xmlmesh/")
             for name, _ in ftp.mlsd():
-                try:
-                    int(name)
-                except ValueError:
-                    continue
-                else:
-                    versions.append(name)
-            return max(versions)
+                if name.startswith("desc") and name.endswith(".gz"):
+                    return name[len("desc"): -len(".gz")]
         raise ValueError
 
 
