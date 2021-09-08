@@ -26,7 +26,7 @@ class MeshGetter(Getter):
             ftp.cwd("/online/mesh/MESH_FILES/xmlmesh/")
             for name, _ in ftp.mlsd():
                 if name.startswith("desc") and name.endswith(".gz"):
-                    return name[len("desc"): -len(".gz")]
+                    return name[len("desc") : -len(".gz")]
         raise ValueError
 
 
