@@ -4,7 +4,7 @@ title: Download
 permalink: /download/
 ---
 This table can be downloaded as structured YAML from
-[here](https://github.com/cthoyt/bioversions/blob/main/docs/_data/versions.yml).
+[here](https://github.com/biopragmatics/bioversions/blob/main/docs/_data/versions.yml).
 
 ## License
 
@@ -21,4 +21,4 @@ import bioversions
 assert bioversions.get_version('biogrid') == '4.2.192', 'This was true on Dec 5th, 2020!'
 ```
 
-The source code can be found at [https://github.com/cthoyt/bioversions](https://github.com/cthoyt/bioversions).
+The source code can be found at [https://github.com/biopragmatics/bioversions](https://github.com/biopragmatics/bioversions).

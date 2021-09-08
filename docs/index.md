@@ -2,7 +2,7 @@
 layout: home
 ---
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cthoyt/bioversions/main/docs/source/logo.png" height="150">
+  <img src="https://raw.githubusercontent.com/biopragmatics/bioversions/main/docs/source/logo.png" height="150">
 </p>
 
 This site and accompanying package are a resource for informing you what the latest version of each biological database
@@ -42,8 +42,8 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
 
 ## Adding More Databases
 
-More databases can be added by sending a pull request to [cthoyt/bioversions](https://github.com/cthoyt/bioversions)
-by following the [contribution guidelines](https://github.com/cthoyt/bioversions#-contributing).
+More databases can be added by sending a pull request to [biopragmatics/bioversions](https://github.com/biopragmatics/bioversions)
+by following the [contribution guidelines](https://github.com/biopragmatics/bioversions#-contributing).
 
 Databases are added by the following priority (high to low):
 
@@ -61,8 +61,8 @@ Databases are added by the following priority (high to low):
 ## Database Updates
 
 The database is automatically updated daily thanks to scheduled workflows in GitHub Actions. The workflow's
-configuration can be found [here](https://github.com/cthoyt/bioversions/blob/main/.github/workflows/update.yml)
+configuration can be found [here](https://github.com/biopragmatics/bioversions/blob/main/.github/workflows/update.yml)
 and the last run can be
-seen [here](https://github.com/cthoyt/bioversions/actions?query=workflow%3A%22Update+Database%22). Further,
-a [changelog](https://github.com/cthoyt/bioversions/commits?author=actions-user) can be recapitulated from the commits
+seen [here](https://github.com/biopragmatics/bioversions/actions?query=workflow%3A%22Update+Database%22). Further,
+a [changelog](https://github.com/biopragmatics/bioversions/commits?author=actions-user) can be recapitulated from the commits
 of the GitHub Actions bot.
