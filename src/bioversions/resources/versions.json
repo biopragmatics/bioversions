@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 85,
-    "date": "2021-09-08",
-    "author": "cthoyt"
+    "revision": 86,
+    "date": "2021-09-09",
+    "author": "runner"
   },
   "database": [
     {
@@ -634,6 +634,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-10"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-06-29"
         }
       ],
       "prefix": "cl",
@@ -1065,6 +1069,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "1.0.255"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "1.0.235"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -1665,6 +1673,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-12"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-02"
         }
       ],
       "name": "Evidence ontology",
@@ -1759,6 +1771,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "3.33.0"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "3.32.0"
         }
       ],
       "vtype": "semver"
@@ -2215,6 +2231,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "1.9.0"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "1.7.2"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -2379,6 +2399,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-18"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-19"
         }
       ],
       "vtype": "date"
@@ -2436,6 +2460,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-02"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-06-13"
         }
       ],
       "vtype": "date"
@@ -2887,6 +2915,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-16"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-06-11"
         }
       ],
       "vtype": "date"
@@ -2999,6 +3031,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-07-28"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-23"
         }
       ],
       "vtype": "date"
@@ -3129,6 +3165,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-11"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-12"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -3685,6 +3725,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-10"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-03"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -3822,6 +3866,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-11"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-02"
         }
       ],
       "vtype": "date"
@@ -4175,6 +4223,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-06"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-09"
         }
       ],
       "prefix": "pato",
@@ -4302,6 +4354,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-13"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2020-08-20"
         }
       ],
       "vtype": "date"
@@ -4594,6 +4650,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-04"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-06-23"
         }
       ],
       "vtype": "date"
@@ -4979,6 +5039,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-07-27"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-04-21"
         }
       ],
       "vtype": "date"
@@ -5098,6 +5162,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-08-12"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2020-06-01"
         }
       ],
       "vtype": "date"
@@ -5264,6 +5332,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2021-07-27"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2021-07-25"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -5685,6 +5757,10 @@
         {
           "retrieved": "2021-09-08",
           "version": "2020-04-14"
+        },
+        {
+          "retrieved": "2021-09-09",
+          "version": "2020-03-18"
         }
       ],
       "vtype": "date"

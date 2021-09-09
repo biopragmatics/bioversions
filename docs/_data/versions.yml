@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-09-08'
-  revision: 85
+  author: runner
+  date: '2021-09-09'
+  revision: 86
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -343,6 +343,8 @@ database:
     version: '2021-06-29'
   - retrieved: '2021-09-08'
     version: '2021-08-10'
+  - retrieved: '2021-09-09'
+    version: '2021-06-29'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -582,6 +584,8 @@ database:
     version: 1.0.235
   - retrieved: '2021-09-08'
     version: 1.0.255
+  - retrieved: '2021-09-09'
+    version: 1.0.235
   vtype: semver
 - name: Cotton ontology
   prefix: co_358
@@ -911,6 +915,8 @@ database:
     version: '2021-07-02'
   - retrieved: '2021-09-08'
     version: '2021-08-12'
+  - retrieved: '2021-09-09'
+    version: '2021-07-02'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -960,6 +966,8 @@ database:
     version: 3.32.0
   - retrieved: '2021-09-08'
     version: 3.33.0
+  - retrieved: '2021-09-09'
+    version: 3.32.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1206,6 +1214,8 @@ database:
     version: 1.7.2
   - retrieved: '2021-09-08'
     version: 1.9.0
+  - retrieved: '2021-09-09'
+    version: 1.7.2
   vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
@@ -1291,6 +1301,8 @@ database:
     version: '2021-07-19'
   - retrieved: '2021-09-08'
     version: '2021-08-18'
+  - retrieved: '2021-09-09'
+    version: '2021-07-19'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1321,6 +1333,8 @@ database:
     version: '2021-06-13'
   - retrieved: '2021-09-08'
     version: '2021-08-02'
+  - retrieved: '2021-09-09'
+    version: '2021-06-13'
   vtype: date
 - name: Hymenoptera Anatomy Ontology
   prefix: hao
@@ -1571,6 +1585,8 @@ database:
     version: '2021-06-11'
   - retrieved: '2021-09-08'
     version: '2021-08-16'
+  - retrieved: '2021-09-09'
+    version: '2021-06-11'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -1631,6 +1647,8 @@ database:
     version: '2021-07-23'
   - retrieved: '2021-09-08'
     version: '2021-07-28'
+  - retrieved: '2021-09-09'
+    version: '2021-07-23'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -1702,6 +1720,8 @@ database:
     version: '2021-07-12'
   - retrieved: '2021-09-08'
     version: '2021-08-11'
+  - retrieved: '2021-09-09'
+    version: '2021-07-12'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2003,6 +2023,8 @@ database:
     version: '2021-07-03'
   - retrieved: '2021-09-08'
     version: '2021-08-10'
+  - retrieved: '2021-09-09'
+    version: '2021-07-03'
   vtype: date
 - name: Ontology of Adverse Events
   prefix: oae
@@ -2075,6 +2097,8 @@ database:
     version: '2021-07-02'
   - retrieved: '2021-09-08'
     version: '2021-08-11'
+  - retrieved: '2021-09-09'
+    version: '2021-07-02'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -2291,6 +2315,8 @@ database:
     version: '2021-07-09'
   - retrieved: '2021-09-08'
     version: '2021-08-06'
+  - retrieved: '2021-09-09'
+    version: '2021-07-09'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -2359,6 +2385,8 @@ database:
     version: '2020-08-20'
   - retrieved: '2021-09-08'
     version: '2021-08-13'
+  - retrieved: '2021-09-09'
+    version: '2020-08-20'
   vtype: date
 - name: Plant Phenology Ontology
   prefix: ppo
@@ -2516,6 +2544,8 @@ database:
     version: '2021-06-23'
   - retrieved: '2021-09-08'
     version: '2021-08-04'
+  - retrieved: '2021-09-09'
+    version: '2021-06-23'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -2724,6 +2754,8 @@ database:
     version: '2021-04-21'
   - retrieved: '2021-09-08'
     version: '2021-07-27'
+  - retrieved: '2021-09-09'
+    version: '2021-04-21'
   vtype: date
 - name: Taxonomic rank vocabulary
   prefix: taxrank
@@ -2788,6 +2820,8 @@ database:
     version: '2020-06-01'
   - retrieved: '2021-09-08'
     version: '2021-08-12'
+  - retrieved: '2021-09-09'
+    version: '2020-06-01'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -2879,6 +2913,8 @@ database:
     version: '2021-07-25'
   - retrieved: '2021-09-08'
     version: '2021-07-27'
+  - retrieved: '2021-09-09'
+    version: '2021-07-25'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -3113,6 +3149,8 @@ database:
     version: '2020-03-18'
   - retrieved: '2021-09-08'
     version: '2020-04-14'
+  - retrieved: '2021-09-09'
+    version: '2020-03-18'
   vtype: date
 - name: Zebrafish developmental stages ontology
   prefix: zfs
