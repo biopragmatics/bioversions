@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 86,
-    "date": "2021-09-09",
+    "revision": 87,
+    "date": "2021-09-11",
     "author": "runner"
   },
   "database": [
@@ -5667,6 +5667,12 @@
           "version": "20210810",
           "homepage": "http://data.wikipathways.org/20210810/",
           "date": "2021-08-10"
+        },
+        {
+          "retrieved": "2021-09-11",
+          "version": "20210910",
+          "homepage": "http://data.wikipathways.org/20210910/",
+          "date": "2021-09-10"
         }
       ],
       "vtype": "date"
