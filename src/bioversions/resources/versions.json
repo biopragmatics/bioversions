@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 87,
-    "date": "2021-09-11",
+    "revision": 88,
+    "date": "2021-09-15",
     "author": "runner"
   },
   "database": [
@@ -638,6 +638,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-06-29"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-10"
         }
       ],
       "prefix": "cl",
@@ -921,6 +925,10 @@
         {
           "retrieved": "2021-06-02",
           "version": "2021-05-31"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-28"
         }
       ],
       "vtype": "date"
@@ -1005,6 +1013,10 @@
         {
           "retrieved": "2021-06-03",
           "version": "2021-05-30"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-09"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -1044,6 +1056,10 @@
         {
           "retrieved": "2021-03-02",
           "version": "2021-02-21"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-11"
         }
       ],
       "vtype": "date"
@@ -1073,6 +1089,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "1.0.235"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "1.0.259"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -1336,6 +1356,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-05"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-01"
         }
       ],
       "name": "Drosophila development",
@@ -1382,6 +1406,10 @@
         {
           "retrieved": "2021-07-30",
           "version": "2021-07-15"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-02"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -1677,6 +1705,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-02"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-12"
         }
       ],
       "name": "Evidence ontology",
@@ -1775,6 +1807,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "3.32.0"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "3.33.0"
         }
       ],
       "vtype": "semver"
@@ -1916,6 +1952,10 @@
         {
           "retrieved": "2021-07-30",
           "version": "2021-07-21"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-02"
         }
       ],
       "vtype": "date"
@@ -1956,6 +1996,10 @@
         {
           "retrieved": "2021-07-30",
           "version": "2021-07-15"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-02"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -2235,6 +2279,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "1.7.2"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "1.9.0"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -2403,6 +2451,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-19"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-18"
         }
       ],
       "vtype": "date"
@@ -2464,6 +2516,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-06-13"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-02"
         }
       ],
       "vtype": "date"
@@ -2919,6 +2975,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-06-11"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-19"
         }
       ],
       "vtype": "date"
@@ -3035,6 +3095,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-23"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-07-28"
         }
       ],
       "vtype": "date"
@@ -3169,6 +3233,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-12"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-01"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -3256,6 +3324,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-02-12"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-01"
         }
       ],
       "vtype": "date"
@@ -3729,6 +3801,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-03"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-08"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -3740,6 +3816,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "1.2.38"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "1.2.44"
         }
       ],
       "name": "Ontology of Adverse Events",
@@ -3870,6 +3950,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-02"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-11"
         }
       ],
       "vtype": "date"
@@ -4227,6 +4311,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-09"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-06"
         }
       ],
       "prefix": "pato",
@@ -4358,6 +4446,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2020-08-20"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-13"
         }
       ],
       "vtype": "date"
@@ -4563,6 +4655,10 @@
         {
           "retrieved": "2021-05-25",
           "version": "2021-05-21"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-30"
         }
       ],
       "vtype": "date"
@@ -4654,6 +4750,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-06-23"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-31"
         }
       ],
       "vtype": "date"
@@ -5043,6 +5143,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-04-21"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-28"
         }
       ],
       "vtype": "date"
@@ -5166,6 +5270,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2020-06-01"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-08-12"
         }
       ],
       "vtype": "date"
@@ -5336,6 +5444,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2021-07-25"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-07-27"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -5742,6 +5854,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2020-03-10"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2021-09-07"
         }
       ],
       "name": "Yeast phenotypes",
@@ -5767,6 +5883,10 @@
         {
           "retrieved": "2021-09-09",
           "version": "2020-03-18"
+        },
+        {
+          "retrieved": "2021-09-15",
+          "version": "2020-04-14"
         }
       ],
       "vtype": "date"
