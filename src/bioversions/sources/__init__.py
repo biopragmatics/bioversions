@@ -19,6 +19,7 @@ from .disgenet import DisGeNetGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .expasy import ExPASyGetter
+from .flybase import FlybaseGetter
 from .homologene import HomoloGeneGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
@@ -79,6 +80,7 @@ def get_getters() -> List[Type[Getter]]:
         DisGeNetGetter,
         MeshGetter,
         DGIGetter,
+        FlybaseGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
