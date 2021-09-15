@@ -26,7 +26,7 @@ class FlybaseGetter(Getter):
             ftp.cwd("releases")
             for name in sorted(ftp.nlst(), reverse=True):
                 if name.startswith("FB2"):
-                    return name[len("FB"):]
+                    return name[len("FB") :]
         raise ValueError
 
 
