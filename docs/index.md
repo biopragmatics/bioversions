@@ -26,7 +26,7 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
 {% for entry in site.data.versions.database %}
     {% assign latest = entry.releases | last %}
     <tr>
-        <td>{{ entry.prefix }}</td>
+        <td><a href="https://bioregistry.io/{{ entry.prefix }}"><code>{{ entry.prefix }}</code></a></td>
         <td>{{ entry.name }}</td>
         <td>
             {% if latest.homepage %}<a href="{{ latest.homepage }}">{{ latest.version }} </a>{% else %}{{ latest.version }}{% endif %}
