@@ -25,7 +25,7 @@ class RheaGetter(Getter):
     version_type = VersionType.date
 
     def get(self):
-        """Get the latest Rfam version number."""
+        """Get the latest Rhea version number."""
         with requests.Session() as session:
             res = session.get(VERSION_FILE)
             d = dict(line.strip().split("=") for line in res.text.splitlines() if line.strip())
