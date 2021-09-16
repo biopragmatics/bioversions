@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-09-15'
-  revision: 88
+  date: '2021-09-16'
+  revision: 89
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1068,6 +1068,13 @@ database:
     version: 09-09-2019
   - retrieved: '2021-06-14'
     version: '2019-09-09'
+  vtype: date
+- name: FlyBase
+  prefix: flybase
+  releases:
+  - homepage: http://ftp.flybase.net/releases/FB2021_04/
+    retrieved: '2021-09-16'
+    version: '2021_04'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv

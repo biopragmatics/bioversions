@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 88,
-    "date": "2021-09-15",
+    "revision": 89,
+    "date": "2021-09-16",
     "author": "runner"
   },
   "database": [
@@ -1973,6 +1973,18 @@
           "version": "2019-09-09"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-09-16",
+          "version": "2021_04",
+          "homepage": "http://ftp.flybase.net/releases/FB2021_04/"
+        }
+      ],
+      "name": "FlyBase",
+      "prefix": "flybase",
       "vtype": "date"
     },
     {
