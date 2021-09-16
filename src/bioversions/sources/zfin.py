@@ -25,7 +25,7 @@ class ZfinGetter(Getter):
         """Get the latest ZFIN version number."""
         soup = get_soup(URL)
         header = soup.find("h2")
-        version = header.text[len("ZFIN Data Reports from: "):].strip()
+        version = header.text[len("ZFIN Data Reports from: ") :].strip()
         return version
 
 
