@@ -98,7 +98,14 @@ def get_getters() -> List[Type[Getter]]:
 
 def get_getter_dict() -> Mapping[str, Type[Getter]]:
     """Get a dict of getters."""
-    return {norm(getter.name): getter for getter in get_getters()}
+    rv = {}
+    for getter in get_getters():
+        if getter.bioregistry_id:
+            rv[getter.bioregistry_id] = getter
+            rv[norm(getter.bioregistry_id)] = getter
+        rv[getter.name] = getter
+        rv[norm(getter.name)] = getter
+    return rv
 
 
 def resolve(name: str, use_cache: bool = True) -> Bioversion:
