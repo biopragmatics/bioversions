@@ -108,8 +108,6 @@ class MetaGetter(type):
     def version_date_parsed(cls) -> Optional[datetime.date]:
         """Get the date as a parsed class there's a format string."""
         if cls.date_version_fmt:
-            if not cls.date_version_fmt:
-                raise TypeError
             try:
                 return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
             except ValueError:
