@@ -32,12 +32,15 @@ from .obo import iter_obo_getters
 from .ols import extend_ols_getters
 from .pathbank import PathBankGetter
 from .pfam import PfamGetter
+from .pombase import PombaseGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
 from .rhea import RheaGetter
+from .sgd import SgdGetter
 from .stringdb import StringDBGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
+from .zfin import ZfinGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
 
 __all__ = [
@@ -81,6 +84,9 @@ def get_getters() -> List[Type[Getter]]:
         MeshGetter,
         DGIGetter,
         FlybaseGetter,
+        PombaseGetter,
+        SgdGetter,
+        ZfinGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
