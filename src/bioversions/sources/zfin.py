@@ -16,7 +16,7 @@ URL = "https://zfin.org/downloads"
 class ZfinGetter(Getter):
     """A getter for ZFIN."""
 
-    bioregistry_id = "zfin.pathway"
+    bioregistry_id = "zfin"
     name = "Zebrafish Information Network"
     date_version_fmt = "%d %b %Y"
     version_type = VersionType.date
