@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 89,
+    "revision": 90,
     "date": "2021-09-16",
-    "author": "runner"
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -4515,6 +4515,19 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-09-16",
+          "version": "2021-09-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2021-09-01/",
+          "date": "2021-09-01"
+        }
+      ],
+      "name": "PomBase",
+      "prefix": "pombase",
+      "vtype": "date"
+    },
+    {
       "name": "Population and Community Ontology",
       "prefix": "pco",
       "releases": [
@@ -4869,6 +4882,18 @@
           "version": "2021-01-21"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-09-16",
+          "version": "R64-3-1",
+          "date": "2021-04-21"
+        }
+      ],
+      "name": "Saccharomyces Genome Database",
+      "prefix": "sgd",
       "vtype": "date"
     },
     {
@@ -5927,6 +5952,18 @@
           "version": "2021-06-04"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-09-16",
+          "version": "14 Sep 2021",
+          "date": "2021-09-14"
+        }
+      ],
+      "name": "Zebrafish Information Network",
+      "prefix": "zfin.pathway",
       "vtype": "date"
     },
     {

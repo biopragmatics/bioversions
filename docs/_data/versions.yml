@@ -1,7 +1,7 @@
 annotations:
-  author: runner
+  author: cthoyt
   date: '2021-09-16'
-  revision: 89
+  revision: 90
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -2467,6 +2467,14 @@ database:
   - retrieved: '2021-02-02'
     version: '2020-03-10'
   vtype: date
+- name: PomBase
+  prefix: pombase
+  releases:
+  - date: '2021-09-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2021-09-01/
+    retrieved: '2021-09-16'
+    version: '2021-09-01'
+  vtype: date
 - name: Population and Community Ontology
   prefix: pco
   releases:
@@ -2660,6 +2668,13 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2021-01-21'
+  vtype: date
+- name: Saccharomyces Genome Database
+  prefix: sgd
+  releases:
+  - date: '2021-04-21'
+    retrieved: '2021-09-16'
+    version: R64-3-1
   vtype: date
 - name: Scientific Evidence and Provenance Information Ontology
   prefix: sepio
@@ -3236,6 +3251,13 @@ database:
     version: '2020-11-30'
   - retrieved: '2021-06-14'
     version: '2021-06-04'
+  vtype: date
+- name: Zebrafish Information Network
+  prefix: zfin.pathway
+  releases:
+  - date: '2021-09-14'
+    retrieved: '2021-09-16'
+    version: 14 Sep 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
