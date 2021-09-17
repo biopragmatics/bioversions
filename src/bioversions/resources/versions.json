@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 90,
-    "date": "2021-09-16",
-    "author": "cthoyt"
+    "revision": 91,
+    "date": "2021-09-17",
+    "author": "runner"
   },
   "database": [
     {
@@ -5960,10 +5960,15 @@
           "retrieved": "2021-09-16",
           "version": "14 Sep 2021",
           "date": "2021-09-14"
+        },
+        {
+          "retrieved": "2021-09-17",
+          "version": "15 Sep 2021",
+          "date": "2021-09-15"
         }
       ],
       "name": "Zebrafish Information Network",
-      "prefix": "zfin.pathway",
+      "prefix": "zfin",
       "vtype": "date"
     },
     {
