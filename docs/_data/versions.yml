@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-09-18'
-  revision: 92
+  date: '2021-09-19'
+  revision: 93
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -347,6 +347,8 @@ database:
     version: '2021-06-29'
   - retrieved: '2021-09-15'
     version: '2021-08-10'
+  - retrieved: '2021-09-19'
+    version: '2021-09-09'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -578,6 +580,8 @@ database:
     version: '2021-02-21'
   - retrieved: '2021-09-15'
     version: '2021-09-11'
+  - retrieved: '2021-09-19'
+    version: '2021-09-13'
   vtype: date
 - name: Coronavirus Infectious Disease Ontology
   prefix: cido
@@ -933,6 +937,8 @@ database:
     version: '2021-07-02'
   - retrieved: '2021-09-15'
     version: '2021-08-12'
+  - retrieved: '2021-09-19'
+    version: '2021-09-14'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -986,6 +992,8 @@ database:
     version: 3.32.0
   - retrieved: '2021-09-15'
     version: 3.33.0
+  - retrieved: '2021-09-19'
+    version: 3.34.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1060,6 +1068,8 @@ database:
     version: '2021-07-21'
   - retrieved: '2021-09-15'
     version: '2021-09-02'
+  - retrieved: '2021-09-19'
+    version: '2021-09-16'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1336,6 +1346,8 @@ database:
     version: '2021-07-19'
   - retrieved: '2021-09-15'
     version: '2021-08-18'
+  - retrieved: '2021-09-19'
+    version: '2021-09-16'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -2148,6 +2160,8 @@ database:
     version: '2021-07-02'
   - retrieved: '2021-09-15'
     version: '2021-08-11'
+  - retrieved: '2021-09-19'
+    version: '2021-09-13'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -2368,6 +2382,8 @@ database:
     version: '2021-07-09'
   - retrieved: '2021-09-15'
     version: '2021-08-06'
+  - retrieved: '2021-09-19'
+    version: '2021-09-09'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -2912,6 +2928,8 @@ database:
     version: '2021-03-20'
   - retrieved: '2021-05-25'
     version: '2021-05-24'
+  - retrieved: '2021-09-19'
+    version: '2021-09-15'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
@@ -3124,6 +3142,8 @@ database:
     version: '2021-01-08'
   - retrieved: '2021-05-07'
     version: '2021-04-28'
+  - retrieved: '2021-09-19'
+    version: '2021-09-09'
   vtype: date
 - name: Vitis ontology
   prefix: co_356
@@ -3264,6 +3284,9 @@ database:
   - date: '2021-09-16'
     retrieved: '2021-09-18'
     version: 16 Sep 2021
+  - date: '2021-09-17'
+    retrieved: '2021-09-19'
+    version: 17 Sep 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
