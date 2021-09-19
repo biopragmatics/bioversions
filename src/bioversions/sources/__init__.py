@@ -27,6 +27,7 @@ from .kegg import KEGGGetter
 from .mesh import MeshGetter
 from .mirbase import MirbaseGetter
 from .msigdb import MSigDBGetter
+from .ncit import NCItGetter
 from .npass import NPASSGetter
 from .obo import iter_obo_getters
 from .ols import extend_ols_getters
