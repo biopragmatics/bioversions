@@ -88,6 +88,7 @@ def get_getters() -> List[Type[Getter]]:
         PombaseGetter,
         SgdGetter,
         ZfinGetter,
+        NCItGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
