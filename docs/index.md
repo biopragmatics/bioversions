@@ -27,6 +27,7 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
     {% assign latest = entry.releases | last %}
     <tr>
         <td>
+        {% if entry.prefix %}
             <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
@@ -40,9 +41,12 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
                 "version": "{{ latest.version }}"
             }
             </script>
-        {% if entry.prefix %}
             <a href="https://bioregistry.io/{{ entry.prefix }}"><code>{{ entry.prefix }}</code></a>
         {% elsif entry.key %}
+            <!-- 
+               todo: add Bioschemas for non-prefixed resources. 
+               will be easier after https://github.com/biopragmatics/bioversions/issues/13
+            -->
             {{ entry.key }}
         {% endif %}
         </td>
