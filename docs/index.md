@@ -43,10 +43,10 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
             </script>
             <a href="https://bioregistry.io/{{ entry.prefix }}"><code>{{ entry.prefix }}</code></a>
         {% elsif entry.key %}
-            <!-- 
+            {% comment %} 
                todo: add Bioschemas for non-prefixed resources. 
                will be easier after https://github.com/biopragmatics/bioversions/issues/13
-            -->
+            {% endcomment %}
             {{ entry.key }}
         {% endif %}
         </td>
