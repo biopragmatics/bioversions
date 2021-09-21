@@ -21,6 +21,7 @@ from .drugcentral import DrugCentralGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
 from .homologene import HomoloGeneGetter
+from .hprd import HPRDGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
 from .kegg import KEGGGetter
@@ -87,6 +88,7 @@ def get_getters() -> List[Type[Getter]]:
         PombaseGetter,
         SgdGetter,
         ZfinGetter,
+        HPRDGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
