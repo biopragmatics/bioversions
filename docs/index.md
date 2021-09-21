@@ -27,13 +27,19 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
     {% assign latest = entry.releases | last %}
     <tr>
         <td>
-          <script type="application/ld+json">{
-            "@context":"https://schema.org", "@type":"Dataset",
-            "http://purl.org/dc/terms/conformsTo": { "@type": "CreativeWork", "@id": "https://bioschemas.org/profiles/Dataset/0.4-DRAFT/" },
-            "name":"{{ entry.name }}",
-            "url":"https://bioregistry.io/{{ entry.prefix }}",
-            "version":"{{ latest.version }}"
-          }</script>
+            <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type":"Dataset",
+                "http://purl.org/dc/terms/conformsTo": {
+                    "@type": "CreativeWork", 
+                    "@id": "https://bioschemas.org/profiles/Dataset/0.4-DRAFT/"
+                },
+                "name": "{{ entry.name }}",
+                "url": "https://bioregistry.io/{{ entry.prefix }}",
+                "version": "{{ latest.version }}"
+            }
+            </script>
         {% if entry.prefix %}
             <a href="https://bioregistry.io/{{ entry.prefix }}"><code>{{ entry.prefix }}</code></a>
         {% elsif entry.key %}
