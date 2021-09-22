@@ -18,7 +18,7 @@ class NCItGetter(Getter):
     """A getter for the NCI Thesaurus."""
 
     bioregistry_id = "ncit"
-    name = "NCIt"
+    name = "National Cancer Institute Thesaurus"
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.other
 
