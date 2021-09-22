@@ -9,6 +9,15 @@ This site and accompanying package are a resource for informing you what the lat
 is. Last updated on {{ site.data.versions.annotations.date }} (revision {{ site.data.versions.annotations.revision }})
 by {{ site.data.versions.annotations.author }}.
 
+This site also includes [Bioschemas](https://bioschemas.org/) annotations, which
+aims to improve the findability of life sciences resources such as datasets,
+software, and training materials. These annotations can either appear on the
+original site, or on a website (like this one) that indexes it or provides
+additional information. The further information here, for example, is the link
+to the BioRegistry. The JSON-LD annotation will make it easier for other
+tools to recognize the content of the table. This includes the [Google Dataset
+finder](https://datasetsearch.research.google.com/), besides Bioschemas itself.
+
 Legend: 📥 means the resource reports the date of each release, 📅 means the date of release was inferred based on the
 date when the latest version was retrieved, 💡 means the date was inferred by the version string.
 
@@ -28,8 +37,21 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
     <tr>
         <td>
         {% if entry.prefix %}
+            <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Dataset",
+                "@id": "https://bioregistry.io/{{ entry.prefix }}",
+                "name": "{{ entry.name }}",
+                "version": "{{ latest.version }}"
+            }
+            </script>
             <a href="https://bioregistry.io/{{ entry.prefix }}"><code>{{ entry.prefix }}</code></a>
         {% elsif entry.key %}
+            {% comment %} 
+               todo: add Bioschemas for non-prefixed resources. 
+               will be easier after https://github.com/biopragmatics/bioversions/issues/13
+            {% endcomment %}
             {{ entry.key }}
         {% endif %}
         </td>
