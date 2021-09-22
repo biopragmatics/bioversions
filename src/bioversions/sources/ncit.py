@@ -2,9 +2,10 @@
 
 """A getter for the NCI Thesaurus."""
 
-from ..utils import Getter, VersionType, get_soup
 import re
 from typing import Dict
+
+from ..utils import Getter, VersionType, get_soup
 
 __all__ = [
     "NCItGetter",
