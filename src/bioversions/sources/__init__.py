@@ -27,6 +27,7 @@ from .kegg import KEGGGetter
 from .mesh import MeshGetter
 from .mirbase import MirbaseGetter
 from .msigdb import MSigDBGetter
+from .ncit import NCItGetter
 from .npass import NPASSGetter
 from .obo import iter_obo_getters
 from .ols import extend_ols_getters
@@ -88,7 +89,8 @@ def get_getters() -> List[Type[Getter]]:
         PombaseGetter,
         SgdGetter,
         ZfinGetter,
-        OncoTreeGetter
+        NCItGetter,
+        OncoTreeGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
