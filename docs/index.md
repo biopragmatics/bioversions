@@ -40,13 +40,13 @@ date when the latest version was retrieved, 💡 means the date was inferred by 
             <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
-                "@type":"Dataset",
+                "@type": "Dataset",
+                "@id": "https://bioregistry.io/{{ entry.prefix }}",
                 "http://purl.org/dc/terms/conformsTo": {
                     "@type": "CreativeWork", 
                     "@id": "https://bioschemas.org/profiles/Dataset/0.4-DRAFT/"
                 },
                 "name": "{{ entry.name }}",
-                "url": "https://bioregistry.io/{{ entry.prefix }}",
                 "version": "{{ latest.version }}"
             }
             </script>
