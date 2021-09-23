@@ -24,7 +24,7 @@ class RxNormGetter(Getter):
     def get(self) -> str:
         """Get the latest BioGRID version number."""
         soup = get_soup(URL)
-        raw_version = soup.find('th', {'class': 'current'}).contents[2]
+        raw_version = soup.find("th", {"class": "current"}).contents[2]
         raw_fmt = "%B %d, %Y"
         dt = datetime.strptime(raw_version, raw_fmt)
         version = datetime.strftime(dt, "%m%d%Y")
@@ -32,4 +32,4 @@ class RxNormGetter(Getter):
 
 
 if __name__ == "__main__":
-    RxNorm.print()
+    RxNormGetter.print()
