@@ -23,8 +23,8 @@ class MOAlmanacGetter(Getter):
     def get(self) -> str:
         """Get the latest BioGRID version number."""
         soup = get_soup(URL)
-        sub_footer = soup.find('div', {'class': 'text-right'})
-        version = sub_footer.find('a').text
+        sub_footer = soup.find("div", {"class": "text-right"})
+        version = sub_footer.find("a").text
         return version
 
 
