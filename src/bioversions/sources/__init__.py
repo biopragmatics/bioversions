@@ -37,6 +37,7 @@ from .pombase import PombaseGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
 from .rhea import RheaGetter
+from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
 from .stringdb import StringDBGetter
 from .uniprot import UniProtGetter
@@ -89,6 +90,7 @@ def get_getters() -> List[Type[Getter]]:
         SgdGetter,
         ZfinGetter,
         NCItGetter,
+        RxNormGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
