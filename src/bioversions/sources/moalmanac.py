@@ -12,7 +12,7 @@ URL = "https://moalmanac.org/"
 
 
 class MOAlmanacGetter(Getter):
-    """A getter for BioGRID."""
+    """A getter for MOAlmanac."""
 
     bioregistry_id = "moalmanac"
     name = "Molecular Oncology Almanac"
@@ -29,5 +29,4 @@ class MOAlmanacGetter(Getter):
 
 
 if __name__ == "__main__":
-    BioGRIDGetter.print()
-
+    MOAlmanacGetter.print()
