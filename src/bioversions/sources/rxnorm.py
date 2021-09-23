@@ -2,8 +2,9 @@
 
 """A getter for RxNorm."""
 
-from ..utils import Getter, VersionType, get_soup
 from datetime import datetime
+
+from ..utils import Getter, VersionType, get_soup
 
 __all__ = [
     "RxNormGetter",
