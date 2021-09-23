@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 96,
-    "date": "2021-09-22",
+    "revision": 97,
+    "date": "2021-09-23",
     "author": "runner"
   },
   "database": [
@@ -3441,6 +3441,18 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-09-23",
+          "version": "21.08e",
+          "date": "2021-08-30"
+        }
+      ],
+      "name": "National Cancer Institute Thesaurus",
+      "prefix": "ncit",
+      "vtype": "other"
+    },
+    {
       "name": "NCBI Gene",
       "prefix": "ncbigene",
       "releases": [
@@ -6034,6 +6046,11 @@
           "retrieved": "2021-09-22",
           "version": "20 Sep 2021",
           "date": "2021-09-20"
+        },
+        {
+          "retrieved": "2021-09-23",
+          "version": "21 Sep 2021",
+          "date": "2021-09-21"
         }
       ],
       "name": "Zebrafish Information Network",
