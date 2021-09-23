@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-09-22'
-  revision: 96
+  date: '2021-09-23'
+  revision: 97
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1865,6 +1865,13 @@ database:
   - retrieved: '2021-04-14'
     version: '2021-01-21'
   vtype: date
+- name: National Cancer Institute Thesaurus
+  prefix: ncit
+  releases:
+  - date: '2021-08-30'
+    retrieved: '2021-09-23'
+    version: 21.08e
+  vtype: other
 - name: NCBI Gene
   prefix: ncbigene
   releases:
@@ -3298,6 +3305,9 @@ database:
   - date: '2021-09-20'
     retrieved: '2021-09-22'
     version: 20 Sep 2021
+  - date: '2021-09-21'
+    retrieved: '2021-09-23'
+    version: 21 Sep 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
