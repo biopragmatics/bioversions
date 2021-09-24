@@ -171,7 +171,7 @@ class Getter(metaclass=MetaGetter):
     date: ClassVar[str]
     homepage: ClassVar[str]
 
-    def get(self) -> Union[str, Mapping[str, str]]:
+    def get(self) -> Union[str, Mapping[str, str], datetime.datetime]:
         """Get the latest of this database."""
         raise NotImplementedError
 
