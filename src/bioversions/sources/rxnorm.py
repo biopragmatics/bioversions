@@ -20,16 +20,13 @@ class RxNormGetter(Getter):
     name = "RxNorm"
     homepage_fmt = "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_{version}.zip"
     version_type = VersionType.date
-    date_fmt = "%Y-%m-%d"
 
-    def get(self) -> str:
+    def get(self) -> datetime:
         """Get the latest BioGRID version number."""
         soup = get_soup(URL)
         raw_version = soup.find("th", {"class": "current"}).contents[2]
         raw_fmt = "%B %d, %Y"
-        dt = datetime.strptime(raw_version, raw_fmt)
-        version = datetime.strftime(dt, self.date_fmt)
-        return version
+        return datetime.strptime(raw_version, raw_fmt)
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:
