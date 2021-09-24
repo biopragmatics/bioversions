@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 ols_processing = get_ols_processing()
 
 
-def _get_version_type(bioregistry_id: str) -> Optional[VersionType]:
+def _get_version_type(bioregistry_id: str) -> VersionType:
     ols_id = bioregistry.get_ols_prefix(bioregistry_id)
     ols_config = ols_processing.get(ols_id)
     if ols_config is None:
@@ -30,27 +30,34 @@ def _get_version_type(bioregistry_id: str) -> Optional[VersionType]:
         return getattr(VersionType, ols_version_type)
     else:
         logger.warning("[%s] missing version type", bioregistry_id)
+        return None
 
 
 def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
     """Make a getter from OLS."""
     ols_id = bioregistry.get_ols_prefix(bioregistry_id)
     if ols_id is None:
-        return
+        return None
 
     version = bioregistry.get_resource(bioregistry_id).ols.get("version")
     if version is None:
         logger.debug("[%s] no OLS version", bioregistry_id)
-        return
+        return None
 
     _brid = bioregistry_id
+    _name = get_name(_brid)
+    if _name is None:
+        return None
+    _version_type = _get_version_type(bioregistry_id)
+    if _version_type is None:
+        return None
 
     class OlsGetter(Getter):
         """A getter for OLS data from the Bioregistry."""
 
         bioregistry_id = _brid
-        name = get_name(_brid)
-        version_type = _get_version_type(bioregistry_id)
+        name = _name
+        version_type = _version_type
 
         def get(self) -> Union[str, Mapping[str, str]]:
             """Get the version from the Bioregistry."""

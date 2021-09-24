@@ -67,6 +67,10 @@ class MetaGetter(type):
 
     _cache = None
 
+    date_fmt: Optional[str]
+    date_version_fmt: Optional[str]
+    homepage_fmt: Optional[str]
+
     @property
     def _cache_prop(cls):
         if cls._cache is None:
@@ -89,38 +93,40 @@ class MetaGetter(type):
     def date(cls) -> Optional[datetime.date]:
         """Get the date if it's set."""
         vp = cls.version_date_parsed
-        if vp:
+        if vp is not None:
             return vp
-        if isinstance(cls._cache_prop, dict):
-            date_str = cls._cache_prop["date"]
-            if not cls.date_fmt:
-                raise TypeError(
-                    f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}"
-                )
-            try:
-                return datetime.datetime.strptime(date_str, cls.date_fmt).date()
-            except ValueError:
-                raise ValueError(
-                    f"Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}"
-                )
+        if not isinstance(cls._cache_prop, dict):
+            return None
+        date_str = cls._cache_prop["date"]
+        if not cls.date_fmt:
+            raise TypeError(
+                f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}"
+            )
+        try:
+            return datetime.datetime.strptime(date_str, cls.date_fmt).date()
+        except ValueError:
+            raise ValueError(f"Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}")
 
     @property
     def version_date_parsed(cls) -> Optional[datetime.date]:
         """Get the date as a parsed class there's a format string."""
-        if cls.date_version_fmt:
-            try:
-                return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
-            except ValueError:
-                raise ValueError(
-                    f"Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}"
-                )
+        if cls.date_version_fmt is None:
+            return None
+        try:
+            return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
+        except ValueError:
+            raise ValueError(
+                f"Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}"
+            )
 
     @property
     def homepage(cls) -> Optional[str]:
         """Get the homepage's URL if a format string was specified."""
-        if cls.homepage_fmt:
-            version = cls.homepage_version_transform(cls.version)
-            return cls.homepage_fmt.format(version=version)
+        if cls.homepage_fmt is None:
+            return None
+
+        version = cls.homepage_version_transform(cls.version)
+        return cls.homepage_fmt.format(version=version)
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:
