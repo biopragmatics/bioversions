@@ -33,7 +33,7 @@ class RxNormGetter(Getter):
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:
-        """Transform date to match RxNorm download URL"""
+        """Transform date to match RxNorm download URL."""
         return datetime.strftime(datetime.strptime(version, "%Y-%m-%d"), "%m%d%Y")
 
 
