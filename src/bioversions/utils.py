@@ -6,16 +6,15 @@ import datetime
 import enum
 import ftplib
 import os
-from dataclasses import dataclass
 from typing import Any, ClassVar, Mapping, Optional, Union
 
 import bioregistry
+import pydantic
 import pystow
 import requests
 import requests_ftp
 from bs4 import BeautifulSoup
 from cachier import cachier
-from dataclasses_json import dataclass_json
 
 BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -134,9 +133,7 @@ class MetaGetter(type):
         return version
 
 
-@dataclass_json
-@dataclass
-class Bioversion:
+class Bioversion(pydantic.BaseModel):
     """A dataclass for information about a database and version."""
 
     #: The database name
@@ -298,15 +295,15 @@ def _get_ftp_date_version(host: str, directory: str) -> str:
 
 
 def _is_iso_8601(s: str) -> bool:
-    s = s.split("-")
-    return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()
+    x = s.split("-")
+    return len(x) == 3 and x[0].isnumeric() and x[1].isnumeric() and x[2].isnumeric()
 
 
 def _is_version(s: str) -> bool:
-    s = s.split(".")
-    return len(s) == 2 and s[0].isnumeric() and s[1].isnumeric()
+    x = s.split(".")
+    return len(x) == 2 and x[0].isnumeric() and x[1].isnumeric()
 
 
 def _is_semantic_version(s: str) -> bool:
-    s = s.split(".")
-    return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()
+    x = s.split(".")
+    return len(x) == 3 and x[0].isnumeric() and x[1].isnumeric() and x[2].isnumeric()

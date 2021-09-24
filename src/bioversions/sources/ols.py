@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 ols_processing = get_ols_processing()
 
 
-def _get_version_type(bioregistry_id: str) -> VersionType:
+def _get_version_type(bioregistry_id: str) -> Optional[VersionType]:
     ols_id = bioregistry.get_ols_prefix(bioregistry_id)
     ols_config = ols_processing.get(ols_id)
     if ols_config is None:
@@ -57,7 +57,7 @@ def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
 
         bioregistry_id = _brid
         name = _name
-        version_type = _version_type
+        version_type = _version_type  # type:ignore
 
         def get(self) -> Union[str, Mapping[str, str]]:
             """Get the version from the Bioregistry."""
