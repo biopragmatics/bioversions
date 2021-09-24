@@ -22,7 +22,7 @@ class RxNormGetter(Getter):
     version_type = VersionType.date
 
     def get(self) -> datetime:
-        """Get the latest BioGRID version number."""
+        """Get the latest RxNorm version number."""
         soup = get_soup(URL)
         raw_version = soup.find("th", {"class": "current"}).contents[2]
         raw_fmt = "%B %d, %Y"
