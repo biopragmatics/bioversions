@@ -30,6 +30,8 @@ class NCItGetter(Getter):
         soup = get_soup(URL)
         version_str = soup.find("span", {"class": "vocabularynamelong_ncit"}).contents[0]
         match = re.search(PATTERN, version_str)
+        if match is None:
+            raise ValueError(f"could not parse version from {URL}")
         return {
             "version": match.group(1),
             "date": match.group(2),

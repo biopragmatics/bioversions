@@ -90,14 +90,14 @@ def _log_update(bv) -> None:
     click.secho(text, fg="green", bold=True)
 
     try:
-        from . import slack_client
+        from .. import slack_client
     except ImportError:
         pass
     else:
         slack_client.post(text)
 
     try:
-        from . import twitter_client
+        from .. import twitter_client
     except ImportError:
         pass
     else:

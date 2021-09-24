@@ -31,12 +31,14 @@ def _get_api(
         api = tweepy.API(auth)
         return api
 
+    return None
+
 
 def post(text: str):
     """Post the message to Twitter."""
     api = _get_api()
     if api is None:
-        return
+        return None
     return api.update_status(text)
 
 
