@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 @lru_cache(maxsize=1)
 def _get_client(token: Optional[str] = None) -> Optional[WebClient]:
-    token = pystow.get_config("bioversions", "slack_api_token", token)
+    token = pystow.get_config("bioversions", "slack_api_token", passthrough=token)
     if token is None:
         return None
     return WebClient(token=token)

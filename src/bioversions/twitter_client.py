@@ -16,11 +16,13 @@ def _get_api(
     access_token: Optional[str] = None,
     access_token_secret: Optional[str] = None,
 ) -> Optional[tweepy.API]:
-    consumer_key = pystow.get_config("bioversions", "consumer_key", consumer_key)
-    consumer_secret = pystow.get_config("bioversions", "consumer_secret", consumer_secret)
-    access_token = pystow.get_config("bioversions", "access_token", access_token)
+    consumer_key = pystow.get_config("bioversions", "consumer_key", passthrough=consumer_key)
+    consumer_secret = pystow.get_config(
+        "bioversions", "consumer_secret", passthrough=consumer_secret
+    )
+    access_token = pystow.get_config("bioversions", "access_token", passthrough=access_token)
     access_token_secret = pystow.get_config(
-        "bioversions", "access_token_secret", access_token_secret
+        "bioversions", "access_token_secret", passthrough=access_token_secret
     )
 
     if consumer_key and consumer_secret and access_token and access_token_secret:
