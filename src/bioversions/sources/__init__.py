@@ -12,6 +12,7 @@ from tqdm import tqdm
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
 from .chembl import ChEMBLGetter
+from .chemidplus import ChemIDplusGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
 from .dgi import DGIGetter
@@ -91,6 +92,7 @@ def get_getters() -> List[Type[Getter]]:
         ZfinGetter,
         NCItGetter,
         RxNormGetter,
+        ChemIDplusGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
