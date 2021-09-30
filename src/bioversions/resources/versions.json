@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 102,
-    "date": "2021-09-28",
+    "revision": 103,
+    "date": "2021-09-30",
     "author": "runner"
   },
   "database": [
@@ -812,6 +812,19 @@
           "version": "2019-11-14"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-09-30",
+          "version": "2021-06-24",
+          "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20210624.zip",
+          "date": "2021-06-24"
+        }
+      ],
+      "name": "ChemIDplus",
+      "prefix": "chemidplus",
       "vtype": "date"
     },
     {
@@ -6090,6 +6103,11 @@
           "retrieved": "2021-09-28",
           "version": "27 Sep 2021",
           "date": "2021-09-27"
+        },
+        {
+          "retrieved": "2021-09-30",
+          "version": "28 Sep 2021",
+          "date": "2021-09-28"
         }
       ],
       "name": "Zebrafish Information Network",

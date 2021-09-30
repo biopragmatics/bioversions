@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-09-28'
-  revision: 102
+  date: '2021-09-30'
+  revision: 103
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -442,6 +442,14 @@ database:
     version: 14-11-2019
   - retrieved: '2021-06-14'
     version: '2019-11-14'
+  vtype: date
+- name: ChemIDplus
+  prefix: chemidplus
+  releases:
+  - date: '2021-06-24'
+    homepage: https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20210624.zip
+    retrieved: '2021-09-30'
+    version: '2021-06-24'
   vtype: date
 - name: Chickpea ontology
   prefix: co_338
@@ -3332,6 +3340,9 @@ database:
   - date: '2021-09-27'
     retrieved: '2021-09-28'
     version: 27 Sep 2021
+  - date: '2021-09-28'
+    retrieved: '2021-09-30'
+    version: 28 Sep 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
