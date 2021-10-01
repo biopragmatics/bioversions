@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-09-30'
-  revision: 103
+  date: '2021-10-01'
+  revision: 104
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -193,6 +193,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-05-11'
+  - retrieved: '2021-10-01'
+    version: '2021-09-22'
   vtype: date
 - name: Brachiaria ontology
   prefix: co_345
@@ -269,6 +271,8 @@ database:
     version: '2020-12-14'
   - retrieved: '2021-07-27'
     version: '2021-07-06'
+  - retrieved: '2021-10-01'
+    version: '2021-09-27'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -285,6 +289,8 @@ database:
     version: '2021-06-01'
   - retrieved: '2021-07-27'
     version: '2021-07-06'
+  - retrieved: '2021-10-01'
+    version: '2021-09-27'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -516,6 +522,8 @@ database:
     version: '2021-05-31'
   - retrieved: '2021-09-15'
     version: '2021-08-28'
+  - retrieved: '2021-10-01'
+    version: '2021-09-27'
   vtype: date
 - name: Common Anatomy Reference Ontology
   prefix: caro
@@ -860,6 +868,8 @@ database:
     version: '2021-04-12'
   - retrieved: '2021-07-27'
     version: '2021-07-06'
+  - retrieved: '2021-10-01'
+    version: '2021-09-21'
   vtype: date
 - name: eNanoMapper Ontology
   prefix: enm
@@ -1079,6 +1089,8 @@ database:
     version: '2021-09-02'
   - retrieved: '2021-09-19'
     version: '2021-09-16'
+  - retrieved: '2021-10-01'
+    version: '2021-09-28'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1528,6 +1540,9 @@ database:
   - date: '2021-08-01'
     retrieved: '2021-07-31'
     version: '99.1'
+  - date: '2021-10-01'
+    retrieved: '2021-10-01'
+    version: '100.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -1658,6 +1673,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-08-07'
+  - retrieved: '2021-10-01'
+    version: '2021-09-21'
   vtype: date
 - name: MeSH
   prefix: mesh
@@ -1710,6 +1727,8 @@ database:
     version: '2021-07-23'
   - retrieved: '2021-09-15'
     version: '2021-07-28'
+  - retrieved: '2021-10-01'
+    version: '2021-09-24'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -2033,6 +2052,8 @@ database:
     version: '2020-12-16'
   - retrieved: '2021-04-21'
     version: '2021-04-06'
+  - retrieved: '2021-10-01'
+    version: '2021-08-18'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -3343,6 +3364,9 @@ database:
   - date: '2021-09-28'
     retrieved: '2021-09-30'
     version: 28 Sep 2021
+  - date: '2021-09-29'
+    retrieved: '2021-10-01'
+    version: 29 Sep 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

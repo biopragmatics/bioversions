@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 103,
-    "date": "2021-09-30",
+    "revision": 104,
+    "date": "2021-10-01",
     "author": "runner"
   },
   "database": [
@@ -352,6 +352,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-05-11"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-22"
         }
       ],
       "vtype": "date"
@@ -496,6 +500,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-27"
         }
       ],
       "vtype": "date"
@@ -525,6 +533,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-27"
         }
       ],
       "name": "C. elegans phenotype",
@@ -947,6 +959,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-08-28"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-27"
         }
       ],
       "vtype": "date"
@@ -1569,6 +1585,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-21"
         }
       ],
       "vtype": "date"
@@ -1990,6 +2010,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "2021-09-16"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-28"
         }
       ],
       "vtype": "date"
@@ -2809,6 +2833,11 @@
           "retrieved": "2021-07-31",
           "version": "99.1",
           "date": "2021-08-01"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "100.0",
+          "date": "2021-10-01"
         }
       ],
       "vtype": "semver_minor"
@@ -3052,6 +3081,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-08-07"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-21"
         }
       ],
       "vtype": "date"
@@ -3150,6 +3183,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-07-28"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-24"
         }
       ],
       "vtype": "date"
@@ -3746,6 +3783,10 @@
         {
           "retrieved": "2021-04-21",
           "version": "2021-04-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-08-18"
         }
       ],
       "vtype": "date"
@@ -6108,6 +6149,11 @@
           "retrieved": "2021-09-30",
           "version": "28 Sep 2021",
           "date": "2021-09-28"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "29 Sep 2021",
+          "date": "2021-09-29"
         }
       ],
       "name": "Zebrafish Information Network",
