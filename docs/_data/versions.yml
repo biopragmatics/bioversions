@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-01'
-  revision: 104
+  date: '2021-10-02'
+  revision: 105
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -167,6 +167,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.201
     retrieved: '2021-09-08'
     version: 4.4.201
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.202
+    retrieved: '2021-10-02'
+    version: 4.4.202
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -742,6 +745,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-08-17
     retrieved: '2021-09-08'
     version: '2021-08-17'
+  - date: '2021-10-01'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-01
+    retrieved: '2021-10-02'
+    version: '2021-10-01'
   vtype: date
 - name: DisGeNet
   releases:
@@ -3367,6 +3374,9 @@ database:
   - date: '2021-09-29'
     retrieved: '2021-10-01'
     version: 29 Sep 2021
+  - date: '2021-09-30'
+    retrieved: '2021-10-02'
+    version: 30 Sep 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
