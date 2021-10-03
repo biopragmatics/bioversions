@@ -31,6 +31,7 @@ class VersionType(enum.Enum):
     date = "CalVer (YYYY-MM-DD)"
     month = "CalVer (YYYY-MM)"
     year = "CalVer (YYYY)"
+    year_minor = "CalVer (YYYY.X)"
     semver_minor = "SemVer (X.Y)"
     sequential = "Sequential (X)"
     daily = "Daily"
