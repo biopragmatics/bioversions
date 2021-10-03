@@ -8,13 +8,10 @@ __all__ = [
     "MOAlmanacGetter",
 ]
 
-URL = "https://moalmanac.org/"
-
 
 class MOAlmanacGetter(Getter):
     """A getter for MOAlmanac."""
 
-    bioregistry_id = "moalmanac"
     name = "Molecular Oncology Almanac"
     homepage_fmt = "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.{version}"
     date_version_fmt = "%Y-%m-%d"
@@ -22,7 +19,7 @@ class MOAlmanacGetter(Getter):
 
     def get(self) -> str:
         """Get the latest MOAlmanac version number."""
-        soup = get_soup(URL)
+        soup = get_soup("https://moalmanac.org/")
         sub_footer = soup.find("div", {"class": "text-right"})
         version = sub_footer.find("a").text
         return version
