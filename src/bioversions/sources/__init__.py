@@ -21,6 +21,7 @@ from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
+from .guidetopharmacology import GuideToPharmacologyGetter
 from .homologene import HomoloGeneGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
@@ -95,6 +96,7 @@ def get_getters() -> List[Type[Getter]]:
         NCItGetter,
         RxNormGetter,
         ChemIDplusGetter,
+        GuideToPharmacologyGetter,
         OncoTreeGetter,
         MOAlmanacGetter,
     ]
