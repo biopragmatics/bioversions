@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 101,
-    "date": "2021-09-27",
+    "revision": 106,
+    "date": "2021-10-03",
     "author": "runner"
   },
   "database": [
@@ -304,6 +304,11 @@
           "retrieved": "2021-09-08",
           "version": "4.4.201",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.201"
+        },
+        {
+          "retrieved": "2021-10-02",
+          "version": "4.4.202",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.202"
         }
       ],
       "vtype": "semver"
@@ -352,6 +357,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-05-11"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-22"
         }
       ],
       "vtype": "date"
@@ -496,6 +505,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-27"
         }
       ],
       "vtype": "date"
@@ -525,6 +538,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-27"
         }
       ],
       "name": "C. elegans phenotype",
@@ -815,6 +832,19 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-09-30",
+          "version": "2021-06-24",
+          "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20210624.zip",
+          "date": "2021-06-24"
+        }
+      ],
+      "name": "ChemIDplus",
+      "prefix": "chemidplus",
+      "vtype": "date"
+    },
+    {
       "name": "Chickpea ontology",
       "prefix": "co_338",
       "releases": [
@@ -934,6 +964,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-08-28"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-27"
         }
       ],
       "vtype": "date"
@@ -1322,6 +1356,12 @@
           "version": "2021-08-17",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-08-17",
           "date": "2021-08-17"
+        },
+        {
+          "retrieved": "2021-10-02",
+          "version": "2021-10-01",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-01",
+          "date": "2021-10-01"
         }
       ],
       "vtype": "date"
@@ -1556,6 +1596,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-21"
         }
       ],
       "vtype": "date"
@@ -1977,6 +2021,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "2021-09-16"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-28"
         }
       ],
       "vtype": "date"
@@ -2796,6 +2844,11 @@
           "retrieved": "2021-07-31",
           "version": "99.1",
           "date": "2021-08-01"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "100.0",
+          "date": "2021-10-01"
         }
       ],
       "vtype": "semver_minor"
@@ -3039,6 +3092,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-08-07"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-21"
         }
       ],
       "vtype": "date"
@@ -3137,6 +3194,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-07-28"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-09-24"
         }
       ],
       "vtype": "date"
@@ -3733,6 +3794,10 @@
         {
           "retrieved": "2021-04-21",
           "version": "2021-04-06"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "2021-08-18"
         }
       ],
       "vtype": "date"
@@ -6085,6 +6150,31 @@
           "retrieved": "2021-09-27",
           "version": "25 Sep 2021",
           "date": "2021-09-25"
+        },
+        {
+          "retrieved": "2021-09-28",
+          "version": "27 Sep 2021",
+          "date": "2021-09-27"
+        },
+        {
+          "retrieved": "2021-09-30",
+          "version": "28 Sep 2021",
+          "date": "2021-09-28"
+        },
+        {
+          "retrieved": "2021-10-01",
+          "version": "29 Sep 2021",
+          "date": "2021-09-29"
+        },
+        {
+          "retrieved": "2021-10-02",
+          "version": "30 Sep 2021",
+          "date": "2021-09-30"
+        },
+        {
+          "retrieved": "2021-10-03",
+          "version": "1 Oct 2021",
+          "date": "2021-10-01"
         }
       ],
       "name": "Zebrafish Information Network",

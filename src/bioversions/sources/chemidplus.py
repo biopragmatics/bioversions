@@ -35,7 +35,7 @@ class ChemIDplusGetter(Getter):
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:
-        """Replace dots with dashes for DrugBank homepage format."""
+        """Replace dots with dashes for ChemIDplus homepage format."""
         return version.replace("-", "")
 
 

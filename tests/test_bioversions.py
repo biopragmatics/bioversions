@@ -5,12 +5,23 @@
 import datetime
 import unittest
 
+import bioregistry
+
 import bioversions
-from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter
+from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter, get_getters
 
 
 class TestGetter(unittest.TestCase):
     """Tests for the Getter class."""
+
+    def test_bioregistry_ids(self):
+        """Test Bioregistry prefixes are all canonical."""
+        prefixes = set(bioregistry.read_registry())
+        for getter in get_getters():
+            if getter.bioregistry_id is None:
+                continue
+            with self.subTest(name=getter.name):
+                self.assertIn(getter.bioregistry_id, prefixes)
 
     def test_get(self):
         """Test getters."""
