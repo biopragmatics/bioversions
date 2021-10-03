@@ -28,11 +28,13 @@ from .interpro import InterProGetter
 from .kegg import KEGGGetter
 from .mesh import MeshGetter
 from .mirbase import MirbaseGetter
+from .moalmanac import MOAlmanacGetter
 from .msigdb import MSigDBGetter
 from .ncit import NCItGetter
 from .npass import NPASSGetter
 from .obo import iter_obo_getters
 from .ols import extend_ols_getters
+from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
 from .pfam import PfamGetter
 from .pombase import PombaseGetter
@@ -95,6 +97,8 @@ def get_getters() -> List[Type[Getter]]:
         RxNormGetter,
         ChemIDplusGetter,
         GuideToPharmacologyGetter,
+        OncoTreeGetter,
+        MOAlmanacGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
