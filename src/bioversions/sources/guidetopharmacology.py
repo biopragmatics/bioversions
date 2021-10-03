@@ -27,7 +27,13 @@ class GuideToPharmacologyGetter(Getter):
         downloads_url = "https://www.guidetopharmacology.org/download.jsp"
         soup = get_soup(downloads_url)
         text = soup.findAll("div", {"class": "contentboxfullhelp"})[4].div.ul.li.a.text
-        grps = re.search(r"^.*(\d{4}\.\d+).*(\d{2}\/\d{2}\/\d{2}).*$", text).groups()
+        search = re.search(r"^.*(\d{4}\.\d+).*(\d{2}\/\d{2}\/\d{2}).*$", text)
+        if search:
+            grps = search.groups()
+        else:
+            raise ValueError(
+                "Unable to extract version/date from Guide to Pharmacology Downloads page."
+            )
         date = datetime.strftime(datetime.strptime(grps[1], "%d/%m/%y"), self.date_fmt)
         return {"version": grps[0], "date": date}
 
