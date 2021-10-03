@@ -12,6 +12,7 @@ __all__ = [
     "GuideToPharmacologyGetter",
 ]
 
+URL = "https://www.guidetopharmacology.org/download.jsp"
 RE = re.compile(r"^.*(\d{4}\.\d+).*(\d{2}\/\d{2}\/\d{2}).*$")
 
 
@@ -25,8 +26,7 @@ class GuideToPharmacologyGetter(Getter):
 
     def get(self) -> Dict[str, str]:
         """Get the latest Guide to Pharmacology version number."""
-        downloads_url = "https://www.guidetopharmacology.org/download.jsp"
-        soup = get_soup(downloads_url)
+        soup = get_soup(URL)
         text = soup.findAll("div", {"class": "contentboxfullhelp"})[4].div.ul.li.a.text
         search = RE.search(text)
         if not search:
