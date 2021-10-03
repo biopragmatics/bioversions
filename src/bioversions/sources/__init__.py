@@ -33,6 +33,7 @@ from .ncit import NCItGetter
 from .npass import NPASSGetter
 from .obo import iter_obo_getters
 from .ols import extend_ols_getters
+from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
 from .pfam import PfamGetter
 from .pombase import PombaseGetter
@@ -94,6 +95,7 @@ def get_getters() -> List[Type[Getter]]:
         NCItGetter,
         RxNormGetter,
         ChemIDplusGetter,
+        OncoTreeGetter,
         MOAlmanacGetter,
     ]
     getters.extend(iter_obo_getters())
