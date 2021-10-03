@@ -6,16 +6,15 @@ import datetime
 import enum
 import ftplib
 import os
-from dataclasses import dataclass
 from typing import Any, ClassVar, Mapping, Optional, Union
 
 import bioregistry
+import pydantic
 import pystow
 import requests
 import requests_ftp
 from bs4 import BeautifulSoup
 from cachier import cachier
-from dataclasses_json import dataclass_json
 
 BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -67,6 +66,10 @@ class MetaGetter(type):
 
     _cache = None
 
+    date_fmt: Optional[str]
+    date_version_fmt: Optional[str]
+    homepage_fmt: Optional[str]
+
     @property
     def _cache_prop(cls):
         if cls._cache is None:
@@ -89,38 +92,40 @@ class MetaGetter(type):
     def date(cls) -> Optional[datetime.date]:
         """Get the date if it's set."""
         vp = cls.version_date_parsed
-        if vp:
+        if vp is not None:
             return vp
-        if isinstance(cls._cache_prop, dict):
-            date_str = cls._cache_prop["date"]
-            if not cls.date_fmt:
-                raise TypeError(
-                    f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}"
-                )
-            try:
-                return datetime.datetime.strptime(date_str, cls.date_fmt).date()
-            except ValueError:
-                raise ValueError(
-                    f"Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}"
-                )
+        if not isinstance(cls._cache_prop, dict):
+            return None
+        date_str = cls._cache_prop["date"]
+        if not cls.date_fmt:
+            raise TypeError(
+                f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}"
+            )
+        try:
+            return datetime.datetime.strptime(date_str, cls.date_fmt).date()
+        except ValueError:
+            raise ValueError(f"Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}")
 
     @property
     def version_date_parsed(cls) -> Optional[datetime.date]:
         """Get the date as a parsed class there's a format string."""
-        if cls.date_version_fmt:
-            try:
-                return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
-            except ValueError:
-                raise ValueError(
-                    f"Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}"
-                )
+        if cls.date_version_fmt is None:
+            return None
+        try:
+            return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
+        except ValueError:
+            raise ValueError(
+                f"Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}"
+            )
 
     @property
     def homepage(cls) -> Optional[str]:
         """Get the homepage's URL if a format string was specified."""
-        if cls.homepage_fmt:
-            version = cls.homepage_version_transform(cls.version)
-            return cls.homepage_fmt.format(version=version)
+        if cls.homepage_fmt is None:
+            return None
+
+        version = cls.homepage_version_transform(cls.version)
+        return cls.homepage_fmt.format(version=version)
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:
@@ -128,9 +133,7 @@ class MetaGetter(type):
         return version
 
 
-@dataclass_json
-@dataclass
-class Bioversion:
+class Bioversion(pydantic.BaseModel):
     """A dataclass for information about a database and version."""
 
     #: The database name
@@ -171,7 +174,7 @@ class Getter(metaclass=MetaGetter):
     date: ClassVar[str]
     homepage: ClassVar[str]
 
-    def get(self) -> Union[str, Mapping[str, str]]:
+    def get(self) -> Union[str, Mapping[str, str], datetime.datetime]:
         """Get the latest of this database."""
         raise NotImplementedError
 
@@ -292,15 +295,15 @@ def _get_ftp_date_version(host: str, directory: str) -> str:
 
 
 def _is_iso_8601(s: str) -> bool:
-    s = s.split("-")
-    return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()
+    x = s.split("-")
+    return len(x) == 3 and x[0].isnumeric() and x[1].isnumeric() and x[2].isnumeric()
 
 
 def _is_version(s: str) -> bool:
-    s = s.split(".")
-    return len(s) == 2 and s[0].isnumeric() and s[1].isnumeric()
+    x = s.split(".")
+    return len(x) == 2 and x[0].isnumeric() and x[1].isnumeric()
 
 
 def _is_semantic_version(s: str) -> bool:
-    s = s.split(".")
-    return len(s) == 3 and s[0].isnumeric() and s[1].isnumeric() and s[2].isnumeric()
+    x = s.split(".")
+    return len(x) == 3 and x[0].isnumeric() and x[1].isnumeric() and x[2].isnumeric()

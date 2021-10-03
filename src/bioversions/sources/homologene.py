@@ -16,6 +16,7 @@ URL = "https://ftp.ncbi.nih.gov/pub/HomoloGene/current/RELEASE_NUMBER"
 class HomoloGeneGetter(Getter):
     """A getter for HomoloGene."""
 
+    bioregistry_id = "homologene"
     name = "HomoloGene"
     version_type = VersionType.sequential
 

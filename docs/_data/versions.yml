@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-09-23'
-  revision: 97
+  date: '2021-10-03'
+  revision: 106
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -167,6 +167,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.201
     retrieved: '2021-09-08'
     version: 4.4.201
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.202
+    retrieved: '2021-10-02'
+    version: 4.4.202
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -193,6 +196,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-05-11'
+  - retrieved: '2021-10-01'
+    version: '2021-09-22'
   vtype: date
 - name: Brachiaria ontology
   prefix: co_345
@@ -269,6 +274,8 @@ database:
     version: '2020-12-14'
   - retrieved: '2021-07-27'
     version: '2021-07-06'
+  - retrieved: '2021-10-01'
+    version: '2021-09-27'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -285,6 +292,8 @@ database:
     version: '2021-06-01'
   - retrieved: '2021-07-27'
     version: '2021-07-06'
+  - retrieved: '2021-10-01'
+    version: '2021-09-27'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -412,6 +421,7 @@ database:
     version: '2015-11-23'
   vtype: date
 - name: ChEMBL
+  prefix: chembl
   releases:
   - date: '2020-05-18'
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_27
@@ -441,6 +451,14 @@ database:
     version: 14-11-2019
   - retrieved: '2021-06-14'
     version: '2019-11-14'
+  vtype: date
+- name: ChemIDplus
+  prefix: chemidplus
+  releases:
+  - date: '2021-06-24'
+    homepage: https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20210624.zip
+    retrieved: '2021-09-30'
+    version: '2021-06-24'
   vtype: date
 - name: Chickpea ontology
   prefix: co_338
@@ -507,6 +525,8 @@ database:
     version: '2021-05-31'
   - retrieved: '2021-09-15'
     version: '2021-08-28'
+  - retrieved: '2021-10-01'
+    version: '2021-09-27'
   vtype: date
 - name: Common Anatomy Reference Ontology
   prefix: caro
@@ -725,6 +745,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-08-17
     retrieved: '2021-09-08'
     version: '2021-08-17'
+  - date: '2021-10-01'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-01
+    retrieved: '2021-10-02'
+    version: '2021-10-01'
   vtype: date
 - name: DisGeNet
   releases:
@@ -851,6 +875,8 @@ database:
     version: '2021-04-12'
   - retrieved: '2021-07-27'
     version: '2021-07-06'
+  - retrieved: '2021-10-01'
+    version: '2021-09-21'
   vtype: date
 - name: eNanoMapper Ontology
   prefix: enm
@@ -1070,6 +1096,8 @@ database:
     version: '2021-09-02'
   - retrieved: '2021-09-19'
     version: '2021-09-16'
+  - retrieved: '2021-10-01'
+    version: '2021-09-28'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1301,6 +1329,7 @@ database:
     version: '2019-07-05'
   vtype: date
 - name: HomoloGene
+  prefix: homologene
   releases:
   - retrieved: '2021-03-02'
     version: '68'
@@ -1518,6 +1547,9 @@ database:
   - date: '2021-08-01'
     retrieved: '2021-07-31'
     version: '99.1'
+  - date: '2021-10-01'
+    retrieved: '2021-10-01'
+    version: '100.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -1648,6 +1680,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-08-07'
+  - retrieved: '2021-10-01'
+    version: '2021-09-21'
   vtype: date
 - name: MeSH
   prefix: mesh
@@ -1700,6 +1734,8 @@ database:
     version: '2021-07-23'
   - retrieved: '2021-09-15'
     version: '2021-07-28'
+  - retrieved: '2021-10-01'
+    version: '2021-09-24'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -2023,6 +2059,8 @@ database:
     version: '2020-12-16'
   - retrieved: '2021-04-21'
     version: '2021-04-06'
+  - retrieved: '2021-10-01'
+    version: '2021-08-18'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -2692,6 +2730,13 @@ database:
   - retrieved: '2021-02-02'
     version: '2021-01-21'
   vtype: date
+- name: RxNorm
+  prefix: rxnorm
+  releases:
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09072021.zip
+    retrieved: '2021-09-25'
+    version: '2021-09-07'
+  vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
   releases:
@@ -3308,6 +3353,33 @@ database:
   - date: '2021-09-21'
     retrieved: '2021-09-23'
     version: 21 Sep 2021
+  - date: '2021-09-22'
+    retrieved: '2021-09-24'
+    version: 22 Sep 2021
+  - date: '2021-09-23'
+    retrieved: '2021-09-25'
+    version: 23 Sep 2021
+  - date: '2021-09-24'
+    retrieved: '2021-09-26'
+    version: 24 Sep 2021
+  - date: '2021-09-25'
+    retrieved: '2021-09-27'
+    version: 25 Sep 2021
+  - date: '2021-09-27'
+    retrieved: '2021-09-28'
+    version: 27 Sep 2021
+  - date: '2021-09-28'
+    retrieved: '2021-09-30'
+    version: 28 Sep 2021
+  - date: '2021-09-29'
+    retrieved: '2021-10-01'
+    version: 29 Sep 2021
+  - date: '2021-09-30'
+    retrieved: '2021-10-02'
+    version: 30 Sep 2021
+  - date: '2021-10-01'
+    retrieved: '2021-10-03'
+    version: 1 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
