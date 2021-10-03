@@ -2,8 +2,10 @@
 
 """A getter for OncoTree."""
 
-from ..utils import Getter, VersionType
 import requests
+
+from ..utils import Getter, VersionType
+
 
 __all__ = [
     "OncoTreeGetter",
