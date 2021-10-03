@@ -16,7 +16,6 @@ __all__ = [
 class GuideToPharmacologyGetter(Getter):
     """A getter for the IUPHAR Guide to Pharmacology."""
 
-    bioregistry_id = "iuphar"
     name = "Guide to Pharmacology"
     homepage_fmt = "https://www.guidetopharmacology.org/DATA/public_iuphardb_v{version}.zip"
     date_fmt = "%Y-%m-%d"
