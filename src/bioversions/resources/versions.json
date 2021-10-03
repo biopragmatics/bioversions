@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 106,
-    "date": "2021-10-03",
-    "author": "runner"
+    "revision": 107,
+    "date": "2021-10-04",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -1708,6 +1708,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-03-17"
+        },
+        {
+          "retrieved": "2021-10-04",
+          "version": "2021-08-25"
         }
       ],
       "name": "Environmental conditions, treatments and exposures ontology",
@@ -2422,6 +2426,18 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-10-04",
+          "version": "2021.3",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2021.3.zip",
+          "date": "2021-09-02"
+        }
+      ],
+      "name": "Guide to Pharmacology",
+      "vtype": "year_minor"
     },
     {
       "name": "Health Surveillance Ontology",
@@ -3291,6 +3307,18 @@
     {
       "releases": [
         {
+          "retrieved": "2021-10-04",
+          "version": "2021-09-02",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-09-02",
+          "date": "2021-09-02"
+        }
+      ],
+      "name": "Molecular Oncology Almanac",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
           "retrieved": "2021-04-14",
           "version": "2014-09-03"
         }
@@ -3740,6 +3768,19 @@
           "version": "07-06-2019"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-10-04",
+          "version": "2020-10-01",
+          "homepage": "http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_2020_10_01",
+          "date": "2020-10-01"
+        }
+      ],
+      "name": "OncoTree",
+      "prefix": "oncotree",
       "vtype": "date"
     },
     {
@@ -4506,6 +4547,10 @@
         {
           "retrieved": "2021-04-09",
           "version": "2021-04-05"
+        },
+        {
+          "retrieved": "2021-10-04",
+          "version": "2021-09-29"
         }
       ],
       "vtype": "date"
@@ -6175,6 +6220,11 @@
           "retrieved": "2021-10-03",
           "version": "1 Oct 2021",
           "date": "2021-10-01"
+        },
+        {
+          "retrieved": "2021-10-04",
+          "version": "2 Oct 2021",
+          "date": "2021-10-02"
         }
       ],
       "name": "Zebrafish Information Network",
