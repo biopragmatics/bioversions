@@ -19,16 +19,17 @@ logger = logging.getLogger(__name__)
 
 @lru_cache(maxsize=1)
 def _get_client(token: Optional[str] = None) -> Optional[WebClient]:
-    token = pystow.get_config("bioversions", "slack_api_token", token)
-    if token is not None:
-        return WebClient(token=token)
+    token = pystow.get_config("bioversions", "slack_api_token", passthrough=token)
+    if token is None:
+        return None
+    return WebClient(token=token)
 
 
 def post(text: str, channel: str = "random", token: Optional[str] = None):
     """Post the message to a given Slack channel."""
     client = _get_client(token)
     if client is None:
-        return
+        return None
 
     if not channel.startswith("#"):
         channel = f"#{channel}"

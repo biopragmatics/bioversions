@@ -12,6 +12,7 @@ from tqdm import tqdm
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
 from .chembl import ChEMBLGetter
+from .chemidplus import ChemIDplusGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
 from .dgi import DGIGetter
@@ -38,6 +39,7 @@ from .pombase import PombaseGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
 from .rhea import RheaGetter
+from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
 from .stringdb import StringDBGetter
 from .uniprot import UniProtGetter
@@ -58,7 +60,7 @@ logger = logging.getLogger(__name__)
 def get_getters() -> List[Type[Getter]]:
     """Get a list of getters."""
     # TODO replace with entrypoint lookup
-    getters = [
+    getters: List[Type[Getter]] = [
         BioGRIDGetter,
         ChEMBLGetter,
         ComplexPortalGetter,
@@ -90,13 +92,13 @@ def get_getters() -> List[Type[Getter]]:
         SgdGetter,
         ZfinGetter,
         NCItGetter,
+        RxNormGetter,
+        ChemIDplusGetter,
         OncoTreeGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
-    getters: List[Type[Getter]] = sorted(
-        getters, key=lambda cls: (cls.bioregistry_id or "", cls.__name__.casefold())
-    )
+    getters = sorted(getters, key=lambda cls: (cls.bioregistry_id or "", cls.__name__.casefold()))
     return getters
 
 

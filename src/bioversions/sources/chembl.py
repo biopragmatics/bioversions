@@ -18,6 +18,7 @@ DATE_PREFIX = "* Date:"
 class ChEMBLGetter(Getter):
     """A getter for ChEMBL."""
 
+    bioregistry_id = "chembl"
     name = "ChEMBL"
     homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_{version}"
     date_fmt = "%d/%m/%Y"
