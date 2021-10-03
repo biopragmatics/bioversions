@@ -12,6 +12,8 @@ __all__ = [
     "GuideToPharmacologyGetter",
 ]
 
+RE = re.compile(r"^.*(\d{4}\.\d+).*(\d{2}\/\d{2}\/\d{2}).*$")
+
 
 class GuideToPharmacologyGetter(Getter):
     """A getter for the IUPHAR Guide to Pharmacology."""
@@ -26,7 +28,7 @@ class GuideToPharmacologyGetter(Getter):
         downloads_url = "https://www.guidetopharmacology.org/download.jsp"
         soup = get_soup(downloads_url)
         text = soup.findAll("div", {"class": "contentboxfullhelp"})[4].div.ul.li.a.text
-        search = re.search(r"^.*(\d{4}\.\d+).*(\d{2}\/\d{2}\/\d{2}).*$", text)
+        search = RE.search(text)
         if search:
             grps = search.groups()
         else:
