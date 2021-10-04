@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
+  author: runner
   date: '2021-10-04'
-  revision: 107
+  revision: 108
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -937,6 +937,8 @@ database:
     version: '2021-03-17'
   - retrieved: '2021-10-04'
     version: '2021-08-25'
+  - retrieved: '2021-10-04'
+    version: '2021-03-17'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -2491,6 +2493,8 @@ database:
     version: '2021-04-05'
   - retrieved: '2021-10-04'
     version: '2021-09-29'
+  - retrieved: '2021-10-04'
+    version: '2021-04-05'
   vtype: date
 - name: Planarian Phenotype Ontology
   prefix: planp

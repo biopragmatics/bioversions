@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 107,
+    "revision": 108,
     "date": "2021-10-04",
-    "author": "cthoyt"
+    "author": "runner"
   },
   "database": [
     {
@@ -1712,6 +1712,10 @@
         {
           "retrieved": "2021-10-04",
           "version": "2021-08-25"
+        },
+        {
+          "retrieved": "2021-10-04",
+          "version": "2021-03-17"
         }
       ],
       "name": "Environmental conditions, treatments and exposures ontology",
@@ -4551,6 +4555,10 @@
         {
           "retrieved": "2021-10-04",
           "version": "2021-09-29"
+        },
+        {
+          "retrieved": "2021-10-04",
+          "version": "2021-04-05"
         }
       ],
       "vtype": "date"
