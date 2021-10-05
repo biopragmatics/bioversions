@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-04'
-  revision: 108
+  date: '2021-10-05'
+  revision: 109
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1925,6 +1925,9 @@ database:
   - date: '2021-08-30'
     retrieved: '2021-09-23'
     version: 21.08e
+  - date: '2021-09-27'
+    retrieved: '2021-10-05'
+    version: 21.09d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -2766,6 +2769,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09072021.zip
     retrieved: '2021-09-25'
     version: '2021-09-07'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10042021.zip
+    retrieved: '2021-10-05'
+    version: '2021-10-04'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -3413,6 +3419,9 @@ database:
   - date: '2021-10-02'
     retrieved: '2021-10-04'
     version: 2 Oct 2021
+  - date: '2021-10-03'
+    retrieved: '2021-10-05'
+    version: 3 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
