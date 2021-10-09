@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 110,
-    "date": "2021-10-06",
-    "author": "runner"
+    "revision": 111,
+    "date": "2021-10-09",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -114,7 +114,7 @@
         }
       ],
       "name": "Apollo Structured Vocabulary",
-      "prefix": "apollo_sv",
+      "prefix": "apollosv",
       "vtype": "semver"
     },
     {
@@ -1721,6 +1721,10 @@
         {
           "retrieved": "2021-10-04",
           "version": "2021-03-17"
+        },
+        {
+          "retrieved": "2021-10-09",
+          "version": "2021-08-25"
         }
       ],
       "name": "Environmental conditions, treatments and exposures ontology",
@@ -3320,6 +3324,12 @@
           "version": "2021-09-02",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-09-02",
           "date": "2021-09-02"
+        },
+        {
+          "retrieved": "2021-10-09",
+          "version": "2021-10-07",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-10-07",
+          "date": "2021-10-07"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -4569,6 +4579,10 @@
         {
           "retrieved": "2021-10-04",
           "version": "2021-04-05"
+        },
+        {
+          "retrieved": "2021-10-09",
+          "version": "2021-09-29"
         }
       ],
       "vtype": "date"
@@ -6258,6 +6272,11 @@
           "retrieved": "2021-10-06",
           "version": "4 Oct 2021",
           "date": "2021-10-04"
+        },
+        {
+          "retrieved": "2021-10-09",
+          "version": "8 Oct 2021",
+          "date": "2021-10-08"
         }
       ],
       "name": "Zebrafish Information Network",

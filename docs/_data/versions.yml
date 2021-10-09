@@ -1,7 +1,7 @@
 annotations:
-  author: runner
-  date: '2021-10-06'
-  revision: 110
+  author: cthoyt
+  date: '2021-10-09'
+  revision: 111
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -58,7 +58,7 @@ database:
     version: '2019-10-24'
   vtype: date
 - name: Apollo Structured Vocabulary
-  prefix: apollo_sv
+  prefix: apollosv
   releases:
   - retrieved: '2021-04-14'
     version: 4.1.1
@@ -942,6 +942,8 @@ database:
     version: '2021-08-25'
   - retrieved: '2021-10-04'
     version: '2021-03-17'
+  - retrieved: '2021-10-09'
+    version: '2021-08-25'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -1804,6 +1806,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-09-02
     retrieved: '2021-10-04'
     version: '2021-09-02'
+  - date: '2021-10-07'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-10-07
+    retrieved: '2021-10-09'
+    version: '2021-10-07'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -2501,6 +2507,8 @@ database:
     version: '2021-09-29'
   - retrieved: '2021-10-04'
     version: '2021-04-05'
+  - retrieved: '2021-10-09'
+    version: '2021-09-29'
   vtype: date
 - name: Planarian Phenotype Ontology
   prefix: planp
@@ -3428,6 +3436,9 @@ database:
   - date: '2021-10-04'
     retrieved: '2021-10-06'
     version: 4 Oct 2021
+  - date: '2021-10-08'
+    retrieved: '2021-10-09'
+    version: 8 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
