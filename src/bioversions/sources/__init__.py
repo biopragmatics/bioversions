@@ -9,6 +9,7 @@ from typing import Iterable, List, Mapping, Optional, Type
 
 from tqdm import tqdm
 
+from .antibodyregistry import AntibodyRegistryGetter
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
 from .chembl import ChEMBLGetter
@@ -99,6 +100,7 @@ def get_getters() -> List[Type[Getter]]:
         GuideToPharmacologyGetter,
         OncoTreeGetter,
         MOAlmanacGetter,
+        AntibodyRegistryGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
