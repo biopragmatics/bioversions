@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 113,
+    "revision": 114,
     "date": "2021-10-11",
-    "author": "runner"
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -1635,6 +1635,19 @@
         }
       ],
       "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-10-11",
+          "version": "104",
+          "homepage": "https://www.ensembl.org",
+          "date": "2021-05-01"
+        }
+      ],
+      "name": "Ensembl",
+      "prefix": "ensembl",
+      "vtype": "sequential"
     },
     {
       "name": "Ensembl Glossary",
@@ -6295,6 +6308,11 @@
           "retrieved": "2021-10-09",
           "version": "8 Oct 2021",
           "date": "2021-10-08"
+        },
+        {
+          "retrieved": "2021-10-11",
+          "version": "9 Oct 2021",
+          "date": "2021-10-09"
         }
       ],
       "name": "Zebrafish Information Network",
