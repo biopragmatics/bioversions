@@ -20,6 +20,7 @@ from .dgi import DGIGetter
 from .disgenet import DisGeNetGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
+from .ensembl import EnsemblGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
@@ -101,6 +102,7 @@ def get_getters() -> List[Type[Getter]]:
         OncoTreeGetter,
         MOAlmanacGetter,
         AntibodyRegistryGetter,
+        EnsemblGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
