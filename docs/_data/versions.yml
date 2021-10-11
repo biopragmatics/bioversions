@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-10'
-  revision: 112
+  date: '2021-10-11'
+  revision: 113
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -3311,6 +3311,10 @@ database:
     homepage: http://data.wikipathways.org/20210910/
     retrieved: '2021-09-11'
     version: '20210910'
+  - date: '2021-10-10'
+    homepage: http://data.wikipathways.org/20211010/
+    retrieved: '2021-10-11'
+    version: '20211010'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
