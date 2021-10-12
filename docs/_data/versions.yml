@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-10-11'
-  revision: 114
+  author: runner
+  date: '2021-10-12'
+  revision: 115
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -756,6 +756,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-01
     retrieved: '2021-10-02'
     version: '2021-10-01'
+  - date: '2021-10-11'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-11
+    retrieved: '2021-10-12'
+    version: '2021-10-11'
   vtype: date
 - name: DisGeNet
   releases:
@@ -3461,6 +3465,9 @@ database:
   - date: '2021-10-09'
     retrieved: '2021-10-11'
     version: 9 Oct 2021
+  - date: '2021-10-10'
+    retrieved: '2021-10-12'
+    version: 10 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
