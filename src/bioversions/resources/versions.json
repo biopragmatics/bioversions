@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 115,
-    "date": "2021-10-12",
+    "revision": 116,
+    "date": "2021-10-13",
     "author": "runner"
   },
   "database": [
@@ -1380,6 +1380,12 @@
           "version": "2021-10-11",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-11",
           "date": "2021-10-11"
+        },
+        {
+          "retrieved": "2021-10-13",
+          "version": "2021-10-12",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-12",
+          "date": "2021-10-12"
         }
       ],
       "vtype": "date"
@@ -6324,6 +6330,11 @@
           "retrieved": "2021-10-12",
           "version": "10 Oct 2021",
           "date": "2021-10-10"
+        },
+        {
+          "retrieved": "2021-10-13",
+          "version": "11 Oct 2021",
+          "date": "2021-10-11"
         }
       ],
       "name": "Zebrafish Information Network",
