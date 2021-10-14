@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-13'
-  revision: 116
+  date: '2021-10-14'
+  revision: 117
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -420,6 +420,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel203/
     retrieved: '2021-09-08'
     version: '203'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel204/
+    retrieved: '2021-10-14'
+    version: '204'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -3475,6 +3478,9 @@ database:
   - date: '2021-10-11'
     retrieved: '2021-10-13'
     version: 11 Oct 2021
+  - date: '2021-10-12'
+    retrieved: '2021-10-14'
+    version: 12 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
