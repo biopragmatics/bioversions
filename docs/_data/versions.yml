@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-14'
-  revision: 117
+  date: '2021-10-15'
+  revision: 118
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1000,6 +1000,8 @@ database:
     version: '2021-08-12'
   - retrieved: '2021-09-19'
     version: '2021-09-14'
+  - retrieved: '2021-10-15'
+    version: '2021-10-08'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -1133,6 +1135,8 @@ database:
     version: '2021-09-16'
   - retrieved: '2021-10-01'
     version: '2021-09-28'
+  - retrieved: '2021-10-15'
+    version: '2021-10-05'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1453,6 +1457,8 @@ database:
     version: '2021-06-13'
   - retrieved: '2021-09-15'
     version: '2021-08-02'
+  - retrieved: '2021-10-15'
+    version: '2021-10-10'
   vtype: date
 - name: Hymenoptera Anatomy Ontology
   prefix: hao
@@ -1598,6 +1604,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2.14'
+  - retrieved: '2021-10-15'
+    version: '2.30'
   vtype: semver
 - name: KiSAO
   prefix: biomodels.kisao
@@ -2710,6 +2718,8 @@ database:
     version: '76'
   - retrieved: '2021-06-25'
     version: '77'
+  - retrieved: '2021-10-15'
+    version: '78'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -3374,6 +3384,8 @@ database:
     version: '2020-03-10'
   - retrieved: '2021-09-15'
     version: '2021-09-07'
+  - retrieved: '2021-10-15'
+    version: '2021-10-07'
   vtype: date
 - name: Zebrafish anatomy and development ontology
   prefix: zfa
@@ -3481,6 +3493,9 @@ database:
   - date: '2021-10-12'
     retrieved: '2021-10-14'
     version: 12 Oct 2021
+  - date: '2021-10-13'
+    retrieved: '2021-10-15'
+    version: 13 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 117,
-    "date": "2021-10-14",
+    "revision": 118,
+    "date": "2021-10-15",
     "author": "runner"
   },
   "database": [
@@ -1825,6 +1825,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "2021-09-14"
+        },
+        {
+          "retrieved": "2021-10-15",
+          "version": "2021-10-08"
         }
       ],
       "name": "Evidence ontology",
@@ -2084,6 +2088,10 @@
         {
           "retrieved": "2021-10-01",
           "version": "2021-09-28"
+        },
+        {
+          "retrieved": "2021-10-15",
+          "version": "2021-10-05"
         }
       ],
       "vtype": "date"
@@ -2677,6 +2685,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-08-02"
+        },
+        {
+          "retrieved": "2021-10-15",
+          "version": "2021-10-10"
         }
       ],
       "vtype": "date"
@@ -2929,6 +2941,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2.14"
+        },
+        {
+          "retrieved": "2021-10-15",
+          "version": "2.30"
         }
       ],
       "name": "Kinetic Simulation Algorithm Ontology",
@@ -4948,6 +4964,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "77"
+        },
+        {
+          "retrieved": "2021-10-15",
+          "version": "78"
         }
       ],
       "vtype": "sequential"
@@ -6160,6 +6180,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-09-07"
+        },
+        {
+          "retrieved": "2021-10-15",
+          "version": "2021-10-07"
         }
       ],
       "name": "Yeast phenotypes",
@@ -6345,6 +6369,11 @@
           "retrieved": "2021-10-14",
           "version": "12 Oct 2021",
           "date": "2021-10-12"
+        },
+        {
+          "retrieved": "2021-10-15",
+          "version": "13 Oct 2021",
+          "date": "2021-10-13"
         }
       ],
       "name": "Zebrafish Information Network",
