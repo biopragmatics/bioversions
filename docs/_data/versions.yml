@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-15'
-  revision: 118
+  date: '2021-10-16'
+  revision: 119
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1152,6 +1152,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2021_04/
     retrieved: '2021-09-16'
     version: '2021_04'
+  - homepage: http://ftp.flybase.net/releases/FB2021_05/
+    retrieved: '2021-10-16'
+    version: '2021_05'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -3496,6 +3499,9 @@ database:
   - date: '2021-10-13'
     retrieved: '2021-10-15'
     version: 13 Oct 2021
+  - date: '2021-10-14'
+    retrieved: '2021-10-16'
+    version: 14 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

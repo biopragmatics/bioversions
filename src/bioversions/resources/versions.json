@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 118,
-    "date": "2021-10-15",
+    "revision": 119,
+    "date": "2021-10-16",
     "author": "runner"
   },
   "database": [
@@ -2117,6 +2117,11 @@
           "retrieved": "2021-09-16",
           "version": "2021_04",
           "homepage": "http://ftp.flybase.net/releases/FB2021_04/"
+        },
+        {
+          "retrieved": "2021-10-16",
+          "version": "2021_05",
+          "homepage": "http://ftp.flybase.net/releases/FB2021_05/"
         }
       ],
       "name": "FlyBase",
@@ -6374,6 +6379,11 @@
           "retrieved": "2021-10-15",
           "version": "13 Oct 2021",
           "date": "2021-10-13"
+        },
+        {
+          "retrieved": "2021-10-16",
+          "version": "14 Oct 2021",
+          "date": "2021-10-14"
         }
       ],
       "name": "Zebrafish Information Network",
