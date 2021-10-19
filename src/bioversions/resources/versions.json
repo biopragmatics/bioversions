@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 121,
-    "date": "2021-10-18",
+    "revision": 122,
+    "date": "2021-10-19",
     "author": "runner"
   },
   "database": [
@@ -1056,6 +1056,12 @@
           "version": "2021-07-06",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-07-06/",
           "date": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-19",
+          "version": "2021-10-13",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-10-13/",
+          "date": "2021-10-13"
         }
       ],
       "vtype": "date"
@@ -2843,6 +2849,12 @@
           "version": "2021-07-06",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-07-06/",
           "date": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-10-19",
+          "version": "2021-10-13",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-10-13/",
+          "date": "2021-10-13"
         }
       ],
       "vtype": "date"
@@ -6394,6 +6406,11 @@
           "retrieved": "2021-10-18",
           "version": "16 Oct 2021",
           "date": "2021-10-16"
+        },
+        {
+          "retrieved": "2021-10-19",
+          "version": "17 Oct 2021",
+          "date": "2021-10-17"
         }
       ],
       "name": "Zebrafish Information Network",

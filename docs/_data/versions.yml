@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-18'
-  revision: 121
+  date: '2021-10-19'
+  revision: 122
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -578,6 +578,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-07-06/
     retrieved: '2021-07-27'
     version: '2021-07-06'
+  - date: '2021-10-13'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2021-10-13/
+    retrieved: '2021-10-19'
+    version: '2021-10-13'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -1545,6 +1549,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-07-06/
     retrieved: '2021-07-27'
     version: '2021-07-06'
+  - date: '2021-10-13'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2021-10-13/
+    retrieved: '2021-10-19'
+    version: '2021-10-13'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -3508,6 +3516,9 @@ database:
   - date: '2021-10-16'
     retrieved: '2021-10-18'
     version: 16 Oct 2021
+  - date: '2021-10-17'
+    retrieved: '2021-10-19'
+    version: 17 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
