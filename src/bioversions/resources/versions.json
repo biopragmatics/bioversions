@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 122,
-    "date": "2021-10-19",
+    "revision": 123,
+    "date": "2021-10-20",
     "author": "runner"
   },
   "database": [
@@ -4784,6 +4784,12 @@
           "version": "2021-09-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2021-09-01/",
           "date": "2021-09-01"
+        },
+        {
+          "retrieved": "2021-10-20",
+          "version": "2021-10-05",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2021-10-05/",
+          "date": "2021-10-05"
         }
       ],
       "name": "PomBase",
@@ -6411,6 +6417,11 @@
           "retrieved": "2021-10-19",
           "version": "17 Oct 2021",
           "date": "2021-10-17"
+        },
+        {
+          "retrieved": "2021-10-20",
+          "version": "18 Oct 2021",
+          "date": "2021-10-18"
         }
       ],
       "name": "Zebrafish Information Network",
