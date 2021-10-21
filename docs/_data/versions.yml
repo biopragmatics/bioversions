@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-20'
-  revision: 123
+  date: '2021-10-21'
+  revision: 124
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -3526,6 +3526,9 @@ database:
   - date: '2021-10-18'
     retrieved: '2021-10-20'
     version: 18 Oct 2021
+  - date: '2021-10-19'
+    retrieved: '2021-10-21'
+    version: 19 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
