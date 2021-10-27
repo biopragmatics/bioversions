@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 128,
-    "date": "2021-10-26",
+    "revision": 129,
+    "date": "2021-10-27",
     "author": "runner"
   },
   "database": [
@@ -855,6 +855,12 @@
           "version": "2021-06-24",
           "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20210624.zip",
           "date": "2021-06-24"
+        },
+        {
+          "retrieved": "2021-10-27",
+          "version": "2021-10-26",
+          "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20211026.zip",
+          "date": "2021-10-26"
         }
       ],
       "name": "ChemIDplus",
