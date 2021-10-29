@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 130,
-    "date": "2021-10-28",
+    "revision": 131,
+    "date": "2021-10-29",
     "author": "runner"
   },
   "database": [
@@ -373,6 +373,10 @@
         {
           "retrieved": "2021-10-01",
           "version": "2021-09-22"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-13"
         }
       ],
       "vtype": "date"
@@ -416,6 +420,10 @@
         {
           "retrieved": "2021-05-04",
           "version": "2021-04-27"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-26"
         }
       ],
       "name": "BRENDA tissue / enzyme source",
@@ -554,6 +562,10 @@
         {
           "retrieved": "2021-10-01",
           "version": "2021-09-27"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-25"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1085,6 +1097,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-09-09"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-20"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -1450,6 +1466,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-09-01"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-13"
         }
       ],
       "name": "Drosophila development",
@@ -1500,6 +1520,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-09-02"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-15"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -1841,6 +1865,10 @@
         {
           "retrieved": "2021-10-15",
           "version": "2021-10-08"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-20"
         }
       ],
       "name": "Evidence ontology",
@@ -1947,6 +1975,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "3.34.0"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "3.35.0"
         }
       ],
       "vtype": "semver"
@@ -2165,6 +2197,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-09-02"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-18"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -2353,6 +2389,12 @@
           "version": "2021-09-01",
           "homepage": "http://archive.geneontology.org/full/2021-09-01/",
           "date": "2021-09-01"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-26",
+          "homepage": "http://archive.geneontology.org/full/2021-10-26/",
+          "date": "2021-10-26"
         }
       ],
       "vtype": "date"
@@ -2637,6 +2679,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "2021-09-16"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-19"
         }
       ],
       "vtype": "date"
@@ -3308,6 +3354,10 @@
         {
           "retrieved": "2021-10-01",
           "version": "2021-09-24"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-15"
         }
       ],
       "vtype": "date"
@@ -4664,6 +4714,10 @@
         {
           "retrieved": "2021-10-09",
           "version": "2021-09-29"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-21"
         }
       ],
       "vtype": "date"
@@ -5607,6 +5661,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-08-12"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-20"
         }
       ],
       "vtype": "date"
@@ -5785,6 +5843,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-07-27"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "2021-10-01"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -6458,6 +6520,11 @@
           "retrieved": "2021-10-28",
           "version": "26 Oct 2021",
           "date": "2021-10-26"
+        },
+        {
+          "retrieved": "2021-10-29",
+          "version": "27 Oct 2021",
+          "date": "2021-10-27"
         }
       ],
       "name": "Zebrafish Information Network",

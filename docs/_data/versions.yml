@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-28'
-  revision: 130
+  date: '2021-10-29'
+  revision: 131
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -205,6 +205,8 @@ database:
     version: '2020-05-11'
   - retrieved: '2021-10-01'
     version: '2021-09-22'
+  - retrieved: '2021-10-29'
+    version: '2021-10-13'
   vtype: date
 - name: Brachiaria ontology
   prefix: co_345
@@ -229,6 +231,8 @@ database:
     version: '2021-02-09'
   - retrieved: '2021-05-04'
     version: '2021-04-27'
+  - retrieved: '2021-10-29'
+    version: '2021-10-26'
   vtype: date
 - name: Brenda Tissue Ontology
   prefix: bto
@@ -301,6 +305,8 @@ database:
     version: '2021-07-06'
   - retrieved: '2021-10-01'
     version: '2021-09-27'
+  - retrieved: '2021-10-29'
+    version: '2021-10-25'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -596,6 +602,8 @@ database:
     version: '2021-05-30'
   - retrieved: '2021-09-15'
     version: '2021-09-09'
+  - retrieved: '2021-10-29'
+    version: '2021-10-20'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -801,6 +809,8 @@ database:
     version: '2021-07-05'
   - retrieved: '2021-09-15'
     version: '2021-09-01'
+  - retrieved: '2021-10-29'
+    version: '2021-10-13'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -827,6 +837,8 @@ database:
     version: '2021-07-15'
   - retrieved: '2021-09-15'
     version: '2021-09-02'
+  - retrieved: '2021-10-29'
+    version: '2021-10-15'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -1010,6 +1022,8 @@ database:
     version: '2021-09-14'
   - retrieved: '2021-10-15'
     version: '2021-10-08'
+  - retrieved: '2021-10-29'
+    version: '2021-10-20'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -1065,6 +1079,8 @@ database:
     version: 3.33.0
   - retrieved: '2021-09-19'
     version: 3.34.0
+  - retrieved: '2021-10-29'
+    version: 3.35.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1179,6 +1195,8 @@ database:
     version: '2021-07-15'
   - retrieved: '2021-09-15'
     version: '2021-09-02'
+  - retrieved: '2021-10-29'
+    version: '2021-10-18'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -1283,6 +1301,10 @@ database:
     homepage: http://archive.geneontology.org/full/2021-09-01/
     retrieved: '2021-09-08'
     version: '2021-09-01'
+  - date: '2021-10-26'
+    homepage: http://archive.geneontology.org/full/2021-10-26/
+    retrieved: '2021-10-29'
+    version: '2021-10-26'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -1434,6 +1456,8 @@ database:
     version: '2021-08-18'
   - retrieved: '2021-09-19'
     version: '2021-09-16'
+  - retrieved: '2021-10-29'
+    version: '2021-10-19'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1801,6 +1825,8 @@ database:
     version: '2021-07-28'
   - retrieved: '2021-10-01'
     version: '2021-09-24'
+  - retrieved: '2021-10-29'
+    version: '2021-10-15'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -2558,6 +2584,8 @@ database:
     version: '2021-04-05'
   - retrieved: '2021-10-09'
     version: '2021-09-29'
+  - retrieved: '2021-10-29'
+    version: '2021-10-21'
   vtype: date
 - name: Planarian Phenotype Ontology
   prefix: planp
@@ -3068,6 +3096,8 @@ database:
     version: '2020-06-01'
   - retrieved: '2021-09-15'
     version: '2021-08-12'
+  - retrieved: '2021-10-29'
+    version: '2021-10-20'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -3165,6 +3195,8 @@ database:
     version: '2021-07-25'
   - retrieved: '2021-09-15'
     version: '2021-07-27'
+  - retrieved: '2021-10-29'
+    version: '2021-10-01'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -3548,6 +3580,9 @@ database:
   - date: '2021-10-26'
     retrieved: '2021-10-28'
     version: 26 Oct 2021
+  - date: '2021-10-27'
+    retrieved: '2021-10-29'
+    version: 27 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
