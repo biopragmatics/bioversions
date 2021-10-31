@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 131,
-    "date": "2021-10-29",
+    "revision": 132,
+    "date": "2021-10-31",
     "author": "runner"
   },
   "database": [
@@ -3692,6 +3692,11 @@
           "retrieved": "2021-10-05",
           "version": "21.09d",
           "date": "2021-09-27"
+        },
+        {
+          "retrieved": "2021-10-31",
+          "version": "21.10d",
+          "date": "2021-10-25"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -4357,6 +4362,10 @@
         {
           "retrieved": "2021-06-05",
           "version": "2.0.31"
+        },
+        {
+          "retrieved": "2021-10-31",
+          "version": "2.0.34"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -5112,6 +5121,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-08-31"
+        },
+        {
+          "retrieved": "2021-10-31",
+          "version": "2021-10-27"
         }
       ],
       "vtype": "date"
@@ -6525,6 +6538,11 @@
           "retrieved": "2021-10-29",
           "version": "27 Oct 2021",
           "date": "2021-10-27"
+        },
+        {
+          "retrieved": "2021-10-31",
+          "version": "29 Oct 2021",
+          "date": "2021-10-29"
         }
       ],
       "name": "Zebrafish Information Network",

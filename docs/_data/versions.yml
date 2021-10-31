@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-10-29'
-  revision: 131
+  date: '2021-10-31'
+  revision: 132
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -2012,6 +2012,9 @@ database:
   - date: '2021-09-27'
     retrieved: '2021-10-05'
     version: 21.09d
+  - date: '2021-10-25'
+    retrieved: '2021-10-31'
+    version: 21.10d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -2390,6 +2393,8 @@ database:
     version: 2.0.30
   - retrieved: '2021-06-05'
     version: 2.0.31
+  - retrieved: '2021-10-31'
+    version: 2.0.34
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -2799,6 +2804,8 @@ database:
     version: '2021-06-23'
   - retrieved: '2021-09-15'
     version: '2021-08-31'
+  - retrieved: '2021-10-31'
+    version: '2021-10-27'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -3583,6 +3590,9 @@ database:
   - date: '2021-10-27'
     retrieved: '2021-10-29'
     version: 27 Oct 2021
+  - date: '2021-10-29'
+    retrieved: '2021-10-31'
+    version: 29 Oct 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
