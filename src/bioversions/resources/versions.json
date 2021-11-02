@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 133,
-    "date": "2021-11-01",
+    "revision": 134,
+    "date": "2021-11-02",
     "author": "runner"
   },
   "database": [
@@ -321,6 +321,11 @@
           "retrieved": "2021-10-02",
           "version": "4.4.202",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.202"
+        },
+        {
+          "retrieved": "2021-11-02",
+          "version": "4.4.203",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.203"
         }
       ],
       "vtype": "semver"
@@ -2959,6 +2964,12 @@
           "version": "86.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/86.0/",
           "date": "2021-04-08"
+        },
+        {
+          "retrieved": "2021-11-02",
+          "version": "87.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/87.0/",
+          "date": "2021-06-03"
         }
       ],
       "vtype": "semver_minor"
@@ -5241,6 +5252,11 @@
           "retrieved": "2021-10-05",
           "version": "2021-10-04",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10042021.zip"
+        },
+        {
+          "retrieved": "2021-11-02",
+          "version": "2021-11-01",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_11012021.zip"
         }
       ],
       "name": "RxNorm",
