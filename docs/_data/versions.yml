@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-02'
-  revision: 134
+  date: '2021-11-03'
+  revision: 135
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -510,6 +510,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2019-08-29'
+  - retrieved: '2021-11-03'
+    version: '2021-06-08'
   vtype: date
 - name: Clinical measurement ontology
   prefix: cmo
@@ -711,6 +713,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 2021a_20210130
+  - retrieved: '2021-11-03'
+    version: 2021d_20210910
   vtype: other
 - name: Dicty Phenotype Ontology (DDPHENO)
   prefix: ddpheno
@@ -824,6 +828,8 @@ database:
     version: '2021-05-11'
   - retrieved: '2021-07-27'
     version: '2021-07-09'
+  - retrieved: '2021-11-03'
+    version: '2021-10-14'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1256,6 +1262,8 @@ database:
     version: '2021-03-03'
   - retrieved: '2021-06-04'
     version: '2021-06-02'
+  - retrieved: '2021-11-03'
+    version: '2021-10-29'
   vtype: date
 - name: Gazetteer
   prefix: gaz
@@ -2118,6 +2126,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2017-03-04'
+  - retrieved: '2021-11-03'
+    version: v1.6
   vtype: date
 - name: 'OGG: Ontology of Genes and Genomes'
   prefix: ogg
@@ -2152,6 +2162,10 @@ database:
     homepage: http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_2020_10_01
     retrieved: '2021-10-04'
     version: '2020-10-01'
+  - date: '2021-11-02'
+    homepage: http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_2021_11_02
+    retrieved: '2021-11-03'
+    version: '2021-11-02'
   vtype: date
 - name: Ontologized MIABIS
   prefix: omiabis
@@ -2192,6 +2206,8 @@ database:
     version: '2020-07-06'
   - retrieved: '2021-04-23'
     version: '2021-04-20'
+  - retrieved: '2021-11-03'
+    version: '2021-08-19'
   vtype: date
 - name: Ontology for genetic interval
   prefix: ogi
@@ -2304,6 +2320,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-10-27'
+  - retrieved: '2021-11-03'
+    version: '2021-08-30'
   vtype: date
 - name: Ontology of Microbial Phenotypes
   prefix: omp
@@ -3606,6 +3624,9 @@ database:
   - date: '2021-10-30'
     retrieved: '2021-11-01'
     version: 30 Oct 2021
+  - date: '2021-11-01'
+    retrieved: '2021-11-03'
+    version: 1 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
