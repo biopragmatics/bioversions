@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 135,
-    "date": "2021-11-03",
+    "revision": 136,
+    "date": "2021-11-04",
     "author": "runner"
   },
   "database": [
@@ -795,6 +795,11 @@
           "retrieved": "2021-10-14",
           "version": "204",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel204/"
+        },
+        {
+          "retrieved": "2021-11-04",
+          "version": "205",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel205/"
         }
       ],
       "vtype": "sequential"
@@ -6603,6 +6608,11 @@
           "retrieved": "2021-11-03",
           "version": "1 Nov 2021",
           "date": "2021-11-01"
+        },
+        {
+          "retrieved": "2021-11-04",
+          "version": "2 Nov 2021",
+          "date": "2021-11-02"
         }
       ],
       "name": "Zebrafish Information Network",
