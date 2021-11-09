@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 136,
-    "date": "2021-11-04",
-    "author": "runner"
+    "revision": 137,
+    "date": "2021-11-09",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -225,6 +225,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-11-09",
+          "version": "1.6.0",
+          "date": "2019-10-31"
+        }
+      ],
+      "name": "BiGG",
+      "vtype": "semver"
     },
     {
       "name": "BioAssay Ontology",
@@ -4909,6 +4920,12 @@
           "version": "2021-10-05",
           "homepage": "https://www.pombase.org/data/releases/pombase-2021-10-05/",
           "date": "2021-10-05"
+        },
+        {
+          "retrieved": "2021-11-09",
+          "version": "2021-11-03",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2021-11-03/",
+          "date": "2021-11-03"
         }
       ],
       "name": "PomBase",
@@ -6613,6 +6630,11 @@
           "retrieved": "2021-11-04",
           "version": "2 Nov 2021",
           "date": "2021-11-02"
+        },
+        {
+          "retrieved": "2021-11-09",
+          "version": "8 Nov 2021",
+          "date": "2021-11-08"
         }
       ],
       "name": "Zebrafish Information Network",
