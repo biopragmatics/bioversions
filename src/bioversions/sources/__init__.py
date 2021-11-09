@@ -161,5 +161,8 @@ def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
         except (IOError, AttributeError, ftplib.error_perm):
             tqdm.write(f"failed to resolve {cls.name}")
             continue
+        except ValueError as e:
+            tqdm.write(f"issue parsing {cls.name}: {e}")
+            continue
         else:
             yield yv
