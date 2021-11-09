@@ -97,15 +97,17 @@ class MetaGetter(type):
             return vp
         if not isinstance(cls._cache_prop, dict):
             return None
-        date_str = cls._cache_prop["date"]
+        date = cls._cache_prop["date"]
+        if isinstance(date, datetime.datetime):
+            return date.date()
         if not cls.date_fmt:
             raise TypeError(
-                f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date_str}"
+                f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date}"
             )
         try:
-            return datetime.datetime.strptime(date_str, cls.date_fmt).date()
+            return datetime.datetime.strptime(date, cls.date_fmt).date()
         except ValueError:
-            raise ValueError(f"Issue in {cls.__name__} with date {date_str} and fmt {cls.date_fmt}")
+            raise ValueError(f"Issue in {cls.__name__} with date {date} and fmt {cls.date_fmt}")
 
     @property
     def version_date_parsed(cls) -> Optional[datetime.date]:
