@@ -2,8 +2,6 @@
 
 """A getter for miRBase."""
 
-import ftplib
-
 from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
