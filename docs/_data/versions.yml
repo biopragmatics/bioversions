@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-11-09'
-  revision: 137
+  author: runner
+  date: '2021-11-11'
+  revision: 138
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -10,6 +10,8 @@ database:
     version: '2020-04-03'
   - retrieved: '2021-07-27'
     version: '2021-07-01'
+  - retrieved: '2021-11-11'
+    version: '2021-11-05'
   vtype: date
 - name: Allotrope Merged Ontology Suite
   prefix: afo
@@ -1179,6 +1181,8 @@ database:
     version: '2021-09-28'
   - retrieved: '2021-10-15'
     version: '2021-10-05'
+  - retrieved: '2021-11-11'
+    version: '2021-11-08'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1851,6 +1855,8 @@ database:
     version: '2021-09-24'
   - retrieved: '2021-10-29'
     version: '2021-10-15'
+  - retrieved: '2021-11-11'
+    version: '2021-11-04'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -1937,6 +1943,8 @@ database:
     version: '2021-07-12'
   - retrieved: '2021-09-15'
     version: '2021-09-01'
+  - retrieved: '2021-11-11'
+    version: '2021-11-01'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2557,6 +2565,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam34.0/
     retrieved: '2020-12-25'
     version: '34.0'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam35.0/
+    retrieved: '2021-11-11'
+    version: '35.0'
   vtype: semver_minor
 - name: Phenotype And Trait Ontology
   prefix: pato
@@ -2581,6 +2592,8 @@ database:
     version: '2021-08-06'
   - retrieved: '2021-09-19'
     version: '2021-09-09'
+  - retrieved: '2021-11-11'
+    version: '2021-11-05'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -2723,6 +2736,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2016-09-13'
+  - retrieved: '2021-11-11'
+    version: '2016-10-06'
   vtype: date
 - name: Potato ontology
   prefix: co_330
@@ -3443,6 +3458,10 @@ database:
     homepage: http://data.wikipathways.org/20211010/
     retrieved: '2021-10-11'
     version: '20211010'
+  - date: '2021-11-10'
+    homepage: http://data.wikipathways.org/20211110/
+    retrieved: '2021-11-11'
+    version: '20211110'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -3646,6 +3665,9 @@ database:
   - date: '2021-11-08'
     retrieved: '2021-11-09'
     version: 8 Nov 2021
+  - date: '2021-11-09'
+    retrieved: '2021-11-11'
+    version: 9 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
