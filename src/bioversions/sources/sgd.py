@@ -27,7 +27,14 @@ class SgdGetter(Getter):
         """Get the latest SGD version number."""
         with requests.Session() as session:
             res = session.get(VERSION_FILE)
-            d = dict(line.strip().split("\t") for line in res.text.splitlines() if line.strip())
+            d = {}
+            lines = list(res.text.splitlines())
+            # First 3 lines are headers
+            lines = lines[3:]
+            for line in lines:
+                line = line.strip().split()
+                # Some lines contain extra information
+                d[line[0]] = line[1].replace("_", '-')
         version = max(d, key=d.get)
         return {
             "version": version,
