@@ -19,9 +19,11 @@ from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
 from .dgi import DGIGetter
 from .disgenet import DisGeNetGetter
+from .chebi import ChEBIGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .ensembl import EnsemblGetter
+from .pr import PRGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
@@ -105,6 +107,8 @@ def get_getters() -> List[Type[Getter]]:
         AntibodyRegistryGetter,
         EnsemblGetter,
         BiGGGetter,
+        ChEBIGetter,
+        PRGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
