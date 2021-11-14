@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-13'
-  revision: 140
+  date: '2021-11-14'
+  revision: 141
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1116,6 +1116,12 @@ database:
   - retrieved: '2021-06-14'
     version: '2019-10-15'
   vtype: date
+- name: FAIRsharing Subject Ontology
+  prefix: srao
+  releases:
+  - retrieved: '2021-11-14'
+    version: 0.2.2
+  vtype: semver
 - name: Fission Yeast Phenotype Ontology
   prefix: fypo
   releases:
@@ -1288,6 +1294,12 @@ database:
   - retrieved: '2021-06-14'
     version: '2018-06-26'
   vtype: date
+- name: Gender, Sex, and Sexual Orientation Ontology
+  prefix: gsso
+  releases:
+  - retrieved: '2021-11-14'
+    version: 2.0.5
+  vtype: semver
 - name: Gene Expression Ontology
   prefix: gexo
   releases:
@@ -2999,6 +3011,12 @@ database:
   - retrieved: '2021-05-08'
     version: '2021-04-15'
   vtype: date
+- name: SNOMED CT (International Edition)
+  prefix: snomedct
+  releases:
+  - retrieved: '2021-11-14'
+    version: '2020-01-31'
+  vtype: date
 - name: Social Insect Behavior Ontology
   prefix: sibo
   releases:
@@ -3676,6 +3694,9 @@ database:
   - date: '2021-11-11'
     retrieved: '2021-11-13'
     version: 11 Nov 2021
+  - date: '2021-11-12'
+    retrieved: '2021-11-14'
+    version: 12 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

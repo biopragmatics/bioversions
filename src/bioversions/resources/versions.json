@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 140,
-    "date": "2021-11-13",
+    "revision": 141,
+    "date": "2021-11-14",
     "author": "runner"
   },
   "database": [
@@ -2047,6 +2047,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-11-14",
+          "version": "0.2.2"
+        }
+      ],
+      "name": "FAIRsharing Subject Ontology",
+      "prefix": "srao",
+      "vtype": "semver"
+    },
+    {
       "name": "Fission Yeast Phenotype Ontology",
       "prefix": "fypo",
       "releases": [
@@ -2375,6 +2386,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-11-14",
+          "version": "2.0.5"
+        }
+      ],
+      "name": "Gender, Sex, and Sexual Orientation Ontology",
+      "prefix": "gsso",
+      "vtype": "semver"
     },
     {
       "name": "Gene Expression Ontology",
@@ -5480,6 +5502,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-11-14",
+          "version": "2020-01-31"
+        }
+      ],
+      "name": "SNOMED CT (International Edition)",
+      "prefix": "snomedct",
+      "vtype": "date"
+    },
+    {
       "name": "Social Insect Behavior Ontology",
       "prefix": "sibo",
       "releases": [
@@ -6689,6 +6722,11 @@
           "retrieved": "2021-11-13",
           "version": "11 Nov 2021",
           "date": "2021-11-11"
+        },
+        {
+          "retrieved": "2021-11-14",
+          "version": "12 Nov 2021",
+          "date": "2021-11-12"
         }
       ],
       "name": "Zebrafish Information Network",
