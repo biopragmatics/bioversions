@@ -18,6 +18,7 @@ from .chembl import ChEMBLGetter
 from .chemidplus import ChemIDplusGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
+from .depmap import DepMapGetter
 from .dgi import DGIGetter
 from .disgenet import DisGeNetGetter
 from .drugbank import DrugBankGetter
@@ -115,6 +116,7 @@ def get_getters() -> List[Type[Getter]]:
         PubChemGetter,
         SwissLipidGetter,
         ITISGetter,
+        DepMapGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
