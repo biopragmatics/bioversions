@@ -13,17 +13,16 @@ from .antibodyregistry import AntibodyRegistryGetter
 from .bigg import BiGGGetter
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
+from .chebi import ChEBIGetter
 from .chembl import ChEMBLGetter
 from .chemidplus import ChemIDplusGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
 from .dgi import DGIGetter
 from .disgenet import DisGeNetGetter
-from .chebi import ChEBIGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .ensembl import EnsemblGetter
-from .pr import PRGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
@@ -43,11 +42,14 @@ from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
 from .pfam import PfamGetter
 from .pombase import PombaseGetter
+from .pr import PRGetter
+from .pubchem import PubChemGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
 from .rhea import RheaGetter
 from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
+from .slm import SwissLipidGetter
 from .stringdb import StringDBGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
@@ -109,6 +111,8 @@ def get_getters() -> List[Type[Getter]]:
         BiGGGetter,
         ChEBIGetter,
         PRGetter,
+        PubChemGetter,
+        SwissLipidGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)

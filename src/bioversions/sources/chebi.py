@@ -26,7 +26,7 @@ class ChEBIGetter(Getter):
         anchors = soup.find("pre").find_all("a")
         last = list(anchors)[-1]
         date = last.next_sibling.strip().split()[0]
-        version = last.text.rstrip("/")[len("rel"):]
+        version = last.text.rstrip("/")[len("rel") :]
         return dict(version=version, date=date)
 
 

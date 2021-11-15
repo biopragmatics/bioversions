@@ -34,7 +34,7 @@ class SgdGetter(Getter):
             for line in lines:
                 line = line.strip().split()
                 # Some lines contain extra information
-                d[line[0]] = line[1].replace("_", '-')
+                d[line[0]] = line[1].replace("_", "-")
         version = max(d, key=d.get)
         return {
             "version": version,
