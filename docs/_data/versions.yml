@@ -1,7 +1,7 @@
 annotations:
-  author: runner
-  date: '2021-11-14'
-  revision: 141
+  author: cthoyt
+  date: '2021-11-15'
+  revision: 142
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1655,6 +1655,12 @@ database:
     retrieved: '2021-11-02'
     version: '87.0'
   vtype: semver_minor
+- name: ITIS
+  prefix: itis
+  releases:
+  - retrieved: '2021-11-15'
+    version: 28-Oct-2021
+  vtype: date
 - name: KEGG
   prefix: kegg.pathway
   releases:
@@ -1929,6 +1935,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-10-07
     retrieved: '2021-10-09'
     version: '2021-10-07'
+  - date: '2021-11-04'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-11-04
+    retrieved: '2021-11-15'
+    version: '2021-11-04'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -2808,6 +2818,12 @@ database:
   - retrieved: '2021-03-21'
     version: '2013-04-30'
   vtype: date
+- name: PubChem
+  releases:
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2021-11-01
+    retrieved: '2021-11-15'
+    version: '2021-11-01'
+  vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
   releases:
@@ -3081,6 +3097,12 @@ database:
     version: 09-10-2019
   - retrieved: '2021-06-14'
     version: '2019-10-09'
+  vtype: date
+- name: SwissLipid
+  prefix: swisslipid
+  releases:
+  - retrieved: '2021-11-15'
+    version: '2021-11-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3697,6 +3719,9 @@ database:
   - date: '2021-11-12'
     retrieved: '2021-11-14'
     version: 12 Nov 2021
+  - date: '2021-11-14'
+    retrieved: '2021-11-15'
+    version: 14 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

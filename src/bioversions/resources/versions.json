@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 141,
-    "date": "2021-11-14",
-    "author": "runner"
+    "revision": 142,
+    "date": "2021-11-15",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -3041,6 +3041,17 @@
       "vtype": "semver_minor"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-11-15",
+          "version": "28-Oct-2021"
+        }
+      ],
+      "name": "ITIS",
+      "prefix": "itis",
+      "vtype": "date"
+    },
+    {
       "name": "KEGG",
       "prefix": "kegg.pathway",
       "releases": [
@@ -3542,6 +3553,12 @@
           "version": "2021-10-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-10-07",
           "date": "2021-10-07"
+        },
+        {
+          "retrieved": "2021-11-15",
+          "version": "2021-11-04",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-11-04",
+          "date": "2021-11-04"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -5126,6 +5143,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-11-15",
+          "version": "2021-11-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2021-11-01"
+        }
+      ],
+      "name": "PubChem",
+      "vtype": "date"
+    },
+    {
       "name": "Radiation Biology Ontology",
       "prefix": "rbo",
       "releases": [
@@ -5630,6 +5658,17 @@
           "version": "2019-10-09"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-11-15",
+          "version": "2021-11-15"
+        }
+      ],
+      "name": "SwissLipid",
+      "prefix": "swisslipid",
       "vtype": "date"
     },
     {
@@ -6727,6 +6766,11 @@
           "retrieved": "2021-11-14",
           "version": "12 Nov 2021",
           "date": "2021-11-12"
+        },
+        {
+          "retrieved": "2021-11-15",
+          "version": "14 Nov 2021",
+          "date": "2021-11-14"
         }
       ],
       "name": "Zebrafish Information Network",
