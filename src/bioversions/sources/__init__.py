@@ -29,6 +29,7 @@ from .guidetopharmacology import GuideToPharmacologyGetter
 from .homologene import HomoloGeneGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
+from .itis import ITISGetter
 from .kegg import KEGGGetter
 from .mesh import MeshGetter
 from .mirbase import MirbaseGetter
@@ -113,6 +114,7 @@ def get_getters() -> List[Type[Getter]]:
         PRGetter,
         PubChemGetter,
         SwissLipidGetter,
+        ITISGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
