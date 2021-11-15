@@ -21,7 +21,7 @@ class MOAlmanacGetter(Getter):
         """Get the latest MOAlmanac version number."""
         soup = get_soup("https://moalmanac.org/")
         sub_footer = soup.find("div", {"class": "text-right"})
-        version = sub_footer.find("a").text
+        version = sub_footer.find("a").text.strip("v").strip(".")
         return version
 
 
