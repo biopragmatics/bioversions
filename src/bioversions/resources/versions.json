@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 142,
-    "date": "2021-11-15",
-    "author": "cthoyt"
+    "revision": 143,
+    "date": "2021-11-16",
+    "author": "runner"
   },
   "database": [
     {
@@ -1319,6 +1319,16 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-11-16",
+          "version": "21Q4"
+        }
+      ],
+      "name": "DepMap",
+      "vtype": "other"
     },
     {
       "name": "DICOM Controlled Terminology",

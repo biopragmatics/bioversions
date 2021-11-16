@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2021-11-15'
-  revision: 142
+  author: runner
+  date: '2021-11-16'
+  revision: 143
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -719,6 +719,11 @@ database:
   - retrieved: '2021-02-25'
     version: '2021-02-23'
   vtype: date
+- name: DepMap
+  releases:
+  - retrieved: '2021-11-16'
+    version: 21Q4
+  vtype: other
 - name: DICOM Controlled Terminology
   prefix: dicom
   releases:
