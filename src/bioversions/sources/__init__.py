@@ -42,6 +42,7 @@ from .obo import iter_obo_getters
 from .ols import extend_ols_getters
 from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
+from .pathwaycommons import PathwayCommonsGetter
 from .pfam import PfamGetter
 from .pombase import PombaseGetter
 from .pr import PRGetter
@@ -117,6 +118,7 @@ def get_getters() -> List[Type[Getter]]:
         SwissLipidGetter,
         ITISGetter,
         DepMapGetter,
+        PathwayCommonsGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
