@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 143,
-    "date": "2021-11-16",
+    "revision": 144,
+    "date": "2021-11-17",
     "author": "runner"
   },
   "database": [
@@ -1462,6 +1462,12 @@
           "version": "2021-10-12",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-12",
           "date": "2021-10-12"
+        },
+        {
+          "retrieved": "2021-11-17",
+          "version": "2021-11-16",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-16",
+          "date": "2021-11-16"
         }
       ],
       "vtype": "date"
@@ -2026,6 +2032,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "3.35.0"
+        },
+        {
+          "retrieved": "2021-11-17",
+          "version": "3.31.0"
         }
       ],
       "vtype": "semver"
@@ -5675,6 +5685,10 @@
         {
           "retrieved": "2021-11-15",
           "version": "2021-11-15"
+        },
+        {
+          "retrieved": "2021-11-17",
+          "version": "2021-11-16"
         }
       ],
       "name": "SwissLipid",
@@ -6047,6 +6061,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "2021-10-01"
+        },
+        {
+          "retrieved": "2021-11-17",
+          "version": "2021-11-12"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -6781,6 +6799,11 @@
           "retrieved": "2021-11-15",
           "version": "14 Nov 2021",
           "date": "2021-11-14"
+        },
+        {
+          "retrieved": "2021-11-17",
+          "version": "15 Nov 2021",
+          "date": "2021-11-15"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-16'
-  revision: 143
+  date: '2021-11-17'
+  revision: 144
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -806,6 +806,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-10-12
     retrieved: '2021-10-13'
     version: '2021-10-12'
+  - date: '2021-11-16'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-16
+    retrieved: '2021-11-17'
+    version: '2021-11-16'
   vtype: date
 - name: DisGeNet
   releases:
@@ -1106,6 +1110,8 @@ database:
     version: 3.34.0
   - retrieved: '2021-10-29'
     version: 3.35.0
+  - retrieved: '2021-11-17'
+    version: 3.31.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -3108,6 +3114,8 @@ database:
   releases:
   - retrieved: '2021-11-15'
     version: '2021-11-15'
+  - retrieved: '2021-11-17'
+    version: '2021-11-16'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3307,6 +3315,8 @@ database:
     version: '2021-07-27'
   - retrieved: '2021-10-29'
     version: '2021-10-01'
+  - retrieved: '2021-11-17'
+    version: '2021-11-12'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -3727,6 +3737,9 @@ database:
   - date: '2021-11-14'
     retrieved: '2021-11-15'
     version: 14 Nov 2021
+  - date: '2021-11-15'
+    retrieved: '2021-11-17'
+    version: 15 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
