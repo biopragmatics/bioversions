@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 144,
-    "date": "2021-11-17",
+    "revision": 145,
+    "date": "2021-11-18",
     "author": "runner"
   },
   "database": [
@@ -367,6 +367,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-03-27"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "2021-11-14"
         }
       ],
       "vtype": "date"
@@ -1468,6 +1472,12 @@
           "version": "2021-11-16",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-16",
           "date": "2021-11-16"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "2021-11-17",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-17",
+          "date": "2021-11-17"
         }
       ],
       "vtype": "date"
@@ -1950,6 +1960,11 @@
           "retrieved": "2021-06-25",
           "version": "02-Jun-2021",
           "date": "2021-06-02"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "29-Sep-2021",
+          "date": "2021-09-29"
         }
       ],
       "vtype": "date"
@@ -2036,6 +2051,10 @@
         {
           "retrieved": "2021-11-17",
           "version": "3.31.0"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "3.36.0"
         }
       ],
       "vtype": "semver"
@@ -4667,6 +4686,16 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2021-11-18",
+          "version": "12"
+        }
+      ],
+      "name": "Pathway Commons",
+      "vtype": "sequential"
+    },
+    {
       "name": "Pathway Ontology",
       "prefix": "pw",
       "releases": [
@@ -5355,6 +5384,11 @@
           "retrieved": "2021-06-25",
           "version": "119",
           "date": "2021-06-02"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "120",
+          "date": "2021-09-29"
         }
       ],
       "vtype": "date"
@@ -5689,6 +5723,10 @@
         {
           "retrieved": "2021-11-17",
           "version": "2021-11-16"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "2021-11-17"
         }
       ],
       "name": "SwissLipid",
@@ -6175,6 +6213,12 @@
           "version": "2021_03",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_03/",
           "date": "2021-03-01"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "2021_04",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_04/",
+          "date": "2021-04-01"
         }
       ],
       "vtype": "month"
@@ -6804,6 +6848,11 @@
           "retrieved": "2021-11-17",
           "version": "15 Nov 2021",
           "date": "2021-11-15"
+        },
+        {
+          "retrieved": "2021-11-18",
+          "version": "16 Nov 2021",
+          "date": "2021-11-16"
         }
       ],
       "name": "Zebrafish Information Network",

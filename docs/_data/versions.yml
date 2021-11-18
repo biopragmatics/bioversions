@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-17'
-  revision: 144
+  date: '2021-11-18'
+  revision: 145
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -202,6 +202,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-03-27'
+  - retrieved: '2021-11-18'
+    version: '2021-11-14'
   vtype: date
 - name: Biological Imaging Methods Ontology
   prefix: fbbi
@@ -810,6 +812,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-16
     retrieved: '2021-11-17'
     version: '2021-11-16'
+  - date: '2021-11-17'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-17
+    retrieved: '2021-11-18'
+    version: '2021-11-17'
   vtype: date
 - name: DisGeNet
   releases:
@@ -1068,6 +1074,9 @@ database:
   - date: '2021-06-02'
     retrieved: '2021-06-25'
     version: 02-Jun-2021
+  - date: '2021-09-29'
+    retrieved: '2021-11-18'
+    version: 29-Sep-2021
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -1112,6 +1121,8 @@ database:
     version: 3.35.0
   - retrieved: '2021-11-17'
     version: 3.31.0
+  - retrieved: '2021-11-18'
+    version: 3.36.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2560,6 +2571,11 @@ database:
   - retrieved: '2021-02-02'
     version: '2020-08-04'
   vtype: date
+- name: Pathway Commons
+  releases:
+  - retrieved: '2021-11-18'
+    version: '12'
+  vtype: sequential
 - name: Pathway Ontology
   prefix: pw
   releases:
@@ -2935,6 +2951,9 @@ database:
   - date: '2021-06-02'
     retrieved: '2021-06-25'
     version: '119'
+  - date: '2021-09-29'
+    retrieved: '2021-11-18'
+    version: '120'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -3116,6 +3135,8 @@ database:
     version: '2021-11-15'
   - retrieved: '2021-11-17'
     version: '2021-11-16'
+  - retrieved: '2021-11-18'
+    version: '2021-11-17'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3378,6 +3399,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_03/
     retrieved: '2021-06-25'
     version: '2021_03'
+  - date: '2021-04-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2021_04/
+    retrieved: '2021-11-18'
+    version: '2021_04'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -3740,6 +3765,9 @@ database:
   - date: '2021-11-15'
     retrieved: '2021-11-17'
     version: 15 Nov 2021
+  - date: '2021-11-16'
+    retrieved: '2021-11-18'
+    version: 16 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
