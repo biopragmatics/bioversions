@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-18'
-  revision: 145
+  date: '2021-11-19'
+  revision: 146
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1211,6 +1211,8 @@ database:
     version: '2021-10-05'
   - retrieved: '2021-11-11'
     version: '2021-11-08'
+  - retrieved: '2021-11-19'
+    version: '2021-11-16'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1518,6 +1520,8 @@ database:
     version: '2021-09-16'
   - retrieved: '2021-10-29'
     version: '2021-10-19'
+  - retrieved: '2021-11-19'
+    version: '2021-11-16'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -3137,6 +3141,8 @@ database:
     version: '2021-11-16'
   - retrieved: '2021-11-18'
     version: '2021-11-17'
+  - retrieved: '2021-11-19'
+    version: '2021-11-18'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3768,6 +3774,9 @@ database:
   - date: '2021-11-16'
     retrieved: '2021-11-18'
     version: 16 Nov 2021
+  - date: '2021-11-17'
+    retrieved: '2021-11-19'
+    version: 17 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
