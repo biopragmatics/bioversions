@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-19'
-  revision: 146
+  date: '2021-11-20'
+  revision: 147
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -953,6 +953,8 @@ database:
     version: '2021-07-06'
   - retrieved: '2021-10-01'
     version: '2021-09-21'
+  - retrieved: '2021-11-20'
+    version: '2021-11-17'
   vtype: date
 - name: eNanoMapper Ontology
   prefix: enm
@@ -1845,6 +1847,8 @@ database:
     version: '2020-08-07'
   - retrieved: '2021-10-01'
     version: '2021-09-21'
+  - retrieved: '2021-11-20'
+    version: '2021-11-17'
   vtype: date
 - name: MeSH
   prefix: mesh
@@ -3143,6 +3147,8 @@ database:
     version: '2021-11-17'
   - retrieved: '2021-11-19'
     version: '2021-11-18'
+  - retrieved: '2021-11-20'
+    version: '2021-11-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3259,6 +3265,8 @@ database:
     version: '2021-05-24'
   - retrieved: '2021-09-19'
     version: '2021-09-15'
+  - retrieved: '2021-11-20'
+    version: '2021-11-17'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
@@ -3777,6 +3785,9 @@ database:
   - date: '2021-11-17'
     retrieved: '2021-11-19'
     version: 17 Nov 2021
+  - date: '2021-11-18'
+    retrieved: '2021-11-20'
+    version: 18 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
