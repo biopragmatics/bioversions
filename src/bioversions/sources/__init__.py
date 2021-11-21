@@ -24,7 +24,6 @@ from .disgenet import DisGeNetGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .ensembl import EnsemblGetter
-from .umls import UMLSGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
@@ -55,6 +54,7 @@ from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
 from .slm import SwissLipidGetter
 from .stringdb import StringDBGetter
+from .umls import UMLSGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from .zfin import ZfinGetter

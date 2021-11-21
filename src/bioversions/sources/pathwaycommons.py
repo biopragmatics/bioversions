@@ -21,7 +21,7 @@ class PathwayCommonsGetter(Getter):
         """Get the latest Pathway Commons version number."""
         soup = get_soup(URL)
         boost = soup.find(**{"class": "boost"})
-        boost = boost.text[len("Version "):]
+        boost = boost.text[len("Version ") :]
         boost = boost.split(":")[0]
         return boost
 
