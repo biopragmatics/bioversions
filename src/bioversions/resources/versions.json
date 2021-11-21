@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 147,
-    "date": "2021-11-20",
+    "revision": 148,
+    "date": "2021-11-21",
     "author": "runner"
   },
   "database": [
@@ -2094,6 +2094,10 @@
         {
           "retrieved": "2021-11-14",
           "version": "0.2.2"
+        },
+        {
+          "retrieved": "2021-11-21",
+          "version": "0.3.0"
         }
       ],
       "name": "FAIRsharing Subject Ontology",
@@ -2235,6 +2239,10 @@
         {
           "retrieved": "2021-11-19",
           "version": "2021-11-16"
+        },
+        {
+          "retrieved": "2021-11-21",
+          "version": "2021-11-18"
         }
       ],
       "vtype": "date"
@@ -5751,6 +5759,10 @@
         {
           "retrieved": "2021-11-20",
           "version": "2021-11-19"
+        },
+        {
+          "retrieved": "2021-11-21",
+          "version": "2021-11-20"
         }
       ],
       "name": "SwissLipid",
@@ -6891,6 +6903,11 @@
           "retrieved": "2021-11-20",
           "version": "18 Nov 2021",
           "date": "2021-11-18"
+        },
+        {
+          "retrieved": "2021-11-21",
+          "version": "19 Nov 2021",
+          "date": "2021-11-19"
         }
       ],
       "name": "Zebrafish Information Network",

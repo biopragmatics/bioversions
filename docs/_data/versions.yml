@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-20'
-  revision: 147
+  date: '2021-11-21'
+  revision: 148
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1145,6 +1145,8 @@ database:
   releases:
   - retrieved: '2021-11-14'
     version: 0.2.2
+  - retrieved: '2021-11-21'
+    version: 0.3.0
   vtype: semver
 - name: Fission Yeast Phenotype Ontology
   prefix: fypo
@@ -1215,6 +1217,8 @@ database:
     version: '2021-11-08'
   - retrieved: '2021-11-19'
     version: '2021-11-16'
+  - retrieved: '2021-11-21'
+    version: '2021-11-18'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3149,6 +3153,8 @@ database:
     version: '2021-11-18'
   - retrieved: '2021-11-20'
     version: '2021-11-19'
+  - retrieved: '2021-11-21'
+    version: '2021-11-20'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3788,6 +3794,9 @@ database:
   - date: '2021-11-18'
     retrieved: '2021-11-20'
     version: 18 Nov 2021
+  - date: '2021-11-19'
+    retrieved: '2021-11-21'
+    version: 19 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
