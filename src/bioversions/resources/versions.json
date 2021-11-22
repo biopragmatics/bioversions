@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 148,
-    "date": "2021-11-21",
+    "revision": 149,
+    "date": "2021-11-22",
     "author": "runner"
   },
   "database": [
@@ -1669,6 +1669,12 @@
           "retrieved": "2021-10-06",
           "version": "10/05/2021",
           "date": "2021-10-05"
+        },
+        {
+          "retrieved": "2021-11-22",
+          "version": "2021_09_01",
+          "homepage": "https://unmtid-shinyapps.net/download/DrugCentral/2021_09_01",
+          "date": "2021-09-01"
         }
       ],
       "vtype": "date"
@@ -5763,6 +5769,10 @@
         {
           "retrieved": "2021-11-21",
           "version": "2021-11-20"
+        },
+        {
+          "retrieved": "2021-11-22",
+          "version": "2021-11-21"
         }
       ],
       "name": "SwissLipid",
@@ -6163,6 +6173,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2021-11-22",
+          "version": "2021AB"
+        }
+      ],
+      "name": "UMLS",
+      "prefix": "umls",
+      "vtype": "other"
     },
     {
       "releases": [
@@ -6908,6 +6929,11 @@
           "retrieved": "2021-11-21",
           "version": "19 Nov 2021",
           "date": "2021-11-19"
+        },
+        {
+          "retrieved": "2021-11-22",
+          "version": "20 Nov 2021",
+          "date": "2021-11-20"
         }
       ],
       "name": "Zebrafish Information Network",

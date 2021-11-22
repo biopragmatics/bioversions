@@ -7,7 +7,7 @@
   <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2021-11-21T00:46:22.629633</dc:date>
+    <dc:date>2021-11-22T00:43:35.785690</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -418,24 +418,24 @@ z
     </g>
    </g>
    <g id="text_6">
-    <!-- %m/%d/%Y -->
-    <g style="fill:#262626;" transform="translate(360.979967 120.200383)scale(0.11 -0.11)">
+    <!-- %Y_%m_%d -->
+    <g style="fill:#262626;" transform="translate(360.979967 120.047414)scale(0.11 -0.11)">
      <defs>
-      <path d="M 25.390625 72.90625 
-L 33.6875 72.90625 
-L 8.296875 -9.28125 
-L 0 -9.28125 
+      <path d="M 50.984375 -16.609375 
+L 50.984375 -23.578125 
+L -0.984375 -23.578125 
+L -0.984375 -16.609375 
 z
-" id="DejaVuSans-47"/>
+" id="DejaVuSans-95"/>
      </defs>
      <use xlink:href="#DejaVuSans-37"/>
-     <use x="95.019531" xlink:href="#DejaVuSans-109"/>
-     <use x="192.431641" xlink:href="#DejaVuSans-47"/>
-     <use x="226.123047" xlink:href="#DejaVuSans-37"/>
-     <use x="321.142578" xlink:href="#DejaVuSans-100"/>
-     <use x="384.619141" xlink:href="#DejaVuSans-47"/>
-     <use x="418.310547" xlink:href="#DejaVuSans-37"/>
-     <use x="513.330078" xlink:href="#DejaVuSans-89"/>
+     <use x="95.019531" xlink:href="#DejaVuSans-89"/>
+     <use x="156.103516" xlink:href="#DejaVuSans-95"/>
+     <use x="206.103516" xlink:href="#DejaVuSans-37"/>
+     <use x="301.123047" xlink:href="#DejaVuSans-109"/>
+     <use x="398.535156" xlink:href="#DejaVuSans-95"/>
+     <use x="448.535156" xlink:href="#DejaVuSans-37"/>
+     <use x="543.554688" xlink:href="#DejaVuSans-100"/>
     </g>
    </g>
    <g id="text_7">
@@ -468,14 +468,6 @@ z
    <g id="text_10">
     <!-- %Y_%m -->
     <g style="fill:#262626;" transform="translate(357.805423 113.021417)scale(0.11 -0.11)">
-     <defs>
-      <path d="M 50.984375 -16.609375 
-L 50.984375 -23.578125 
-L -0.984375 -23.578125 
-L -0.984375 -16.609375 
-z
-" id="DejaVuSans-95"/>
-     </defs>
      <use xlink:href="#DejaVuSans-37"/>
      <use x="95.019531" xlink:href="#DejaVuSans-89"/>
      <use x="156.103516" xlink:href="#DejaVuSans-95"/>
