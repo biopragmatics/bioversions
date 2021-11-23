@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-22'
-  revision: 149
+  date: '2021-11-23'
+  revision: 150
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1696,6 +1696,8 @@ database:
   releases:
   - retrieved: '2021-11-15'
     version: 28-Oct-2021
+  - retrieved: '2021-11-23'
+    version: 27-Aug-2021
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -3161,6 +3163,8 @@ database:
     version: '2021-11-20'
   - retrieved: '2021-11-22'
     version: '2021-11-21'
+  - retrieved: '2021-11-23'
+    version: '2021-11-22'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3812,6 +3816,9 @@ database:
   - date: '2021-11-20'
     retrieved: '2021-11-22'
     version: 20 Nov 2021
+  - date: '2021-11-21'
+    retrieved: '2021-11-23'
+    version: 21 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
