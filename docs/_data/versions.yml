@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-24'
-  revision: 151
+  date: '2021-11-25'
+  revision: 152
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1377,6 +1377,10 @@ database:
     homepage: http://archive.geneontology.org/full/2021-10-26/
     retrieved: '2021-10-29'
     version: '2021-10-26'
+  - date: '2021-11-16'
+    homepage: http://archive.geneontology.org/full/2021-11-16/
+    retrieved: '2021-11-25'
+    version: '2021-11-16'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -3167,6 +3171,8 @@ database:
     version: '2021-11-22'
   - retrieved: '2021-11-24'
     version: '2021-11-23'
+  - retrieved: '2021-11-25'
+    version: '2021-11-24'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3824,6 +3830,9 @@ database:
   - date: '2021-11-22'
     retrieved: '2021-11-24'
     version: 22 Nov 2021
+  - date: '2021-11-23'
+    retrieved: '2021-11-25'
+    version: 23 Nov 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
