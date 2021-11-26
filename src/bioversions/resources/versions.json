@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 152,
-    "date": "2021-11-25",
+    "revision": 153,
+    "date": "2021-11-26",
     "author": "runner"
   },
   "database": [
@@ -5795,6 +5795,10 @@
         {
           "retrieved": "2021-11-25",
           "version": "2021-11-24"
+        },
+        {
+          "retrieved": "2021-11-26",
+          "version": "2021-11-25"
         }
       ],
       "name": "SwissLipid",
