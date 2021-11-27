@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 153,
-    "date": "2021-11-26",
+    "revision": 154,
+    "date": "2021-11-27",
     "author": "runner"
   },
   "database": [
@@ -711,6 +711,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "2021-09-09"
+        },
+        {
+          "retrieved": "2021-11-27",
+          "version": "2021-11-23"
         }
       ],
       "prefix": "cl",
@@ -1345,6 +1349,10 @@
         {
           "retrieved": "2021-11-03",
           "version": "2021d_20210910"
+        },
+        {
+          "retrieved": "2021-11-27",
+          "version": "2021e_20211122"
         }
       ],
       "vtype": "other"
@@ -4154,6 +4162,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-02-02"
+        },
+        {
+          "retrieved": "2021-11-27",
+          "version": "2021-11-12"
         }
       ],
       "name": "Ontology for Biobanking",
@@ -4316,6 +4328,10 @@
         {
           "retrieved": "2021-09-15",
           "version": "2021-09-08"
+        },
+        {
+          "retrieved": "2021-11-27",
+          "version": "2021-11-19"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -5602,6 +5618,10 @@
         {
           "retrieved": "2021-07-30",
           "version": "2021-07-12"
+        },
+        {
+          "retrieved": "2021-11-27",
+          "version": "2021-11-22"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -5799,6 +5819,10 @@
         {
           "retrieved": "2021-11-26",
           "version": "2021-11-25"
+        },
+        {
+          "retrieved": "2021-11-27",
+          "version": "2021-11-26"
         }
       ],
       "name": "SwissLipid",

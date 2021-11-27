@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-11-26'
-  revision: 153
+  date: '2021-11-27'
+  revision: 154
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -384,6 +384,8 @@ database:
     version: '2021-08-10'
   - retrieved: '2021-09-19'
     version: '2021-09-09'
+  - retrieved: '2021-11-27'
+    version: '2021-11-23'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -733,6 +735,8 @@ database:
     version: 2021a_20210130
   - retrieved: '2021-11-03'
     version: 2021d_20210910
+  - retrieved: '2021-11-27'
+    version: 2021e_20211122
   vtype: other
 - name: Dicty Phenotype Ontology (DDPHENO)
   prefix: ddpheno
@@ -2265,6 +2269,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-02-02'
+  - retrieved: '2021-11-27'
+    version: '2021-11-12'
   vtype: date
 - name: Ontology for BIoBanking (OBIB)
   prefix: obib
@@ -2351,6 +2357,8 @@ database:
     version: '2021-07-03'
   - retrieved: '2021-09-15'
     version: '2021-09-08'
+  - retrieved: '2021-11-27'
+    version: '2021-11-19'
   vtype: date
 - name: Ontology of Adverse Events
   prefix: oae
@@ -3070,6 +3078,8 @@ database:
     version: '2021-07-01'
   - retrieved: '2021-07-30'
     version: '2021-07-12'
+  - retrieved: '2021-11-27'
+    version: '2021-11-22'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
@@ -3175,6 +3185,8 @@ database:
     version: '2021-11-24'
   - retrieved: '2021-11-26'
     version: '2021-11-25'
+  - retrieved: '2021-11-27'
+    version: '2021-11-26'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
