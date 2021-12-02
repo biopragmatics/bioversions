@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-01'
-  revision: 157
+  date: '2021-12-02'
+  revision: 158
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -188,6 +188,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.203
     retrieved: '2021-11-02'
     version: 4.4.203
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.204
+    retrieved: '2021-12-02'
+    version: 4.4.204
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -447,6 +450,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel205/
     retrieved: '2021-11-04'
     version: '205'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel206/
+    retrieved: '2021-12-02'
+    version: '206'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -3196,6 +3202,8 @@ database:
     version: '2021-11-29'
   - retrieved: '2021-12-01'
     version: '2021-11-30'
+  - retrieved: '2021-12-02'
+    version: '2021-12-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
