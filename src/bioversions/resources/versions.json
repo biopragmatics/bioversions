@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 159,
-    "date": "2021-12-03",
+    "revision": 160,
+    "date": "2021-12-04",
     "author": "runner"
   },
   "database": [
@@ -720,6 +720,10 @@
         {
           "retrieved": "2021-11-27",
           "version": "2021-11-23"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "2021-11-25"
         }
       ],
       "prefix": "cl",
@@ -3142,6 +3146,10 @@
         {
           "retrieved": "2021-12-03",
           "version": "28-Oct-2021"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "02-Dec-2021"
         }
       ],
       "name": "ITIS",
@@ -3551,6 +3559,10 @@
         {
           "retrieved": "2021-11-11",
           "version": "2021-11-04"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "2021-11-29"
         }
       ],
       "vtype": "date"
@@ -3717,6 +3729,10 @@
         {
           "retrieved": "2021-11-11",
           "version": "2021-11-01"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "2021-12-01"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -5862,6 +5878,10 @@
         {
           "retrieved": "2021-12-03",
           "version": "2021-12-02"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "2021-12-03"
         }
       ],
       "name": "SwissLipid",
@@ -6084,6 +6104,10 @@
         {
           "retrieved": "2021-11-20",
           "version": "2021-11-17"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "2021-11-25"
         }
       ],
       "name": "The Food Ontology",
@@ -6242,6 +6266,10 @@
         {
           "retrieved": "2021-11-17",
           "version": "2021-11-12"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "2021-11-28"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -7048,6 +7076,11 @@
           "retrieved": "2021-12-03",
           "version": "1 Dec 2021",
           "date": "2021-12-01"
+        },
+        {
+          "retrieved": "2021-12-04",
+          "version": "2 Dec 2021",
+          "date": "2021-12-02"
         }
       ],
       "name": "Zebrafish Information Network",
