@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 162,
-    "date": "2021-12-06",
+    "revision": 163,
+    "date": "2021-12-07",
     "author": "runner"
   },
   "database": [
@@ -3468,6 +3468,11 @@
           "retrieved": "2021-09-08",
           "version": "2021",
           "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2021"
+        },
+        {
+          "retrieved": "2021-12-07",
+          "version": "2022",
+          "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2022"
         }
       ],
       "name": "MeSH",
@@ -5545,6 +5550,11 @@
           "retrieved": "2021-11-02",
           "version": "2021-11-01",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_11012021.zip"
+        },
+        {
+          "retrieved": "2021-12-07",
+          "version": "2021-12-06",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_12062021.zip"
         }
       ],
       "name": "RxNorm",
@@ -5894,6 +5904,10 @@
         {
           "retrieved": "2021-12-06",
           "version": "2021-12-05"
+        },
+        {
+          "retrieved": "2021-12-07",
+          "version": "2021-12-06"
         }
       ],
       "name": "SwissLipid",
@@ -7103,6 +7117,11 @@
           "retrieved": "2021-12-06",
           "version": "4 Dec 2021",
           "date": "2021-12-04"
+        },
+        {
+          "retrieved": "2021-12-07",
+          "version": "5 Dec 2021",
+          "date": "2021-12-05"
         }
       ],
       "name": "Zebrafish Information Network",
