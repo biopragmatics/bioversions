@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 163,
-    "date": "2021-12-07",
+    "revision": 164,
+    "date": "2021-12-08",
     "author": "runner"
   },
   "database": [
@@ -1964,6 +1964,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "2021-10-20"
+        },
+        {
+          "retrieved": "2021-12-08",
+          "version": "2021-12-03"
         }
       ],
       "name": "Evidence ontology",
@@ -4425,6 +4429,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2019-05-22"
+        },
+        {
+          "retrieved": "2021-12-08",
+          "version": "2021-12-03"
         }
       ],
       "vtype": "date"
@@ -4528,6 +4536,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "2021-09-13"
+        },
+        {
+          "retrieved": "2021-12-08",
+          "version": "2021-12-03"
         }
       ],
       "vtype": "date"
@@ -4916,6 +4928,10 @@
         {
           "retrieved": "2021-11-11",
           "version": "2021-11-05"
+        },
+        {
+          "retrieved": "2021-12-08",
+          "version": "2021-12-03"
         }
       ],
       "prefix": "pato",
@@ -5908,6 +5924,10 @@
         {
           "retrieved": "2021-12-07",
           "version": "2021-12-06"
+        },
+        {
+          "retrieved": "2021-12-08",
+          "version": "2021-12-07"
         }
       ],
       "name": "SwissLipid",
@@ -7122,6 +7142,11 @@
           "retrieved": "2021-12-07",
           "version": "5 Dec 2021",
           "date": "2021-12-05"
+        },
+        {
+          "retrieved": "2021-12-08",
+          "version": "6 Dec 2021",
+          "date": "2021-12-06"
         }
       ],
       "name": "Zebrafish Information Network",
