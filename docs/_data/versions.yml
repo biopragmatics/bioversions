@@ -1,7 +1,7 @@
 annotations:
-  author: runner
+  author: cthoyt
   date: '2021-12-09'
-  revision: 165
+  revision: 166
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -991,6 +991,10 @@ database:
     homepage: https://www.ensembl.org
     retrieved: '2021-10-11'
     version: '104'
+  - date: '2021-11-01'
+    homepage: https://www.ensembl.org
+    retrieved: '2021-12-09'
+    version: '105'
   vtype: sequential
 - name: Ensembl Glossary
   prefix: ensemblglossary
@@ -3252,6 +3256,8 @@ database:
     version: '2021-12-07'
   - retrieved: '2021-12-09'
     version: '2021-12-08'
+  - retrieved: '2021-12-09'
+    version: '2021-12-09'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo

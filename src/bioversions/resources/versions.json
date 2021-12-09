@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 165,
+    "revision": 166,
     "date": "2021-12-09",
-    "author": "runner"
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -1799,6 +1799,12 @@
           "version": "104",
           "homepage": "https://www.ensembl.org",
           "date": "2021-05-01"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "105",
+          "homepage": "https://www.ensembl.org",
+          "date": "2021-11-01"
         }
       ],
       "name": "Ensembl",
@@ -5948,6 +5954,10 @@
         {
           "retrieved": "2021-12-09",
           "version": "2021-12-08"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "2021-12-09"
         }
       ],
       "name": "SwissLipid",
