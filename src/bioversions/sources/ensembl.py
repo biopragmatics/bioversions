@@ -8,7 +8,7 @@ __all__ = [
     "EnsemblGetter",
 ]
 
-URL = "https://www.ensembl.org"
+URL = "https://useast.ensembl.org/index.html"
 
 
 class EnsemblGetter(Getter):
@@ -17,12 +17,12 @@ class EnsemblGetter(Getter):
     bioregistry_id = "ensembl"
     name = "Ensembl"
     homepage_fmt = "https://www.ensembl.org"
-    date_fmt = "%B %Y"
+    date_fmt = "%b %Y"
     version_type = VersionType.sequential
 
     def get(self):
         """Get the latest Ensembl version number."""
-        soup = get_soup(URL)
+        soup = get_soup(URL, verify=False)
         manifest = soup.find(**{"class": "box-header"}).text
         version, date = manifest.rstrip(")").split("(", 1)
         return dict(version=version.split()[-1], date=date)

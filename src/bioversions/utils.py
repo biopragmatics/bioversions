@@ -46,9 +46,9 @@ def norm(s: str) -> str:
     return s.lower().replace(" ", "").replace("-", "").replace(".", "")
 
 
-def get_soup(url: str) -> BeautifulSoup:
+def get_soup(url: str, verify: bool = True) -> BeautifulSoup:
     """Get a beautiful soup parsed version of the given web page."""
-    res = requests.get(url)
+    res = requests.get(url, verify=verify)
     soup = BeautifulSoup(res.text, features="html.parser")
     return soup
 
