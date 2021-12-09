@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-08'
-  revision: 164
+  date: '2021-12-09'
+  revision: 165
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -391,6 +391,8 @@ database:
     version: '2021-11-23'
   - retrieved: '2021-12-04'
     version: '2021-11-25'
+  - retrieved: '2021-12-09'
+    version: '2021-12-07'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -856,6 +858,8 @@ database:
     version: '2021-09-01'
   - retrieved: '2021-10-29'
     version: '2021-10-13'
+  - retrieved: '2021-12-09'
+    version: '2021-12-06'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1239,6 +1243,8 @@ database:
     version: '2021-11-18'
   - retrieved: '2021-12-05'
     version: '2021-12-02'
+  - retrieved: '2021-12-09'
+    version: '2021-12-07'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2129,6 +2135,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2021-01-21'
+  - retrieved: '2021-12-09'
+    version: '2021-12-06'
   vtype: date
 - name: National Cancer Institute Thesaurus
   prefix: ncit
@@ -3242,6 +3250,8 @@ database:
     version: '2021-12-06'
   - retrieved: '2021-12-08'
     version: '2021-12-07'
+  - retrieved: '2021-12-09'
+    version: '2021-12-08'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3927,6 +3937,9 @@ database:
   - date: '2021-12-06'
     retrieved: '2021-12-08'
     version: 6 Dec 2021
+  - date: '2021-12-07'
+    retrieved: '2021-12-09'
+    version: 7 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

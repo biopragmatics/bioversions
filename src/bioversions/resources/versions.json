@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 164,
-    "date": "2021-12-08",
+    "revision": 165,
+    "date": "2021-12-09",
     "author": "runner"
   },
   "database": [
@@ -724,6 +724,10 @@
         {
           "retrieved": "2021-12-04",
           "version": "2021-11-25"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "2021-12-07"
         }
       ],
       "prefix": "cl",
@@ -1551,6 +1555,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "2021-10-13"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "2021-12-06"
         }
       ],
       "name": "Drosophila development",
@@ -2279,6 +2287,10 @@
         {
           "retrieved": "2021-12-05",
           "version": "2021-12-02"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "2021-12-07"
         }
       ],
       "vtype": "date"
@@ -3907,6 +3919,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2021-01-21"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "2021-12-06"
         }
       ],
       "name": "Name Reaction Ontology",
@@ -5928,6 +5944,10 @@
         {
           "retrieved": "2021-12-08",
           "version": "2021-12-07"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "2021-12-08"
         }
       ],
       "name": "SwissLipid",
@@ -7147,6 +7167,11 @@
           "retrieved": "2021-12-08",
           "version": "6 Dec 2021",
           "date": "2021-12-06"
+        },
+        {
+          "retrieved": "2021-12-09",
+          "version": "7 Dec 2021",
+          "date": "2021-12-07"
         }
       ],
       "name": "Zebrafish Information Network",
