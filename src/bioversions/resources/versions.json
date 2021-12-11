@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 167,
-    "date": "2021-12-10",
+    "revision": 168,
+    "date": "2021-12-11",
     "author": "runner"
   },
   "database": [
@@ -537,6 +537,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "2021-07-06"
+        },
+        {
+          "retrieved": "2021-12-11",
+          "version": "2021-12-08"
         }
       ],
       "name": "C. elegans development ontology",
@@ -3951,6 +3955,11 @@
           "retrieved": "2021-10-31",
           "version": "21.10d",
           "date": "2021-10-25"
+        },
+        {
+          "retrieved": "2021-12-11",
+          "version": "21.11e",
+          "date": "2021-11-30"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -5462,6 +5471,10 @@
         {
           "retrieved": "2021-10-31",
           "version": "2021-10-27"
+        },
+        {
+          "retrieved": "2021-12-11",
+          "version": "2021-12-06"
         }
       ],
       "vtype": "date"
@@ -5958,6 +5971,10 @@
         {
           "retrieved": "2021-12-09",
           "version": "2021-12-09"
+        },
+        {
+          "retrieved": "2021-12-11",
+          "version": "2021-12-10"
         }
       ],
       "name": "SwissLipid",
@@ -6720,6 +6737,12 @@
           "version": "20211110",
           "homepage": "http://data.wikipathways.org/20211110/",
           "date": "2021-11-10"
+        },
+        {
+          "retrieved": "2021-12-11",
+          "version": "20211210",
+          "homepage": "http://data.wikipathways.org/20211210/",
+          "date": "2021-12-10"
         }
       ],
       "vtype": "date"
@@ -7187,6 +7210,11 @@
           "retrieved": "2021-12-10",
           "version": "8 Dec 2021",
           "date": "2021-12-08"
+        },
+        {
+          "retrieved": "2021-12-11",
+          "version": "9 Dec 2021",
+          "date": "2021-12-09"
         }
       ],
       "name": "Zebrafish Information Network",

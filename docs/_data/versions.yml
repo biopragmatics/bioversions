@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-10'
-  revision: 167
+  date: '2021-12-11'
+  revision: 168
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -293,6 +293,8 @@ database:
     version: '2021-04-09'
   - retrieved: '2021-07-27'
     version: '2021-07-06'
+  - retrieved: '2021-12-11'
+    version: '2021-12-08'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -2154,6 +2156,9 @@ database:
   - date: '2021-10-25'
     retrieved: '2021-10-31'
     version: 21.10d
+  - date: '2021-11-30'
+    retrieved: '2021-12-11'
+    version: 21.11e
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -2990,6 +2995,8 @@ database:
     version: '2021-08-31'
   - retrieved: '2021-10-31'
     version: '2021-10-27'
+  - retrieved: '2021-12-11'
+    version: '2021-12-06'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -3258,6 +3265,8 @@ database:
     version: '2021-12-08'
   - retrieved: '2021-12-09'
     version: '2021-12-09'
+  - retrieved: '2021-12-11'
+    version: '2021-12-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3677,6 +3686,10 @@ database:
     homepage: http://data.wikipathways.org/20211110/
     retrieved: '2021-11-11'
     version: '20211110'
+  - date: '2021-12-10'
+    homepage: http://data.wikipathways.org/20211210/
+    retrieved: '2021-12-11'
+    version: '20211210'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -3949,6 +3962,9 @@ database:
   - date: '2021-12-08'
     retrieved: '2021-12-10'
     version: 8 Dec 2021
+  - date: '2021-12-09'
+    retrieved: '2021-12-11'
+    version: 9 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
