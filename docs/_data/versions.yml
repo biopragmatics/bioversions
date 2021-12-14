@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-13'
-  revision: 170
+  date: '2021-12-14'
+  revision: 171
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -325,6 +325,8 @@ database:
     version: '2021-09-27'
   - retrieved: '2021-10-29'
     version: '2021-10-25'
+  - retrieved: '2021-12-14'
+    version: '2021-12-12'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -892,6 +894,8 @@ database:
     version: '2021-09-02'
   - retrieved: '2021-10-29'
     version: '2021-10-15'
+  - retrieved: '2021-12-14'
+    version: '2021-12-10'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -3271,6 +3275,8 @@ database:
     version: '2021-12-11'
   - retrieved: '2021-12-13'
     version: '2021-12-12'
+  - retrieved: '2021-12-14'
+    version: '2021-12-13'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3975,10 +3981,15 @@ database:
   - date: '2021-12-11'
     retrieved: '2021-12-13'
     version: 11 Dec 2021
+  - date: '2021-12-12'
+    retrieved: '2021-12-14'
+    version: 12 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
   releases:
   - retrieved: '2021-02-02'
     version: '2020-08-02'
+  - retrieved: '2021-12-14'
+    version: '2021-12-12'
   vtype: date
