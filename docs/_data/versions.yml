@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-15'
-  revision: 172
+  date: '2021-12-16'
+  revision: 173
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -834,6 +834,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-17
     retrieved: '2021-11-18'
     version: '2021-11-17'
+  - date: '2021-12-15'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-12-15
+    retrieved: '2021-12-16'
+    version: '2021-12-15'
   vtype: date
 - name: DisGeNet
   releases:
@@ -1273,6 +1277,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2021_05/
     retrieved: '2021-10-16'
     version: '2021_05'
+  - homepage: http://ftp.flybase.net/releases/FB2021_06/
+    retrieved: '2021-12-16'
+    version: '2021_06'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -1291,6 +1298,8 @@ database:
     version: '2021-09-02'
   - retrieved: '2021-10-29'
     version: '2021-10-18'
+  - retrieved: '2021-12-16'
+    version: '2021-12-13'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -1510,6 +1519,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-11-28'
+  - retrieved: '2021-12-16'
+    version: '2021-12-13'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -2181,6 +2192,8 @@ database:
     version: '2021-02-15'
   - retrieved: '2021-06-25'
     version: '2021-06-10'
+  - retrieved: '2021-12-16'
+    version: '2021-12-13'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -2407,6 +2420,8 @@ database:
     version: '2021-09-08'
   - retrieved: '2021-11-27'
     version: '2021-11-19'
+  - retrieved: '2021-12-16'
+    version: '2021-12-13'
   vtype: date
 - name: Ontology of Adverse Events
   prefix: oae
@@ -2597,6 +2612,8 @@ database:
     version: '3.1'
   - retrieved: '2021-07-27'
     version: '3.2'
+  - retrieved: '2021-12-16'
+    version: '3.3'
   vtype: semver
 - name: Orthology Ontology
   prefix: orth
@@ -3286,6 +3303,8 @@ database:
     version: '2021-12-13'
   - retrieved: '2021-12-15'
     version: '2021-12-14'
+  - retrieved: '2021-12-16'
+    version: '2021-12-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3996,6 +4015,9 @@ database:
   - date: '2021-12-13'
     retrieved: '2021-12-15'
     version: 13 Dec 2021
+  - date: '2021-12-14'
+    retrieved: '2021-12-16'
+    version: 14 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 172,
-    "date": "2021-12-15",
+    "revision": 173,
+    "date": "2021-12-16",
     "author": "runner"
   },
   "database": [
@@ -1512,6 +1512,12 @@
           "version": "2021-11-17",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-11-17",
           "date": "2021-11-17"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "2021-12-15",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-12-15",
+          "date": "2021-12-15"
         }
       ],
       "vtype": "date"
@@ -2339,6 +2345,11 @@
           "retrieved": "2021-10-16",
           "version": "2021_05",
           "homepage": "http://ftp.flybase.net/releases/FB2021_05/"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "2021_06",
+          "homepage": "http://ftp.flybase.net/releases/FB2021_06/"
         }
       ],
       "name": "FlyBase",
@@ -2374,6 +2385,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "2021-10-18"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "2021-12-13"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -2772,6 +2787,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-11-28"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "2021-12-13"
         }
       ],
       "vtype": "date"
@@ -4000,6 +4019,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "2021-06-10"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "2021-12-13"
         }
       ],
       "name": "NCBI organismal classification",
@@ -4420,6 +4443,10 @@
         {
           "retrieved": "2021-11-27",
           "version": "2021-11-19"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "2021-12-13"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -4739,6 +4766,10 @@
         {
           "retrieved": "2021-07-27",
           "version": "3.2"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "3.3"
         }
       ],
       "vtype": "semver"
@@ -6010,6 +6041,10 @@
         {
           "retrieved": "2021-12-15",
           "version": "2021-12-14"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "2021-12-15"
         }
       ],
       "name": "SwissLipid",
@@ -7270,6 +7305,11 @@
           "retrieved": "2021-12-15",
           "version": "13 Dec 2021",
           "date": "2021-12-13"
+        },
+        {
+          "retrieved": "2021-12-16",
+          "version": "14 Dec 2021",
+          "date": "2021-12-14"
         }
       ],
       "name": "Zebrafish Information Network",
