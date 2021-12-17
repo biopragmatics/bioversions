@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-16'
-  revision: 173
+  date: '2021-12-17'
+  revision: 174
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -305,6 +305,8 @@ database:
     version: '2021-07-06'
   - retrieved: '2021-10-01'
     version: '2021-09-27'
+  - retrieved: '2021-12-17'
+    version: '2021-12-14'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -2194,6 +2196,8 @@ database:
     version: '2021-06-10'
   - retrieved: '2021-12-16'
     version: '2021-12-13'
+  - retrieved: '2021-12-17'
+    version: '2021-12-14'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -3305,6 +3309,8 @@ database:
     version: '2021-12-14'
   - retrieved: '2021-12-16'
     version: '2021-12-15'
+  - retrieved: '2021-12-17'
+    version: '2021-12-16'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4018,6 +4024,9 @@ database:
   - date: '2021-12-14'
     retrieved: '2021-12-16'
     version: 14 Dec 2021
+  - date: '2021-12-15'
+    retrieved: '2021-12-17'
+    version: 15 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
