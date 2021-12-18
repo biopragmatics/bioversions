@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-17'
-  revision: 174
+  date: '2021-12-18'
+  revision: 175
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1424,6 +1424,10 @@ database:
     homepage: http://archive.geneontology.org/full/2021-11-16/
     retrieved: '2021-11-25'
     version: '2021-11-16'
+  - date: '2021-12-15'
+    homepage: http://archive.geneontology.org/full/2021-12-15/
+    retrieved: '2021-12-18'
+    version: '2021-12-15'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -2618,6 +2622,8 @@ database:
     version: '3.2'
   - retrieved: '2021-12-16'
     version: '3.3'
+  - retrieved: '2021-12-18'
+    version: '4.0'
   vtype: semver
 - name: Orthology Ontology
   prefix: orth
@@ -2946,6 +2952,9 @@ database:
   - homepage: https://proconsortium.org/download/release_64.0/
     retrieved: '2021-12-15'
     version: '64.0'
+  - homepage: https://proconsortium.org/download/release_65.0/
+    retrieved: '2021-12-18'
+    version: '65.0'
   vtype: semver_minor
 - name: PROV Namespace
   prefix: prov
@@ -3311,6 +3320,8 @@ database:
     version: '2021-12-15'
   - retrieved: '2021-12-17'
     version: '2021-12-16'
+  - retrieved: '2021-12-18'
+    version: '2021-12-17'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4027,6 +4038,9 @@ database:
   - date: '2021-12-15'
     retrieved: '2021-12-17'
     version: 15 Dec 2021
+  - date: '2021-12-16'
+    retrieved: '2021-12-18'
+    version: 16 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
