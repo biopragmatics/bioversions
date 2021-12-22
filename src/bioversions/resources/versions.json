@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 178,
-    "date": "2021-12-21",
+    "revision": 179,
+    "date": "2021-12-22",
     "author": "runner"
   },
   "database": [
@@ -5581,6 +5581,11 @@
           "retrieved": "2021-07-27",
           "version": "14.6",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.6/"
+        },
+        {
+          "retrieved": "2021-12-22",
+          "version": "14.7",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.7/"
         }
       ],
       "vtype": "semver_minor"
@@ -6084,6 +6089,10 @@
         {
           "retrieved": "2021-12-20",
           "version": "2021-12-20"
+        },
+        {
+          "retrieved": "2021-12-22",
+          "version": "2021-12-21"
         }
       ],
       "name": "SwissLipid",
@@ -7374,6 +7383,11 @@
           "retrieved": "2021-12-21",
           "version": "19 Dec 2021",
           "date": "2021-12-19"
+        },
+        {
+          "retrieved": "2021-12-22",
+          "version": "20 Dec 2021",
+          "date": "2021-12-20"
         }
       ],
       "name": "Zebrafish Information Network",
