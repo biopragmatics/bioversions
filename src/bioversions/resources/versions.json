@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 187,
-    "date": "2021-12-30",
+    "revision": 188,
+    "date": "2021-12-31",
     "author": "runner"
   },
   "database": [
@@ -3271,6 +3271,11 @@
           "retrieved": "2021-10-01",
           "version": "100.0",
           "date": "2021-10-01"
+        },
+        {
+          "retrieved": "2021-12-31",
+          "version": "101.0",
+          "date": "2022-01-01"
         }
       ],
       "vtype": "semver_minor"
@@ -6125,6 +6130,10 @@
         {
           "retrieved": "2021-12-30",
           "version": "2021-12-29"
+        },
+        {
+          "retrieved": "2021-12-31",
+          "version": "2021-12-30"
         }
       ],
       "name": "SwissLipid",
@@ -7445,6 +7454,11 @@
           "retrieved": "2021-12-27",
           "version": "25 Dec 2021",
           "date": "2021-12-25"
+        },
+        {
+          "retrieved": "2021-12-31",
+          "version": "29 Dec 2021",
+          "date": "2021-12-29"
         }
       ],
       "name": "Zebrafish Information Network",

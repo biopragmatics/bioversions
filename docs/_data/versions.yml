@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-30'
-  revision: 187
+  date: '2021-12-31'
+  revision: 188
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -1786,6 +1786,9 @@ database:
   - date: '2021-10-01'
     retrieved: '2021-10-01'
     version: '100.0'
+  - date: '2022-01-01'
+    retrieved: '2021-12-31'
+    version: '101.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -3347,6 +3350,8 @@ database:
     version: '2021-12-28'
   - retrieved: '2021-12-30'
     version: '2021-12-29'
+  - retrieved: '2021-12-31'
+    version: '2021-12-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4093,6 +4098,9 @@ database:
   - date: '2021-12-25'
     retrieved: '2021-12-27'
     version: 25 Dec 2021
+  - date: '2021-12-29'
+    retrieved: '2021-12-31'
+    version: 29 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
