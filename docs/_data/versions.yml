@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2021-12-31'
-  revision: 188
+  date: '2022-01-01'
+  revision: 189
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -2975,6 +2975,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2021-12-01
     retrieved: '2021-12-01'
     version: '2021-12-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-01-01
+    retrieved: '2022-01-01'
+    version: '2022-01-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -3352,6 +3355,8 @@ database:
     version: '2021-12-29'
   - retrieved: '2021-12-31'
     version: '2021-12-30'
+  - retrieved: '2022-01-01'
+    version: '2021-12-31'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4101,6 +4106,9 @@ database:
   - date: '2021-12-29'
     retrieved: '2021-12-31'
     version: 29 Dec 2021
+  - date: '2021-12-30'
+    retrieved: '2022-01-01'
+    version: 30 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
