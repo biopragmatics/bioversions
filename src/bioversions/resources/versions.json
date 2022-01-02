@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 189,
-    "date": "2022-01-01",
+    "revision": 190,
+    "date": "2022-01-02",
     "author": "runner"
   },
   "database": [
@@ -346,6 +346,11 @@
           "retrieved": "2021-12-02",
           "version": "4.4.204",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.204"
+        },
+        {
+          "retrieved": "2022-01-02",
+          "version": "4.4.205",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.205"
         }
       ],
       "vtype": "semver"
@@ -853,6 +858,11 @@
           "retrieved": "2021-12-02",
           "version": "206",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel206/"
+        },
+        {
+          "retrieved": "2022-01-02",
+          "version": "207",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel207/"
         }
       ],
       "vtype": "sequential"
@@ -6143,6 +6153,10 @@
         {
           "retrieved": "2022-01-01",
           "version": "2021-12-31"
+        },
+        {
+          "retrieved": "2022-01-02",
+          "version": "2022-01-02"
         }
       ],
       "name": "SwissLipid",
@@ -7473,6 +7487,11 @@
           "retrieved": "2022-01-01",
           "version": "30 Dec 2021",
           "date": "2021-12-30"
+        },
+        {
+          "retrieved": "2022-01-02",
+          "version": "31 Dec 2021",
+          "date": "2021-12-31"
         }
       ],
       "name": "Zebrafish Information Network",

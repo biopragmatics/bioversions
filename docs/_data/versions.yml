@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-01'
-  revision: 189
+  date: '2022-01-02'
+  revision: 190
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -191,6 +191,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.204
     retrieved: '2021-12-02'
     version: 4.4.204
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.205
+    retrieved: '2022-01-02'
+    version: 4.4.205
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -463,6 +466,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel206/
     retrieved: '2021-12-02'
     version: '206'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel207/
+    retrieved: '2022-01-02'
+    version: '207'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -3357,6 +3363,8 @@ database:
     version: '2021-12-30'
   - retrieved: '2022-01-01'
     version: '2021-12-31'
+  - retrieved: '2022-01-02'
+    version: '2022-01-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4109,6 +4117,9 @@ database:
   - date: '2021-12-30'
     retrieved: '2022-01-01'
     version: 30 Dec 2021
+  - date: '2021-12-31'
+    retrieved: '2022-01-02'
+    version: 31 Dec 2021
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
