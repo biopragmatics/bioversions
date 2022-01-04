@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 191,
-    "date": "2022-01-03",
+    "revision": 192,
+    "date": "2022-01-04",
     "author": "runner"
   },
   "database": [
@@ -1051,6 +1051,17 @@
           "version": "2020-05-29"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2022-01-04",
+          "version": "2021-12-14"
+        }
+      ],
+      "name": "Coleoptera Anatomy Ontology",
+      "prefix": "colao",
       "vtype": "date"
     },
     {
@@ -2930,6 +2941,10 @@
         {
           "retrieved": "2021-11-19",
           "version": "2021-11-16"
+        },
+        {
+          "retrieved": "2022-01-04",
+          "version": "2021-12-16"
         }
       ],
       "vtype": "date"
@@ -3332,6 +3347,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2022-01-04",
+          "version": "2021-11-20"
+        }
+      ],
+      "name": "Lepidoptera Anatomy Ontology",
+      "prefix": "lepao",
+      "vtype": "date"
+    },
+    {
       "name": "Livestock Breed Ontology",
       "prefix": "lbo",
       "releases": [
@@ -3660,6 +3686,10 @@
         {
           "retrieved": "2021-12-04",
           "version": "2021-11-29"
+        },
+        {
+          "retrieved": "2022-01-04",
+          "version": "2021-12-15"
         }
       ],
       "vtype": "date"
@@ -3995,6 +4025,10 @@
         {
           "retrieved": "2021-12-09",
           "version": "2021-12-06"
+        },
+        {
+          "retrieved": "2022-01-04",
+          "version": "2021-12-16"
         }
       ],
       "name": "Name Reaction Ontology",
@@ -4284,6 +4318,17 @@
       ],
       "name": "OncoTree",
       "prefix": "oncotree",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2022-01-04",
+          "version": "2021-09-01"
+        }
+      ],
+      "name": "OntoAvida: ontology for Avida digital evolution platform",
+      "prefix": "ontoavida",
       "vtype": "date"
     },
     {
@@ -4737,6 +4782,10 @@
         {
           "retrieved": "2021-10-31",
           "version": "2.0.34"
+        },
+        {
+          "retrieved": "2022-01-04",
+          "version": "2.0.35"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -5708,6 +5757,11 @@
           "retrieved": "2021-12-07",
           "version": "2021-12-06",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_12062021.zip"
+        },
+        {
+          "retrieved": "2022-01-04",
+          "version": "2022-01-03",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_01032022.zip"
         }
       ],
       "name": "RxNorm",
@@ -6157,6 +6211,10 @@
         {
           "retrieved": "2022-01-02",
           "version": "2022-01-02"
+        },
+        {
+          "retrieved": "2022-01-04",
+          "version": "2022-01-03"
         }
       ],
       "name": "SwissLipid",
@@ -7497,6 +7555,11 @@
           "retrieved": "2022-01-03",
           "version": "1 Jan 2022",
           "date": "2022-01-01"
+        },
+        {
+          "retrieved": "2022-01-04",
+          "version": "2 Jan 2022",
+          "date": "2022-01-02"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-03'
-  revision: 191
+  date: '2022-01-04'
+  revision: 192
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -573,6 +573,12 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-05-29'
+  vtype: date
+- name: Coleoptera Anatomy Ontology
+  prefix: colao
+  releases:
+  - retrieved: '2022-01-04'
+    version: '2021-12-14'
   vtype: date
 - name: Collembola Anatomy Ontology
   prefix: clao
@@ -1595,6 +1601,8 @@ database:
     version: '2021-10-19'
   - retrieved: '2021-11-19'
     version: '2021-11-16'
+  - retrieved: '2022-01-04'
+    version: '2021-12-16'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1818,6 +1826,12 @@ database:
   - retrieved: '2021-06-14'
     version: '2019-10-09'
   vtype: date
+- name: Lepidoptera Anatomy Ontology
+  prefix: lepao
+  releases:
+  - retrieved: '2022-01-04'
+    version: '2021-11-20'
+  vtype: date
 - name: Livestock Breed Ontology
   prefix: lbo
   releases:
@@ -1994,6 +2008,8 @@ database:
     version: '2021-11-04'
   - retrieved: '2021-12-04'
     version: '2021-11-29'
+  - retrieved: '2022-01-04'
+    version: '2021-12-15'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -2179,6 +2195,8 @@ database:
     version: '2021-01-21'
   - retrieved: '2021-12-09'
     version: '2021-12-06'
+  - retrieved: '2022-01-04'
+    version: '2021-12-16'
   vtype: date
 - name: National Cancer Institute Thesaurus
   prefix: ncit
@@ -2335,6 +2353,12 @@ database:
     homepage: http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_2021_11_02
     retrieved: '2021-11-03'
     version: '2021-11-02'
+  vtype: date
+- name: 'OntoAvida: ontology for Avida digital evolution platform'
+  prefix: ontoavida
+  releases:
+  - retrieved: '2022-01-04'
+    version: '2021-09-01'
   vtype: date
 - name: Ontologized MIABIS
   prefix: omiabis
@@ -2599,6 +2623,8 @@ database:
     version: 2.0.31
   - retrieved: '2021-10-31'
     version: 2.0.34
+  - retrieved: '2022-01-04'
+    version: 2.0.35
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -3131,6 +3157,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_12062021.zip
     retrieved: '2021-12-07'
     version: '2021-12-06'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_01032022.zip
+    retrieved: '2022-01-04'
+    version: '2022-01-03'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -3365,6 +3394,8 @@ database:
     version: '2021-12-31'
   - retrieved: '2022-01-02'
     version: '2022-01-02'
+  - retrieved: '2022-01-04'
+    version: '2022-01-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4123,6 +4154,9 @@ database:
   - date: '2022-01-01'
     retrieved: '2022-01-03'
     version: 1 Jan 2022
+  - date: '2022-01-02'
+    retrieved: '2022-01-04'
+    version: 2 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
