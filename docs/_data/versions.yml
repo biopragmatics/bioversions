@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-04'
-  revision: 192
+  date: '2022-01-05'
+  revision: 193
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -950,6 +950,10 @@ database:
     homepage: https://go.drugbank.com/releases/5-1-8
     retrieved: '2021-01-04'
     version: 5.1.8
+  - date: '2022-01-04'
+    homepage: https://go.drugbank.com/releases/5-1-9
+    retrieved: '2022-01-05'
+    version: 5.1.9
   vtype: semver
 - name: DrugCentral
   prefix: drugcentral
@@ -3396,6 +3400,8 @@ database:
     version: '2022-01-02'
   - retrieved: '2022-01-04'
     version: '2022-01-03'
+  - retrieved: '2022-01-05'
+    version: '2022-01-04'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4157,6 +4163,9 @@ database:
   - date: '2022-01-02'
     retrieved: '2022-01-04'
     version: 2 Jan 2022
+  - date: '2022-01-03'
+    retrieved: '2022-01-05'
+    version: 3 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

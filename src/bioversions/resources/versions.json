@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 192,
-    "date": "2022-01-04",
+    "revision": 193,
+    "date": "2022-01-05",
     "author": "runner"
   },
   "database": [
@@ -1726,6 +1726,12 @@
           "homepage": "https://go.drugbank.com/releases/5-1-8",
           "retrieved": "2021-01-04",
           "version": "5.1.8"
+        },
+        {
+          "retrieved": "2022-01-05",
+          "version": "5.1.9",
+          "homepage": "https://go.drugbank.com/releases/5-1-9",
+          "date": "2022-01-04"
         }
       ],
       "vtype": "semver"
@@ -6215,6 +6221,10 @@
         {
           "retrieved": "2022-01-04",
           "version": "2022-01-03"
+        },
+        {
+          "retrieved": "2022-01-05",
+          "version": "2022-01-04"
         }
       ],
       "name": "SwissLipid",
@@ -7560,6 +7570,11 @@
           "retrieved": "2022-01-04",
           "version": "2 Jan 2022",
           "date": "2022-01-02"
+        },
+        {
+          "retrieved": "2022-01-05",
+          "version": "3 Jan 2022",
+          "date": "2022-01-03"
         }
       ],
       "name": "Zebrafish Information Network",
