@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-05'
-  revision: 193
+  date: '2022-01-06'
+  revision: 194
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -2919,6 +2919,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2021-11-03/
     retrieved: '2021-11-09'
     version: '2021-11-03'
+  - date: '2022-01-02'
+    homepage: https://www.pombase.org/data/releases/pombase-2022-01-02/
+    retrieved: '2022-01-06'
+    version: '2022-01-02'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -3402,6 +3406,8 @@ database:
     version: '2022-01-03'
   - retrieved: '2022-01-05'
     version: '2022-01-04'
+  - retrieved: '2022-01-06'
+    version: '2022-01-06'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4166,6 +4172,9 @@ database:
   - date: '2022-01-03'
     retrieved: '2022-01-05'
     version: 3 Jan 2022
+  - date: '2022-01-04'
+    retrieved: '2022-01-06'
+    version: 4 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
