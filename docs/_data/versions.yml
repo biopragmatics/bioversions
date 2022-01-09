@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-08'
-  revision: 196
+  date: '2022-01-09'
+  revision: 197
 database:
 - name: Agronomy Ontology
   prefix: agro
@@ -3413,6 +3413,8 @@ database:
     version: '2022-01-06'
   - retrieved: '2022-01-07'
     version: '2022-01-07'
+  - retrieved: '2022-01-09'
+    version: '2022-01-09'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4186,6 +4188,9 @@ database:
   - date: '2022-01-06'
     retrieved: '2022-01-08'
     version: 6 Jan 2022
+  - date: '2022-01-07'
+    retrieved: '2022-01-09'
+    version: 7 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
