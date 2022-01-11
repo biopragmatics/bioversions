@@ -1,10 +1,21 @@
 {
   "annotations": {
-    "revision": 198,
-    "date": "2022-01-10",
+    "revision": 199,
+    "date": "2022-01-11",
     "author": "runner"
   },
   "database": [
+    {
+      "releases": [
+        {
+          "retrieved": "2022-01-11",
+          "version": "2019-04-17"
+        }
+      ],
+      "name": "A nomenclatural ontology for biological names",
+      "prefix": "nomen",
+      "vtype": "date"
+    },
     {
       "name": "Agronomy Ontology",
       "prefix": "agro",
@@ -612,6 +623,10 @@
         {
           "retrieved": "2021-12-14",
           "version": "2021-12-12"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "2021-12-20"
         }
       ],
       "name": "C. elegans phenotype",
@@ -745,6 +760,10 @@
         {
           "retrieved": "2021-12-09",
           "version": "2021-12-07"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "2022-01-05"
         }
       ],
       "prefix": "cl",
@@ -1019,6 +1038,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2022-01-11",
+          "version": "1.0.0"
+        }
+      ],
+      "name": "Clinical Trials Ontology",
+      "prefix": "cto",
+      "vtype": "semver"
     },
     {
       "name": "CLO: Cell Line Ontology",
@@ -2154,6 +2184,10 @@
         {
           "retrieved": "2021-11-18",
           "version": "3.36.0"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "3.37.0"
         }
       ],
       "vtype": "semver"
@@ -3727,6 +3761,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2022-01-11",
+          "version": "2017-05-09"
+        }
+      ],
+      "name": "Minimum Anformation About a Phylogenetic Analysis Ontology",
+      "prefix": "miapa",
+      "vtype": "date"
+    },
+    {
       "name": "Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology",
       "prefix": "miapa",
       "releases": [
@@ -3866,6 +3911,10 @@
         {
           "retrieved": "2021-12-04",
           "version": "2021-12-01"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "2021-12-30"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -4355,6 +4404,17 @@
           "version": "2014-05-28"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2022-01-11",
+          "version": "2021-12-20"
+        }
+      ],
+      "name": "Ontology for Avida digital evolution platform",
+      "prefix": "ontoavida",
       "vtype": "date"
     },
     {
@@ -6248,6 +6308,10 @@
         {
           "retrieved": "2022-01-09",
           "version": "2022-01-09"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "2022-01-10"
         }
       ],
       "name": "SwissLipid",
@@ -7016,6 +7080,12 @@
           "version": "20211210",
           "homepage": "http://data.wikipathways.org/20211210/",
           "date": "2021-12-10"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "20220110",
+          "homepage": "http://data.wikipathways.org/20220110/",
+          "date": "2022-01-10"
         }
       ],
       "vtype": "date"
@@ -7093,6 +7163,10 @@
         {
           "retrieved": "2021-10-15",
           "version": "2021-10-07"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "2022-01-03"
         }
       ],
       "name": "Yeast phenotypes",
@@ -7623,6 +7697,11 @@
           "retrieved": "2022-01-10",
           "version": "8 Jan 2022",
           "date": "2022-01-08"
+        },
+        {
+          "retrieved": "2022-01-11",
+          "version": "9 Jan 2022",
+          "date": "2022-01-09"
         }
       ],
       "name": "Zebrafish Information Network",

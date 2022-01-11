@@ -1,8 +1,14 @@
 annotations:
   author: runner
-  date: '2022-01-10'
-  revision: 198
+  date: '2022-01-11'
+  revision: 199
 database:
+- name: A nomenclatural ontology for biological names
+  prefix: nomen
+  releases:
+  - retrieved: '2022-01-11'
+    version: '2019-04-17'
+  vtype: date
 - name: Agronomy Ontology
   prefix: agro
   releases:
@@ -332,6 +338,8 @@ database:
     version: '2021-10-25'
   - retrieved: '2021-12-14'
     version: '2021-12-12'
+  - retrieved: '2022-01-11'
+    version: '2021-12-20'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -402,6 +410,8 @@ database:
     version: '2021-11-25'
   - retrieved: '2021-12-09'
     version: '2021-12-07'
+  - retrieved: '2022-01-11'
+    version: '2022-01-05'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -556,6 +566,12 @@ database:
   - retrieved: '2021-02-02'
     version: '2019-02-19'
   vtype: date
+- name: Clinical Trials Ontology
+  prefix: cto
+  releases:
+  - retrieved: '2022-01-11'
+    version: 1.0.0
+  vtype: semver
 - name: 'CLO: Cell Line Ontology'
   prefix: clo
   releases:
@@ -1179,6 +1195,8 @@ database:
     version: 3.31.0
   - retrieved: '2021-11-18'
     version: 3.36.0
+  - retrieved: '2022-01-11'
+    version: 3.37.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2029,6 +2047,12 @@ database:
   - retrieved: '2021-02-02'
     version: '2019-05-15'
   vtype: date
+- name: Minimum Anformation About a Phylogenetic Analysis Ontology
+  prefix: miapa
+  releases:
+  - retrieved: '2022-01-11'
+    version: '2017-05-09'
+  vtype: date
 - name: Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology
   prefix: miapa
   releases:
@@ -2108,6 +2132,8 @@ database:
     version: '2021-11-01'
   - retrieved: '2021-12-04'
     version: '2021-12-01'
+  - retrieved: '2022-01-11'
+    version: '2021-12-30'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2374,6 +2400,12 @@ database:
     version: ' 2014-05-28'
   - retrieved: '2021-02-04'
     version: '2014-05-28'
+  vtype: date
+- name: Ontology for Avida digital evolution platform
+  prefix: ontoavida
+  releases:
+  - retrieved: '2022-01-11'
+    version: '2021-12-20'
   vtype: date
 - name: Ontology for Biobanking
   prefix: obib
@@ -3415,6 +3447,8 @@ database:
     version: '2022-01-07'
   - retrieved: '2022-01-09'
     version: '2022-01-09'
+  - retrieved: '2022-01-11'
+    version: '2022-01-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3838,6 +3872,10 @@ database:
     homepage: http://data.wikipathways.org/20211210/
     retrieved: '2021-12-11'
     version: '20211210'
+  - date: '2022-01-10'
+    homepage: http://data.wikipathways.org/20220110/
+    retrieved: '2022-01-11'
+    version: '20220110'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -3880,6 +3918,8 @@ database:
     version: '2021-09-07'
   - retrieved: '2021-10-15'
     version: '2021-10-07'
+  - retrieved: '2022-01-11'
+    version: '2022-01-03'
   vtype: date
 - name: Zebrafish anatomy and development ontology
   prefix: zfa
@@ -4194,6 +4234,9 @@ database:
   - date: '2022-01-08'
     retrieved: '2022-01-10'
     version: 8 Jan 2022
+  - date: '2022-01-09'
+    retrieved: '2022-01-11'
+    version: 9 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
