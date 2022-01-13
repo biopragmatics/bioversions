@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 200,
-    "date": "2022-01-12",
+    "revision": 201,
+    "date": "2022-01-13",
     "author": "runner"
   },
   "database": [
@@ -1219,6 +1219,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "2021-10-20"
+        },
+        {
+          "retrieved": "2022-01-13",
+          "version": "2022-01-10"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -4462,6 +4466,10 @@
         {
           "retrieved": "2021-10-01",
           "version": "2021-08-18"
+        },
+        {
+          "retrieved": "2022-01-13",
+          "version": "2022-01-03"
         }
       ],
       "vtype": "date"
@@ -4761,6 +4769,10 @@
         {
           "retrieved": "2021-12-08",
           "version": "2021-12-03"
+        },
+        {
+          "retrieved": "2022-01-13",
+          "version": "2022-01-07"
         }
       ],
       "vtype": "date"
@@ -6316,6 +6328,10 @@
         {
           "retrieved": "2022-01-12",
           "version": "2022-01-11"
+        },
+        {
+          "retrieved": "2022-01-13",
+          "version": "2022-01-13"
         }
       ],
       "name": "SwissLipid",
@@ -7711,6 +7727,11 @@
           "retrieved": "2022-01-12",
           "version": "10 Jan 2022",
           "date": "2022-01-10"
+        },
+        {
+          "retrieved": "2022-01-13",
+          "version": "11 Jan 2022",
+          "date": "2022-01-11"
         }
       ],
       "name": "Zebrafish Information Network",

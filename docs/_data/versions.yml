@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-12'
-  revision: 200
+  date: '2022-01-13'
+  revision: 201
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -668,6 +668,8 @@ database:
     version: '2021-09-09'
   - retrieved: '2021-10-29'
     version: '2021-10-20'
+  - retrieved: '2022-01-13'
+    version: '2022-01-10'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -2432,6 +2434,8 @@ database:
     version: '2021-04-06'
   - retrieved: '2021-10-01'
     version: '2021-08-18'
+  - retrieved: '2022-01-13'
+    version: '2022-01-03'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -2590,6 +2594,8 @@ database:
     version: '2021-09-13'
   - retrieved: '2021-12-08'
     version: '2021-12-03'
+  - retrieved: '2022-01-13'
+    version: '2022-01-07'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -3451,6 +3457,8 @@ database:
     version: '2022-01-10'
   - retrieved: '2022-01-12'
     version: '2022-01-11'
+  - retrieved: '2022-01-13'
+    version: '2022-01-13'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4242,6 +4250,9 @@ database:
   - date: '2022-01-10'
     retrieved: '2022-01-12'
     version: 10 Jan 2022
+  - date: '2022-01-11'
+    retrieved: '2022-01-13'
+    version: 11 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
