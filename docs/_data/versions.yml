@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-18'
-  revision: 206
+  date: '2022-01-19'
+  revision: 207
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1464,6 +1464,10 @@ database:
     homepage: http://archive.geneontology.org/full/2021-12-15/
     retrieved: '2021-12-18'
     version: '2021-12-15'
+  - date: '2022-01-13'
+    homepage: http://archive.geneontology.org/full/2022-01-13/
+    retrieved: '2022-01-19'
+    version: '2022-01-13'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -2034,6 +2038,8 @@ database:
     version: '2021-11-29'
   - retrieved: '2022-01-04'
     version: '2021-12-15'
+  - retrieved: '2022-01-19'
+    version: '2022-01-13'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -4280,6 +4286,9 @@ database:
   - date: '2022-01-16'
     retrieved: '2022-01-18'
     version: 16 Jan 2022
+  - date: '2022-01-17'
+    retrieved: '2022-01-19'
+    version: 17 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 206,
-    "date": "2022-01-18",
+    "revision": 207,
+    "date": "2022-01-19",
     "author": "runner"
   },
   "database": [
@@ -2683,6 +2683,12 @@
           "version": "2021-12-15",
           "homepage": "http://archive.geneontology.org/full/2021-12-15/",
           "date": "2021-12-15"
+        },
+        {
+          "retrieved": "2022-01-19",
+          "version": "2022-01-13",
+          "homepage": "http://archive.geneontology.org/full/2022-01-13/",
+          "date": "2022-01-13"
         }
       ],
       "vtype": "date"
@@ -3734,6 +3740,10 @@
         {
           "retrieved": "2022-01-04",
           "version": "2021-12-15"
+        },
+        {
+          "retrieved": "2022-01-19",
+          "version": "2022-01-13"
         }
       ],
       "vtype": "date"
@@ -7779,6 +7789,11 @@
           "retrieved": "2022-01-18",
           "version": "16 Jan 2022",
           "date": "2022-01-16"
+        },
+        {
+          "retrieved": "2022-01-19",
+          "version": "17 Jan 2022",
+          "date": "2022-01-17"
         }
       ],
       "name": "Zebrafish Information Network",
