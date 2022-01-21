@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-01-20'
-  revision: 208
+  date: '2022-01-21'
+  revision: 209
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2221,6 +2221,10 @@ database:
     homepage: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.5
     retrieved: '2022-01-14'
     version: '7.5'
+  - date: '2022-01-01'
+    homepage: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.5.1
+    retrieved: '2022-01-21'
+    version: 7.5.1
   vtype: month
 - name: Mungbean ontology
   prefix: co_346
@@ -4294,6 +4298,9 @@ database:
   - date: '2022-01-18'
     retrieved: '2022-01-20'
     version: 18 Jan 2022
+  - date: '2022-01-19'
+    retrieved: '2022-01-21'
+    version: 19 Jan 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
