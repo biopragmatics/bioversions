@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 212,
-    "date": "2022-01-25",
+    "revision": 213,
+    "date": "2022-01-26",
     "author": "runner"
   },
   "database": [
@@ -5695,6 +5695,10 @@
         {
           "retrieved": "2022-01-25",
           "version": "79"
+        },
+        {
+          "retrieved": "2022-01-26",
+          "version": "78"
         }
       ],
       "vtype": "sequential"
@@ -5764,6 +5768,10 @@
         {
           "retrieved": "2021-12-11",
           "version": "2021-12-06"
+        },
+        {
+          "retrieved": "2022-01-26",
+          "version": "2022-01-20"
         }
       ],
       "vtype": "date"
@@ -6414,6 +6422,10 @@
         {
           "retrieved": "2022-01-25",
           "version": "2022-01-25"
+        },
+        {
+          "retrieved": "2022-01-26",
+          "version": "2022-01-26"
         }
       ],
       "name": "SwissLipid",
@@ -7869,6 +7881,11 @@
           "retrieved": "2022-01-25",
           "version": "23 Jan 2022",
           "date": "2022-01-23"
+        },
+        {
+          "retrieved": "2022-01-26",
+          "version": "24 Jan 2022",
+          "date": "2022-01-24"
         }
       ],
       "name": "Zebrafish Information Network",
