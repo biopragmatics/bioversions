@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 218,
-    "date": "2022-01-31",
+    "revision": 219,
+    "date": "2022-02-01",
     "author": "runner"
   },
   "database": [
@@ -1577,6 +1577,12 @@
           "version": "2021-12-15",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2021-12-15",
           "date": "2021-12-15"
+        },
+        {
+          "retrieved": "2022-02-01",
+          "version": "2022-01-31",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-01-31",
+          "date": "2022-01-31"
         }
       ],
       "vtype": "date"
@@ -5625,6 +5631,11 @@
           "retrieved": "2022-01-01",
           "version": "2022-01-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-01-01"
+        },
+        {
+          "retrieved": "2022-02-01",
+          "version": "2022-02-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-02-01"
         }
       ],
       "name": "PubChem",
@@ -6442,6 +6453,10 @@
         {
           "retrieved": "2022-01-31",
           "version": "2022-01-30"
+        },
+        {
+          "retrieved": "2022-02-01",
+          "version": "2022-01-31"
         }
       ],
       "name": "SwissLipid",
@@ -7927,6 +7942,11 @@
           "retrieved": "2022-01-31",
           "version": "29 Jan 2022",
           "date": "2022-01-29"
+        },
+        {
+          "retrieved": "2022-02-01",
+          "version": "30 Jan 2022",
+          "date": "2022-01-30"
         }
       ],
       "name": "Zebrafish Information Network",
