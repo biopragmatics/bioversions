@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-02-01'
-  revision: 219
+  date: '2022-02-02'
+  revision: 220
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -200,6 +200,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.205
     retrieved: '2022-01-02'
     version: 4.4.205
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.206
+    retrieved: '2022-02-02'
+    version: 4.4.206
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -479,6 +482,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel207/
     retrieved: '2022-01-02'
     version: '207'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel208/
+    retrieved: '2022-02-02'
+    version: '208'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -1813,6 +1819,8 @@ database:
     version: 02-Dec-2021
   - retrieved: '2021-12-23'
     version: 20-Dec-2021
+  - retrieved: '2022-02-02'
+    version: 31-Jan-2022
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -3526,6 +3534,8 @@ database:
     version: '2022-01-30'
   - retrieved: '2022-02-01'
     version: '2022-01-31'
+  - retrieved: '2022-02-02'
+    version: '2022-02-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo

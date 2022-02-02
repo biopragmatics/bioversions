@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 219,
-    "date": "2022-02-01",
+    "revision": 220,
+    "date": "2022-02-02",
     "author": "runner"
   },
   "database": [
@@ -362,6 +362,11 @@
           "retrieved": "2022-01-02",
           "version": "4.4.205",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.205"
+        },
+        {
+          "retrieved": "2022-02-02",
+          "version": "4.4.206",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.206"
         }
       ],
       "vtype": "semver"
@@ -882,6 +887,11 @@
           "retrieved": "2022-01-02",
           "version": "207",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel207/"
+        },
+        {
+          "retrieved": "2022-02-02",
+          "version": "208",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel208/"
         }
       ],
       "vtype": "sequential"
@@ -3320,6 +3330,10 @@
         {
           "retrieved": "2021-12-23",
           "version": "20-Dec-2021"
+        },
+        {
+          "retrieved": "2022-02-02",
+          "version": "31-Jan-2022"
         }
       ],
       "name": "ITIS",
@@ -6457,6 +6471,10 @@
         {
           "retrieved": "2022-02-01",
           "version": "2022-01-31"
+        },
+        {
+          "retrieved": "2022-02-02",
+          "version": "2022-02-01"
         }
       ],
       "name": "SwissLipid",
