@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 220,
-    "date": "2022-02-02",
+    "revision": 221,
+    "date": "2022-02-03",
     "author": "runner"
   },
   "database": [
@@ -1671,6 +1671,10 @@
         {
           "retrieved": "2021-11-03",
           "version": "2021-10-14"
+        },
+        {
+          "retrieved": "2022-02-03",
+          "version": "2022-01-27"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -1737,6 +1741,11 @@
           "retrieved": "2021-03-30",
           "version": "2020-Nov",
           "date": "2020-11-01"
+        },
+        {
+          "retrieved": "2022-02-03",
+          "version": "2022-Feb",
+          "date": "2022-02-01"
         }
       ],
       "name": "Drug Gene Interaction Database",
@@ -2408,6 +2417,10 @@
         {
           "retrieved": "2022-01-23",
           "version": "2022-01-18"
+        },
+        {
+          "retrieved": "2022-02-03",
+          "version": "2022-01-27"
         }
       ],
       "vtype": "date"
@@ -2739,6 +2752,10 @@
         {
           "retrieved": "2021-05-28",
           "version": "2021-05-24"
+        },
+        {
+          "retrieved": "2022-02-03",
+          "version": "2022-01-29"
         }
       ],
       "vtype": "date"
@@ -6475,6 +6492,10 @@
         {
           "retrieved": "2022-02-02",
           "version": "2022-02-01"
+        },
+        {
+          "retrieved": "2022-02-03",
+          "version": "2022-02-02"
         }
       ],
       "name": "SwissLipid",
@@ -6665,6 +6686,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "2021-10-20"
+        },
+        {
+          "retrieved": "2022-02-03",
+          "version": "2022-01-28"
         }
       ],
       "vtype": "date"
@@ -7965,6 +7990,11 @@
           "retrieved": "2022-02-01",
           "version": "30 Jan 2022",
           "date": "2022-01-30"
+        },
+        {
+          "retrieved": "2022-02-03",
+          "version": "1 Feb 2022",
+          "date": "2022-02-01"
         }
       ],
       "name": "Zebrafish Information Network",
