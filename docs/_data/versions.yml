@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-02-03'
-  revision: 221
+  date: '2022-02-04'
+  revision: 222
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3147,6 +3147,8 @@ database:
     version: '79'
   - retrieved: '2022-01-26'
     version: '78'
+  - retrieved: '2022-02-04'
+    version: '79'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -3547,6 +3549,8 @@ database:
     version: '2022-02-01'
   - retrieved: '2022-02-03'
     version: '2022-02-02'
+  - retrieved: '2022-02-04'
+    version: '2022-02-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3669,6 +3673,8 @@ database:
     version: '2021-11-17'
   - retrieved: '2021-12-04'
     version: '2021-11-25'
+  - retrieved: '2022-02-04'
+    version: '2022-02-01'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
@@ -4400,6 +4406,9 @@ database:
   - date: '2022-02-01'
     retrieved: '2022-02-03'
     version: 1 Feb 2022
+  - date: '2022-02-02'
+    retrieved: '2022-02-04'
+    version: 2 Feb 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
