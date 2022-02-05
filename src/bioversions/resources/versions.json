@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 222,
-    "date": "2022-02-04",
+    "revision": 223,
+    "date": "2022-02-05",
     "author": "runner"
   },
   "database": [
@@ -2090,6 +2090,10 @@
         {
           "retrieved": "2021-12-08",
           "version": "2021-12-03"
+        },
+        {
+          "retrieved": "2022-02-05",
+          "version": "2022-01-04"
         }
       ],
       "name": "Evidence ontology",
@@ -5488,6 +5492,12 @@
           "version": "2022-01-02",
           "homepage": "https://www.pombase.org/data/releases/pombase-2022-01-02/",
           "date": "2022-01-02"
+        },
+        {
+          "retrieved": "2022-02-05",
+          "version": "2022-02-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2022-02-01/",
+          "date": "2022-02-01"
         }
       ],
       "name": "PomBase",
@@ -6504,6 +6514,10 @@
         {
           "retrieved": "2022-02-04",
           "version": "2022-02-03"
+        },
+        {
+          "retrieved": "2022-02-05",
+          "version": "2022-02-04"
         }
       ],
       "name": "SwissLipid",
@@ -8012,6 +8026,11 @@
           "retrieved": "2022-02-04",
           "version": "2 Feb 2022",
           "date": "2022-02-02"
+        },
+        {
+          "retrieved": "2022-02-05",
+          "version": "3 Feb 2022",
+          "date": "2022-02-03"
         }
       ],
       "name": "Zebrafish Information Network",
