@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 232,
-    "date": "2022-02-14",
+    "revision": 233,
+    "date": "2022-02-15",
     "author": "runner"
   },
   "database": [
@@ -1434,6 +1434,10 @@
         {
           "retrieved": "2021-11-16",
           "version": "21Q4"
+        },
+        {
+          "retrieved": "2022-02-15",
+          "version": "22Q1"
         }
       ],
       "name": "DepMap",
@@ -6573,6 +6577,10 @@
         {
           "retrieved": "2022-02-13",
           "version": "2022-02-13"
+        },
+        {
+          "retrieved": "2022-02-15",
+          "version": "2022-02-15"
         }
       ],
       "name": "SwissLipid",
@@ -8137,6 +8145,11 @@
           "retrieved": "2022-02-14",
           "version": "12 Feb 2022",
           "date": "2022-02-12"
+        },
+        {
+          "retrieved": "2022-02-15",
+          "version": "13 Feb 2022",
+          "date": "2022-02-13"
         }
       ],
       "name": "Zebrafish Information Network",
