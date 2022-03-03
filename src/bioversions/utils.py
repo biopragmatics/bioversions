@@ -37,6 +37,7 @@ class VersionType(enum.Enum):
     daily = "Daily"
     unversioned = "Unversioned"
     other = "Other"
+    missing = "Missing"
     #: Saved for the most shameful of data
     garbage = "Garbage"
 
