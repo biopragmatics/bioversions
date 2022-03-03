@@ -13,12 +13,11 @@ jobs:
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.6
+          python-version: 3.10
       - name: Create local changes
         run: |
-          pip install -e .[twitter,slack,charts]
-          bioversions update
-          python -m bioversions.charts
+          pip install tox
+          tox -e update
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
