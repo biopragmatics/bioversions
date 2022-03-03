@@ -6,7 +6,6 @@ import requests
 
 from ..utils import Getter, VersionType
 
-
 __all__ = [
     "OncoTreeGetter",
 ]

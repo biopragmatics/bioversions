@@ -8,7 +8,12 @@ from datetime import datetime
 
 import click
 
-from bioversions.resources import EXPORT_PATH, load_versions, write_export, write_versions
+from bioversions.resources import (
+    EXPORT_PATH,
+    load_versions,
+    write_export,
+    write_versions,
+)
 from bioversions.sources import _iter_versions
 from bioversions.version import get_git_hash
 
