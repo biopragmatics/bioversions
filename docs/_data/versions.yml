@@ -1,7 +1,7 @@
 annotations:
-  author: cthoyt
-  date: '2022-03-03'
-  revision: 237
+  author: runner
+  date: '2022-03-04'
+  revision: 238
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1747,7 +1747,7 @@ database:
   releases:
   - retrieved: '2022-03-03'
     version: '2019-10-28'
-  vtype: missing
+  vtype: date
 - name: Hymenoptera Anatomy Ontology
   prefix: hao
   releases:
@@ -2236,6 +2236,8 @@ database:
     version: '2021-12-30'
   - retrieved: '2022-03-03'
     version: '2022-02-04'
+  - retrieved: '2022-03-04'
+    version: '2022-03-01'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -3009,6 +3011,8 @@ database:
     version: '2021-09-29'
   - retrieved: '2021-10-29'
     version: '2021-10-21'
+  - retrieved: '2022-03-04'
+    version: '2022-03-02'
   vtype: date
 - name: Planarian Phenotype Ontology
   prefix: planp
@@ -3188,6 +3192,8 @@ database:
   releases:
   - retrieved: '2022-03-03'
     version: '2022-02-09'
+  - retrieved: '2022-03-04'
+    version: '2022-03-02'
   vtype: date
 - name: PubChem
   releases:
@@ -3387,7 +3393,7 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: $Revision$
-  vtype: other
+  vtype: garbage
 - name: Semanticscience Integrated Ontology
   prefix: sio
   releases:
@@ -3678,6 +3684,8 @@ database:
     version: '2022-02-16'
   - retrieved: '2022-03-03'
     version: '2022-03-03'
+  - retrieved: '2022-03-04'
+    version: '2022-03-04'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3837,7 +3845,9 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: RC1.4
-  vtype: other
+  - retrieved: '2022-03-04'
+    version: '1.4'
+  vtype: semver
 - name: The Virus Infectious Disease Ontology
   prefix: vido
   releases:

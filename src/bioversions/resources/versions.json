@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 237,
-    "date": "2022-03-03",
-    "author": "cthoyt"
+    "revision": 238,
+    "date": "2022-03-04",
+    "author": "runner"
   },
   "database": [
     {
@@ -3213,7 +3213,7 @@
       ],
       "name": "HUPO-PSI cross-linking and derivatization reagents controlled vocabulary",
       "prefix": "xlmod",
-      "vtype": "missing"
+      "vtype": "date"
     },
     {
       "name": "Hymenoptera Anatomy Ontology",
@@ -4102,6 +4102,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-04"
+        },
+        {
+          "retrieved": "2022-03-04",
+          "version": "2022-03-01"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -5492,6 +5496,10 @@
         {
           "retrieved": "2021-10-29",
           "version": "2021-10-21"
+        },
+        {
+          "retrieved": "2022-03-04",
+          "version": "2022-03-02"
         }
       ],
       "vtype": "date"
@@ -5811,6 +5819,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-09"
+        },
+        {
+          "retrieved": "2022-03-04",
+          "version": "2022-03-02"
         }
       ],
       "name": "Provisional Cell Ontology",
@@ -6176,7 +6188,7 @@
           "version": "$Revision$"
         }
       ],
-      "vtype": "other"
+      "vtype": "garbage"
     },
     {
       "name": "Semanticscience Integrated Ontology",
@@ -6738,6 +6750,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-03-03"
+        },
+        {
+          "retrieved": "2022-03-04",
+          "version": "2022-03-04"
         }
       ],
       "name": "SwissLipid",
@@ -7035,11 +7051,15 @@
         {
           "retrieved": "2021-04-14",
           "version": "RC1.4"
+        },
+        {
+          "retrieved": "2022-03-04",
+          "version": "1.4"
         }
       ],
       "name": "The Statistical Methods Ontology",
       "prefix": "stato",
-      "vtype": "other"
+      "vtype": "semver"
     },
     {
       "name": "The Virus Infectious Disease Ontology",
