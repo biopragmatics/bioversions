@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-03-10'
-  revision: 244
+  date: '2022-03-11'
+  revision: 245
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -490,6 +490,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel208/
     retrieved: '2022-02-02'
     version: '208'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel209/
+    retrieved: '2022-03-11'
+    version: '209'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -512,6 +515,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_29
     retrieved: '2021-07-27'
     version: '29'
+  - date: '2022-02-22'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_30
+    retrieved: '2022-03-11'
+    version: '30'
   vtype: sequential
 - name: Chemical Information Ontology
   prefix: cheminf
@@ -3708,6 +3715,8 @@ database:
     version: '2022-03-09'
   - retrieved: '2022-03-10'
     version: '2022-03-10'
+  - retrieved: '2022-03-11'
+    version: '2022-03-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4151,6 +4160,10 @@ database:
     homepage: http://data.wikipathways.org/20220210/
     retrieved: '2022-02-11'
     version: '20220210'
+  - date: '2022-03-10'
+    homepage: http://data.wikipathways.org/20220310/
+    retrieved: '2022-03-11'
+    version: '20220310'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -4644,6 +4657,9 @@ database:
   - date: '2022-03-08'
     retrieved: '2022-03-10'
     version: 8 Mar 2022
+  - date: '2022-03-09'
+    retrieved: '2022-03-11'
+    version: 9 Mar 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
