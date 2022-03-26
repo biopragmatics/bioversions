@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 259,
-    "date": "2022-03-25",
+    "revision": 260,
+    "date": "2022-03-26",
     "author": "runner"
   },
   "database": [
@@ -76,6 +76,10 @@
         {
           "retrieved": "2021-02-25",
           "version": "2021-02-17"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-09"
         }
       ],
       "vtype": "date"
@@ -704,6 +708,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2.1.162"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2.1.178"
         }
       ],
       "name": "Cell Line Ontology",
@@ -2298,6 +2306,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "3.39.1"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "3.40.0"
         }
       ],
       "vtype": "semver"
@@ -3144,6 +3156,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-16"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-16"
         }
       ],
       "vtype": "date"
@@ -3932,6 +3948,10 @@
         {
           "retrieved": "2022-01-23",
           "version": "2022-01-17"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-14"
         }
       ],
       "vtype": "date"
@@ -4647,6 +4667,10 @@
         {
           "retrieved": "2022-01-11",
           "version": "2021-12-20"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-15"
         }
       ],
       "name": "Ontology for Avida digital evolution platform",
@@ -4836,6 +4860,10 @@
         {
           "retrieved": "2021-12-16",
           "version": "2021-12-13"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-17"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -5009,6 +5037,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-08"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-04"
         }
       ],
       "vtype": "date"
@@ -5064,6 +5096,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "1.0.146"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "1.0.152"
         }
       ],
       "name": "Ontology of Precision Medicine and Investigation",
@@ -6871,6 +6907,10 @@
         {
           "retrieved": "2022-03-25",
           "version": "2022-03-25"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-26"
         }
       ],
       "name": "SwissLipid",
@@ -7465,6 +7505,10 @@
         {
           "retrieved": "2021-09-22",
           "version": "1.1.171"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "1.1.192"
         }
       ],
       "vtype": "semver"
@@ -7797,6 +7841,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-28"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "2022-03-15"
         }
       ],
       "vtype": "date"
@@ -8592,6 +8640,11 @@
           "retrieved": "2022-03-25",
           "version": "23 Mar 2022",
           "date": "2022-03-23"
+        },
+        {
+          "retrieved": "2022-03-26",
+          "version": "24 Mar 2022",
+          "date": "2022-03-24"
         }
       ],
       "name": "Zebrafish Information Network",

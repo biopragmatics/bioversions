@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-03-25'
-  revision: 259
+  date: '2022-03-26'
+  revision: 260
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -42,6 +42,8 @@ database:
     version: '2020-12-18'
   - retrieved: '2021-02-25'
     version: '2021-02-17'
+  - retrieved: '2022-03-26'
+    version: '2022-03-09'
   vtype: date
 - name: Anatomical Entity Ontology
   prefix: aeo
@@ -382,6 +384,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: 2.1.162
+  - retrieved: '2022-03-26'
+    version: 2.1.178
   vtype: semver
 - name: Cell Ontology
   prefix: cl
@@ -1259,6 +1263,8 @@ database:
     version: 3.38.0
   - retrieved: '2022-03-03'
     version: 3.39.1
+  - retrieved: '2022-03-26'
+    version: 3.40.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1714,6 +1720,8 @@ database:
     version: '2022-01-18'
   - retrieved: '2022-03-03'
     version: '2022-02-16'
+  - retrieved: '2022-03-26'
+    version: '2022-03-16'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -2145,6 +2153,8 @@ database:
     version: '2022-01-13'
   - retrieved: '2022-01-23'
     version: '2022-01-17'
+  - retrieved: '2022-03-26'
+    version: '2022-03-14'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -2539,6 +2549,8 @@ database:
   releases:
   - retrieved: '2022-01-11'
     version: '2021-12-20'
+  - retrieved: '2022-03-26'
+    version: '2022-03-15'
   vtype: date
 - name: Ontology for Biobanking
   prefix: obib
@@ -2639,6 +2651,8 @@ database:
     version: '2021-11-19'
   - retrieved: '2021-12-16'
     version: '2021-12-13'
+  - retrieved: '2022-03-26'
+    version: '2022-03-17'
   vtype: date
 - name: Ontology of Adverse Events
   prefix: oae
@@ -2729,6 +2743,8 @@ database:
     version: '2022-01-07'
   - retrieved: '2022-03-03'
     version: '2022-02-08'
+  - retrieved: '2022-03-26'
+    version: '2022-03-04'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -2759,6 +2775,8 @@ database:
     version: 1.0.138
   - retrieved: '2022-03-03'
     version: 1.0.146
+  - retrieved: '2022-03-26'
+    version: 1.0.152
   vtype: semver
 - name: Ontology of Prokaryotic Phenotypic and Metabolic Characters
   prefix: micro
@@ -3749,6 +3767,8 @@ database:
     version: '2022-03-24'
   - retrieved: '2022-03-25'
     version: '2022-03-25'
+  - retrieved: '2022-03-26'
+    version: '2022-03-26'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4069,6 +4089,8 @@ database:
     version: 1.1.165
   - retrieved: '2021-09-22'
     version: 1.1.171
+  - retrieved: '2022-03-26'
+    version: 1.1.192
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -4258,6 +4280,8 @@ database:
     version: '2020-04-14'
   - retrieved: '2022-03-03'
     version: '2022-02-28'
+  - retrieved: '2022-03-26'
+    version: '2022-03-15'
   vtype: date
 - name: Zebrafish developmental stages ontology
   prefix: zfs
@@ -4734,6 +4758,9 @@ database:
   - date: '2022-03-23'
     retrieved: '2022-03-25'
     version: 23 Mar 2022
+  - date: '2022-03-24'
+    retrieved: '2022-03-26'
+    version: 24 Mar 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
