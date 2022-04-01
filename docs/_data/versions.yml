@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-03-31'
-  revision: 265
+  date: '2022-04-01'
+  revision: 266
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1657,6 +1657,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2021.4.zip
     retrieved: '2021-12-15'
     version: '2021.4'
+  - date: '2022-03-31'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.1.zip
+    retrieved: '2022-04-01'
+    version: '2022.1'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -1957,6 +1961,9 @@ database:
   - date: '2022-01-01'
     retrieved: '2021-12-31'
     version: '101.0'
+  - date: '2022-04-01'
+    retrieved: '2022-04-01'
+    version: '102.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -3267,6 +3274,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-03-01
     retrieved: '2022-03-03'
     version: '2022-03-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-04-01
+    retrieved: '2022-04-01'
+    version: '2022-04-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -3798,6 +3808,8 @@ database:
     version: '2022-03-30'
   - retrieved: '2022-03-31'
     version: '2022-03-31'
+  - retrieved: '2022-04-01'
+    version: '2022-04-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4807,6 +4819,9 @@ database:
   - date: '2022-03-29'
     retrieved: '2022-03-31'
     version: 29 Mar 2022
+  - date: '2022-03-30'
+    retrieved: '2022-04-01'
+    version: 30 Mar 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
