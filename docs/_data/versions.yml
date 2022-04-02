@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-04-01'
-  revision: 266
+  date: '2022-04-02'
+  revision: 267
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -208,6 +208,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.207
     retrieved: '2022-03-03'
     version: 4.4.207
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.208
+    retrieved: '2022-04-02'
+    version: 4.4.208
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -918,6 +921,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-03-02
     retrieved: '2022-03-03'
     version: '2022-03-02'
+  - date: '2022-04-01'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-04-01
+    retrieved: '2022-04-02'
+    version: '2022-04-01'
   vtype: date
 - name: DisGeNet
   releases:
@@ -3242,6 +3249,9 @@ database:
   - homepage: https://proconsortium.org/download/release_65.0/
     retrieved: '2021-12-18'
     version: '65.0'
+  - homepage: https://proconsortium.org/download/release_66.0/
+    retrieved: '2022-04-02'
+    version: '66.0'
   vtype: semver_minor
 - name: PROV Namespace
   prefix: prov
@@ -3810,6 +3820,8 @@ database:
     version: '2022-03-31'
   - retrieved: '2022-04-01'
     version: '2022-04-01'
+  - retrieved: '2022-04-02'
+    version: '2022-04-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4822,6 +4834,9 @@ database:
   - date: '2022-03-30'
     retrieved: '2022-04-01'
     version: 30 Mar 2022
+  - date: '2022-03-31'
+    retrieved: '2022-04-02'
+    version: 31 Mar 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
