@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-04-03'
-  revision: 268
+  date: '2022-04-04'
+  revision: 269
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3081,6 +3081,12 @@ database:
   - retrieved: '2022-03-04'
     version: '2022-03-02'
   vtype: date
+- name: Planarian Anatomy and Schmidtea mediterranean Developmental Stage Ontology
+  prefix: plana
+  releases:
+  - retrieved: '2022-04-04'
+    version: '2022-03-02'
+  vtype: date
 - name: Planarian Phenotype Ontology
   prefix: planp
   releases:
@@ -3824,6 +3830,8 @@ database:
     version: '2022-04-02'
   - retrieved: '2022-04-03'
     version: '2022-04-03'
+  - retrieved: '2022-04-04'
+    version: '2022-04-04'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4842,6 +4850,9 @@ database:
   - date: '2022-04-01'
     retrieved: '2022-04-03'
     version: 1 Apr 2022
+  - date: '2022-04-02'
+    retrieved: '2022-04-04'
+    version: 2 Apr 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

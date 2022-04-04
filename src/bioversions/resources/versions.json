@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 268,
-    "date": "2022-04-03",
+    "revision": 269,
+    "date": "2022-04-04",
     "author": "runner"
   },
   "database": [
@@ -5624,6 +5624,17 @@
     {
       "releases": [
         {
+          "retrieved": "2022-04-04",
+          "version": "2022-03-02"
+        }
+      ],
+      "name": "Planarian Anatomy and Schmidtea mediterranean Developmental Stage Ontology",
+      "prefix": "plana",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
           "retrieved": "2021-04-14",
           "version": "2020-03-28"
         }
@@ -7010,6 +7021,10 @@
         {
           "retrieved": "2022-04-03",
           "version": "2022-04-03"
+        },
+        {
+          "retrieved": "2022-04-04",
+          "version": "2022-04-04"
         }
       ],
       "name": "SwissLipid",
@@ -8788,6 +8803,11 @@
           "retrieved": "2022-04-03",
           "version": "1 Apr 2022",
           "date": "2022-04-01"
+        },
+        {
+          "retrieved": "2022-04-04",
+          "version": "2 Apr 2022",
+          "date": "2022-04-02"
         }
       ],
       "name": "Zebrafish Information Network",
