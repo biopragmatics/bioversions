@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-04-11'
-  revision: 276
+  date: '2022-04-12'
+  revision: 277
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -712,6 +712,8 @@ database:
     version: '2021-10-20'
   - retrieved: '2022-01-13'
     version: '2022-01-10'
+  - retrieved: '2022-04-12'
+    version: '2022-04-06'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1110,6 +1112,10 @@ database:
     homepage: https://www.ensembl.org
     retrieved: '2021-12-09'
     version: '105'
+  - date: '2022-04-01'
+    homepage: https://www.ensembl.org
+    retrieved: '2022-04-12'
+    version: '106'
   vtype: sequential
 - name: Ensembl Glossary
   prefix: ensemblglossary
@@ -2297,6 +2303,8 @@ database:
     version: '2022-02-04'
   - retrieved: '2022-03-04'
     version: '2022-03-01'
+  - retrieved: '2022-04-12'
+    version: '2022-04-04'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -3861,6 +3869,8 @@ database:
     version: '2022-04-10'
   - retrieved: '2022-04-11'
     version: '2022-04-11'
+  - retrieved: '2022-04-12'
+    version: '2022-04-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -3873,6 +3883,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-08-04'
+  - retrieved: '2022-04-12'
+    version: '2022-04-05'
   vtype: date
 - name: Systems Biology Ontology
   prefix: sbo
@@ -4907,6 +4919,9 @@ database:
   - date: '2022-04-09'
     retrieved: '2022-04-11'
     version: 9 Apr 2022
+  - date: '2022-04-10'
+    retrieved: '2022-04-12'
+    version: 10 Apr 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

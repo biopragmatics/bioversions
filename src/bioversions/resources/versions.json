@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 276,
-    "date": "2022-04-11",
+    "revision": 277,
+    "date": "2022-04-12",
     "author": "runner"
   },
   "database": [
@@ -1297,6 +1297,10 @@
         {
           "retrieved": "2022-01-13",
           "version": "2022-01-10"
+        },
+        {
+          "retrieved": "2022-04-12",
+          "version": "2022-04-06"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -2009,6 +2013,12 @@
           "version": "105",
           "homepage": "https://www.ensembl.org",
           "date": "2021-11-01"
+        },
+        {
+          "retrieved": "2022-04-12",
+          "version": "106",
+          "homepage": "https://www.ensembl.org",
+          "date": "2022-04-01"
         }
       ],
       "name": "Ensembl",
@@ -4207,6 +4217,10 @@
         {
           "retrieved": "2022-03-04",
           "version": "2022-03-01"
+        },
+        {
+          "retrieved": "2022-04-12",
+          "version": "2022-04-04"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -7078,6 +7092,10 @@
         {
           "retrieved": "2022-04-11",
           "version": "2022-04-11"
+        },
+        {
+          "retrieved": "2022-04-12",
+          "version": "2022-04-12"
         }
       ],
       "name": "SwissLipid",
@@ -7102,6 +7120,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-08-04"
+        },
+        {
+          "retrieved": "2022-04-12",
+          "version": "2022-04-05"
         }
       ],
       "vtype": "date"
@@ -8902,6 +8924,11 @@
           "retrieved": "2022-04-11",
           "version": "9 Apr 2022",
           "date": "2022-04-09"
+        },
+        {
+          "retrieved": "2022-04-12",
+          "version": "10 Apr 2022",
+          "date": "2022-04-10"
         }
       ],
       "name": "Zebrafish Information Network",
