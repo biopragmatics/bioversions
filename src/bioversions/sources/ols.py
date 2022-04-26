@@ -39,7 +39,14 @@ def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
     if ols_id is None:
         return None
 
-    version = bioregistry.get_resource(bioregistry_id).ols.get("version")
+    resource = bioregistry.get_resource(bioregistry_id)
+    if resource is None:
+        logger.warning(f"Invalid bioregistry prefix: {bioregistry_id}")
+        return None
+    if resource.ols is None:
+        logger.warning("[%s] Missing information in OLS", bioregistry_id)
+        return None
+    version = resource.ols.get("version")
     if version is None:
         logger.debug("[%s] no OLS version", bioregistry_id)
         return None
