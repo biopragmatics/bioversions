@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-04-19'
-  revision: 284
+  date: '2022-04-27'
+  revision: 285
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -93,6 +93,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-03-10'
+  - retrieved: '2022-04-27'
+    version: '2022-03-23'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -962,6 +964,8 @@ database:
     version: '2021-12-06'
   - retrieved: '2022-03-03'
     version: '2022-02-25'
+  - retrieved: '2022-04-27'
+    version: '2022-04-12'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -978,6 +982,8 @@ database:
     version: '2022-01-27'
   - retrieved: '2022-03-03'
     version: '2022-02-24'
+  - retrieved: '2022-04-27'
+    version: '2022-04-13'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1000,6 +1006,8 @@ database:
     version: '2021-12-10'
   - retrieved: '2022-03-03'
     version: '2022-02-24'
+  - retrieved: '2022-04-27'
+    version: '2022-04-13'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -1100,6 +1108,8 @@ database:
     version: 5.0.1
   - retrieved: '2021-06-25'
     version: '7.2'
+  - retrieved: '2022-04-27'
+    version: '7.3'
   vtype: semver
 - name: Ensembl
   prefix: ensembl
@@ -1212,6 +1222,8 @@ database:
     version: '2022-01-04'
   - retrieved: '2022-03-03'
     version: '2022-02-09'
+  - retrieved: '2022-04-27'
+    version: '2022-04-11'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -1438,6 +1450,8 @@ database:
     version: '2021-12-13'
   - retrieved: '2022-03-03'
     version: '2022-02-24'
+  - retrieved: '2022-04-27'
+    version: '2022-04-14'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -1606,6 +1620,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2020-03-08'
+  - retrieved: '2022-04-27'
+    version: '2022-03-05'
   vtype: date
 - name: GEO
   prefix: geo
@@ -1793,6 +1809,8 @@ database:
     version: '2021-10-10'
   - retrieved: '2022-03-03'
     version: '2022-02-14'
+  - retrieved: '2022-04-27'
+    version: '2022-04-14'
   vtype: date
 - name: HUPO-PSI cross-linking and derivatization reagents controlled vocabulary
   prefix: xlmod
@@ -2108,6 +2126,8 @@ database:
     version: '2021-08-19'
   - retrieved: '2022-03-28'
     version: '2022-03-23'
+  - retrieved: '2022-04-27'
+    version: '2022-04-11'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -2756,6 +2776,8 @@ database:
     version: '2020-10-27'
   - retrieved: '2021-11-03'
     version: '2021-08-30'
+  - retrieved: '2022-04-27'
+    version: '2022-04-06'
   vtype: date
 - name: Ontology of Microbial Phenotypes
   prefix: omp
@@ -2790,6 +2812,8 @@ database:
     version: '2022-02-08'
   - retrieved: '2022-03-26'
     version: '2022-03-04'
+  - retrieved: '2022-04-27'
+    version: '2022-04-11'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -3158,6 +3182,8 @@ database:
     version: '2021-04-06'
   - retrieved: '2022-03-28'
     version: '2022-03-09'
+  - retrieved: '2022-04-27'
+    version: '2022-04-13'
   vtype: date
 - name: Platynereis Developmental Stages
   prefix: pdumdv
@@ -3325,6 +3351,8 @@ database:
     version: '2021-08-30'
   - retrieved: '2022-01-23'
     version: '2022-01-14'
+  - retrieved: '2022-04-27'
+    version: '2022-04-16'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -3885,6 +3913,8 @@ database:
     version: '2022-04-18'
   - retrieved: '2022-04-19'
     version: '2022-04-19'
+  - retrieved: '2022-04-27'
+    version: '2022-04-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4100,6 +4130,8 @@ database:
     version: '2021-11-12'
   - retrieved: '2021-12-04'
     version: '2021-11-28'
+  - retrieved: '2022-04-27'
+    version: '2022-04-05'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -4957,6 +4989,9 @@ database:
   - date: '2022-04-17'
     retrieved: '2022-04-19'
     version: 17 Apr 2022
+  - date: '2022-04-25'
+    retrieved: '2022-04-27'
+    version: 25 Apr 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

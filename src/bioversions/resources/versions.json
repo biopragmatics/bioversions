@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 284,
-    "date": "2022-04-19",
+    "revision": 285,
+    "date": "2022-04-27",
     "author": "runner"
   },
   "database": [
@@ -170,6 +170,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-03-10"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-03-23"
         }
       ],
       "vtype": "date"
@@ -1740,6 +1744,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-25"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-12"
         }
       ],
       "name": "Drosophila development",
@@ -1771,6 +1779,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-24"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-13"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -1814,6 +1826,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-24"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-13"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -1996,6 +2012,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "7.2"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "7.3"
         }
       ],
       "vtype": "semver"
@@ -2204,6 +2224,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-09"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-11"
         }
       ],
       "name": "Evidence ontology",
@@ -2636,6 +2660,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-24"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-14"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -2933,6 +2961,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2020-03-08"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-03-05"
         }
       ],
       "name": "Genotype Ontology",
@@ -3288,6 +3320,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-14"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-14"
         }
       ],
       "vtype": "date"
@@ -3855,6 +3891,10 @@
         {
           "retrieved": "2022-03-28",
           "version": "2022-03-23"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-11"
         }
       ],
       "vtype": "date"
@@ -5051,6 +5091,10 @@
         {
           "retrieved": "2021-11-03",
           "version": "2021-08-30"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-06"
         }
       ],
       "vtype": "date"
@@ -5118,6 +5162,10 @@
         {
           "retrieved": "2022-03-26",
           "version": "2022-03-04"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-11"
         }
       ],
       "vtype": "date"
@@ -5760,6 +5808,10 @@
         {
           "retrieved": "2022-03-28",
           "version": "2022-03-09"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-13"
         }
       ],
       "vtype": "date"
@@ -6055,6 +6107,10 @@
         {
           "retrieved": "2022-01-23",
           "version": "2022-01-14"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-16"
         }
       ],
       "vtype": "date"
@@ -7124,6 +7180,10 @@
         {
           "retrieved": "2022-04-19",
           "version": "2022-04-19"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-27"
         }
       ],
       "name": "SwissLipid",
@@ -7528,6 +7588,10 @@
         {
           "retrieved": "2021-12-04",
           "version": "2021-11-28"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "2022-04-05"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -8992,6 +9056,11 @@
           "retrieved": "2022-04-19",
           "version": "17 Apr 2022",
           "date": "2022-04-17"
+        },
+        {
+          "retrieved": "2022-04-27",
+          "version": "25 Apr 2022",
+          "date": "2022-04-25"
         }
       ],
       "name": "Zebrafish Information Network",
