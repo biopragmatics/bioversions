@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 290,
-    "date": "2022-05-02",
+    "revision": 291,
+    "date": "2022-05-03",
     "author": "runner"
   },
   "database": [
@@ -3608,6 +3608,10 @@
         {
           "retrieved": "2022-03-31",
           "version": "28-Mar-2022"
+        },
+        {
+          "retrieved": "2022-05-03",
+          "version": "26-Apr-2022"
         }
       ],
       "name": "ITIS",
@@ -6424,6 +6428,11 @@
           "retrieved": "2022-04-05",
           "version": "2022-04-04",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_04042022.zip"
+        },
+        {
+          "retrieved": "2022-05-03",
+          "version": "2022-05-02",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_05022022.zip"
         }
       ],
       "name": "RxNorm",
@@ -7225,6 +7234,10 @@
         {
           "retrieved": "2022-05-02",
           "version": "2022-05-02"
+        },
+        {
+          "retrieved": "2022-05-03",
+          "version": "2022-05-03"
         }
       ],
       "name": "SwissLipid",
@@ -7659,6 +7672,10 @@
         {
           "retrieved": "2021-11-22",
           "version": "2021AB"
+        },
+        {
+          "retrieved": "2022-05-03",
+          "version": "2022AA"
         }
       ],
       "name": "UMLS",
@@ -9127,6 +9144,11 @@
           "retrieved": "2022-05-02",
           "version": "30 Apr 2022",
           "date": "2022-04-30"
+        },
+        {
+          "retrieved": "2022-05-03",
+          "version": "1 May 2022",
+          "date": "2022-05-01"
         }
       ],
       "name": "Zebrafish Information Network",
