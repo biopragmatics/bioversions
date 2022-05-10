@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 293,
-    "date": "2022-05-06",
+    "revision": 294,
+    "date": "2022-05-10",
     "author": "runner"
   },
   "database": [
@@ -174,6 +174,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-03-23"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-19"
         }
       ],
       "vtype": "date"
@@ -1021,6 +1025,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-17"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-19"
         }
       ],
       "vtype": "date"
@@ -1357,6 +1365,10 @@
         {
           "retrieved": "2021-09-19",
           "version": "2021-09-13"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-05-02"
         }
       ],
       "vtype": "date"
@@ -1513,6 +1525,10 @@
         {
           "retrieved": "2022-02-15",
           "version": "22Q1"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "22Q2"
         }
       ],
       "name": "DepMap",
@@ -2383,6 +2399,10 @@
         {
           "retrieved": "2022-03-26",
           "version": "3.40.0"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "3.41.0"
         }
       ],
       "vtype": "semver"
@@ -2583,6 +2603,10 @@
         {
           "retrieved": "2022-02-03",
           "version": "2022-01-27"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-28"
         }
       ],
       "vtype": "date"
@@ -3258,6 +3282,10 @@
         {
           "retrieved": "2022-03-26",
           "version": "2022-03-16"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-19"
         }
       ],
       "vtype": "date"
@@ -4276,6 +4304,10 @@
         {
           "retrieved": "2022-04-12",
           "version": "2022-04-04"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-05-02"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -4687,6 +4719,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-06-08"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-27"
         }
       ],
       "vtype": "date"
@@ -6062,6 +6098,10 @@
         {
           "retrieved": "2022-03-04",
           "version": "2022-03-02"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-27"
         }
       ],
       "name": "Provisional Cell Ontology",
@@ -6267,6 +6307,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-07"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-25"
         }
       ],
       "vtype": "date"
@@ -7246,6 +7290,10 @@
         {
           "retrieved": "2022-05-06",
           "version": "2022-05-06"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-05-10"
         }
       ],
       "name": "SwissLipid",
@@ -7444,6 +7492,10 @@
         {
           "retrieved": "2022-02-03",
           "version": "2022-01-28"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-22"
         }
       ],
       "vtype": "date"
@@ -7654,6 +7706,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-05"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "2022-04-18"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -7856,6 +7912,10 @@
         {
           "retrieved": "2022-03-26",
           "version": "1.1.192"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "1.1.193"
         }
       ],
       "vtype": "semver"
@@ -9167,6 +9227,11 @@
           "retrieved": "2022-05-06",
           "version": "4 May 2022",
           "date": "2022-05-04"
+        },
+        {
+          "retrieved": "2022-05-10",
+          "version": "8 May 2022",
+          "date": "2022-05-08"
         }
       ],
       "name": "Zebrafish Information Network",

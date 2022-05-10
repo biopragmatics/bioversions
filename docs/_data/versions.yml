@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-05-06'
-  revision: 293
+  date: '2022-05-10'
+  revision: 294
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -95,6 +95,8 @@ database:
     version: '2020-03-10'
   - retrieved: '2022-04-27'
     version: '2022-03-23'
+  - retrieved: '2022-05-10'
+    version: '2022-04-19'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -558,6 +560,8 @@ database:
     version: '2019-11-14'
   - retrieved: '2022-03-03'
     version: '2022-02-17'
+  - retrieved: '2022-05-10'
+    version: '2022-04-19'
   vtype: date
 - name: ChemIDplus
   prefix: chemidplus
@@ -743,6 +747,8 @@ database:
     version: '2021-09-11'
   - retrieved: '2021-09-19'
     version: '2021-09-13'
+  - retrieved: '2022-05-10'
+    version: '2022-05-02'
   vtype: date
 - name: Coronavirus Infectious Disease Ontology
   prefix: cido
@@ -826,6 +832,8 @@ database:
     version: 21Q4
   - retrieved: '2022-02-15'
     version: 22Q1
+  - retrieved: '2022-05-10'
+    version: 22Q2
   vtype: other
 - name: DICOM Controlled Terminology
   prefix: dicom
@@ -1306,6 +1314,8 @@ database:
     version: 3.39.1
   - retrieved: '2022-03-26'
     version: 3.40.0
+  - retrieved: '2022-05-10'
+    version: 3.41.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1408,6 +1418,8 @@ database:
     version: '2022-01-18'
   - retrieved: '2022-02-03'
     version: '2022-01-27'
+  - retrieved: '2022-05-10'
+    version: '2022-04-28'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1778,6 +1790,8 @@ database:
     version: '2022-02-16'
   - retrieved: '2022-03-26'
     version: '2022-03-16'
+  - retrieved: '2022-05-10'
+    version: '2022-04-19'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -2334,6 +2348,8 @@ database:
     version: '2022-03-01'
   - retrieved: '2022-04-12'
     version: '2022-04-04'
+  - retrieved: '2022-05-10'
+    version: '2022-05-02'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2560,6 +2576,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-06-08'
+  - retrieved: '2022-05-10'
+    version: '2022-04-27'
   vtype: date
 - name: Obstetric and Neonatal Ontology
   prefix: ontoneo
@@ -3328,6 +3346,8 @@ database:
     version: '2022-02-09'
   - retrieved: '2022-03-04'
     version: '2022-03-02'
+  - retrieved: '2022-05-10'
+    version: '2022-04-27'
   vtype: date
 - name: PubChem
   releases:
@@ -3436,6 +3456,8 @@ database:
     version: '2022-01-20'
   - retrieved: '2022-03-03'
     version: '2022-02-07'
+  - retrieved: '2022-05-10'
+    version: '2022-04-25'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -3949,6 +3971,8 @@ database:
     version: '2022-05-04'
   - retrieved: '2022-05-06'
     version: '2022-05-06'
+  - retrieved: '2022-05-10'
+    version: '2022-05-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4053,6 +4077,8 @@ database:
     version: '2021-10-20'
   - retrieved: '2022-02-03'
     version: '2022-01-28'
+  - retrieved: '2022-05-10'
+    version: '2022-04-22'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -4166,6 +4192,8 @@ database:
     version: '2021-11-28'
   - retrieved: '2022-04-27'
     version: '2022-04-05'
+  - retrieved: '2022-05-10'
+    version: '2022-04-18'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -4277,6 +4305,8 @@ database:
     version: 1.1.171
   - retrieved: '2022-03-26'
     version: 1.1.192
+  - retrieved: '2022-05-10'
+    version: 1.1.193
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -5052,6 +5082,9 @@ database:
   - date: '2022-05-04'
     retrieved: '2022-05-06'
     version: 4 May 2022
+  - date: '2022-05-08'
+    retrieved: '2022-05-10'
+    version: 8 May 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
