@@ -6,7 +6,7 @@ import logging
 from typing import Iterable, List, Mapping, Optional, Type, Union
 
 import bioregistry
-from bioregistry.data import get_ols_processing
+from bioregistry.external.ols import get_ols_processing
 from bioregistry.resolve import get_name
 
 from bioversions.utils import Getter, VersionType
