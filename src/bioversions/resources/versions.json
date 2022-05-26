@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 309,
-    "date": "2022-05-25",
+    "revision": 310,
+    "date": "2022-05-26",
     "author": "runner"
   },
   "database": [
@@ -2303,6 +2303,11 @@
           "retrieved": "2022-03-03",
           "version": "23-Feb-2022",
           "date": "2022-02-23"
+        },
+        {
+          "retrieved": "2022-05-26",
+          "version": "25-May-2022",
+          "date": "2022-05-25"
         }
       ],
       "vtype": "date"
@@ -3619,6 +3624,12 @@
           "version": "88.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/88.0/",
           "date": "2021-11-18"
+        },
+        {
+          "retrieved": "2022-05-26",
+          "version": "89.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/89.0/",
+          "date": "2022-03-10"
         }
       ],
       "vtype": "semver_minor"
@@ -7385,6 +7396,10 @@
         {
           "retrieved": "2022-05-25",
           "version": "2022-05-25"
+        },
+        {
+          "retrieved": "2022-05-26",
+          "version": "2022-05-26"
         }
       ],
       "name": "SwissLipid",
@@ -7938,6 +7953,12 @@
           "version": "2022_01",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_01/",
           "date": "2022-01-01"
+        },
+        {
+          "retrieved": "2022-05-26",
+          "version": "2022_02",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_02/",
+          "date": "2022-02-01"
         }
       ],
       "vtype": "month"
@@ -9404,6 +9425,11 @@
           "retrieved": "2022-05-25",
           "version": "23 May 2022",
           "date": "2022-05-23"
+        },
+        {
+          "retrieved": "2022-05-26",
+          "version": "24 May 2022",
+          "date": "2022-05-24"
         }
       ],
       "name": "Zebrafish Information Network",

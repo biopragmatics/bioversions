@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-05-25'
-  revision: 309
+  date: '2022-05-26'
+  revision: 310
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1266,6 +1266,9 @@ database:
   - date: '2022-02-23'
     retrieved: '2022-03-03'
     version: 23-Feb-2022
+  - date: '2022-05-25'
+    retrieved: '2022-05-26'
+    version: 25-May-2022
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -1980,6 +1983,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/88.0/
     retrieved: '2022-03-10'
     version: '88.0'
+  - date: '2022-03-10'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/89.0/
+    retrieved: '2022-05-26'
+    version: '89.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -4021,6 +4028,8 @@ database:
     version: '2022-05-24'
   - retrieved: '2022-05-25'
     version: '2022-05-25'
+  - retrieved: '2022-05-26'
+    version: '2022-05-26'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4319,6 +4328,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_01/
     retrieved: '2022-03-03'
     version: '2022_01'
+  - date: '2022-02-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_02/
+    retrieved: '2022-05-26'
+    version: '2022_02'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -5182,6 +5195,9 @@ database:
   - date: '2022-05-23'
     retrieved: '2022-05-25'
     version: 23 May 2022
+  - date: '2022-05-24'
+    retrieved: '2022-05-26'
+    version: 24 May 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
