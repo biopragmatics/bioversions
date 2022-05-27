@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-05-26'
-  revision: 310
+  date: '2022-05-27'
+  revision: 311
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3483,6 +3483,8 @@ database:
     version: '2022-02-07'
   - retrieved: '2022-05-10'
     version: '2022-04-25'
+  - retrieved: '2022-05-27'
+    version: '2022-05-23'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -3505,6 +3507,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.7/
     retrieved: '2021-12-22'
     version: '14.7'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.8/
+    retrieved: '2022-05-27'
+    version: '14.8'
   vtype: semver_minor
 - name: Rhea
   prefix: rhea
@@ -4030,6 +4035,8 @@ database:
     version: '2022-05-25'
   - retrieved: '2022-05-26'
     version: '2022-05-26'
+  - retrieved: '2022-05-27'
+    version: '2022-05-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5198,6 +5205,9 @@ database:
   - date: '2022-05-24'
     retrieved: '2022-05-26'
     version: 24 May 2022
+  - date: '2022-05-25'
+    retrieved: '2022-05-27'
+    version: 25 May 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
