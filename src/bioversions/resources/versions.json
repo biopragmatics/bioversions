@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 316,
-    "date": "2022-06-01",
+    "revision": 317,
+    "date": "2022-06-02",
     "author": "runner"
   },
   "database": [
@@ -394,6 +394,11 @@
           "retrieved": "2022-05-02",
           "version": "4.4.209",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.209"
+        },
+        {
+          "retrieved": "2022-06-02",
+          "version": "4.4.210",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.210"
         }
       ],
       "vtype": "semver"
@@ -7438,6 +7443,10 @@
         {
           "retrieved": "2022-06-01",
           "version": "2022-06-01"
+        },
+        {
+          "retrieved": "2022-06-02",
+          "version": "2022-06-02"
         }
       ],
       "name": "SwissLipid",
@@ -9498,6 +9507,11 @@
           "retrieved": "2022-06-01",
           "version": "30 May 2022",
           "date": "2022-05-30"
+        },
+        {
+          "retrieved": "2022-06-02",
+          "version": "31 May 2022",
+          "date": "2022-05-31"
         }
       ],
       "name": "Zebrafish Information Network",
