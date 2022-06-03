@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 317,
-    "date": "2022-06-02",
+    "revision": 318,
+    "date": "2022-06-03",
     "author": "runner"
   },
   "database": [
@@ -1727,6 +1727,12 @@
           "version": "2022-04-28",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-04-28",
           "date": "2022-04-28"
+        },
+        {
+          "retrieved": "2022-06-03",
+          "version": "2022-06-02",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-06-02",
+          "date": "2022-06-02"
         }
       ],
       "vtype": "date"
@@ -5973,6 +5979,12 @@
           "version": "2022-04-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2022-04-01/",
           "date": "2022-04-01"
+        },
+        {
+          "retrieved": "2022-06-03",
+          "version": "2022-05-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2022-05-01/",
+          "date": "2022-05-01"
         }
       ],
       "name": "PomBase",
@@ -7447,6 +7459,10 @@
         {
           "retrieved": "2022-06-02",
           "version": "2022-06-02"
+        },
+        {
+          "retrieved": "2022-06-03",
+          "version": "2022-06-03"
         }
       ],
       "name": "SwissLipid",
@@ -9512,6 +9528,11 @@
           "retrieved": "2022-06-02",
           "version": "31 May 2022",
           "date": "2022-05-31"
+        },
+        {
+          "retrieved": "2022-06-03",
+          "version": "1 Jun 2022",
+          "date": "2022-06-01"
         }
       ],
       "name": "Zebrafish Information Network",
