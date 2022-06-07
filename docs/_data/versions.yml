@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-06-06'
-  revision: 321
+  date: '2022-06-07'
+  revision: 322
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -960,6 +960,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-06-02
     retrieved: '2022-06-03'
     version: '2022-06-02'
+  - date: '2022-06-06'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-06-06
+    retrieved: '2022-06-07'
+    version: '2022-06-06'
   vtype: date
 - name: DisGeNet
   releases:
@@ -2510,6 +2514,9 @@ database:
   - date: '2022-04-25'
     retrieved: '2022-04-30'
     version: 22.04d
+  - date: '2022-05-31'
+    retrieved: '2022-06-07'
+    version: 22.05e
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -3605,6 +3612,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_05022022.zip
     retrieved: '2022-05-03'
     version: '2022-05-02'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_06062022.zip
+    retrieved: '2022-06-07'
+    version: '2022-06-06'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -4077,6 +4087,8 @@ database:
     version: '2022-06-05'
   - retrieved: '2022-06-06'
     version: '2022-06-06'
+  - retrieved: '2022-06-07'
+    version: '2022-06-07'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5278,6 +5290,9 @@ database:
   - date: '2022-06-04'
     retrieved: '2022-06-06'
     version: 4 Jun 2022
+  - date: '2022-06-05'
+    retrieved: '2022-06-07'
+    version: 5 Jun 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
