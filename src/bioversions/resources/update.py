@@ -7,9 +7,11 @@ import sys
 from datetime import datetime
 
 import click
+from tqdm.contrib.logging import logging_redirect_tqdm
 
 from bioversions.resources import (
     EXPORT_PATH,
+    FAILURES_PATH,
     load_versions,
     write_export,
     write_versions,
@@ -30,6 +32,11 @@ def _get_clean_dict(d):
 @click.option("--force", is_flag=True)
 def update(force: bool):
     """Update the data file."""
+    with logging_redirect_tqdm():
+        _update(force=force)
+
+
+def _update(force: bool):
     if not get_git_hash():
         click.secho("Not on development installation", fg="red")
         return sys.exit(1)
@@ -42,7 +49,12 @@ def update(force: bool):
     today = datetime.now().strftime("%Y-%m-%d")
 
     changes = False
-    for bv in _iter_versions(use_tqdm=True):
+    errors = []
+    for bv, error in _iter_versions(use_tqdm=True):
+        if error is not None:
+            errors.append(error)
+            continue
+
         if bv.name in versions:
             v = versions[bv.name]
         else:
@@ -85,6 +97,8 @@ def update(force: bool):
         click.secho(f"Writing new {EXPORT_PATH}", fg="green", bold=True)
         write_export(rv)
         write_versions(rv)
+
+    FAILURES_PATH.write_text("# Errors\n\n" + "\n".join(f"- {error}" for error in errors))
 
 
 def _log_update(bv) -> None:

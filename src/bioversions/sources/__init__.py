@@ -5,7 +5,7 @@
 import ftplib
 import logging
 from functools import lru_cache
-from typing import Iterable, List, Mapping, Optional, Type
+from typing import Iterable, List, Mapping, Optional, Tuple, Type, Union
 
 from tqdm import tqdm
 
@@ -166,10 +166,12 @@ def get_version(name: str) -> str:
 
 def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
     """Get the rows, refreshing once per day."""
-    return list(_iter_versions(use_tqdm=use_tqdm))
+    return [bioversion for bioversion, error in _iter_versions(use_tqdm=use_tqdm) if error is None]
 
 
-def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
+def _iter_versions(
+    use_tqdm: Optional[bool] = False,
+) -> Iterable[Union[Tuple[Bioversion, None], Tuple[None, str]]]:
     it = tqdm(get_getters(), disable=not use_tqdm)
 
     for cls in it:
@@ -177,10 +179,12 @@ def _iter_versions(use_tqdm: Optional[bool] = False) -> Iterable[Bioversion]:
         try:
             yv = resolve(cls.name)
         except (IOError, AttributeError, ftplib.error_perm):
-            tqdm.write(f"failed to resolve {cls.name}")
-            continue
+            msg = f"failed to resolve {cls.name}"
+            tqdm.write(msg)
+            yield None, msg
         except ValueError as e:
-            tqdm.write(f"issue parsing {cls.name}: {e}")
-            continue
+            msg = f"issue parsing {cls.name}: {e}"
+            tqdm.write(msg)
+            yield None, msg
         else:
-            yield yv
+            yield yv, None

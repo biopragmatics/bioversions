@@ -4,7 +4,7 @@
 
 import datetime
 import json
-import os
+from pathlib import Path
 
 import yaml
 
@@ -16,13 +16,14 @@ __all__ = [
     "write_export",
 ]
 
-HERE = os.path.abspath(os.path.dirname(__file__))
-VERSIONS_PATH = os.path.join(HERE, "versions.json")
+HERE = Path(__file__).parent.resolve()
+VERSIONS_PATH = HERE.joinpath(HERE, "versions.json")
 
-EXPORTS_DIRECTORY = os.path.abspath(
-    os.path.join(HERE, os.pardir, os.pardir, os.pardir, "docs", "_data")
-)
-EXPORT_PATH = os.path.join(EXPORTS_DIRECTORY, "versions.yml")
+ROOT = HERE.parent.parent.parent.resolve()
+DOCS = ROOT.joinpath("docs")
+EXPORTS_DIRECTORY = DOCS.joinpath("_data")
+EXPORT_PATH = EXPORTS_DIRECTORY.joinpath("versions.yml")
+FAILURES_PATH = DOCS.joinpath("failures.md")
 
 
 def load_versions():
