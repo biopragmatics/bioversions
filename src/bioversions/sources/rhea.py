@@ -21,7 +21,7 @@ class RheaGetter(Getter):
 
     bioregistry_id = "rhea"
     name = "Rhea"
-    date_fmt = "%Y-%m-%d"
+    date_fmt = "%d-%b-%Y"
     version_type = VersionType.date
 
     def get(self):
@@ -31,7 +31,7 @@ class RheaGetter(Getter):
             d = dict(line.strip().split("=") for line in res.text.splitlines() if line.strip())
         return {
             "version": d["rhea.release.number"],
-            "date": d["rhea.release.date"],
+            "date": d["rhea.release.date"].title(),
         }
 
 
