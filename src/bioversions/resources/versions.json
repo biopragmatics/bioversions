@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 323,
-    "date": "2022-06-09",
+    "revision": 324,
+    "date": "2022-06-10",
     "author": "runner"
   },
   "database": [
@@ -2694,6 +2694,11 @@
           "retrieved": "2022-03-30",
           "version": "2022_02",
           "homepage": "http://ftp.flybase.net/releases/FB2022_02/"
+        },
+        {
+          "retrieved": "2022-06-10",
+          "version": "2022_03",
+          "homepage": "http://ftp.flybase.net/releases/FB2022_03/"
         }
       ],
       "name": "FlyBase",
@@ -3179,6 +3184,12 @@
           "version": "2022.1",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.1.zip",
           "date": "2022-03-31"
+        },
+        {
+          "retrieved": "2022-06-10",
+          "version": "2022.2",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.2.zip",
+          "date": "2022-06-09"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -6486,6 +6497,11 @@
           "retrieved": "2022-03-03",
           "version": "121",
           "date": "2022-02-23"
+        },
+        {
+          "retrieved": "2022-06-10",
+          "version": "122",
+          "date": "2022-05-25"
         }
       ],
       "vtype": "date"
@@ -7515,6 +7531,10 @@
         {
           "retrieved": "2022-06-09",
           "version": "2022-06-09"
+        },
+        {
+          "retrieved": "2022-06-10",
+          "version": "2022-06-10"
         }
       ],
       "name": "SwissLipid",
@@ -9610,6 +9630,11 @@
           "retrieved": "2022-06-09",
           "version": "7 Jun 2022",
           "date": "2022-06-07"
+        },
+        {
+          "retrieved": "2022-06-10",
+          "version": "8 Jun 2022",
+          "date": "2022-06-08"
         }
       ],
       "name": "Zebrafish Information Network",

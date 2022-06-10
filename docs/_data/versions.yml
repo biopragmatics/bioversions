@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-06-09'
-  revision: 323
+  date: '2022-06-10'
+  revision: 324
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1473,6 +1473,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2022_02/
     retrieved: '2022-03-30'
     version: '2022_02'
+  - homepage: http://ftp.flybase.net/releases/FB2022_03/
+    retrieved: '2022-06-10'
+    version: '2022_03'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -1742,6 +1745,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.1.zip
     retrieved: '2022-04-01'
     version: '2022.1'
+  - date: '2022-06-09'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.2.zip
+    retrieved: '2022-06-10'
+    version: '2022.2'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -3563,6 +3570,9 @@ database:
   - date: '2022-02-23'
     retrieved: '2022-03-03'
     version: '121'
+  - date: '2022-05-25'
+    retrieved: '2022-06-10'
+    version: '122'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -4095,6 +4105,8 @@ database:
     version: '2022-06-07'
   - retrieved: '2022-06-09'
     version: '2022-06-09'
+  - retrieved: '2022-06-10'
+    version: '2022-06-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5302,6 +5314,9 @@ database:
   - date: '2022-06-07'
     retrieved: '2022-06-09'
     version: 7 Jun 2022
+  - date: '2022-06-08'
+    retrieved: '2022-06-10'
+    version: 8 Jun 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
