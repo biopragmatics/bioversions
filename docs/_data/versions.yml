@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-06-10'
-  revision: 324
+  date: '2022-06-11'
+  revision: 325
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -519,6 +519,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel210/
     retrieved: '2022-04-05'
     version: '210'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel211/
+    retrieved: '2022-06-11'
+    version: '211'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -4107,6 +4110,8 @@ database:
     version: '2022-06-09'
   - retrieved: '2022-06-10'
     version: '2022-06-10'
+  - retrieved: '2022-06-11'
+    version: '2022-06-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5317,6 +5322,9 @@ database:
   - date: '2022-06-08'
     retrieved: '2022-06-10'
     version: 8 Jun 2022
+  - date: '2022-06-09'
+    retrieved: '2022-06-11'
+    version: 9 Jun 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

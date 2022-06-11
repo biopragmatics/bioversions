@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 324,
-    "date": "2022-06-10",
+    "revision": 325,
+    "date": "2022-06-11",
     "author": "runner"
   },
   "database": [
@@ -954,6 +954,11 @@
           "retrieved": "2022-04-05",
           "version": "210",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel210/"
+        },
+        {
+          "retrieved": "2022-06-11",
+          "version": "211",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel211/"
         }
       ],
       "vtype": "sequential"
@@ -7535,6 +7540,10 @@
         {
           "retrieved": "2022-06-10",
           "version": "2022-06-10"
+        },
+        {
+          "retrieved": "2022-06-11",
+          "version": "2022-06-11"
         }
       ],
       "name": "SwissLipid",
@@ -9635,6 +9644,11 @@
           "retrieved": "2022-06-10",
           "version": "8 Jun 2022",
           "date": "2022-06-08"
+        },
+        {
+          "retrieved": "2022-06-11",
+          "version": "9 Jun 2022",
+          "date": "2022-06-09"
         }
       ],
       "name": "Zebrafish Information Network",
