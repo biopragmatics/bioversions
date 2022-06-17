@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-06-16'
-  revision: 330
+  date: '2022-06-17'
+  revision: 331
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1345,6 +1345,8 @@ database:
     version: 3.41.0
   - retrieved: '2022-05-19'
     version: 3.42.0
+  - retrieved: '2022-06-17'
+    version: 3.43.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1786,6 +1788,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2.5'
+  - retrieved: '2022-06-17'
+    version: '2.6'
   vtype: semver
 - name: Human Cell Atlas Ontology
   prefix: hcao
@@ -3482,6 +3486,8 @@ database:
     version: '79'
   - retrieved: '2022-04-08'
     version: '80'
+  - retrieved: '2022-06-17'
+    version: '81'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -4122,6 +4128,8 @@ database:
     version: '2022-06-15'
   - retrieved: '2022-06-16'
     version: '2022-06-16'
+  - retrieved: '2022-06-17'
+    version: '2022-06-17'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5350,6 +5358,9 @@ database:
   - date: '2022-06-14'
     retrieved: '2022-06-16'
     version: 14 Jun 2022
+  - date: '2022-06-15'
+    retrieved: '2022-06-17'
+    version: 15 Jun 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
