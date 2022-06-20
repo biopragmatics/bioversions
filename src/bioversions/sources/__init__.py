@@ -27,6 +27,7 @@ from .ensembl import EnsemblGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
+from .hgnc import HGNCGetter
 from .homologene import HomoloGeneGetter
 from .intact import IntActGetter
 from .interpro import InterProGetter
@@ -121,6 +122,7 @@ def get_getters() -> List[Type[Getter]]:
         DepMapGetter,
         PathwayCommonsGetter,
         UMLSGetter,
+        HGNCGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
