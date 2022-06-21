@@ -21,7 +21,7 @@ class RheaGetter(Getter):
 
     bioregistry_id = "rhea"
     name = "Rhea"
-    date_fmt = "%d-%b-%Y"
+    date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
     def get(self):
