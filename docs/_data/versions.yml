@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-06-20'
-  revision: 334
+  date: '2022-06-22'
+  revision: 335
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -341,6 +341,8 @@ database:
     version: '2021-12-14'
   - retrieved: '2022-03-28'
     version: '2022-03-22'
+  - retrieved: '2022-06-22'
+    version: '2022-06-13'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -443,6 +445,8 @@ database:
     version: '2022-01-05'
   - retrieved: '2022-03-03'
     version: '2022-02-16'
+  - retrieved: '2022-06-22'
+    version: '2022-06-15'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -1005,6 +1009,8 @@ database:
     version: '2022-02-25'
   - retrieved: '2022-04-27'
     version: '2022-04-12'
+  - retrieved: '2022-06-22'
+    version: '2022-06-08'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1023,6 +1029,8 @@ database:
     version: '2022-02-24'
   - retrieved: '2022-04-27'
     version: '2022-04-13'
+  - retrieved: '2022-06-22'
+    version: '2022-06-09'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1047,6 +1055,8 @@ database:
     version: '2022-02-24'
   - retrieved: '2022-04-27'
     version: '2022-04-13'
+  - retrieved: '2022-06-22'
+    version: '2022-06-09'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -1074,6 +1084,8 @@ database:
     version: '2019-01-30'
   - retrieved: '2021-06-25'
     version: '2021-06-11'
+  - retrieved: '2022-06-22'
+    version: '2022-06-14'
   vtype: date
 - name: DrugBank
   prefix: drugbank
@@ -1263,6 +1275,8 @@ database:
     version: '2022-02-09'
   - retrieved: '2022-04-27'
     version: '2022-04-11'
+  - retrieved: '2022-06-22'
+    version: '2022-05-27'
   vtype: date
 - name: ExPASy
   prefix: eccode
@@ -1505,6 +1519,8 @@ database:
     version: '2022-02-24'
   - retrieved: '2022-04-27'
     version: '2022-04-14'
+  - retrieved: '2022-06-22'
+    version: '2022-06-09'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -1763,6 +1779,13 @@ database:
   - retrieved: '2021-12-16'
     version: '2021-12-13'
   vtype: date
+- name: HGNC
+  prefix: hgnc
+  releases:
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2022-06-01.json
+    retrieved: '2022-06-22'
+    version: '2022-06-01'
+  vtype: date
 - name: Histopathology Ontology
   prefix: hpath
   releases:
@@ -1836,6 +1859,8 @@ database:
     version: '2022-03-16'
   - retrieved: '2022-05-10'
     version: '2022-04-19'
+  - retrieved: '2022-06-22'
+    version: '2022-06-10'
   vtype: date
 - name: Human developmental anatomy, abstract
   prefix: ehdaa2
@@ -1876,6 +1901,8 @@ database:
     version: '2022-02-14'
   - retrieved: '2022-04-27'
     version: '2022-04-14'
+  - retrieved: '2022-06-22'
+    version: '2022-06-11'
   vtype: date
 - name: HUPO-PSI cross-linking and derivatization reagents controlled vocabulary
   prefix: xlmod
@@ -2201,6 +2228,8 @@ database:
     version: '2022-03-23'
   - retrieved: '2022-04-27'
     version: '2022-04-11'
+  - retrieved: '2022-06-22'
+    version: '2022-06-01'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -2400,6 +2429,8 @@ database:
     version: '2022-04-04'
   - retrieved: '2022-05-10'
     version: '2022-05-02'
+  - retrieved: '2022-06-22'
+    version: '2022-06-01'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2559,6 +2590,8 @@ database:
   releases:
   - retrieved: '2022-05-14'
     version: '2021-12-14'
+  - retrieved: '2022-06-22'
+    version: '2022-02-21'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -2769,6 +2802,8 @@ database:
     version: 1.2.0
   - retrieved: '2021-07-06'
     version: June 2021 release
+  - retrieved: '2022-06-22'
+    version: Release version 1.2.3
   vtype: date
 - name: Ontology for Parasite Lifecycle
   prefix: opl
@@ -2903,6 +2938,8 @@ database:
     version: '2022-03-04'
   - retrieved: '2022-04-27'
     version: '2022-04-11'
+  - retrieved: '2022-06-22'
+    version: '2022-06-03'
   vtype: date
 - name: Ontology of Organizational Structures of Trauma centers and Trauma Systems
   prefix: oostt
@@ -2935,6 +2972,8 @@ database:
     version: 1.0.146
   - retrieved: '2022-03-26'
     version: 1.0.152
+  - retrieved: '2022-06-22'
+    version: 1.0.158
   vtype: semver
 - name: Ontology of Prokaryotic Phenotypic and Metabolic Characters
   prefix: micro
@@ -2983,6 +3022,8 @@ database:
     version: 2.0.34
   - retrieved: '2022-01-04'
     version: 2.0.35
+  - retrieved: '2022-06-22'
+    version: 2.0.37
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -3161,6 +3202,8 @@ database:
     version: '2022-01-12'
   - retrieved: '2022-03-03'
     version: '2022-02-20'
+  - retrieved: '2022-06-22'
+    version: '2022-06-17'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -3458,6 +3501,8 @@ database:
     version: '2022-01-14'
   - retrieved: '2022-04-27'
     version: '2022-04-16'
+  - retrieved: '2022-06-22'
+    version: '2022-06-02'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -4136,6 +4181,8 @@ database:
     version: '2022-06-19'
   - retrieved: '2022-06-20'
     version: '2022-06-20'
+  - retrieved: '2022-06-22'
+    version: '2022-06-22'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4150,6 +4197,8 @@ database:
     version: '2020-08-04'
   - retrieved: '2022-04-12'
     version: '2022-04-05'
+  - retrieved: '2022-06-22'
+    version: '2022-05-26'
   vtype: date
 - name: Systems Biology Ontology
   prefix: sbo
@@ -4357,6 +4406,8 @@ database:
     version: '2022-04-05'
   - retrieved: '2022-05-10'
     version: '2022-04-18'
+  - retrieved: '2022-06-22'
+    version: '2022-05-27'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -4474,6 +4525,8 @@ database:
     version: 1.1.192
   - retrieved: '2022-05-10'
     version: 1.1.193
+  - retrieved: '2022-06-22'
+    version: 1.1.196
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -4518,6 +4571,8 @@ database:
     version: '2021-09-09'
   - retrieved: '2022-03-03'
     version: '2022-02-15'
+  - retrieved: '2022-06-22'
+    version: '2022-06-08'
   vtype: date
 - name: Vitis ontology
   prefix: co_356
@@ -5376,6 +5431,9 @@ database:
   - date: '2022-06-18'
     retrieved: '2022-06-20'
     version: 18 Jun 2022
+  - date: '2022-06-20'
+    retrieved: '2022-06-22'
+    version: 20 Jun 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 334,
-    "date": "2022-06-20",
+    "revision": 335,
+    "date": "2022-06-22",
     "author": "runner"
   },
   "database": [
@@ -627,6 +627,10 @@
         {
           "retrieved": "2022-03-28",
           "version": "2022-03-22"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-13"
         }
       ],
       "vtype": "date"
@@ -821,6 +825,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-16"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-15"
         }
       ],
       "prefix": "cl",
@@ -1813,6 +1821,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-12"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-08"
         }
       ],
       "name": "Drosophila development",
@@ -1848,6 +1860,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-13"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-09"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -1895,6 +1911,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-13"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-09"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -1947,6 +1967,10 @@
         {
           "retrieved": "2021-06-25",
           "version": "2021-06-11"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-14"
         }
       ],
       "vtype": "date"
@@ -2293,6 +2317,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-11"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-05-27"
         }
       ],
       "name": "Evidence ontology",
@@ -2755,6 +2783,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-14"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-09"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -3220,6 +3252,18 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-01",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2022-06-01.json"
+        }
+      ],
+      "name": "HGNC",
+      "prefix": "hgnc",
+      "vtype": "date"
+    },
+    {
       "name": "Histopathology Ontology",
       "prefix": "hpath",
       "releases": [
@@ -3358,6 +3402,10 @@
         {
           "retrieved": "2022-05-10",
           "version": "2022-04-19"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-10"
         }
       ],
       "vtype": "date"
@@ -3435,6 +3483,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-14"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-11"
         }
       ],
       "vtype": "date"
@@ -4020,6 +4072,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-11"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-01"
         }
       ],
       "vtype": "date"
@@ -4390,6 +4446,10 @@
         {
           "retrieved": "2022-05-10",
           "version": "2022-05-02"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-01"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -4673,6 +4733,10 @@
         {
           "retrieved": "2022-05-14",
           "version": "2021-12-14"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-02-21"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -5065,6 +5129,10 @@
         {
           "retrieved": "2021-07-06",
           "version": "June 2021 release"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "Release version 1.2.3"
         }
       ],
       "vtype": "date"
@@ -5320,6 +5388,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-11"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-03"
         }
       ],
       "vtype": "date"
@@ -5379,6 +5451,10 @@
         {
           "retrieved": "2022-03-26",
           "version": "1.0.152"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "1.0.158"
         }
       ],
       "name": "Ontology of Precision Medicine and Investigation",
@@ -5428,6 +5504,10 @@
         {
           "retrieved": "2022-01-04",
           "version": "2.0.35"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2.0.37"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -5755,6 +5835,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-20"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-17"
         }
       ],
       "prefix": "pato",
@@ -6291,6 +6375,10 @@
         {
           "retrieved": "2022-04-27",
           "version": "2022-04-16"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-02"
         }
       ],
       "vtype": "date"
@@ -7592,6 +7680,10 @@
         {
           "retrieved": "2022-06-20",
           "version": "2022-06-20"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-22"
         }
       ],
       "name": "SwissLipid",
@@ -7620,6 +7712,10 @@
         {
           "retrieved": "2022-04-12",
           "version": "2022-04-05"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-05-26"
         }
       ],
       "vtype": "date"
@@ -8008,6 +8104,10 @@
         {
           "retrieved": "2022-05-10",
           "version": "2022-04-18"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-05-27"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -8220,6 +8320,10 @@
         {
           "retrieved": "2022-05-10",
           "version": "1.1.193"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "1.1.196"
         }
       ],
       "vtype": "semver"
@@ -8300,6 +8404,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2022-02-15"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "2022-06-08"
         }
       ],
       "name": "VEuPathDB ontology",
@@ -9742,6 +9850,11 @@
           "retrieved": "2022-06-20",
           "version": "18 Jun 2022",
           "date": "2022-06-18"
+        },
+        {
+          "retrieved": "2022-06-22",
+          "version": "20 Jun 2022",
+          "date": "2022-06-20"
         }
       ],
       "name": "Zebrafish Information Network",
