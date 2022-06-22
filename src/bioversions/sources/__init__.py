@@ -50,6 +50,7 @@ from .pr import PRGetter
 from .pubchem import PubChemGetter
 from .reactome import ReactomeGetter
 from .rfam import RfamGetter
+from .rgd import RGDGetter
 from .rhea import RheaGetter
 from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
@@ -123,6 +124,7 @@ def get_getters() -> List[Type[Getter]]:
         PathwayCommonsGetter,
         UMLSGetter,
         HGNCGetter,
+        RGDGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
