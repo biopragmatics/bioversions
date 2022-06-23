@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 335,
-    "date": "2022-06-22",
+    "revision": 336,
+    "date": "2022-06-23",
     "author": "runner"
   },
   "database": [
@@ -3036,6 +3036,12 @@
           "version": "2022-05-16",
           "homepage": "http://archive.geneontology.org/full/2022-05-16/",
           "date": "2022-05-16"
+        },
+        {
+          "retrieved": "2022-06-23",
+          "version": "2022-06-15",
+          "homepage": "http://archive.geneontology.org/full/2022-06-15/",
+          "date": "2022-06-15"
         }
       ],
       "vtype": "date"
@@ -6384,6 +6390,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2022-06-23",
+          "version": "2022-06-10"
+        }
+      ],
+      "name": "Rat Genome Database",
+      "prefix": "RGD",
+      "vtype": "date"
+    },
+    {
       "name": "Rat Strain Ontology",
       "prefix": "rs",
       "releases": [
@@ -7684,6 +7701,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "2022-06-22"
+        },
+        {
+          "retrieved": "2022-06-23",
+          "version": "2022-06-23"
         }
       ],
       "name": "SwissLipid",
@@ -9855,6 +9876,11 @@
           "retrieved": "2022-06-22",
           "version": "20 Jun 2022",
           "date": "2022-06-20"
+        },
+        {
+          "retrieved": "2022-06-23",
+          "version": "21 Jun 2022",
+          "date": "2022-06-21"
         }
       ],
       "name": "Zebrafish Information Network",
