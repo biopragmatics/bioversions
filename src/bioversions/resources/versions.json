@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 343,
-    "date": "2022-07-02",
+    "revision": 344,
+    "date": "2022-07-03",
     "author": "runner"
   },
   "database": [
@@ -6193,6 +6193,12 @@
           "version": "2022-06-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2022-06-01/",
           "date": "2022-06-01"
+        },
+        {
+          "retrieved": "2022-07-03",
+          "version": "2022-07-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2022-07-01/",
+          "date": "2022-07-01"
         }
       ],
       "name": "PomBase",
@@ -7809,6 +7815,10 @@
         {
           "retrieved": "2022-07-02",
           "version": "2022-07-02"
+        },
+        {
+          "retrieved": "2022-07-03",
+          "version": "2022-07-03"
         }
       ],
       "name": "SwissLipid",
@@ -10032,6 +10042,11 @@
           "retrieved": "2022-07-02",
           "version": "30 Jun 2022",
           "date": "2022-06-30"
+        },
+        {
+          "retrieved": "2022-07-03",
+          "version": "1 Jul 2022",
+          "date": "2022-07-01"
         }
       ],
       "name": "Zebrafish Information Network",
