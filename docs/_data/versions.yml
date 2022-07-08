@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-07-07'
-  revision: 348
+  date: '2022-07-08'
+  revision: 349
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1382,6 +1382,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-03-10'
+  - retrieved: '2022-07-08'
+    version: '2022-06-29'
   vtype: date
 - name: Fababean ontology
   prefix: co_365
@@ -2470,6 +2472,8 @@ database:
     version: '2022-05-02'
   - retrieved: '2022-06-22'
     version: '2022-06-01'
+  - retrieved: '2022-07-08'
+    version: '2022-07-01'
   vtype: date
 - name: Mondo Disease Ontology
   prefix: mondo
@@ -2631,6 +2635,8 @@ database:
     version: '2021-12-14'
   - retrieved: '2022-06-22'
     version: '2022-02-21'
+  - retrieved: '2022-07-08'
+    version: '2022-06-28'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -4270,6 +4276,8 @@ database:
     version: '2022-07-06'
   - retrieved: '2022-07-07'
     version: '2022-07-07'
+  - retrieved: '2022-07-08'
+    version: '2022-07-08'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4499,6 +4507,8 @@ database:
     version: '2022-05-27'
   - retrieved: '2022-07-01'
     version: '2022-06-20'
+  - retrieved: '2022-07-08'
+    version: '2022-06-30'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -5566,6 +5576,9 @@ database:
   - date: '2022-07-05'
     retrieved: '2022-07-07'
     version: 5 Jul 2022
+  - date: '2022-07-06'
+    retrieved: '2022-07-08'
+    version: 6 Jul 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
