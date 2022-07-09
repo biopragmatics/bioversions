@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 349,
-    "date": "2022-07-08",
+    "revision": 350,
+    "date": "2022-07-09",
     "author": "runner"
   },
   "database": [
@@ -4436,6 +4436,12 @@
           "version": "2021-11-04",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-11-04",
           "date": "2021-11-04"
+        },
+        {
+          "retrieved": "2022-07-09",
+          "version": "2022-07-07",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2022-07-07",
+          "date": "2022-07-07"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -4767,6 +4773,11 @@
           "retrieved": "2022-06-07",
           "version": "22.05e",
           "date": "2022-05-31"
+        },
+        {
+          "retrieved": "2022-07-09",
+          "version": "22.06d",
+          "date": "2022-06-29"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -7862,6 +7873,10 @@
         {
           "retrieved": "2022-07-08",
           "version": "2022-07-08"
+        },
+        {
+          "retrieved": "2022-07-09",
+          "version": "2022-07-09"
         }
       ],
       "name": "SwissLipid",
@@ -10119,6 +10134,11 @@
           "retrieved": "2022-07-08",
           "version": "6 Jul 2022",
           "date": "2022-07-06"
+        },
+        {
+          "retrieved": "2022-07-09",
+          "version": "7 Jul 2022",
+          "date": "2022-07-07"
         }
       ],
       "name": "Zebrafish Information Network",
