@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 352,
-    "date": "2022-07-11",
+    "revision": 353,
+    "date": "2022-07-12",
     "author": "runner"
   },
   "database": [
@@ -6505,6 +6505,10 @@
         {
           "retrieved": "2022-06-28",
           "version": "2022-06-27"
+        },
+        {
+          "retrieved": "2022-07-12",
+          "version": "2022-07-08"
         }
       ],
       "name": "Rat Genome Database",
@@ -7885,6 +7889,10 @@
         {
           "retrieved": "2022-07-11",
           "version": "2022-07-11"
+        },
+        {
+          "retrieved": "2022-07-12",
+          "version": "2022-07-12"
         }
       ],
       "name": "SwissLipid",
@@ -8771,6 +8779,12 @@
           "version": "20220510",
           "homepage": "http://data.wikipathways.org/20220510/",
           "date": "2022-05-10"
+        },
+        {
+          "retrieved": "2022-07-12",
+          "version": "20220710",
+          "homepage": "http://data.wikipathways.org/20220710/",
+          "date": "2022-07-10"
         }
       ],
       "vtype": "date"
@@ -10157,6 +10171,11 @@
           "retrieved": "2022-07-11",
           "version": "9 Jul 2022",
           "date": "2022-07-09"
+        },
+        {
+          "retrieved": "2022-07-12",
+          "version": "10 Jul 2022",
+          "date": "2022-07-10"
         }
       ],
       "name": "Zebrafish Information Network",
