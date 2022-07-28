@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-07-26'
-  revision: 366
+  date: '2022-07-28'
+  revision: 367
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -996,6 +996,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-06-07
     retrieved: '2022-06-09'
     version: '2022-06-07'
+  - date: '2022-07-27'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-07-27
+    retrieved: '2022-07-28'
+    version: '2022-07-27'
   vtype: date
 - name: DisGeNet
   releases:
@@ -4347,6 +4351,8 @@ database:
     version: '2022-07-25'
   - retrieved: '2022-07-26'
     version: '2022-07-26'
+  - retrieved: '2022-07-28'
+    version: '2022-07-28'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5707,6 +5713,9 @@ database:
   - date: '2022-07-24'
     retrieved: '2022-07-26'
     version: 24 Jul 2022
+  - date: '2022-07-26'
+    retrieved: '2022-07-28'
+    version: 26 Jul 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

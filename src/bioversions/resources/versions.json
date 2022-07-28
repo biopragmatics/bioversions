@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 366,
-    "date": "2022-07-26",
+    "revision": 367,
+    "date": "2022-07-28",
     "author": "runner"
   },
   "database": [
@@ -1797,6 +1797,12 @@
           "version": "2022-06-07",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-06-07",
           "date": "2022-06-07"
+        },
+        {
+          "retrieved": "2022-07-28",
+          "version": "2022-07-27",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-07-27",
+          "date": "2022-07-27"
         }
       ],
       "vtype": "date"
@@ -7991,6 +7997,10 @@
         {
           "retrieved": "2022-07-26",
           "version": "2022-07-26"
+        },
+        {
+          "retrieved": "2022-07-28",
+          "version": "2022-07-28"
         }
       ],
       "name": "SwissLipid",
@@ -10347,6 +10357,11 @@
           "retrieved": "2022-07-26",
           "version": "24 Jul 2022",
           "date": "2022-07-24"
+        },
+        {
+          "retrieved": "2022-07-28",
+          "version": "26 Jul 2022",
+          "date": "2022-07-26"
         }
       ],
       "name": "Zebrafish Information Network",
