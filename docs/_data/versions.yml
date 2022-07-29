@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-07-28'
-  revision: 367
+  date: '2022-07-29'
+  revision: 368
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -601,6 +601,10 @@ database:
     homepage: https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20220512.zip
     retrieved: '2022-05-14'
     version: '2022-05-12'
+  - date: '2022-07-28'
+    homepage: https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20220728.zip
+    retrieved: '2022-07-29'
+    version: '2022-07-28'
   vtype: date
 - name: Chickpea ontology
   prefix: co_338
@@ -4353,6 +4357,8 @@ database:
     version: '2022-07-26'
   - retrieved: '2022-07-28'
     version: '2022-07-28'
+  - retrieved: '2022-07-29'
+    version: '2022-07-29'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5716,6 +5722,9 @@ database:
   - date: '2022-07-26'
     retrieved: '2022-07-28'
     version: 26 Jul 2022
+  - date: '2022-07-27'
+    retrieved: '2022-07-29'
+    version: 27 Jul 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

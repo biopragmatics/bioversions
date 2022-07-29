@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 367,
-    "date": "2022-07-28",
+    "revision": 368,
+    "date": "2022-07-29",
     "author": "runner"
   },
   "database": [
@@ -1095,6 +1095,12 @@
           "version": "2022-05-12",
           "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20220512.zip",
           "date": "2022-05-12"
+        },
+        {
+          "retrieved": "2022-07-29",
+          "version": "2022-07-28",
+          "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20220728.zip",
+          "date": "2022-07-28"
         }
       ],
       "name": "ChemIDplus",
@@ -8001,6 +8007,10 @@
         {
           "retrieved": "2022-07-28",
           "version": "2022-07-28"
+        },
+        {
+          "retrieved": "2022-07-29",
+          "version": "2022-07-29"
         }
       ],
       "name": "SwissLipid",
@@ -10362,6 +10372,11 @@
           "retrieved": "2022-07-28",
           "version": "26 Jul 2022",
           "date": "2022-07-26"
+        },
+        {
+          "retrieved": "2022-07-29",
+          "version": "27 Jul 2022",
+          "date": "2022-07-27"
         }
       ],
       "name": "Zebrafish Information Network",
