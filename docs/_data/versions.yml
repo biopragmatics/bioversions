@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-07-30'
-  revision: 369
+  date: '2022-07-31'
+  revision: 370
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -29,6 +29,12 @@ database:
   - retrieved: '2021-06-14'
     version: '2019-05-10'
   vtype: date
+- name: Alzheimer's Disease Ontology
+  prefix: ado
+  releases:
+  - retrieved: '2022-07-31'
+    version: 2.0.0
+  vtype: semver
 - name: Amphioxus Development and Anatomy Ontology (AMPHX)
   prefix: amphx
   releases:
@@ -3501,6 +3507,12 @@ database:
   - retrieved: '2021-02-02'
     version: 2.5.0
   vtype: semver
+- name: Process Chemistry Ontology
+  prefix: proco
+  releases:
+  - retrieved: '2022-07-31'
+    version: PROCO release 20220414
+  vtype: semver
 - name: Protein modification
   prefix: mod
   releases:
@@ -4361,6 +4373,8 @@ database:
     version: '2022-07-29'
   - retrieved: '2022-07-30'
     version: '2022-07-30'
+  - retrieved: '2022-07-31'
+    version: '2022-07-31'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5730,6 +5744,9 @@ database:
   - date: '2022-07-28'
     retrieved: '2022-07-30'
     version: 28 Jul 2022
+  - date: '2022-07-29'
+    retrieved: '2022-07-31'
+    version: 29 Jul 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

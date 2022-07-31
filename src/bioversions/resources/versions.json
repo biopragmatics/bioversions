@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 369,
-    "date": "2022-07-30",
+    "revision": 370,
+    "date": "2022-07-31",
     "author": "runner"
   },
   "database": [
@@ -53,6 +53,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2022-07-31",
+          "version": "2.0.0"
+        }
+      ],
+      "name": "Alzheimer's Disease Ontology",
+      "prefix": "ado",
+      "vtype": "semver"
     },
     {
       "name": "Amphioxus Development and Anatomy Ontology (AMPHX)",
@@ -6376,6 +6387,17 @@
     {
       "releases": [
         {
+          "retrieved": "2022-07-31",
+          "version": "PROCO release 20220414"
+        }
+      ],
+      "name": "Process Chemistry Ontology",
+      "prefix": "proco",
+      "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
           "retrieved": "2021-04-14",
           "version": "2020-04-14"
         }
@@ -8015,6 +8037,10 @@
         {
           "retrieved": "2022-07-30",
           "version": "2022-07-30"
+        },
+        {
+          "retrieved": "2022-07-31",
+          "version": "2022-07-31"
         }
       ],
       "name": "SwissLipid",
@@ -10386,6 +10412,11 @@
           "retrieved": "2022-07-30",
           "version": "28 Jul 2022",
           "date": "2022-07-28"
+        },
+        {
+          "retrieved": "2022-07-31",
+          "version": "29 Jul 2022",
+          "date": "2022-07-29"
         }
       ],
       "name": "Zebrafish Information Network",
