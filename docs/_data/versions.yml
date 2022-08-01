@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-07-31'
-  revision: 370
+  date: '2022-08-01'
+  revision: 371
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1843,6 +1843,9 @@ database:
   - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2022-07-01.json
     retrieved: '2022-07-01'
     version: '2022-07-01'
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2022-08-01.json
+    retrieved: '2022-08-01'
+    version: '2022-08-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -3590,6 +3593,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-07-01
     retrieved: '2022-07-01'
     version: '2022-07-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-08-01
+    retrieved: '2022-08-01'
+    version: '2022-08-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -4375,6 +4381,8 @@ database:
     version: '2022-07-30'
   - retrieved: '2022-07-31'
     version: '2022-07-31'
+  - retrieved: '2022-08-01'
+    version: '2022-08-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5747,6 +5755,9 @@ database:
   - date: '2022-07-29'
     retrieved: '2022-07-31'
     version: 29 Jul 2022
+  - date: '2022-07-30'
+    retrieved: '2022-08-01'
+    version: 30 Jul 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
