@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 372,
-    "date": "2022-08-02",
+    "revision": 373,
+    "date": "2022-08-03",
     "author": "runner"
   },
   "database": [
@@ -3899,6 +3899,10 @@
         {
           "retrieved": "2022-07-02",
           "version": "28-Jun-2022"
+        },
+        {
+          "retrieved": "2022-08-03",
+          "version": "01-Aug-2022"
         }
       ],
       "name": "ITIS",
@@ -6304,6 +6308,12 @@
           "version": "2022-07-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2022-07-01/",
           "date": "2022-07-01"
+        },
+        {
+          "retrieved": "2022-08-03",
+          "version": "2022-08-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2022-08-01/",
+          "date": "2022-08-01"
         }
       ],
       "name": "PomBase",
@@ -8078,6 +8088,10 @@
         {
           "retrieved": "2022-08-02",
           "version": "2022-08-02"
+        },
+        {
+          "retrieved": "2022-08-03",
+          "version": "2022-08-03"
         }
       ],
       "name": "SwissLipid",
@@ -10464,6 +10478,11 @@
           "retrieved": "2022-08-02",
           "version": "31 Jul 2022",
           "date": "2022-07-31"
+        },
+        {
+          "retrieved": "2022-08-03",
+          "version": "1 Aug 2022",
+          "date": "2022-08-01"
         }
       ],
       "name": "Zebrafish Information Network",
