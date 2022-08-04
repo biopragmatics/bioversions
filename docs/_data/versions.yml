@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-08-03'
-  revision: 373
+  date: '2022-08-04'
+  revision: 374
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -548,6 +548,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel211/
     retrieved: '2022-06-11'
     version: '211'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel212/
+    retrieved: '2022-08-04'
+    version: '212'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -1345,6 +1348,9 @@ database:
   - date: '2022-05-25'
     retrieved: '2022-05-26'
     version: 25-May-2022
+  - date: '2022-08-03'
+    retrieved: '2022-08-04'
+    version: 03-Aug-2022
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -2113,6 +2119,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/89.0/
     retrieved: '2022-05-26'
     version: '89.0'
+  - date: '2022-05-26'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/90.0/
+    retrieved: '2022-08-04'
+    version: '90.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -3766,6 +3776,9 @@ database:
   - date: '2022-05-25'
     retrieved: '2022-06-10'
     version: '122'
+  - date: '2022-08-03'
+    retrieved: '2022-08-04'
+    version: '123'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -4404,6 +4417,8 @@ database:
     version: '2022-08-02'
   - retrieved: '2022-08-03'
     version: '2022-08-03'
+  - retrieved: '2022-08-04'
+    version: '2022-08-04'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -4720,6 +4735,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_02/
     retrieved: '2022-05-26'
     version: '2022_02'
+  - date: '2022-03-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_03/
+    retrieved: '2022-08-04'
+    version: '2022_03'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -5785,6 +5804,9 @@ database:
   - date: '2022-08-01'
     retrieved: '2022-08-03'
     version: 1 Aug 2022
+  - date: '2022-08-02'
+    retrieved: '2022-08-04'
+    version: 2 Aug 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

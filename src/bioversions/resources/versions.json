@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 373,
-    "date": "2022-08-03",
+    "revision": 374,
+    "date": "2022-08-04",
     "author": "runner"
   },
   "database": [
@@ -1008,6 +1008,11 @@
           "retrieved": "2022-06-11",
           "version": "211",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel211/"
+        },
+        {
+          "retrieved": "2022-08-04",
+          "version": "212",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel212/"
         }
       ],
       "vtype": "sequential"
@@ -2441,6 +2446,11 @@
           "retrieved": "2022-05-26",
           "version": "25-May-2022",
           "date": "2022-05-25"
+        },
+        {
+          "retrieved": "2022-08-04",
+          "version": "03-Aug-2022",
+          "date": "2022-08-03"
         }
       ],
       "vtype": "date"
@@ -3850,6 +3860,12 @@
           "version": "89.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/89.0/",
           "date": "2022-03-10"
+        },
+        {
+          "retrieved": "2022-08-04",
+          "version": "90.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/90.0/",
+          "date": "2022-05-26"
         }
       ],
       "vtype": "semver_minor"
@@ -6853,6 +6869,11 @@
           "retrieved": "2022-06-10",
           "version": "122",
           "date": "2022-05-25"
+        },
+        {
+          "retrieved": "2022-08-04",
+          "version": "123",
+          "date": "2022-08-03"
         }
       ],
       "vtype": "date"
@@ -8092,6 +8113,10 @@
         {
           "retrieved": "2022-08-03",
           "version": "2022-08-03"
+        },
+        {
+          "retrieved": "2022-08-04",
+          "version": "2022-08-04"
         }
       ],
       "name": "SwissLipid",
@@ -8679,6 +8704,12 @@
           "version": "2022_02",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_02/",
           "date": "2022-02-01"
+        },
+        {
+          "retrieved": "2022-08-04",
+          "version": "2022_03",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_03/",
+          "date": "2022-03-01"
         }
       ],
       "vtype": "month"
@@ -10483,6 +10514,11 @@
           "retrieved": "2022-08-03",
           "version": "1 Aug 2022",
           "date": "2022-08-01"
+        },
+        {
+          "retrieved": "2022-08-04",
+          "version": "2 Aug 2022",
+          "date": "2022-08-02"
         }
       ],
       "name": "Zebrafish Information Network",
