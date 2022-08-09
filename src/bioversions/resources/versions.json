@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 378,
-    "date": "2022-08-08",
+    "revision": 379,
+    "date": "2022-08-09",
     "author": "runner"
   },
   "database": [
@@ -2835,6 +2835,11 @@
           "retrieved": "2022-06-10",
           "version": "2022_03",
           "homepage": "http://ftp.flybase.net/releases/FB2022_03/"
+        },
+        {
+          "retrieved": "2022-08-09",
+          "version": "2022_04",
+          "homepage": "http://ftp.flybase.net/releases/FB2022_04/"
         }
       ],
       "name": "FlyBase",
@@ -6639,6 +6644,10 @@
         {
           "retrieved": "2022-08-02",
           "version": "2022-07-29"
+        },
+        {
+          "retrieved": "2022-08-09",
+          "version": "2022-08-05"
         }
       ],
       "name": "Rat Genome Database",
@@ -8133,6 +8142,10 @@
         {
           "retrieved": "2022-08-08",
           "version": "2022-08-08"
+        },
+        {
+          "retrieved": "2022-08-09",
+          "version": "2022-08-09"
         }
       ],
       "name": "SwissLipid",
@@ -10555,6 +10568,11 @@
           "retrieved": "2022-08-08",
           "version": "6 Aug 2022",
           "date": "2022-08-06"
+        },
+        {
+          "retrieved": "2022-08-09",
+          "version": "7 Aug 2022",
+          "date": "2022-08-07"
         }
       ],
       "name": "Zebrafish Information Network",

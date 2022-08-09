@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2022-08-08'
-  revision: 378
+  date: '2022-08-09'
+  revision: 379
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1551,6 +1551,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2022_03/
     retrieved: '2022-06-10'
     version: '2022_03'
+  - homepage: http://ftp.flybase.net/releases/FB2022_04/
+    retrieved: '2022-08-09'
+    version: '2022_04'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -3652,6 +3655,8 @@ database:
     version: '2022-07-22'
   - retrieved: '2022-08-02'
     version: '2022-07-29'
+  - retrieved: '2022-08-09'
+    version: '2022-08-05'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -4427,6 +4432,8 @@ database:
     version: '2022-08-07'
   - retrieved: '2022-08-08'
     version: '2022-08-08'
+  - retrieved: '2022-08-09'
+    version: '2022-08-09'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5827,6 +5834,9 @@ database:
   - date: '2022-08-06'
     retrieved: '2022-08-08'
     version: 6 Aug 2022
+  - date: '2022-08-07'
+    retrieved: '2022-08-09'
+    version: 7 Aug 2022
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
