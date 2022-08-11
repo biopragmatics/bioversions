@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 380,
-    "date": "2022-08-10",
+    "revision": 381,
+    "date": "2022-08-11",
     "author": "runner"
   },
   "database": [
@@ -5460,6 +5460,10 @@
         {
           "retrieved": "2021-12-08",
           "version": "2021-12-03"
+        },
+        {
+          "retrieved": "2022-08-11",
+          "version": "2022-08-03"
         }
       ],
       "vtype": "date"
@@ -6042,6 +6046,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "2022-06-17"
+        },
+        {
+          "retrieved": "2022-08-11",
+          "version": "2022-07-21"
         }
       ],
       "prefix": "pato",
@@ -8150,6 +8158,10 @@
         {
           "retrieved": "2022-08-10",
           "version": "2022-08-10"
+        },
+        {
+          "retrieved": "2022-08-11",
+          "version": "2022-08-11"
         }
       ],
       "name": "SwissLipid",
@@ -9056,6 +9068,12 @@
           "version": "20220710",
           "homepage": "http://data.wikipathways.org/20220710/",
           "date": "2022-07-10"
+        },
+        {
+          "retrieved": "2022-08-11",
+          "version": "20220810",
+          "homepage": "http://data.wikipathways.org/20220810/",
+          "date": "2022-08-10"
         }
       ],
       "vtype": "date"
@@ -10582,6 +10600,11 @@
           "retrieved": "2022-08-10",
           "version": "8 Aug 2022",
           "date": "2022-08-08"
+        },
+        {
+          "retrieved": "2022-08-11",
+          "version": "9 Aug 2022",
+          "date": "2022-08-09"
         }
       ],
       "name": "Zebrafish Information Network",
