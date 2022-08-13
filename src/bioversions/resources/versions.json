@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 381,
-    "date": "2022-08-11",
+    "revision": 382,
+    "date": "2022-08-13",
     "author": "runner"
   },
   "database": [
@@ -2403,6 +2403,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "2022-05-27"
+        },
+        {
+          "retrieved": "2022-08-13",
+          "version": "2022-08-05"
         }
       ],
       "name": "Evidence ontology",
@@ -5595,6 +5599,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "2022-06-03"
+        },
+        {
+          "retrieved": "2022-08-13",
+          "version": "2022-08-05"
         }
       ],
       "vtype": "date"
@@ -5711,6 +5719,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "2.0.37"
+        },
+        {
+          "retrieved": "2022-08-13",
+          "version": "2.0.38"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -6502,6 +6514,11 @@
           "retrieved": "2022-04-02",
           "version": "66.0",
           "homepage": "https://proconsortium.org/download/release_66.0/"
+        },
+        {
+          "retrieved": "2022-08-13",
+          "version": "67.0",
+          "homepage": "https://proconsortium.org/download/release_67.0/"
         }
       ],
       "vtype": "semver_minor"
@@ -8162,6 +8179,10 @@
         {
           "retrieved": "2022-08-11",
           "version": "2022-08-11"
+        },
+        {
+          "retrieved": "2022-08-13",
+          "version": "2022-08-13"
         }
       ],
       "name": "SwissLipid",
@@ -10605,6 +10626,11 @@
           "retrieved": "2022-08-11",
           "version": "9 Aug 2022",
           "date": "2022-08-09"
+        },
+        {
+          "retrieved": "2022-08-13",
+          "version": "11 Aug 2022",
+          "date": "2022-08-11"
         }
       ],
       "name": "Zebrafish Information Network",
