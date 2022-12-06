@@ -2,6 +2,8 @@
 
 """A getter for DrugBank."""
 
+from operator import itemgetter
+
 import requests
 
 from bioversions.utils import Getter, VersionType
@@ -25,10 +27,9 @@ class DrugBankGetter(Getter):
     def get(self):
         """Get the latest DrugBank version number."""
         res = requests.get(URL)
-        releases = [release for release in res.json()]
-        releases = sorted(releases, key=lambda x: x['released_on'], reverse=True)
-        latest = releases[0]
-        return dict(date=latest['released_on'], version=latest['version'])
+        res.raise_for_status()
+        latest = min(res.json(), key=itemgetter("released_on"))
+        return dict(date=latest["released_on"], version=latest["version"])
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:
