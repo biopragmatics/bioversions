@@ -28,7 +28,7 @@ class DrugBankGetter(Getter):
         """Get the latest DrugBank version number."""
         res = requests.get(URL)
         res.raise_for_status()
-        latest = min(res.json(), key=itemgetter("released_on"))
+        latest = max(res.json(), key=itemgetter("released_on"))
         return dict(date=latest["released_on"], version=latest["version"])
 
     @staticmethod
