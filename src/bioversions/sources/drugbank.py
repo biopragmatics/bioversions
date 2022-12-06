@@ -2,13 +2,15 @@
 
 """A getter for DrugBank."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+import requests
+
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "DrugBankGetter",
 ]
 
-URL = "https://go.drugbank.com/releases/latest"
+URL = "https://go.drugbank.com/releases.json"
 
 
 class DrugBankGetter(Getter):
@@ -22,12 +24,11 @@ class DrugBankGetter(Getter):
 
     def get(self):
         """Get the latest DrugBank version number."""
-        soup = get_soup(URL)
-        manifest = soup.find(**{"class": "download-table"}).find("table").find("tbody").find("tr")
-        manifest = list(manifest)
-        date = manifest[1].text
-        version = manifest[2].text
-        return dict(date=date, version=version)
+        res = requests.get(URL)
+        releases = [release for release in res.json()]
+        releases = sorted(releases, key=lambda x: x['released_on'], reverse=True)
+        latest = releases[0]
+        return dict(date=latest['released_on'], version=latest['version'])
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:
