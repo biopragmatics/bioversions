@@ -183,14 +183,14 @@ class Getter(metaclass=MetaGetter):
         raise NotImplementedError
 
     @classmethod
-    def print(cls, sep: str = "\t", file=None):
+    def print(cls, sep: str = "\t", file=None):  # noqa:T202
         """Print the latest version of this database."""
         x = [cls.bioregistry_id, cls.name, cls.version]
         if cls.date:
             x.append(f"({cls.date})")
         if cls.homepage:
             x.append(cls.homepage)
-        print(*x, sep=sep, file=file)
+        print(*x, sep=sep, file=file)  # noqa:T201
 
     @classmethod
     def resolve(cls) -> Bioversion:
