@@ -6,7 +6,7 @@ import re
 
 import requests
 
-from bioversions.utils import Getter, VersionType, _get_ftp_version
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "InterProGetter",

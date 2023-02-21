@@ -51,7 +51,7 @@ def _update(force: bool):
     changes = False
     errors = []
     for bv, error in _iter_versions(use_tqdm=True):
-        if error is not None:
+        if error is not None or bv is None:
             errors.append(error)
             continue
 

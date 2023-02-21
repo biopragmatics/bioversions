@@ -172,7 +172,11 @@ def get_version(name: str) -> str:
 
 def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
     """Get the rows, refreshing once per day."""
-    return [bioversion for bioversion, error in _iter_versions(use_tqdm=use_tqdm) if error is None]
+    return [
+        bioversion
+        for bioversion, error in _iter_versions(use_tqdm=use_tqdm)
+        if error is None and bioversion is not None
+    ]
 
 
 def _iter_versions(
