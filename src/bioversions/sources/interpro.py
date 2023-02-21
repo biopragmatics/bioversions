@@ -6,7 +6,7 @@ import re
 
 import requests
 
-from bioversions.utils import Getter, VersionType, _get_ftp_version
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "InterProGetter",
@@ -26,21 +26,21 @@ class InterProGetter(Getter):
 
     def get(self):
         """Get the latest InterPro version number."""
-        version = _get_ftp_version("ftp.ebi.ac.uk", "pub/databases/interpro/")
-
         with requests.Session() as session:
             res = session.get(
-                "ftp://ftp.ebi.ac.uk/pub/databases/interpro/current/release_notes.txt"
+                "https://ftp.ebi.ac.uk/pub/databases/interpro/current_release/release_notes.txt"
             )
             for line in res.iter_lines():
                 line = line.decode("utf8").strip()
                 if line.startswith("Release") and not line.startswith("Release Notes"):
-                    return dict(version=version, date=_process_line(line))
+                    line = line[len("Release ") :]
+                    version, rest = line.split(",", 1)
+                    return dict(version=version, date=_process_line(rest))
         raise ValueError
 
 
 def _process_line(s: str) -> str:
-    return SOLVE_RE.sub(r"\1", s.split(",")[1].strip())
+    return SOLVE_RE.sub(r"\1", s.strip())
 
 
 if __name__ == "__main__":

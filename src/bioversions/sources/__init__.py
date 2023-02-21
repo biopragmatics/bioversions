@@ -13,6 +13,7 @@ from .antibodyregistry import AntibodyRegistryGetter
 from .bigg import BiGGGetter
 from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
+from .cellosaurus import CellosaurusGetter
 from .chebi import ChEBIGetter
 from .chembl import ChEMBLGetter
 from .chemidplus import ChemIDplusGetter
@@ -125,6 +126,7 @@ def get_getters() -> List[Type[Getter]]:
         UMLSGetter,
         HGNCGetter,
         RGDGetter,
+        CellosaurusGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
@@ -170,7 +172,11 @@ def get_version(name: str) -> str:
 
 def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
     """Get the rows, refreshing once per day."""
-    return [bioversion for bioversion, error in _iter_versions(use_tqdm=use_tqdm) if error is None]
+    return [
+        bioversion
+        for bioversion, error in _iter_versions(use_tqdm=use_tqdm)
+        if error is None and bioversion is not None
+    ]
 
 
 def _iter_versions(

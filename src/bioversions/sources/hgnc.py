@@ -2,13 +2,18 @@
 
 """A getter for HGNC."""
 
-import datetime
+import ftplib
 
-from ..utils import Getter, VersionType, get_soup
+from ..utils import Getter, VersionType
 
 __all__ = [
     "HGNCGetter",
 ]
+
+HOST = "ftp.ebi.ac.uk"
+PATH = "pub/databases/genenames/hgnc/archive/monthly/json/"
+PREFIX = "hgnc_complete_set_"
+SUFFIX = ".json"
 
 
 class HGNCGetter(Getter):
@@ -16,14 +21,22 @@ class HGNCGetter(Getter):
 
     bioregistry_id = "hgnc"
     name = "HGNC"
-    homepage_fmt = "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_{version}.json"
+    homepage_fmt = (
+        "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/"
+        "archive/monthly/json/hgnc_complete_set_{version}.json"
+    )
 
     version_type = VersionType.date
 
     def get(self) -> str:
         """Get the latest HGNC version number."""
-        # TODO scrape https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json instead
-        return datetime.date.today().strftime("%Y-%m-01")
+        with ftplib.FTP(HOST) as ftp:
+            ftp.login()
+            ftp.cwd(PATH)
+            version = max(
+                name[len(PREFIX) : -len(SUFFIX)] for name in ftp.nlst() if name.startswith(PREFIX)
+            )
+        return version
 
 
 if __name__ == "__main__":

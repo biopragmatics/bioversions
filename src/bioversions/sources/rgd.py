@@ -16,7 +16,7 @@ URL = "https://download.rgd.mcw.edu/data_release/GENES.RAT.txt"
 class RGDGetter(Getter):
     """A getter for RGD."""
 
-    bioregistry_id = "RGD"
+    bioregistry_id = "rgd"
     name = "Rat Genome Database"
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
