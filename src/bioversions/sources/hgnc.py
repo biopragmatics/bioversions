@@ -2,7 +2,6 @@
 
 """A getter for HGNC."""
 
-import datetime
 import ftplib
 
 from ..utils import Getter, VersionType
