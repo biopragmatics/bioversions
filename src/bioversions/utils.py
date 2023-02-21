@@ -245,8 +245,8 @@ def get_obo_version(url: str) -> str:
     raise ValueError(f"No data-version line contained in {url}")
 
 
-class OboGetter(Getter):
-    """An implementation for getting OBO versions."""
+class OBOFoundryGetter(Getter):
+    """An implementation for getting OBO Foundry ontology versions."""
 
     strip_key_prefix: ClassVar[bool] = False
     strip_version_prefix: ClassVar[bool] = False

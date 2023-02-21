@@ -4,7 +4,7 @@
 
 from typing import Iterable, Type
 
-from bioversions.utils import Getter, OboGetter, VersionType
+from bioversions.utils import Getter, OBOFoundryGetter, VersionType
 
 __all__ = [
     "iter_obo_getters",
@@ -15,7 +15,7 @@ __all__ = [
 ]
 
 
-class ChebiGetter(OboGetter):
+class ChebiGetter(OBOFoundryGetter):
     """A getter for ChEBI."""
 
     name = "ChEBI"
@@ -24,7 +24,7 @@ class ChebiGetter(OboGetter):
     homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel{version}/"
 
 
-class GoGetter(OboGetter):
+class GoGetter(OBOFoundryGetter):
     """A getter for the Gene Ontology (GO)."""
 
     name = "Gene Ontology"
@@ -35,7 +35,7 @@ class GoGetter(OboGetter):
     homepage_fmt = "http://archive.geneontology.org/full/{version}/"
 
 
-class DoidGetter(OboGetter):
+class DoidGetter(OBOFoundryGetter):
     """A getter for the Disease Ontology (DO)."""
 
     name = "Disease Ontology"
@@ -47,7 +47,7 @@ class DoidGetter(OboGetter):
     date_version_fmt = "%Y-%m-%d"
 
 
-class PrGetter(OboGetter):
+class PrGetter(OBOFoundryGetter):
     """A getter for the Protein Ontology (PR)."""
 
     name = "Protein Ontology"
@@ -58,7 +58,7 @@ class PrGetter(OboGetter):
 
 def iter_obo_getters() -> Iterable[Type[Getter]]:
     """Iterate over OBO getters."""
-    yield from OboGetter.__subclasses__()
+    yield from OBOFoundryGetter.__subclasses__()
 
 
 def _main():
