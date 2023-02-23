@@ -2,6 +2,8 @@
 
 """A getter for ExPASy."""
 
+from datetime import datetime
+
 import requests
 
 from bioversions.utils import Getter, VersionType
@@ -18,7 +20,7 @@ class ExPASyGetter(Getter):
 
     bioregistry_id = "eccode"
     name = "ExPASy"
-    date_version_fmt = "%d-%b-%Y"
+    # date_version_fmt = "%d-%b-%Y"
     version_type = VersionType.date
 
     def get(self) -> str:
@@ -29,7 +31,7 @@ class ExPASyGetter(Getter):
         next(li)
         next(li)
         r = next(li).decode("utf8").strip()[len("Release of ") :]
-        return r
+        return datetime.strptime(r, "%d-%b-%Y").strftime("%Y-%m-%d")
 
 
 if __name__ == "__main__":
