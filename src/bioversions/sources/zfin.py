@@ -2,6 +2,7 @@
 
 """A getter for ZFIN."""
 
+from datetime import datetime
 from typing import Mapping
 
 from bioversions.utils import Getter, VersionType, get_soup
@@ -18,7 +19,6 @@ class ZfinGetter(Getter):
 
     bioregistry_id = "zfin"
     name = "Zebrafish Information Network"
-    date_version_fmt = "%d %b %Y"
     version_type = VersionType.date
 
     def get(self) -> Mapping[str, str]:
@@ -26,7 +26,7 @@ class ZfinGetter(Getter):
         soup = get_soup(URL)
         header = soup.find("h2")
         version = header.text[len("ZFIN Data Reports from: ") :].strip()
-        return version
+        return datetime.strptime(version, "%d %b %Y").strftime("%Y-%m-%d")
 
 
 if __name__ == "__main__":
