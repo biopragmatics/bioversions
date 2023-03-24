@@ -1,3 +1,3 @@
 # Errors
 
-- failed to resolve Antibody Registry
+- failed to resolve Biofacquim

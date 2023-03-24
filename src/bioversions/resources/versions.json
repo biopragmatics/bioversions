@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 385,
-    "date": "2022-08-16",
+    "revision": 386,
+    "date": "2023-03-24",
     "author": "runner"
   },
   "database": [
@@ -424,6 +424,11 @@
           "retrieved": "2022-08-02",
           "version": "4.4.212",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.212"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "4.4.219",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.219"
         }
       ],
       "vtype": "semver"
@@ -554,6 +559,17 @@
           "version": "2021-02-09"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2023-03-24",
+          "version": "2021-10-26"
+        }
+      ],
+      "name": "BRENDA Tissue Ontology",
+      "prefix": "bto",
       "vtype": "date"
     },
     {
@@ -870,6 +886,10 @@
         {
           "retrieved": "2022-07-01",
           "version": "2022-06-18"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-12-15"
         }
       ],
       "prefix": "cl",
@@ -893,6 +913,18 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2023-03-24",
+          "version": "45.0",
+          "date": "2023-03-21"
+        }
+      ],
+      "name": "Cellosaurus",
+      "prefix": "cellosaurus",
+      "vtype": "sequential"
     },
     {
       "name": "Cellular Microscopy Phenotype Ontology",
@@ -1013,6 +1045,11 @@
           "retrieved": "2022-08-04",
           "version": "212",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel212/"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "219",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel219/"
         }
       ],
       "vtype": "sequential"
@@ -1054,6 +1091,12 @@
           "version": "30",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_30",
           "date": "2022-02-22"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "32",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_32",
+          "date": "2023-01-26"
         }
       ],
       "vtype": "sequential",
@@ -1122,6 +1165,12 @@
           "version": "2022-07-28",
           "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20220728.zip",
           "date": "2022-07-28"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-02-22",
+          "homepage": "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.20230222.zip",
+          "date": "2023-02-22"
         }
       ],
       "name": "ChemIDplus",
@@ -1500,6 +1549,10 @@
         {
           "retrieved": "2022-05-24",
           "version": "1.0.326"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "1.0.337"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -1623,6 +1676,10 @@
         {
           "retrieved": "2022-05-10",
           "version": "22Q2"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "22Q4"
         }
       ],
       "name": "DepMap",
@@ -1830,6 +1887,12 @@
           "version": "2022-07-27",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2022-07-27",
           "date": "2022-07-27"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-02-27",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-02-27",
+          "date": "2023-02-27"
         }
       ],
       "vtype": "date"
@@ -1987,6 +2050,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "2022-06-09"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-08-11"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -2068,6 +2135,12 @@
           "version": "5.1.9",
           "homepage": "https://go.drugbank.com/releases/5-1-9",
           "date": "2022-01-04"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "5.1.10",
+          "homepage": "https://go.drugbank.com/releases/5-1-10",
+          "date": "2023-01-04"
         }
       ],
       "vtype": "semver"
@@ -2090,6 +2163,11 @@
           "version": "2021_09_01",
           "homepage": "https://unmtid-shinyapps.net/download/DrugCentral/2021_09_01",
           "date": "2021-09-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "52",
+          "date": "2022-08-22"
         }
       ],
       "vtype": "date"
@@ -2210,6 +2288,12 @@
           "version": "107",
           "homepage": "https://www.ensembl.org",
           "date": "2022-07-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "109",
+          "homepage": "https://www.ensembl.org",
+          "date": "2023-02-01"
         }
       ],
       "name": "Ensembl",
@@ -2251,6 +2335,10 @@
         {
           "retrieved": "2021-07-30",
           "version": "2021-07-14"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-08-31"
         }
       ],
       "vtype": "date"
@@ -2317,6 +2405,10 @@
         {
           "retrieved": "2021-10-09",
           "version": "2021-08-25"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-12-12"
         }
       ],
       "name": "Environmental conditions, treatments and exposures ontology",
@@ -2455,6 +2547,10 @@
           "retrieved": "2022-08-04",
           "version": "03-Aug-2022",
           "date": "2022-08-03"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-02-22"
         }
       ],
       "vtype": "date"
@@ -2573,6 +2669,10 @@
         {
           "retrieved": "2022-06-17",
           "version": "3.43.0"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "3.49.0"
         }
       ],
       "vtype": "semver"
@@ -2844,6 +2944,11 @@
           "retrieved": "2022-08-09",
           "version": "2022_04",
           "homepage": "http://ftp.flybase.net/releases/FB2022_04/"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023_01",
+          "homepage": "http://ftp.flybase.net/releases/FB2023_01/"
         }
       ],
       "name": "FlyBase",
@@ -3156,6 +3261,12 @@
           "version": "2022-07-01",
           "homepage": "http://archive.geneontology.org/full/2022-07-01/",
           "date": "2022-07-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-06",
+          "homepage": "http://archive.geneontology.org/full/2023-03-06/",
+          "date": "2023-03-06"
         }
       ],
       "vtype": "date"
@@ -3351,6 +3462,12 @@
           "version": "2022.2",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.2.zip",
           "date": "2022-06-09"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022.4",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.4.zip",
+          "date": "2022-12-13"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -3387,6 +3504,11 @@
           "retrieved": "2022-08-01",
           "version": "2022-08-01",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2022-08-01.json"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-02",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-03-02.json"
         }
       ],
       "name": "HGNC",
@@ -3540,6 +3662,10 @@
         {
           "retrieved": "2022-07-01",
           "version": "2022-06-22"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-12-16"
         }
       ],
       "vtype": "date"
@@ -3819,6 +3945,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "1.0.112"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "1.1.13"
         }
       ],
       "name": "Interaction Network Ontology",
@@ -3875,6 +4005,12 @@
           "version": "90.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/90.0/",
           "date": "2022-05-26"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "93.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/93.0/",
+          "date": "2023-03-02"
         }
       ],
       "vtype": "semver_minor"
@@ -3928,6 +4064,10 @@
         {
           "retrieved": "2022-08-03",
           "version": "01-Aug-2022"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "01-Mar-2023"
         }
       ],
       "name": "ITIS",
@@ -3987,6 +4127,11 @@
           "retrieved": "2022-07-01",
           "version": "103.0",
           "date": "2022-07-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "105.0",
+          "date": "2023-01-01"
         }
       ],
       "vtype": "semver_minor"
@@ -4239,6 +4384,10 @@
         {
           "retrieved": "2022-07-01",
           "version": "2022-06-23"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-12-09"
         }
       ],
       "vtype": "date"
@@ -4289,6 +4438,11 @@
           "retrieved": "2021-12-07",
           "version": "2022",
           "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2022"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023",
+          "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2023"
         }
       ],
       "name": "MeSH",
@@ -4534,6 +4688,12 @@
           "version": "2022-07-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2022-07-07",
           "date": "2022-07-07"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-02-02",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-02-02",
+          "date": "2023-02-02"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -4627,6 +4787,10 @@
         {
           "retrieved": "2022-07-08",
           "version": "2022-07-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-12-01"
         }
       ],
       "name": "Monarch Disease Ontology",
@@ -4780,9 +4944,14 @@
           "version": "7.5.1",
           "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.5.1",
           "date": "2022-01-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023.1",
+          "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2023.1"
         }
       ],
-      "vtype": "month"
+      "vtype": "year_minor"
     },
     {
       "name": "Mungbean ontology",
@@ -4879,6 +5048,11 @@
           "retrieved": "2022-08-02",
           "version": "22.07d",
           "date": "2022-07-25"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "23.02d",
+          "date": "2023-02-27"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -4932,6 +5106,10 @@
         {
           "retrieved": "2022-07-08",
           "version": "2022-06-28"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-08-18"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -5020,6 +5198,10 @@
         {
           "retrieved": "2021-01-03",
           "version": "1.0"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2.0"
         }
       ],
       "vtype": "semver_minor"
@@ -5468,6 +5650,10 @@
         {
           "retrieved": "2022-08-11",
           "version": "2022-08-03"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-11-26"
         }
       ],
       "vtype": "date"
@@ -5911,6 +6097,10 @@
         {
           "retrieved": "2021-11-18",
           "version": "12"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": ""
         }
       ],
       "name": "Pathway Commons",
@@ -6062,6 +6252,10 @@
         {
           "retrieved": "2022-08-11",
           "version": "2022-07-21"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-08-31"
         }
       ],
       "prefix": "pato",
@@ -6355,6 +6549,12 @@
           "version": "2022-08-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2022-08-01/",
           "date": "2022-08-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-03-01/",
+          "date": "2023-03-01"
         }
       ],
       "name": "PomBase",
@@ -6519,6 +6719,11 @@
           "retrieved": "2022-08-13",
           "version": "67.0",
           "homepage": "https://proconsortium.org/download/release_67.0/"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "68.0",
+          "homepage": "https://proconsortium.org/download/release_68.0/"
         }
       ],
       "vtype": "semver_minor"
@@ -6547,6 +6752,10 @@
         {
           "retrieved": "2022-05-10",
           "version": "2022-04-27"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-10-19"
         }
       ],
       "name": "Provisional Cell Ontology",
@@ -6604,6 +6813,11 @@
           "retrieved": "2022-08-01",
           "version": "2022-08-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2022-08-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-03-01"
         }
       ],
       "name": "PubChem",
@@ -6677,10 +6891,14 @@
         {
           "retrieved": "2022-08-16",
           "version": "2022-08-12"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-17"
         }
       ],
       "name": "Rat Genome Database",
-      "prefix": "RGD",
+      "prefix": "rgd",
       "vtype": "date"
     },
     {
@@ -6737,6 +6955,10 @@
         {
           "retrieved": "2022-06-17",
           "version": "81"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "83"
         }
       ],
       "vtype": "sequential"
@@ -6822,6 +7044,10 @@
         {
           "retrieved": "2022-05-27",
           "version": "2022-05-23"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-10-26"
         }
       ],
       "vtype": "date"
@@ -6865,6 +7091,11 @@
           "retrieved": "2022-05-27",
           "version": "14.8",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.8/"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "14.9",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.9/"
         }
       ],
       "vtype": "semver_minor"
@@ -6912,6 +7143,11 @@
           "retrieved": "2022-08-04",
           "version": "123",
           "date": "2022-08-03"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "126",
+          "date": "2023-02-22"
         }
       ],
       "vtype": "date"
@@ -7018,6 +7254,11 @@
           "retrieved": "2022-08-02",
           "version": "2022-08-01",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_08012022.zip"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-06",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_03062023.zip"
         }
       ],
       "name": "RxNorm",
@@ -7182,6 +7423,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "1.7"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-10-11"
         }
       ],
       "name": "Software ontology",
@@ -8199,6 +8444,10 @@
         {
           "retrieved": "2022-08-16",
           "version": "2022-08-16"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-24"
         }
       ],
       "name": "SwissLipid",
@@ -8347,6 +8596,17 @@
       ],
       "name": "Terminology for Description of Dynamics",
       "prefix": "biomodels.teddy",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-10-05"
+        }
+      ],
+      "name": "terms4FAIRskills",
+      "prefix": "t4fs",
       "vtype": "date"
     },
     {
@@ -8643,6 +8903,10 @@
         {
           "retrieved": "2022-07-08",
           "version": "2022-06-30"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-09-30"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -8673,6 +8937,10 @@
         {
           "retrieved": "2022-05-03",
           "version": "2022AA"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022AB"
         }
       ],
       "name": "UMLS",
@@ -8792,6 +9060,12 @@
           "version": "2022_03",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2022_03/",
           "date": "2022-03-01"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023_01",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_01/",
+          "date": "2023-01-01"
         }
       ],
       "vtype": "month"
@@ -8893,6 +9167,17 @@
           "version": "2018-11-09"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2023-03-24",
+          "version": "2022-10-31"
+        }
+      ],
+      "name": "Vertebrate Breed Ontology",
+      "prefix": "vbo",
       "vtype": "date"
     },
     {
@@ -9111,6 +9396,12 @@
           "version": "20220810",
           "homepage": "http://data.wikipathways.org/20220810/",
           "date": "2022-08-10"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "20230310",
+          "homepage": "http://data.wikipathways.org/20230310/",
+          "date": "2023-03-10"
         }
       ],
       "vtype": "date"
@@ -10662,6 +10953,10 @@
           "retrieved": "2022-08-16",
           "version": "14 Aug 2022",
           "date": "2022-08-14"
+        },
+        {
+          "retrieved": "2023-03-24",
+          "version": "2023-03-23"
         }
       ],
       "name": "Zebrafish Information Network",
