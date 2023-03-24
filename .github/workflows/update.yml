@@ -36,7 +36,7 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       - name: bump2version patch
         run: |
-          tox -e bumpversion patch
+          tox -e bumpversion -- patch
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
