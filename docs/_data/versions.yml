@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-03-31'
-  revision: 393
+  date: '2023-04-01'
+  revision: 394
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1053,6 +1053,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-02-27
     retrieved: '2023-03-24'
     version: '2023-02-27'
+  - date: '2023-03-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-03-31
+    retrieved: '2023-04-01'
+    version: '2023-03-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -2275,6 +2279,9 @@ database:
   - date: '2023-01-01'
     retrieved: '2023-03-24'
     version: '105.0'
+  - date: '2023-04-01'
+    retrieved: '2023-04-01'
+    version: '106.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -3758,6 +3765,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-03-01
     retrieved: '2023-03-24'
     version: '2023-03-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-04-01
+    retrieved: '2023-04-01'
+    version: '2023-04-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -4620,6 +4630,8 @@ database:
     version: '2023-03-30'
   - retrieved: '2023-03-31'
     version: '2023-03-31'
+  - retrieved: '2023-04-01'
+    version: '2023-04-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6083,6 +6095,8 @@ database:
     version: '2023-03-28'
   - retrieved: '2023-03-31'
     version: '2023-03-29'
+  - retrieved: '2023-04-01'
+    version: '2023-03-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
