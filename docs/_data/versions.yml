@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-04-01'
-  revision: 394
+  date: '2023-04-02'
+  revision: 395
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -238,6 +238,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.219
     retrieved: '2023-03-24'
     version: 4.4.219
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.220
+    retrieved: '2023-04-02'
+    version: 4.4.220
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -1936,6 +1939,9 @@ database:
   - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-03-02.json
     retrieved: '2023-03-24'
     version: '2023-03-02'
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-04-01.json
+    retrieved: '2023-04-02'
+    version: '2023-04-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -3619,6 +3625,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2023-03-01/
     retrieved: '2023-03-24'
     version: '2023-03-01'
+  - date: '2023-04-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2023-04-01/
+    retrieved: '2023-04-02'
+    version: '2023-04-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -4632,6 +4642,8 @@ database:
     version: '2023-03-31'
   - retrieved: '2023-04-01'
     version: '2023-04-01'
+  - retrieved: '2023-04-02'
+    version: '2023-04-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6097,6 +6109,8 @@ database:
     version: '2023-03-29'
   - retrieved: '2023-04-01'
     version: '2023-03-30'
+  - retrieved: '2023-04-02'
+    version: '2023-03-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

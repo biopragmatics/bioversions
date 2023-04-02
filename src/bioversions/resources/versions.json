@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 394,
-    "date": "2023-04-01",
+    "revision": 395,
+    "date": "2023-04-02",
     "author": "runner"
   },
   "database": [
@@ -429,6 +429,11 @@
           "retrieved": "2023-03-24",
           "version": "4.4.219",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.219"
+        },
+        {
+          "retrieved": "2023-04-02",
+          "version": "4.4.220",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.220"
         }
       ],
       "vtype": "semver"
@@ -3515,6 +3520,11 @@
           "retrieved": "2023-03-24",
           "version": "2023-03-02",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-03-02.json"
+        },
+        {
+          "retrieved": "2023-04-02",
+          "version": "2023-04-01",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-04-01.json"
         }
       ],
       "name": "HGNC",
@@ -6566,6 +6576,12 @@
           "version": "2023-03-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-03-01/",
           "date": "2023-03-01"
+        },
+        {
+          "retrieved": "2023-04-02",
+          "version": "2023-04-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-04-01/",
+          "date": "2023-04-01"
         }
       ],
       "name": "PomBase",
@@ -8500,6 +8516,10 @@
         {
           "retrieved": "2023-04-01",
           "version": "2023-04-01"
+        },
+        {
+          "retrieved": "2023-04-02",
+          "version": "2023-04-02"
         }
       ],
       "name": "SwissLipid",
@@ -11037,6 +11057,10 @@
         {
           "retrieved": "2023-04-01",
           "version": "2023-03-30"
+        },
+        {
+          "retrieved": "2023-04-02",
+          "version": "2023-03-31"
         }
       ],
       "name": "Zebrafish Information Network",
