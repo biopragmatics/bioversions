@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 397,
-    "date": "2023-04-04",
+    "revision": 398,
+    "date": "2023-04-05",
     "author": "runner"
   },
   "database": [
@@ -4090,6 +4090,10 @@
         {
           "retrieved": "2023-03-24",
           "version": "01-Mar-2023"
+        },
+        {
+          "retrieved": "2023-04-05",
+          "version": "30-Mar-2023"
         }
       ],
       "name": "ITIS",
@@ -7005,6 +7009,10 @@
         {
           "retrieved": "2023-03-24",
           "version": "83"
+        },
+        {
+          "retrieved": "2023-04-05",
+          "version": "84"
         }
       ],
       "vtype": "sequential"
@@ -8543,6 +8551,10 @@
         {
           "retrieved": "2023-04-04",
           "version": "2023-04-04"
+        },
+        {
+          "retrieved": "2023-04-05",
+          "version": "2023-04-05"
         }
       ],
       "name": "SwissLipid",
@@ -11092,6 +11104,10 @@
         {
           "retrieved": "2023-04-04",
           "version": "2023-04-02"
+        },
+        {
+          "retrieved": "2023-04-05",
+          "version": "2023-04-03"
         }
       ],
       "name": "Zebrafish Information Network",
