@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-04-26'
-  revision: 418
+  date: '2023-04-27'
+  revision: 419
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1922,6 +1922,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2022.4.zip
     retrieved: '2023-03-24'
     version: '2022.4'
+  - date: '2023-04-26'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2023.1.zip
+    retrieved: '2023-04-27'
+    version: '2023.1'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -4719,6 +4723,8 @@ database:
     version: '2023-04-25'
   - retrieved: '2023-04-26'
     version: '2023-04-26'
+  - retrieved: '2023-04-27'
+    version: '2023-04-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6236,6 +6242,8 @@ database:
     version: '2023-04-23'
   - retrieved: '2023-04-26'
     version: '2023-04-24'
+  - retrieved: '2023-04-27'
+    version: '2023-04-25'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
