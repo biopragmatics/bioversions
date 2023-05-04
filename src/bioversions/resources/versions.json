@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 425,
-    "date": "2023-05-03",
+    "revision": 426,
+    "date": "2023-05-04",
     "author": "runner"
   },
   "database": [
@@ -2572,6 +2572,10 @@
         {
           "retrieved": "2023-03-24",
           "version": "2023-02-22"
+        },
+        {
+          "retrieved": "2023-05-04",
+          "version": "2023-05-03"
         }
       ],
       "vtype": "date"
@@ -7268,6 +7272,11 @@
           "retrieved": "2023-03-24",
           "version": "126",
           "date": "2023-02-22"
+        },
+        {
+          "retrieved": "2023-05-04",
+          "version": "127",
+          "date": "2023-05-03"
         }
       ],
       "vtype": "date"
@@ -8734,6 +8743,10 @@
         {
           "retrieved": "2023-05-03",
           "version": "2023-05-03"
+        },
+        {
+          "retrieved": "2023-05-04",
+          "version": "2023-05-04"
         }
       ],
       "name": "SwissLipid",
@@ -9356,6 +9369,12 @@
           "version": "2023_01",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_01/",
           "date": "2023-01-01"
+        },
+        {
+          "retrieved": "2023-05-04",
+          "version": "2023_02",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_02/",
+          "date": "2023-02-01"
         }
       ],
       "vtype": "month"
@@ -11405,6 +11424,10 @@
         {
           "retrieved": "2023-05-03",
           "version": "2023-05-01"
+        },
+        {
+          "retrieved": "2023-05-04",
+          "version": "2023-05-02"
         }
       ],
       "name": "Zebrafish Information Network",

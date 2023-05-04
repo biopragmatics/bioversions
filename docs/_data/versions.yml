@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-05-03'
-  revision: 425
+  date: '2023-05-04'
+  revision: 426
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1422,6 +1422,8 @@ database:
     version: 03-Aug-2022
   - retrieved: '2023-03-24'
     version: '2023-02-22'
+  - retrieved: '2023-05-04'
+    version: '2023-05-03'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -4005,6 +4007,9 @@ database:
   - date: '2023-02-22'
     retrieved: '2023-03-24'
     version: '126'
+  - date: '2023-05-03'
+    retrieved: '2023-05-04'
+    version: '127'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -4758,6 +4763,8 @@ database:
     version: '2023-05-02'
   - retrieved: '2023-05-03'
     version: '2023-05-03'
+  - retrieved: '2023-05-04'
+    version: '2023-05-04'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5094,6 +5101,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_01/
     retrieved: '2023-03-24'
     version: '2023_01'
+  - date: '2023-02-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_02/
+    retrieved: '2023-05-04'
+    version: '2023_02'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -6291,6 +6302,8 @@ database:
     version: '2023-04-30'
   - retrieved: '2023-05-03'
     version: '2023-05-01'
+  - retrieved: '2023-05-04'
+    version: '2023-05-02'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
