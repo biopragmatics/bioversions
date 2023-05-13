@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-05-11'
-  revision: 433
+  date: '2023-05-13'
+  revision: 434
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2350,6 +2350,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/93.0/
     retrieved: '2023-03-24'
     version: '93.0'
+  - date: '2023-05-10'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/94.0/
+    retrieved: '2023-05-13'
+    version: '94.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -4992,6 +4996,8 @@ database:
     version: '2023-05-10'
   - retrieved: '2023-05-11'
     version: '2023-05-11'
+  - retrieved: '2023-05-13'
+    version: '2023-05-13'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6593,6 +6599,8 @@ database:
     version: '2023-05-08'
   - retrieved: '2023-05-11'
     version: '2023-05-09'
+  - retrieved: '2023-05-13'
+    version: '2023-05-11'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
