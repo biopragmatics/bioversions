@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 436,
-    "date": "2023-05-15",
+    "revision": 437,
+    "date": "2023-05-16",
     "author": "runner"
   },
   "database": [
@@ -7020,6 +7020,12 @@
           "version": "2023-04-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-04-01/",
           "date": "2023-04-01"
+        },
+        {
+          "retrieved": "2023-05-16",
+          "version": "2023-05-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-05-01/",
+          "date": "2023-05-01"
         }
       ],
       "name": "PomBase",
@@ -7414,6 +7420,10 @@
         {
           "retrieved": "2023-05-09",
           "version": "2023-05-05"
+        },
+        {
+          "retrieved": "2023-05-16",
+          "version": "2023-05-12"
         }
       ],
       "name": "Rat Genome Database",
@@ -9210,6 +9220,10 @@
         {
           "retrieved": "2023-05-15",
           "version": "2023-05-15"
+        },
+        {
+          "retrieved": "2023-05-16",
+          "version": "2023-05-16"
         }
       ],
       "name": "SwissLipid",
@@ -12022,6 +12036,10 @@
         {
           "retrieved": "2023-05-15",
           "version": "2023-05-13"
+        },
+        {
+          "retrieved": "2023-05-16",
+          "version": "2023-05-14"
         }
       ],
       "name": "Zebrafish Information Network",
