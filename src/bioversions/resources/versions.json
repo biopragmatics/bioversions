@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 437,
-    "date": "2023-05-16",
+    "revision": 438,
+    "date": "2023-05-17",
     "author": "runner"
   },
   "database": [
@@ -3497,6 +3497,12 @@
           "version": "2023-04-01",
           "homepage": "http://archive.geneontology.org/full/2023-04-01/",
           "date": "2023-04-01"
+        },
+        {
+          "retrieved": "2023-05-17",
+          "version": "2023-05-10",
+          "homepage": "http://archive.geneontology.org/full/2023-05-10/",
+          "date": "2023-05-10"
         }
       ],
       "vtype": "date"
@@ -9224,6 +9230,10 @@
         {
           "retrieved": "2023-05-16",
           "version": "2023-05-16"
+        },
+        {
+          "retrieved": "2023-05-17",
+          "version": "2023-05-17"
         }
       ],
       "name": "SwissLipid",
@@ -12040,6 +12050,10 @@
         {
           "retrieved": "2023-05-16",
           "version": "2023-05-14"
+        },
+        {
+          "retrieved": "2023-05-17",
+          "version": "2023-05-15"
         }
       ],
       "name": "Zebrafish Information Network",
