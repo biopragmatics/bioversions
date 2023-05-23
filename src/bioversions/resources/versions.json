@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 443,
-    "date": "2023-05-22",
+    "revision": 444,
+    "date": "2023-05-23",
     "author": "runner"
   },
   "database": [
@@ -7430,6 +7430,10 @@
         {
           "retrieved": "2023-05-16",
           "version": "2023-05-12"
+        },
+        {
+          "retrieved": "2023-05-23",
+          "version": "2023-05-19"
         }
       ],
       "name": "Rat Genome Database",
@@ -9254,6 +9258,10 @@
         {
           "retrieved": "2023-05-22",
           "version": "2023-05-22"
+        },
+        {
+          "retrieved": "2023-05-23",
+          "version": "2023-05-23"
         }
       ],
       "name": "SwissLipid",
@@ -12094,6 +12102,10 @@
         {
           "retrieved": "2023-05-22",
           "version": "2023-05-20"
+        },
+        {
+          "retrieved": "2023-05-23",
+          "version": "2023-05-21"
         }
       ],
       "name": "Zebrafish Information Network",
