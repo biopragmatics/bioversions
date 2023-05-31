@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-05-30'
-  revision: 451
+  date: '2023-05-31'
+  revision: 452
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2392,6 +2392,8 @@ database:
     version: 30-Mar-2023
   - retrieved: '2023-04-29'
     version: 26-Apr-2023
+  - retrieved: '2023-05-31'
+    version: 25-May-2023
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -5044,6 +5046,8 @@ database:
     version: '2023-05-29'
   - retrieved: '2023-05-30'
     version: '2023-05-30'
+  - retrieved: '2023-05-31'
+    version: '2023-05-31'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6681,6 +6685,8 @@ database:
     version: '2023-05-27'
   - retrieved: '2023-05-30'
     version: '2023-05-28'
+  - retrieved: '2023-05-31'
+    version: '2023-05-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
