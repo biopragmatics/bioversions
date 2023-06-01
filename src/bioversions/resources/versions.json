@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 452,
-    "date": "2023-05-31",
+    "revision": 453,
+    "date": "2023-06-01",
     "author": "runner"
   },
   "database": [
@@ -2027,6 +2027,12 @@
           "version": "2023-03-31",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-03-31",
           "date": "2023-03-31"
+        },
+        {
+          "retrieved": "2023-06-01",
+          "version": "2023-05-31",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-05-31",
+          "date": "2023-05-31"
         }
       ],
       "vtype": "date"
@@ -7321,6 +7327,11 @@
           "retrieved": "2023-05-01",
           "version": "2023-05-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-05-01"
+        },
+        {
+          "retrieved": "2023-06-01",
+          "version": "2023-06-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-06-01"
         }
       ],
       "name": "PubChem",
@@ -9298,6 +9309,10 @@
         {
           "retrieved": "2023-05-31",
           "version": "2023-05-31"
+        },
+        {
+          "retrieved": "2023-06-01",
+          "version": "2023-06-01"
         }
       ],
       "name": "SwissLipid",
@@ -12174,6 +12189,10 @@
         {
           "retrieved": "2023-05-31",
           "version": "2023-05-29"
+        },
+        {
+          "retrieved": "2023-06-01",
+          "version": "2023-05-30"
         }
       ],
       "name": "Zebrafish Information Network",

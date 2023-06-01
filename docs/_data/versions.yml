@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-05-31'
-  revision: 452
+  date: '2023-06-01'
+  revision: 453
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1124,6 +1124,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-03-31
     retrieved: '2023-04-01'
     version: '2023-03-31'
+  - date: '2023-05-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-05-31
+    retrieved: '2023-06-01'
+    version: '2023-05-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -4027,6 +4031,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-05-01
     retrieved: '2023-05-01'
     version: '2023-05-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-06-01
+    retrieved: '2023-06-01'
+    version: '2023-06-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -5048,6 +5055,8 @@ database:
     version: '2023-05-30'
   - retrieved: '2023-05-31'
     version: '2023-05-31'
+  - retrieved: '2023-06-01'
+    version: '2023-06-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6687,6 +6696,8 @@ database:
     version: '2023-05-28'
   - retrieved: '2023-05-31'
     version: '2023-05-29'
+  - retrieved: '2023-06-01'
+    version: '2023-05-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
