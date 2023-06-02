@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 453,
-    "date": "2023-06-01",
+    "revision": 454,
+    "date": "2023-06-02",
     "author": "runner"
   },
   "database": [
@@ -485,6 +485,11 @@
           "retrieved": "2023-05-02",
           "version": "4.4.221",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.221"
+        },
+        {
+          "retrieved": "2023-06-02",
+          "version": "4.4.222",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.222"
         }
       ],
       "vtype": "semver"
@@ -1131,6 +1136,11 @@
           "retrieved": "2023-05-02",
           "version": "221",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel221/"
+        },
+        {
+          "retrieved": "2023-06-02",
+          "version": "222",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel222/"
         }
       ],
       "vtype": "sequential"
@@ -3775,6 +3785,11 @@
           "retrieved": "2023-05-02",
           "version": "2023-05-01",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-05-01.json"
+        },
+        {
+          "retrieved": "2023-06-02",
+          "version": "2023-06-01",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-06-01.json"
         }
       ],
       "name": "HGNC",
@@ -9313,6 +9328,10 @@
         {
           "retrieved": "2023-06-01",
           "version": "2023-06-01"
+        },
+        {
+          "retrieved": "2023-06-02",
+          "version": "2023-06-02"
         }
       ],
       "name": "SwissLipid",
@@ -12193,6 +12212,10 @@
         {
           "retrieved": "2023-06-01",
           "version": "2023-05-30"
+        },
+        {
+          "retrieved": "2023-06-02",
+          "version": "2023-05-31"
         }
       ],
       "name": "Zebrafish Information Network",
