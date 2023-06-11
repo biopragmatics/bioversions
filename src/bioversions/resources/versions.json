@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 462,
-    "date": "2023-06-10",
+    "revision": 463,
+    "date": "2023-06-11",
     "author": "runner"
   },
   "database": [
@@ -9383,6 +9383,10 @@
         {
           "retrieved": "2023-06-10",
           "version": "2023-06-10"
+        },
+        {
+          "retrieved": "2023-06-11",
+          "version": "2023-06-11"
         }
       ],
       "name": "SwissLipid",
@@ -10432,6 +10436,12 @@
           "version": "20230510",
           "homepage": "http://data.wikipathways.org/20230510/",
           "date": "2023-05-10"
+        },
+        {
+          "retrieved": "2023-06-11",
+          "version": "20230610",
+          "homepage": "http://data.wikipathways.org/20230610/",
+          "date": "2023-06-10"
         }
       ],
       "vtype": "date"
@@ -12299,6 +12309,10 @@
         {
           "retrieved": "2023-06-10",
           "version": "2023-06-08"
+        },
+        {
+          "retrieved": "2023-06-11",
+          "version": "2023-06-09"
         }
       ],
       "name": "Zebrafish Information Network",
