@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 464,
-    "date": "2023-06-12",
+    "revision": 465,
+    "date": "2023-06-13",
     "author": "runner"
   },
   "database": [
@@ -1188,6 +1188,12 @@
           "version": "32",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_32",
           "date": "2023-01-26"
+        },
+        {
+          "retrieved": "2023-06-13",
+          "version": "33",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_33",
+          "date": "2023-05-31"
         }
       ],
       "vtype": "sequential",
@@ -4043,6 +4049,17 @@
     {
       "releases": [
         {
+          "retrieved": "2023-06-13",
+          "version": "2.1.0"
+        }
+      ],
+      "name": "Human Reference Atlas Common Coordinate Framework Ontology",
+      "prefix": "ccf",
+      "vtype": "semver"
+    },
+    {
+      "releases": [
+        {
           "retrieved": "2022-03-03",
           "version": "2019-10-28"
         }
@@ -5436,6 +5453,11 @@
           "retrieved": "2023-05-09",
           "version": "23.04d",
           "date": "2023-04-24"
+        },
+        {
+          "retrieved": "2023-06-13",
+          "version": "23.05e",
+          "date": "2023-05-30"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -7474,6 +7496,10 @@
         {
           "retrieved": "2023-06-06",
           "version": "2023-06-02"
+        },
+        {
+          "retrieved": "2023-06-13",
+          "version": "2023-06-09"
         }
       ],
       "name": "Rat Genome Database",
@@ -9391,6 +9417,10 @@
         {
           "retrieved": "2023-06-12",
           "version": "2023-06-12"
+        },
+        {
+          "retrieved": "2023-06-13",
+          "version": "2023-06-13"
         }
       ],
       "name": "SwissLipid",
@@ -12321,6 +12351,10 @@
         {
           "retrieved": "2023-06-12",
           "version": "2023-06-10"
+        },
+        {
+          "retrieved": "2023-06-13",
+          "version": "2023-06-11"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-06-12'
-  revision: 464
+  date: '2023-06-13'
+  revision: 465
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -651,6 +651,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_32
     retrieved: '2023-03-24'
     version: '32'
+  - date: '2023-05-31'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_33
+    retrieved: '2023-06-13'
+    version: '33'
   vtype: sequential
 - name: Chemical Analysis Ontology
   prefix: nfdi4chem.cao
@@ -2212,6 +2216,12 @@ database:
   - retrieved: '2023-05-11'
     version: '2023-04-05'
   vtype: date
+- name: Human Reference Atlas Common Coordinate Framework Ontology
+  prefix: ccf
+  releases:
+  - retrieved: '2023-06-13'
+    version: 2.1.0
+  vtype: semver
 - name: HUPO-PSI cross-linking and derivatization reagents controlled vocabulary
   prefix: xlmod
   releases:
@@ -2986,6 +2996,9 @@ database:
   - date: '2023-04-24'
     retrieved: '2023-05-09'
     version: 23.04d
+  - date: '2023-05-30'
+    retrieved: '2023-06-13'
+    version: 23.05e
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -4109,6 +4122,8 @@ database:
     version: '2023-05-19'
   - retrieved: '2023-06-06'
     version: '2023-06-02'
+  - retrieved: '2023-06-13'
+    version: '2023-06-09'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -5099,6 +5114,8 @@ database:
     version: '2023-06-11'
   - retrieved: '2023-06-12'
     version: '2023-06-12'
+  - retrieved: '2023-06-13'
+    version: '2023-06-13'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6766,6 +6783,8 @@ database:
     version: '2023-06-09'
   - retrieved: '2023-06-12'
     version: '2023-06-10'
+  - retrieved: '2023-06-13'
+    version: '2023-06-11'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
