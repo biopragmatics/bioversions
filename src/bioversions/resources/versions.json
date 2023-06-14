@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 465,
-    "date": "2023-06-13",
+    "revision": 466,
+    "date": "2023-06-14",
     "author": "runner"
   },
   "database": [
@@ -1544,6 +1544,12 @@
           "version": "2022-07-11",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2022-07-11/",
           "date": "2022-07-11"
+        },
+        {
+          "retrieved": "2023-06-14",
+          "version": "2023-06-02",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2023-06-02/",
+          "date": "2023-06-02"
         }
       ],
       "vtype": "date"
@@ -2336,6 +2342,11 @@
           "retrieved": "2023-03-24",
           "version": "52",
           "date": "2022-08-22"
+        },
+        {
+          "retrieved": "2023-06-14",
+          "version": "53",
+          "date": "2023-05-10"
         }
       ],
       "vtype": "date"
@@ -4235,6 +4246,12 @@
           "version": "2022-07-11",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2022-07-11/",
           "date": "2022-07-11"
+        },
+        {
+          "retrieved": "2023-06-14",
+          "version": "2023-06-02",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2023-06-02/",
+          "date": "2023-06-02"
         }
       ],
       "vtype": "date"
@@ -9421,6 +9438,10 @@
         {
           "retrieved": "2023-06-13",
           "version": "2023-06-13"
+        },
+        {
+          "retrieved": "2023-06-14",
+          "version": "2023-06-14"
         }
       ],
       "name": "SwissLipid",
@@ -12355,6 +12376,10 @@
         {
           "retrieved": "2023-06-13",
           "version": "2023-06-11"
+        },
+        {
+          "retrieved": "2023-06-14",
+          "version": "2023-06-12"
         }
       ],
       "name": "Zebrafish Information Network",

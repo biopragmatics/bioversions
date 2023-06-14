@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-06-13'
-  revision: 465
+  date: '2023-06-14'
+  revision: 466
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -850,6 +850,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2022-07-11/
     retrieved: '2022-07-16'
     version: '2022-07-11'
+  - date: '2023-06-02'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2023-06-02/
+    retrieved: '2023-06-14'
+    version: '2023-06-02'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -1293,6 +1297,9 @@ database:
   - date: '2022-08-22'
     retrieved: '2023-03-24'
     version: '52'
+  - date: '2023-05-10'
+    retrieved: '2023-06-14'
+    version: '53'
   vtype: date
 - name: eagle-i resource ontology
   prefix: ero
@@ -2324,6 +2331,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2022-07-11/
     retrieved: '2022-07-16'
     version: '2022-07-11'
+  - date: '2023-06-02'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2023-06-02/
+    retrieved: '2023-06-14'
+    version: '2023-06-02'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -5116,6 +5127,8 @@ database:
     version: '2023-06-12'
   - retrieved: '2023-06-13'
     version: '2023-06-13'
+  - retrieved: '2023-06-14'
+    version: '2023-06-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6785,6 +6798,8 @@ database:
     version: '2023-06-10'
   - retrieved: '2023-06-13'
     version: '2023-06-11'
+  - retrieved: '2023-06-14'
+    version: '2023-06-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
