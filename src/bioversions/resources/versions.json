@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 466,
-    "date": "2023-06-14",
+    "revision": 467,
+    "date": "2023-06-15",
     "author": "runner"
   },
   "database": [
@@ -3191,6 +3191,11 @@
           "retrieved": "2023-04-20",
           "version": "2023_02",
           "homepage": "http://ftp.flybase.net/releases/FB2023_02/"
+        },
+        {
+          "retrieved": "2023-06-15",
+          "version": "2023_03",
+          "homepage": "http://ftp.flybase.net/releases/FB2023_03/"
         }
       ],
       "name": "FlyBase",
@@ -3536,6 +3541,12 @@
           "version": "2023-05-10",
           "homepage": "http://archive.geneontology.org/full/2023-05-10/",
           "date": "2023-05-10"
+        },
+        {
+          "retrieved": "2023-06-15",
+          "version": "2023-06-11",
+          "homepage": "http://archive.geneontology.org/full/2023-06-11/",
+          "date": "2023-06-11"
         }
       ],
       "vtype": "date"
@@ -9442,6 +9453,10 @@
         {
           "retrieved": "2023-06-14",
           "version": "2023-06-14"
+        },
+        {
+          "retrieved": "2023-06-15",
+          "version": "2023-06-15"
         }
       ],
       "name": "SwissLipid",
@@ -12380,6 +12395,10 @@
         {
           "retrieved": "2023-06-14",
           "version": "2023-06-12"
+        },
+        {
+          "retrieved": "2023-06-15",
+          "version": "2023-06-13"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-06-14'
-  revision: 466
+  date: '2023-06-15'
+  revision: 467
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1748,6 +1748,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2023_02/
     retrieved: '2023-04-20'
     version: '2023_02'
+  - homepage: http://ftp.flybase.net/releases/FB2023_03/
+    retrieved: '2023-06-15'
+    version: '2023_03'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -1944,6 +1947,10 @@ database:
     homepage: http://archive.geneontology.org/full/2023-05-10/
     retrieved: '2023-05-17'
     version: '2023-05-10'
+  - date: '2023-06-11'
+    homepage: http://archive.geneontology.org/full/2023-06-11/
+    retrieved: '2023-06-15'
+    version: '2023-06-11'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -5129,6 +5136,8 @@ database:
     version: '2023-06-13'
   - retrieved: '2023-06-14'
     version: '2023-06-14'
+  - retrieved: '2023-06-15'
+    version: '2023-06-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6800,6 +6809,8 @@ database:
     version: '2023-06-11'
   - retrieved: '2023-06-14'
     version: '2023-06-12'
+  - retrieved: '2023-06-15'
+    version: '2023-06-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
