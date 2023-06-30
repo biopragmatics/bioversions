@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-06-29'
-  revision: 481
+  date: '2023-06-30'
+  revision: 482
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -554,6 +554,9 @@ database:
   - date: '2023-03-21'
     retrieved: '2023-03-24'
     version: '45.0'
+  - date: '2023-06-28'
+    retrieved: '2023-06-30'
+    version: '46.0'
   vtype: sequential
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
@@ -1158,6 +1161,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-05-31
     retrieved: '2023-06-01'
     version: '2023-05-31'
+  - date: '2023-06-29'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-06-29
+    retrieved: '2023-06-30'
+    version: '2023-06-29'
   vtype: date
 - name: DisGeNet
   releases:
@@ -5247,6 +5254,8 @@ database:
     version: '2023-06-28'
   - retrieved: '2023-06-29'
     version: '2023-06-29'
+  - retrieved: '2023-06-30'
+    version: '2023-06-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5613,6 +5622,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_02/
     retrieved: '2023-05-04'
     version: '2023_02'
+  - date: '2023-03-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_03/
+    retrieved: '2023-06-30'
+    version: '2023_03'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -6960,6 +6973,8 @@ database:
     version: '2023-06-26'
   - retrieved: '2023-06-29'
     version: '2023-06-27'
+  - retrieved: '2023-06-30'
+    version: '2023-06-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 481,
-    "date": "2023-06-29",
+    "revision": 482,
+    "date": "2023-06-30",
     "author": "runner"
   },
   "database": [
@@ -1029,6 +1029,11 @@
           "retrieved": "2023-03-24",
           "version": "45.0",
           "date": "2023-03-21"
+        },
+        {
+          "retrieved": "2023-06-30",
+          "version": "46.0",
+          "date": "2023-06-28"
         }
       ],
       "name": "Cellosaurus",
@@ -2087,6 +2092,12 @@
           "version": "2023-05-31",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-05-31",
           "date": "2023-05-31"
+        },
+        {
+          "retrieved": "2023-06-30",
+          "version": "2023-06-29",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-06-29",
+          "date": "2023-06-29"
         }
       ],
       "vtype": "date"
@@ -9674,6 +9685,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-06-29"
+        },
+        {
+          "retrieved": "2023-06-30",
+          "version": "2023-06-30"
         }
       ],
       "name": "SwissLipid",
@@ -10353,6 +10368,12 @@
           "version": "2023_02",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_02/",
           "date": "2023-02-01"
+        },
+        {
+          "retrieved": "2023-06-30",
+          "version": "2023_03",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_03/",
+          "date": "2023-03-01"
         }
       ],
       "vtype": "month"
@@ -12696,6 +12717,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-06-27"
+        },
+        {
+          "retrieved": "2023-06-30",
+          "version": "2023-06-28"
         }
       ],
       "name": "Zebrafish Information Network",
