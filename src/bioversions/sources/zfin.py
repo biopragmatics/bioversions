@@ -21,7 +21,7 @@ class ZfinGetter(Getter):
     name = "Zebrafish Information Network"
     version_type = VersionType.date
 
-    def get(self) -> Mapping[str, str]:
+    def get(self):
         """Get the latest ZFIN version number."""
         soup = get_soup(URL)
         header = soup.find("h2")
