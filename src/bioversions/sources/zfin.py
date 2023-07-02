@@ -3,7 +3,6 @@
 """A getter for ZFIN."""
 
 from datetime import datetime
-from typing import Mapping
 
 from bioversions.utils import Getter, VersionType, get_soup
 
@@ -21,7 +20,7 @@ class ZfinGetter(Getter):
     name = "Zebrafish Information Network"
     version_type = VersionType.date
 
-    def get(self) -> Mapping[str, str]:
+    def get(self):
         """Get the latest ZFIN version number."""
         soup = get_soup(URL)
         header = soup.find("h2")

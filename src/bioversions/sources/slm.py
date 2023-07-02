@@ -16,8 +16,8 @@ __all__ = [
 class SwissLipidGetter(Getter):
     """A getter for SwissLipids."""
 
-    bioregistry_id = "swisslipid"
-    name = "SwissLipid"
+    bioregistry_id = "slm"
+    name = "SwissLipids"
     version_type = VersionType.date
 
     def get(self):
