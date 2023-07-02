@@ -25,7 +25,7 @@ class MSigDBGetter(Getter):
 
         x = soup.find(text="Current Version")
         paragraph = x.parent.find_next_sibling("p")
-        version = paragraph.text.strip().split()[2][len("v"):-len(".Hs")]
+        version = paragraph.text.strip().split()[2][len("v") : -len(".Hs")]
         return version
 
 
