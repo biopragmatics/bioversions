@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 482,
-    "date": "2023-06-30",
+    "revision": 483,
+    "date": "2023-07-02",
     "author": "runner"
   },
   "database": [
@@ -502,6 +502,11 @@
           "retrieved": "2023-06-02",
           "version": "4.4.222",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.222"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "4.4.223",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.223"
         }
       ],
       "vtype": "semver"
@@ -1174,6 +1179,11 @@
           "retrieved": "2023-06-02",
           "version": "222",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel222/"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "223",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel223/"
         }
       ],
       "vtype": "sequential"
@@ -3897,6 +3907,11 @@
           "retrieved": "2023-06-02",
           "version": "2023-06-01",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-06-01.json"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "2023-07-01",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-07-01.json"
         }
       ],
       "name": "HGNC",
@@ -4450,6 +4465,12 @@
           "version": "94.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/94.0/",
           "date": "2023-05-10"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "95.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/95.0/",
+          "date": "2023-05-29"
         }
       ],
       "vtype": "semver_minor"
@@ -4588,6 +4609,11 @@
           "retrieved": "2023-04-01",
           "version": "106.0",
           "date": "2023-04-01"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "107.0",
+          "date": "2023-07-01"
         }
       ],
       "vtype": "semver_minor"
@@ -7558,6 +7584,11 @@
           "retrieved": "2023-06-01",
           "version": "2023-06-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-06-01"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "2023-07-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-07-01"
         }
       ],
       "name": "PubChem",
@@ -9689,6 +9720,10 @@
         {
           "retrieved": "2023-06-30",
           "version": "2023-06-30"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "2023-07-02"
         }
       ],
       "name": "SwissLipid",
@@ -12721,6 +12756,10 @@
         {
           "retrieved": "2023-06-30",
           "version": "2023-06-28"
+        },
+        {
+          "retrieved": "2023-07-02",
+          "version": "2023-07-01"
         }
       ],
       "name": "Zebrafish Information Network",

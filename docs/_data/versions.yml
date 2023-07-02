@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-06-30'
-  revision: 482
+  date: '2023-07-02'
+  revision: 483
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -277,6 +277,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.222
     retrieved: '2023-06-02'
     version: 4.4.222
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.223
+    retrieved: '2023-07-02'
+    version: 4.4.223
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -638,6 +641,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel222/
     retrieved: '2023-06-02'
     version: '222'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel223/
+    retrieved: '2023-07-02'
+    version: '223'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -2144,6 +2150,9 @@ database:
   - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-06-01.json
     retrieved: '2023-06-02'
     version: '2023-06-01'
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-07-01.json
+    retrieved: '2023-07-02'
+    version: '2023-07-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -2448,6 +2457,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/94.0/
     retrieved: '2023-05-13'
     version: '94.0'
+  - date: '2023-05-29'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/95.0/
+    retrieved: '2023-07-02'
+    version: '95.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -2524,6 +2537,9 @@ database:
   - date: '2023-04-01'
     retrieved: '2023-04-01'
     version: '106.0'
+  - date: '2023-07-01'
+    retrieved: '2023-07-02'
+    version: '107.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -4157,6 +4173,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-06-01
     retrieved: '2023-06-01'
     version: '2023-06-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-07-01
+    retrieved: '2023-07-02'
+    version: '2023-07-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -5256,6 +5275,8 @@ database:
     version: '2023-06-29'
   - retrieved: '2023-06-30'
     version: '2023-06-30'
+  - retrieved: '2023-07-02'
+    version: '2023-07-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6975,6 +6996,8 @@ database:
     version: '2023-06-27'
   - retrieved: '2023-06-30'
     version: '2023-06-28'
+  - retrieved: '2023-07-02'
+    version: '2023-07-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
