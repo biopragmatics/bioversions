@@ -3,7 +3,6 @@
 """A getter for ZFIN."""
 
 from datetime import datetime
-from typing import Mapping
 
 from bioversions.utils import Getter, VersionType, get_soup
 
