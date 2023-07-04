@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 484,
-    "date": "2023-07-03",
+    "revision": 485,
+    "date": "2023-07-04",
     "author": "runner"
   },
   "database": [
@@ -4540,6 +4540,10 @@
         {
           "retrieved": "2023-05-31",
           "version": "25-May-2023"
+        },
+        {
+          "retrieved": "2023-07-04",
+          "version": "28-Jun-2023"
         }
       ],
       "name": "ITIS",
@@ -7294,6 +7298,12 @@
           "version": "2023-06-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-06-01/",
           "date": "2023-06-01"
+        },
+        {
+          "retrieved": "2023-07-04",
+          "version": "2023-07-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-07-01/",
+          "date": "2023-07-01"
         }
       ],
       "name": "PomBase",
@@ -7726,6 +7736,10 @@
         {
           "retrieved": "2023-06-27",
           "version": "2023-06-23"
+        },
+        {
+          "retrieved": "2023-07-04",
+          "version": "2023-06-30"
         }
       ],
       "name": "Rat Genome Database",
@@ -8131,6 +8145,11 @@
           "retrieved": "2023-06-06",
           "version": "2023-06-05",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_06052023.zip"
+        },
+        {
+          "retrieved": "2023-07-04",
+          "version": "2023-07-03",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_07032023.zip"
         }
       ],
       "name": "RxNorm",
@@ -9735,6 +9754,10 @@
         {
           "retrieved": "2023-07-03",
           "version": "2023-07-03"
+        },
+        {
+          "retrieved": "2023-07-04",
+          "version": "2023-07-04"
         }
       ],
       "name": "SwissLipids",
@@ -12771,6 +12794,10 @@
         {
           "retrieved": "2023-07-02",
           "version": "2023-07-01"
+        },
+        {
+          "retrieved": "2023-07-04",
+          "version": "2023-07-02"
         }
       ],
       "name": "Zebrafish Information Network",
