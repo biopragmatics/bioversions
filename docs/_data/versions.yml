@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-07-07'
-  revision: 488
+  date: '2023-07-08'
+  revision: 489
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2868,6 +2868,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-04-06
     retrieved: '2023-04-07'
     version: '2023-04-06'
+  - date: '2023-07-06'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-07-06
+    retrieved: '2023-07-08'
+    version: '2023-07-06'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -5302,6 +5306,8 @@ database:
     version: '2023-07-06'
   - retrieved: '2023-07-07'
     version: '2023-07-07'
+  - retrieved: '2023-07-08'
+    version: '2023-07-08'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7031,6 +7037,8 @@ database:
     version: '2023-07-04'
   - retrieved: '2023-07-07'
     version: '2023-07-05'
+  - retrieved: '2023-07-08'
+    version: '2023-07-06'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
