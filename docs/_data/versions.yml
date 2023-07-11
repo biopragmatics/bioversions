@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-07-10'
-  revision: 491
+  date: '2023-07-11'
+  revision: 492
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3098,6 +3098,9 @@ database:
   - date: '2023-05-30'
     retrieved: '2023-06-13'
     version: 23.05e
+  - date: '2023-06-26'
+    retrieved: '2023-07-11'
+    version: 23.06d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -4258,6 +4261,8 @@ database:
     version: '2023-06-23'
   - retrieved: '2023-07-04'
     version: '2023-06-30'
+  - retrieved: '2023-07-11'
+    version: '2023-07-07'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -5312,6 +5317,8 @@ database:
     version: '2023-07-09'
   - retrieved: '2023-07-10'
     version: '2023-07-10'
+  - retrieved: '2023-07-11'
+    version: '2023-07-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5913,6 +5920,10 @@ database:
     homepage: http://data.wikipathways.org/20230610/
     retrieved: '2023-06-11'
     version: '20230610'
+  - date: '2023-07-10'
+    homepage: http://data.wikipathways.org/20230710/
+    retrieved: '2023-07-11'
+    version: '20230710'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -7047,6 +7058,8 @@ database:
     version: '2023-07-07'
   - retrieved: '2023-07-10'
     version: '2023-07-08'
+  - retrieved: '2023-07-11'
+    version: '2023-07-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
