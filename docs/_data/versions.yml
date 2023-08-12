@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-07-21'
-  revision: 502
+  date: '2023-08-12'
+  revision: 503
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -280,6 +280,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.223
     retrieved: '2023-07-02'
     version: 4.4.223
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.224
+    retrieved: '2023-08-12'
+    version: 4.4.224
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -644,6 +647,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel223/
     retrieved: '2023-07-02'
     version: '223'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel224/
+    retrieved: '2023-08-12'
+    version: '224'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -1175,6 +1181,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-07-20
     retrieved: '2023-07-21'
     version: '2023-07-20'
+  - date: '2023-08-08'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-08-08
+    retrieved: '2023-08-12'
+    version: '2023-08-08'
   vtype: date
 - name: DisGeNet
   releases:
@@ -1796,6 +1806,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2023_03/
     retrieved: '2023-06-15'
     version: '2023_03'
+  - homepage: http://ftp.flybase.net/releases/FB2023_04/
+    retrieved: '2023-08-12'
+    version: '2023_04'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -2000,6 +2013,10 @@ database:
     homepage: http://archive.geneontology.org/full/2023-06-11/
     retrieved: '2023-06-15'
     version: '2023-06-11'
+  - date: '2023-07-27'
+    homepage: http://archive.geneontology.org/full/2023-07-27/
+    retrieved: '2023-08-12'
+    version: '2023-07-27'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -2121,6 +2138,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2023.1.zip
     retrieved: '2023-04-27'
     version: '2023.1'
+  - date: '2023-04-26'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2023.2.zip
+    retrieved: '2023-08-12'
+    version: '2023.2'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -2157,6 +2178,9 @@ database:
   - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-07-01.json
     retrieved: '2023-07-02'
     version: '2023-07-01'
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-08-01.json
+    retrieved: '2023-08-12'
+    version: '2023-08-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -2503,6 +2527,8 @@ database:
     version: 25-May-2023
   - retrieved: '2023-07-04'
     version: 28-Jun-2023
+  - retrieved: '2023-08-12'
+    version: 26-Jul-2023
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -2546,6 +2572,9 @@ database:
   - date: '2023-07-01'
     retrieved: '2023-07-02'
     version: '107.0'
+  - date: '2023-08-01'
+    retrieved: '2023-08-12'
+    version: '107.1'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -4029,6 +4058,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2023-07-01/
     retrieved: '2023-07-04'
     version: '2023-07-01'
+  - date: '2023-08-02'
+    homepage: https://www.pombase.org/data/releases/pombase-2023-08-02/
+    retrieved: '2023-08-12'
+    version: '2023-08-02'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -4193,6 +4226,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-07-01
     retrieved: '2023-07-02'
     version: '2023-07-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-08-01
+    retrieved: '2023-08-12'
+    version: '2023-08-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -4269,6 +4305,8 @@ database:
     version: '2023-07-07'
   - retrieved: '2023-07-18'
     version: '2023-07-14'
+  - retrieved: '2023-08-12'
+    version: '2023-08-04'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -4497,6 +4535,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_07032023.zip
     retrieved: '2023-07-04'
     version: '2023-07-03'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_08072023.zip
+    retrieved: '2023-08-12'
+    version: '2023-08-07'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -4625,6 +4666,9 @@ database:
   - date: '2021-08-12'
     retrieved: '2021-08-13'
     version: '11.5'
+  - date: '2023-07-26'
+    retrieved: '2023-08-12'
+    version: '12.0'
   vtype: other
 - name: Sugar Kelp trait ontology
   prefix: co_360
@@ -5345,6 +5389,8 @@ database:
     version: '2023-07-20'
   - retrieved: '2023-07-21'
     version: '2023-07-21'
+  - retrieved: '2023-08-12'
+    version: '2023-08-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5950,6 +5996,10 @@ database:
     homepage: http://data.wikipathways.org/20230710/
     retrieved: '2023-07-11'
     version: '20230710'
+  - date: '2023-08-10'
+    homepage: http://data.wikipathways.org/20230810/
+    retrieved: '2023-08-12'
+    version: '20230810'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -7106,6 +7156,8 @@ database:
     version: '2023-07-18'
   - retrieved: '2023-07-21'
     version: '2023-07-19'
+  - retrieved: '2023-08-12'
+    version: '2023-08-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
