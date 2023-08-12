@@ -16,17 +16,14 @@ class MirbaseGetter(Getter):
 
     bioregistry_id = "mirbase"
     name = "miRBase"
-    homepage_fmt = "https://www.mirbase.org/ftp/{version}/"
+    homepage_fmt = "https://www.mirbase.org/download/PREVIOUS_RELEASES/{version}"
     version_type = VersionType.semver_minor
 
     def get(self):
         """Get the latest miRBase version number."""
-        url = "https://www.mirbase.org/ftp/CURRENT/"
-        soup = get_soup(url)
-        rows = list(soup.find_all("tr"))
-        cells = list(rows[3].find_all("td"))
-        text = cells[1].find("a").text
-        return text[len(PREFIX) :]
+        url = "http://www.mirbase.org/download_readme/"
+        soup = get_soup(url, verify=False)
+        return soup.find("p").text.splitlines()[0].split()[-1]
 
 
 if __name__ == "__main__":
