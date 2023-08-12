@@ -11,7 +11,6 @@ from tqdm import tqdm
 
 from .antibodyregistry import AntibodyRegistryGetter
 from .bigg import BiGGGetter
-from .biofacquim import BiofacquimGetter
 from .biogrid import BioGRIDGetter
 from .cellosaurus import CellosaurusGetter
 from .chebi import ChEBIGetter
@@ -96,7 +95,6 @@ def get_getters() -> List[Type[Getter]]:
         PathBankGetter,
         NCBIGeneGetter,
         NPASSGetter,
-        BiofacquimGetter,
         RheaGetter,
         StringDBGetter,
         HomoloGeneGetter,
