@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 508,
-    "date": "2023-08-16",
+    "revision": 509,
+    "date": "2023-08-17",
     "author": "runner"
   },
   "database": [
@@ -5212,6 +5212,11 @@
           "homepage": "ftp://mirbase.org/pub/mirbase/22.1/",
           "retrieved": "2020-12-22",
           "version": "22.1"
+        },
+        {
+          "retrieved": "2023-08-17",
+          "version": "server.",
+          "homepage": "https://www.mirbase.org/download/PREVIOUS_RELEASES/server."
         }
       ],
       "vtype": "semver_minor"
@@ -5695,6 +5700,11 @@
           "retrieved": "2023-07-11",
           "version": "23.06d",
           "date": "2023-06-26"
+        },
+        {
+          "retrieved": "2023-08-17",
+          "version": "23.07e",
+          "date": "2023-07-31"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -9947,6 +9957,10 @@
         {
           "retrieved": "2023-08-16",
           "version": "2023-08-16"
+        },
+        {
+          "retrieved": "2023-08-17",
+          "version": "2023-08-17"
         }
       ],
       "name": "SwissLipids",
@@ -13087,6 +13101,10 @@
         {
           "retrieved": "2023-08-16",
           "version": "2023-08-14"
+        },
+        {
+          "retrieved": "2023-08-17",
+          "version": "2023-08-15"
         }
       ],
       "name": "Zebrafish Information Network",
