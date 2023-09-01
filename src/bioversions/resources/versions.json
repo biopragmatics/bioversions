@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 523,
-    "date": "2023-08-31",
+    "revision": 524,
+    "date": "2023-09-01",
     "author": "runner"
   },
   "database": [
@@ -512,6 +512,11 @@
           "retrieved": "2023-08-12",
           "version": "4.4.224",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.224"
+        },
+        {
+          "retrieved": "2023-09-01",
+          "version": "4.4.225",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.225"
         }
       ],
       "vtype": "semver"
@@ -7684,6 +7689,11 @@
           "retrieved": "2023-08-12",
           "version": "2023-08-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-08-01"
+        },
+        {
+          "retrieved": "2023-09-01",
+          "version": "2023-09-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-09-01"
         }
       ],
       "name": "PubChem",
@@ -10021,6 +10031,10 @@
         {
           "retrieved": "2023-08-31",
           "version": "2023-08-31"
+        },
+        {
+          "retrieved": "2023-09-01",
+          "version": "2023-09-01"
         }
       ],
       "name": "SwissLipids",
@@ -13221,6 +13235,10 @@
         {
           "retrieved": "2023-08-31",
           "version": "2023-08-29"
+        },
+        {
+          "retrieved": "2023-09-01",
+          "version": "2023-08-30"
         }
       ],
       "name": "Zebrafish Information Network",
