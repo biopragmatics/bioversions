@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-09-01'
-  revision: 524
+  date: '2023-09-02'
+  revision: 525
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -653,6 +653,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel224/
     retrieved: '2023-08-12'
     version: '224'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel225/
+    retrieved: '2023-09-02'
+    version: '225'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -2184,6 +2187,9 @@ database:
   - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-08-01.json
     retrieved: '2023-08-12'
     version: '2023-08-01'
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-09-01.json
+    retrieved: '2023-09-02'
+    version: '2023-09-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -2532,6 +2538,8 @@ database:
     version: 28-Jun-2023
   - retrieved: '2023-08-12'
     version: 26-Jul-2023
+  - retrieved: '2023-09-02'
+    version: 31-Aug-2023
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -4071,6 +4079,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2023-08-02/
     retrieved: '2023-08-12'
     version: '2023-08-02'
+  - date: '2023-09-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2023-09-01/
+    retrieved: '2023-09-02'
+    version: '2023-09-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -5447,6 +5459,8 @@ database:
     version: '2023-08-31'
   - retrieved: '2023-09-01'
     version: '2023-09-01'
+  - retrieved: '2023-09-02'
+    version: '2023-09-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7254,6 +7268,8 @@ database:
     version: '2023-08-29'
   - retrieved: '2023-09-01'
     version: '2023-08-30'
+  - retrieved: '2023-09-02'
+    version: '2023-08-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

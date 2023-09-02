@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 524,
-    "date": "2023-09-01",
+    "revision": 525,
+    "date": "2023-09-02",
     "author": "runner"
   },
   "database": [
@@ -1199,6 +1199,11 @@
           "retrieved": "2023-08-12",
           "version": "224",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel224/"
+        },
+        {
+          "retrieved": "2023-09-02",
+          "version": "225",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel225/"
         }
       ],
       "vtype": "sequential"
@@ -3961,6 +3966,11 @@
           "retrieved": "2023-08-12",
           "version": "2023-08-01",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-08-01.json"
+        },
+        {
+          "retrieved": "2023-09-02",
+          "version": "2023-09-01",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-09-01.json"
         }
       ],
       "name": "HGNC",
@@ -4597,6 +4607,10 @@
         {
           "retrieved": "2023-08-12",
           "version": "26-Jul-2023"
+        },
+        {
+          "retrieved": "2023-09-02",
+          "version": "31-Aug-2023"
         }
       ],
       "name": "ITIS",
@@ -7389,6 +7403,12 @@
           "version": "2023-08-02",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-08-02/",
           "date": "2023-08-02"
+        },
+        {
+          "retrieved": "2023-09-02",
+          "version": "2023-09-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-09-01/",
+          "date": "2023-09-01"
         }
       ],
       "name": "PomBase",
@@ -10035,6 +10055,10 @@
         {
           "retrieved": "2023-09-01",
           "version": "2023-09-01"
+        },
+        {
+          "retrieved": "2023-09-02",
+          "version": "2023-09-02"
         }
       ],
       "name": "SwissLipids",
@@ -13239,6 +13263,10 @@
         {
           "retrieved": "2023-09-01",
           "version": "2023-08-30"
+        },
+        {
+          "retrieved": "2023-09-02",
+          "version": "2023-08-31"
         }
       ],
       "name": "Zebrafish Information Network",
