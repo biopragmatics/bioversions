@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-09-13'
-  revision: 536
+  date: '2023-09-18'
+  revision: 537
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1582,6 +1582,8 @@ database:
     version: '2023-05-03'
   - retrieved: '2023-06-29'
     version: '2023-06-28'
+  - retrieved: '2023-09-18'
+    version: '2023-09-13'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -2498,6 +2500,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/95.0/
     retrieved: '2023-07-02'
     version: '95.0'
+  - date: '2023-09-14'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/96.0/
+    retrieved: '2023-09-18'
+    version: '96.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -3155,6 +3161,9 @@ database:
   - date: '2023-07-31'
     retrieved: '2023-08-17'
     version: 23.07e
+  - date: '2023-08-28'
+    retrieved: '2023-09-18'
+    version: 23.08d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -3849,6 +3858,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam35.0/
     retrieved: '2021-11-11'
     version: '35.0'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam36.0/
+    retrieved: '2023-09-18'
+    version: '36.0'
   vtype: semver_minor
 - name: Phenotype And Trait Ontology
   prefix: pato
@@ -4377,6 +4389,8 @@ database:
     version: '84'
   - retrieved: '2023-06-09'
     version: '85'
+  - retrieved: '2023-09-18'
+    version: '86'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -4490,6 +4504,9 @@ database:
   - date: '2023-06-28'
     retrieved: '2023-06-29'
     version: '128'
+  - date: '2023-09-13'
+    retrieved: '2023-09-18'
+    version: '129'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -5490,6 +5507,8 @@ database:
     version: '2023-09-12'
   - retrieved: '2023-09-13'
     version: '2023-09-13'
+  - retrieved: '2023-09-18'
+    version: '2023-09-18'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -5860,6 +5879,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_03/
     retrieved: '2023-06-30'
     version: '2023_03'
+  - date: '2023-04-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_04/
+    retrieved: '2023-09-18'
+    version: '2023_04'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -7323,6 +7346,8 @@ database:
     version: '2023-09-10'
   - retrieved: '2023-09-13'
     version: '2023-09-11'
+  - retrieved: '2023-09-18'
+    version: '2023-09-16'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
