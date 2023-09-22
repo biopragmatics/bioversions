@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 539,
-    "date": "2023-09-21",
+    "revision": 540,
+    "date": "2023-09-22",
     "author": "runner"
   },
   "database": [
@@ -3314,6 +3314,11 @@
           "retrieved": "2023-08-12",
           "version": "2023_04",
           "homepage": "http://ftp.flybase.net/releases/FB2023_04/"
+        },
+        {
+          "retrieved": "2023-09-22",
+          "version": "2023_05",
+          "homepage": "http://ftp.flybase.net/releases/FB2023_05/"
         }
       ],
       "name": "FlyBase",
@@ -10155,6 +10160,10 @@
         {
           "retrieved": "2023-09-21",
           "version": "2023-09-21"
+        },
+        {
+          "retrieved": "2023-09-22",
+          "version": "2023-09-22"
         }
       ],
       "name": "SwissLipids",
@@ -13427,6 +13436,10 @@
         {
           "retrieved": "2023-09-21",
           "version": "2023-09-19"
+        },
+        {
+          "retrieved": "2023-09-22",
+          "version": "2023-09-20"
         }
       ],
       "name": "Zebrafish Information Network",
