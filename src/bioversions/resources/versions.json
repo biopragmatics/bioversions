@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 547,
-    "date": "2023-09-29",
+    "revision": 548,
+    "date": "2023-09-30",
     "author": "runner"
   },
   "database": [
@@ -2188,6 +2188,12 @@
           "version": "2023-08-08",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-08-08",
           "date": "2023-08-08"
+        },
+        {
+          "retrieved": "2023-09-30",
+          "version": "2023-09-28",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-09-28",
+          "date": "2023-09-28"
         }
       ],
       "vtype": "date"
@@ -4726,6 +4732,10 @@
         {
           "retrieved": "2023-09-02",
           "version": "31-Aug-2023"
+        },
+        {
+          "retrieved": "2023-09-30",
+          "version": "26-Sep-2023"
         }
       ],
       "name": "ITIS",
@@ -4805,6 +4815,11 @@
           "retrieved": "2023-08-12",
           "version": "107.1",
           "date": "2023-08-01"
+        },
+        {
+          "retrieved": "2023-09-30",
+          "version": "108.0",
+          "date": "2023-10-01"
         }
       ],
       "vtype": "semver_minor"
@@ -8527,6 +8542,11 @@
           "retrieved": "2023-09-06",
           "version": "2023-09-05",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09052023.zip"
+        },
+        {
+          "retrieved": "2023-09-30",
+          "version": "2023-10-02",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10022023.zip"
         }
       ],
       "name": "RxNorm",
@@ -10388,6 +10408,10 @@
         {
           "retrieved": "2023-09-29",
           "version": "2023-09-29"
+        },
+        {
+          "retrieved": "2023-09-30",
+          "version": "2023-09-30"
         }
       ],
       "name": "SwissLipids",
@@ -13708,6 +13732,10 @@
         {
           "retrieved": "2023-09-29",
           "version": "2023-09-27"
+        },
+        {
+          "retrieved": "2023-09-30",
+          "version": "2023-09-28"
         }
       ],
       "name": "Zebrafish Information Network",
