@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-10-01'
-  revision: 549
+  date: '2023-10-02'
+  revision: 550
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -294,6 +294,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.225
     retrieved: '2023-09-01'
     version: 4.4.225
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.226
+    retrieved: '2023-10-02'
+    version: 4.4.226
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -672,6 +675,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel225/
     retrieved: '2023-09-02'
     version: '225'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel226/
+    retrieved: '2023-10-02'
+    version: '226'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -4201,6 +4207,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2023-09-01/
     retrieved: '2023-09-02'
     version: '2023-09-01'
+  - date: '2023-10-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2023-10-01/
+    retrieved: '2023-10-02'
+    version: '2023-10-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -5649,6 +5659,8 @@ database:
     version: '2023-09-30'
   - retrieved: '2023-10-01'
     version: '2023-10-01'
+  - retrieved: '2023-10-02'
+    version: '2023-10-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7520,6 +7532,8 @@ database:
     version: '2023-09-28'
   - retrieved: '2023-10-01'
     version: '2023-09-29'
+  - retrieved: '2023-10-02'
+    version: '2023-09-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 549,
-    "date": "2023-10-01",
+    "revision": 550,
+    "date": "2023-10-02",
     "author": "runner"
   },
   "database": [
@@ -533,6 +533,11 @@
           "retrieved": "2023-09-01",
           "version": "4.4.225",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.225"
+        },
+        {
+          "retrieved": "2023-10-02",
+          "version": "4.4.226",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.226"
         }
       ],
       "vtype": "semver"
@@ -1236,6 +1241,11 @@
           "retrieved": "2023-09-02",
           "version": "225",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel225/"
+        },
+        {
+          "retrieved": "2023-10-02",
+          "version": "226",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel226/"
         }
       ],
       "vtype": "sequential"
@@ -7635,6 +7645,12 @@
           "version": "2023-09-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-09-01/",
           "date": "2023-09-01"
+        },
+        {
+          "retrieved": "2023-10-02",
+          "version": "2023-10-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-10-01/",
+          "date": "2023-10-01"
         }
       ],
       "name": "PomBase",
@@ -10421,6 +10437,10 @@
         {
           "retrieved": "2023-10-01",
           "version": "2023-10-01"
+        },
+        {
+          "retrieved": "2023-10-02",
+          "version": "2023-10-02"
         }
       ],
       "name": "SwissLipids",
@@ -13749,6 +13769,10 @@
         {
           "retrieved": "2023-10-01",
           "version": "2023-09-29"
+        },
+        {
+          "retrieved": "2023-10-02",
+          "version": "2023-09-30"
         }
       ],
       "name": "Zebrafish Information Network",
