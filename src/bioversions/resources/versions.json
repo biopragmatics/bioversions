@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 550,
-    "date": "2023-10-02",
+    "revision": 551,
+    "date": "2023-10-03",
     "author": "runner"
   },
   "database": [
@@ -4088,6 +4088,11 @@
           "retrieved": "2023-09-02",
           "version": "2023-09-01",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-09-01.json"
+        },
+        {
+          "retrieved": "2023-10-03",
+          "version": "2023-10-01",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-10-01.json"
         }
       ],
       "name": "HGNC",
@@ -8126,6 +8131,10 @@
         {
           "retrieved": "2023-08-22",
           "version": "2023-08-18"
+        },
+        {
+          "retrieved": "2023-10-03",
+          "version": "2023-09-29"
         }
       ],
       "name": "Rat Genome Database",
@@ -10441,6 +10450,10 @@
         {
           "retrieved": "2023-10-02",
           "version": "2023-10-02"
+        },
+        {
+          "retrieved": "2023-10-03",
+          "version": "2023-10-03"
         }
       ],
       "name": "SwissLipids",
@@ -13773,6 +13786,10 @@
         {
           "retrieved": "2023-10-02",
           "version": "2023-09-30"
+        },
+        {
+          "retrieved": "2023-10-03",
+          "version": "2023-10-01"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-10-02'
-  revision: 550
+  date: '2023-10-03'
+  revision: 551
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2251,6 +2251,9 @@ database:
   - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-09-01.json
     retrieved: '2023-09-02'
     version: '2023-09-01'
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-10-01.json
+    retrieved: '2023-10-03'
+    version: '2023-10-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -4468,6 +4471,8 @@ database:
     version: '2023-08-11'
   - retrieved: '2023-08-22'
     version: '2023-08-18'
+  - retrieved: '2023-10-03'
+    version: '2023-09-29'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -5661,6 +5666,8 @@ database:
     version: '2023-10-01'
   - retrieved: '2023-10-02'
     version: '2023-10-02'
+  - retrieved: '2023-10-03'
+    version: '2023-10-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7534,6 +7541,8 @@ database:
     version: '2023-09-29'
   - retrieved: '2023-10-02'
     version: '2023-09-30'
+  - retrieved: '2023-10-03'
+    version: '2023-10-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
