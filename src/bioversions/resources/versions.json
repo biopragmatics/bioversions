@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 552,
-    "date": "2023-10-04",
+    "revision": 553,
+    "date": "2023-10-05",
     "author": "runner"
   },
   "database": [
@@ -5896,6 +5896,11 @@
           "retrieved": "2023-09-18",
           "version": "23.08d",
           "date": "2023-08-28"
+        },
+        {
+          "retrieved": "2023-10-05",
+          "version": "23.09d",
+          "date": "2023-09-25"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -10458,6 +10463,10 @@
         {
           "retrieved": "2023-10-04",
           "version": "2023-10-04"
+        },
+        {
+          "retrieved": "2023-10-05",
+          "version": "2023-10-05"
         }
       ],
       "name": "SwissLipids",
@@ -13798,6 +13807,10 @@
         {
           "retrieved": "2023-10-04",
           "version": "2023-10-02"
+        },
+        {
+          "retrieved": "2023-10-05",
+          "version": "2023-10-03"
         }
       ],
       "name": "Zebrafish Information Network",
