@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 553,
-    "date": "2023-10-05",
+    "revision": 554,
+    "date": "2023-10-06",
     "author": "runner"
   },
   "database": [
@@ -1086,6 +1086,11 @@
           "retrieved": "2023-06-30",
           "version": "46.0",
           "date": "2023-06-28"
+        },
+        {
+          "retrieved": "2023-10-06",
+          "version": "47.0",
+          "date": "2023-10-05"
         }
       ],
       "name": "Cellosaurus",
@@ -5468,6 +5473,12 @@
           "version": "2023-09-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-09-07",
           "date": "2023-09-07"
+        },
+        {
+          "retrieved": "2023-10-06",
+          "version": "2023-10-05",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-10-05",
+          "date": "2023-10-05"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -10467,6 +10478,10 @@
         {
           "retrieved": "2023-10-05",
           "version": "2023-10-05"
+        },
+        {
+          "retrieved": "2023-10-06",
+          "version": "2023-10-06"
         }
       ],
       "name": "SwissLipids",
@@ -13811,6 +13826,10 @@
         {
           "retrieved": "2023-10-05",
           "version": "2023-10-03"
+        },
+        {
+          "retrieved": "2023-10-06",
+          "version": "2023-10-04"
         }
       ],
       "name": "Zebrafish Information Network",
