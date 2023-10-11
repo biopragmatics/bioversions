@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 557,
-    "date": "2023-10-09",
+    "revision": 558,
+    "date": "2023-10-11",
     "author": "runner"
   },
   "database": [
@@ -1668,6 +1668,12 @@
           "version": "2023-06-02",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2023-06-02/",
           "date": "2023-06-02"
+        },
+        {
+          "retrieved": "2023-10-11",
+          "version": "2023-10-06",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2023-10-06/",
+          "date": "2023-10-06"
         }
       ],
       "vtype": "date"
@@ -4567,6 +4573,12 @@
           "version": "2023-06-02",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2023-06-02/",
           "date": "2023-06-02"
+        },
+        {
+          "retrieved": "2023-10-11",
+          "version": "2023-10-06",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2023-10-06/",
+          "date": "2023-10-06"
         }
       ],
       "vtype": "date"
@@ -10494,6 +10506,10 @@
         {
           "retrieved": "2023-10-09",
           "version": "2023-10-09"
+        },
+        {
+          "retrieved": "2023-10-11",
+          "version": "2023-10-11"
         }
       ],
       "name": "SwissLipids",
@@ -13854,6 +13870,10 @@
         {
           "retrieved": "2023-10-09",
           "version": "2023-10-07"
+        },
+        {
+          "retrieved": "2023-10-11",
+          "version": "2023-10-09"
         }
       ],
       "name": "Zebrafish Information Network",
