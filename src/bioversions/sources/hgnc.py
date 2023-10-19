@@ -2,16 +2,17 @@
 
 """A getter for HGNC."""
 
-import ftplib
+import logging
 
-from ..utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     "HGNCGetter",
 ]
 
-HOST = "ftp.ebi.ac.uk"
-PATH = "pub/databases/genenames/hgnc/archive/monthly/json/"
+logger = logging.getLogger(__name__)
+
+PATH = "https://ftp.ebi.ac.uk/pub/databases/genenames/new/archive/monthly/json/"
 PREFIX = "hgnc_complete_set_"
 SUFFIX = ".json"
 
@@ -22,7 +23,7 @@ class HGNCGetter(Getter):
     bioregistry_id = "hgnc"
     name = "HGNC"
     homepage_fmt = (
-        "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/"
+        "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/"
         "archive/monthly/json/hgnc_complete_set_{version}.json"
     )
 
@@ -30,13 +31,12 @@ class HGNCGetter(Getter):
 
     def get(self) -> str:
         """Get the latest HGNC version number."""
-        with ftplib.FTP(HOST) as ftp:
-            ftp.login()
-            ftp.cwd(PATH)
-            version = max(
-                name[len(PREFIX) : -len(SUFFIX)] for name in ftp.nlst() if name.startswith(PREFIX)
-            )
-        return version
+        soup = get_soup(PATH)
+        return max(
+            anchor.attrs["href"][len(PREFIX) : -len(SUFFIX)]
+            for anchor in soup.find_all("a")
+            if anchor.attrs["href"].startswith(PREFIX)
+        )
 
 
 if __name__ == "__main__":

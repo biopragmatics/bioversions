@@ -2,7 +2,7 @@
 
 """A getter for miRBase."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "MirbaseGetter",
@@ -21,9 +21,11 @@ class MirbaseGetter(Getter):
 
     def get(self):
         """Get the latest miRBase version number."""
-        url = "http://www.mirbase.org/download_readme/"
-        soup = get_soup(url, verify=False)
-        return soup.find("p").text.splitlines()[0].split()[-1]
+        return "22.1"
+        # Old code, doesn't work anymore because miRBase site deleted most of their FTP server and downloads
+        # url = "http://www.mirbase.org/download_readme/"
+        # soup = get_soup(url, verify=False)
+        # return soup.find("p").text.splitlines()[0].split()[-1]
 
 
 if __name__ == "__main__":

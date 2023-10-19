@@ -23,8 +23,10 @@ class WikiPathwaysGetter(Getter):
     def get(self):
         """Get the latest WikiPathways version number."""
         soup = get_soup(URL)
-        element = soup.find("tbody").find("tr").find("td").find("a")
-        return element.text.split("-")[1]
+        if soup is None:
+            raise ValueError(f"could not get WikiPathways data from {URL}")
+        anchor = soup.find(id="File")
+        return anchor.text.split("-")[1]
 
 
 if __name__ == "__main__":
