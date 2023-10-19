@@ -34,6 +34,7 @@ from .interpro import InterProGetter
 from .itis import ITISGetter
 from .kegg import KEGGGetter
 from .mesh import MeshGetter
+from .mgi import MGIGetter
 from .mirbase import MirbaseGetter
 from .moalmanac import MOAlmanacGetter
 from .msigdb import MSigDBGetter
@@ -125,6 +126,7 @@ def get_getters() -> List[Type[Getter]]:
         HGNCGetter,
         RGDGetter,
         CellosaurusGetter,
+        MGIGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
