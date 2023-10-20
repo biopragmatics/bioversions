@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 564,
-    "date": "2023-10-18",
+    "revision": 565,
+    "date": "2023-10-20",
     "author": "runner"
   },
   "database": [
@@ -1317,7 +1317,7 @@
         }
       ],
       "name": "Chemical Analysis Ontology",
-      "prefix": "nfdi4chem.cao",
+      "prefix": "cao",
       "vtype": "missing"
     },
     {
@@ -5416,6 +5416,11 @@
           "retrieved": "2023-08-17",
           "version": "server.",
           "homepage": "https://www.mirbase.org/download/PREVIOUS_RELEASES/server."
+        },
+        {
+          "retrieved": "2023-10-20",
+          "version": "22.1",
+          "homepage": "https://www.mirbase.org/download/PREVIOUS_RELEASES/22.1"
         }
       ],
       "vtype": "semver_minor"
@@ -5731,6 +5736,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2023-10-20",
+          "version": "6.22"
+        }
+      ],
+      "name": "Mouse Genome Database",
+      "prefix": "mgi",
+      "vtype": "semver_minor"
     },
     {
       "releases": [
@@ -10544,6 +10560,10 @@
         {
           "retrieved": "2023-10-18",
           "version": "2023-10-18"
+        },
+        {
+          "retrieved": "2023-10-20",
+          "version": "2023-10-20"
         }
       ],
       "name": "SwissLipids",
@@ -11669,6 +11689,12 @@
           "version": "20230910",
           "homepage": "http://data.wikipathways.org/20230910/",
           "date": "2023-09-10"
+        },
+        {
+          "retrieved": "2023-10-20",
+          "version": "20231010",
+          "homepage": "http://data.wikipathways.org/20231010/",
+          "date": "2023-10-10"
         }
       ],
       "vtype": "date"
@@ -13932,6 +13958,10 @@
         {
           "retrieved": "2023-10-18",
           "version": "2023-10-16"
+        },
+        {
+          "retrieved": "2023-10-20",
+          "version": "2023-10-18"
         }
       ],
       "name": "Zebrafish Information Network",

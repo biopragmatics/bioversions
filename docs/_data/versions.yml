@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-10-18'
-  revision: 564
+  date: '2023-10-20'
+  revision: 565
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -717,7 +717,7 @@ database:
     version: '33'
   vtype: sequential
 - name: Chemical Analysis Ontology
-  prefix: nfdi4chem.cao
+  prefix: cao
   releases:
   - retrieved: '2023-05-11'
     version: '0.2'
@@ -2974,6 +2974,9 @@ database:
   - homepage: https://www.mirbase.org/download/PREVIOUS_RELEASES/server.
     retrieved: '2023-08-17'
     version: server.
+  - homepage: https://www.mirbase.org/download/PREVIOUS_RELEASES/22.1
+    retrieved: '2023-10-20'
+    version: '22.1'
   vtype: semver_minor
 - name: Molecular Interactions Controlled Vocabulary
   prefix: mi
@@ -3146,6 +3149,12 @@ database:
   - retrieved: '2021-02-02'
     version: '2020-03-10'
   vtype: date
+- name: Mouse Genome Database
+  prefix: mgi
+  releases:
+  - retrieved: '2023-10-20'
+    version: '6.22'
+  vtype: semver_minor
 - name: Mouse gross anatomy and development, timed
   prefix: emap
   releases:
@@ -5718,6 +5727,8 @@ database:
     version: '2023-10-17'
   - retrieved: '2023-10-18'
     version: '2023-10-18'
+  - retrieved: '2023-10-20'
+    version: '2023-10-20'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6343,6 +6354,10 @@ database:
     homepage: http://data.wikipathways.org/20230910/
     retrieved: '2023-09-11'
     version: '20230910'
+  - date: '2023-10-10'
+    homepage: http://data.wikipathways.org/20231010/
+    retrieved: '2023-10-20'
+    version: '20231010'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -7619,6 +7634,8 @@ database:
     version: '2023-10-15'
   - retrieved: '2023-10-18'
     version: '2023-10-16'
+  - retrieved: '2023-10-20'
+    version: '2023-10-18'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
