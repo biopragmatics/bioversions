@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 565,
-    "date": "2023-10-20",
+    "revision": 566,
+    "date": "2023-10-21",
     "author": "runner"
   },
   "database": [
@@ -5807,6 +5807,11 @@
           "retrieved": "2023-03-24",
           "version": "2023.1",
           "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2023.1"
+        },
+        {
+          "retrieved": "2023-10-21",
+          "version": "2023.2",
+          "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2023.2"
         }
       ],
       "vtype": "year_minor"
@@ -10564,6 +10569,10 @@
         {
           "retrieved": "2023-10-20",
           "version": "2023-10-20"
+        },
+        {
+          "retrieved": "2023-10-21",
+          "version": "2023-10-21"
         }
       ],
       "name": "SwissLipids",
@@ -13962,6 +13971,10 @@
         {
           "retrieved": "2023-10-20",
           "version": "2023-10-18"
+        },
+        {
+          "retrieved": "2023-10-21",
+          "version": "2023-10-19"
         }
       ],
       "name": "Zebrafish Information Network",
