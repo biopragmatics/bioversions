@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 576,
-    "date": "2023-10-31",
+    "revision": 577,
+    "date": "2023-11-01",
     "author": "runner"
   },
   "database": [
@@ -4864,6 +4864,11 @@
           "retrieved": "2023-09-30",
           "version": "108.0",
           "date": "2023-10-01"
+        },
+        {
+          "retrieved": "2023-11-01",
+          "version": "108.1",
+          "date": "2023-11-01"
         }
       ],
       "vtype": "semver_minor"
@@ -8027,6 +8032,11 @@
           "retrieved": "2023-10-01",
           "version": "2023-10-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-10-01"
+        },
+        {
+          "retrieved": "2023-11-01",
+          "version": "2023-11-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-11-01"
         }
       ],
       "name": "PubChem",
@@ -10623,6 +10633,10 @@
         {
           "retrieved": "2023-10-31",
           "version": "2023-10-30"
+        },
+        {
+          "retrieved": "2023-11-01",
+          "version": "2023-11-01"
         }
       ],
       "name": "SwissLipids",
@@ -14065,6 +14079,10 @@
         {
           "retrieved": "2023-10-31",
           "version": "2023-10-29"
+        },
+        {
+          "retrieved": "2023-11-01",
+          "version": "2023-10-30"
         }
       ],
       "name": "Zebrafish Information Network",
