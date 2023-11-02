@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 577,
-    "date": "2023-11-01",
+    "revision": 578,
+    "date": "2023-11-02",
     "author": "runner"
   },
   "database": [
@@ -62,6 +62,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023/06"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023/09"
         }
       ],
       "vtype": "date"
@@ -233,6 +237,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-05"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-03"
         }
       ],
       "vtype": "date"
@@ -376,6 +384,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2.8.8"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2.8.10"
         }
       ],
       "vtype": "semver"
@@ -538,6 +550,11 @@
           "retrieved": "2023-10-02",
           "version": "4.4.226",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.226"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "4.4.227",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.227"
         }
       ],
       "vtype": "semver"
@@ -776,6 +793,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-10"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-09-26"
         }
       ],
       "name": "C. elegans development ontology",
@@ -882,6 +903,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-10"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-09-26"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1051,6 +1076,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-21"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-19"
         }
       ],
       "prefix": "cl",
@@ -1251,6 +1280,11 @@
           "retrieved": "2023-10-02",
           "version": "226",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel226/"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "227",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel227/"
         }
       ],
       "vtype": "sequential"
@@ -1467,6 +1501,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2.191"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2.195"
         }
       ],
       "vtype": "date"
@@ -2300,6 +2338,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-02"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-18"
         }
       ],
       "name": "Drosophila development",
@@ -2351,6 +2393,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-02"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-18"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -2418,6 +2464,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-02"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-19"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -2474,6 +2524,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "2022-06-14"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-16"
         }
       ],
       "vtype": "date"
@@ -2994,6 +3048,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "4.140"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "4.141"
         }
       ],
       "vtype": "date"
@@ -3113,6 +3171,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "3.58.0"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "3.59.0"
         }
       ],
       "vtype": "semver"
@@ -3341,6 +3403,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-06"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-06"
         }
       ],
       "vtype": "date"
@@ -3495,6 +3561,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-02"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-19"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -3873,6 +3943,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-02-21"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-08"
         }
       ],
       "name": "Genotype Ontology",
@@ -4182,6 +4256,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-31"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-13"
         }
       ],
       "vtype": "semver"
@@ -4378,6 +4456,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-01"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-09"
         }
       ],
       "vtype": "date"
@@ -4780,6 +4862,10 @@
         {
           "retrieved": "2023-09-30",
           "version": "26-Sep-2023"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "31-Oct-2023"
         }
       ],
       "name": "ITIS",
@@ -5075,6 +5161,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2.115"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2.117"
         }
       ],
       "vtype": "date"
@@ -5157,6 +5247,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-06-06"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-03"
         }
       ],
       "vtype": "date"
@@ -5410,6 +5504,10 @@
         {
           "retrieved": "2021-02-04",
           "version": "2019-01-30"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-17"
         }
       ],
       "vtype": "date"
@@ -6218,6 +6316,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-23"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-12"
         }
       ],
       "vtype": "date"
@@ -6414,6 +6516,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-25"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-09-20"
         }
       ],
       "vtype": "date"
@@ -6465,6 +6571,17 @@
       ],
       "name": "Ontology for MicroRNA Target",
       "prefix": "omit",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-08"
+        }
+      ],
+      "name": "Ontology for Modeling and Representation of Social Entities",
+      "prefix": "omrse",
       "vtype": "date"
     },
     {
@@ -6662,6 +6779,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-24"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-18"
         }
       ],
       "vtype": "date"
@@ -6961,6 +7082,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2.0.46"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2.0.50"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -7136,6 +7261,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-07"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-11"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -7722,6 +7851,12 @@
           "version": "2023-10-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-10-01/",
           "date": "2023-10-01"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-11-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-11-01/",
+          "date": "2023-11-01"
         }
       ],
       "name": "PomBase",
@@ -8243,6 +8378,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "6.205"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "6.208"
         }
       ],
       "vtype": "date"
@@ -11468,6 +11607,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-06-02"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-09-28"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -14083,6 +14226,10 @@
         {
           "retrieved": "2023-11-01",
           "version": "2023-10-30"
+        },
+        {
+          "retrieved": "2023-11-02",
+          "version": "2023-10-31"
         }
       ],
       "name": "Zebrafish Information Network",

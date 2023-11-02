@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-01'
-  revision: 577
+  date: '2023-11-02'
+  revision: 578
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -34,6 +34,8 @@ database:
     version: 2023/03
   - retrieved: '2023-09-28'
     version: 2023/06
+  - retrieved: '2023-11-02'
+    version: 2023/09
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -125,6 +127,8 @@ database:
     version: '2023-04-27'
   - retrieved: '2023-09-28'
     version: '2023-09-05'
+  - retrieved: '2023-11-02'
+    version: '2023-10-03'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -201,6 +205,8 @@ database:
     version: 2.8.4
   - retrieved: '2023-09-28'
     version: 2.8.8
+  - retrieved: '2023-11-02'
+    version: 2.8.10
   vtype: semver
 - name: Biofacquim
   releases:
@@ -297,6 +303,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.226
     retrieved: '2023-10-02'
     version: 4.4.226
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.227
+    retrieved: '2023-11-02'
+    version: 4.4.227
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -423,6 +432,8 @@ database:
     version: '2023-05-17'
   - retrieved: '2023-09-28'
     version: '2023-07-10'
+  - retrieved: '2023-11-02'
+    version: '2023-09-26'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -477,6 +488,8 @@ database:
     version: '2023-05-18'
   - retrieved: '2023-09-28'
     version: '2023-07-10'
+  - retrieved: '2023-11-02'
+    version: '2023-09-26'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -565,6 +578,8 @@ database:
     version: '2023-06-22'
   - retrieved: '2023-09-28'
     version: '2023-09-21'
+  - retrieved: '2023-11-02'
+    version: '2023-10-19'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -681,6 +696,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel226/
     retrieved: '2023-10-02'
     version: '226'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel227/
+    retrieved: '2023-11-02'
+    version: '227'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -805,6 +823,8 @@ database:
     version: '2019-02-19'
   - retrieved: '2023-09-28'
     version: '2.191'
+  - retrieved: '2023-11-02'
+    version: '2.195'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1278,6 +1298,8 @@ database:
     version: '2023-05-03'
   - retrieved: '2023-09-28'
     version: '2023-08-02'
+  - retrieved: '2023-11-02'
+    version: '2023-10-18'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1304,6 +1326,8 @@ database:
     version: '2023-05-03'
   - retrieved: '2023-09-28'
     version: '2023-08-02'
+  - retrieved: '2023-11-02'
+    version: '2023-10-18'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1338,6 +1362,8 @@ database:
     version: '2023-05-03'
   - retrieved: '2023-09-28'
     version: '2023-08-02'
+  - retrieved: '2023-11-02'
+    version: '2023-10-19'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -1367,6 +1393,8 @@ database:
     version: '2021-06-11'
   - retrieved: '2022-06-22'
     version: '2022-06-14'
+  - retrieved: '2023-11-02'
+    version: '2023-10-16'
   vtype: date
 - name: DrugBank
   prefix: drugbank
@@ -1651,6 +1679,8 @@ database:
     version: '4.46'
   - retrieved: '2023-09-28'
     version: '4.140'
+  - retrieved: '2023-11-02'
+    version: '4.141'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -1711,6 +1741,8 @@ database:
     version: 3.55.0
   - retrieved: '2023-09-28'
     version: 3.58.0
+  - retrieved: '2023-11-02'
+    version: 3.59.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -1827,6 +1859,8 @@ database:
     version: '2023-06-21'
   - retrieved: '2023-09-28'
     version: '2023-09-06'
+  - retrieved: '2023-11-02'
+    version: '2023-10-06'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -1913,6 +1947,8 @@ database:
     version: '2023-05-04'
   - retrieved: '2023-09-28'
     version: '2023-08-02'
+  - retrieved: '2023-11-02'
+    version: '2023-10-19'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -2131,6 +2167,8 @@ database:
     version: '2022-03-05'
   - retrieved: '2023-05-11'
     version: '2023-02-21'
+  - retrieved: '2023-11-02'
+    version: '2023-10-08'
   vtype: date
 - name: GEO
   prefix: geo
@@ -2303,6 +2341,8 @@ database:
     version: '2023-06-20'
   - retrieved: '2023-09-28'
     version: '2023-07-31'
+  - retrieved: '2023-11-02'
+    version: '2023-10-13'
   vtype: semver
 - name: Human Cell Atlas Ontology
   prefix: hcao
@@ -2403,6 +2443,8 @@ database:
     version: '2023-06-17'
   - retrieved: '2023-09-28'
     version: '2023-09-01'
+  - retrieved: '2023-11-02'
+    version: '2023-10-09'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -2633,6 +2675,8 @@ database:
     version: 31-Aug-2023
   - retrieved: '2023-09-30'
     version: 26-Sep-2023
+  - retrieved: '2023-11-02'
+    version: 31-Oct-2023
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -2795,6 +2839,8 @@ database:
     version: '2.39'
   - retrieved: '2023-09-28'
     version: '2.115'
+  - retrieved: '2023-11-02'
+    version: '2.117'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -2837,6 +2883,8 @@ database:
     version: '2023-04-18'
   - retrieved: '2023-06-29'
     version: '2023-06-06'
+  - retrieved: '2023-11-02'
+    version: '2023-10-03'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -2971,6 +3019,8 @@ database:
     version: release version 2019-01-30
   - retrieved: '2021-02-04'
     version: '2019-01-30'
+  - retrieved: '2023-11-02'
+    version: '2023-10-17'
   vtype: date
 - name: miRBase
   prefix: mirbase
@@ -3418,6 +3468,8 @@ database:
     version: '2023-06-09'
   - retrieved: '2023-09-28'
     version: '2023-08-23'
+  - retrieved: '2023-11-02'
+    version: '2023-10-12'
   vtype: date
 - name: Obstetric and Neonatal Ontology
   prefix: ontoneo
@@ -3524,6 +3576,8 @@ database:
     version: '2023-03-10'
   - retrieved: '2023-09-28'
     version: '2023-07-25'
+  - retrieved: '2023-11-02'
+    version: '2023-09-20'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -3550,6 +3604,12 @@ database:
     version: '2019-06-07'
   - retrieved: '2023-05-11'
     version: dev
+  vtype: date
+- name: Ontology for Modeling and Representation of Social Entities
+  prefix: omrse
+  releases:
+  - retrieved: '2023-11-02'
+    version: '2023-10-08'
   vtype: date
 - name: Ontology for Nutritional Studies
   prefix: ons
@@ -3654,6 +3714,8 @@ database:
     version: '2023-06-07'
   - retrieved: '2023-09-28'
     version: '2023-08-24'
+  - retrieved: '2023-11-02'
+    version: '2023-10-18'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -3832,6 +3894,8 @@ database:
     version: 2.0.39
   - retrieved: '2023-09-28'
     version: 2.0.46
+  - retrieved: '2023-11-02'
+    version: 2.0.50
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -3929,6 +3993,8 @@ database:
     version: '2023-06-22'
   - retrieved: '2023-09-28'
     version: '2023-09-07'
+  - retrieved: '2023-11-02'
+    version: '2023-10-11'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -4255,6 +4321,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2023-10-01/
     retrieved: '2023-10-02'
     version: '2023-10-01'
+  - date: '2023-11-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2023-11-01/
+    retrieved: '2023-11-02'
+    version: '2023-11-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -4535,6 +4605,8 @@ database:
     version: '6.107'
   - retrieved: '2023-09-28'
     version: '6.205'
+  - retrieved: '2023-11-02'
+    version: '6.208'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -6216,6 +6288,8 @@ database:
     version: '2023-03-09'
   - retrieved: '2023-06-29'
     version: '2023-06-02'
+  - retrieved: '2023-11-02'
+    version: '2023-09-28'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -7699,6 +7773,8 @@ database:
     version: '2023-10-29'
   - retrieved: '2023-11-01'
     version: '2023-10-30'
+  - retrieved: '2023-11-02'
+    version: '2023-10-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
