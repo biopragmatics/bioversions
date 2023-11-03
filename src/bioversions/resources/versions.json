@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 578,
-    "date": "2023-11-02",
+    "revision": 579,
+    "date": "2023-11-03",
     "author": "runner"
   },
   "database": [
@@ -1505,6 +1505,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2.195"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "2.196"
         }
       ],
       "vtype": "date"
@@ -3052,6 +3056,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "4.141"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "4.142"
         }
       ],
       "vtype": "date"
@@ -3218,6 +3226,10 @@
         {
           "retrieved": "2021-11-21",
           "version": "0.3.0"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "2023-10-10"
         }
       ],
       "name": "FAIRsharing Subject Ontology",
@@ -5165,6 +5177,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2.117"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "2.118"
         }
       ],
       "vtype": "date"
@@ -8382,6 +8398,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "6.208"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "6.209"
         }
       ],
       "vtype": "date"
@@ -10776,6 +10796,10 @@
         {
           "retrieved": "2023-11-01",
           "version": "2023-11-01"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "2023-11-02"
         }
       ],
       "name": "SwissLipids",
@@ -11298,6 +11322,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-05"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "2023-10-27"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -14230,6 +14258,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-31"
+        },
+        {
+          "retrieved": "2023-11-03",
+          "version": "2023-11-01"
         }
       ],
       "name": "Zebrafish Information Network",

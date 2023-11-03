@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-02'
-  revision: 578
+  date: '2023-11-03'
+  revision: 579
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -825,6 +825,8 @@ database:
     version: '2.191'
   - retrieved: '2023-11-02'
     version: '2.195'
+  - retrieved: '2023-11-03'
+    version: '2.196'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1681,6 +1683,8 @@ database:
     version: '4.140'
   - retrieved: '2023-11-02'
     version: '4.141'
+  - retrieved: '2023-11-03'
+    version: '4.142'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -1767,6 +1771,8 @@ database:
     version: 0.2.2
   - retrieved: '2021-11-21'
     version: 0.3.0
+  - retrieved: '2023-11-03'
+    version: '2023-10-10'
   vtype: semver
 - name: Fission Yeast Phenotype Ontology
   prefix: fypo
@@ -2841,6 +2847,8 @@ database:
     version: '2.115'
   - retrieved: '2023-11-02'
     version: '2.117'
+  - retrieved: '2023-11-03'
+    version: '2.118'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -4607,6 +4615,8 @@ database:
     version: '6.205'
   - retrieved: '2023-11-02'
     version: '6.208'
+  - retrieved: '2023-11-03'
+    version: '6.209'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -5840,6 +5850,8 @@ database:
     version: '2023-10-30'
   - retrieved: '2023-11-01'
     version: '2023-11-01'
+  - retrieved: '2023-11-03'
+    version: '2023-11-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6115,6 +6127,8 @@ database:
     version: '2023-05-23'
   - retrieved: '2023-09-28'
     version: '2023-09-05'
+  - retrieved: '2023-11-03'
+    version: '2023-10-27'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -7775,6 +7789,8 @@ database:
     version: '2023-10-30'
   - retrieved: '2023-11-02'
     version: '2023-10-31'
+  - retrieved: '2023-11-03'
+    version: '2023-11-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
