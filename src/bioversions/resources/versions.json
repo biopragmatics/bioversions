@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 581,
-    "date": "2023-11-05",
+    "revision": 582,
+    "date": "2023-11-06",
     "author": "runner"
   },
   "database": [
@@ -7710,6 +7710,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-05-19"
+        },
+        {
+          "retrieved": "2023-11-06",
+          "version": "2023-10-19"
         }
       ],
       "vtype": "date"
@@ -14278,6 +14282,10 @@
         {
           "retrieved": "2023-11-05",
           "version": "2023-11-03"
+        },
+        {
+          "retrieved": "2023-11-06",
+          "version": "2023-11-04"
         }
       ],
       "name": "Zebrafish Information Network",
