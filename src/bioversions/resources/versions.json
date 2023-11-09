@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 584,
-    "date": "2023-11-08",
+    "revision": 585,
+    "date": "2023-11-09",
     "author": "runner"
   },
   "database": [
@@ -1857,6 +1857,10 @@
         {
           "retrieved": "2023-03-24",
           "version": "1.0.337"
+        },
+        {
+          "retrieved": "2023-11-09",
+          "version": "1.0.369"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -3029,6 +3033,10 @@
         {
           "retrieved": "2023-09-18",
           "version": "2023-09-13"
+        },
+        {
+          "retrieved": "2023-11-09",
+          "version": "2023-11-08"
         }
       ],
       "vtype": "date"
@@ -5126,6 +5134,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "4.1.131"
+        },
+        {
+          "retrieved": "2023-11-09",
+          "version": "4.1.134"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -8685,6 +8697,11 @@
           "retrieved": "2023-09-18",
           "version": "129",
           "date": "2023-09-13"
+        },
+        {
+          "retrieved": "2023-11-09",
+          "version": "130",
+          "date": "2023-11-08"
         }
       ],
       "vtype": "date"
@@ -10833,6 +10850,10 @@
         {
           "retrieved": "2023-11-08",
           "version": "2023-11-07"
+        },
+        {
+          "retrieved": "2023-11-09",
+          "version": "2023-11-09"
         }
       ],
       "name": "SwissLipids",
@@ -11544,6 +11565,12 @@
           "version": "2023_04",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_04/",
           "date": "2023-04-01"
+        },
+        {
+          "retrieved": "2023-11-09",
+          "version": "2023_05",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_05/",
+          "date": "2023-05-01"
         }
       ],
       "vtype": "month"
@@ -14319,6 +14346,10 @@
         {
           "retrieved": "2023-11-08",
           "version": "2023-11-06"
+        },
+        {
+          "retrieved": "2023-11-09",
+          "version": "2023-11-07"
         }
       ],
       "name": "Zebrafish Information Network",

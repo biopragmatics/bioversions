@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-08'
-  revision: 584
+  date: '2023-11-09'
+  revision: 585
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1018,6 +1018,8 @@ database:
     version: 1.0.326
   - retrieved: '2023-03-24'
     version: 1.0.337
+  - retrieved: '2023-11-09'
+    version: 1.0.369
   vtype: semver
 - name: Cotton ontology
   prefix: co_358
@@ -1669,6 +1671,8 @@ database:
     version: '2023-06-28'
   - retrieved: '2023-09-18'
     version: '2023-09-13'
+  - retrieved: '2023-11-09'
+    version: '2023-11-08'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -2821,6 +2825,8 @@ database:
     version: 4.1.127
   - retrieved: '2023-09-28'
     version: 4.1.131
+  - retrieved: '2023-11-09'
+    version: 4.1.134
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4771,6 +4777,9 @@ database:
   - date: '2023-09-13'
     retrieved: '2023-09-18'
     version: '129'
+  - date: '2023-11-08'
+    retrieved: '2023-11-09'
+    version: '130'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -5869,6 +5878,8 @@ database:
     version: '2023-11-06'
   - retrieved: '2023-11-08'
     version: '2023-11-07'
+  - retrieved: '2023-11-09'
+    version: '2023-11-09'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6253,6 +6264,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_04/
     retrieved: '2023-09-18'
     version: '2023_04'
+  - date: '2023-05-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_05/
+    retrieved: '2023-11-09'
+    version: '2023_05'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -7820,6 +7835,8 @@ database:
     version: '2023-11-05'
   - retrieved: '2023-11-08'
     version: '2023-11-06'
+  - retrieved: '2023-11-09'
+    version: '2023-11-07'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
