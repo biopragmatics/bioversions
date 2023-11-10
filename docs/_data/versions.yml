@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-09'
-  revision: 585
+  date: '2023-11-10'
+  revision: 586
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2641,6 +2641,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/96.0/
     retrieved: '2023-09-18'
     version: '96.0'
+  - date: '2023-11-09'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/97.0/
+    retrieved: '2023-11-10'
+    version: '97.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -3099,6 +3103,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-10-05
     retrieved: '2023-10-06'
     version: '2023-10-05'
+  - date: '2023-11-09'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-11-09
+    retrieved: '2023-11-10'
+    version: '2023-11-09'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -7837,6 +7845,8 @@ database:
     version: '2023-11-06'
   - retrieved: '2023-11-09'
     version: '2023-11-07'
+  - retrieved: '2023-11-10'
+    version: '2023-11-08'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
