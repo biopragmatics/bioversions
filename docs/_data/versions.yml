@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-10'
-  revision: 586
+  date: '2023-11-11'
+  revision: 587
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -827,6 +827,8 @@ database:
     version: '2.195'
   - retrieved: '2023-11-03'
     version: '2.196'
+  - retrieved: '2023-11-11'
+    version: '2.197'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1689,6 +1691,8 @@ database:
     version: '4.141'
   - retrieved: '2023-11-03'
     version: '4.142'
+  - retrieved: '2023-11-11'
+    version: '4.143'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2213,6 +2217,8 @@ database:
     version: '2023-05-08'
   - retrieved: '2023-09-28'
     version: '2023-08-09'
+  - retrieved: '2023-11-11'
+    version: '2023-11-02'
   vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
@@ -2859,6 +2865,8 @@ database:
     version: '2.117'
   - retrieved: '2023-11-03'
     version: '2.118'
+  - retrieved: '2023-11-11'
+    version: '2.119'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -5888,6 +5896,8 @@ database:
     version: '2023-11-07'
   - retrieved: '2023-11-09'
     version: '2023-11-09'
+  - retrieved: '2023-11-11'
+    version: '2023-11-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6527,6 +6537,10 @@ database:
     homepage: http://data.wikipathways.org/20231010/
     retrieved: '2023-10-20'
     version: '20231010'
+  - date: '2023-11-10'
+    homepage: http://data.wikipathways.org/20231110/
+    retrieved: '2023-11-11'
+    version: '20231110'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -7847,6 +7861,8 @@ database:
     version: '2023-11-07'
   - retrieved: '2023-11-10'
     version: '2023-11-08'
+  - retrieved: '2023-11-11'
+    version: '2023-11-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

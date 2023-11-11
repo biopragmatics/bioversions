@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 586,
-    "date": "2023-11-10",
+    "revision": 587,
+    "date": "2023-11-11",
     "author": "runner"
   },
   "database": [
@@ -1509,6 +1509,10 @@
         {
           "retrieved": "2023-11-03",
           "version": "2.196"
+        },
+        {
+          "retrieved": "2023-11-11",
+          "version": "2.197"
         }
       ],
       "vtype": "date"
@@ -3068,6 +3072,10 @@
         {
           "retrieved": "2023-11-03",
           "version": "4.142"
+        },
+        {
+          "retrieved": "2023-11-11",
+          "version": "4.143"
         }
       ],
       "vtype": "date"
@@ -4032,6 +4040,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-09"
+        },
+        {
+          "retrieved": "2023-11-11",
+          "version": "2023-11-02"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -5199,6 +5211,10 @@
         {
           "retrieved": "2023-11-03",
           "version": "2.118"
+        },
+        {
+          "retrieved": "2023-11-11",
+          "version": "2.119"
         }
       ],
       "vtype": "date"
@@ -10866,6 +10882,10 @@
         {
           "retrieved": "2023-11-09",
           "version": "2023-11-09"
+        },
+        {
+          "retrieved": "2023-11-11",
+          "version": "2023-11-10"
         }
       ],
       "name": "SwissLipids",
@@ -12015,6 +12035,12 @@
           "version": "20231010",
           "homepage": "http://data.wikipathways.org/20231010/",
           "date": "2023-10-10"
+        },
+        {
+          "retrieved": "2023-11-11",
+          "version": "20231110",
+          "homepage": "http://data.wikipathways.org/20231110/",
+          "date": "2023-11-10"
         }
       ],
       "vtype": "date"
@@ -14366,6 +14392,10 @@
         {
           "retrieved": "2023-11-10",
           "version": "2023-11-08"
+        },
+        {
+          "retrieved": "2023-11-11",
+          "version": "2023-11-09"
         }
       ],
       "name": "Zebrafish Information Network",
