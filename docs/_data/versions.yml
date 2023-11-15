@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-14'
-  revision: 590
+  date: '2023-11-15'
+  revision: 591
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1440,6 +1440,9 @@ database:
   - date: '2023-05-10'
     retrieved: '2023-06-14'
     version: '53'
+  - date: '2023-11-01'
+    retrieved: '2023-11-15'
+    version: '54'
   vtype: date
 - name: eagle-i resource ontology
   prefix: ero
@@ -4755,6 +4758,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.9/
     retrieved: '2023-03-24'
     version: '14.9'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.10/
+    retrieved: '2023-11-15'
+    version: '14.10'
   vtype: semver_minor
 - name: Rhea
   prefix: rhea
@@ -5904,6 +5910,8 @@ database:
     version: '2023-11-12'
   - retrieved: '2023-11-14'
     version: '2023-11-13'
+  - retrieved: '2023-11-15'
+    version: '2023-11-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7875,6 +7883,8 @@ database:
     version: '2023-11-11'
   - retrieved: '2023-11-14'
     version: '2023-11-12'
+  - retrieved: '2023-11-15'
+    version: '2023-11-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
