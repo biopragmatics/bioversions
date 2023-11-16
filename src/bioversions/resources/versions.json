@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 591,
-    "date": "2023-11-15",
+    "revision": 592,
+    "date": "2023-11-16",
     "author": "runner"
   },
   "database": [
@@ -3440,6 +3440,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-06"
+        },
+        {
+          "retrieved": "2023-11-16",
+          "version": "2023-11-03"
         }
       ],
       "vtype": "date"
@@ -4049,6 +4053,10 @@
         {
           "retrieved": "2023-11-11",
           "version": "2023-11-02"
+        },
+        {
+          "retrieved": "2023-11-16",
+          "version": "2023-11-09"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -10912,6 +10920,10 @@
         {
           "retrieved": "2023-11-15",
           "version": "2023-11-15"
+        },
+        {
+          "retrieved": "2023-11-16",
+          "version": "2023-11-16"
         }
       ],
       "name": "SwissLipids",
@@ -14438,6 +14450,10 @@
         {
           "retrieved": "2023-11-15",
           "version": "2023-11-13"
+        },
+        {
+          "retrieved": "2023-11-16",
+          "version": "2023-11-14"
         }
       ],
       "name": "Zebrafish Information Network",
