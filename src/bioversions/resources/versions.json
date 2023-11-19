@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 594,
-    "date": "2023-11-18",
+    "revision": 595,
+    "date": "2023-11-19",
     "author": "runner"
   },
   "database": [
@@ -1513,6 +1513,10 @@
         {
           "retrieved": "2023-11-11",
           "version": "2.197"
+        },
+        {
+          "retrieved": "2023-11-19",
+          "version": "2.198"
         }
       ],
       "vtype": "date"
@@ -3081,6 +3085,10 @@
         {
           "retrieved": "2023-11-11",
           "version": "4.143"
+        },
+        {
+          "retrieved": "2023-11-19",
+          "version": "4.144"
         }
       ],
       "vtype": "date"
@@ -3444,6 +3452,10 @@
         {
           "retrieved": "2023-11-16",
           "version": "2023-11-03"
+        },
+        {
+          "retrieved": "2023-11-19",
+          "version": "2023-11-13"
         }
       ],
       "vtype": "date"
@@ -5228,6 +5240,10 @@
         {
           "retrieved": "2023-11-11",
           "version": "2.119"
+        },
+        {
+          "retrieved": "2023-11-19",
+          "version": "2.120"
         }
       ],
       "vtype": "date"
@@ -7420,6 +7436,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "7.81"
+        },
+        {
+          "retrieved": "2023-11-19",
+          "version": "7.82"
         }
       ],
       "name": "Pathway ontology",
@@ -10928,6 +10948,10 @@
         {
           "retrieved": "2023-11-17",
           "version": "2023-11-17"
+        },
+        {
+          "retrieved": "2023-11-19",
+          "version": "2023-11-19"
         }
       ],
       "name": "SwissLipids",
@@ -14466,6 +14490,10 @@
         {
           "retrieved": "2023-11-18",
           "version": "2023-11-16"
+        },
+        {
+          "retrieved": "2023-11-19",
+          "version": "2023-11-17"
         }
       ],
       "name": "Zebrafish Information Network",
