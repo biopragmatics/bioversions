@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 597,
-    "date": "2023-11-21",
+    "revision": 598,
+    "date": "2023-11-22",
     "author": "runner"
   },
   "database": [
@@ -3212,6 +3212,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "3.59.0"
+        },
+        {
+          "retrieved": "2023-11-22",
+          "version": "3.60.0"
         }
       ],
       "vtype": "semver"
@@ -4929,6 +4933,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "31-Oct-2023"
+        },
+        {
+          "retrieved": "2023-11-22",
+          "version": "17-Nov-2023"
         }
       ],
       "name": "ITIS",
@@ -5916,6 +5924,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-05-05"
+        },
+        {
+          "retrieved": "2023-11-22",
+          "version": "2023-11-14"
         }
       ],
       "vtype": "date"
@@ -7796,6 +7808,10 @@
         {
           "retrieved": "2023-11-06",
           "version": "2023-10-19"
+        },
+        {
+          "retrieved": "2023-11-22",
+          "version": "2023-11-14"
         }
       ],
       "vtype": "date"
@@ -10969,6 +10985,10 @@
         {
           "retrieved": "2023-11-21",
           "version": "2023-11-21"
+        },
+        {
+          "retrieved": "2023-11-22",
+          "version": "2023-11-22"
         }
       ],
       "name": "SwissLipids",
@@ -11775,6 +11795,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "1.1.245"
+        },
+        {
+          "retrieved": "2023-11-22",
+          "version": "1.1.248"
         }
       ],
       "vtype": "semver"
@@ -14519,6 +14543,10 @@
         {
           "retrieved": "2023-11-21",
           "version": "2023-11-19"
+        },
+        {
+          "retrieved": "2023-11-22",
+          "version": "2023-11-20"
         }
       ],
       "name": "Zebrafish Information Network",

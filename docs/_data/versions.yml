@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-21'
-  revision: 597
+  date: '2023-11-22'
+  revision: 598
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1762,6 +1762,8 @@ database:
     version: 3.58.0
   - retrieved: '2023-11-02'
     version: 3.59.0
+  - retrieved: '2023-11-22'
+    version: 3.60.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2710,6 +2712,8 @@ database:
     version: 26-Sep-2023
   - retrieved: '2023-11-02'
     version: 31-Oct-2023
+  - retrieved: '2023-11-22'
+    version: 17-Nov-2023
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -3244,6 +3248,8 @@ database:
     version: '2022-11-04'
   - retrieved: '2023-06-29'
     version: '2023-05-05'
+  - retrieved: '2023-11-22'
+    version: '2023-11-14'
   vtype: date
 - name: Mouse Developmental Stages
   prefix: mmusdv
@@ -4275,6 +4281,8 @@ database:
     version: '2020-05-19'
   - retrieved: '2023-11-06'
     version: '2023-10-19'
+  - retrieved: '2023-11-22'
+    version: '2023-11-14'
   vtype: date
 - name: Plant Trait Ontology
   prefix: to
@@ -5941,6 +5949,8 @@ database:
     version: '2023-11-20'
   - retrieved: '2023-11-21'
     version: '2023-11-21'
+  - retrieved: '2023-11-22'
+    version: '2023-11-22'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6375,6 +6385,8 @@ database:
     version: 1.1.218
   - retrieved: '2023-09-28'
     version: 1.1.245
+  - retrieved: '2023-11-22'
+    version: 1.1.248
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -7926,6 +7938,8 @@ database:
     version: '2023-11-18'
   - retrieved: '2023-11-21'
     version: '2023-11-19'
+  - retrieved: '2023-11-22'
+    version: '2023-11-20'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
