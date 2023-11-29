@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-28'
-  revision: 604
+  date: '2023-11-29'
+  revision: 605
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -831,6 +831,8 @@ database:
     version: '2.197'
   - retrieved: '2023-11-19'
     version: '2.198'
+  - retrieved: '2023-11-29'
+    version: '2.199'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1702,6 +1704,8 @@ database:
     version: '4.143'
   - retrieved: '2023-11-19'
     version: '4.144'
+  - retrieved: '2023-11-29'
+    version: '4.145'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -5969,6 +5973,8 @@ database:
     version: '2023-11-27'
   - retrieved: '2023-11-28'
     version: '2023-11-28'
+  - retrieved: '2023-11-29'
+    version: '2023-11-29'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6079,6 +6085,8 @@ database:
     version: '2023-08-30'
   - retrieved: '2023-11-23'
     version: '2023-11-20'
+  - retrieved: '2023-11-29'
+    version: '2023-11-22'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -7974,6 +7982,8 @@ database:
     version: '2023-11-25'
   - retrieved: '2023-11-28'
     version: '2023-11-26'
+  - retrieved: '2023-11-29'
+    version: '2023-11-27'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
