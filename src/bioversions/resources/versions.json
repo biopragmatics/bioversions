@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 605,
-    "date": "2023-11-29",
+    "revision": 606,
+    "date": "2023-11-30",
     "author": "runner"
   },
   "database": [
@@ -4193,6 +4193,12 @@
           "version": "2023.2",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2023.2.zip",
           "date": "2023-04-26"
+        },
+        {
+          "retrieved": "2023-11-30",
+          "version": "2023.3",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2023.3.zip",
+          "date": "2023-11-29"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -11035,6 +11041,10 @@
         {
           "retrieved": "2023-11-29",
           "version": "2023-11-29"
+        },
+        {
+          "retrieved": "2023-11-30",
+          "version": "2023-11-30"
         }
       ],
       "name": "SwissLipids",
@@ -14633,6 +14643,10 @@
         {
           "retrieved": "2023-11-29",
           "version": "2023-11-27"
+        },
+        {
+          "retrieved": "2023-11-30",
+          "version": "2023-11-28"
         }
       ],
       "name": "Zebrafish Information Network",
