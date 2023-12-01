@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 606,
-    "date": "2023-11-30",
+    "revision": 607,
+    "date": "2023-12-01",
     "author": "runner"
   },
   "database": [
@@ -2283,6 +2283,12 @@
           "version": "2023-10-21",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-10-21",
           "date": "2023-10-21"
+        },
+        {
+          "retrieved": "2023-12-01",
+          "version": "2023-11-30",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-11-30",
+          "date": "2023-11-30"
         }
       ],
       "vtype": "date"
@@ -4275,6 +4281,11 @@
           "retrieved": "2023-10-03",
           "version": "2023-10-01",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-10-01.json"
+        },
+        {
+          "retrieved": "2023-12-01",
+          "version": "2023-11-01",
+          "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-11-01.json"
         }
       ],
       "name": "HGNC",
@@ -5425,6 +5436,11 @@
           "retrieved": "2023-03-24",
           "version": "2023",
           "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2023"
+        },
+        {
+          "retrieved": "2023-12-01",
+          "version": "2024",
+          "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2024"
         }
       ],
       "name": "MeSH",
@@ -8318,6 +8334,11 @@
           "retrieved": "2023-11-01",
           "version": "2023-11-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-11-01"
+        },
+        {
+          "retrieved": "2023-12-01",
+          "version": "2023-12-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-12-01"
         }
       ],
       "name": "PubChem",
@@ -11045,6 +11066,10 @@
         {
           "retrieved": "2023-11-30",
           "version": "2023-11-30"
+        },
+        {
+          "retrieved": "2023-12-01",
+          "version": "2023-12-01"
         }
       ],
       "name": "SwissLipids",
@@ -14647,6 +14672,10 @@
         {
           "retrieved": "2023-11-30",
           "version": "2023-11-28"
+        },
+        {
+          "retrieved": "2023-12-01",
+          "version": "2023-11-29"
         }
       ],
       "name": "Zebrafish Information Network",

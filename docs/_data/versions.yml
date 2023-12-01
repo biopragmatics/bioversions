@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-11-30'
-  revision: 606
+  date: '2023-12-01'
+  revision: 607
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1268,6 +1268,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-10-21
     retrieved: '2023-10-22'
     version: '2023-10-21'
+  - date: '2023-11-30'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-11-30
+    retrieved: '2023-12-01'
+    version: '2023-11-30'
   vtype: date
 - name: DisGeNet
   releases:
@@ -2352,6 +2356,9 @@ database:
   - homepage: https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-10-01.json
     retrieved: '2023-10-03'
     version: '2023-10-01'
+  - homepage: http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-11-01.json
+    retrieved: '2023-12-01'
+    version: '2023-11-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -2980,6 +2987,9 @@ database:
   - homepage: ftp://nlmpubs.nlm.nih.gov/online/mesh/2023
     retrieved: '2023-03-24'
     version: '2023'
+  - homepage: ftp://nlmpubs.nlm.nih.gov/online/mesh/2024
+    retrieved: '2023-12-01'
+    version: '2024'
   vtype: year
 - name: Metabolomics Standards Initiative Ontology
   prefix: msio
@@ -4579,6 +4589,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-11-01
     retrieved: '2023-11-01'
     version: '2023-11-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-12-01
+    retrieved: '2023-12-01'
+    version: '2023-12-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -5981,6 +5994,8 @@ database:
     version: '2023-11-29'
   - retrieved: '2023-11-30'
     version: '2023-11-30'
+  - retrieved: '2023-12-01'
+    version: '2023-12-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7992,6 +8007,8 @@ database:
     version: '2023-11-27'
   - retrieved: '2023-11-30'
     version: '2023-11-28'
+  - retrieved: '2023-12-01'
+    version: '2023-11-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
