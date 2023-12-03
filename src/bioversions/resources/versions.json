@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 608,
-    "date": "2023-12-02",
+    "revision": 609,
+    "date": "2023-12-03",
     "author": "runner"
   },
   "database": [
@@ -3112,6 +3112,10 @@
         {
           "retrieved": "2023-11-29",
           "version": "4.145"
+        },
+        {
+          "retrieved": "2023-12-03",
+          "version": "4.146"
         }
       ],
       "vtype": "date"
@@ -5244,6 +5248,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2020-08-24"
+        },
+        {
+          "retrieved": "2023-12-03",
+          "version": "2023-02-03"
         }
       ],
       "name": "Mathematical modeling ontology",
@@ -5296,6 +5304,10 @@
         {
           "retrieved": "2023-11-19",
           "version": "2.120"
+        },
+        {
+          "retrieved": "2023-12-03",
+          "version": "2.121"
         }
       ],
       "vtype": "date"
@@ -8574,6 +8586,10 @@
         {
           "retrieved": "2023-11-03",
           "version": "6.209"
+        },
+        {
+          "retrieved": "2023-12-03",
+          "version": "6.210"
         }
       ],
       "vtype": "date"
@@ -11075,6 +11091,10 @@
         {
           "retrieved": "2023-12-01",
           "version": "2023-12-01"
+        },
+        {
+          "retrieved": "2023-12-03",
+          "version": "2023-12-03"
         }
       ],
       "name": "SwissLipids",
@@ -14685,6 +14705,10 @@
         {
           "retrieved": "2023-12-02",
           "version": "2023-11-30"
+        },
+        {
+          "retrieved": "2023-12-03",
+          "version": "2023-12-01"
         }
       ],
       "name": "Zebrafish Information Network",
