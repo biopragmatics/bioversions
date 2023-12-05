@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-12-04'
-  revision: 610
+  date: '2023-12-05'
+  revision: 611
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4701,6 +4701,8 @@ database:
     version: '2023-11-17'
   - retrieved: '2023-11-28'
     version: '2023-11-24'
+  - retrieved: '2023-12-05'
+    version: '2023-12-01'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -4962,6 +4964,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_11062023.zip
     retrieved: '2023-11-07'
     version: '2023-11-06'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_12042023.zip
+    retrieved: '2023-12-05'
+    version: '2023-12-04'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -6011,6 +6016,8 @@ database:
     version: '2023-12-03'
   - retrieved: '2023-12-04'
     version: '2023-12-04'
+  - retrieved: '2023-12-05'
+    version: '2023-12-05'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8030,6 +8037,8 @@ database:
     version: '2023-12-01'
   - retrieved: '2023-12-04'
     version: '2023-12-02'
+  - retrieved: '2023-12-05'
+    version: '2023-12-03'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

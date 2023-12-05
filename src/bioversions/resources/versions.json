@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 610,
-    "date": "2023-12-04",
+    "revision": 611,
+    "date": "2023-12-05",
     "author": "runner"
   },
   "database": [
@@ -8553,6 +8553,10 @@
         {
           "retrieved": "2023-11-28",
           "version": "2023-11-24"
+        },
+        {
+          "retrieved": "2023-12-05",
+          "version": "2023-12-01"
         }
       ],
       "name": "Rat Genome Database",
@@ -9022,6 +9026,11 @@
           "retrieved": "2023-11-07",
           "version": "2023-11-06",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_11062023.zip"
+        },
+        {
+          "retrieved": "2023-12-05",
+          "version": "2023-12-04",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_12042023.zip"
         }
       ],
       "name": "RxNorm",
@@ -11099,6 +11108,10 @@
         {
           "retrieved": "2023-12-04",
           "version": "2023-12-04"
+        },
+        {
+          "retrieved": "2023-12-05",
+          "version": "2023-12-05"
         }
       ],
       "name": "SwissLipids",
@@ -14717,6 +14730,10 @@
         {
           "retrieved": "2023-12-04",
           "version": "2023-12-02"
+        },
+        {
+          "retrieved": "2023-12-05",
+          "version": "2023-12-03"
         }
       ],
       "name": "Zebrafish Information Network",
