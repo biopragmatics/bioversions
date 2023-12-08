@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-12-07'
-  revision: 613
+  date: '2023-12-08'
+  revision: 614
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1717,6 +1717,8 @@ database:
     version: '4.145'
   - retrieved: '2023-12-03'
     version: '4.146'
+  - retrieved: '2023-12-08'
+    version: '4.147'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2964,6 +2966,8 @@ database:
     version: '2023-06-06'
   - retrieved: '2023-11-02'
     version: '2023-10-03'
+  - retrieved: '2023-12-08'
+    version: '2023-12-01'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -3171,6 +3175,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-11-09
     retrieved: '2023-11-10'
     version: '2023-11-09'
+  - date: '2023-12-07'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-12-07
+    retrieved: '2023-12-08'
+    version: '2023-12-07'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -4426,6 +4434,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2023-11-01/
     retrieved: '2023-11-02'
     version: '2023-11-01'
+  - date: '2023-12-02'
+    homepage: https://www.pombase.org/data/releases/pombase-2023-12-02/
+    retrieved: '2023-12-08'
+    version: '2023-12-02'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -6026,6 +6038,8 @@ database:
     version: '2023-12-06'
   - retrieved: '2023-12-07'
     version: '2023-12-07'
+  - retrieved: '2023-12-08'
+    version: '2023-12-08'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8051,6 +8065,8 @@ database:
     version: '2023-12-04'
   - retrieved: '2023-12-07'
     version: '2023-12-05'
+  - retrieved: '2023-12-08'
+    version: '2023-12-06'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

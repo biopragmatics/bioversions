@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 613,
-    "date": "2023-12-07",
+    "revision": 614,
+    "date": "2023-12-08",
     "author": "runner"
   },
   "database": [
@@ -3120,6 +3120,10 @@
         {
           "retrieved": "2023-12-03",
           "version": "4.146"
+        },
+        {
+          "retrieved": "2023-12-08",
+          "version": "4.147"
         }
       ],
       "vtype": "date"
@@ -5398,6 +5402,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-03"
+        },
+        {
+          "retrieved": "2023-12-08",
+          "version": "2023-12-01"
         }
       ],
       "vtype": "date"
@@ -5769,6 +5777,12 @@
           "version": "2023-11-09",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-11-09",
           "date": "2023-11-09"
+        },
+        {
+          "retrieved": "2023-12-08",
+          "version": "2023-12-07",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-12-07",
+          "date": "2023-12-07"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -8044,6 +8058,12 @@
           "version": "2023-11-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-11-01/",
           "date": "2023-11-01"
+        },
+        {
+          "retrieved": "2023-12-08",
+          "version": "2023-12-02",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2023-12-02/",
+          "date": "2023-12-02"
         }
       ],
       "name": "PomBase",
@@ -11128,6 +11148,10 @@
         {
           "retrieved": "2023-12-07",
           "version": "2023-12-07"
+        },
+        {
+          "retrieved": "2023-12-08",
+          "version": "2023-12-08"
         }
       ],
       "name": "SwissLipids",
@@ -14758,6 +14782,10 @@
         {
           "retrieved": "2023-12-07",
           "version": "2023-12-05"
+        },
+        {
+          "retrieved": "2023-12-08",
+          "version": "2023-12-06"
         }
       ],
       "name": "Zebrafish Information Network",
