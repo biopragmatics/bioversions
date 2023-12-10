@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 615,
-    "date": "2023-12-09",
+    "revision": 616,
+    "date": "2023-12-10",
     "author": "runner"
   },
   "database": [
@@ -241,6 +241,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-03"
+        },
+        {
+          "retrieved": "2023-12-10",
+          "version": "2023-12-07"
         }
       ],
       "vtype": "date"
@@ -2385,6 +2389,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-18"
+        },
+        {
+          "retrieved": "2023-12-10",
+          "version": "2023-12-07"
         }
       ],
       "name": "Drosophila development",
@@ -11156,6 +11164,10 @@
         {
           "retrieved": "2023-12-08",
           "version": "2023-12-08"
+        },
+        {
+          "retrieved": "2023-12-10",
+          "version": "2023-12-10"
         }
       ],
       "name": "SwissLipids",
@@ -14794,6 +14806,10 @@
         {
           "retrieved": "2023-12-09",
           "version": "2023-12-07"
+        },
+        {
+          "retrieved": "2023-12-10",
+          "version": "2023-12-08"
         }
       ],
       "name": "Zebrafish Information Network",

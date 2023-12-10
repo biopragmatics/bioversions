@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-12-09'
-  revision: 615
+  date: '2023-12-10'
+  revision: 616
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -129,6 +129,8 @@ database:
     version: '2023-09-05'
   - retrieved: '2023-11-02'
     version: '2023-10-03'
+  - retrieved: '2023-12-10'
+    version: '2023-12-07'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -1323,6 +1325,8 @@ database:
     version: '2023-08-02'
   - retrieved: '2023-11-02'
     version: '2023-10-18'
+  - retrieved: '2023-12-10'
+    version: '2023-12-07'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -6042,6 +6046,8 @@ database:
     version: '2023-12-07'
   - retrieved: '2023-12-08'
     version: '2023-12-08'
+  - retrieved: '2023-12-10'
+    version: '2023-12-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8071,6 +8077,8 @@ database:
     version: '2023-12-06'
   - retrieved: '2023-12-09'
     version: '2023-12-07'
+  - retrieved: '2023-12-10'
+    version: '2023-12-08'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
