@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 619,
-    "date": "2023-12-13",
+    "revision": 620,
+    "date": "2023-12-14",
     "author": "runner"
   },
   "database": [
@@ -2448,6 +2448,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-18"
+        },
+        {
+          "retrieved": "2023-12-14",
+          "version": "2023-12-07"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -2519,6 +2523,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-19"
+        },
+        {
+          "retrieved": "2023-12-14",
+          "version": "2023-12-08"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -3665,6 +3673,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-19"
+        },
+        {
+          "retrieved": "2023-12-14",
+          "version": "2023-12-08"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -6984,6 +6996,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-18"
+        },
+        {
+          "retrieved": "2023-12-14",
+          "version": "2023-12-07"
         }
       ],
       "vtype": "date"
@@ -11188,6 +11204,10 @@
         {
           "retrieved": "2023-12-13",
           "version": "2023-12-13"
+        },
+        {
+          "retrieved": "2023-12-14",
+          "version": "2023-12-14"
         }
       ],
       "name": "SwissLipids",
@@ -14848,6 +14868,10 @@
         {
           "retrieved": "2023-12-13",
           "version": "2023-12-11"
+        },
+        {
+          "retrieved": "2023-12-14",
+          "version": "2023-12-12"
         }
       ],
       "name": "Zebrafish Information Network",
