@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2023-12-14'
-  revision: 620
+  date: '2023-12-15'
+  revision: 621
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1729,6 +1729,8 @@ database:
     version: '4.146'
   - retrieved: '2023-12-08'
     version: '4.147'
+  - retrieved: '2023-12-15'
+    version: '4.148'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -1971,6 +1973,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2023_05/
     retrieved: '2023-09-22'
     version: '2023_05'
+  - homepage: http://ftp.flybase.net/releases/FB2023_06/
+    retrieved: '2023-12-15'
+    version: '2023_06'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -2269,6 +2274,8 @@ database:
     version: '2023-11-02'
   - retrieved: '2023-11-16'
     version: '2023-11-09'
+  - retrieved: '2023-12-15'
+    version: '2023-12-11'
   vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
@@ -2936,6 +2943,8 @@ database:
     version: '2.120'
   - retrieved: '2023-12-03'
     version: '2.121'
+  - retrieved: '2023-12-15'
+    version: '2.122'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -3447,6 +3456,9 @@ database:
   - date: '2023-10-30'
     retrieved: '2023-11-21'
     version: 23.10e
+  - date: '2023-11-27'
+    retrieved: '2023-12-15'
+    version: 23.11d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -4755,6 +4767,8 @@ database:
     version: '6.209'
   - retrieved: '2023-12-03'
     version: '6.210'
+  - retrieved: '2023-12-15'
+    version: '6.211'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -4785,6 +4799,8 @@ database:
     version: '85'
   - retrieved: '2023-09-18'
     version: '86'
+  - retrieved: '2023-12-15'
+    version: '87'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -6068,6 +6084,8 @@ database:
     version: '2023-12-13'
   - retrieved: '2023-12-14'
     version: '2023-12-14'
+  - retrieved: '2023-12-15'
+    version: '2023-12-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6349,6 +6367,8 @@ database:
     version: '2023-09-05'
   - retrieved: '2023-11-03'
     version: '2023-10-27'
+  - retrieved: '2023-12-15'
+    version: '2023-12-08'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -8111,6 +8131,8 @@ database:
     version: '2023-12-11'
   - retrieved: '2023-12-14'
     version: '2023-12-12'
+  - retrieved: '2023-12-15'
+    version: '2023-12-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

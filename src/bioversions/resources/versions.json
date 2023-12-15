@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 620,
-    "date": "2023-12-14",
+    "revision": 621,
+    "date": "2023-12-15",
     "author": "runner"
   },
   "database": [
@@ -3144,6 +3144,10 @@
         {
           "retrieved": "2023-12-08",
           "version": "4.147"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "4.148"
         }
       ],
       "vtype": "date"
@@ -3606,6 +3610,11 @@
           "retrieved": "2023-09-22",
           "version": "2023_05",
           "homepage": "http://ftp.flybase.net/releases/FB2023_05/"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "2023_06",
+          "homepage": "http://ftp.flybase.net/releases/FB2023_06/"
         }
       ],
       "name": "FlyBase",
@@ -4138,6 +4147,10 @@
         {
           "retrieved": "2023-11-16",
           "version": "2023-11-09"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "2023-12-11"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -5344,6 +5357,10 @@
         {
           "retrieved": "2023-12-03",
           "version": "2.121"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "2.122"
         }
       ],
       "vtype": "date"
@@ -6269,6 +6286,11 @@
           "retrieved": "2023-11-21",
           "version": "23.10e",
           "date": "2023-10-30"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "23.11d",
+          "date": "2023-11-27"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -8658,6 +8680,10 @@
         {
           "retrieved": "2023-12-03",
           "version": "6.210"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "6.211"
         }
       ],
       "vtype": "date"
@@ -8717,6 +8743,10 @@
         {
           "retrieved": "2023-09-18",
           "version": "86"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "87"
         }
       ],
       "vtype": "sequential"
@@ -11208,6 +11238,10 @@
         {
           "retrieved": "2023-12-14",
           "version": "2023-12-14"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "2023-12-15"
         }
       ],
       "name": "SwissLipids",
@@ -11742,6 +11776,10 @@
         {
           "retrieved": "2023-11-03",
           "version": "2023-10-27"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "2023-12-08"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -14872,6 +14910,10 @@
         {
           "retrieved": "2023-12-14",
           "version": "2023-12-12"
+        },
+        {
+          "retrieved": "2023-12-15",
+          "version": "2023-12-13"
         }
       ],
       "name": "Zebrafish Information Network",
