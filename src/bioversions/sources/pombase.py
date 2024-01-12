@@ -2,9 +2,7 @@
 
 """A getter for PomBase."""
 
-import ftplib
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     "PombaseGetter",
@@ -22,13 +20,12 @@ class PombaseGetter(Getter):
 
     def get(self):
         """Get the latest pombase version number."""
-        with ftplib.FTP("www.pombase.org") as ftp:
-            ftp.login()
-            ftp.cwd("releases")
-            for name in sorted(ftp.nlst(), reverse=True):
-                if name.startswith("pombase-"):
-                    return name[len("pombase-") :]
-        raise ValueError
+        soup = get_soup("https://www.pombase.org/data/releases/")
+        tr = soup.find_all("tr")[-2]
+        text = tr.find_all("td")[1]
+        anchor = text.find("a")
+        text = anchor.text
+        return text[len("pombase-") :].rstrip("/")
 
 
 if __name__ == "__main__":
