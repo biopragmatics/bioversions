@@ -12,12 +12,12 @@ URL = "https://useast.ensembl.org/index.html"
 
 
 class EnsemblGetter(Getter):
-    """A getter for DrugBank."""
+    """A getter for Ensembl."""
 
     bioregistry_id = "ensembl"
     name = "Ensembl"
     homepage_fmt = "https://www.ensembl.org"
-    date_fmt = "%b %Y"
+    date_fmt = "%B %Y"
     version_type = VersionType.sequential
 
     def get(self):
