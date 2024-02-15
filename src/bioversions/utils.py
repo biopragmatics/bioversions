@@ -48,8 +48,16 @@ def norm(s: str) -> str:
 
 
 def get_soup(url: str, verify: bool = True, timeout: Optional[int] = None) -> BeautifulSoup:
-    """Get a beautiful soup parsed version of the given web page."""
-    res = requests.get(url, verify=verify, timeout=timeout or 3)
+    """Get a beautiful soup parsed version of the given web page.
+
+    :param url: The URL to download and parse with BeautifulSoup
+    :param verify: Should SSL be used? This is almost always true,
+        except for Ensembl, which makes a big pain
+    :param timeout: How many integer seconds to wait for a response?
+        Defaults to 15 if none given.
+    :returns: A BeautifulSoup object
+    """
+    res = requests.get(url, verify=verify, timeout=timeout or 15)
     soup = BeautifulSoup(res.text, features="html.parser")
     return soup
 
