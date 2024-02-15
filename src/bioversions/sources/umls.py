@@ -23,8 +23,14 @@ class UMLSGetter(Getter):
     def get(self) -> datetime:
         """Get the latest UMLS version number."""
         soup = get_soup(URL)
-        raw_version = soup.find("div", {"id": "body"}).find("h2")
-        return raw_version.text.split()[0]
+        version_tag = (
+            soup.find("main")
+            .find("div", {"class": "grid-row grid-gap-1"})
+            .find("div", {"class": "tablet:grid-col-12"})
+            .find("h2")
+        )
+        version = version_tag.text.split()[0]
+        return version
 
 
 if __name__ == "__main__":
