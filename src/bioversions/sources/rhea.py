@@ -13,7 +13,7 @@ __all__ = [
 
 requests_ftp.monkeypatch_session()
 
-VERSION_FILE = "ftp://ftp.expasy.org/databases/rhea/rhea-release.properties"
+VERSION_FILE = "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
 
 
 class RheaGetter(Getter):
