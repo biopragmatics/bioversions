@@ -3,15 +3,12 @@
 """A getter for Rhea."""
 
 import requests
-import requests_ftp
 
 from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "RheaGetter",
 ]
-
-requests_ftp.monkeypatch_session()
 
 VERSION_FILE = "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
 
