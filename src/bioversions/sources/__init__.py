@@ -29,6 +29,7 @@ from .flybase import FlybaseGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
 from .hgnc import HGNCGetter
 from .homologene import HomoloGeneGetter
+from .icd10 import ICD10Getter
 from .icd11 import ICD11Getter
 from .icf import ICFGetter
 from .intact import IntActGetter
@@ -132,6 +133,7 @@ def get_getters() -> List[Type[Getter]]:
         MGIGetter,
         OMIMGetter,
         ICFGetter,
+        ICD10Getter,
         ICD11Getter,
     ]
     getters.extend(iter_obo_getters())

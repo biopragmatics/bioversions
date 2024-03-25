@@ -11,7 +11,6 @@ __all__ = [
 ]
 
 URL = "https://icd.who.int/browse/latest-release/mms/en"
-# https://icd.who.int/browse/latest-release/icf/en
 
 
 class ICD11Getter(Getter):
