@@ -21,7 +21,7 @@ class DepMapGetter(Getter):
 
     def get(self) -> str:
         """Get the latest DepMap version number."""
-        res = requests.get(URL)
+        res = requests.get(URL, timeout=5)
         latest = next(release for release in res.json()["releaseData"] if release["isLatest"])
         return latest["releaseName"][len("DepMap Public ") :]
 

@@ -23,7 +23,7 @@ class ICD10Getter(Getter):
 
     def get(self) -> str:
         """Get the latest ICD10 version number."""
-        response = requests.get(URL, allow_redirects=True)
+        response = requests.get(URL, allow_redirects=True, timeout=5)
         final_url = response.url
         return final_url[len("https://icd.who.int/browse10/") :].split("/")[0]
 

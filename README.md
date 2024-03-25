@@ -73,7 +73,7 @@ the
 ```python
 import requests
 
-res = requests.get('http://localhost:5000/database/biogrid').json()
+res = requests.get('http://localhost:5000/database/biogrid', timeout=5).json()
 assert res['success']
 assert res['result']['name'] == 'BioGRID'
 assert res['result']['version'] == '4.2.192', 'This was true on Dec 5th, 2020!'

@@ -24,7 +24,7 @@ class CellosaurusGetter(Getter):
     #   12:15:2022 12:00
     def get(self):
         """Get the latest Cellosaurus version number."""
-        res = requests.get(URL, stream=True)
+        res = requests.get(URL, stream=True, timeout=5)
         data = {}
         for line in res.iter_lines(decode_unicode=True):
             line = line.strip().decode("utf8")

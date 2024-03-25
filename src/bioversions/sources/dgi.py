@@ -21,7 +21,7 @@ class DGIGetter(Getter):
 
     def get(self):
         """Get the latest DGI version number."""
-        res = requests.get(DOWNLOADS_PAGE)
+        res = requests.get(DOWNLOADS_PAGE, timeout=5)
         soup = bs4.BeautifulSoup(res.content, parser="lxml", features="lxml")
         cells = list(soup.select("table#tsv_downloads tbody tr:first-child td:nth-child(2) a"))
         if 1 != len(cells):

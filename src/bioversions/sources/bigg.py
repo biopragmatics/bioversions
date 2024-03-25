@@ -23,7 +23,7 @@ class BiGGGetter(Getter):
 
     def get(self):
         """Get the latest BiGG version number."""
-        res = requests.get(URL).json()
+        res = requests.get(URL, timeout=5).json()
         date = datetime.fromisoformat(res["last_updated"])
         return dict(
             version=res["bigg_models_version"],

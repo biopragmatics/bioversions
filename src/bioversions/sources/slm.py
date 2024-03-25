@@ -22,7 +22,7 @@ class SwissLipidGetter(Getter):
 
     def get(self):
         """Get the latest SwissLipids version number."""
-        res = requests.get("https://www.swisslipids.org/api/downloadData").json()
+        res = requests.get("https://www.swisslipids.org/api/downloadData", timeout=5).json()
         record = next(record for record in res if record["file"] == "lipids.tsv")
         return datetime.datetime.strptime(record["date"], "%B %d %Y")
 

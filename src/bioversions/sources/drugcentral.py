@@ -13,7 +13,7 @@ __all__ = [
 HOST = "unmtid-dbs.net"
 PORT = 5433
 USER = "drugman"
-PASSWORD = "dosage"
+PASSWORD = "dosage"  # noqa:S105
 DBNAME = "drugcentral"
 PARAMS = dict(dbname=DBNAME, user=USER, password=PASSWORD, host=HOST, port=PORT)
 

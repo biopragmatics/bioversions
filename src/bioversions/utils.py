@@ -57,7 +57,9 @@ def get_soup(url: str, verify: bool = True, timeout: Optional[int] = None) -> Be
         Defaults to 15 if none given.
     :returns: A BeautifulSoup object
     """
-    res = requests.get(url, verify=verify, timeout=timeout or 15)
+    if timeout is None:
+        timeout = 15
+    res = requests.get(url, verify=verify, timeout=timeout)
     soup = BeautifulSoup(res.text, features="html.parser")
     return soup
 
@@ -242,9 +244,11 @@ class UnversionedGetter(Getter):
         return "unversioned"
 
 
-def get_obo_version(url: str) -> str:
+def get_obo_version(url: str, *, timeout: Optional[int] = None) -> str:
     """Get the data version from an OBO file."""
-    with requests.get(url, stream=True) as res:
+    if timeout is None:
+        timeout = 5
+    with requests.get(url, stream=True, timeout=timeout) as res:
         for line in res.iter_lines():
             line = line.decode("utf-8")
             if line.startswith("data-version:"):
