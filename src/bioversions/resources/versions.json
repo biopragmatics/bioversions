@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 621,
-    "date": "2023-12-15",
+    "revision": 622,
+    "date": "2024-03-25",
     "author": "runner"
   },
   "database": [
@@ -66,6 +66,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023/09"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2023/12"
         }
       ],
       "vtype": "date"
@@ -185,6 +189,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-06-02"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-23"
         }
       ],
       "name": "Apollo Structured Vocabulary",
@@ -245,6 +253,10 @@
         {
           "retrieved": "2023-12-10",
           "version": "2023-12-07"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-12"
         }
       ],
       "vtype": "date"
@@ -392,6 +404,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2.8.10"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2.8.11"
         }
       ],
       "vtype": "semver"
@@ -564,6 +580,11 @@
           "retrieved": "2023-12-02",
           "version": "4.4.228",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.228"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "4.4.231",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.231"
         }
       ],
       "vtype": "semver"
@@ -806,6 +827,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-09-26"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-16"
         }
       ],
       "name": "C. elegans development ontology",
@@ -847,6 +872,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-14"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-04"
         }
       ],
       "vtype": "date"
@@ -916,6 +945,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-09-26"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-16"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1093,6 +1126,10 @@
         {
           "retrieved": "2023-12-09",
           "version": "2023-12-05"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-13"
         }
       ],
       "prefix": "cl",
@@ -1133,6 +1170,11 @@
           "retrieved": "2023-10-06",
           "version": "47.0",
           "date": "2023-10-05"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "48.0",
+          "date": "2024-01-30"
         }
       ],
       "name": "Cellosaurus",
@@ -1298,6 +1340,11 @@
           "retrieved": "2023-11-02",
           "version": "227",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel227/"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "231",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel231/"
         }
       ],
       "vtype": "sequential"
@@ -1534,6 +1581,10 @@
         {
           "retrieved": "2023-11-29",
           "version": "2.199"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2.204"
         }
       ],
       "vtype": "date"
@@ -1595,6 +1646,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-04-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-14"
         }
       ],
       "name": "Coleoptera Anatomy Ontology",
@@ -1681,6 +1736,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-11-30"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-25"
         }
       ],
       "vtype": "date"
@@ -1741,6 +1800,12 @@
           "version": "2023-10-06",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2023-10-06/",
           "date": "2023-10-06"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-14",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-02-14/",
+          "date": "2024-02-14"
         }
       ],
       "vtype": "date"
@@ -1837,6 +1902,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-05-12"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2023-11-16"
         }
       ],
       "vtype": "date"
@@ -1886,6 +1955,10 @@
         {
           "retrieved": "2023-11-09",
           "version": "1.0.369"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-16"
         }
       ],
       "name": "Coronavirus Infectious Disease Ontology",
@@ -2057,6 +2130,10 @@
         {
           "retrieved": "2023-11-23",
           "version": "2023e_2023111"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024a_20240120"
         }
       ],
       "vtype": "other"
@@ -2101,6 +2178,17 @@
       "name": "Dictyostelium discoideum phenotype ontology",
       "prefix": "ddpheno",
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2024-03-25",
+          "version": "2023-12-15"
+        }
+      ],
+      "name": "Disease Drivers Ontology",
+      "prefix": "disdriv",
+      "vtype": "missing"
     },
     {
       "name": "Disease Ontology",
@@ -2306,6 +2394,12 @@
           "version": "2023-11-30",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2023-11-30",
           "date": "2023-11-30"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-28",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-02-28",
+          "date": "2024-02-28"
         }
       ],
       "vtype": "date"
@@ -2393,6 +2487,10 @@
         {
           "retrieved": "2023-12-10",
           "version": "2023-12-07"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-21"
         }
       ],
       "name": "Drosophila development",
@@ -2452,6 +2550,10 @@
         {
           "retrieved": "2023-12-14",
           "version": "2023-12-07"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-22"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -2527,6 +2629,10 @@
         {
           "retrieved": "2023-12-14",
           "version": "2023-12-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-23"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -2618,6 +2724,12 @@
           "version": "5.1.10",
           "homepage": "https://go.drugbank.com/releases/5-1-10",
           "date": "2023-01-04"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "5.1.12",
+          "homepage": "https://go.drugbank.com/releases/5-1-12",
+          "date": "2024-03-14"
         }
       ],
       "vtype": "semver"
@@ -2800,6 +2912,12 @@
           "version": "109",
           "homepage": "https://www.ensembl.org",
           "date": "2023-02-01"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "111",
+          "homepage": "https://www.ensembl.org",
+          "date": "2024-01-01"
         }
       ],
       "name": "Ensembl",
@@ -2883,6 +3001,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-02-13"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-16"
         }
       ],
       "vtype": "date"
@@ -2931,6 +3053,17 @@
       ],
       "name": "Environmental conditions, treatments and exposures ontology",
       "prefix": "ecto",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-02"
+        }
+      ],
+      "name": "Evidence and Conclusion Ontology",
+      "prefix": "eco",
       "vtype": "date"
     },
     {
@@ -3093,6 +3226,10 @@
         {
           "retrieved": "2023-11-09",
           "version": "2023-11-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-24"
         }
       ],
       "vtype": "date"
@@ -3148,6 +3285,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "4.148"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "4.159"
         }
       ],
       "vtype": "date"
@@ -3275,6 +3416,10 @@
         {
           "retrieved": "2023-11-22",
           "version": "3.60.0"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "3.64.0"
         }
       ],
       "vtype": "semver"
@@ -3519,6 +3664,10 @@
         {
           "retrieved": "2023-11-19",
           "version": "2023-11-13"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-20"
         }
       ],
       "vtype": "date"
@@ -3615,6 +3764,11 @@
           "retrieved": "2023-12-15",
           "version": "2023_06",
           "homepage": "http://ftp.flybase.net/releases/FB2023_06/"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024_01",
+          "homepage": "http://ftp.flybase.net/releases/FB2024_01/"
         }
       ],
       "name": "FlyBase",
@@ -3686,6 +3840,10 @@
         {
           "retrieved": "2023-12-14",
           "version": "2023-12-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-23"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -3738,6 +3896,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-02-01"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2023-12-18"
         }
       ],
       "name": "Food Interactions with Drugs Evidence Ontology",
@@ -4004,6 +4166,12 @@
           "version": "2023-11-15",
           "homepage": "http://archive.geneontology.org/full/2023-11-15/",
           "date": "2023-11-15"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-17",
+          "homepage": "http://archive.geneontology.org/full/2024-01-17/",
+          "date": "2024-01-17"
         }
       ],
       "vtype": "date"
@@ -4151,6 +4319,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "2023-12-11"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-02"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -4340,6 +4512,11 @@
           "retrieved": "2023-12-01",
           "version": "2023-11-01",
           "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2023-11-01.json"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-01",
+          "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-03-01.json"
         }
       ],
       "name": "HGNC",
@@ -4366,6 +4543,10 @@
         {
           "retrieved": "2021-03-02",
           "version": "68"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n<head>\n<title>Object not found!</title>\n<link rev=\"made\" href=\"mailto:%5bno%20address%20given%5d\" />\n<style type=\"text/css\"><!--/*--><![CDATA[/*><!--*/ \n    body { color: #000000; background-color: #FFFFFF; }\n    a:link { color: #0000CC; }\n    p, address {margin-left: 3em;}\n    span {font-size: smaller;}\n/*]]>*/--></style>\n</head>\n\n<body>\n<h1>Object not found!</h1>\n<p>\n\n\n    The requested URL was not found on this server.\n\n  \n\n    If you entered the URL manually please check your\n    spelling and try again.\n\n  \n\n</p>\n<p>\nIf you think this is a server error, please contact\nthe <a href=\"mailto:%5bno%20address%20given%5d\">webmaster</a>.\n\n</p>\n\n<h2>Error 404</h2>\n<address>\n  <a href=\"/\">ftp.ncbi.nih.gov</a><br />\n  <span>Apache</span>\n</address>\n</body>\n</html>"
         }
       ],
       "name": "HomoloGene",
@@ -4410,6 +4591,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-13"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-07"
         }
       ],
       "vtype": "semver"
@@ -4610,6 +4795,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-09"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-06"
         }
       ],
       "vtype": "date"
@@ -4623,6 +4812,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2.2.1"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2.3.0"
         }
       ],
       "name": "Human Reference Atlas Common Coordinate Framework Ontology",
@@ -4823,6 +5016,12 @@
           "version": "2023-10-06",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2023-10-06/",
           "date": "2023-10-06"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-14",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-02-14/",
+          "date": "2024-02-14"
         }
       ],
       "vtype": "date"
@@ -4933,6 +5132,12 @@
           "version": "97.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/97.0/",
           "date": "2023-11-09"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "98.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/98.0/",
+          "date": "2024-01-25"
         }
       ],
       "vtype": "semver_minor"
@@ -5030,6 +5235,10 @@
         {
           "retrieved": "2023-12-12",
           "version": "08-Dec-2023"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "28-Feb-2024"
         }
       ],
       "name": "ITIS",
@@ -5119,6 +5328,11 @@
           "retrieved": "2023-11-01",
           "version": "108.1",
           "date": "2023-11-01"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "109.1",
+          "date": "2024-03-01"
         }
       ],
       "vtype": "semver_minor"
@@ -5246,6 +5460,10 @@
         {
           "retrieved": "2023-11-23",
           "version": "2023-11-15"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-06"
         }
       ],
       "vtype": "date"
@@ -5286,6 +5504,10 @@
         {
           "retrieved": "2023-11-09",
           "version": "4.1.134"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "4.1.141"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -5361,6 +5583,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "2.122"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2.129"
         }
       ],
       "vtype": "date"
@@ -5451,6 +5677,10 @@
         {
           "retrieved": "2023-12-08",
           "version": "2023-12-01"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-05"
         }
       ],
       "vtype": "date"
@@ -5646,6 +5876,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-05"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2023-12-21"
         }
       ],
       "vtype": "date"
@@ -5828,6 +6062,12 @@
           "version": "2023-12-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-12-07",
           "date": "2023-12-07"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-07",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-03-07",
+          "date": "2024-03-07"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -5966,6 +6206,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-12"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-04"
         }
       ],
       "vtype": "date"
@@ -6072,6 +6316,10 @@
         {
           "retrieved": "2023-10-20",
           "version": "6.22"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "6.23"
         }
       ],
       "name": "Mouse Genome Database",
@@ -6360,6 +6608,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-19"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-28"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -6755,6 +7007,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-09-20"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-09"
         }
       ],
       "vtype": "date"
@@ -6813,6 +7069,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-10"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -6928,6 +7188,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-04-14"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-16"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -6975,6 +7239,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2018-02-22"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2023-12-08"
         }
       ],
       "vtype": "sequential"
@@ -7022,6 +7290,10 @@
         {
           "retrieved": "2023-12-14",
           "version": "2023-12-07"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-12"
         }
       ],
       "vtype": "date"
@@ -7185,6 +7457,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-01"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-02"
         }
       ],
       "vtype": "date"
@@ -7213,6 +7489,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-03-30"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-25"
         }
       ],
       "name": "Ontology of Organizational Structures of Trauma centers and Trauma systems",
@@ -7256,6 +7536,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "1.0.161"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "1.0.166"
         }
       ],
       "name": "Ontology of Precision Medicine and Investigation",
@@ -7325,6 +7609,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2.0.50"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2.0.51"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -7389,6 +7677,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-22"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-01"
         }
       ],
       "name": "Oral Health and Disease Ontology",
@@ -7426,6 +7718,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "4.3"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "4.4"
         }
       ],
       "vtype": "semver"
@@ -7508,6 +7804,10 @@
         {
           "retrieved": "2023-12-07",
           "version": "2023-11-30"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-31"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -7659,6 +7959,11 @@
           "retrieved": "2023-09-18",
           "version": "36.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam36.0/"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "37.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/"
         }
       ],
       "vtype": "semver_minor"
@@ -7919,6 +8224,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-13"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-16"
         }
       ],
       "vtype": "date"
@@ -8118,6 +8427,12 @@
           "version": "2023-12-02",
           "homepage": "https://www.pombase.org/data/releases/pombase-2023-12-02/",
           "date": "2023-12-02"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-03-01/",
+          "date": "2024-03-01"
         }
       ],
       "name": "PomBase",
@@ -8295,6 +8610,11 @@
           "retrieved": "2023-03-24",
           "version": "68.0",
           "homepage": "https://proconsortium.org/download/release_68.0/"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "69.0",
+          "homepage": "https://proconsortium.org/download/release_69.0/"
         }
       ],
       "vtype": "semver_minor"
@@ -8331,6 +8651,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-02-27"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-04"
         }
       ],
       "name": "Provisional Cell Ontology",
@@ -8438,6 +8762,11 @@
           "retrieved": "2023-12-01",
           "version": "2023-12-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2023-12-01"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-03-01"
         }
       ],
       "name": "PubChem",
@@ -8486,6 +8815,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-09-05"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-29"
         }
       ],
       "vtype": "date"
@@ -8643,6 +8976,10 @@
         {
           "retrieved": "2023-12-12",
           "version": "2023-12-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-15"
         }
       ],
       "name": "Rat Genome Database",
@@ -8684,6 +9021,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "6.211"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "6.219"
         }
       ],
       "vtype": "date"
@@ -8844,6 +9185,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-18"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-13"
         }
       ],
       "vtype": "date"
@@ -8969,6 +9314,11 @@
           "retrieved": "2023-11-09",
           "version": "130",
           "date": "2023-11-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "131",
+          "date": "2024-01-24"
         }
       ],
       "vtype": "date"
@@ -11242,6 +11592,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "2023-12-15"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-25"
         }
       ],
       "name": "SwissLipids",
@@ -11290,6 +11644,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-11-30"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-09"
         }
       ],
       "vtype": "date"
@@ -11456,6 +11814,10 @@
         {
           "retrieved": "2023-11-29",
           "version": "2023-11-22"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-12"
         }
       ],
       "vtype": "date"
@@ -11518,6 +11880,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-08-17"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-03"
         }
       ],
       "vtype": "date"
@@ -11527,6 +11893,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2020-05-22"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-20"
         }
       ],
       "name": "The Echinoderm Anatomy and Development Ontology",
@@ -11780,6 +12150,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "2023-12-08"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-02-20"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -11887,6 +12261,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2018-12-12"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-06"
         }
       ],
       "vtype": "date"
@@ -11971,6 +12349,12 @@
           "version": "2023_05",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2023_05/",
           "date": "2023-05-01"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024_01",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_01/",
+          "date": "2024-01-01"
         }
       ],
       "vtype": "month"
@@ -12068,6 +12452,10 @@
         {
           "retrieved": "2023-11-23",
           "version": "2023-11-17"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-20"
         }
       ],
       "vtype": "semver"
@@ -12111,6 +12499,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-09-28"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-04"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -12150,6 +12542,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2019-06-07"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-08"
         }
       ],
       "vtype": "date"
@@ -12423,6 +12819,12 @@
           "version": "20231210",
           "homepage": "http://data.wikipathways.org/20231210/",
           "date": "2023-12-10"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "20240310",
+          "homepage": "http://data.wikipathways.org/20240310/",
+          "date": "2024-03-10"
         }
       ],
       "vtype": "date"
@@ -14914,6 +15316,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "2023-12-13"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-24"
         }
       ],
       "name": "Zebrafish Information Network",
@@ -14935,6 +15341,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-12-17"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01-22"
         }
       ],
       "vtype": "date"
