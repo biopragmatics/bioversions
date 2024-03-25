@@ -22,7 +22,7 @@ class EnsemblGetter(Getter):
 
     def get(self):
         """Get the latest Ensembl version number."""
-        soup = get_soup(URL, verify=False)
+        soup = get_soup(URL)
         manifest = soup.find(**{"class": "box-header"}).text
         version, date = manifest.rstrip(")").split("(", 1)
         return dict(version=version.split()[-1], date=date)
