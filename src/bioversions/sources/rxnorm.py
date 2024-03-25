@@ -24,7 +24,7 @@ class RxNormGetter(Getter):
     def get(self) -> datetime:
         """Get the latest RxNorm version number."""
         soup = get_soup(URL)
-        raw_version = soup.find("th", {"class": "current"}).contents[2]
+        raw_version = soup.find("th", {"class": "current"}).contents[2].strip()
         raw_fmt = "%B %d, %Y"
         return datetime.strptime(raw_version, raw_fmt)
 
