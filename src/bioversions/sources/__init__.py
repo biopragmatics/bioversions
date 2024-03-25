@@ -41,8 +41,8 @@ from .msigdb import MSigDBGetter
 from .ncit import NCItGetter
 from .npass import NPASSGetter
 from .obo import iter_obo_getters
-from .omim import OMIMGetter
 from .ols import extend_ols_getters
+from .omim import OMIMGetter
 from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
 from .pathwaycommons import PathwayCommonsGetter
