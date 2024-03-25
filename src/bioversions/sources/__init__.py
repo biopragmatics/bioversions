@@ -41,6 +41,7 @@ from .msigdb import MSigDBGetter
 from .ncit import NCItGetter
 from .npass import NPASSGetter
 from .obo import iter_obo_getters
+from .omim import OMIMGetter
 from .ols import extend_ols_getters
 from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
@@ -127,6 +128,7 @@ def get_getters() -> List[Type[Getter]]:
         RGDGetter,
         CellosaurusGetter,
         MGIGetter,
+        OMIMGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
