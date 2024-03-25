@@ -42,6 +42,7 @@ from .ncit import NCItGetter
 from .npass import NPASSGetter
 from .obo import iter_obo_getters
 from .ols import extend_ols_getters
+from .omim import OMIMGetter
 from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
 from .pathwaycommons import PathwayCommonsGetter
@@ -127,6 +128,7 @@ def get_getters() -> List[Type[Getter]]:
         RGDGetter,
         CellosaurusGetter,
         MGIGetter,
+        OMIMGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
@@ -143,6 +145,8 @@ def get_getter_dict() -> Mapping[str, Type[Getter]]:
             rv[norm(getter.bioregistry_id)] = getter
         rv[getter.name] = getter
         rv[norm(getter.name)] = getter
+    # TODO engineer this into the data model and backfill them
+    rv["omim.ps"] = OMIMGetter
     return rv
 
 
