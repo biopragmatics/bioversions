@@ -1,6 +1,6 @@
 {
   "annotations": {
-    "revision": 622,
+    "revision": 623,
     "date": "2024-03-25",
     "author": "runner"
   },
@@ -5053,6 +5053,42 @@
       "vtype": "semver"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2024-03-25",
+          "version": "2019",
+          "date": "2019-01-01"
+        }
+      ],
+      "name": "International Classification of Diseases, 10th Revision",
+      "prefix": "icd10",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01",
+          "date": "2024-01-01"
+        }
+      ],
+      "name": "International Classification of Diseases, 11th Revision",
+      "prefix": "icd11",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-01",
+          "date": "2024-01-01"
+        }
+      ],
+      "name": "International Classification of Functioning, Disability and Health",
+      "prefix": "icf",
+      "vtype": "date"
+    },
+    {
       "name": "InterPro",
       "prefix": "interpro",
       "releases": [
@@ -6539,6 +6575,11 @@
           "retrieved": "2023-12-15",
           "version": "23.11d",
           "date": "2023-11-27"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "24.02d",
+          "date": "2024-02-26"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -6895,6 +6936,18 @@
       ],
       "name": "OncoTree",
       "prefix": "oncotree",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2024-03-25",
+          "version": "March 22, 2024",
+          "date": "2024-03-22"
+        }
+      ],
+      "name": "Online Mendelian Inheritance in Man",
+      "prefix": "omim",
       "vtype": "date"
     },
     {
@@ -9475,6 +9528,11 @@
           "retrieved": "2023-12-05",
           "version": "2023-12-04",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_12042023.zip"
+        },
+        {
+          "retrieved": "2024-03-25",
+          "version": "2024-03-04",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_03042024.zip"
         }
       ],
       "name": "RxNorm",
