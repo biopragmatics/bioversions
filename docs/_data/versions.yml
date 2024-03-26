@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-03-25'
-  revision: 623
+  date: '2024-03-26'
+  revision: 624
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4975,6 +4975,8 @@ database:
     version: '2023-12-08'
   - retrieved: '2024-03-25'
     version: '2024-03-15'
+  - retrieved: '2024-03-26'
+    version: '2024-03-25'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs

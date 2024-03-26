@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 623,
-    "date": "2024-03-25",
+    "revision": 624,
+    "date": "2024-03-26",
     "author": "runner"
   },
   "database": [
@@ -9033,6 +9033,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-15"
+        },
+        {
+          "retrieved": "2024-03-26",
+          "version": "2024-03-25"
         }
       ],
       "name": "Rat Genome Database",
