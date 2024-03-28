@@ -270,7 +270,7 @@ class OBOFoundryGetter(Getter):
 
     def get(self) -> str:
         """Get the OBO version."""
-        url = f"http://purl.obolibrary.org/obo/{self.key}.obo"
+        url = f"https://purl.obolibrary.org/obo/{self.key}.obo"
         return self.process(get_obo_version(url))
 
     def process(self, version: str) -> str:
