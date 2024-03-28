@@ -153,6 +153,7 @@ def get_getter_dict() -> Mapping[str, Type[Getter]]:
         rv[norm(getter.name)] = getter
     # TODO engineer this into the data model and backfill them
     rv["omim.ps"] = OMIMGetter
+    rv["omimps"] = OMIMGetter
     return rv
 
 
