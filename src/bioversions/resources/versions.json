@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 625,
-    "date": "2024-03-27",
+    "revision": 626,
+    "date": "2024-03-28",
     "author": "runner"
   },
   "database": [
@@ -1843,6 +1843,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-12-23"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "2024-03-20"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -3230,6 +3234,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-24"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "2024-03-27"
         }
       ],
       "vtype": "date"
@@ -4431,6 +4439,12 @@
           "version": "2023.3",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2023.3.zip",
           "date": "2023-11-29"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "2024.1",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.1.zip",
+          "date": "2024-03-26"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -6949,6 +6963,11 @@
           "retrieved": "2024-03-27",
           "version": "March 25, 2024",
           "date": "2024-03-25"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "March 26, 2024",
+          "date": "2024-03-26"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9154,6 +9173,10 @@
         {
           "retrieved": "2023-12-15",
           "version": "87"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "88"
         }
       ],
       "vtype": "sequential"
@@ -9385,6 +9408,11 @@
           "retrieved": "2024-03-25",
           "version": "131",
           "date": "2024-01-24"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "132",
+          "date": "2024-03-27"
         }
       ],
       "vtype": "date"
@@ -11671,6 +11699,10 @@
         {
           "retrieved": "2024-03-27",
           "version": "2024-03-26"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "2024-03-27"
         }
       ],
       "name": "SwissLipids",
@@ -12229,6 +12261,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-20"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "2024-03-22"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -12430,6 +12466,12 @@
           "version": "2024_01",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_01/",
           "date": "2024-01-01"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "2024_02",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_02/",
+          "date": "2024-02-01"
         }
       ],
       "vtype": "month"
@@ -15399,6 +15441,10 @@
         {
           "retrieved": "2024-03-27",
           "version": "2024-03-25"
+        },
+        {
+          "retrieved": "2024-03-28",
+          "version": "2024-03-26"
         }
       ],
       "name": "Zebrafish Information Network",

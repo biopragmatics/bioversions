@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-03-27'
-  revision: 625
+  date: '2024-03-28'
+  revision: 626
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1012,6 +1012,8 @@ database:
     version: '2022-06-23'
   - retrieved: '2023-05-11'
     version: '2022-12-23'
+  - retrieved: '2024-03-28'
+    version: '2024-03-20'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1778,6 +1780,8 @@ database:
     version: '2023-11-08'
   - retrieved: '2024-03-25'
     version: '2024-01-24'
+  - retrieved: '2024-03-28'
+    version: '2024-03-27'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -2433,6 +2437,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2023.3.zip
     retrieved: '2023-11-30'
     version: '2023.3'
+  - date: '2024-03-26'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.1.zip
+    retrieved: '2024-03-28'
+    version: '2024.1'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -3829,6 +3837,9 @@ database:
   - date: '2024-03-25'
     retrieved: '2024-03-27'
     version: March 25, 2024
+  - date: '2024-03-26'
+    retrieved: '2024-03-28'
+    version: March 26, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5036,6 +5047,8 @@ database:
     version: '86'
   - retrieved: '2023-12-15'
     version: '87'
+  - retrieved: '2024-03-28'
+    version: '88'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -5165,6 +5178,9 @@ database:
   - date: '2024-01-24'
     retrieved: '2024-03-25'
     version: '131'
+  - date: '2024-03-27'
+    retrieved: '2024-03-28'
+    version: '132'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -6333,6 +6349,8 @@ database:
     version: '2024-03-25'
   - retrieved: '2024-03-27'
     version: '2024-03-26'
+  - retrieved: '2024-03-28'
+    version: '2024-03-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6626,6 +6644,8 @@ database:
     version: '2023-12-08'
   - retrieved: '2024-03-25'
     version: '2024-02-20'
+  - retrieved: '2024-03-28'
+    version: '2024-03-22'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -6743,6 +6763,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_01/
     retrieved: '2024-03-25'
     version: '2024_01'
+  - date: '2024-02-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_02/
+    retrieved: '2024-03-28'
+    version: '2024_02'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -8410,6 +8434,8 @@ database:
     version: '2024-03-24'
   - retrieved: '2024-03-27'
     version: '2024-03-25'
+  - retrieved: '2024-03-28'
+    version: '2024-03-26'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
