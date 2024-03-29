@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 626,
-    "date": "2024-03-28",
+    "revision": 627,
+    "date": "2024-03-29",
     "author": "runner"
   },
   "database": [
@@ -1585,6 +1585,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2.204"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2.205"
         }
       ],
       "vtype": "date"
@@ -2404,6 +2408,12 @@
           "version": "2024-02-28",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-02-28",
           "date": "2024-02-28"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2024-03-28",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-03-28",
+          "date": "2024-03-28"
         }
       ],
       "vtype": "date"
@@ -3064,6 +3074,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-02"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2024-03-25"
         }
       ],
       "name": "Evidence and Conclusion Ontology",
@@ -3297,6 +3311,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "4.159"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "4.160"
         }
       ],
       "vtype": "date"
@@ -6968,6 +6986,11 @@
           "retrieved": "2024-03-28",
           "version": "March 26, 2024",
           "date": "2024-03-26"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "March 27, 2024",
+          "date": "2024-03-27"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -7150,6 +7173,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-10"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2024-03-22"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -7538,6 +7565,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-02"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2024-03-25"
         }
       ],
       "vtype": "date"
@@ -7690,6 +7721,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2.0.51"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2.0.52"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -9110,6 +9145,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "6.219"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "6.220"
         }
       ],
       "vtype": "date"
@@ -11703,6 +11742,10 @@
         {
           "retrieved": "2024-03-28",
           "version": "2024-03-27"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2024-03-28"
         }
       ],
       "name": "SwissLipids",
@@ -15445,6 +15488,10 @@
         {
           "retrieved": "2024-03-28",
           "version": "2024-03-26"
+        },
+        {
+          "retrieved": "2024-03-29",
+          "version": "2024-03-27"
         }
       ],
       "name": "Zebrafish Information Network",
