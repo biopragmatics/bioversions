@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 627,
-    "date": "2024-03-29",
+    "revision": 628,
+    "date": "2024-03-30",
     "author": "runner"
   },
   "database": [
@@ -3694,6 +3694,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-20"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "2024-03-26"
         }
       ],
       "vtype": "date"
@@ -5206,6 +5210,12 @@
           "version": "98.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/98.0/",
           "date": "2024-01-25"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "99.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/99.0/",
+          "date": "2024-03-28"
         }
       ],
       "vtype": "semver_minor"
@@ -6685,6 +6695,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-28"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "2024-03-26"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -6991,6 +7005,11 @@
           "retrieved": "2024-03-29",
           "version": "March 27, 2024",
           "date": "2024-03-27"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "March 28, 2024",
+          "date": "2024-03-28"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -7725,6 +7744,10 @@
         {
           "retrieved": "2024-03-29",
           "version": "2.0.52"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "2.0.53"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -11746,6 +11769,10 @@
         {
           "retrieved": "2024-03-29",
           "version": "2024-03-28"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "2024-03-29"
         }
       ],
       "name": "SwissLipids",
@@ -12706,6 +12733,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-08"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "2024-03-22"
         }
       ],
       "vtype": "date"
@@ -15492,6 +15523,10 @@
         {
           "retrieved": "2024-03-29",
           "version": "2024-03-27"
+        },
+        {
+          "retrieved": "2024-03-30",
+          "version": "2024-03-28"
         }
       ],
       "name": "Zebrafish Information Network",

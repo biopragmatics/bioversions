@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-03-29'
-  revision: 627
+  date: '2024-03-30'
+  revision: 628
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2014,6 +2014,8 @@ database:
     version: '2023-11-13'
   - retrieved: '2024-03-25'
     version: '2024-03-20'
+  - retrieved: '2024-03-30'
+    version: '2024-03-26'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2879,6 +2881,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/98.0/
     retrieved: '2024-03-25'
     version: '98.0'
+  - date: '2024-03-28'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/99.0/
+    retrieved: '2024-03-30'
+    version: '99.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -3687,6 +3693,8 @@ database:
     version: '2023-09-19'
   - retrieved: '2024-03-25'
     version: '2024-02-28'
+  - retrieved: '2024-03-30'
+    version: '2024-03-26'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -3853,6 +3861,9 @@ database:
   - date: '2024-03-27'
     retrieved: '2024-03-29'
     version: March 27, 2024
+  - date: '2024-03-28'
+    retrieved: '2024-03-30'
+    version: March 28, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4257,6 +4268,8 @@ database:
     version: 2.0.51
   - retrieved: '2024-03-29'
     version: 2.0.52
+  - retrieved: '2024-03-30'
+    version: 2.0.53
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -6374,6 +6387,8 @@ database:
     version: '2024-03-27'
   - retrieved: '2024-03-29'
     version: '2024-03-28'
+  - retrieved: '2024-03-30'
+    version: '2024-03-29'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6890,6 +6905,8 @@ database:
     version: '2019-06-07'
   - retrieved: '2024-03-25'
     version: '2024-03-08'
+  - retrieved: '2024-03-30'
+    version: '2024-03-22'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -8461,6 +8478,8 @@ database:
     version: '2024-03-26'
   - retrieved: '2024-03-29'
     version: '2024-03-27'
+  - retrieved: '2024-03-30'
+    version: '2024-03-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
