@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-03-30'
-  revision: 628
+  date: '2024-03-31'
+  revision: 629
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -38,6 +38,8 @@ database:
     version: 2023/09
   - retrieved: '2024-03-25'
     version: 2023/12
+  - retrieved: '2024-03-31'
+    version: 2024/03
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -2992,6 +2994,9 @@ database:
   - date: '2024-03-01'
     retrieved: '2024-03-25'
     version: '109.1'
+  - date: '2024-04-01'
+    retrieved: '2024-03-31'
+    version: '110.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -3864,6 +3869,9 @@ database:
   - date: '2024-03-28'
     retrieved: '2024-03-30'
     version: March 28, 2024
+  - date: '2024-03-29'
+    retrieved: '2024-03-31'
+    version: March 29, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4076,6 +4084,8 @@ database:
     version: '2023-12-07'
   - retrieved: '2024-03-25'
     version: '2024-01-12'
+  - retrieved: '2024-03-31'
+    version: '2024-03-27'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -6389,6 +6399,8 @@ database:
     version: '2024-03-28'
   - retrieved: '2024-03-30'
     version: '2024-03-29'
+  - retrieved: '2024-03-31'
+    version: '2024-03-31'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8480,6 +8492,8 @@ database:
     version: '2024-03-27'
   - retrieved: '2024-03-30'
     version: '2024-03-28'
+  - retrieved: '2024-03-31'
+    version: '2024-03-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
