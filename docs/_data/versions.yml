@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-03-31'
-  revision: 629
+  date: '2024-04-01'
+  revision: 630
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4923,6 +4923,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-03-01
     retrieved: '2024-03-25'
     version: '2024-03-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-04-01
+    retrieved: '2024-04-01'
+    version: '2024-04-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -6401,6 +6404,8 @@ database:
     version: '2024-03-29'
   - retrieved: '2024-03-31'
     version: '2024-03-31'
+  - retrieved: '2024-04-01'
+    version: '2024-04-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8494,6 +8499,8 @@ database:
     version: '2024-03-28'
   - retrieved: '2024-03-31'
     version: '2024-03-29'
+  - retrieved: '2024-04-01'
+    version: '2024-03-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
