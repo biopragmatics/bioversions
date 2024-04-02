@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 630,
-    "date": "2024-04-01",
+    "revision": 631,
+    "date": "2024-04-02",
     "author": "runner"
   },
   "database": [
@@ -589,6 +589,11 @@
           "retrieved": "2024-03-25",
           "version": "4.4.231",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.231"
+        },
+        {
+          "retrieved": "2024-04-02",
+          "version": "4.4.232",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.232"
         }
       ],
       "vtype": "semver"
@@ -1349,6 +1354,11 @@
           "retrieved": "2024-03-25",
           "version": "231",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel231/"
+        },
+        {
+          "retrieved": "2024-04-02",
+          "version": "232",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel232/"
         }
       ],
       "vtype": "sequential"
@@ -9146,6 +9156,10 @@
         {
           "retrieved": "2024-03-27",
           "version": "2024-03-26"
+        },
+        {
+          "retrieved": "2024-04-02",
+          "version": "2024-03-22"
         }
       ],
       "name": "Rat Genome Database",
@@ -9659,6 +9673,11 @@
           "retrieved": "2024-03-25",
           "version": "2024-03-04",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_03042024.zip"
+        },
+        {
+          "retrieved": "2024-04-02",
+          "version": "2024-04-01",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_04012024.zip"
         }
       ],
       "name": "RxNorm",
@@ -11804,6 +11823,10 @@
         {
           "retrieved": "2024-04-01",
           "version": "2024-04-01"
+        },
+        {
+          "retrieved": "2024-04-02",
+          "version": "2024-04-02"
         }
       ],
       "name": "SwissLipids",
@@ -15566,6 +15589,10 @@
         {
           "retrieved": "2024-04-01",
           "version": "2024-03-30"
+        },
+        {
+          "retrieved": "2024-04-02",
+          "version": "2024-03-31"
         }
       ],
       "name": "Zebrafish Information Network",
