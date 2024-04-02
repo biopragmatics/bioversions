@@ -6,7 +6,7 @@ import datetime
 import enum
 import ftplib
 import os
-from typing import Any, ClassVar, Mapping, Optional, Union
+from typing import Any, ClassVar, List, Mapping, Optional, Union
 
 import bioregistry
 import pydantic
@@ -191,6 +191,9 @@ class Getter(metaclass=MetaGetter):
     version: ClassVar[str]
     date: ClassVar[str]
     homepage: ClassVar[str]
+
+    #: Prefixes this getter works for
+    collection: ClassVar[Optional[List[str]]] = None
 
     def get(self) -> Union[str, Mapping[str, str], datetime.datetime]:
         """Get the latest of this database."""

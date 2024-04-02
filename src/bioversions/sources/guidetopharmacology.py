@@ -23,6 +23,7 @@ class GuideToPharmacologyGetter(Getter):
     homepage_fmt = "https://www.guidetopharmacology.org/DATA/public_iuphardb_v{version}.zip"
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.year_minor
+    collection = ["iuphar.family", "iuphar.ligand", "iuphar.receptor"]
 
     def get(self) -> Dict[str, str]:
         """Get the latest Guide to Pharmacology version number."""

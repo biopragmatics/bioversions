@@ -13,10 +13,10 @@ __all__ = [
 class OMIMGetter(Getter):
     """A getter for OMIM."""
 
-    bioregistry_id = "omim"
     name = "Online Mendelian Inheritance in Man"
     date_version_fmt = "%B %d, %Y"
     version_type = VersionType.date
+    collection = ["omim.ps", "omim"]
 
     def get(self) -> str:
         """Get the latest OMIM version number."""

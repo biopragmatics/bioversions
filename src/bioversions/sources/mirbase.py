@@ -18,6 +18,7 @@ class MirbaseGetter(Getter):
     name = "miRBase"
     homepage_fmt = "https://www.mirbase.org/download/PREVIOUS_RELEASES/{version}"
     version_type = VersionType.semver_minor
+    collection = ["mirbase", "mirbase.family", "mirbase.mature"]
 
     def get(self):
         """Get the latest miRBase version number."""
