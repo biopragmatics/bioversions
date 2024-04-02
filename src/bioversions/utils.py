@@ -47,7 +47,9 @@ def norm(s: str) -> str:
     return s.lower().replace(" ", "").replace("-", "").replace(".", "")
 
 
-def get_soup(url: str, verify: bool = True, timeout: Optional[int] = None) -> BeautifulSoup:
+def get_soup(
+    url: str, verify: bool = True, timeout: Optional[int] = None, user_agent: Optional[str] = None
+) -> BeautifulSoup:
     """Get a beautiful soup parsed version of the given web page.
 
     :param url: The URL to download and parse with BeautifulSoup
@@ -55,9 +57,13 @@ def get_soup(url: str, verify: bool = True, timeout: Optional[int] = None) -> Be
         except for Ensembl, which makes a big pain
     :param timeout: How many integer seconds to wait for a response?
         Defaults to 15 if none given.
+    :param user_agent: A custom user-agent to set, e.g., to avoid anti-crawling mechanisms
     :returns: A BeautifulSoup object
     """
-    res = requests.get(url, verify=verify, timeout=timeout or 15)
+    headers = {}
+    if user_agent:
+        headers["User-Agent"] = user_agent
+    res = requests.get(url, verify=verify, timeout=timeout or 15, headers=headers)
     soup = BeautifulSoup(res.text, features="html.parser")
     return soup
 
