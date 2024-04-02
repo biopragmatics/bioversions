@@ -16,6 +16,7 @@ from .cellosaurus import CellosaurusGetter
 from .chebi import ChEBIGetter
 from .chembl import ChEMBLGetter
 from .chemidplus import ChemIDplusGetter
+from .civic import CiVICGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
 from .depmap import DepMapGetter
@@ -135,6 +136,7 @@ def get_getters() -> List[Type[Getter]]:
         ICFGetter,
         ICD10Getter,
         ICD11Getter,
+        CiVICGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
