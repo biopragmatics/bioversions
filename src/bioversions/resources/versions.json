@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 634,
-    "date": "2024-04-05",
+    "revision": 635,
+    "date": "2024-04-06",
     "author": "runner"
   },
   "database": [
@@ -261,6 +261,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-12"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-04-01"
         }
       ],
       "vtype": "date"
@@ -885,6 +889,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-04"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-04-01"
         }
       ],
       "vtype": "date"
@@ -1613,6 +1621,10 @@
         {
           "retrieved": "2024-03-29",
           "version": "2.205"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2.206"
         }
       ],
       "vtype": "date"
@@ -1875,6 +1887,10 @@
         {
           "retrieved": "2024-03-28",
           "version": "2024-03-20"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-03-29"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -2166,6 +2182,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024a_20240120"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024b_20240331"
         }
       ],
       "vtype": "other"
@@ -3339,6 +3359,10 @@
         {
           "retrieved": "2024-03-29",
           "version": "4.160"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "4.161"
         }
       ],
       "vtype": "date"
@@ -3722,6 +3746,10 @@
         {
           "retrieved": "2024-03-30",
           "version": "2024-03-26"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-03-30"
         }
       ],
       "vtype": "date"
@@ -5571,6 +5599,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-06"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-03-27"
         }
       ],
       "vtype": "date"
@@ -5694,6 +5726,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2.129"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2.130"
         }
       ],
       "vtype": "date"
@@ -6317,6 +6353,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-04"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-04-02"
         }
       ],
       "vtype": "date"
@@ -7059,6 +7099,11 @@
           "retrieved": "2024-04-05",
           "version": "April 3, 2024",
           "date": "2024-04-03"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "April 4, 2024",
+          "date": "2024-04-04"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -7801,6 +7846,10 @@
         {
           "retrieved": "2024-03-30",
           "version": "2.0.53"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2.0.54"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -8234,6 +8283,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-05-18"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-03-28"
         }
       ],
       "prefix": "pato",
@@ -11864,6 +11917,10 @@
         {
           "retrieved": "2024-04-05",
           "version": "2024-04-05"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-04-06"
         }
       ],
       "name": "SwissLipids",
@@ -12828,6 +12885,10 @@
         {
           "retrieved": "2024-03-30",
           "version": "2024-03-22"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-04-01"
         }
       ],
       "vtype": "date"
@@ -15642,6 +15703,10 @@
         {
           "retrieved": "2024-04-05",
           "version": "2024-04-03"
+        },
+        {
+          "retrieved": "2024-04-06",
+          "version": "2024-04-04"
         }
       ],
       "name": "Zebrafish Information Network",

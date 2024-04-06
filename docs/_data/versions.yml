@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-05'
-  revision: 634
+  date: '2024-04-06'
+  revision: 635
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -139,6 +139,8 @@ database:
     version: '2023-12-07'
   - retrieved: '2024-03-25'
     version: '2024-03-12'
+  - retrieved: '2024-04-06'
+    version: '2024-04-01'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -479,6 +481,8 @@ database:
     version: '2023-09-14'
   - retrieved: '2024-03-25'
     version: '2024-01-04'
+  - retrieved: '2024-04-06'
+    version: '2024-04-01'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -882,6 +886,8 @@ database:
     version: '2.204'
   - retrieved: '2024-03-29'
     version: '2.205'
+  - retrieved: '2024-04-06'
+    version: '2.206'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1029,6 +1035,8 @@ database:
     version: '2022-12-23'
   - retrieved: '2024-03-28'
     version: '2024-03-20'
+  - retrieved: '2024-04-06'
+    version: '2024-03-29'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1180,6 +1188,8 @@ database:
     version: 2023e_2023111
   - retrieved: '2024-03-25'
     version: 2024a_20240120
+  - retrieved: '2024-04-06'
+    version: 2024b_20240331
   vtype: other
 - name: Dicty Phenotype Ontology (DDPHENO)
   prefix: ddpheno
@@ -1835,6 +1845,8 @@ database:
     version: '4.159'
   - retrieved: '2024-03-29'
     version: '4.160'
+  - retrieved: '2024-04-06'
+    version: '4.161'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2029,6 +2041,8 @@ database:
     version: '2024-03-20'
   - retrieved: '2024-03-30'
     version: '2024-03-26'
+  - retrieved: '2024-04-06'
+    version: '2024-03-30'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3078,6 +3092,8 @@ database:
     version: '2023-11-15'
   - retrieved: '2024-03-25'
     version: '2024-03-06'
+  - retrieved: '2024-04-06'
+    version: '2024-03-27'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -3142,6 +3158,8 @@ database:
     version: '2.122'
   - retrieved: '2024-03-25'
     version: '2.129'
+  - retrieved: '2024-04-06'
+    version: '2.130'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -3479,6 +3497,8 @@ database:
     version: '2023-09-12'
   - retrieved: '2024-03-25'
     version: '2024-03-04'
+  - retrieved: '2024-04-06'
+    version: '2024-04-02'
   vtype: date
 - name: MOP
   prefix: mop
@@ -3892,6 +3912,9 @@ database:
   - date: '2024-04-03'
     retrieved: '2024-04-05'
     version: April 3, 2024
+  - date: '2024-04-04'
+    retrieved: '2024-04-06'
+    version: April 4, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4300,6 +4323,8 @@ database:
     version: 2.0.52
   - retrieved: '2024-03-30'
     version: 2.0.53
+  - retrieved: '2024-04-06'
+    version: 2.0.54
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -4532,6 +4557,8 @@ database:
     version: '2023-02-17'
   - retrieved: '2023-06-29'
     version: '2023-05-18'
+  - retrieved: '2024-04-06'
+    version: '2024-03-28'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -6439,6 +6466,8 @@ database:
     version: '2024-04-04'
   - retrieved: '2024-04-05'
     version: '2024-04-05'
+  - retrieved: '2024-04-06'
+    version: '2024-04-06'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6957,6 +6986,8 @@ database:
     version: '2024-03-08'
   - retrieved: '2024-03-30'
     version: '2024-03-22'
+  - retrieved: '2024-04-06'
+    version: '2024-04-01'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -8542,6 +8573,8 @@ database:
     version: '2024-04-02'
   - retrieved: '2024-04-05'
     version: '2024-04-03'
+  - retrieved: '2024-04-06'
+    version: '2024-04-04'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
