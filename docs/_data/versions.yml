@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-10'
-  revision: 639
+  date: '2024-04-11'
+  revision: 640
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3929,6 +3929,9 @@ database:
   - date: '2024-04-08'
     retrieved: '2024-04-10'
     version: April 8, 2024
+  - date: '2024-04-09'
+    retrieved: '2024-04-11'
+    version: April 9, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4799,6 +4802,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2024-03-01/
     retrieved: '2024-03-25'
     version: '2024-03-01'
+  - date: '2024-04-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2024-04-01/
+    retrieved: '2024-04-11'
+    version: '2024-04-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -6492,6 +6499,8 @@ database:
     version: '2024-04-09'
   - retrieved: '2024-04-10'
     version: '2024-04-10'
+  - retrieved: '2024-04-11'
+    version: '2024-04-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7185,6 +7194,10 @@ database:
     homepage: http://data.wikipathways.org/20240310/
     retrieved: '2024-03-25'
     version: '20240310'
+  - date: '2024-04-10'
+    homepage: http://data.wikipathways.org/20240410/
+    retrieved: '2024-04-11'
+    version: '20240410'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -8607,6 +8620,8 @@ database:
     version: '2024-04-07'
   - retrieved: '2024-04-10'
     version: '2024-04-08'
+  - retrieved: '2024-04-11'
+    version: '2024-04-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

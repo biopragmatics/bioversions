@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 639,
-    "date": "2024-04-10",
+    "revision": 640,
+    "date": "2024-04-11",
     "author": "runner"
   },
   "database": [
@@ -7128,6 +7128,11 @@
           "retrieved": "2024-04-10",
           "version": "April 8, 2024",
           "date": "2024-04-08"
+        },
+        {
+          "retrieved": "2024-04-11",
+          "version": "April 9, 2024",
+          "date": "2024-04-09"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -8702,6 +8707,12 @@
           "version": "2024-03-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-03-01/",
           "date": "2024-03-01"
+        },
+        {
+          "retrieved": "2024-04-11",
+          "version": "2024-04-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-04-01/",
+          "date": "2024-04-01"
         }
       ],
       "name": "PomBase",
@@ -11965,6 +11976,10 @@
         {
           "retrieved": "2024-04-10",
           "version": "2024-04-10"
+        },
+        {
+          "retrieved": "2024-04-11",
+          "version": "2024-04-11"
         }
       ],
       "name": "SwissLipids",
@@ -13212,6 +13227,12 @@
           "version": "20240310",
           "homepage": "http://data.wikipathways.org/20240310/",
           "date": "2024-03-10"
+        },
+        {
+          "retrieved": "2024-04-11",
+          "version": "20240410",
+          "homepage": "http://data.wikipathways.org/20240410/",
+          "date": "2024-04-10"
         }
       ],
       "vtype": "date"
@@ -15767,6 +15788,10 @@
         {
           "retrieved": "2024-04-10",
           "version": "2024-04-08"
+        },
+        {
+          "retrieved": "2024-04-11",
+          "version": "2024-04-09"
         }
       ],
       "name": "Zebrafish Information Network",
