@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 640,
-    "date": "2024-04-11",
+    "revision": 641,
+    "date": "2024-04-12",
     "author": "runner"
   },
   "database": [
@@ -1147,6 +1147,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-13"
+        },
+        {
+          "retrieved": "2024-04-12",
+          "version": "2024-04-05"
         }
       ],
       "prefix": "cl",
@@ -1625,6 +1629,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2.206"
+        },
+        {
+          "retrieved": "2024-04-12",
+          "version": "2.207"
         }
       ],
       "vtype": "date"
@@ -3363,6 +3371,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "4.161"
+        },
+        {
+          "retrieved": "2024-04-12",
+          "version": "4.162"
         }
       ],
       "vtype": "date"
@@ -6225,6 +6237,12 @@
           "version": "2024-03-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-03-07",
           "date": "2024-03-07"
+        },
+        {
+          "retrieved": "2024-04-12",
+          "version": "2024-04-11",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-04-11",
+          "date": "2024-04-11"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -7133,6 +7151,11 @@
           "retrieved": "2024-04-11",
           "version": "April 9, 2024",
           "date": "2024-04-09"
+        },
+        {
+          "retrieved": "2024-04-12",
+          "version": "April 10, 2024",
+          "date": "2024-04-10"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11980,6 +12003,10 @@
         {
           "retrieved": "2024-04-11",
           "version": "2024-04-11"
+        },
+        {
+          "retrieved": "2024-04-12",
+          "version": "2024-04-12"
         }
       ],
       "name": "SwissLipids",
@@ -15792,6 +15819,10 @@
         {
           "retrieved": "2024-04-11",
           "version": "2024-04-09"
+        },
+        {
+          "retrieved": "2024-04-12",
+          "version": "2024-04-10"
         }
       ],
       "name": "Zebrafish Information Network",

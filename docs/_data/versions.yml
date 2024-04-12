@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-11'
-  revision: 640
+  date: '2024-04-12'
+  revision: 641
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -615,6 +615,8 @@ database:
     version: '2023-12-05'
   - retrieved: '2024-03-25'
     version: '2024-02-13'
+  - retrieved: '2024-04-12'
+    version: '2024-04-05'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -888,6 +890,8 @@ database:
     version: '2.205'
   - retrieved: '2024-04-06'
     version: '2.206'
+  - retrieved: '2024-04-12'
+    version: '2.207'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1847,6 +1851,8 @@ database:
     version: '4.160'
   - retrieved: '2024-04-06'
     version: '4.161'
+  - retrieved: '2024-04-12'
+    version: '4.162'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -3433,6 +3439,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-03-07
     retrieved: '2024-03-25'
     version: '2024-03-07'
+  - date: '2024-04-11'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-04-11
+    retrieved: '2024-04-12'
+    version: '2024-04-11'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -3932,6 +3942,9 @@ database:
   - date: '2024-04-09'
     retrieved: '2024-04-11'
     version: April 9, 2024
+  - date: '2024-04-10'
+    retrieved: '2024-04-12'
+    version: April 10, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6501,6 +6514,8 @@ database:
     version: '2024-04-10'
   - retrieved: '2024-04-11'
     version: '2024-04-11'
+  - retrieved: '2024-04-12'
+    version: '2024-04-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8622,6 +8637,8 @@ database:
     version: '2024-04-08'
   - retrieved: '2024-04-11'
     version: '2024-04-09'
+  - retrieved: '2024-04-12'
+    version: '2024-04-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
