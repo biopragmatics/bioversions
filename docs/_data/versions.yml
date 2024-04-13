@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-12'
-  revision: 641
+  date: '2024-04-13'
+  revision: 642
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -459,6 +459,8 @@ database:
     version: '2023-09-26'
   - retrieved: '2024-03-25'
     version: '2024-01-16'
+  - retrieved: '2024-04-13'
+    version: '2024-04-09'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -521,6 +523,8 @@ database:
     version: '2023-09-26'
   - retrieved: '2024-03-25'
     version: '2024-01-16'
+  - retrieved: '2024-04-13'
+    version: '2024-04-09'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -2049,6 +2053,8 @@ database:
     version: '2024-03-26'
   - retrieved: '2024-04-06'
     version: '2024-03-30'
+  - retrieved: '2024-04-13'
+    version: '2024-04-09'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3945,6 +3951,9 @@ database:
   - date: '2024-04-10'
     retrieved: '2024-04-12'
     version: April 10, 2024
+  - date: '2024-04-11'
+    retrieved: '2024-04-13'
+    version: April 11, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6516,6 +6525,8 @@ database:
     version: '2024-04-11'
   - retrieved: '2024-04-12'
     version: '2024-04-12'
+  - retrieved: '2024-04-13'
+    version: '2024-04-13'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6984,6 +6995,8 @@ database:
     version: '2023-11-17'
   - retrieved: '2024-03-25'
     version: '2024-03-20'
+  - retrieved: '2024-04-13'
+    version: '2024-04-09'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -8639,6 +8652,8 @@ database:
     version: '2024-04-09'
   - retrieved: '2024-04-12'
     version: '2024-04-10'
+  - retrieved: '2024-04-13'
+    version: '2024-04-11'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

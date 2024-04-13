@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 641,
-    "date": "2024-04-12",
+    "revision": 642,
+    "date": "2024-04-13",
     "author": "runner"
   },
   "database": [
@@ -844,6 +844,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-16"
+        },
+        {
+          "retrieved": "2024-04-13",
+          "version": "2024-04-09"
         }
       ],
       "name": "C. elegans development ontology",
@@ -966,6 +970,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-16"
+        },
+        {
+          "retrieved": "2024-04-13",
+          "version": "2024-04-09"
         }
       ],
       "name": "C. elegans phenotype",
@@ -3762,6 +3770,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2024-03-30"
+        },
+        {
+          "retrieved": "2024-04-13",
+          "version": "2024-04-09"
         }
       ],
       "vtype": "date"
@@ -7156,6 +7168,11 @@
           "retrieved": "2024-04-12",
           "version": "April 10, 2024",
           "date": "2024-04-10"
+        },
+        {
+          "retrieved": "2024-04-13",
+          "version": "April 11, 2024",
+          "date": "2024-04-11"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12007,6 +12024,10 @@
         {
           "retrieved": "2024-04-12",
           "version": "2024-04-12"
+        },
+        {
+          "retrieved": "2024-04-13",
+          "version": "2024-04-13"
         }
       ],
       "name": "SwissLipids",
@@ -12877,6 +12898,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-20"
+        },
+        {
+          "retrieved": "2024-04-13",
+          "version": "2024-04-09"
         }
       ],
       "vtype": "semver"
@@ -15823,6 +15848,10 @@
         {
           "retrieved": "2024-04-12",
           "version": "2024-04-10"
+        },
+        {
+          "retrieved": "2024-04-13",
+          "version": "2024-04-11"
         }
       ],
       "name": "Zebrafish Information Network",
