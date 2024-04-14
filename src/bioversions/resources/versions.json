@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 642,
-    "date": "2024-04-13",
+    "revision": 643,
+    "date": "2024-04-14",
     "author": "runner"
   },
   "database": [
@@ -7173,6 +7173,11 @@
           "retrieved": "2024-04-13",
           "version": "April 11, 2024",
           "date": "2024-04-11"
+        },
+        {
+          "retrieved": "2024-04-14",
+          "version": "April 12, 2024",
+          "date": "2024-04-12"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9963,6 +9968,10 @@
         {
           "retrieved": "2021-11-27",
           "version": "2021-11-22"
+        },
+        {
+          "retrieved": "2024-04-14",
+          "version": "2024-04-10"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -12028,6 +12037,10 @@
         {
           "retrieved": "2024-04-13",
           "version": "2024-04-13"
+        },
+        {
+          "retrieved": "2024-04-14",
+          "version": "2024-04-14"
         }
       ],
       "name": "SwissLipids",
@@ -15852,6 +15865,10 @@
         {
           "retrieved": "2024-04-13",
           "version": "2024-04-11"
+        },
+        {
+          "retrieved": "2024-04-14",
+          "version": "2024-04-12"
         }
       ],
       "name": "Zebrafish Information Network",

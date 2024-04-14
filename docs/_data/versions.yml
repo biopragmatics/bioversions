@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-13'
-  revision: 642
+  date: '2024-04-14'
+  revision: 643
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3954,6 +3954,9 @@ database:
   - date: '2024-04-11'
     retrieved: '2024-04-13'
     version: April 11, 2024
+  - date: '2024-04-12'
+    retrieved: '2024-04-14'
+    version: April 12, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5487,6 +5490,8 @@ database:
     version: '2021-07-12'
   - retrieved: '2021-11-27'
     version: '2021-11-22'
+  - retrieved: '2024-04-14'
+    version: '2024-04-10'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
@@ -6527,6 +6532,8 @@ database:
     version: '2024-04-12'
   - retrieved: '2024-04-13'
     version: '2024-04-13'
+  - retrieved: '2024-04-14'
+    version: '2024-04-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8654,6 +8661,8 @@ database:
     version: '2024-04-10'
   - retrieved: '2024-04-13'
     version: '2024-04-11'
+  - retrieved: '2024-04-14'
+    version: '2024-04-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
