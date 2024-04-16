@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-15'
-  revision: 644
+  date: '2024-04-16'
+  revision: 645
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -783,6 +783,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_33
     retrieved: '2023-06-13'
     version: '33'
+  - date: '2024-03-28'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_34
+    retrieved: '2024-04-16'
+    version: '34'
   vtype: sequential
 - name: Chemical Analysis Ontology
   prefix: cao
@@ -6539,6 +6543,8 @@ database:
     version: '2024-04-14'
   - retrieved: '2024-04-15'
     version: '2024-04-15'
+  - retrieved: '2024-04-16'
+    version: '2024-04-16'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8670,6 +8676,8 @@ database:
     version: '2024-04-12'
   - retrieved: '2024-04-15'
     version: '2024-04-13'
+  - retrieved: '2024-04-16'
+    version: '2024-04-14'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

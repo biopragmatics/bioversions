@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 644,
-    "date": "2024-04-15",
+    "revision": 645,
+    "date": "2024-04-16",
     "author": "runner"
   },
   "database": [
@@ -1432,6 +1432,12 @@
           "version": "33",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_33",
           "date": "2023-05-31"
+        },
+        {
+          "retrieved": "2024-04-16",
+          "version": "34",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_34",
+          "date": "2024-03-28"
         }
       ],
       "vtype": "sequential",
@@ -12050,6 +12056,10 @@
         {
           "retrieved": "2024-04-15",
           "version": "2024-04-15"
+        },
+        {
+          "retrieved": "2024-04-16",
+          "version": "2024-04-16"
         }
       ],
       "name": "SwissLipids",
@@ -15882,6 +15892,10 @@
         {
           "retrieved": "2024-04-15",
           "version": "2024-04-13"
+        },
+        {
+          "retrieved": "2024-04-16",
+          "version": "2024-04-14"
         }
       ],
       "name": "Zebrafish Information Network",
