@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 646,
-    "date": "2024-04-17",
+    "revision": 647,
+    "date": "2024-04-18",
     "author": "runner"
   },
   "database": [
@@ -4641,6 +4641,11 @@
           "retrieved": "2024-03-25",
           "version": "2024-03-01",
           "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-03-01.json"
+        },
+        {
+          "retrieved": "2024-04-18",
+          "version": "2024-04-01",
+          "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-04-01.json"
         }
       ],
       "name": "HGNC",
@@ -5691,6 +5696,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "4.1.141"
+        },
+        {
+          "retrieved": "2024-04-18",
+          "version": "4.1.146"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -7194,6 +7203,11 @@
           "retrieved": "2024-04-17",
           "version": "April 15, 2024",
           "date": "2024-04-15"
+        },
+        {
+          "retrieved": "2024-04-18",
+          "version": "April 16, 2024",
+          "date": "2024-04-16"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12069,6 +12083,10 @@
         {
           "retrieved": "2024-04-17",
           "version": "2024-04-17"
+        },
+        {
+          "retrieved": "2024-04-18",
+          "version": "2024-04-18"
         }
       ],
       "name": "SwissLipids",
@@ -15909,6 +15927,10 @@
         {
           "retrieved": "2024-04-17",
           "version": "2024-04-15"
+        },
+        {
+          "retrieved": "2024-04-18",
+          "version": "2024-04-16"
         }
       ],
       "name": "Zebrafish Information Network",
