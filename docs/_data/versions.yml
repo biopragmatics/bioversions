@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-18'
-  revision: 647
+  date: '2024-04-19'
+  revision: 648
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1861,6 +1861,8 @@ database:
     version: '4.161'
   - retrieved: '2024-04-12'
     version: '4.162'
+  - retrieved: '2024-04-19'
+    version: '4.163'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -1927,6 +1929,8 @@ database:
     version: 3.60.0
   - retrieved: '2024-03-25'
     version: 3.64.0
+  - retrieved: '2024-04-19'
+    version: 3.65.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2059,6 +2063,8 @@ database:
     version: '2024-03-30'
   - retrieved: '2024-04-13'
     version: '2024-04-09'
+  - retrieved: '2024-04-19'
+    version: '2024-04-15'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3189,6 +3195,8 @@ database:
     version: '2.129'
   - retrieved: '2024-04-06'
     version: '2.130'
+  - retrieved: '2024-04-19'
+    version: '2.131'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -3975,6 +3983,9 @@ database:
   - date: '2024-04-16'
     retrieved: '2024-04-18'
     version: April 16, 2024
+  - date: '2024-04-17'
+    retrieved: '2024-04-19'
+    version: April 17, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6560,6 +6571,8 @@ database:
     version: '2024-04-17'
   - retrieved: '2024-04-18'
     version: '2024-04-18'
+  - retrieved: '2024-04-19'
+    version: '2024-04-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8697,6 +8710,8 @@ database:
     version: '2024-04-15'
   - retrieved: '2024-04-18'
     version: '2024-04-16'
+  - retrieved: '2024-04-19'
+    version: '2024-04-17'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
