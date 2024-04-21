@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 649,
-    "date": "2024-04-20",
+    "revision": 650,
+    "date": "2024-04-21",
     "author": "runner"
   },
   "database": [
@@ -2571,6 +2571,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-21"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "2024-04-18"
         }
       ],
       "name": "Drosophila development",
@@ -4302,6 +4306,12 @@
           "version": "2024-03-28",
           "homepage": "http://archive.geneontology.org/full/2024-03-28/",
           "date": "2024-03-28"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "2024-04-18",
+          "homepage": "http://archive.geneontology.org/full/2024-04-18/",
+          "date": "2024-04-18"
         }
       ],
       "vtype": "date"
@@ -4453,6 +4463,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-02"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "2024-04-17"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -7234,6 +7248,11 @@
           "retrieved": "2024-04-20",
           "version": "April 18, 2024",
           "date": "2024-04-18"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "April 19, 2024",
+          "date": "2024-04-19"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -7980,6 +7999,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2.0.54"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "2.0.55"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -8603,6 +8626,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-16"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "2024-04-17"
         }
       ],
       "vtype": "date"
@@ -12121,6 +12148,10 @@
         {
           "retrieved": "2024-04-20",
           "version": "2024-04-20"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "2024-04-21"
         }
       ],
       "name": "SwissLipids",
@@ -16002,6 +16033,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-22"
+        },
+        {
+          "retrieved": "2024-04-21",
+          "version": "2024-04-18"
         }
       ],
       "vtype": "date"

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-20'
-  revision: 649
+  date: '2024-04-21'
+  revision: 650
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1423,6 +1423,8 @@ database:
     version: '2023-12-07'
   - retrieved: '2024-03-25'
     version: '2024-02-21'
+  - retrieved: '2024-04-21'
+    version: '2024-04-18'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -2359,6 +2361,10 @@ database:
     homepage: http://archive.geneontology.org/full/2024-03-28/
     retrieved: '2024-04-08'
     version: '2024-03-28'
+  - date: '2024-04-18'
+    homepage: http://archive.geneontology.org/full/2024-04-18/
+    retrieved: '2024-04-21'
+    version: '2024-04-18'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -2439,6 +2445,8 @@ database:
     version: '2023-12-11'
   - retrieved: '2024-03-25'
     version: '2024-02-02'
+  - retrieved: '2024-04-21'
+    version: '2024-04-17'
   vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
@@ -3989,6 +3997,9 @@ database:
   - date: '2024-04-18'
     retrieved: '2024-04-20'
     version: April 18, 2024
+  - date: '2024-04-19'
+    retrieved: '2024-04-21'
+    version: April 19, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4399,6 +4410,8 @@ database:
     version: 2.0.53
   - retrieved: '2024-04-06'
     version: 2.0.54
+  - retrieved: '2024-04-21'
+    version: 2.0.55
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -4731,6 +4744,8 @@ database:
     version: '2023-07-13'
   - retrieved: '2024-03-25'
     version: '2024-02-16'
+  - retrieved: '2024-04-21'
+    version: '2024-04-17'
   vtype: date
 - name: Plant Phenology Ontology
   prefix: ppo
@@ -6578,6 +6593,8 @@ database:
     version: '2024-04-19'
   - retrieved: '2024-04-20'
     version: '2024-04-20'
+  - retrieved: '2024-04-21'
+    version: '2024-04-21'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8733,4 +8750,6 @@ database:
     version: '2022-12-17'
   - retrieved: '2024-03-25'
     version: '2024-01-22'
+  - retrieved: '2024-04-21'
+    version: '2024-04-18'
   vtype: date
