@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-24'
-  revision: 653
+  date: '2024-04-25'
+  revision: 654
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2127,6 +2127,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2024_01/
     retrieved: '2024-03-25'
     version: '2024_01'
+  - homepage: http://ftp.flybase.net/releases/FB2024_02/
+    retrieved: '2024-04-25'
+    version: '2024_02'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -4006,6 +4009,9 @@ database:
   - date: '2024-04-22'
     retrieved: '2024-04-24'
     version: April 22, 2024
+  - date: '2024-04-23'
+    retrieved: '2024-04-25'
+    version: April 23, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6607,6 +6613,8 @@ database:
     version: '2024-04-23'
   - retrieved: '2024-04-24'
     version: '2024-04-24'
+  - retrieved: '2024-04-25'
+    version: '2024-04-25'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8756,6 +8764,8 @@ database:
     version: '2024-04-21'
   - retrieved: '2024-04-24'
     version: '2024-04-22'
+  - retrieved: '2024-04-25'
+    version: '2024-04-23'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
