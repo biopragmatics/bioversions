@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 656,
-    "date": "2024-04-27",
+    "revision": 657,
+    "date": "2024-04-28",
     "author": "runner"
   },
   "database": [
@@ -197,6 +197,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-23"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-19"
         }
       ],
       "name": "Apollo Structured Vocabulary",
@@ -1647,6 +1651,10 @@
         {
           "retrieved": "2024-04-12",
           "version": "2.207"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2.208"
         }
       ],
       "vtype": "date"
@@ -2575,6 +2583,10 @@
         {
           "retrieved": "2024-04-21",
           "version": "2024-04-18"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-25"
         }
       ],
       "name": "Drosophila development",
@@ -2638,6 +2650,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-22"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-25"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -2717,6 +2733,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-23"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-25"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -3397,6 +3417,10 @@
         {
           "retrieved": "2024-04-19",
           "version": "4.163"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "4.164"
         }
       ],
       "vtype": "date"
@@ -3977,6 +4001,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-23"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-25"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -4755,6 +4783,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-07"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-25"
         }
       ],
       "vtype": "semver"
@@ -4967,6 +4999,10 @@
         {
           "retrieved": "2024-04-08",
           "version": "2024-04-04"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-19"
         }
       ],
       "vtype": "date"
@@ -5731,6 +5767,10 @@
         {
           "retrieved": "2024-04-18",
           "version": "4.1.146"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "4.1.152"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -7283,6 +7323,11 @@
           "retrieved": "2024-04-27",
           "version": "April 25, 2024",
           "date": "2024-04-25"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "April 26, 2024",
+          "date": "2024-04-26"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9488,6 +9533,10 @@
         {
           "retrieved": "2024-03-29",
           "version": "6.220"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "6.221"
         }
       ],
       "vtype": "date"
@@ -12210,6 +12259,10 @@
         {
           "retrieved": "2024-04-27",
           "version": "2024-04-27"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-28"
         }
       ],
       "name": "SwissLipids",
@@ -13186,6 +13239,10 @@
         {
           "retrieved": "2024-04-20",
           "version": "2024-04-15"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-23"
         }
       ],
       "vtype": "date"
@@ -13524,6 +13581,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-09-15"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-18"
         }
       ],
       "vtype": "date"
@@ -16090,6 +16151,10 @@
         {
           "retrieved": "2024-04-27",
           "version": "2024-04-25"
+        },
+        {
+          "retrieved": "2024-04-28",
+          "version": "2024-04-26"
         }
       ],
       "name": "Zebrafish Information Network",

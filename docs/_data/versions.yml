@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-04-27'
-  revision: 656
+  date: '2024-04-28'
+  revision: 657
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -107,6 +107,8 @@ database:
     version: '2023-06-02'
   - retrieved: '2024-03-25'
     version: '2024-02-23'
+  - retrieved: '2024-04-28'
+    version: '2024-04-19'
   vtype: date
 - name: Apollo Structured Vocabulary (Apollo-SV)
   prefix: apollo_sv
@@ -900,6 +902,8 @@ database:
     version: '2.206'
   - retrieved: '2024-04-12'
     version: '2.207'
+  - retrieved: '2024-04-28'
+    version: '2.208'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1425,6 +1429,8 @@ database:
     version: '2024-02-21'
   - retrieved: '2024-04-21'
     version: '2024-04-18'
+  - retrieved: '2024-04-28'
+    version: '2024-04-25'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1457,6 +1463,8 @@ database:
     version: '2023-12-07'
   - retrieved: '2024-03-25'
     version: '2024-02-22'
+  - retrieved: '2024-04-28'
+    version: '2024-04-25'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1497,6 +1505,8 @@ database:
     version: '2023-12-08'
   - retrieved: '2024-03-25'
     version: '2024-02-23'
+  - retrieved: '2024-04-28'
+    version: '2024-04-25'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -1865,6 +1875,8 @@ database:
     version: '4.162'
   - retrieved: '2024-04-19'
     version: '4.163'
+  - retrieved: '2024-04-28'
+    version: '4.164'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2168,6 +2180,8 @@ database:
     version: '2023-12-08'
   - retrieved: '2024-03-25'
     version: '2024-02-23'
+  - retrieved: '2024-04-28'
+    version: '2024-04-25'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -2623,6 +2637,8 @@ database:
     version: '2023-10-13'
   - retrieved: '2024-03-25'
     version: '2024-02-07'
+  - retrieved: '2024-04-28'
+    version: '2024-04-25'
   vtype: semver
 - name: Human Cell Atlas Ontology
   prefix: hcao
@@ -2731,6 +2747,8 @@ database:
     version: '2024-04-03'
   - retrieved: '2024-04-08'
     version: '2024-04-04'
+  - retrieved: '2024-04-28'
+    version: '2024-04-19'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -3164,6 +3182,8 @@ database:
     version: 4.1.141
   - retrieved: '2024-04-18'
     version: 4.1.146
+  - retrieved: '2024-04-28'
+    version: 4.1.152
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4018,6 +4038,9 @@ database:
   - date: '2024-04-25'
     retrieved: '2024-04-27'
     version: April 25, 2024
+  - date: '2024-04-26'
+    retrieved: '2024-04-28'
+    version: April 26, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5226,6 +5249,8 @@ database:
     version: '6.219'
   - retrieved: '2024-03-29'
     version: '6.220'
+  - retrieved: '2024-04-28'
+    version: '6.221'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -6627,6 +6652,8 @@ database:
     version: '2024-04-26'
   - retrieved: '2024-04-27'
     version: '2024-04-27'
+  - retrieved: '2024-04-28'
+    version: '2024-04-28'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7151,6 +7178,8 @@ database:
     version: '2024-04-01'
   - retrieved: '2024-04-20'
     version: '2024-04-15'
+  - retrieved: '2024-04-28'
+    version: '2024-04-23'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -7356,6 +7385,8 @@ database:
     version: '2021-03-05'
   - retrieved: '2023-05-11'
     version: '2022-09-15'
+  - retrieved: '2024-04-28'
+    version: '2024-04-18'
   vtype: date
 - name: Yam ontology
   prefix: co_343
@@ -8782,6 +8813,8 @@ database:
     version: '2024-04-24'
   - retrieved: '2024-04-27'
     version: '2024-04-25'
+  - retrieved: '2024-04-28'
+    version: '2024-04-26'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
