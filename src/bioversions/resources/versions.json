@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 659,
-    "date": "2024-04-30",
+    "revision": 660,
+    "date": "2024-05-01",
     "author": "runner"
   },
   "database": [
@@ -1584,6 +1584,10 @@
         {
           "retrieved": "2024-04-03",
           "version": "01-Apr-2024"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "01-May-2024"
         }
       ],
       "name": "CiVIC",
@@ -2488,6 +2492,12 @@
           "version": "2024-03-28",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-03-28",
           "date": "2024-03-28"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "2024-04-30",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-04-30",
+          "date": "2024-04-30"
         }
       ],
       "vtype": "date"
@@ -4345,6 +4355,12 @@
           "version": "2024-04-18",
           "homepage": "http://archive.geneontology.org/full/2024-04-18/",
           "date": "2024-04-18"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "2024-04-24",
+          "homepage": "http://archive.geneontology.org/full/2024-04-24/",
+          "date": "2024-04-24"
         }
       ],
       "vtype": "date"
@@ -5485,6 +5501,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "28-Feb-2024"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "26-Apr-2024"
         }
       ],
       "name": "ITIS",
@@ -7328,6 +7348,11 @@
           "retrieved": "2024-04-28",
           "version": "April 26, 2024",
           "date": "2024-04-26"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "April 29, 2024",
+          "date": "2024-04-29"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9255,6 +9280,11 @@
           "retrieved": "2024-04-01",
           "version": "2024-04-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-04-01"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "2024-05-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-05-01"
         }
       ],
       "name": "PubChem",
@@ -12275,6 +12305,10 @@
         {
           "retrieved": "2024-04-30",
           "version": "2024-04-30"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "2024-05-01"
         }
       ],
       "name": "SwissLipids",
@@ -16175,6 +16209,10 @@
         {
           "retrieved": "2024-04-30",
           "version": "2024-04-28"
+        },
+        {
+          "retrieved": "2024-05-01",
+          "version": "2024-04-29"
         }
       ],
       "name": "Zebrafish Information Network",
