@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-01'
-  revision: 660
+  date: '2024-05-02'
+  revision: 661
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -331,6 +331,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.232
     retrieved: '2024-04-02'
     version: 4.4.232
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.233
+    retrieved: '2024-05-02'
+    version: 4.4.233
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -751,6 +754,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel232/
     retrieved: '2024-04-02'
     version: '232'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel233/
+    retrieved: '2024-05-02'
+    version: '233'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -3096,6 +3102,9 @@ database:
   - date: '2024-04-01'
     retrieved: '2024-03-31'
     version: '110.0'
+  - date: '2024-05-01'
+    retrieved: '2024-05-02'
+    version: '110.1'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -4056,6 +4065,9 @@ database:
   - date: '2024-04-29'
     retrieved: '2024-05-01'
     version: April 29, 2024
+  - date: '2024-04-30'
+    retrieved: '2024-05-02'
+    version: April 30, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4934,6 +4946,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2024-04-01/
     retrieved: '2024-04-11'
     version: '2024-04-01'
+  - date: '2024-05-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2024-05-01/
+    retrieved: '2024-05-02'
+    version: '2024-05-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -6680,6 +6696,8 @@ database:
     version: '2024-04-30'
   - retrieved: '2024-05-01'
     version: '2024-05-01'
+  - retrieved: '2024-05-02'
+    version: '2024-05-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8847,6 +8865,8 @@ database:
     version: '2024-04-28'
   - retrieved: '2024-05-01'
     version: '2024-04-29'
+  - retrieved: '2024-05-02'
+    version: '2024-04-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

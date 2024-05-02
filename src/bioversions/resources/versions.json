@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 660,
-    "date": "2024-05-01",
+    "revision": 661,
+    "date": "2024-05-02",
     "author": "runner"
   },
   "database": [
@@ -602,6 +602,11 @@
           "retrieved": "2024-04-02",
           "version": "4.4.232",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.232"
+        },
+        {
+          "retrieved": "2024-05-02",
+          "version": "4.4.233",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.233"
         }
       ],
       "vtype": "semver"
@@ -1383,6 +1388,11 @@
           "retrieved": "2024-04-02",
           "version": "232",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel232/"
+        },
+        {
+          "retrieved": "2024-05-02",
+          "version": "233",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel233/"
         }
       ],
       "vtype": "sequential"
@@ -5604,6 +5614,11 @@
           "retrieved": "2024-03-31",
           "version": "110.0",
           "date": "2024-04-01"
+        },
+        {
+          "retrieved": "2024-05-02",
+          "version": "110.1",
+          "date": "2024-05-01"
         }
       ],
       "vtype": "semver_minor"
@@ -7353,6 +7368,11 @@
           "retrieved": "2024-05-01",
           "version": "April 29, 2024",
           "date": "2024-04-29"
+        },
+        {
+          "retrieved": "2024-05-02",
+          "version": "April 30, 2024",
+          "date": "2024-04-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -8941,6 +8961,12 @@
           "version": "2024-04-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-04-01/",
           "date": "2024-04-01"
+        },
+        {
+          "retrieved": "2024-05-02",
+          "version": "2024-05-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-05-01/",
+          "date": "2024-05-01"
         }
       ],
       "name": "PomBase",
@@ -12309,6 +12335,10 @@
         {
           "retrieved": "2024-05-01",
           "version": "2024-05-01"
+        },
+        {
+          "retrieved": "2024-05-02",
+          "version": "2024-05-02"
         }
       ],
       "name": "SwissLipids",
@@ -16213,6 +16243,10 @@
         {
           "retrieved": "2024-05-01",
           "version": "2024-04-29"
+        },
+        {
+          "retrieved": "2024-05-02",
+          "version": "2024-04-30"
         }
       ],
       "name": "Zebrafish Information Network",
