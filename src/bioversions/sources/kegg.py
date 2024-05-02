@@ -5,6 +5,7 @@
 from typing import Mapping
 
 from bioversions.utils import Getter, VersionType, get_soup
+import bioregistry
 
 __all__ = [
     "KEGGGetter",
@@ -19,7 +20,7 @@ class KEGGGetter(Getter):
     name = "KEGG"
     date_fmt = "%B %d, %Y"
     version_type = VersionType.semver_minor
-    collection = ["kegg.pathway", "kegg.gene", "kegg.species"]  # TODO add more
+    collection = ["kegg", *bioregistry.get_has_parts("kegg")]
 
     def get(self) -> Mapping[str, str]:
         """Get the latest KEGG version number."""

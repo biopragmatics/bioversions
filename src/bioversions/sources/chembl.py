@@ -23,6 +23,7 @@ class ChEMBLGetter(Getter):
     homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_{version}"
     date_fmt = "%d/%m/%Y"
     version_type = VersionType.sequential
+    collection = ["chembl", "chembl.target", "chembl.compound", "chembl.cell"]
 
     def get(self):
         """Get the latest ChEMBL version number."""
