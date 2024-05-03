@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-02'
-  revision: 661
+  date: '2024-05-03'
+  revision: 662
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -652,6 +652,9 @@ database:
   - date: '2024-01-30'
     retrieved: '2024-03-25'
     version: '48.0'
+  - date: '2024-05-02'
+    retrieved: '2024-05-03'
+    version: '49.0'
   vtype: sequential
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
@@ -4068,6 +4071,9 @@ database:
   - date: '2024-04-30'
     retrieved: '2024-05-02'
     version: April 30, 2024
+  - date: '2024-05-01'
+    retrieved: '2024-05-03'
+    version: May 1, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6698,6 +6704,8 @@ database:
     version: '2024-05-01'
   - retrieved: '2024-05-02'
     version: '2024-05-02'
+  - retrieved: '2024-05-03'
+    version: '2024-05-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8867,6 +8875,8 @@ database:
     version: '2024-04-29'
   - retrieved: '2024-05-02'
     version: '2024-04-30'
+  - retrieved: '2024-05-03'
+    version: '2024-05-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

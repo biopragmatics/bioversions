@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 661,
-    "date": "2024-05-02",
+    "revision": 662,
+    "date": "2024-05-03",
     "author": "runner"
   },
   "database": [
@@ -1213,6 +1213,11 @@
           "retrieved": "2024-03-25",
           "version": "48.0",
           "date": "2024-01-30"
+        },
+        {
+          "retrieved": "2024-05-03",
+          "version": "49.0",
+          "date": "2024-05-02"
         }
       ],
       "name": "Cellosaurus",
@@ -7373,6 +7378,11 @@
           "retrieved": "2024-05-02",
           "version": "April 30, 2024",
           "date": "2024-04-30"
+        },
+        {
+          "retrieved": "2024-05-03",
+          "version": "May 1, 2024",
+          "date": "2024-05-01"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12339,6 +12349,10 @@
         {
           "retrieved": "2024-05-02",
           "version": "2024-05-02"
+        },
+        {
+          "retrieved": "2024-05-03",
+          "version": "2024-05-03"
         }
       ],
       "name": "SwissLipids",
@@ -16247,6 +16261,10 @@
         {
           "retrieved": "2024-05-02",
           "version": "2024-04-30"
+        },
+        {
+          "retrieved": "2024-05-03",
+          "version": "2024-05-01"
         }
       ],
       "name": "Zebrafish Information Network",
