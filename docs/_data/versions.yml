@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-04'
-  revision: 663
+  date: '2024-05-05'
+  revision: 664
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -143,6 +143,8 @@ database:
     version: '2024-03-12'
   - retrieved: '2024-04-06'
     version: '2024-04-01'
+  - retrieved: '2024-05-05'
+    version: '2024-04-26'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -915,6 +917,8 @@ database:
     version: '2.207'
   - retrieved: '2024-04-28'
     version: '2.208'
+  - retrieved: '2024-05-05'
+    version: '2.209'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1892,6 +1896,8 @@ database:
     version: '4.163'
   - retrieved: '2024-04-28'
     version: '4.164'
+  - retrieved: '2024-05-05'
+    version: '4.165'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2094,6 +2100,8 @@ database:
     version: '2024-04-09'
   - retrieved: '2024-04-19'
     version: '2024-04-15'
+  - retrieved: '2024-05-05'
+    version: '2024-04-27'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2768,6 +2776,8 @@ database:
     version: '2024-04-04'
   - retrieved: '2024-04-28'
     version: '2024-04-19'
+  - retrieved: '2024-05-05'
+    version: '2024-04-26'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -3180,6 +3190,8 @@ database:
     version: '2024-03-06'
   - retrieved: '2024-04-06'
     version: '2024-03-27'
+  - retrieved: '2024-05-05'
+    version: '2024-04-23'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -3252,6 +3264,8 @@ database:
     version: '2.130'
   - retrieved: '2024-04-19'
     version: '2.131'
+  - retrieved: '2024-05-05'
+    version: '2.132'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -4077,6 +4091,9 @@ database:
   - date: '2024-05-02'
     retrieved: '2024-05-04'
     version: May 2, 2024
+  - date: '2024-05-03'
+    retrieved: '2024-05-05'
+    version: May 3, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5382,6 +5399,8 @@ database:
     version: '2023-08-18'
   - retrieved: '2024-03-25'
     version: '2024-02-13'
+  - retrieved: '2024-05-05'
+    version: '2024-04-24'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -6711,6 +6730,8 @@ database:
     version: '2024-05-03'
   - retrieved: '2024-05-04'
     version: '2024-05-04'
+  - retrieved: '2024-05-05'
+    version: '2024-05-05'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7207,6 +7228,8 @@ database:
     version: '2023-09-28'
   - retrieved: '2024-03-25'
     version: '2024-01-04'
+  - retrieved: '2024-05-05'
+    version: '2024-04-18'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -8884,6 +8907,8 @@ database:
     version: '2024-05-01'
   - retrieved: '2024-05-04'
     version: '2024-05-02'
+  - retrieved: '2024-05-05'
+    version: '2024-05-03'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 663,
-    "date": "2024-05-04",
+    "revision": 664,
+    "date": "2024-05-05",
     "author": "runner"
   },
   "database": [
@@ -269,6 +269,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2024-04-01"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-04-26"
         }
       ],
       "vtype": "date"
@@ -1674,6 +1678,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2.208"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2.209"
         }
       ],
       "vtype": "date"
@@ -3446,6 +3454,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "4.164"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "4.165"
         }
       ],
       "vtype": "date"
@@ -3845,6 +3857,10 @@
         {
           "retrieved": "2024-04-19",
           "version": "2024-04-15"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-04-27"
         }
       ],
       "vtype": "date"
@@ -5034,6 +5050,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-19"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-04-26"
         }
       ],
       "vtype": "date"
@@ -5759,6 +5779,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2024-03-27"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-04-23"
         }
       ],
       "vtype": "date"
@@ -5898,6 +5922,10 @@
         {
           "retrieved": "2024-04-19",
           "version": "2.131"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2.132"
         }
       ],
       "vtype": "date"
@@ -7388,6 +7416,11 @@
           "retrieved": "2024-05-04",
           "version": "May 2, 2024",
           "date": "2024-05-02"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "May 3, 2024",
+          "date": "2024-05-03"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9780,6 +9813,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-13"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-04-24"
         }
       ],
       "vtype": "date"
@@ -12362,6 +12399,10 @@
         {
           "retrieved": "2024-05-04",
           "version": "2024-05-04"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-05-05"
         }
       ],
       "name": "SwissLipids",
@@ -13283,6 +13324,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-04"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-04-18"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -16278,6 +16323,10 @@
         {
           "retrieved": "2024-05-04",
           "version": "2024-05-02"
+        },
+        {
+          "retrieved": "2024-05-05",
+          "version": "2024-05-03"
         }
       ],
       "name": "Zebrafish Information Network",
