@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 668,
-    "date": "2024-05-09",
+    "revision": 669,
+    "date": "2024-05-10",
     "author": "runner"
   },
   "database": [
@@ -7431,6 +7431,11 @@
           "retrieved": "2024-05-09",
           "version": "May 7, 2024",
           "date": "2024-05-07"
+        },
+        {
+          "retrieved": "2024-05-10",
+          "version": "May 8, 2024",
+          "date": "2024-05-08"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12438,6 +12443,10 @@
         {
           "retrieved": "2024-05-09",
           "version": "2024-05-09"
+        },
+        {
+          "retrieved": "2024-05-10",
+          "version": "2024-05-10"
         }
       ],
       "name": "SwissLipids",
