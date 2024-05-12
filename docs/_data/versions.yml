@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-11'
-  revision: 670
+  date: '2024-05-12'
+  revision: 671
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -919,6 +919,8 @@ database:
     version: '2.208'
   - retrieved: '2024-05-05'
     version: '2.209'
+  - retrieved: '2024-05-12'
+    version: '2.210'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1898,6 +1900,8 @@ database:
     version: '4.164'
   - retrieved: '2024-05-05'
     version: '4.165'
+  - retrieved: '2024-05-12'
+    version: '4.166'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2102,6 +2106,8 @@ database:
     version: '2024-04-15'
   - retrieved: '2024-05-05'
     version: '2024-04-27'
+  - retrieved: '2024-05-12'
+    version: '2024-05-08'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3609,6 +3615,8 @@ database:
     version: '2024-03-04'
   - retrieved: '2024-04-06'
     version: '2024-04-02'
+  - retrieved: '2024-05-12'
+    version: '2024-05-08'
   vtype: date
 - name: MOP
   prefix: mop
@@ -3844,6 +3852,8 @@ database:
     version: '2024-02-28'
   - retrieved: '2024-03-30'
     version: '2024-03-26'
+  - retrieved: '2024-05-12'
+    version: '2024-05-08'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -4106,6 +4116,9 @@ database:
   - date: '2024-05-09'
     retrieved: '2024-05-11'
     version: May 9, 2024
+  - date: '2024-05-10'
+    retrieved: '2024-05-12'
+    version: May 10, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6761,6 +6774,8 @@ database:
     version: '2024-05-10'
   - retrieved: '2024-05-11'
     version: '2024-05-11'
+  - retrieved: '2024-05-12'
+    version: '2024-05-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8954,6 +8969,8 @@ database:
     version: '2024-05-07'
   - retrieved: '2024-05-11'
     version: '2024-05-09'
+  - retrieved: '2024-05-12'
+    version: '2024-05-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
