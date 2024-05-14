@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 672,
-    "date": "2024-05-13",
+    "revision": 673,
+    "date": "2024-05-14",
     "author": "runner"
   },
   "database": [
@@ -3059,6 +3059,12 @@
           "version": "111",
           "homepage": "https://www.ensembl.org",
           "date": "2024-01-01"
+        },
+        {
+          "retrieved": "2024-05-14",
+          "version": "112",
+          "homepage": "https://www.ensembl.org",
+          "date": "2024-05-01"
         }
       ],
       "name": "Ensembl",
@@ -9641,6 +9647,10 @@
         {
           "retrieved": "2024-05-07",
           "version": "2024-05-03"
+        },
+        {
+          "retrieved": "2024-05-14",
+          "version": "2024-05-10"
         }
       ],
       "name": "Rat Genome Database",
@@ -12489,6 +12499,10 @@
         {
           "retrieved": "2024-05-13",
           "version": "2024-05-13"
+        },
+        {
+          "retrieved": "2024-05-14",
+          "version": "2024-05-14"
         }
       ],
       "name": "SwissLipids",
@@ -16451,6 +16465,10 @@
         {
           "retrieved": "2024-05-13",
           "version": "2024-05-11"
+        },
+        {
+          "retrieved": "2024-05-14",
+          "version": "2024-05-12"
         }
       ],
       "name": "Zebrafish Information Network",

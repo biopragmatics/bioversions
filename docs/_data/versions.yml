@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-13'
-  revision: 672
+  date: '2024-05-14'
+  revision: 673
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1691,6 +1691,10 @@ database:
     homepage: https://www.ensembl.org
     retrieved: '2024-03-25'
     version: '111'
+  - date: '2024-05-01'
+    homepage: https://www.ensembl.org
+    retrieved: '2024-05-14'
+    version: '112'
   vtype: sequential
 - name: Ensembl Glossary
   prefix: ensemblglossary
@@ -5314,6 +5318,8 @@ database:
     version: '2024-04-26'
   - retrieved: '2024-05-07'
     version: '2024-05-03'
+  - retrieved: '2024-05-14'
+    version: '2024-05-10'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -6778,6 +6784,8 @@ database:
     version: '2024-05-12'
   - retrieved: '2024-05-13'
     version: '2024-05-13'
+  - retrieved: '2024-05-14'
+    version: '2024-05-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8975,6 +8983,8 @@ database:
     version: '2024-05-10'
   - retrieved: '2024-05-13'
     version: '2024-05-11'
+  - retrieved: '2024-05-14'
+    version: '2024-05-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
