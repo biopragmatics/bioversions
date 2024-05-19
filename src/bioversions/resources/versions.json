@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 677,
-    "date": "2024-05-18",
+    "revision": 678,
+    "date": "2024-05-19",
     "author": "runner"
   },
   "database": [
@@ -1172,6 +1172,10 @@
         {
           "retrieved": "2024-04-12",
           "version": "2024-04-05"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-15"
         }
       ],
       "prefix": "cl",
@@ -1952,6 +1956,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2024-03-29"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-13"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -3607,6 +3615,10 @@
         {
           "retrieved": "2024-04-19",
           "version": "3.65.0"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "3.66.0"
         }
       ],
       "vtype": "semver"
@@ -5853,6 +5865,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "4.1.152"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "4.1.153"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -6038,6 +6054,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-05"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-07"
         }
       ],
       "vtype": "date"
@@ -7497,6 +7517,11 @@
           "retrieved": "2024-05-18",
           "version": "May 16, 2024",
           "date": "2024-05-16"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "May 17, 2024",
+          "date": "2024-05-17"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -7802,6 +7827,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-16"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-11"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -7908,6 +7937,10 @@
         {
           "retrieved": "2024-03-31",
           "version": "2024-03-27"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-13"
         }
       ],
       "vtype": "date"
@@ -8247,6 +8280,10 @@
         {
           "retrieved": "2024-04-21",
           "version": "2.0.55"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2.0.56"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -8365,6 +8402,10 @@
         {
           "retrieved": "2021-03-29",
           "version": "This ontology is the second version of the orthology ontology first published in 2015 and available at http://purl.bioontology.org/ontology/ORTH .\n@authors T.M. de Farias, H. Chiba, J.T. Fernandez-Breis, E. Antezana, D. Kuznetsov, C. Dessimoz and F. Villiers."
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2.0"
         }
       ],
       "name": "Orthology Ontology",
@@ -8837,6 +8878,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-25"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2017-11-06"
         }
       ],
       "name": "Plant Experimental Conditions Ontology",
@@ -9487,6 +9532,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-29"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-13"
         }
       ],
       "vtype": "date"
@@ -12544,6 +12593,10 @@
         {
           "retrieved": "2024-05-18",
           "version": "2024-05-18"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-19"
         }
       ],
       "name": "SwissLipids",
@@ -12766,6 +12819,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-12"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-13"
         }
       ],
       "vtype": "date"
@@ -13106,6 +13163,10 @@
         {
           "retrieved": "2024-03-28",
           "version": "2024-03-22"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-13"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -13532,6 +13593,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-23"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-13"
         }
       ],
       "vtype": "date"
@@ -16526,6 +16591,10 @@
         {
           "retrieved": "2024-05-18",
           "version": "2024-05-16"
+        },
+        {
+          "retrieved": "2024-05-19",
+          "version": "2024-05-17"
         }
       ],
       "name": "Zebrafish Information Network",

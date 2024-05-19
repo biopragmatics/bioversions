@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-18'
-  revision: 677
+  date: '2024-05-19'
+  revision: 678
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -628,6 +628,8 @@ database:
     version: '2024-02-13'
   - retrieved: '2024-04-12'
     version: '2024-04-05'
+  - retrieved: '2024-05-19'
+    version: '2024-05-15'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -1070,6 +1072,8 @@ database:
     version: '2024-03-20'
   - retrieved: '2024-04-06'
     version: '2024-03-29'
+  - retrieved: '2024-05-19'
+    version: '2024-05-13'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1974,6 +1978,8 @@ database:
     version: 3.64.0
   - retrieved: '2024-04-19'
     version: 3.65.0
+  - retrieved: '2024-05-19'
+    version: 3.66.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -3230,6 +3236,8 @@ database:
     version: 4.1.146
   - retrieved: '2024-04-28'
     version: 4.1.152
+  - retrieved: '2024-05-19'
+    version: 4.1.153
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -3324,6 +3332,8 @@ database:
     version: '2023-12-01'
   - retrieved: '2024-03-25'
     version: '2024-02-05'
+  - retrieved: '2024-05-19'
+    version: '2024-05-07'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -4138,6 +4148,9 @@ database:
   - date: '2024-05-16'
     retrieved: '2024-05-18'
     version: May 16, 2024
+  - date: '2024-05-17'
+    retrieved: '2024-05-19'
+    version: May 17, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4298,6 +4311,8 @@ database:
     version: '2023-04-14'
   - retrieved: '2024-03-25'
     version: '2024-03-16'
+  - retrieved: '2024-05-19'
+    version: '2024-05-11'
   vtype: date
 - name: Ontology of Adverse Events
   prefix: oae
@@ -4352,6 +4367,8 @@ database:
     version: '2024-01-12'
   - retrieved: '2024-03-31'
     version: '2024-03-27'
+  - retrieved: '2024-05-19'
+    version: '2024-05-13'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -4550,6 +4567,8 @@ database:
     version: 2.0.54
   - retrieved: '2024-04-21'
     version: 2.0.55
+  - retrieved: '2024-05-19'
+    version: 2.0.56
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -4617,6 +4636,8 @@ database:
 
       @authors T.M. de Farias, H. Chiba, J.T. Fernandez-Breis, E. Antezana, D. Kuznetsov,
       C. Dessimoz and F. Villiers.'
+  - retrieved: '2024-05-19'
+    version: '2.0'
   vtype: garbage
 - name: 'OVAE: Ontology of Vaccine Adverse Events'
   prefix: ovae
@@ -4866,6 +4887,8 @@ database:
     version: '2020-08-21'
   - retrieved: '2023-09-28'
     version: '2023-07-25'
+  - retrieved: '2024-05-19'
+    version: '2017-11-06'
   vtype: date
 - name: Plant Ontology
   prefix: po
@@ -5239,6 +5262,8 @@ database:
     version: '2023-09-05'
   - retrieved: '2024-03-25'
     version: '2024-02-29'
+  - retrieved: '2024-05-19'
+    version: '2024-05-13'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -6809,6 +6834,8 @@ database:
     version: '2024-05-17'
   - retrieved: '2024-05-18'
     version: '2024-05-18'
+  - retrieved: '2024-05-19'
+    version: '2024-05-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -6925,6 +6952,8 @@ database:
     version: '2023-11-22'
   - retrieved: '2024-03-25'
     version: '2024-03-12'
+  - retrieved: '2024-05-19'
+    version: '2024-05-13'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -7104,6 +7133,8 @@ database:
     version: '2024-02-20'
   - retrieved: '2024-03-28'
     version: '2024-03-22'
+  - retrieved: '2024-05-19'
+    version: '2024-05-13'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -7339,6 +7370,8 @@ database:
     version: '2024-04-15'
   - retrieved: '2024-04-28'
     version: '2024-04-23'
+  - retrieved: '2024-05-19'
+    version: '2024-05-13'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -9016,6 +9049,8 @@ database:
     version: '2024-05-15'
   - retrieved: '2024-05-18'
     version: '2024-05-16'
+  - retrieved: '2024-05-19'
+    version: '2024-05-17'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
