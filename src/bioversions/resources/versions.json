@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 684,
-    "date": "2024-05-25",
+    "revision": 685,
+    "date": "2024-05-26",
     "author": "runner"
   },
   "database": [
@@ -1690,6 +1690,10 @@
         {
           "retrieved": "2024-05-12",
           "version": "2.210"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2.211"
         }
       ],
       "vtype": "date"
@@ -3480,6 +3484,10 @@
         {
           "retrieved": "2024-05-12",
           "version": "4.166"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "4.167"
         }
       ],
       "vtype": "date"
@@ -3891,6 +3899,10 @@
         {
           "retrieved": "2024-05-12",
           "version": "2024-05-08"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-21"
         }
       ],
       "vtype": "date"
@@ -4577,6 +4589,10 @@
         {
           "retrieved": "2024-04-21",
           "version": "2024-04-17"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-21"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -6257,6 +6273,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2023-12-21"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-21"
         }
       ],
       "vtype": "date"
@@ -7542,6 +7562,11 @@
           "retrieved": "2024-05-25",
           "version": "May 23, 2024",
           "date": "2024-05-23"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "May 24, 2024",
+          "date": "2024-05-24"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -8593,6 +8618,10 @@
         {
           "retrieved": "2023-11-19",
           "version": "7.82"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "7.83"
         }
       ],
       "name": "Pathway ontology",
@@ -9556,6 +9585,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-13"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-16"
         }
       ],
       "vtype": "date"
@@ -9802,6 +9835,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "6.221"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "6.222"
         }
       ],
       "vtype": "date"
@@ -12645,6 +12682,10 @@
         {
           "retrieved": "2024-05-25",
           "version": "2024-05-25"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-26"
         }
       ],
       "name": "SwissLipids",
@@ -12697,6 +12738,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-09"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-17"
         }
       ],
       "vtype": "date"
@@ -13645,6 +13690,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-13"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-15"
         }
       ],
       "vtype": "date"
@@ -16663,6 +16712,10 @@
         {
           "retrieved": "2024-05-24",
           "version": "2024-05-22"
+        },
+        {
+          "retrieved": "2024-05-26",
+          "version": "2024-05-24"
         }
       ],
       "name": "Zebrafish Information Network",
