@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 688,
-    "date": "2024-05-29",
+    "revision": 689,
+    "date": "2024-05-30",
     "author": "runner"
   },
   "database": [
@@ -1915,6 +1915,12 @@
           "version": "2024-02-14",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-02-14/",
           "date": "2024-02-14"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "2024-05-20",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-05-20/",
+          "date": "2024-05-20"
         }
       ],
       "vtype": "date"
@@ -2537,6 +2543,12 @@
           "version": "2024-04-30",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-04-30",
           "date": "2024-04-30"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "2024-05-29",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-05-29",
+          "date": "2024-05-29"
         }
       ],
       "vtype": "date"
@@ -3397,6 +3409,10 @@
         {
           "retrieved": "2024-03-28",
           "version": "2024-03-27"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "2024-05-29"
         }
       ],
       "vtype": "date"
@@ -5323,6 +5339,12 @@
           "version": "2024-02-14",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-02-14/",
           "date": "2024-02-14"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "2024-05-20",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-05-20/",
+          "date": "2024-05-20"
         }
       ],
       "vtype": "date"
@@ -7567,6 +7589,11 @@
           "retrieved": "2024-05-26",
           "version": "May 24, 2024",
           "date": "2024-05-24"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "May 28, 2024",
+          "date": "2024-05-28"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10146,6 +10173,11 @@
           "retrieved": "2024-03-28",
           "version": "132",
           "date": "2024-03-27"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "133",
+          "date": "2024-05-29"
         }
       ],
       "vtype": "date"
@@ -12698,6 +12730,10 @@
         {
           "retrieved": "2024-05-29",
           "version": "2024-05-29"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "2024-05-30"
         }
       ],
       "name": "SwissLipids",
@@ -13483,6 +13519,12 @@
           "version": "2024_02",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_02/",
           "date": "2024-02-01"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "2024_03",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_03/",
+          "date": "2024-03-01"
         }
       ],
       "vtype": "month"
@@ -16740,6 +16782,10 @@
         {
           "retrieved": "2024-05-29",
           "version": "2024-05-27"
+        },
+        {
+          "retrieved": "2024-05-30",
+          "version": "2024-05-28"
         }
       ],
       "name": "Zebrafish Information Network",

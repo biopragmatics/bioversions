@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-29'
-  revision: 688
+  date: '2024-05-30'
+  revision: 689
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1050,6 +1050,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-02-14/
     retrieved: '2024-03-25'
     version: '2024-02-14'
+  - date: '2024-05-20'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-05-20/
+    retrieved: '2024-05-30'
+    version: '2024-05-20'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -1406,6 +1410,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-04-30
     retrieved: '2024-05-01'
     version: '2024-04-30'
+  - date: '2024-05-29'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-05-29
+    retrieved: '2024-05-30'
+    version: '2024-05-29'
   vtype: date
 - name: DisGeNet
   releases:
@@ -1868,6 +1876,8 @@ database:
     version: '2024-01-24'
   - retrieved: '2024-03-28'
     version: '2024-03-27'
+  - retrieved: '2024-05-30'
+    version: '2024-05-29'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -2929,6 +2939,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-02-14/
     retrieved: '2024-03-25'
     version: '2024-02-14'
+  - date: '2024-05-20'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-05-20/
+    retrieved: '2024-05-30'
+    version: '2024-05-20'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -4176,6 +4190,9 @@ database:
   - date: '2024-05-24'
     retrieved: '2024-05-26'
     version: May 24, 2024
+  - date: '2024-05-28'
+    retrieved: '2024-05-30'
+    version: May 28, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5587,6 +5604,9 @@ database:
   - date: '2024-03-27'
     retrieved: '2024-03-28'
     version: '132'
+  - date: '2024-05-29'
+    retrieved: '2024-05-30'
+    version: '133'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -6889,6 +6909,8 @@ database:
     version: '2024-05-28'
   - retrieved: '2024-05-29'
     version: '2024-05-29'
+  - retrieved: '2024-05-30'
+    version: '2024-05-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7313,6 +7335,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_02/
     retrieved: '2024-03-28'
     version: '2024_02'
+  - date: '2024-03-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_03/
+    retrieved: '2024-05-30'
+    version: '2024_03'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -9126,6 +9152,8 @@ database:
     version: '2024-05-26'
   - retrieved: '2024-05-29'
     version: '2024-05-27'
+  - retrieved: '2024-05-30'
+    version: '2024-05-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
