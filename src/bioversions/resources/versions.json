@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 689,
-    "date": "2024-05-30",
+    "revision": 690,
+    "date": "2024-05-31",
     "author": "runner"
   },
   "database": [
@@ -5503,6 +5503,12 @@
           "version": "99.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/99.0/",
           "date": "2024-03-28"
+        },
+        {
+          "retrieved": "2024-05-31",
+          "version": "100.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/100.0/",
+          "date": "2024-05-30"
         }
       ],
       "vtype": "semver_minor"
@@ -7594,6 +7600,11 @@
           "retrieved": "2024-05-30",
           "version": "May 28, 2024",
           "date": "2024-05-28"
+        },
+        {
+          "retrieved": "2024-05-31",
+          "version": "May 29, 2024",
+          "date": "2024-05-29"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12734,6 +12745,10 @@
         {
           "retrieved": "2024-05-30",
           "version": "2024-05-30"
+        },
+        {
+          "retrieved": "2024-05-31",
+          "version": "2024-05-31"
         }
       ],
       "name": "SwissLipids",
@@ -16786,6 +16801,10 @@
         {
           "retrieved": "2024-05-30",
           "version": "2024-05-28"
+        },
+        {
+          "retrieved": "2024-05-31",
+          "version": "2024-05-29"
         }
       ],
       "name": "Zebrafish Information Network",

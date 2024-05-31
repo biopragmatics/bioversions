@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-05-30'
-  revision: 689
+  date: '2024-05-31'
+  revision: 690
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3041,6 +3041,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/99.0/
     retrieved: '2024-03-30'
     version: '99.0'
+  - date: '2024-05-30'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/100.0/
+    retrieved: '2024-05-31'
+    version: '100.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -4193,6 +4197,9 @@ database:
   - date: '2024-05-28'
     retrieved: '2024-05-30'
     version: May 28, 2024
+  - date: '2024-05-29'
+    retrieved: '2024-05-31'
+    version: May 29, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6911,6 +6918,8 @@ database:
     version: '2024-05-29'
   - retrieved: '2024-05-30'
     version: '2024-05-30'
+  - retrieved: '2024-05-31'
+    version: '2024-05-31'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9154,6 +9163,8 @@ database:
     version: '2024-05-27'
   - retrieved: '2024-05-30'
     version: '2024-05-28'
+  - retrieved: '2024-05-31'
+    version: '2024-05-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
