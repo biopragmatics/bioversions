@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 691,
-    "date": "2024-06-01",
+    "revision": 692,
+    "date": "2024-06-02",
     "author": "runner"
   },
   "database": [
@@ -611,6 +611,11 @@
           "retrieved": "2024-05-02",
           "version": "4.4.233",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.233"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "4.4.234",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.234"
         }
       ],
       "vtype": "semver"
@@ -1406,6 +1411,11 @@
           "retrieved": "2024-05-02",
           "version": "233",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel233/"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "234",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel234/"
         }
       ],
       "vtype": "sequential"
@@ -1611,6 +1621,10 @@
         {
           "retrieved": "2024-05-01",
           "version": "01-May-2024"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "01-Jun-2024"
         }
       ],
       "name": "CiVIC",
@@ -1970,6 +1984,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-13"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2024-05-24"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -5857,6 +5875,10 @@
         {
           "retrieved": "2024-05-05",
           "version": "2024-04-23"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2024-05-28"
         }
       ],
       "vtype": "date"
@@ -6102,6 +6124,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-07"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2024-05-24"
         }
       ],
       "vtype": "date"
@@ -7610,6 +7636,11 @@
           "retrieved": "2024-06-01",
           "version": "May 30, 2024",
           "date": "2024-05-30"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "May 31, 2024",
+          "date": "2024-05-31"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -8974,6 +9005,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2017-11-06"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2023-11-10"
         }
       ],
       "name": "Plant Experimental Conditions Ontology",
@@ -12763,6 +12798,10 @@
         {
           "retrieved": "2024-06-01",
           "version": "2024-06-01"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2024-06-02"
         }
       ],
       "name": "SwissLipids",
@@ -13659,6 +13698,10 @@
         {
           "retrieved": "2024-04-13",
           "version": "2024-04-09"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2024-05-29"
         }
       ],
       "vtype": "semver"
@@ -13710,6 +13753,10 @@
         {
           "retrieved": "2024-05-05",
           "version": "2024-04-18"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2024-05-22"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -16823,6 +16870,10 @@
         {
           "retrieved": "2024-06-01",
           "version": "2024-05-30"
+        },
+        {
+          "retrieved": "2024-06-02",
+          "version": "2024-05-31"
         }
       ],
       "name": "Zebrafish Information Network",

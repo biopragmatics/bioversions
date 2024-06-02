@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-01'
-  revision: 691
+  date: '2024-06-02'
+  revision: 692
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -336,6 +336,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.233
     retrieved: '2024-05-02'
     version: 4.4.233
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.234
+    retrieved: '2024-06-02'
+    version: 4.4.234
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -764,6 +767,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel233/
     retrieved: '2024-05-02'
     version: '233'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel234/
+    retrieved: '2024-06-02'
+    version: '234'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -883,6 +889,8 @@ database:
     version: 01-Apr-2024
   - retrieved: '2024-05-01'
     version: 01-May-2024
+  - retrieved: '2024-06-02'
+    version: 01-Jun-2024
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -1080,6 +1088,8 @@ database:
     version: '2024-03-29'
   - retrieved: '2024-05-19'
     version: '2024-05-13'
+  - retrieved: '2024-06-02'
+    version: '2024-05-24'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -3234,6 +3244,8 @@ database:
     version: '2024-03-27'
   - retrieved: '2024-05-05'
     version: '2024-04-23'
+  - retrieved: '2024-06-02'
+    version: '2024-05-28'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -3360,6 +3372,8 @@ database:
     version: '2024-02-05'
   - retrieved: '2024-05-19'
     version: '2024-05-07'
+  - retrieved: '2024-06-02'
+    version: '2024-05-24'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -4203,6 +4217,9 @@ database:
   - date: '2024-05-30'
     retrieved: '2024-06-01'
     version: May 30, 2024
+  - date: '2024-05-31'
+    retrieved: '2024-06-02'
+    version: May 31, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4943,6 +4960,8 @@ database:
     version: '2023-07-25'
   - retrieved: '2024-05-19'
     version: '2017-11-06'
+  - retrieved: '2024-06-02'
+    version: '2023-11-10'
   vtype: date
 - name: Plant Ontology
   prefix: po
@@ -6928,6 +6947,8 @@ database:
     version: '2024-05-31'
   - retrieved: '2024-06-01'
     version: '2024-06-01'
+  - retrieved: '2024-06-02'
+    version: '2024-06-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -7410,6 +7431,8 @@ database:
     version: '2024-03-20'
   - retrieved: '2024-04-13'
     version: '2024-04-09'
+  - retrieved: '2024-06-02'
+    version: '2024-05-29'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -7438,6 +7461,8 @@ database:
     version: '2024-01-04'
   - retrieved: '2024-05-05'
     version: '2024-04-18'
+  - retrieved: '2024-06-02'
+    version: '2024-05-22'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -9175,6 +9200,8 @@ database:
     version: '2024-05-29'
   - retrieved: '2024-06-01'
     version: '2024-05-30'
+  - retrieved: '2024-06-02'
+    version: '2024-05-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
