@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-02'
-  revision: 692
+  date: '2024-06-03'
+  revision: 693
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -5116,6 +5116,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2024-05-01/
     retrieved: '2024-05-02'
     version: '2024-05-01'
+  - date: '2024-06-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2024-06-01/
+    retrieved: '2024-06-03'
+    version: '2024-06-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -6949,6 +6953,8 @@ database:
     version: '2024-06-01'
   - retrieved: '2024-06-02'
     version: '2024-06-02'
+  - retrieved: '2024-06-03'
+    version: '2024-06-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9202,6 +9208,8 @@ database:
     version: '2024-05-30'
   - retrieved: '2024-06-02'
     version: '2024-05-31'
+  - retrieved: '2024-06-03'
+    version: '2024-06-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
