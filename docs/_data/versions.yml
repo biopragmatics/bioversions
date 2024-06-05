@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-04'
-  revision: 694
+  date: '2024-06-05'
+  revision: 695
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2658,6 +2658,9 @@ database:
   - homepage: http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-04-01.json
     retrieved: '2024-04-18'
     version: '2024-04-01'
+  - homepage: http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-06-04.json
+    retrieved: '2024-06-05'
+    version: '2024-06-04'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -4222,6 +4225,9 @@ database:
   - date: '2024-05-31'
     retrieved: '2024-06-02'
     version: May 31, 2024
+  - date: '2024-06-03'
+    retrieved: '2024-06-05'
+    version: June 3, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6962,6 +6968,8 @@ database:
     version: '2024-06-03'
   - retrieved: '2024-06-04'
     version: '2024-06-04'
+  - retrieved: '2024-06-05'
+    version: '2024-06-05'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9219,6 +9227,8 @@ database:
     version: '2024-06-01'
   - retrieved: '2024-06-04'
     version: '2024-06-02'
+  - retrieved: '2024-06-05'
+    version: '2024-06-03'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

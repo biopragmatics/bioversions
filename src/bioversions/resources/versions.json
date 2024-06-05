@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 694,
-    "date": "2024-06-04",
+    "revision": 695,
+    "date": "2024-06-05",
     "author": "runner"
   },
   "database": [
@@ -4836,6 +4836,11 @@
           "retrieved": "2024-04-18",
           "version": "2024-04-01",
           "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-04-01.json"
+        },
+        {
+          "retrieved": "2024-06-05",
+          "version": "2024-06-04",
+          "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-06-04.json"
         }
       ],
       "name": "HGNC",
@@ -7645,6 +7650,11 @@
           "retrieved": "2024-06-02",
           "version": "May 31, 2024",
           "date": "2024-05-31"
+        },
+        {
+          "retrieved": "2024-06-05",
+          "version": "June 3, 2024",
+          "date": "2024-06-03"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12825,6 +12835,10 @@
         {
           "retrieved": "2024-06-04",
           "version": "2024-06-04"
+        },
+        {
+          "retrieved": "2024-06-05",
+          "version": "2024-06-05"
         }
       ],
       "name": "SwissLipids",
@@ -16905,6 +16919,10 @@
         {
           "retrieved": "2024-06-04",
           "version": "2024-06-02"
+        },
+        {
+          "retrieved": "2024-06-05",
+          "version": "2024-06-03"
         }
       ],
       "name": "Zebrafish Information Network",
