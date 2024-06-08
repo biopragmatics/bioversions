@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-07'
-  revision: 697
+  date: '2024-06-08'
+  revision: 698
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4238,6 +4238,9 @@ database:
   - date: '2024-06-05'
     retrieved: '2024-06-07'
     version: June 5, 2024
+  - date: '2024-06-06'
+    retrieved: '2024-06-08'
+    version: June 6, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6984,6 +6987,8 @@ database:
     version: '2024-06-06'
   - retrieved: '2024-06-07'
     version: '2024-06-07'
+  - retrieved: '2024-06-08'
+    version: '2024-06-08'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
