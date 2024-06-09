@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 698,
-    "date": "2024-06-08",
+    "revision": 699,
+    "date": "2024-06-09",
     "author": "runner"
   },
   "database": [
@@ -992,6 +992,10 @@
         {
           "retrieved": "2024-04-13",
           "version": "2024-04-09"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2024-06-05"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1708,6 +1712,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "2.211"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2.212"
         }
       ],
       "vtype": "date"
@@ -3526,6 +3534,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "4.167"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "4.168"
         }
       ],
       "vtype": "date"
@@ -6035,6 +6047,10 @@
         {
           "retrieved": "2024-05-05",
           "version": "2.132"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2.133"
         }
       ],
       "vtype": "date"
@@ -6690,6 +6706,10 @@
         {
           "retrieved": "2024-05-12",
           "version": "2024-05-08"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2024-06-04"
         }
       ],
       "vtype": "date"
@@ -7676,6 +7696,11 @@
           "retrieved": "2024-06-08",
           "version": "June 6, 2024",
           "date": "2024-06-06"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "June 7, 2024",
+          "date": "2024-06-07"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -7891,6 +7916,10 @@
         {
           "retrieved": "2022-06-22",
           "version": "Release version 1.2.3"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "Release version 2.0.0"
         }
       ],
       "vtype": "date"
@@ -9963,6 +9992,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "6.222"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "6.223"
         }
       ],
       "vtype": "date"
@@ -10583,6 +10616,10 @@
         {
           "retrieved": "2024-04-14",
           "version": "2024-04-10"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2024-06-05"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -12872,6 +12909,10 @@
         {
           "retrieved": "2024-06-08",
           "version": "2024-06-08"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2024-06-09"
         }
       ],
       "name": "SwissLipids",
@@ -13772,6 +13813,10 @@
         {
           "retrieved": "2024-06-02",
           "version": "2024-05-29"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2024-06-01"
         }
       ],
       "vtype": "semver"
@@ -13894,6 +13939,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "2024-05-15"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2024-05-31"
         }
       ],
       "vtype": "date"
@@ -16964,6 +17013,10 @@
         {
           "retrieved": "2024-06-07",
           "version": "2024-06-05"
+        },
+        {
+          "retrieved": "2024-06-09",
+          "version": "2024-06-07"
         }
       ],
       "name": "Zebrafish Information Network",
