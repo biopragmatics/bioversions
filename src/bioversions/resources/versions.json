@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 700,
-    "date": "2024-06-10",
+    "revision": 701,
+    "date": "2024-06-11",
     "author": "runner"
   },
   "database": [
@@ -6820,6 +6820,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "6.23"
+        },
+        {
+          "retrieved": "2024-06-11",
+          "version": "6.13"
         }
       ],
       "name": "Mouse Genome Database",
@@ -12917,6 +12921,10 @@
         {
           "retrieved": "2024-06-10",
           "version": "2024-06-10"
+        },
+        {
+          "retrieved": "2024-06-11",
+          "version": "2024-06-11"
         }
       ],
       "name": "SwissLipids",
@@ -14238,6 +14246,12 @@
           "version": "20240510",
           "homepage": "http://data.wikipathways.org/20240510/",
           "date": "2024-05-10"
+        },
+        {
+          "retrieved": "2024-06-11",
+          "version": "20240610",
+          "homepage": "http://data.wikipathways.org/20240610/",
+          "date": "2024-06-10"
         }
       ],
       "vtype": "date"
@@ -17025,6 +17039,10 @@
         {
           "retrieved": "2024-06-10",
           "version": "2024-06-08"
+        },
+        {
+          "retrieved": "2024-06-11",
+          "version": "2024-06-09"
         }
       ],
       "name": "Zebrafish Information Network",
