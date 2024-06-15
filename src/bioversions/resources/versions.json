@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 704,
-    "date": "2024-06-14",
+    "revision": 705,
+    "date": "2024-06-15",
     "author": "runner"
   },
   "database": [
@@ -7725,6 +7725,11 @@
           "retrieved": "2024-06-14",
           "version": "June 12, 2024",
           "date": "2024-06-12"
+        },
+        {
+          "retrieved": "2024-06-15",
+          "version": "June 13, 2024",
+          "date": "2024-06-13"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-14'
-  revision: 704
+  date: '2024-06-15'
+  revision: 705
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4268,6 +4268,9 @@ database:
   - date: '2024-06-12'
     retrieved: '2024-06-14'
     version: June 12, 2024
+  - date: '2024-06-13'
+    retrieved: '2024-06-15'
+    version: June 13, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
