@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 705,
-    "date": "2024-06-15",
+    "revision": 706,
+    "date": "2024-06-16",
     "author": "runner"
   },
   "database": [
@@ -1716,6 +1716,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "2.212"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2.213"
         }
       ],
       "vtype": "date"
@@ -1996,6 +2000,10 @@
         {
           "retrieved": "2024-06-02",
           "version": "2024-05-24"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-09"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -2678,6 +2686,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-25"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-13"
         }
       ],
       "name": "Drosophila development",
@@ -2745,6 +2757,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-25"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-13"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -3265,6 +3281,10 @@
         {
           "retrieved": "2024-03-29",
           "version": "2024-03-25"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-09"
         }
       ],
       "name": "Evidence and Conclusion Ontology",
@@ -3538,6 +3558,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "4.168"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "4.169"
         }
       ],
       "vtype": "date"
@@ -4484,6 +4508,12 @@
           "version": "2024-04-24",
           "homepage": "http://archive.geneontology.org/full/2024-04-24/",
           "date": "2024-04-24"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-10",
+          "homepage": "http://archive.geneontology.org/full/2024-06-10/",
+          "date": "2024-06-10"
         }
       ],
       "vtype": "date"
@@ -5956,6 +5986,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "4.1.153"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "4.1.154"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -6051,6 +6085,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "2.133"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2.134"
         }
       ],
       "vtype": "date"
@@ -7730,6 +7768,11 @@
           "retrieved": "2024-06-15",
           "version": "June 13, 2024",
           "date": "2024-06-13"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "June 14, 2024",
+          "date": "2024-06-14"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -7850,6 +7893,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-09"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-10"
         }
       ],
       "vtype": "date"
@@ -8789,6 +8836,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "7.83"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "7.84"
         }
       ],
       "name": "Pathway ontology",
@@ -9771,6 +9822,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "2024-05-16"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-05-31"
         }
       ],
       "vtype": "date"
@@ -10025,6 +10080,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "6.223"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "6.224"
         }
       ],
       "vtype": "date"
@@ -13858,6 +13917,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "2024-06-01"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-09"
         }
       ],
       "vtype": "semver"
@@ -17084,6 +17147,10 @@
         {
           "retrieved": "2024-06-14",
           "version": "2024-06-12"
+        },
+        {
+          "retrieved": "2024-06-16",
+          "version": "2024-06-14"
         }
       ],
       "name": "Zebrafish Information Network",

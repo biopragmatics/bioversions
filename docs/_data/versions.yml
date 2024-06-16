@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-15'
-  revision: 705
+  date: '2024-06-16'
+  revision: 706
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -937,6 +937,8 @@ database:
     version: '2.211'
   - retrieved: '2024-06-09'
     version: '2.212'
+  - retrieved: '2024-06-16'
+    version: '2.213'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1094,6 +1096,8 @@ database:
     version: '2024-05-13'
   - retrieved: '2024-06-02'
     version: '2024-05-24'
+  - retrieved: '2024-06-16'
+    version: '2024-06-09'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1482,6 +1486,8 @@ database:
     version: '2024-04-18'
   - retrieved: '2024-04-28'
     version: '2024-04-25'
+  - retrieved: '2024-06-16'
+    version: '2024-06-13'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1516,6 +1522,8 @@ database:
     version: '2024-02-22'
   - retrieved: '2024-04-28'
     version: '2024-04-25'
+  - retrieved: '2024-06-16'
+    version: '2024-06-13'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1801,6 +1809,8 @@ database:
     version: '2024-02-02'
   - retrieved: '2024-03-29'
     version: '2024-03-25'
+  - retrieved: '2024-06-16'
+    version: '2024-06-09'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -1942,6 +1952,8 @@ database:
     version: '4.167'
   - retrieved: '2024-06-09'
     version: '4.168'
+  - retrieved: '2024-06-16'
+    version: '4.169'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2459,6 +2471,10 @@ database:
     homepage: http://archive.geneontology.org/full/2024-04-24/
     retrieved: '2024-05-01'
     version: '2024-04-24'
+  - date: '2024-06-10'
+    homepage: http://archive.geneontology.org/full/2024-06-10/
+    retrieved: '2024-06-16'
+    version: '2024-06-10'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -3287,6 +3303,8 @@ database:
     version: 4.1.152
   - retrieved: '2024-05-19'
     version: 4.1.153
+  - retrieved: '2024-06-16'
+    version: 4.1.154
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -3335,6 +3353,8 @@ database:
     version: '2.132'
   - retrieved: '2024-06-09'
     version: '2.133'
+  - retrieved: '2024-06-16'
+    version: '2.134'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -4271,6 +4291,9 @@ database:
   - date: '2024-06-13'
     retrieved: '2024-06-15'
     version: June 13, 2024
+  - date: '2024-06-14'
+    retrieved: '2024-06-16'
+    version: June 14, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4333,6 +4356,8 @@ database:
     version: '2023-09-20'
   - retrieved: '2024-03-25'
     version: '2024-01-09'
+  - retrieved: '2024-06-16'
+    version: '2024-06-10'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -4849,6 +4874,8 @@ database:
     version: '7.82'
   - retrieved: '2024-05-26'
     version: '7.83'
+  - retrieved: '2024-06-16'
+    version: '7.84'
   vtype: date
 - name: PATO
   prefix: pato
@@ -5399,6 +5426,8 @@ database:
     version: '2024-05-13'
   - retrieved: '2024-05-26'
     version: '2024-05-16'
+  - retrieved: '2024-06-16'
+    version: '2024-05-31'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -5527,6 +5556,8 @@ database:
     version: '6.222'
   - retrieved: '2024-06-09'
     version: '6.223'
+  - retrieved: '2024-06-16'
+    version: '6.224'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -7519,6 +7550,8 @@ database:
     version: '2024-05-29'
   - retrieved: '2024-06-09'
     version: '2024-06-01'
+  - retrieved: '2024-06-16'
+    version: '2024-06-09'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -9316,6 +9349,8 @@ database:
     version: '2024-06-11'
   - retrieved: '2024-06-14'
     version: '2024-06-12'
+  - retrieved: '2024-06-16'
+    version: '2024-06-14'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
