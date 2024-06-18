@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-17'
-  revision: 707
+  date: '2024-06-18'
+  revision: 708
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -5592,6 +5592,8 @@ database:
     version: '87'
   - retrieved: '2024-03-28'
     version: '88'
+  - retrieved: '2024-06-18'
+    version: '89'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -9353,6 +9355,8 @@ database:
     version: '2024-06-14'
   - retrieved: '2024-06-17'
     version: '2024-06-15'
+  - retrieved: '2024-06-18'
+    version: '2024-06-16'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
