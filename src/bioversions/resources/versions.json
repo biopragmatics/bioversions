@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 712,
-    "date": "2024-06-22",
+    "revision": 713,
+    "date": "2024-06-23",
     "author": "runner"
   },
   "database": [
@@ -1009,6 +1009,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-03-05"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024-05-17"
         }
       ],
       "vtype": "date"
@@ -1720,6 +1724,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "2.213"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2.214"
         }
       ],
       "vtype": "date"
@@ -2303,6 +2311,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2024b_20240331"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024c_20240617"
         }
       ],
       "vtype": "other"
@@ -2844,6 +2856,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-25"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024-06-13"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -3562,6 +3578,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "4.169"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "4.170"
         }
       ],
       "vtype": "date"
@@ -3701,6 +3721,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "3.66.0"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "3.67.0"
         }
       ],
       "vtype": "semver"
@@ -3977,6 +4001,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "2024-05-21"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024-06-17"
         }
       ],
       "vtype": "date"
@@ -4162,6 +4190,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-25"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024-06-13"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -5936,6 +5968,10 @@
         {
           "retrieved": "2024-06-02",
           "version": "2024-05-28"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024-06-18"
         }
       ],
       "vtype": "date"
@@ -5996,6 +6032,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "4.1.154"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "4.1.155"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -7794,6 +7834,11 @@
           "retrieved": "2024-06-22",
           "version": "June 20, 2024",
           "date": "2024-06-20"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "June 21, 2024",
+          "date": "2024-06-21"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -8017,6 +8062,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "Release version 2.0.0"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "Release version 2024-06-07"
         }
       ],
       "vtype": "date"
@@ -10105,6 +10154,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "6.224"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "6.225"
         }
       ],
       "vtype": "date"
@@ -14072,6 +14125,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "2024-05-31"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024-06-18"
         }
       ],
       "vtype": "date"
@@ -17200,6 +17257,10 @@
         {
           "retrieved": "2024-06-22",
           "version": "2024-06-20"
+        },
+        {
+          "retrieved": "2024-06-23",
+          "version": "2024-06-21"
         }
       ],
       "name": "Zebrafish Information Network",
