@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-06-26'
-  revision: 716
+  date: '2024-06-27'
+  revision: 717
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2646,6 +2646,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.1.zip
     retrieved: '2024-03-28'
     version: '2024.1'
+  - date: '2024-06-26'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.2.zip
+    retrieved: '2024-06-27'
+    version: '2024.2'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -4333,6 +4337,9 @@ database:
   - date: '2024-06-24'
     retrieved: '2024-06-26'
     version: June 24, 2024
+  - date: '2024-06-25'
+    retrieved: '2024-06-27'
+    version: June 25, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9418,6 +9425,8 @@ database:
     version: '2024-06-23'
   - retrieved: '2024-06-26'
     version: '2024-06-24'
+  - retrieved: '2024-06-27'
+    version: '2024-06-25'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

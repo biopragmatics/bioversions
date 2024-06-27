@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 716,
-    "date": "2024-06-26",
+    "revision": 717,
+    "date": "2024-06-27",
     "author": "runner"
   },
   "database": [
@@ -4825,6 +4825,12 @@
           "version": "2024.1",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.1.zip",
           "date": "2024-03-26"
+        },
+        {
+          "retrieved": "2024-06-27",
+          "version": "2024.2",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.2.zip",
+          "date": "2024-06-26"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -7844,6 +7850,11 @@
           "retrieved": "2024-06-26",
           "version": "June 24, 2024",
           "date": "2024-06-24"
+        },
+        {
+          "retrieved": "2024-06-27",
+          "version": "June 25, 2024",
+          "date": "2024-06-25"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17278,6 +17289,10 @@
         {
           "retrieved": "2024-06-26",
           "version": "2024-06-24"
+        },
+        {
+          "retrieved": "2024-06-27",
+          "version": "2024-06-25"
         }
       ],
       "name": "Zebrafish Information Network",
