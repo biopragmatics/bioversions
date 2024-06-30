@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 717,
-    "date": "2024-06-27",
+    "revision": 718,
+    "date": "2024-06-30",
     "author": "runner"
   },
   "database": [
@@ -2599,6 +2599,12 @@
           "version": "2024-05-29",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-05-29",
           "date": "2024-05-29"
+        },
+        {
+          "retrieved": "2024-06-30",
+          "version": "2024-06-28",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-06-28",
+          "date": "2024-06-28"
         }
       ],
       "vtype": "date"
@@ -4111,6 +4117,11 @@
           "retrieved": "2024-04-25",
           "version": "2024_02",
           "homepage": "http://ftp.flybase.net/releases/FB2024_02/"
+        },
+        {
+          "retrieved": "2024-06-30",
+          "version": "2024_03",
+          "homepage": "http://ftp.flybase.net/releases/FB2024_03/"
         }
       ],
       "name": "FlyBase",
@@ -5831,6 +5842,11 @@
           "retrieved": "2024-05-02",
           "version": "110.1",
           "date": "2024-05-01"
+        },
+        {
+          "retrieved": "2024-06-30",
+          "version": "111.0",
+          "date": "2024-07-01"
         }
       ],
       "vtype": "semver_minor"
@@ -7855,6 +7871,11 @@
           "retrieved": "2024-06-27",
           "version": "June 25, 2024",
           "date": "2024-06-25"
+        },
+        {
+          "retrieved": "2024-06-30",
+          "version": "June 28, 2024",
+          "date": "2024-06-28"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17293,6 +17314,10 @@
         {
           "retrieved": "2024-06-27",
           "version": "2024-06-25"
+        },
+        {
+          "retrieved": "2024-06-30",
+          "version": "2024-06-28"
         }
       ],
       "name": "Zebrafish Information Network",
