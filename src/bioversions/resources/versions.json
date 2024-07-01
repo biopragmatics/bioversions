@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 718,
-    "date": "2024-06-30",
+    "revision": 719,
+    "date": "2024-07-01",
     "author": "runner"
   },
   "database": [
@@ -7876,6 +7876,11 @@
           "retrieved": "2024-06-30",
           "version": "June 28, 2024",
           "date": "2024-06-28"
+        },
+        {
+          "retrieved": "2024-07-01",
+          "version": "June 29, 2024",
+          "date": "2024-06-29"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9869,6 +9874,11 @@
           "retrieved": "2024-06-01",
           "version": "2024-06-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-06-01"
+        },
+        {
+          "retrieved": "2024-07-01",
+          "version": "2024-07-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-07-01"
         }
       ],
       "name": "PubChem",
@@ -17318,6 +17328,10 @@
         {
           "retrieved": "2024-06-30",
           "version": "2024-06-28"
+        },
+        {
+          "retrieved": "2024-07-01",
+          "version": "2024-06-29"
         }
       ],
       "name": "Zebrafish Information Network",
