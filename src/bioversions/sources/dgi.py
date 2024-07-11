@@ -5,11 +5,12 @@
 import os
 
 import bs4
+import dateutil.parser
 import requests
 
 from bioversions.utils import Getter, VersionType
 
-DOWNLOADS_PAGE = "https://www.dgidb.org/downloads"
+GITHUB_PAGE = "https://github.com/dgidb/dgidb-v5"
 
 
 class DGIGetter(Getter):
@@ -21,14 +22,14 @@ class DGIGetter(Getter):
 
     def get(self):
         """Get the latest DGI version number."""
-        res = requests.get(DOWNLOADS_PAGE)
-        soup = bs4.BeautifulSoup(res.content, parser="lxml", features="lxml")
-        cells = list(soup.select("table#tsv_downloads tbody tr:first-child td:nth-child(2) a"))
-        if 1 != len(cells):
+        res = requests.get(GITHUB_PAGE)
+        soup = bs4.BeautifulSoup(res.content)
+        time_tag = soup.find("relative-time")
+        if time_tag is None:
             raise ValueError
-        cell = cells[0]
-        href = cell["href"]
-        version = os.path.dirname(os.path.relpath(href, "data/monthly_tsvs"))
+        datetime_str = time_tag.attrs["datetime"]
+        dt_obj = dateutil.parser.parse(datetime_str)
+        version = dt_obj.strftime(self.date_version_fmt)
         return version
 
 
