@@ -2,8 +2,6 @@
 
 """A getter for the `Drug Gene Interaction Database (DGI-DB) <http://www.dgidb.org>`_."""
 
-import os
-
 import bs4
 import dateutil.parser
 import requests
