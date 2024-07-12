@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 728,
-    "date": "2024-07-11",
+    "revision": 729,
+    "date": "2024-07-12",
     "author": "runner"
   },
   "database": [
@@ -6685,6 +6685,12 @@
           "version": "2024-06-06",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-06-06",
           "date": "2024-06-06"
+        },
+        {
+          "retrieved": "2024-07-12",
+          "version": "2024-07-11",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-07-11",
+          "date": "2024-07-11"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -7934,6 +7940,11 @@
           "retrieved": "2024-07-11",
           "version": "July 9, 2024",
           "date": "2024-07-09"
+        },
+        {
+          "retrieved": "2024-07-12",
+          "version": "July 10, 2024",
+          "date": "2024-07-10"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17438,6 +17449,10 @@
         {
           "retrieved": "2024-07-11",
           "version": "2024-07-09"
+        },
+        {
+          "retrieved": "2024-07-12",
+          "version": "2024-07-10"
         }
       ],
       "name": "Zebrafish Information Network",

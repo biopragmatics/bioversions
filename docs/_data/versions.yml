@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-07-11'
-  revision: 728
+  date: '2024-07-12'
+  revision: 729
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3685,6 +3685,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-06-06
     retrieved: '2024-06-07'
     version: '2024-06-06'
+  - date: '2024-07-11'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-07-11
+    retrieved: '2024-07-12'
+    version: '2024-07-11'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -4387,6 +4391,9 @@ database:
   - date: '2024-07-09'
     retrieved: '2024-07-11'
     version: July 9, 2024
+  - date: '2024-07-10'
+    retrieved: '2024-07-12'
+    version: July 10, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9510,6 +9517,8 @@ database:
     version: '2024-07-08'
   - retrieved: '2024-07-11'
     version: '2024-07-09'
+  - retrieved: '2024-07-12'
+    version: '2024-07-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
