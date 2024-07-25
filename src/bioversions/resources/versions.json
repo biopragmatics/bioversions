@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 733,
-    "date": "2024-07-16",
+    "revision": 734,
+    "date": "2024-07-25",
     "author": "runner"
   },
   "database": [
@@ -3499,6 +3499,10 @@
         {
           "retrieved": "2024-05-30",
           "version": "2024-05-29"
+        },
+        {
+          "retrieved": "2024-07-25",
+          "version": "2024-07-24"
         }
       ],
       "vtype": "date"
@@ -6959,6 +6963,10 @@
         {
           "retrieved": "2024-06-11",
           "version": "6.13"
+        },
+        {
+          "retrieved": "2024-07-25",
+          "version": "6.24"
         }
       ],
       "name": "Mouse Genome Database",
@@ -7198,6 +7206,11 @@
           "retrieved": "2024-06-13",
           "version": "24.05d",
           "date": "2024-05-28"
+        },
+        {
+          "retrieved": "2024-07-25",
+          "version": "24.06d",
+          "date": "2024-06-24"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -7960,6 +7973,11 @@
           "retrieved": "2024-07-15",
           "version": "July 13, 2024",
           "date": "2024-07-13"
+        },
+        {
+          "retrieved": "2024-07-25",
+          "version": "July 23, 2024",
+          "date": "2024-07-23"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10606,6 +10624,11 @@
           "retrieved": "2024-05-30",
           "version": "133",
           "date": "2024-05-29"
+        },
+        {
+          "retrieved": "2024-07-25",
+          "version": "134",
+          "date": "2024-07-24"
         }
       ],
       "vtype": "date"
@@ -17484,6 +17507,10 @@
         {
           "retrieved": "2024-07-16",
           "version": "2024-07-14"
+        },
+        {
+          "retrieved": "2024-07-25",
+          "version": "2024-07-23"
         }
       ],
       "name": "Zebrafish Information Network",

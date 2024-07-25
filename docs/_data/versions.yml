@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-07-16'
-  revision: 733
+  date: '2024-07-25'
+  revision: 734
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1924,6 +1924,8 @@ database:
     version: '2024-03-27'
   - retrieved: '2024-05-30'
     version: '2024-05-29'
+  - retrieved: '2024-07-25'
+    version: '2024-07-24'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -3829,6 +3831,8 @@ database:
     version: '6.23'
   - retrieved: '2024-06-11'
     version: '6.13'
+  - retrieved: '2024-07-25'
+    version: '6.24'
   vtype: semver_minor
 - name: Mouse gross anatomy and development, timed
   prefix: emap
@@ -3970,6 +3974,9 @@ database:
   - date: '2024-05-28'
     retrieved: '2024-06-13'
     version: 24.05d
+  - date: '2024-06-24'
+    retrieved: '2024-07-25'
+    version: 24.06d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -4403,6 +4410,9 @@ database:
   - date: '2024-07-13'
     retrieved: '2024-07-15'
     version: July 13, 2024
+  - date: '2024-07-23'
+    retrieved: '2024-07-25'
+    version: July 23, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5851,6 +5861,9 @@ database:
   - date: '2024-05-29'
     retrieved: '2024-05-30'
     version: '133'
+  - date: '2024-07-24'
+    retrieved: '2024-07-25'
+    version: '134'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -9536,6 +9549,8 @@ database:
     version: '2024-07-13'
   - retrieved: '2024-07-16'
     version: '2024-07-14'
+  - retrieved: '2024-07-25'
+    version: '2024-07-23'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
