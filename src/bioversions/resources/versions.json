@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 734,
-    "date": "2024-07-25",
+    "revision": 735,
+    "date": "2024-07-26",
     "author": "runner"
   },
   "database": [
@@ -7978,6 +7978,11 @@
           "retrieved": "2024-07-25",
           "version": "July 23, 2024",
           "date": "2024-07-23"
+        },
+        {
+          "retrieved": "2024-07-26",
+          "version": "July 24, 2024",
+          "date": "2024-07-24"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14042,6 +14047,12 @@
           "version": "2024_03",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_03/",
           "date": "2024-03-01"
+        },
+        {
+          "retrieved": "2024-07-26",
+          "version": "2024_04",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_04/",
+          "date": "2024-04-01"
         }
       ],
       "vtype": "month"
@@ -17511,6 +17522,10 @@
         {
           "retrieved": "2024-07-25",
           "version": "2024-07-23"
+        },
+        {
+          "retrieved": "2024-07-26",
+          "version": "2024-07-24"
         }
       ],
       "name": "Zebrafish Information Network",
