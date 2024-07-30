@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-07-29'
-  revision: 738
+  date: '2024-07-30'
+  revision: 739
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3126,6 +3126,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/100.0/
     retrieved: '2024-05-31'
     version: '100.0'
+  - date: '2024-07-25'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/101.0/
+    retrieved: '2024-07-30'
+    version: '101.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -3833,6 +3837,8 @@ database:
     version: '6.13'
   - retrieved: '2024-07-25'
     version: '6.24'
+  - retrieved: '2024-07-30'
+    version: '6.13'
   vtype: semver_minor
 - name: Mouse gross anatomy and development, timed
   prefix: emap
@@ -9572,6 +9578,8 @@ database:
     version: '2024-07-26'
   - retrieved: '2024-07-29'
     version: '2024-07-27'
+  - retrieved: '2024-07-30'
+    version: '2024-07-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

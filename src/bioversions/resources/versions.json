@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 738,
-    "date": "2024-07-29",
+    "revision": 739,
+    "date": "2024-07-30",
     "author": "runner"
   },
   "database": [
@@ -5656,6 +5656,12 @@
           "version": "100.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/100.0/",
           "date": "2024-05-30"
+        },
+        {
+          "retrieved": "2024-07-30",
+          "version": "101.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/101.0/",
+          "date": "2024-07-25"
         }
       ],
       "vtype": "semver_minor"
@@ -6967,6 +6973,10 @@
         {
           "retrieved": "2024-07-25",
           "version": "6.24"
+        },
+        {
+          "retrieved": "2024-07-30",
+          "version": "6.13"
         }
       ],
       "name": "Mouse Genome Database",
@@ -17548,6 +17558,10 @@
         {
           "retrieved": "2024-07-29",
           "version": "2024-07-27"
+        },
+        {
+          "retrieved": "2024-07-30",
+          "version": "2024-07-28"
         }
       ],
       "name": "Zebrafish Information Network",
