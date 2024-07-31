@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-07-30'
-  revision: 739
+  date: '2024-07-31'
+  revision: 740
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3839,6 +3839,8 @@ database:
     version: '6.24'
   - retrieved: '2024-07-30'
     version: '6.13'
+  - retrieved: '2024-07-31'
+    version: '6.24'
   vtype: semver_minor
 - name: Mouse gross anatomy and development, timed
   prefix: emap
@@ -4428,6 +4430,9 @@ database:
   - date: '2024-07-26'
     retrieved: '2024-07-28'
     version: July 26, 2024
+  - date: '2024-07-29'
+    retrieved: '2024-07-31'
+    version: July 29, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9580,6 +9585,8 @@ database:
     version: '2024-07-27'
   - retrieved: '2024-07-30'
     version: '2024-07-28'
+  - retrieved: '2024-07-31'
+    version: '2024-07-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
