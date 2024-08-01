@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 740,
-    "date": "2024-07-31",
+    "revision": 741,
+    "date": "2024-08-01",
     "author": "runner"
   },
   "database": [
@@ -1647,6 +1647,10 @@
         {
           "retrieved": "2024-07-02",
           "version": "01-Jul-2024"
+        },
+        {
+          "retrieved": "2024-08-01",
+          "version": "01-Aug-2024"
         }
       ],
       "name": "CiVIC",
@@ -2619,6 +2623,12 @@
           "version": "2024-06-28",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-06-28",
           "date": "2024-06-28"
+        },
+        {
+          "retrieved": "2024-08-01",
+          "version": "2024-07-31",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-07-31",
+          "date": "2024-07-31"
         }
       ],
       "vtype": "date"
@@ -8012,6 +8022,11 @@
           "retrieved": "2024-07-31",
           "version": "July 29, 2024",
           "date": "2024-07-29"
+        },
+        {
+          "retrieved": "2024-08-01",
+          "version": "July 30, 2024",
+          "date": "2024-07-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10016,6 +10031,11 @@
           "retrieved": "2024-07-01",
           "version": "2024-07-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-07-01"
+        },
+        {
+          "retrieved": "2024-08-01",
+          "version": "2024-08-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-08-01"
         }
       ],
       "name": "PubChem",
@@ -17575,6 +17595,10 @@
         {
           "retrieved": "2024-07-31",
           "version": "2024-07-29"
+        },
+        {
+          "retrieved": "2024-08-01",
+          "version": "2024-07-30"
         }
       ],
       "name": "Zebrafish Information Network",

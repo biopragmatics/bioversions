@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-07-31'
-  revision: 740
+  date: '2024-08-01'
+  revision: 741
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -903,6 +903,8 @@ database:
     version: 01-Jun-2024
   - retrieved: '2024-07-02'
     version: 01-Jul-2024
+  - retrieved: '2024-08-01'
+    version: 01-Aug-2024
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -1452,6 +1454,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-06-28
     retrieved: '2024-06-30'
     version: '2024-06-28'
+  - date: '2024-07-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-07-31
+    retrieved: '2024-08-01'
+    version: '2024-07-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -4433,6 +4439,9 @@ database:
   - date: '2024-07-29'
     retrieved: '2024-07-31'
     version: July 29, 2024
+  - date: '2024-07-30'
+    retrieved: '2024-08-01'
+    version: July 30, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5544,6 +5553,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-07-01
     retrieved: '2024-07-01'
     version: '2024-07-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-08-01
+    retrieved: '2024-08-01'
+    version: '2024-08-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -9587,6 +9599,8 @@ database:
     version: '2024-07-28'
   - retrieved: '2024-07-31'
     version: '2024-07-29'
+  - retrieved: '2024-08-01'
+    version: '2024-07-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
