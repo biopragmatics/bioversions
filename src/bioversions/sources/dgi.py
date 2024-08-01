@@ -7,7 +7,7 @@ import os
 import bs4
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, get_soup
 
 DOWNLOADS_PAGE = "https://www.dgidb.org/downloads"
 
@@ -21,15 +21,9 @@ class DGIGetter(Getter):
 
     def get(self):
         """Get the latest DGI version number."""
-        res = requests.get(DOWNLOADS_PAGE)
-        soup = bs4.BeautifulSoup(res.content, parser="lxml", features="lxml")
-        cells = list(soup.select("table#tsv_downloads tbody tr:first-child td:nth-child(2) a"))
-        if 1 != len(cells):
-            raise ValueError
-        cell = cells[0]
-        href = cell["href"]
-        version = os.path.dirname(os.path.relpath(href, "data/monthly_tsvs"))
-        return version
+        soup = get_soup(DOWNLOADS_PAGE)
+        # need to deconstruct graphql somehow?
+        raise NotImplementedError
 
 
 if __name__ == "__main__":
