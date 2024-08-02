@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-01'
-  revision: 741
+  date: '2024-08-02'
+  revision: 742
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -342,6 +342,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.235
     retrieved: '2024-07-02'
     version: 4.4.235
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.236
+    retrieved: '2024-08-02'
+    version: 4.4.236
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -780,6 +783,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel235/
     retrieved: '2024-07-02'
     version: '235'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel236/
+    retrieved: '2024-08-02'
+    version: '236'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -4442,6 +4448,9 @@ database:
   - date: '2024-07-30'
     retrieved: '2024-08-01'
     version: July 30, 2024
+  - date: '2024-07-31'
+    retrieved: '2024-08-02'
+    version: July 31, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5354,6 +5363,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2024-07-01/
     retrieved: '2024-07-02'
     version: '2024-07-01'
+  - date: '2024-08-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2024-08-01/
+    retrieved: '2024-08-02'
+    version: '2024-08-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -9601,6 +9614,8 @@ database:
     version: '2024-07-29'
   - retrieved: '2024-08-01'
     version: '2024-07-30'
+  - retrieved: '2024-08-02'
+    version: '2024-07-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

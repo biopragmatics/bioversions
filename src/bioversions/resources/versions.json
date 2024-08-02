@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 741,
-    "date": "2024-08-01",
+    "revision": 742,
+    "date": "2024-08-02",
     "author": "runner"
   },
   "database": [
@@ -621,6 +621,11 @@
           "retrieved": "2024-07-02",
           "version": "4.4.235",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.235"
+        },
+        {
+          "retrieved": "2024-08-02",
+          "version": "4.4.236",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.236"
         }
       ],
       "vtype": "semver"
@@ -1434,6 +1439,11 @@
           "retrieved": "2024-07-02",
           "version": "235",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel235/"
+        },
+        {
+          "retrieved": "2024-08-02",
+          "version": "236",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel236/"
         }
       ],
       "vtype": "sequential"
@@ -8027,6 +8037,11 @@
           "retrieved": "2024-08-01",
           "version": "July 30, 2024",
           "date": "2024-07-30"
+        },
+        {
+          "retrieved": "2024-08-02",
+          "version": "July 31, 2024",
+          "date": "2024-07-31"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9677,6 +9692,12 @@
           "version": "2024-07-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-07-01/",
           "date": "2024-07-01"
+        },
+        {
+          "retrieved": "2024-08-02",
+          "version": "2024-08-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-08-01/",
+          "date": "2024-08-01"
         }
       ],
       "name": "PomBase",
@@ -17599,6 +17620,10 @@
         {
           "retrieved": "2024-08-01",
           "version": "2024-07-30"
+        },
+        {
+          "retrieved": "2024-08-02",
+          "version": "2024-07-31"
         }
       ],
       "name": "Zebrafish Information Network",
