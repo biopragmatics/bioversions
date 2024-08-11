@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-09'
-  revision: 749
+  date: '2024-08-11'
+  revision: 750
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -40,6 +40,8 @@ database:
     version: 2023/12
   - retrieved: '2024-03-31'
     version: 2024/03
+  - retrieved: '2024-08-11'
+    version: 2024/06
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -145,6 +147,8 @@ database:
     version: '2024-04-01'
   - retrieved: '2024-05-05'
     version: '2024-04-26'
+  - retrieved: '2024-08-11'
+    version: '2024-08-03'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -501,6 +505,8 @@ database:
     version: '2024-01-04'
   - retrieved: '2024-04-06'
     version: '2024-04-01'
+  - retrieved: '2024-08-11'
+    version: '2024-07-01'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -583,6 +589,8 @@ database:
     version: 2.1.162
   - retrieved: '2022-03-26'
     version: 2.1.178
+  - retrieved: '2024-08-11'
+    version: 2.1.188
   vtype: semver
 - name: Cell Ontology
   prefix: cl
@@ -643,6 +651,8 @@ database:
     version: '2024-04-05'
   - retrieved: '2024-05-19'
     version: '2024-05-15'
+  - retrieved: '2024-08-11'
+    version: '2024-07-10'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -959,6 +969,8 @@ database:
     version: '2.213'
   - retrieved: '2024-06-23'
     version: '2.214'
+  - retrieved: '2024-08-11'
+    version: '2.221'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -995,6 +1007,8 @@ database:
     version: '2023-04-08'
   - retrieved: '2024-03-25'
     version: '2024-02-14'
+  - retrieved: '2024-08-11'
+    version: '2024-06-21'
   vtype: date
 - name: Collembola Anatomy Ontology
   prefix: clao
@@ -1118,6 +1132,8 @@ database:
     version: '2024-05-24'
   - retrieved: '2024-06-16'
     version: '2024-06-09'
+  - retrieved: '2024-08-11'
+    version: '2024-06-21'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1809,6 +1825,8 @@ database:
     version: '2023-02-13'
   - retrieved: '2024-03-25'
     version: '2024-02-16'
+  - retrieved: '2024-08-11'
+    version: '2024-07-01'
   vtype: date
 - name: Environment Ontology for Livestock
   prefix: eol
@@ -1843,6 +1861,8 @@ database:
     version: '2024-03-25'
   - retrieved: '2024-06-16'
     version: '2024-06-09'
+  - retrieved: '2024-08-11'
+    version: '2024-07-19'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -1990,6 +2010,8 @@ database:
     version: '4.169'
   - retrieved: '2024-06-23'
     version: '4.170'
+  - retrieved: '2024-08-11'
+    version: '4.177'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2062,6 +2084,8 @@ database:
     version: 3.66.0
   - retrieved: '2024-06-23'
     version: 3.67.0
+  - retrieved: '2024-08-11'
+    version: 3.68.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2204,6 +2228,8 @@ database:
     version: '2024-05-21'
   - retrieved: '2024-06-23'
     version: '2024-06-17'
+  - retrieved: '2024-08-11'
+    version: '2024-08-01'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2793,6 +2819,8 @@ database:
     version: '2024-02-07'
   - retrieved: '2024-04-28'
     version: '2024-04-25'
+  - retrieved: '2024-08-11'
+    version: '2024-06-21'
   vtype: semver
 - name: Human Cell Atlas Ontology
   prefix: hcao
@@ -2905,6 +2933,8 @@ database:
     version: '2024-04-19'
   - retrieved: '2024-05-05'
     version: '2024-04-26'
+  - retrieved: '2024-08-11'
+    version: '2024-07-01'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -3340,6 +3370,8 @@ database:
     version: '2024-05-28'
   - retrieved: '2024-06-23'
     version: '2024-06-18'
+  - retrieved: '2024-08-11'
+    version: '2024-07-02'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -3374,6 +3406,8 @@ database:
     version: 4.1.154
   - retrieved: '2024-06-23'
     version: 4.1.155
+  - retrieved: '2024-08-11'
+    version: 4.1.168
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -3424,6 +3458,8 @@ database:
     version: '2.133'
   - retrieved: '2024-06-16'
     version: '2.134'
+  - retrieved: '2024-08-11'
+    version: '2.136'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -3476,6 +3512,8 @@ database:
     version: '2024-05-07'
   - retrieved: '2024-06-02'
     version: '2024-05-24'
+  - retrieved: '2024-08-11'
+    version: '2024-07-29'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -3583,6 +3621,8 @@ database:
     version: '2023-12-21'
   - retrieved: '2024-05-26'
     version: '2024-05-21'
+  - retrieved: '2024-08-11'
+    version: '2024-08-02'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -3785,6 +3825,8 @@ database:
     version: '2024-05-08'
   - retrieved: '2024-06-09'
     version: '2024-06-04'
+  - retrieved: '2024-08-11'
+    version: '2024-08-06'
   vtype: date
 - name: MOP
   prefix: mop
@@ -4039,6 +4081,8 @@ database:
     version: '2024-03-26'
   - retrieved: '2024-05-12'
     version: '2024-05-08'
+  - retrieved: '2024-08-11'
+    version: '2024-07-03'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -4569,6 +4613,8 @@ database:
     version: Release version 2.0.0
   - retrieved: '2024-06-23'
     version: Release version 2024-06-07
+  - retrieved: '2024-08-11'
+    version: '2024-07-03'
   vtype: date
 - name: Ontology for Parasite Lifecycle
   prefix: opl
@@ -4619,6 +4665,8 @@ database:
     version: '2024-03-16'
   - retrieved: '2024-05-19'
     version: '2024-05-11'
+  - retrieved: '2024-08-11'
+    version: '2024-06-20'
   vtype: date
 - name: Ontology of Adverse Events
   prefix: oae
@@ -4675,6 +4723,8 @@ database:
     version: '2024-03-27'
   - retrieved: '2024-05-19'
     version: '2024-05-13'
+  - retrieved: '2024-08-11'
+    version: '2024-06-27'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -4875,6 +4925,8 @@ database:
     version: 2.0.55
   - retrieved: '2024-05-19'
     version: 2.0.56
+  - retrieved: '2024-08-11'
+    version: 2.0.57
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -4911,6 +4963,8 @@ database:
     version: '2023-07-22'
   - retrieved: '2024-03-25'
     version: '2024-03-01'
+  - retrieved: '2024-08-11'
+    version: '2024-06-21'
   vtype: date
 - name: Orphanet Rare Disease Ontology
   prefix: orphanet.ordo
@@ -4931,6 +4985,8 @@ database:
     version: '4.3'
   - retrieved: '2024-03-25'
     version: '4.4'
+  - retrieved: '2024-08-11'
+    version: '4.5'
   vtype: semver
 - name: Orthology Ontology
   prefix: orth
@@ -5035,6 +5091,8 @@ database:
     version: '7.83'
   - retrieved: '2024-06-16'
     version: '7.84'
+  - retrieved: '2024-08-11'
+    version: '7.85'
   vtype: date
 - name: PATO
   prefix: pato
@@ -5488,6 +5546,8 @@ database:
     version: '2023-02-27'
   - retrieved: '2024-03-25'
     version: '2024-01-04'
+  - retrieved: '2024-08-11'
+    version: '2024-07-11'
   vtype: date
 - name: PubChem
   releases:
@@ -5733,6 +5793,8 @@ database:
     version: '6.224'
   - retrieved: '2024-06-23'
     version: '6.225'
+  - retrieved: '2024-08-11'
+    version: '6.229'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -7370,6 +7432,8 @@ database:
     version: '2024-03-12'
   - retrieved: '2024-05-19'
     version: '2024-05-13'
+  - retrieved: '2024-08-11'
+    version: '2024-07-03'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -7404,6 +7468,8 @@ database:
     version: '2023-08-17'
   - retrieved: '2024-03-25'
     version: '2024-03-03'
+  - retrieved: '2024-08-11'
+    version: '2024-08-05'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -7432,6 +7498,8 @@ database:
     version: '2023-02-17'
   - retrieved: '2023-06-29'
     version: '2023-05-03'
+  - retrieved: '2024-08-11'
+    version: '2024-07-12'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
@@ -7469,6 +7537,8 @@ database:
     version: RC1.4
   - retrieved: '2022-03-04'
     version: '1.4'
+  - retrieved: '2024-08-11'
+    version: '2024-07-07'
   vtype: semver
 - name: The Virus Infectious Disease Ontology
   prefix: vido
@@ -7551,6 +7621,8 @@ database:
     version: '2024-03-22'
   - retrieved: '2024-05-19'
     version: '2024-05-13'
+  - retrieved: '2024-08-11'
+    version: '2024-08-07'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -7742,6 +7814,8 @@ database:
     version: '2024-06-01'
   - retrieved: '2024-06-16'
     version: '2024-06-09'
+  - retrieved: '2024-08-11'
+    version: '2024-07-13'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -7810,6 +7884,8 @@ database:
     version: '2024-05-31'
   - retrieved: '2024-06-23'
     version: '2024-06-18'
+  - retrieved: '2024-08-11'
+    version: '2024-07-22'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -7999,6 +8075,10 @@ database:
     homepage: http://data.wikipathways.org/20240710/
     retrieved: '2024-07-11'
     version: '20240710'
+  - date: '2024-08-10'
+    homepage: http://data.wikipathways.org/20240810/
+    retrieved: '2024-08-11'
+    version: '20240810'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -9633,6 +9713,8 @@ database:
     version: '2024-08-06'
   - retrieved: '2024-08-09'
     version: '2024-08-07'
+  - retrieved: '2024-08-11'
+    version: '2024-08-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

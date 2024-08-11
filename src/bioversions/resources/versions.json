@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 749,
-    "date": "2024-08-09",
+    "revision": 750,
+    "date": "2024-08-11",
     "author": "runner"
   },
   "database": [
@@ -74,6 +74,10 @@
         {
           "retrieved": "2024-03-31",
           "version": "2024/03"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024/06"
         }
       ],
       "vtype": "date"
@@ -273,6 +277,10 @@
         {
           "retrieved": "2024-05-05",
           "version": "2024-04-26"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-08-03"
         }
       ],
       "vtype": "date"
@@ -925,6 +933,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2024-04-01"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-01"
         }
       ],
       "vtype": "date"
@@ -1081,6 +1093,10 @@
         {
           "retrieved": "2022-03-26",
           "version": "2.1.178"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2.1.188"
         }
       ],
       "name": "Cell Line Ontology",
@@ -1199,6 +1215,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-15"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-10"
         }
       ],
       "prefix": "cl",
@@ -1756,6 +1776,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "2.214"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2.221"
         }
       ],
       "vtype": "date"
@@ -1821,6 +1845,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-14"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-06-21"
         }
       ],
       "name": "Coleoptera Anatomy Ontology",
@@ -2040,6 +2068,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "2024-06-09"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-06-21"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -3278,6 +3310,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-02-16"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-01"
         }
       ],
       "vtype": "date"
@@ -3341,6 +3377,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "2024-06-09"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-19"
         }
       ],
       "name": "Evidence and Conclusion Ontology",
@@ -3626,6 +3666,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "4.170"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "4.177"
         }
       ],
       "vtype": "date"
@@ -3769,6 +3813,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "3.67.0"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "3.68.0"
         }
       ],
       "vtype": "semver"
@@ -4049,6 +4097,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "2024-06-17"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-08-01"
         }
       ],
       "vtype": "date"
@@ -5063,6 +5115,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-25"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-06-21"
         }
       ],
       "vtype": "semver"
@@ -5283,6 +5339,10 @@
         {
           "retrieved": "2024-05-05",
           "version": "2024-04-26"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-01"
         }
       ],
       "vtype": "date"
@@ -6047,6 +6107,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "2024-06-18"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-02"
         }
       ],
       "vtype": "date"
@@ -6111,6 +6175,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "4.1.155"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "4.1.168"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -6210,6 +6278,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "2.134"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2.136"
         }
       ],
       "vtype": "date"
@@ -6312,6 +6384,10 @@
         {
           "retrieved": "2024-06-02",
           "version": "2024-05-24"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-29"
         }
       ],
       "vtype": "date"
@@ -6515,6 +6591,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "2024-05-21"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-08-02"
         }
       ],
       "vtype": "date"
@@ -6875,6 +6955,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "2024-06-04"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-08-06"
         }
       ],
       "vtype": "date"
@@ -7326,6 +7410,10 @@
         {
           "retrieved": "2024-05-12",
           "version": "2024-05-08"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-03"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -8269,6 +8357,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "Release version 2024-06-07"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-03"
         }
       ],
       "vtype": "date"
@@ -8363,6 +8455,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-11"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-06-20"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -8473,6 +8569,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-13"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-06-27"
         }
       ],
       "vtype": "date"
@@ -8816,6 +8916,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2.0.56"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2.0.57"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -8884,6 +8988,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-01"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-06-21"
         }
       ],
       "name": "Oral Health and Disease Ontology",
@@ -8925,6 +9033,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "4.4"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "4.5"
         }
       ],
       "vtype": "semver"
@@ -9113,6 +9225,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "7.84"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "7.85"
         }
       ],
       "name": "Pathway ontology",
@@ -9920,6 +10036,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-04"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-11"
         }
       ],
       "name": "Provisional Cell Ontology",
@@ -10383,6 +10503,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "6.225"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "6.229"
         }
       ],
       "vtype": "date"
@@ -13561,6 +13685,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-13"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-03"
         }
       ],
       "vtype": "date"
@@ -13627,6 +13755,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-03-03"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-08-05"
         }
       ],
       "vtype": "date"
@@ -13679,6 +13811,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-05-03"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-12"
         }
       ],
       "name": "The Food Ontology",
@@ -13746,6 +13882,10 @@
         {
           "retrieved": "2022-03-04",
           "version": "1.4"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-07"
         }
       ],
       "name": "The Statistical Methods Ontology",
@@ -13905,6 +14045,10 @@
         {
           "retrieved": "2024-05-19",
           "version": "2024-05-13"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-08-07"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -14245,6 +14389,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "2024-06-09"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-13"
         }
       ],
       "vtype": "semver"
@@ -14375,6 +14523,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "2024-06-18"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-07-22"
         }
       ],
       "vtype": "date"
@@ -14678,6 +14830,12 @@
           "version": "20240710",
           "homepage": "http://data.wikipathways.org/20240710/",
           "date": "2024-07-10"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "20240810",
+          "homepage": "http://data.wikipathways.org/20240810/",
+          "date": "2024-08-10"
         }
       ],
       "vtype": "date"
@@ -17657,6 +17815,10 @@
         {
           "retrieved": "2024-08-09",
           "version": "2024-08-07"
+        },
+        {
+          "retrieved": "2024-08-11",
+          "version": "2024-08-09"
         }
       ],
       "name": "Zebrafish Information Network",
