@@ -10,7 +10,7 @@ __all__ = [
     "RGDGetter",
 ]
 
-URL = "https://download.rgd.mcw.edu/data_release/GENES.RAT.txt"
+URL = "https://download.rgd.mcw.edu/data_release/GENES_RAT.txt"
 
 
 class RGDGetter(Getter):
