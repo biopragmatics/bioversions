@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 752,
-    "date": "2024-08-13",
+    "revision": 753,
+    "date": "2024-08-14",
     "author": "runner"
   },
   "database": [
@@ -2964,6 +2964,11 @@
           "retrieved": "2022-02-03",
           "version": "2022-Feb",
           "date": "2022-02-01"
+        },
+        {
+          "retrieved": "2024-08-14",
+          "version": "2024-Jun",
+          "date": "2024-06-01"
         }
       ],
       "name": "Drug Gene Interaction Database",
@@ -17836,6 +17841,10 @@
         {
           "retrieved": "2024-08-13",
           "version": "2024-08-11"
+        },
+        {
+          "retrieved": "2024-08-14",
+          "version": "2024-08-12"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-13'
-  revision: 752
+  date: '2024-08-14'
+  revision: 753
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1631,6 +1631,9 @@ database:
   - date: '2022-02-01'
     retrieved: '2022-02-03'
     version: 2022-Feb
+  - date: '2024-06-01'
+    retrieved: '2024-08-14'
+    version: 2024-Jun
   vtype: month
 - name: Drug-drug Interaction and Drug-drug Interaction Evidence Ontology
   prefix: dideo
@@ -9724,6 +9727,8 @@ database:
     version: '2024-08-10'
   - retrieved: '2024-08-13'
     version: '2024-08-11'
+  - retrieved: '2024-08-14'
+    version: '2024-08-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
