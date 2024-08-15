@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-14'
-  revision: 753
+  date: '2024-08-15'
+  revision: 754
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3231,6 +3231,8 @@ database:
     version: 26-Apr-2024
   - retrieved: '2024-07-02'
     version: 26-Jun-2024
+  - retrieved: '2024-08-15'
+    version: ''
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
