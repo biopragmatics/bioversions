@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-16'
-  revision: 755
+  date: '2024-08-17'
+  revision: 756
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -971,6 +971,8 @@ database:
     version: '2.214'
   - retrieved: '2024-08-11'
     version: '2.221'
+  - retrieved: '2024-08-17'
+    version: '2.222'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1134,6 +1136,8 @@ database:
     version: '2024-06-09'
   - retrieved: '2024-08-11'
     version: '2024-06-21'
+  - retrieved: '2024-08-17'
+    version: '2024-08-13'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1534,6 +1538,8 @@ database:
     version: '2024-04-25'
   - retrieved: '2024-06-16'
     version: '2024-06-13'
+  - retrieved: '2024-08-17'
+    version: '2024-08-07'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1570,6 +1576,8 @@ database:
     version: '2024-04-25'
   - retrieved: '2024-06-16'
     version: '2024-06-13'
+  - retrieved: '2024-08-17'
+    version: '2024-08-08'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1614,6 +1622,8 @@ database:
     version: '2024-04-25'
   - retrieved: '2024-06-23'
     version: '2024-06-13'
+  - retrieved: '2024-08-17'
+    version: '2024-08-08'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -2015,6 +2025,8 @@ database:
     version: '4.170'
   - retrieved: '2024-08-11'
     version: '4.177'
+  - retrieved: '2024-08-17'
+    version: '4.178'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2341,6 +2353,8 @@ database:
     version: '2024-04-25'
   - retrieved: '2024-06-23'
     version: '2024-06-13'
+  - retrieved: '2024-08-17'
+    version: '2024-08-08'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -2938,6 +2952,8 @@ database:
     version: '2024-04-26'
   - retrieved: '2024-08-11'
     version: '2024-07-01'
+  - retrieved: '2024-08-17'
+    version: '2024-08-13'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -3377,6 +3393,8 @@ database:
     version: '2024-06-18'
   - retrieved: '2024-08-11'
     version: '2024-07-02'
+  - retrieved: '2024-08-17'
+    version: '2024-08-08'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -7826,6 +7844,8 @@ database:
     version: '2024-06-09'
   - retrieved: '2024-08-11'
     version: '2024-07-13'
+  - retrieved: '2024-08-17'
+    version: '2024-08-11'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -9733,6 +9753,8 @@ database:
     version: '2024-08-12'
   - retrieved: '2024-08-16'
     version: '2024-08-14'
+  - retrieved: '2024-08-17'
+    version: '2024-08-15'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
