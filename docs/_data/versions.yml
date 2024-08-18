@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-17'
-  revision: 756
+  date: '2024-08-18'
+  revision: 757
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2101,6 +2101,8 @@ database:
     version: 3.67.0
   - retrieved: '2024-08-11'
     version: 3.68.0
+  - retrieved: '2024-08-18'
+    version: 3.69.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -4621,6 +4623,8 @@ database:
     version: '2024-01-10'
   - retrieved: '2024-03-29'
     version: '2024-03-22'
+  - retrieved: '2024-08-18'
+    version: '2024-08-14'
   vtype: date
 - name: Ontology for Nutritional Studies
   prefix: ons
@@ -7462,6 +7466,8 @@ database:
     version: '2024-05-13'
   - retrieved: '2024-08-11'
     version: '2024-07-03'
+  - retrieved: '2024-08-18'
+    version: '2024-08-06'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -7498,6 +7504,8 @@ database:
     version: '2024-03-03'
   - retrieved: '2024-08-11'
     version: '2024-08-05'
+  - retrieved: '2024-08-18'
+    version: '2024-08-07'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -7876,6 +7884,8 @@ database:
     version: '2024-04-18'
   - retrieved: '2024-06-02'
     version: '2024-05-22'
+  - retrieved: '2024-08-18'
+    version: '2024-08-14'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -7916,6 +7926,8 @@ database:
     version: '2024-06-18'
   - retrieved: '2024-08-11'
     version: '2024-07-22'
+  - retrieved: '2024-08-18'
+    version: '2024-08-13'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -9755,6 +9767,8 @@ database:
     version: '2024-08-14'
   - retrieved: '2024-08-17'
     version: '2024-08-15'
+  - retrieved: '2024-08-18'
+    version: '2024-08-16'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
