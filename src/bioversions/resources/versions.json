@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 758,
-    "date": "2024-08-19",
+    "revision": 759,
+    "date": "2024-08-20",
     "author": "runner"
   },
   "database": [
@@ -10496,6 +10496,10 @@
         {
           "retrieved": "2024-08-13",
           "version": "2024-08-09"
+        },
+        {
+          "retrieved": "2024-08-20",
+          "version": "2024-08-16"
         }
       ],
       "name": "Rat Genome Database",
@@ -17929,6 +17933,10 @@
         {
           "retrieved": "2024-08-19",
           "version": "2024-08-17"
+        },
+        {
+          "retrieved": "2024-08-20",
+          "version": "2024-08-18"
         }
       ],
       "name": "Zebrafish Information Network",
