@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-20'
-  revision: 759
+  date: '2024-08-21'
+  revision: 760
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4067,6 +4067,9 @@ database:
   - date: '2024-06-24'
     retrieved: '2024-07-25'
     version: 24.06d
+  - date: '2024-07-29'
+    retrieved: '2024-08-21'
+    version: 24.07e
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -5554,6 +5557,9 @@ database:
   - homepage: https://proconsortium.org/download/release_69.0/
     retrieved: '2024-03-25'
     version: '69.0'
+  - homepage: https://proconsortium.org/download/release_70.0/
+    retrieved: '2024-08-21'
+    version: '70.0'
   vtype: semver_minor
 - name: PROV Namespace
   prefix: prov
@@ -9775,6 +9781,8 @@ database:
     version: '2024-08-17'
   - retrieved: '2024-08-20'
     version: '2024-08-18'
+  - retrieved: '2024-08-21'
+    version: '2024-08-19'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

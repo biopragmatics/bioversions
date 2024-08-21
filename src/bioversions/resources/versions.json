@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 759,
-    "date": "2024-08-20",
+    "revision": 760,
+    "date": "2024-08-21",
     "author": "runner"
   },
   "database": [
@@ -7383,6 +7383,11 @@
           "retrieved": "2024-07-25",
           "version": "24.06d",
           "date": "2024-06-24"
+        },
+        {
+          "retrieved": "2024-08-21",
+          "version": "24.07e",
+          "date": "2024-07-29"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -10054,6 +10059,11 @@
           "retrieved": "2024-03-25",
           "version": "69.0",
           "homepage": "https://proconsortium.org/download/release_69.0/"
+        },
+        {
+          "retrieved": "2024-08-21",
+          "version": "70.0",
+          "homepage": "https://proconsortium.org/download/release_70.0/"
         }
       ],
       "vtype": "semver_minor"
@@ -17937,6 +17947,10 @@
         {
           "retrieved": "2024-08-20",
           "version": "2024-08-18"
+        },
+        {
+          "retrieved": "2024-08-21",
+          "version": "2024-08-19"
         }
       ],
       "name": "Zebrafish Information Network",
