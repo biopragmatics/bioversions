@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-21'
-  revision: 760
+  date: '2024-08-22'
+  revision: 761
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2313,6 +2313,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2024_03/
     retrieved: '2024-06-30'
     version: '2024_03'
+  - homepage: http://ftp.flybase.net/releases/FB2024_04/
+    retrieved: '2024-08-22'
+    version: '2024_04'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -9783,6 +9786,8 @@ database:
     version: '2024-08-18'
   - retrieved: '2024-08-21'
     version: '2024-08-19'
+  - retrieved: '2024-08-22'
+    version: '2024-08-20'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

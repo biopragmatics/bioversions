@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 760,
-    "date": "2024-08-21",
+    "revision": 761,
+    "date": "2024-08-22",
     "author": "runner"
   },
   "database": [
@@ -4245,6 +4245,11 @@
           "retrieved": "2024-06-30",
           "version": "2024_03",
           "homepage": "http://ftp.flybase.net/releases/FB2024_03/"
+        },
+        {
+          "retrieved": "2024-08-22",
+          "version": "2024_04",
+          "homepage": "http://ftp.flybase.net/releases/FB2024_04/"
         }
       ],
       "name": "FlyBase",
@@ -17951,6 +17956,10 @@
         {
           "retrieved": "2024-08-21",
           "version": "2024-08-19"
+        },
+        {
+          "retrieved": "2024-08-22",
+          "version": "2024-08-20"
         }
       ],
       "name": "Zebrafish Information Network",
