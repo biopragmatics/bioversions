@@ -1,7 +1,7 @@
 # Errors
 
 - failed to resolve DisGeNet
-- issue parsing Online Mendelian Inheritance in Man: Issue parsing OMIMGetter version Augu 21, 2024 with fmt %B %d, %Y
+- issue parsing Online Mendelian Inheritance in Man: Issue parsing OMIMGetter version Augu 22, 2024 with fmt %B %d, %Y
 - failed to resolve Antibody Registry
 - failed to resolve NPASS
 - failed to resolve PathBank

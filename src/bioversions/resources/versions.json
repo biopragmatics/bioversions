@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 762,
-    "date": "2024-08-23",
+    "revision": 763,
+    "date": "2024-08-24",
     "author": "runner"
   },
   "database": [
@@ -5075,6 +5075,11 @@
           "retrieved": "2024-07-10",
           "version": "2024-07-02",
           "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-07-02.json"
+        },
+        {
+          "retrieved": "2024-08-24",
+          "version": "2024-08-23",
+          "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-08-23.json"
         }
       ],
       "name": "HGNC",
@@ -17964,6 +17969,10 @@
         {
           "retrieved": "2024-08-23",
           "version": "2024-08-21"
+        },
+        {
+          "retrieved": "2024-08-24",
+          "version": "2024-08-22"
         }
       ],
       "name": "Zebrafish Information Network",
