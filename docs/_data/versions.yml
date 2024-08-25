@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-24'
-  revision: 763
+  date: '2024-08-25'
+  revision: 764
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -111,6 +111,8 @@ database:
     version: '2024-02-23'
   - retrieved: '2024-04-28'
     version: '2024-04-19'
+  - retrieved: '2024-08-25'
+    version: '2024-08-15'
   vtype: date
 - name: Apollo Structured Vocabulary (Apollo-SV)
   prefix: apollo_sv
