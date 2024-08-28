@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 766,
-    "date": "2024-08-27",
+    "revision": 767,
+    "date": "2024-08-28",
     "author": "runner"
   },
   "database": [
@@ -17989,6 +17989,10 @@
         {
           "retrieved": "2024-08-27",
           "version": "2024-08-25"
+        },
+        {
+          "retrieved": "2024-08-28",
+          "version": "2024-08-26"
         }
       ],
       "name": "Zebrafish Information Network",

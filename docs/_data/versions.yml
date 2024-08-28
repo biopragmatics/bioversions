@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-27'
-  revision: 766
+  date: '2024-08-28'
+  revision: 767
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -9803,6 +9803,8 @@ database:
     version: '2024-08-24'
   - retrieved: '2024-08-27'
     version: '2024-08-25'
+  - retrieved: '2024-08-28'
+    version: '2024-08-26'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
