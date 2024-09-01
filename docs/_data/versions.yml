@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-08-31'
-  revision: 770
+  date: '2024-09-01'
+  revision: 771
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -655,6 +655,8 @@ database:
     version: '2024-05-15'
   - retrieved: '2024-08-11'
     version: '2024-07-10'
+  - retrieved: '2024-09-01'
+    version: '2024-08-16'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -923,6 +925,8 @@ database:
     version: 01-Jul-2024
   - retrieved: '2024-08-01'
     version: 01-Aug-2024
+  - retrieved: '2024-09-01'
+    version: 01-Sep-2024
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -975,6 +979,8 @@ database:
     version: '2.221'
   - retrieved: '2024-08-17'
     version: '2.222'
+  - retrieved: '2024-09-01'
+    version: '2.224'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2033,6 +2039,8 @@ database:
     version: '4.177'
   - retrieved: '2024-08-17'
     version: '4.178'
+  - retrieved: '2024-09-01'
+    version: '4.179'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2852,6 +2860,8 @@ database:
     version: '2024-04-25'
   - retrieved: '2024-08-11'
     version: '2024-06-21'
+  - retrieved: '2024-09-01'
+    version: '2024-08-19'
   vtype: semver
 - name: Human Cell Atlas Ontology
   prefix: hcao
@@ -3448,6 +3458,8 @@ database:
     version: 4.1.155
   - retrieved: '2024-08-11'
     version: 4.1.168
+  - retrieved: '2024-09-01'
+    version: 4.1.172
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -3500,6 +3512,8 @@ database:
     version: '2.134'
   - retrieved: '2024-08-11'
     version: '2.136'
+  - retrieved: '2024-09-01'
+    version: '2.138'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -5680,6 +5694,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-08-01
     retrieved: '2024-08-01'
     version: '2024-08-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-09-01
+    retrieved: '2024-09-01'
+    version: '2024-09-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -5852,6 +5869,8 @@ database:
     version: '6.225'
   - retrieved: '2024-08-11'
     version: '6.229'
+  - retrieved: '2024-09-01'
+    version: '6.230'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -7539,6 +7558,8 @@ database:
     version: '2020-05-22'
   - retrieved: '2024-03-25'
     version: '2024-02-20'
+  - retrieved: '2024-09-01'
+    version: '2024-08-22'
   vtype: date
 - name: The Food Ontology
   prefix: foodon
@@ -8164,6 +8185,8 @@ database:
     version: '2021-03-04'
   - retrieved: '2023-05-11'
     version: '2022-08-29'
+  - retrieved: '2024-09-01'
+    version: '2024-08-23'
   vtype: date
 - name: Xenopus Phenotype Ontology
   prefix: xpo
@@ -9818,6 +9841,8 @@ database:
     version: '2024-08-28'
   - retrieved: '2024-08-31'
     version: '2024-08-29'
+  - retrieved: '2024-09-01'
+    version: '2024-08-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
