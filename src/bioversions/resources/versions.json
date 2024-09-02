@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 771,
-    "date": "2024-09-01",
+    "revision": 772,
+    "date": "2024-09-02",
     "author": "runner"
   },
   "database": [
@@ -638,6 +638,11 @@
           "retrieved": "2024-08-02",
           "version": "4.4.236",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.236"
+        },
+        {
+          "retrieved": "2024-09-02",
+          "version": "4.4.237",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.237"
         }
       ],
       "vtype": "semver"
@@ -9930,6 +9935,12 @@
           "version": "2024-08-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-08-01/",
           "date": "2024-08-01"
+        },
+        {
+          "retrieved": "2024-09-02",
+          "version": "2024-09-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-09-01/",
+          "date": "2024-09-01"
         }
       ],
       "name": "PomBase",
@@ -18065,6 +18076,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "2024-08-30"
+        },
+        {
+          "retrieved": "2024-09-02",
+          "version": "2024-08-31"
         }
       ],
       "name": "Zebrafish Information Network",
