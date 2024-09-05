@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 772,
-    "date": "2024-09-02",
+    "revision": 773,
+    "date": "2024-09-05",
     "author": "runner"
   },
   "database": [
@@ -8247,6 +8247,11 @@
           "retrieved": "2024-08-02",
           "version": "July 31, 2024",
           "date": "2024-07-31"
+        },
+        {
+          "retrieved": "2024-09-05",
+          "version": "September 3, 2024",
+          "date": "2024-09-03"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11167,6 +11172,11 @@
           "retrieved": "2024-08-06",
           "version": "2024-08-05",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_08052024.zip"
+        },
+        {
+          "retrieved": "2024-09-05",
+          "version": "2024-09-03",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09032024.zip"
         }
       ],
       "name": "RxNorm",
@@ -18080,6 +18090,10 @@
         {
           "retrieved": "2024-09-02",
           "version": "2024-08-31"
+        },
+        {
+          "retrieved": "2024-09-05",
+          "version": "2024-09-03"
         }
       ],
       "name": "Zebrafish Information Network",
