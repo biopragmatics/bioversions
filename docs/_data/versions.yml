@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-09-07'
-  revision: 775
+  date: '2024-09-08'
+  revision: 776
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2264,6 +2264,8 @@ database:
     version: '2024-06-17'
   - retrieved: '2024-08-11'
     version: '2024-08-01'
+  - retrieved: '2024-09-08'
+    version: '2024-09-02'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3463,6 +3465,8 @@ database:
     version: 4.1.168
   - retrieved: '2024-09-01'
     version: 4.1.172
+  - retrieved: '2024-09-08'
+    version: 4.1.173
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4571,6 +4575,9 @@ database:
   - date: '2024-09-05'
     retrieved: '2024-09-07'
     version: September 5, 2024
+  - date: '2024-09-06'
+    retrieved: '2024-09-08'
+    version: September 6, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5120,6 +5127,8 @@ database:
     version: '2024-01-31'
   - retrieved: '2024-04-08'
     version: '2024-04-04'
+  - retrieved: '2024-09-08'
+    version: '2024-08-29'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -5543,6 +5552,12 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: 05-11-2019
+  vtype: date
+- name: PRIDE Controlled Vocabulary
+  prefix: pride
+  releases:
+  - retrieved: '2024-09-08'
+    version: 2.1.2
   vtype: date
 - name: Probability Distribution Ontology
   prefix: probonto
