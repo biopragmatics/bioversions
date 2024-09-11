@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 778,
-    "date": "2024-09-10",
+    "revision": 779,
+    "date": "2024-09-11",
     "author": "runner"
   },
   "database": [
@@ -1282,6 +1282,11 @@
           "retrieved": "2024-05-03",
           "version": "49.0",
           "date": "2024-05-02"
+        },
+        {
+          "retrieved": "2024-09-11",
+          "version": "50.0",
+          "date": "2024-09-10"
         }
       ],
       "name": "Cellosaurus",
@@ -8281,6 +8286,11 @@
           "retrieved": "2024-09-08",
           "version": "September 6, 2024",
           "date": "2024-09-06"
+        },
+        {
+          "retrieved": "2024-09-11",
+          "version": "September 9, 2024",
+          "date": "2024-09-09"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15071,6 +15081,12 @@
           "version": "20240810",
           "homepage": "http://data.wikipathways.org/20240810/",
           "date": "2024-08-10"
+        },
+        {
+          "retrieved": "2024-09-11",
+          "version": "20240910",
+          "homepage": "http://data.wikipathways.org/20240910/",
+          "date": "2024-09-10"
         }
       ],
       "vtype": "date"
@@ -18158,6 +18174,10 @@
         {
           "retrieved": "2024-09-10",
           "version": "2024-09-08"
+        },
+        {
+          "retrieved": "2024-09-11",
+          "version": "2024-09-09"
         }
       ],
       "name": "Zebrafish Information Network",
