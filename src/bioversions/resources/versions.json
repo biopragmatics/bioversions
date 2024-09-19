@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 786,
-    "date": "2024-09-18",
+    "revision": 787,
+    "date": "2024-09-19",
     "author": "runner"
   },
   "database": [
@@ -2041,6 +2041,12 @@
           "version": "2024-05-20",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-05-20/",
           "date": "2024-05-20"
+        },
+        {
+          "retrieved": "2024-09-19",
+          "version": "2024-09-08",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-09-08/",
+          "date": "2024-09-08"
         }
       ],
       "vtype": "date"
@@ -5673,6 +5679,12 @@
           "version": "2024-05-20",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-05-20/",
           "date": "2024-05-20"
+        },
+        {
+          "retrieved": "2024-09-19",
+          "version": "2024-09-08",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-09-08/",
+          "date": "2024-09-08"
         }
       ],
       "vtype": "date"
@@ -8322,6 +8334,11 @@
           "retrieved": "2024-09-18",
           "version": "September 16, 2024",
           "date": "2024-09-16"
+        },
+        {
+          "retrieved": "2024-09-19",
+          "version": "September 17, 2024",
+          "date": "2024-09-17"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10987,6 +11004,11 @@
           "retrieved": "2023-11-15",
           "version": "14.10",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.10/"
+        },
+        {
+          "retrieved": "2024-09-19",
+          "version": "15.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/15.0/"
         }
       ],
       "vtype": "semver_minor"
@@ -18241,6 +18263,10 @@
         {
           "retrieved": "2024-09-18",
           "version": "2024-09-16"
+        },
+        {
+          "retrieved": "2024-09-19",
+          "version": "2024-09-17"
         }
       ],
       "name": "Zebrafish Information Network",

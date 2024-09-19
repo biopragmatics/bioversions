@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-09-18'
-  revision: 786
+  date: '2024-09-19'
+  revision: 787
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1118,6 +1118,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-05-20/
     retrieved: '2024-05-30'
     version: '2024-05-20'
+  - date: '2024-09-08'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-09-08/
+    retrieved: '2024-09-19'
+    version: '2024-09-08'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -3121,6 +3125,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-05-20/
     retrieved: '2024-05-30'
     version: '2024-05-20'
+  - date: '2024-09-08'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-09-08/
+    retrieved: '2024-09-19'
+    version: '2024-09-08'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -4603,6 +4611,9 @@ database:
   - date: '2024-09-16'
     retrieved: '2024-09-18'
     version: September 16, 2024
+  - date: '2024-09-17'
+    retrieved: '2024-09-19'
+    version: September 17, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6056,6 +6067,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/14.10/
     retrieved: '2023-11-15'
     version: '14.10'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/15.0/
+    retrieved: '2024-09-19'
+    version: '15.0'
   vtype: semver_minor
 - name: Rhea
   prefix: rhea
@@ -9942,6 +9956,8 @@ database:
     version: '2024-09-15'
   - retrieved: '2024-09-18'
     version: '2024-09-16'
+  - retrieved: '2024-09-19'
+    version: '2024-09-17'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
