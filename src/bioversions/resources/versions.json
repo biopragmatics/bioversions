@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 794,
-    "date": "2024-09-26",
+    "revision": 795,
+    "date": "2024-09-28",
     "author": "runner"
   },
   "database": [
@@ -2717,6 +2717,12 @@
           "version": "2024-08-29",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-08-29",
           "date": "2024-08-29"
+        },
+        {
+          "retrieved": "2024-09-28",
+          "version": "2024-09-27",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-09-27",
+          "date": "2024-09-27"
         }
       ],
       "vtype": "date"
@@ -8364,6 +8370,11 @@
           "retrieved": "2024-09-26",
           "version": "September 24, 2024",
           "date": "2024-09-24"
+        },
+        {
+          "retrieved": "2024-09-28",
+          "version": "September 26, 2024",
+          "date": "2024-09-26"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -18324,6 +18335,10 @@
         {
           "retrieved": "2024-09-26",
           "version": "2024-09-24"
+        },
+        {
+          "retrieved": "2024-09-28",
+          "version": "2024-09-26"
         }
       ],
       "name": "Zebrafish Information Network",

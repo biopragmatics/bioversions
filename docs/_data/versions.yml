@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-09-26'
-  revision: 794
+  date: '2024-09-28'
+  revision: 795
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1506,6 +1506,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-08-29
     retrieved: '2024-08-30'
     version: '2024-08-29'
+  - date: '2024-09-27'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-09-27
+    retrieved: '2024-09-28'
+    version: '2024-09-27'
   vtype: date
 - name: DisGeNet
   releases:
@@ -4629,6 +4633,9 @@ database:
   - date: '2024-09-24'
     retrieved: '2024-09-26'
     version: September 24, 2024
+  - date: '2024-09-26'
+    retrieved: '2024-09-28'
+    version: September 26, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9989,6 +9996,8 @@ database:
     version: '2024-09-23'
   - retrieved: '2024-09-26'
     version: '2024-09-24'
+  - retrieved: '2024-09-28'
+    version: '2024-09-26'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
