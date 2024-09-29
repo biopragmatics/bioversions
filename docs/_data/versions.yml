@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-09-28'
-  revision: 795
+  date: '2024-09-29'
+  revision: 796
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3364,6 +3364,9 @@ database:
   - date: '2024-09-01'
     retrieved: '2024-08-31'
     version: '111.1'
+  - date: '2024-10-01'
+    retrieved: '2024-09-29'
+    version: '112.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -4636,6 +4639,9 @@ database:
   - date: '2024-09-26'
     retrieved: '2024-09-28'
     version: September 26, 2024
+  - date: '2024-09-27'
+    retrieved: '2024-09-29'
+    version: September 27, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9998,6 +10004,8 @@ database:
     version: '2024-09-24'
   - retrieved: '2024-09-28'
     version: '2024-09-26'
+  - retrieved: '2024-09-29'
+    version: '2024-09-27'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
