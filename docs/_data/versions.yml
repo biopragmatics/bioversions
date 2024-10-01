@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-09-30'
-  revision: 797
+  date: '2024-10-01'
+  revision: 798
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -933,6 +933,8 @@ database:
     version: 01-Aug-2024
   - retrieved: '2024-09-01'
     version: 01-Sep-2024
+  - retrieved: '2024-10-01'
+    version: 01-Oct-2024
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -5796,6 +5798,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-09-01
     retrieved: '2024-09-01'
     version: '2024-09-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-10-01
+    retrieved: '2024-10-01'
+    version: '2024-10-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -5938,6 +5943,8 @@ database:
     version: '2024-09-13'
   - retrieved: '2024-09-24'
     version: '2024-09-20'
+  - retrieved: '2024-10-01'
+    version: '2024-09-27'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -10008,6 +10015,8 @@ database:
     version: '2024-09-27'
   - retrieved: '2024-09-30'
     version: '2024-09-28'
+  - retrieved: '2024-10-01'
+    version: '2024-09-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
