@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 798,
-    "date": "2024-10-01",
+    "revision": 799,
+    "date": "2024-10-02",
     "author": "runner"
   },
   "database": [
@@ -643,6 +643,11 @@
           "retrieved": "2024-09-02",
           "version": "4.4.237",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.237"
+        },
+        {
+          "retrieved": "2024-10-02",
+          "version": "4.4.238",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.238"
         }
       ],
       "vtype": "semver"
@@ -8389,6 +8394,11 @@
           "retrieved": "2024-09-29",
           "version": "September 27, 2024",
           "date": "2024-09-27"
+        },
+        {
+          "retrieved": "2024-10-02",
+          "version": "September 30, 2024",
+          "date": "2024-09-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10087,6 +10097,12 @@
           "version": "2024-09-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-09-01/",
           "date": "2024-09-01"
+        },
+        {
+          "retrieved": "2024-10-02",
+          "version": "2024-10-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-10-01/",
+          "date": "2024-10-01"
         }
       ],
       "name": "PomBase",
@@ -18374,6 +18390,10 @@
         {
           "retrieved": "2024-10-01",
           "version": "2024-09-29"
+        },
+        {
+          "retrieved": "2024-10-02",
+          "version": "2024-09-30"
         }
       ],
       "name": "Zebrafish Information Network",

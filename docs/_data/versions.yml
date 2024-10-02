@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-10-01'
-  revision: 798
+  date: '2024-10-02'
+  revision: 799
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -354,6 +354,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.237
     retrieved: '2024-09-02'
     version: 4.4.237
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.238
+    retrieved: '2024-10-02'
+    version: 4.4.238
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -4644,6 +4647,9 @@ database:
   - date: '2024-09-27'
     retrieved: '2024-09-29'
     version: September 27, 2024
+  - date: '2024-09-30'
+    retrieved: '2024-10-02'
+    version: September 30, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5582,6 +5588,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2024-09-01/
     retrieved: '2024-09-02'
     version: '2024-09-01'
+  - date: '2024-10-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2024-10-01/
+    retrieved: '2024-10-02'
+    version: '2024-10-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -10017,6 +10027,8 @@ database:
     version: '2024-09-28'
   - retrieved: '2024-10-01'
     version: '2024-09-29'
+  - retrieved: '2024-10-02'
+    version: '2024-09-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
