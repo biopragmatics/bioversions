@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 799,
-    "date": "2024-10-02",
+    "revision": 800,
+    "date": "2024-10-03",
     "author": "runner"
   },
   "database": [
@@ -3641,6 +3641,10 @@
         {
           "retrieved": "2024-07-25",
           "version": "2024-07-24"
+        },
+        {
+          "retrieved": "2024-10-03",
+          "version": "2024-10-02"
         }
       ],
       "vtype": "date"
@@ -8399,6 +8403,11 @@
           "retrieved": "2024-10-02",
           "version": "September 30, 2024",
           "date": "2024-09-30"
+        },
+        {
+          "retrieved": "2024-10-03",
+          "version": "October 1, 2024",
+          "date": "2024-10-01"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10925,6 +10934,10 @@
         {
           "retrieved": "2024-06-18",
           "version": "89"
+        },
+        {
+          "retrieved": "2024-10-03",
+          "version": "90"
         }
       ],
       "vtype": "sequential"
@@ -11180,6 +11193,11 @@
           "retrieved": "2024-07-25",
           "version": "134",
           "date": "2024-07-24"
+        },
+        {
+          "retrieved": "2024-10-03",
+          "version": "135",
+          "date": "2024-10-02"
         }
       ],
       "vtype": "date"

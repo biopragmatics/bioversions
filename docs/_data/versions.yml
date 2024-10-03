@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-10-02'
-  revision: 799
+  date: '2024-10-03'
+  revision: 800
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2002,6 +2002,8 @@ database:
     version: '2024-05-29'
   - retrieved: '2024-07-25'
     version: '2024-07-24'
+  - retrieved: '2024-10-03'
+    version: '2024-10-02'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -4650,6 +4652,9 @@ database:
   - date: '2024-09-30'
     retrieved: '2024-10-02'
     version: September 30, 2024
+  - date: '2024-10-01'
+    retrieved: '2024-10-03'
+    version: October 1, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6029,6 +6034,8 @@ database:
     version: '88'
   - retrieved: '2024-06-18'
     version: '89'
+  - retrieved: '2024-10-03'
+    version: '90'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -6172,6 +6179,9 @@ database:
   - date: '2024-07-24'
     retrieved: '2024-07-25'
     version: '134'
+  - date: '2024-10-02'
+    retrieved: '2024-10-03'
+    version: '135'
   vtype: date
 - name: Rice ontology
   prefix: co_320
