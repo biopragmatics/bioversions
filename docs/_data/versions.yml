@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-10-03'
-  revision: 800
+  date: '2024-10-04'
+  revision: 801
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2768,6 +2768,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.2.zip
     retrieved: '2024-06-27'
     version: '2024.2'
+  - date: '2024-10-03'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.3.zip
+    retrieved: '2024-10-04'
+    version: '2024.3'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -3246,6 +3250,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/101.0/
     retrieved: '2024-07-30'
     version: '101.0'
+  - date: '2024-10-03'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/102.0/
+    retrieved: '2024-10-04'
+    version: '102.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -3304,6 +3312,8 @@ database:
     version: 26-Jun-2024
   - retrieved: '2024-08-15'
     version: ''
+  - retrieved: '2024-10-04'
+    version: 31-Aug-2023
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -3841,6 +3851,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-09-05
     retrieved: '2024-09-06'
     version: '2024-09-05'
+  - date: '2024-10-03'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-10-03
+    retrieved: '2024-10-04'
+    version: '2024-10-03'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -4655,6 +4669,9 @@ database:
   - date: '2024-10-01'
     retrieved: '2024-10-03'
     version: October 1, 2024
+  - date: '2024-10-02'
+    retrieved: '2024-10-04'
+    version: October 2, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7974,6 +7991,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_04/
     retrieved: '2024-07-26'
     version: '2024_04'
+  - date: '2024-05-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_05/
+    retrieved: '2024-10-04'
+    version: '2024_05'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -10039,6 +10060,8 @@ database:
     version: '2024-09-29'
   - retrieved: '2024-10-02'
     version: '2024-09-30'
+  - retrieved: '2024-10-04'
+    version: '2024-10-02'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
