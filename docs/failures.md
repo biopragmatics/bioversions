@@ -2,5 +2,5 @@
 
 - failed to resolve DisGeNet
 - failed to resolve Antibody Registry
-- failed to resolve National Cancer Institute Thesaurus
+- issue parsing HGNC: max() arg is an empty sequence
 - failed to resolve SwissLipids
