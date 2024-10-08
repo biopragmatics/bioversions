@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 804,
-    "date": "2024-10-07",
+    "revision": 805,
+    "date": "2024-10-08",
     "author": "runner"
   },
   "database": [
@@ -11430,6 +11430,11 @@
           "retrieved": "2024-09-05",
           "version": "2024-09-03",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09032024.zip"
+        },
+        {
+          "retrieved": "2024-10-08",
+          "version": "2024-10-07",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10072024.zip"
         }
       ],
       "name": "RxNorm",
@@ -18475,6 +18480,10 @@
         {
           "retrieved": "2024-10-07",
           "version": "2024-10-05"
+        },
+        {
+          "retrieved": "2024-10-08",
+          "version": "2024-10-06"
         }
       ],
       "name": "Zebrafish Information Network",
