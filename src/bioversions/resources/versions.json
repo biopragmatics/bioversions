@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 806,
-    "date": "2024-10-09",
+    "revision": 807,
+    "date": "2024-10-10",
     "author": "runner"
   },
   "database": [
@@ -8454,6 +8454,11 @@
           "retrieved": "2024-10-09",
           "version": "October 7, 2024",
           "date": "2024-10-07"
+        },
+        {
+          "retrieved": "2024-10-10",
+          "version": "October 8, 2024",
+          "date": "2024-10-08"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9631,6 +9636,11 @@
           "retrieved": "2024-03-25",
           "version": "37.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/"
+        },
+        {
+          "retrieved": "2024-10-10",
+          "version": "37.1",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.1/"
         }
       ],
       "vtype": "semver_minor"
@@ -18493,6 +18503,10 @@
         {
           "retrieved": "2024-10-09",
           "version": "2024-10-07"
+        },
+        {
+          "retrieved": "2024-10-10",
+          "version": "2024-10-08"
         }
       ],
       "name": "Zebrafish Information Network",

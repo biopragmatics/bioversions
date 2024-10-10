@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-10-09'
-  revision: 806
+  date: '2024-10-10'
+  revision: 807
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4683,6 +4683,9 @@ database:
   - date: '2024-10-07'
     retrieved: '2024-10-09'
     version: October 7, 2024
+  - date: '2024-10-08'
+    retrieved: '2024-10-10'
+    version: October 8, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5323,6 +5326,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/
     retrieved: '2024-03-25'
     version: '37.0'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.1/
+    retrieved: '2024-10-10'
+    version: '37.1'
   vtype: semver_minor
 - name: Phenotype And Trait Ontology
   prefix: pato
@@ -10086,6 +10092,8 @@ database:
     version: '2024-10-06'
   - retrieved: '2024-10-09'
     version: '2024-10-07'
+  - retrieved: '2024-10-10'
+    version: '2024-10-08'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
