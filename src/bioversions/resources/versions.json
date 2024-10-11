@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 807,
-    "date": "2024-10-10",
+    "revision": 808,
+    "date": "2024-10-11",
     "author": "runner"
   },
   "database": [
@@ -8459,6 +8459,11 @@
           "retrieved": "2024-10-10",
           "version": "October 8, 2024",
           "date": "2024-10-08"
+        },
+        {
+          "retrieved": "2024-10-11",
+          "version": "October 9, 2024",
+          "date": "2024-10-09"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15308,6 +15313,12 @@
           "version": "20240910",
           "homepage": "http://data.wikipathways.org/20240910/",
           "date": "2024-09-10"
+        },
+        {
+          "retrieved": "2024-10-11",
+          "version": "20241010",
+          "homepage": "http://data.wikipathways.org/20241010/",
+          "date": "2024-10-10"
         }
       ],
       "vtype": "date"
@@ -18507,6 +18518,10 @@
         {
           "retrieved": "2024-10-10",
           "version": "2024-10-08"
+        },
+        {
+          "retrieved": "2024-10-11",
+          "version": "2024-10-09"
         }
       ],
       "name": "Zebrafish Information Network",
