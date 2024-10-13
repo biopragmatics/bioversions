@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 809,
-    "date": "2024-10-12",
+    "revision": 810,
+    "date": "2024-10-13",
     "author": "runner"
   },
   "database": [
@@ -78,6 +78,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024/06"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024/09"
         }
       ],
       "vtype": "date"
@@ -285,6 +289,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-08-03"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-18"
         }
       ],
       "vtype": "date"
@@ -898,6 +906,10 @@
         {
           "retrieved": "2024-04-13",
           "version": "2024-04-09"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-26"
         }
       ],
       "name": "C. elegans development ontology",
@@ -951,6 +963,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-07-01"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-24"
         }
       ],
       "vtype": "date"
@@ -1032,6 +1048,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "2024-06-05"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-26"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1237,6 +1257,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "2024-08-16"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-26"
         }
       ],
       "prefix": "cl",
@@ -1819,6 +1843,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "2.224"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2.227"
         }
       ],
       "vtype": "date"
@@ -2184,6 +2212,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2023-11-16"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-20"
         }
       ],
       "vtype": "date"
@@ -2424,6 +2456,10 @@
         {
           "retrieved": "2024-06-23",
           "version": "2024c_20240617"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024d_20240922"
         }
       ],
       "vtype": "other"
@@ -3181,6 +3217,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "17-07-2019"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "1.25-20240924T0027Z-unstable(1.26)"
         }
       ],
       "vtype": "date"
@@ -3760,6 +3800,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "4.179"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "4.184"
         }
       ],
       "vtype": "date"
@@ -3911,6 +3955,10 @@
         {
           "retrieved": "2024-08-18",
           "version": "3.69.0"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "3.70.0"
         }
       ],
       "vtype": "semver"
@@ -4199,6 +4247,10 @@
         {
           "retrieved": "2024-09-08",
           "version": "2024-09-02"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-10-07"
         }
       ],
       "vtype": "date"
@@ -4925,6 +4977,10 @@
         {
           "retrieved": "2024-05-26",
           "version": "2024-05-21"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-26"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -6281,6 +6337,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-08"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-18"
         }
       ],
       "vtype": "date"
@@ -6357,6 +6417,10 @@
         {
           "retrieved": "2024-09-08",
           "version": "4.1.173"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "4.1.179"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -6464,6 +6528,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "2.138"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2.141"
         }
       ],
       "vtype": "date"
@@ -7153,6 +7221,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-08-06"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-10-01"
         }
       ],
       "vtype": "date"
@@ -7679,6 +7751,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-10-05"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-08-27"
         }
       ],
       "name": "Next Generation Biobanking Ontology",
@@ -8469,6 +8545,11 @@
           "retrieved": "2024-10-12",
           "version": "October 10, 2024",
           "date": "2024-10-10"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "October 11, 2024",
+          "date": "2024-10-11"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -8916,6 +8997,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-06-27"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-12"
         }
       ],
       "vtype": "date"
@@ -9119,6 +9204,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2024-01-25"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-30"
         }
       ],
       "name": "Ontology of Organizational Structures of Trauma centers and Trauma systems",
@@ -9737,6 +9826,10 @@
         {
           "retrieved": "2024-04-06",
           "version": "2024-03-28"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-04"
         }
       ],
       "prefix": "pato",
@@ -10929,6 +11022,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "6.230"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "6.235"
         }
       ],
       "vtype": "date"
@@ -14139,6 +14236,10 @@
         {
           "retrieved": "2024-08-18",
           "version": "2024-08-06"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-17"
         }
       ],
       "vtype": "date"
@@ -14213,6 +14314,10 @@
         {
           "retrieved": "2024-08-18",
           "version": "2024-08-07"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-04"
         }
       ],
       "vtype": "date"
@@ -14507,6 +14612,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-08-07"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-03"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -14568,6 +14677,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2017-10-31"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-04"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -14861,6 +14974,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-11"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-22"
         }
       ],
       "vtype": "semver"
@@ -15003,6 +15120,10 @@
         {
           "retrieved": "2024-08-18",
           "version": "2024-08-13"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-10-02"
         }
       ],
       "vtype": "date"
@@ -15362,6 +15483,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "2024-08-23"
+        },
+        {
+          "retrieved": "2024-10-13",
+          "version": "2024-09-03"
         }
       ],
       "vtype": "date"
