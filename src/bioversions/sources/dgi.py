@@ -21,7 +21,7 @@ class DGIGetter(Getter):
     def get(self):
         """Get the latest DGI version number."""
         res = requests.get(GITHUB_PAGE)
-        soup = bs4.BeautifulSoup(res.content)
+        soup = bs4.BeautifulSoup(res.content, features="html.parser")
         time_tag = soup.find("relative-time")
         if time_tag is None:
             raise ValueError
