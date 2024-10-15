@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 812,
+    "revision": 813,
     "date": "2024-10-15",
-    "author": "runner"
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -82,6 +82,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024/09"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024/06"
         }
       ],
       "vtype": "date"
@@ -293,6 +297,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-18"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-03"
         }
       ],
       "vtype": "date"
@@ -910,6 +918,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-26"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-04-09"
         }
       ],
       "name": "C. elegans development ontology",
@@ -967,6 +979,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-24"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-07-01"
         }
       ],
       "vtype": "date"
@@ -1052,6 +1068,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-26"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-06-05"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1261,6 +1281,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-26"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-16"
         }
       ],
       "prefix": "cl",
@@ -1847,6 +1871,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2.227"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2.224"
         }
       ],
       "vtype": "date"
@@ -2216,6 +2244,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-20"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2023-11-16"
         }
       ],
       "vtype": "date"
@@ -2460,6 +2492,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024d_20240922"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024c_20240617"
         }
       ],
       "vtype": "other"
@@ -3804,6 +3840,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "4.184"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "4.179"
         }
       ],
       "vtype": "date"
@@ -3959,6 +3999,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "3.70.0"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "3.69.0"
         }
       ],
       "vtype": "semver"
@@ -4251,6 +4295,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-10-07"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-09-02"
         }
       ],
       "vtype": "date"
@@ -4981,6 +5029,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-26"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-05-21"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -5213,6 +5265,11 @@
           "retrieved": "2024-08-24",
           "version": "2024-08-23",
           "homepage": "http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/json/hgnc_complete_set_2024-08-23.json"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-10-01",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2024-10-01.json"
         }
       ],
       "name": "HGNC",
@@ -6341,6 +6398,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-18"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-08"
         }
       ],
       "vtype": "date"
@@ -6421,6 +6482,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "4.1.179"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "4.1.173"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -6532,6 +6597,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2.141"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2.138"
         }
       ],
       "vtype": "date"
@@ -7225,6 +7294,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-10-01"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-06"
         }
       ],
       "vtype": "date"
@@ -7755,6 +7828,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-08-27"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2022-10-05"
         }
       ],
       "name": "Next Generation Biobanking Ontology",
@@ -8550,6 +8627,11 @@
           "retrieved": "2024-10-13",
           "version": "October 11, 2024",
           "date": "2024-10-11"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "October 14, 2024",
+          "date": "2024-10-14"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9001,6 +9083,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-12"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-06-27"
         }
       ],
       "vtype": "date"
@@ -9208,6 +9294,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-30"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-01-25"
         }
       ],
       "name": "Ontology of Organizational Structures of Trauma centers and Trauma systems",
@@ -9830,6 +9920,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-04"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-03-28"
         }
       ],
       "prefix": "pato",
@@ -11026,6 +11120,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "6.235"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "6.230"
         }
       ],
       "vtype": "date"
@@ -14240,6 +14338,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-17"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-06"
         }
       ],
       "vtype": "date"
@@ -14318,6 +14420,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-04"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-07"
         }
       ],
       "vtype": "date"
@@ -14616,6 +14722,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-03"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-07"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -14681,6 +14791,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-04"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2017-10-31"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -14978,6 +15092,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-22"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-11"
         }
       ],
       "vtype": "semver"
@@ -15124,6 +15242,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-10-02"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-13"
         }
       ],
       "vtype": "date"
@@ -15487,6 +15609,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "2024-09-03"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-08-23"
         }
       ],
       "vtype": "date"
@@ -18664,6 +18790,10 @@
         {
           "retrieved": "2024-10-15",
           "version": "2024-10-13"
+        },
+        {
+          "retrieved": "2024-10-15",
+          "version": "2024-10-14"
         }
       ],
       "name": "Zebrafish Information Network",
