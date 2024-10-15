@@ -7,6 +7,7 @@ import sys
 from datetime import datetime
 
 import click
+from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 from bioversions.resources import (
@@ -83,7 +84,7 @@ def _update(force: bool):
             v["releases"].append(append_dict)
 
     if not changes and not force:
-        click.secho(f"No changes to {EXPORT_PATH}", fg="yellow", bold=True)
+        tqdm.write(click.style(f"No changes to {EXPORT_PATH}", fg="yellow", bold=True))
     else:
         rv_database = sorted(versions.values(), key=lambda version: version["name"].lower())
         rv = {
@@ -94,7 +95,7 @@ def _update(force: bool):
             },
             "database": rv_database,
         }
-        click.secho(f"Writing new {EXPORT_PATH}", fg="green", bold=True)
+        tqdm.write(click.style(f"Writing new {EXPORT_PATH}", fg="green", bold=True))
         write_export(rv)
         write_versions(rv)
 
@@ -106,7 +107,7 @@ def _log_update(bv) -> None:
     if bv.homepage:
         text += f". See {bv.homepage}"
 
-    click.secho(text, fg="green", bold=True)
+    tqdm.write(click.style(text, fg="green", bold=True))
 
     try:
         from .. import slack_client
