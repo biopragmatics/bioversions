@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 814,
-    "date": "2024-10-16",
+    "revision": 815,
+    "date": "2024-10-17",
     "author": "runner"
   },
   "database": [
@@ -8704,6 +8704,11 @@
           "retrieved": "2024-10-15",
           "version": "October 14, 2024",
           "date": "2024-10-14"
+        },
+        {
+          "retrieved": "2024-10-17",
+          "version": "October 15, 2024",
+          "date": "2024-10-15"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -18910,6 +18915,10 @@
         {
           "retrieved": "2024-10-15",
           "version": "2024-10-14"
+        },
+        {
+          "retrieved": "2024-10-17",
+          "version": "2024-10-15"
         }
       ],
       "name": "Zebrafish Information Network",
