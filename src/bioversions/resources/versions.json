@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 820,
-    "date": "2024-10-22",
+    "revision": 821,
+    "date": "2024-10-23",
     "author": "runner"
   },
   "database": [
@@ -7757,6 +7757,11 @@
           "retrieved": "2024-08-21",
           "version": "24.07e",
           "date": "2024-07-29"
+        },
+        {
+          "retrieved": "2024-10-23",
+          "version": "24.08d",
+          "date": "2024-08-26"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -8735,6 +8740,11 @@
           "retrieved": "2024-10-20",
           "version": "October 18, 2024",
           "date": "2024-10-18"
+        },
+        {
+          "retrieved": "2024-10-23",
+          "version": "October 21, 2024",
+          "date": "2024-10-21"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -18969,6 +18979,10 @@
         {
           "retrieved": "2024-10-22",
           "version": "2024-10-20"
+        },
+        {
+          "retrieved": "2024-10-23",
+          "version": "2024-10-21"
         }
       ],
       "name": "Zebrafish Information Network",
