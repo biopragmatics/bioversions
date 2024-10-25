@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-10-24'
-  revision: 822
+  date: '2024-10-25'
+  revision: 823
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4839,6 +4839,9 @@ database:
   - date: '2024-10-22'
     retrieved: '2024-10-24'
     version: October 22, 2024
+  - date: '2024-10-23'
+    retrieved: '2024-10-25'
+    version: October 23, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -10345,6 +10348,8 @@ database:
     version: '2024-10-21'
   - retrieved: '2024-10-24'
     version: '2024-10-22'
+  - retrieved: '2024-10-25'
+    version: '2024-10-23'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
