@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 824,
-    "date": "2024-10-26",
+    "revision": 825,
+    "date": "2024-10-27",
     "author": "runner"
   },
   "database": [
@@ -1903,6 +1903,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2.227"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2.228"
         }
       ],
       "vtype": "date"
@@ -2205,6 +2209,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-13"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-21"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -2947,6 +2955,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-07"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-17"
         }
       ],
       "name": "Drosophila development",
@@ -3022,6 +3034,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-08"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-17"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -3113,6 +3129,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-08"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-17"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -3890,6 +3910,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "4.184"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "4.186"
         }
       ],
       "vtype": "date"
@@ -4053,6 +4077,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "3.70.0"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "3.71.0"
         }
       ],
       "vtype": "semver"
@@ -4353,6 +4381,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-10-07"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-14"
         }
       ],
       "vtype": "date"
@@ -4561,6 +4593,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-08"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-17"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -6469,6 +6505,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-18"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-17"
         }
       ],
       "vtype": "date"
@@ -6557,6 +6597,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "4.1.179"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "4.1.181"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -8760,6 +8804,11 @@
           "retrieved": "2024-10-26",
           "version": "October 24, 2024",
           "date": "2024-10-24"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "October 25, 2024",
+          "date": "2024-10-25"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -8884,6 +8933,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "2024-06-10"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-03"
         }
       ],
       "vtype": "date"
@@ -9891,6 +9944,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "7.85"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "7.86"
         }
       ],
       "name": "Pathway ontology",
@@ -10583,6 +10640,10 @@
         {
           "retrieved": "2024-09-08",
           "version": "2.1.2"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2.1.4"
         }
       ],
       "name": "PRIDE Controlled Vocabulary",
@@ -15418,6 +15479,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-10-02"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-16"
         }
       ],
       "vtype": "date"
@@ -19010,6 +19075,10 @@
         {
           "retrieved": "2024-10-26",
           "version": "2024-10-24"
+        },
+        {
+          "retrieved": "2024-10-27",
+          "version": "2024-10-25"
         }
       ],
       "name": "Zebrafish Information Network",

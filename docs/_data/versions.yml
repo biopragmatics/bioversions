@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-10-26'
-  revision: 824
+  date: '2024-10-27'
+  revision: 825
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1034,6 +1034,8 @@ database:
     version: '2.224'
   - retrieved: '2024-10-16'
     version: '2.227'
+  - retrieved: '2024-10-27'
+    version: '2.228'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1203,6 +1205,8 @@ database:
     version: '2024-06-21'
   - retrieved: '2024-08-17'
     version: '2024-08-13'
+  - retrieved: '2024-10-27'
+    version: '2024-10-21'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -1625,6 +1629,8 @@ database:
     version: '2024-06-13'
   - retrieved: '2024-08-17'
     version: '2024-08-07'
+  - retrieved: '2024-10-27'
+    version: '2024-10-17'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1663,6 +1669,8 @@ database:
     version: '2024-06-13'
   - retrieved: '2024-08-17'
     version: '2024-08-08'
+  - retrieved: '2024-10-27'
+    version: '2024-10-17'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1709,6 +1717,8 @@ database:
     version: '2024-06-13'
   - retrieved: '2024-08-17'
     version: '2024-08-08'
+  - retrieved: '2024-10-27'
+    version: '2024-10-17'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -2128,6 +2138,8 @@ database:
     version: '4.179'
   - retrieved: '2024-10-16'
     version: '4.184'
+  - retrieved: '2024-10-27'
+    version: '4.186'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2210,6 +2222,8 @@ database:
     version: 3.69.0
   - retrieved: '2024-10-16'
     version: 3.70.0
+  - retrieved: '2024-10-27'
+    version: 3.71.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2362,6 +2376,8 @@ database:
     version: '2024-09-02'
   - retrieved: '2024-10-16'
     version: '2024-10-07'
+  - retrieved: '2024-10-27'
+    version: '2024-10-14'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2478,6 +2494,8 @@ database:
     version: '2024-06-13'
   - retrieved: '2024-08-17'
     version: '2024-08-08'
+  - retrieved: '2024-10-27'
+    version: '2024-10-17'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -3564,6 +3582,8 @@ database:
     version: '2024-08-08'
   - retrieved: '2024-10-16'
     version: '2024-09-18'
+  - retrieved: '2024-10-27'
+    version: '2024-10-17'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -3610,6 +3630,8 @@ database:
     version: 4.1.173
   - retrieved: '2024-10-16'
     version: 4.1.179
+  - retrieved: '2024-10-27'
+    version: 4.1.181
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4845,6 +4867,9 @@ database:
   - date: '2024-10-24'
     retrieved: '2024-10-26'
     version: October 24, 2024
+  - date: '2024-10-25'
+    retrieved: '2024-10-27'
+    version: October 25, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4909,6 +4934,8 @@ database:
     version: '2024-01-09'
   - retrieved: '2024-06-16'
     version: '2024-06-10'
+  - retrieved: '2024-10-27'
+    version: '2024-10-03'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -5459,6 +5486,8 @@ database:
     version: '7.84'
   - retrieved: '2024-08-11'
     version: '7.85'
+  - retrieved: '2024-10-27'
+    version: '7.86'
   vtype: date
 - name: PATO
   prefix: pato
@@ -5850,6 +5879,8 @@ database:
   releases:
   - retrieved: '2024-09-08'
     version: 2.1.2
+  - retrieved: '2024-10-27'
+    version: 2.1.4
   vtype: date
 - name: Probability Distribution Ontology
   prefix: probonto
@@ -8374,6 +8405,8 @@ database:
     version: '2024-08-13'
   - retrieved: '2024-10-16'
     version: '2024-10-02'
+  - retrieved: '2024-10-27'
+    version: '2024-10-16'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -10355,6 +10388,8 @@ database:
     version: '2024-10-23'
   - retrieved: '2024-10-26'
     version: '2024-10-24'
+  - retrieved: '2024-10-27'
+    version: '2024-10-25'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
