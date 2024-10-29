@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 826,
-    "date": "2024-10-28",
+    "revision": 827,
+    "date": "2024-10-29",
     "author": "runner"
   },
   "database": [
@@ -309,6 +309,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-18"
+        },
+        {
+          "retrieved": "2024-10-29",
+          "version": "2024-10-23"
         }
       ],
       "vtype": "date"
@@ -11019,6 +11023,10 @@
         {
           "retrieved": "2024-06-16",
           "version": "2024-05-31"
+        },
+        {
+          "retrieved": "2024-10-29",
+          "version": "2024-10-23"
         }
       ],
       "vtype": "date"
@@ -11244,6 +11252,10 @@
         {
           "retrieved": "2024-10-22",
           "version": "2024-10-18"
+        },
+        {
+          "retrieved": "2024-10-29",
+          "version": "2024-10-25"
         }
       ],
       "name": "Rat Genome Database",
@@ -19083,6 +19095,10 @@
         {
           "retrieved": "2024-10-28",
           "version": "2024-10-26"
+        },
+        {
+          "retrieved": "2024-10-29",
+          "version": "2024-10-27"
         }
       ],
       "name": "Zebrafish Information Network",
