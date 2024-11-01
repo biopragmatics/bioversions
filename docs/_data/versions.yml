@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-10-31'
-  revision: 829
+  date: '2024-11-01'
+  revision: 830
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4878,6 +4878,9 @@ database:
   - date: '2024-10-29'
     retrieved: '2024-10-31'
     version: October 29, 2024
+  - date: '2024-10-30'
+    retrieved: '2024-11-01'
+    version: October 30, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6066,6 +6069,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-10-01
     retrieved: '2024-10-01'
     version: '2024-10-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-11-01
+    retrieved: '2024-11-01'
+    version: '2024-11-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
