@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 830,
-    "date": "2024-11-01",
+    "revision": 831,
+    "date": "2024-11-02",
     "author": "runner"
   },
   "database": [
@@ -676,6 +676,11 @@
           "retrieved": "2024-10-02",
           "version": "4.4.238",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.238"
+        },
+        {
+          "retrieved": "2024-11-02",
+          "version": "4.4.239",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.239"
         }
       ],
       "vtype": "semver"
@@ -1788,6 +1793,10 @@
         {
           "retrieved": "2024-10-01",
           "version": "01-Oct-2024"
+        },
+        {
+          "retrieved": "2024-11-02",
+          "version": "01-Nov-2024"
         }
       ],
       "name": "CiVIC",
@@ -2852,6 +2861,12 @@
           "version": "2024-09-27",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-09-27",
           "date": "2024-09-27"
+        },
+        {
+          "retrieved": "2024-11-02",
+          "version": "2024-11-01",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-11-01",
+          "date": "2024-11-01"
         }
       ],
       "vtype": "date"
@@ -8828,6 +8843,11 @@
           "retrieved": "2024-11-01",
           "version": "October 30, 2024",
           "date": "2024-10-30"
+        },
+        {
+          "retrieved": "2024-11-02",
+          "version": "October 31, 2024",
+          "date": "2024-10-31"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10581,6 +10601,12 @@
           "version": "2024-10-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-10-01/",
           "date": "2024-10-01"
+        },
+        {
+          "retrieved": "2024-11-02",
+          "version": "2024-11-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-11-01/",
+          "date": "2024-11-01"
         }
       ],
       "name": "PomBase",
@@ -19127,6 +19153,10 @@
         {
           "retrieved": "2024-10-31",
           "version": "2024-10-29"
+        },
+        {
+          "retrieved": "2024-11-02",
+          "version": "2024-10-31"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-11-01'
-  revision: 830
+  date: '2024-11-02'
+  revision: 831
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -371,6 +371,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.238
     retrieved: '2024-10-02'
     version: 4.4.238
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.239
+    retrieved: '2024-11-02'
+    version: 4.4.239
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -976,6 +979,8 @@ database:
     version: 01-Sep-2024
   - retrieved: '2024-10-01'
     version: 01-Oct-2024
+  - retrieved: '2024-11-02'
+    version: 01-Nov-2024
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -1575,6 +1580,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-09-27
     retrieved: '2024-09-28'
     version: '2024-09-27'
+  - date: '2024-11-01'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-11-01
+    retrieved: '2024-11-02'
+    version: '2024-11-01'
   vtype: date
 - name: DisGeNet
   releases:
@@ -4881,6 +4890,9 @@ database:
   - date: '2024-10-30'
     retrieved: '2024-11-01'
     version: October 30, 2024
+  - date: '2024-10-31'
+    retrieved: '2024-11-02'
+    version: October 31, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5848,6 +5860,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2024-10-01/
     retrieved: '2024-10-02'
     version: '2024-10-01'
+  - date: '2024-11-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2024-11-01/
+    retrieved: '2024-11-02'
+    version: '2024-11-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -10416,6 +10432,8 @@ database:
     version: '2024-10-28'
   - retrieved: '2024-10-31'
     version: '2024-10-29'
+  - retrieved: '2024-11-02'
+    version: '2024-10-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
