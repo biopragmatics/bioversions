@@ -4,8 +4,9 @@
 
 from typing import Mapping
 
-from bioversions.utils import Getter, VersionType, get_soup
 import bioregistry
+
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     "KEGGGetter",

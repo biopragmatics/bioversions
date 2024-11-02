@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for HGNC."""
 
 import datetime
@@ -32,11 +30,17 @@ class HGNCGetter(Getter):
     def get(self) -> str:
         """Get the latest HGNC version number."""
         today = datetime.date.today()
+        this_year = int(today.strftime("%Y"))
+        this_month = int(today.strftime("%m"))
         maybe = today.strftime("%Y-%m-01")
         res = requests.head(self.homepage_fmt.format(version=maybe))
         if res.status_code == 200:
             return maybe
-        raise ValueError(f"HGNC hasn't posted new data for this month under version {maybe}")
+        if this_month == 1:
+            maybe_last_month = f"{this_year - 1}-12-01"
+        else:
+            maybe_last_month = f"{this_year}-{this_month - 1}-01"
+        return maybe_last_month
 
 
 if __name__ == "__main__":
