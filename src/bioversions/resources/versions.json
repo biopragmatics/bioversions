@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 832,
-    "date": "2024-11-03",
+    "revision": 833,
+    "date": "2024-11-04",
     "author": "runner"
   },
   "database": [
@@ -8861,6 +8861,11 @@
           "retrieved": "2024-11-03",
           "version": "November 1, 2024",
           "date": "2024-11-01"
+        },
+        {
+          "retrieved": "2024-11-04",
+          "version": "November 2, 2024",
+          "date": "2024-11-02"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14376,6 +14381,10 @@
         {
           "retrieved": "2024-06-12",
           "version": "2024-06-12"
+        },
+        {
+          "retrieved": "2024-11-04",
+          "version": "2024-11-04"
         }
       ],
       "name": "SwissLipids",
@@ -19174,6 +19183,10 @@
         {
           "retrieved": "2024-11-03",
           "version": "2024-11-01"
+        },
+        {
+          "retrieved": "2024-11-04",
+          "version": "2024-11-02"
         }
       ],
       "name": "Zebrafish Information Network",
