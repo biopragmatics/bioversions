@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 833,
-    "date": "2024-11-04",
+    "revision": 834,
+    "date": "2024-11-05",
     "author": "runner"
   },
   "database": [
@@ -7833,6 +7833,11 @@
           "retrieved": "2024-10-23",
           "version": "24.08d",
           "date": "2024-08-26"
+        },
+        {
+          "retrieved": "2024-11-05",
+          "version": "24.09e",
+          "date": "2024-09-30"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -11320,6 +11325,10 @@
         {
           "retrieved": "2024-10-29",
           "version": "2024-10-25"
+        },
+        {
+          "retrieved": "2024-11-05",
+          "version": "2024-11-01"
         }
       ],
       "name": "Rat Genome Database",
@@ -11940,6 +11949,11 @@
           "retrieved": "2024-10-08",
           "version": "2024-10-07",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10072024.zip"
+        },
+        {
+          "retrieved": "2024-11-05",
+          "version": "2024-11-04",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_11042024.zip"
         }
       ],
       "name": "RxNorm",
@@ -14385,6 +14399,10 @@
         {
           "retrieved": "2024-11-04",
           "version": "2024-11-04"
+        },
+        {
+          "retrieved": "2024-11-05",
+          "version": "2024-11-05"
         }
       ],
       "name": "SwissLipids",
@@ -15073,6 +15091,10 @@
         {
           "retrieved": "2024-05-07",
           "version": "2024AA"
+        },
+        {
+          "retrieved": "2024-11-05",
+          "version": "2024AB"
         }
       ],
       "name": "UMLS",
@@ -19187,6 +19209,10 @@
         {
           "retrieved": "2024-11-04",
           "version": "2024-11-02"
+        },
+        {
+          "retrieved": "2024-11-05",
+          "version": "2024-11-03"
         }
       ],
       "name": "Zebrafish Information Network",
