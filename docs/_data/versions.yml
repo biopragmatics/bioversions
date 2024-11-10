@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-11-09'
-  revision: 838
+  date: '2024-11-10'
+  revision: 839
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1853,6 +1853,8 @@ database:
     version: '2021-11-17'
   - retrieved: '2023-05-11'
     version: '2022-07-19'
+  - retrieved: '2024-11-10'
+    version: '2024-10-31'
   vtype: date
 - name: eNanoMapper Ontology
   prefix: enm
@@ -3648,6 +3650,8 @@ database:
     version: 4.1.179
   - retrieved: '2024-10-27'
     version: 4.1.181
+  - retrieved: '2024-11-10'
+    version: 4.1.184
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4095,6 +4099,8 @@ database:
     version: '2024-08-06'
   - retrieved: '2024-10-16'
     version: '2024-10-01'
+  - retrieved: '2024-11-10'
+    version: '2024-11-05'
   vtype: date
 - name: MOP
   prefix: mop
@@ -4925,6 +4931,9 @@ database:
   - date: '2024-11-07'
     retrieved: '2024-11-09'
     version: November 7, 2024
+  - date: '2024-11-08'
+    retrieved: '2024-11-10'
+    version: November 8, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -4991,6 +5000,8 @@ database:
     version: '2024-06-10'
   - retrieved: '2024-10-27'
     version: '2024-10-03'
+  - retrieved: '2024-11-10'
+    version: '2024-10-25'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -7862,6 +7873,8 @@ database:
     version: '2024-11-08'
   - retrieved: '2024-11-09'
     version: '2024-11-09'
+  - retrieved: '2024-11-10'
+    version: '2024-11-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8237,6 +8250,8 @@ database:
     version: '2017-10-31'
   - retrieved: '2024-10-16'
     version: '2024-09-04'
+  - retrieved: '2024-11-10'
+    version: '2024-11-02'
   vtype: date
 - name: Unified phenotype ontology (uPheno)
   prefix: upheno
@@ -8442,6 +8457,8 @@ database:
     version: '2024-05-22'
   - retrieved: '2024-08-18'
     version: '2024-08-14'
+  - retrieved: '2024-11-10'
+    version: '2024-11-06'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -8492,6 +8509,8 @@ database:
     version: '2024-10-02'
   - retrieved: '2024-10-27'
     version: '2024-10-16'
+  - retrieved: '2024-11-10'
+    version: '2024-11-05'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -10497,6 +10516,8 @@ database:
     version: '2024-11-05'
   - retrieved: '2024-11-09'
     version: '2024-11-07'
+  - retrieved: '2024-11-10'
+    version: '2024-11-08'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

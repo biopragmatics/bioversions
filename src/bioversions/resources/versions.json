@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 838,
-    "date": "2024-11-09",
+    "revision": 839,
+    "date": "2024-11-10",
     "author": "runner"
   },
   "database": [
@@ -3372,6 +3372,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-07-19"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-10-31"
         }
       ],
       "vtype": "date"
@@ -6629,6 +6633,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "4.1.181"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "4.1.184"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -7459,6 +7467,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-10-01"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-11-05"
         }
       ],
       "vtype": "date"
@@ -8902,6 +8914,11 @@
           "retrieved": "2024-11-09",
           "version": "November 7, 2024",
           "date": "2024-11-07"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "November 8, 2024",
+          "date": "2024-11-08"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9030,6 +9047,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-03"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-10-25"
         }
       ],
       "vtype": "date"
@@ -14450,6 +14471,10 @@
         {
           "retrieved": "2024-11-09",
           "version": "2024-11-09"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-11-10"
         }
       ],
       "name": "SwissLipids",
@@ -15169,6 +15194,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-04"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-11-02"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -15533,6 +15562,10 @@
         {
           "retrieved": "2024-08-18",
           "version": "2024-08-14"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-11-06"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -15632,6 +15665,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-16"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-11-05"
         }
       ],
       "vtype": "date"
@@ -19272,6 +19309,10 @@
         {
           "retrieved": "2024-11-09",
           "version": "2024-11-07"
+        },
+        {
+          "retrieved": "2024-11-10",
+          "version": "2024-11-08"
         }
       ],
       "name": "Zebrafish Information Network",
