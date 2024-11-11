@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-11-10'
-  revision: 839
+  date: '2024-11-11'
+  revision: 840
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -7875,6 +7875,8 @@ database:
     version: '2024-11-09'
   - retrieved: '2024-11-10'
     version: '2024-11-10'
+  - retrieved: '2024-11-11'
+    version: '2024-11-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8712,6 +8714,10 @@ database:
     homepage: http://data.wikipathways.org/20241010/
     retrieved: '2024-10-11'
     version: '20241010'
+  - date: '2024-11-10'
+    homepage: http://data.wikipathways.org/20241110/
+    retrieved: '2024-11-11'
+    version: '20241110'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -10518,6 +10524,8 @@ database:
     version: '2024-11-07'
   - retrieved: '2024-11-10'
     version: '2024-11-08'
+  - retrieved: '2024-11-11'
+    version: '2024-11-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
