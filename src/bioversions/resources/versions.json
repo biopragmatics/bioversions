@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 842,
-    "date": "2024-11-13",
+    "revision": 843,
+    "date": "2024-11-14",
     "author": "runner"
   },
   "database": [
@@ -7867,6 +7867,11 @@
           "retrieved": "2024-11-05",
           "version": "24.09e",
           "date": "2024-09-30"
+        },
+        {
+          "retrieved": "2024-11-14",
+          "version": "24.10d",
+          "date": "2024-10-28"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -8930,6 +8935,11 @@
           "retrieved": "2024-11-13",
           "version": "November 11, 2024",
           "date": "2024-11-11"
+        },
+        {
+          "retrieved": "2024-11-14",
+          "version": "November 12, 2024",
+          "date": "2024-11-12"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14502,6 +14512,10 @@
         {
           "retrieved": "2024-11-13",
           "version": "2024-11-13"
+        },
+        {
+          "retrieved": "2024-11-14",
+          "version": "2024-11-14"
         }
       ],
       "name": "SwissLipids",
@@ -19358,6 +19372,10 @@
         {
           "retrieved": "2024-11-13",
           "version": "2024-11-11"
+        },
+        {
+          "retrieved": "2024-11-14",
+          "version": "2024-11-12"
         }
       ],
       "name": "Zebrafish Information Network",
