@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 845,
-    "date": "2024-11-16",
+    "revision": 846,
+    "date": "2024-11-17",
     "author": "runner"
   },
   "database": [
@@ -1925,6 +1925,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2.228"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2.229"
         }
       ],
       "vtype": "date"
@@ -2231,6 +2235,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-21"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2024-11-12"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -3942,6 +3950,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "4.186"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "4.187"
         }
       ],
       "vtype": "date"
@@ -4417,6 +4429,10 @@
         {
           "retrieved": "2024-11-03",
           "version": "2024-10-28"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2024-11-12"
         }
       ],
       "vtype": "date"
@@ -6547,6 +6563,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-17"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2024-11-12"
         }
       ],
       "vtype": "date"
@@ -6643,6 +6663,10 @@
         {
           "retrieved": "2024-11-10",
           "version": "4.1.184"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "4.1.185"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -8164,6 +8188,10 @@
         {
           "retrieved": "2023-11-08",
           "version": "2023-11-02"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2024-11-13"
         }
       ],
       "vtype": "date"
@@ -8950,6 +8978,11 @@
           "retrieved": "2024-11-16",
           "version": "November 14, 2024",
           "date": "2024-11-14"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "November 15, 2024",
+          "date": "2024-11-15"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10266,6 +10299,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-04"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2024-11-11"
         }
       ],
       "prefix": "pato",
@@ -10795,6 +10832,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2.1.4"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2.1.5"
         }
       ],
       "name": "PRIDE Controlled Vocabulary",
@@ -11505,6 +11546,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "6.235"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "6.236"
         }
       ],
       "vtype": "date"
@@ -14534,6 +14579,10 @@
         {
           "retrieved": "2024-11-16",
           "version": "2024-11-16"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2024-11-17"
         }
       ],
       "name": "SwissLipids",
@@ -19402,6 +19451,10 @@
         {
           "retrieved": "2024-11-16",
           "version": "2024-11-14"
+        },
+        {
+          "retrieved": "2024-11-17",
+          "version": "2024-11-15"
         }
       ],
       "name": "Zebrafish Information Network",

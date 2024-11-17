@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-11-16'
-  revision: 845
+  date: '2024-11-17'
+  revision: 846
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1046,6 +1046,8 @@ database:
     version: '2.227'
   - retrieved: '2024-10-27'
     version: '2.228'
+  - retrieved: '2024-11-17'
+    version: '2.229'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1217,6 +1219,8 @@ database:
     version: '2024-08-13'
   - retrieved: '2024-10-27'
     version: '2024-10-21'
+  - retrieved: '2024-11-17'
+    version: '2024-11-12'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -2156,6 +2160,8 @@ database:
     version: '4.184'
   - retrieved: '2024-10-27'
     version: '4.186'
+  - retrieved: '2024-11-17'
+    version: '4.187'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2396,6 +2402,8 @@ database:
     version: '2024-10-14'
   - retrieved: '2024-11-03'
     version: '2024-10-28'
+  - retrieved: '2024-11-17'
+    version: '2024-11-12'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3606,6 +3614,8 @@ database:
     version: '2024-09-18'
   - retrieved: '2024-10-27'
     version: '2024-10-17'
+  - retrieved: '2024-11-17'
+    version: '2024-11-12'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -3656,6 +3666,8 @@ database:
     version: 4.1.181
   - retrieved: '2024-11-10'
     version: 4.1.184
+  - retrieved: '2024-11-17'
+    version: 4.1.185
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4484,6 +4496,8 @@ database:
     version: '2023-10-12'
   - retrieved: '2023-11-08'
     version: '2023-11-02'
+  - retrieved: '2024-11-17'
+    version: '2024-11-13'
   vtype: date
 - name: Obstetric and Neonatal Ontology
   prefix: ontoneo
@@ -4953,6 +4967,9 @@ database:
   - date: '2024-11-14'
     retrieved: '2024-11-16'
     version: November 14, 2024
+  - date: '2024-11-15'
+    retrieved: '2024-11-17'
+    version: November 15, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5664,6 +5681,8 @@ database:
     version: '2024-03-28'
   - retrieved: '2024-10-16'
     version: '2024-09-04'
+  - retrieved: '2024-11-17'
+    version: '2024-11-11'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -5970,6 +5989,8 @@ database:
     version: 2.1.2
   - retrieved: '2024-10-27'
     version: 2.1.4
+  - retrieved: '2024-11-17'
+    version: 2.1.5
   vtype: date
 - name: Probability Distribution Ontology
   prefix: probonto
@@ -6348,6 +6369,8 @@ database:
     version: '6.230'
   - retrieved: '2024-10-16'
     version: '6.235'
+  - retrieved: '2024-11-17'
+    version: '6.236'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -7908,6 +7931,8 @@ database:
     version: '2024-11-15'
   - retrieved: '2024-11-16'
     version: '2024-11-16'
+  - retrieved: '2024-11-17'
+    version: '2024-11-17'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10567,6 +10592,8 @@ database:
     version: '2024-11-13'
   - retrieved: '2024-11-16'
     version: '2024-11-14'
+  - retrieved: '2024-11-17'
+    version: '2024-11-15'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
