@@ -16,7 +16,6 @@ from .cellosaurus import CellosaurusGetter
 from .chebi import ChEBIGetter
 from .chembl import ChEMBLGetter
 from .chemidplus import ChemIDplusGetter
-from .gtdb import GTDBGetter
 from .civic import CiVICGetter
 from .complexportal import ComplexPortalGetter
 from .daily import NCBIGeneGetter
@@ -28,6 +27,7 @@ from .drugcentral import DrugCentralGetter
 from .ensembl import EnsemblGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
+from .gtdb import GTDBGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
 from .hgnc import HGNCGetter
 from .homologene import HomoloGeneGetter

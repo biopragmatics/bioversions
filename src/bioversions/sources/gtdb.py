@@ -1,4 +1,3 @@
-
 """A getter for GTDB."""
 
 import requests
