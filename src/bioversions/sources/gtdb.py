@@ -27,7 +27,7 @@ class GTDBGetter(Getter):
         # First line contains version like "v220"
         version = lines[0].strip().lstrip("v")
         # Third line contains date like "Released Apr 24, 2024"
-        date = lines[2].strip().replace("Released ", "")
+        date = lines[2].strip().removeprefix("Released ")
         return {"version": version, "date": date}
 
 
