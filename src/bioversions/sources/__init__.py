@@ -27,6 +27,7 @@ from .drugcentral import DrugCentralGetter
 from .ensembl import EnsemblGetter
 from .expasy import ExPASyGetter
 from .flybase import FlybaseGetter
+from .gtdb import GTDBGetter
 from .guidetopharmacology import GuideToPharmacologyGetter
 from .hgnc import HGNCGetter
 from .homologene import HomoloGeneGetter
@@ -137,6 +138,7 @@ def get_getters() -> list[type[Getter]]:
         ICD10Getter,
         ICD11Getter,
         CiVICGetter,
+        GTDBGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
