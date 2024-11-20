@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for OncoTree."""
 
 import requests
@@ -22,10 +20,12 @@ class OncoTreeGetter(Getter):
 
     def get(self) -> str:
         """Get the latest OncoTree version number."""
-        res = requests.get("http://oncotree.mskcc.org/api/versions", params={"format": "json"})
+        res = requests.get(
+            "http://oncotree.mskcc.org/api/versions", params={"format": "json"}, timeout=5
+        )
         res_json = res.json()
         version = next(
-            (r["release_date"] for r in res_json if r["api_identifier"] == "oncotree_latest_stable")
+            r["release_date"] for r in res_json if r["api_identifier"] == "oncotree_latest_stable"
         )
         return version
 

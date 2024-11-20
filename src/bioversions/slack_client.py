@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
-
 """Utilities for interacting with Slack."""
 
 import logging
 from functools import lru_cache
-from typing import Optional
 
 import pystow
 from slack_sdk import WebClient
@@ -18,14 +15,14 @@ logger = logging.getLogger(__name__)
 
 
 @lru_cache(maxsize=1)
-def _get_client(token: Optional[str] = None) -> Optional[WebClient]:
+def _get_client(token: str | None = None) -> WebClient | None:
     token = pystow.get_config("bioversions", "slack_api_token", passthrough=token)
     if token is None:
         return None
     return WebClient(token=token)
 
 
-def post(text: str, channel: str = "random", token: Optional[str] = None):
+def post(text: str, channel: str = "random", token: str | None = None):
     """Post the message to a given Slack channel."""
     client = _get_client(token)
     if client is None:

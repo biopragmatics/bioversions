@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-
 """A getter for the OMIM."""
 
+from typing import ClassVar
 
 from bioversions.utils import Getter, VersionType, get_soup
 
@@ -16,7 +15,7 @@ class OMIMGetter(Getter):
     name = "Online Mendelian Inheritance in Man"
     date_version_fmt = "%B %d, %Y"
     version_type = VersionType.date
-    collection = ["omim.ps", "omim"]
+    collection: ClassVar[list[str]] = ["omim.ps", "omim"]
 
     def get(self) -> str:
         """Get the latest OMIM version number."""

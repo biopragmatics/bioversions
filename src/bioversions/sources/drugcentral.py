@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for DrugCentral."""
 
 from contextlib import closing
@@ -13,9 +11,9 @@ __all__ = [
 HOST = "unmtid-dbs.net"
 PORT = 5433
 USER = "drugman"
-PASSWORD = "dosage"
+PASSWORD = "dosage"  # noqa:S105
 DBNAME = "drugcentral"
-PARAMS = dict(dbname=DBNAME, user=USER, password=PASSWORD, host=HOST, port=PORT)
+PARAMS = {"dbname": DBNAME, "user": USER, "password": PASSWORD, "host": HOST, "port": PORT}
 
 
 class DrugCentralGetter(Getter):

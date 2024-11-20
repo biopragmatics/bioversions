@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
-
 """Utilities and implementation for bioversions."""
 
 import datetime
 import enum
 import ftplib
 import os
-from typing import Any, ClassVar, List, Mapping, Optional, Union
+from collections.abc import Mapping
+from typing import Any, ClassVar
 
 import bioregistry
 import pydantic
@@ -48,7 +47,7 @@ def norm(s: str) -> str:
 
 
 def get_soup(
-    url: str, verify: bool = True, timeout: Optional[int] = None, user_agent: Optional[str] = None
+    url: str, verify: bool = True, timeout: int | None = None, user_agent: str | None = None
 ) -> BeautifulSoup:
     """Get a beautiful soup parsed version of the given web page.
 
@@ -82,9 +81,9 @@ class MetaGetter(type):
 
     _cache = None
 
-    date_fmt: Optional[str]
-    date_version_fmt: Optional[str]
-    homepage_fmt: Optional[str]
+    date_fmt: str | None
+    date_version_fmt: str | None
+    homepage_fmt: str | None
 
     @property
     def _cache_prop(cls):
@@ -105,7 +104,7 @@ class MetaGetter(type):
             raise TypeError(f"_cache_prop was a {type(cls._cache_prop)}")
 
     @property
-    def date(cls) -> Optional[datetime.date]:
+    def date(cls) -> datetime.date | None:
         """Get the date if it's set."""
         vp = cls.version_date_parsed
         if vp is not None:
@@ -122,10 +121,12 @@ class MetaGetter(type):
         try:
             return datetime.datetime.strptime(date, cls.date_fmt).date()
         except ValueError:
-            raise ValueError(f"Issue in {cls.__name__} with date {date} and fmt {cls.date_fmt}")
+            raise ValueError(
+                f"Issue in {cls.__name__} with date {date} and fmt {cls.date_fmt}"
+            ) from None
 
     @property
-    def version_date_parsed(cls) -> Optional[datetime.date]:
+    def version_date_parsed(cls) -> datetime.date | None:
         """Get the date as a parsed class there's a format string."""
         if cls.date_version_fmt is None:
             return None
@@ -133,11 +134,12 @@ class MetaGetter(type):
             return datetime.datetime.strptime(cls.version, cls.date_version_fmt).date()
         except ValueError:
             raise ValueError(
-                f"Issue parsing {cls.__name__} version {cls.version} with fmt {cls.date_version_fmt}"
-            )
+                f"Issue parsing {cls.__name__} version {cls.version} "
+                f"with fmt {cls.date_version_fmt}"
+            ) from None
 
     @property
-    def homepage(cls) -> Optional[str]:
+    def homepage(cls) -> str | None:
         """Get the homepage's URL if a format string was specified."""
         if cls.homepage_fmt is None:
             return None
@@ -163,11 +165,11 @@ class Bioversion(pydantic.BaseModel):
     #: The version type
     vtype: VersionType
     #: The date of the current release
-    date: Optional[datetime.date]
+    date: datetime.date | None
     #: The URL for the homepage of the specific version of the database
-    homepage: Optional[str]
+    homepage: str | None
     #: The database prefix
-    bioregistry_id: Optional[str]
+    bioregistry_id: str | None
 
 
 class Getter(metaclass=MetaGetter):
@@ -179,13 +181,13 @@ class Getter(metaclass=MetaGetter):
     version_type: ClassVar[VersionType]
 
     #: The URL with `{version}` to format in the version. Specify this in the inheriting class.
-    homepage_fmt: ClassVar[Optional[str]] = None
+    homepage_fmt: ClassVar[str | None] = None
 
-    date_fmt: ClassVar[Optional[str]] = None
+    date_fmt: ClassVar[str | None] = None
 
-    date_version_fmt: ClassVar[Optional[str]] = None
+    date_version_fmt: ClassVar[str | None] = None
 
-    bioregistry_id: ClassVar[Optional[str]] = None
+    bioregistry_id: ClassVar[str | None] = None
 
     # The following are automatically calculated based on the metaclass
     version: ClassVar[str]
@@ -193,21 +195,21 @@ class Getter(metaclass=MetaGetter):
     homepage: ClassVar[str]
 
     #: Prefixes this getter works for
-    collection: ClassVar[Optional[List[str]]] = None
+    collection: ClassVar[list[str] | None] = None
 
-    def get(self) -> Union[str, Mapping[str, str], datetime.datetime]:
+    def get(self) -> str | Mapping[str, str] | datetime.datetime:
         """Get the latest of this database."""
         raise NotImplementedError
 
     @classmethod
-    def print(cls, sep: str = "\t", file=None):  # noqa:T202
+    def print(cls, sep: str = "\t", file=None):
         """Print the latest version of this database."""
         x = [cls.bioregistry_id, cls.name, cls.version]
         if cls.date:
             x.append(f"({cls.date})")
         if cls.homepage:
             x.append(cls.homepage)
-        print(*x, sep=sep, file=file)  # noqa:T201
+        print(*x, sep=sep, file=file)
 
     @classmethod
     def resolve(cls) -> Bioversion:
@@ -225,7 +227,7 @@ class Getter(metaclass=MetaGetter):
     @classmethod
     def to_dict(cls) -> Mapping[str, Any]:
         """Get a dict with the data for this database."""
-        return cls.resolve().to_dict()
+        return cls.resolve().model_dump()
 
 
 class DailyGetter(Getter):
@@ -233,7 +235,7 @@ class DailyGetter(Getter):
 
     version_type = VersionType.daily
 
-    def get(self) -> Union[str, Mapping[str, str]]:
+    def get(self) -> str | Mapping[str, str]:
         """Return a constant "daily" string."""
         return "daily"
 
@@ -246,14 +248,14 @@ class UnversionedGetter(Getter):
     #: Has this database been apparently abandoned (true) or is it still updated (false)
     abandoned: ClassVar[bool]
 
-    def get(self) -> Union[str, Mapping[str, str]]:
+    def get(self) -> str | Mapping[str, str]:
         """Return a constant unversioned string."""
         return "unversioned"
 
 
 def get_obo_version(url: str) -> str:
     """Get the data version from an OBO file."""
-    with requests.get(url, stream=True) as res:
+    with requests.get(url, stream=True, timeout=60) as res:
         for line in res.iter_lines():
             line = line.decode("utf-8")
             if line.startswith("data-version:"):

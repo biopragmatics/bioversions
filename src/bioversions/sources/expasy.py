@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for ExPASy."""
 
 from datetime import datetime
@@ -20,7 +18,6 @@ class ExPASyGetter(Getter):
 
     bioregistry_id = "eccode"
     name = "ExPASy"
-    # date_version_fmt = "%d-%b-%Y"
     version_type = VersionType.date
 
     def get(self) -> str:

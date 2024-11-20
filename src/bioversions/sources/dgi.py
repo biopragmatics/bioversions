@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for the `Drug Gene Interaction Database (DGI-DB) <http://www.dgidb.org>`_."""
 
 import bs4
@@ -20,7 +18,7 @@ class DGIGetter(Getter):
 
     def get(self):
         """Get the latest DGI version number."""
-        res = requests.get(GITHUB_PAGE)
+        res = requests.get(GITHUB_PAGE, timeout=15)
         soup = bs4.BeautifulSoup(res.content, features="html.parser")
         time_tag = soup.find("relative-time")
         if time_tag is None:

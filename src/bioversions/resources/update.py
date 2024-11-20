@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Update the web page."""
 
 import getpass
@@ -37,7 +35,7 @@ def update(force: bool):
         _update(force=force)
 
 
-def _update(force: bool):
+def _update(force: bool):  # noqa:C901
     if not get_git_hash():
         click.secho("Not on development installation", fg="red")
         return sys.exit(1)

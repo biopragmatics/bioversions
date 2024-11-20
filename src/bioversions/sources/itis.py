@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-
 """A getter for ITIS."""
 
-from typing import Mapping
+from collections.abc import Mapping
 
 from bioversions.utils import Getter, VersionType, get_soup
 

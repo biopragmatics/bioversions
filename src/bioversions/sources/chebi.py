@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for ChEBI."""
 
 from bioversions.utils import Getter, VersionType, get_soup
@@ -27,7 +25,7 @@ class ChEBIGetter(Getter):
         last = list(anchors)[-1]
         date = last.next_sibling.strip().split()[0]
         version = last.text.rstrip("/")[len("rel") :]
-        return dict(version=version, date=date)
+        return {"version": version, "date": date}
 
 
 if __name__ == "__main__":

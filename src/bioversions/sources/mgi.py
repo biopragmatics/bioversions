@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for the Mouse Genome Database."""
 
 from bioversions.utils import Getter, VersionType, get_soup

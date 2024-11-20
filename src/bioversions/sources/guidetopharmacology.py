@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
-
 """A getter for GuideToPharmacology."""
 
 import re
 from datetime import datetime
-from typing import Dict
+from typing import ClassVar
 
 from bioversions.utils import Getter, VersionType, get_soup
 
@@ -23,9 +21,9 @@ class GuideToPharmacologyGetter(Getter):
     homepage_fmt = "https://www.guidetopharmacology.org/DATA/public_iuphardb_v{version}.zip"
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.year_minor
-    collection = ["iuphar.family", "iuphar.ligand", "iuphar.receptor"]
+    collection: ClassVar[list[str]] = ["iuphar.family", "iuphar.ligand", "iuphar.receptor"]
 
-    def get(self) -> Dict[str, str]:
+    def get(self) -> dict[str, str]:
         """Get the latest Guide to Pharmacology version number."""
         soup = get_soup(URL)
         text = soup.findAll("div", {"class": "contentboxfullhelp"})[4].div.ul.li.a.text

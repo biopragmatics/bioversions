@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for ICF."""
 
 import requests
@@ -23,7 +21,7 @@ class ICFGetter(Getter):
 
     def get(self) -> str:
         """Get the latest ICF version number."""
-        response = requests.get(URL, allow_redirects=True)
+        response = requests.get(URL, allow_redirects=True, timeout=15)
         final_url = response.url
         return final_url[len("https://icd.who.int/browse/") :].split("/")[0]
 

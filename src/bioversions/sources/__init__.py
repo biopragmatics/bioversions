@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
-
 """Sources for Bioversions."""
+
+from __future__ import annotations
 
 import ftplib
 import logging
+from collections.abc import Iterable, Mapping
 from functools import lru_cache
-from typing import Iterable, List, Mapping, Optional, Tuple, Type, Union
 
 from tqdm import tqdm
 
@@ -79,10 +79,10 @@ logger = logging.getLogger(__name__)
 
 
 @lru_cache(maxsize=1)
-def get_getters() -> List[Type[Getter]]:
+def get_getters() -> list[type[Getter]]:
     """Get a list of getters."""
     # TODO replace with entrypoint lookup
-    getters: List[Type[Getter]] = [
+    getters: list[type[Getter]] = [
         BioGRIDGetter,
         ChEMBLGetter,
         ComplexPortalGetter,
@@ -146,7 +146,7 @@ def get_getters() -> List[Type[Getter]]:
     return getters
 
 
-def get_getter_dict() -> Mapping[str, Type[Getter]]:
+def get_getter_dict() -> Mapping[str, type[Getter]]:
     """Get a dict of getters."""
     rv = {}
     for getter in get_getters():
@@ -176,7 +176,7 @@ def _resolve_helper_cached(name: str) -> Bioversion:
 
 def _resolve_helper(name: str) -> Bioversion:
     norm_name = norm(name)
-    getter: Type[Getter] = get_getter_dict()[norm_name]
+    getter: type[Getter] = get_getter_dict()[norm_name]
     return getter.resolve()
 
 
@@ -185,7 +185,7 @@ def get_version(name: str) -> str:
     return resolve(name).version
 
 
-def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
+def get_rows(use_tqdm: bool | None = False) -> list[Bioversion]:
     """Get the rows, refreshing once per day."""
     return [
         bioversion
@@ -195,15 +195,15 @@ def get_rows(use_tqdm: Optional[bool] = False) -> List[Bioversion]:
 
 
 def _iter_versions(
-    use_tqdm: Optional[bool] = False,
-) -> Iterable[Union[Tuple[Bioversion, None], Tuple[None, str]]]:
+    use_tqdm: bool | None = False,
+) -> Iterable[tuple[Bioversion, None] | tuple[None, str]]:
     it = tqdm(get_getters(), disable=not use_tqdm)
 
     for cls in it:
         it.set_postfix(name=cls.name)
         try:
             yv = resolve(cls.name)
-        except (IOError, AttributeError, ftplib.error_perm):
+        except (OSError, AttributeError, ftplib.error_perm):
             msg = f"failed to resolve {cls.name}"
             tqdm.write(msg)
             yield None, msg

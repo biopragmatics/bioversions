@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for Cellosaurus."""
 
 import requests
@@ -24,15 +22,15 @@ class CellosaurusGetter(Getter):
     #   12:15:2022 12:00
     def get(self):
         """Get the latest Cellosaurus version number."""
-        res = requests.get(URL, stream=True)
+        res = requests.get(URL, stream=True, timeout=15)
         data = {}
         for line in res.iter_lines(decode_unicode=True):
             line = line.strip().decode("utf8")
             if not line:
                 break
-            key, value = [part.strip() for part in line.split(":", 1)]
+            key, value = (part.strip() for part in line.split(":", 1))
             data[key] = value
-        return dict(version=data["data-version"], date=data["date"])
+        return {"version": data["data-version"], "date": data["date"]}
 
 
 if __name__ == "__main__":

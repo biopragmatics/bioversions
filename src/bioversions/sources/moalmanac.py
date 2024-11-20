@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for the Molecular Oncology Almanac."""
 
 from ..utils import Getter, VersionType, get_soup
