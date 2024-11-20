@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for InterPro."""
 
 import re
@@ -35,7 +33,7 @@ class InterProGetter(Getter):
                 if line.startswith("Release") and not line.startswith("Release Notes"):
                     line = line[len("Release ") :]
                     version, rest = line.split(",", 1)
-                    return dict(version=version, date=_process_line(rest))
+                    return {"version": version, "date": _process_line(rest)}
         raise ValueError
 
 

@@ -30,10 +30,10 @@ jobs:
           tox -e bumpversion-release
       - name: Release to PyPI
         run: |
-          tox -e release
+          tox -e release-headless
         env:
-          TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+          UV_PUBLISH_USERNAME: ${{ secrets.PYPI_USERNAME }}
+          UV_PUBLISH_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       - name: bump2version patch
         run: |
           tox -e bumpversion -- patch

@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-
 """Utilities for interacting with Twitter."""
 
 from functools import lru_cache
-from typing import Optional
 
 import pystow
 import tweepy
@@ -11,11 +8,11 @@ import tweepy
 
 @lru_cache(maxsize=1)
 def _get_api(
-    consumer_key: Optional[str] = None,
-    consumer_secret: Optional[str] = None,
-    access_token: Optional[str] = None,
-    access_token_secret: Optional[str] = None,
-) -> Optional[tweepy.API]:
+    consumer_key: str | None = None,
+    consumer_secret: str | None = None,
+    access_token: str | None = None,
+    access_token_secret: str | None = None,
+) -> tweepy.API | None:
     consumer_key = pystow.get_config("bioversions", "consumer_key", passthrough=consumer_key)
     consumer_secret = pystow.get_config(
         "bioversions", "consumer_secret", passthrough=consumer_secret

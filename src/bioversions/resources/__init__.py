@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Resources."""
 
 import datetime
@@ -33,7 +31,7 @@ def load_versions():
 
 
 def _date_converter(o):
-    if isinstance(o, (datetime.datetime, datetime.date)):
+    if isinstance(o, datetime.datetime | datetime.date):
         return o.strftime("%Y-%m-%d")
 
 

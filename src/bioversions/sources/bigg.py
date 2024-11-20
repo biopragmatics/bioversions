@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for BiGG."""
 
 from datetime import datetime
@@ -23,12 +21,12 @@ class BiGGGetter(Getter):
 
     def get(self):
         """Get the latest BiGG version number."""
-        res = requests.get(URL).json()
+        res = requests.get(URL, timeout=15).json()
         date = datetime.fromisoformat(res["last_updated"])
-        return dict(
-            version=res["bigg_models_version"],
-            date=date,
-        )
+        return {
+            "version": res["bigg_models_version"],
+            "date": date,
+        }
 
 
 if __name__ == "__main__":

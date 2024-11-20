@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for DisGeNet."""
 
 import requests
@@ -22,7 +20,7 @@ class DisGeNetGetter(Getter):
 
     def get(self):
         """Get the latest DisGeNet version number."""
-        res = requests.get(URL, params={"format": "json"})
+        res = requests.get(URL, params={"format": "json"}, timeout=15)
         res_json = res.json()
         version = res_json["database_version"].split()[-1].lstrip("v")
         return {

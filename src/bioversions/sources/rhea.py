@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for Rhea."""
 
 import requests

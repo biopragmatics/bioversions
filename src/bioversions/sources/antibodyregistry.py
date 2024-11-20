@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for the Antibody Registry."""
 
 from bioversions.utils import Getter, VersionType, get_soup

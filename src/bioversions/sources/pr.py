@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for the Protein Ontology."""
 
 from bioversions.utils import Getter, VersionType, get_soup
@@ -26,7 +24,7 @@ class PRGetter(Getter):
         rows = soup.find("table", **{"class": "nrm11"}).find_all("tr")
         row = list(rows)[2]
         version_cell, date_cell, *_ = list(row.find_all("td"))
-        return dict(version=version_cell.text.strip(), date=date_cell.text.strip())
+        return {"version": version_cell.text.strip(), "date": date_cell.text.strip()}
 
 
 if __name__ == "__main__":

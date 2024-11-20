@@ -1,5 +1,7 @@
 """Get the version for CiVIC."""
 
+from typing import ClassVar
+
 import requests
 
 from bioversions.utils import Getter, VersionType
@@ -28,11 +30,11 @@ class CiVICGetter(Getter):
     date_fmt = "%d-%b-%Y"
     version_type = VersionType.date
     homepage = "https://civicdb.org"
-    collection = ["civic.gid", "civic.eid"]
+    collection: ClassVar[list[str]] = ["civic.gid", "civic.eid"]
 
     def get(self):
         """Get the latest ChEMBL version number."""
-        res = requests.post(API, json={"query": GRAPHQL_QUERY})
+        res = requests.post(API, json={"query": GRAPHQL_QUERY}, timeout=15)
         # 0 element is always nightly, 1 is latest
         return res.json()["data"]["dataReleases"][1]["name"]
 

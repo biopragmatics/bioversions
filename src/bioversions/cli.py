@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Command line interface for bioversions."""
 
 import click
@@ -21,9 +19,9 @@ main.add_command(update)
 web = make_web_command(
     app="bioversions.wsgi:app",
     group=main,
-    command_kwargs=dict(
-        help="Run the bioversions web application.",
-    ),
+    command_kwargs={
+        "help": "Run the bioversions web application.",
+    },
 )
 
 
