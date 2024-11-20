@@ -1,6 +1,6 @@
 {
   "annotations": {
-    "revision": 849,
+    "revision": 850,
     "date": "2024-11-20",
     "author": "runner"
   },
@@ -5029,6 +5029,19 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2024-11-20",
+          "version": "220",
+          "homepage": "https://gtdb.ecogenomic.org/",
+          "date": "2024-04-24"
+        }
+      ],
+      "name": "Genome Taxonomy Database",
+      "prefix": "gtdb",
+      "vtype": "sequential"
     },
     {
       "name": "Genomic Epidemiology Ontology",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
   date: '2024-11-20'
-  revision: 849
+  revision: 850
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2749,6 +2749,14 @@ database:
   - retrieved: '2021-02-02'
     version: '2020-03-08'
   vtype: date
+- name: Genome Taxonomy Database
+  prefix: gtdb
+  releases:
+  - date: '2024-04-24'
+    homepage: https://gtdb.ecogenomic.org/
+    retrieved: '2024-11-20'
+    version: '220'
+  vtype: sequential
 - name: Genomic Epidemiology Ontology
   prefix: genepio
   releases:
