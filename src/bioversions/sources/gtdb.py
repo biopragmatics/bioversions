@@ -22,7 +22,7 @@ class GTDBGetter(Getter):
 
     def get(self):
         """Get the latest GTDB version number from VERSION.txt."""
-        res = requests.get(URL)
+        res = requests.get(URL, timeout=15)
         lines = res.text.strip().split("\n")
         # First line contains version like "v220"
         version = lines[0].strip().lstrip("v")
