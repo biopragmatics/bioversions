@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for ChemIDplus."""
 
 import re
@@ -26,7 +24,7 @@ class ChemIDplusGetter(Getter):
         """Get the latest ChemIDplus version number."""
         latest_url = "https://ftp.nlm.nih.gov/projects/chemidlease/CurrentChemID.xml"
         headers = {"Range": "bytes=0-300"}  # leave some slack to capture date
-        r = requests.get(latest_url, headers=headers)
+        r = requests.get(latest_url, headers=headers, timeout=15)
         if r.status_code == 206:
             result = re.search(r" date=\"([0-9]{4}-[0-9]{2}-[0-9]{2})\">", r.text)
             if result:

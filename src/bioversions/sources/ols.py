@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
-
 """Get versions from the OLS."""
 
 import logging
-from typing import Iterable, List, Mapping, Optional, Type, Union
+from collections.abc import Iterable, Mapping
 
 import bioregistry
 from bioregistry.external.ols import get_ols_processing
@@ -16,7 +14,7 @@ logger = logging.getLogger(__name__)
 ols_processing = get_ols_processing()
 
 
-def _get_version_type(bioregistry_id: str) -> Optional[VersionType]:
+def _get_version_type(bioregistry_id: str) -> VersionType | None:
     ols_id = bioregistry.get_ols_prefix(bioregistry_id)
     ols_config = ols_processing.get(ols_id)
     if ols_config is None:
@@ -33,7 +31,7 @@ def _get_version_type(bioregistry_id: str) -> Optional[VersionType]:
         return None
 
 
-def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
+def make_ols_getter(bioregistry_id: str) -> type[Getter] | None:
     """Make a getter from OLS."""
     ols_id = bioregistry.get_ols_prefix(bioregistry_id)
     if ols_id is None:
@@ -66,14 +64,14 @@ def make_ols_getter(bioregistry_id: str) -> Optional[Type[Getter]]:
         name = _name
         version_type = _version_type  # type:ignore
 
-        def get(self) -> Union[str, Mapping[str, str]]:
+        def get(self) -> str | Mapping[str, str]:
             """Get the version from the Bioregistry."""
             return version
 
     return OlsGetter
 
 
-def iter_ols_getters() -> Iterable[Type[Getter]]:
+def iter_ols_getters() -> Iterable[type[Getter]]:
     """Iterate over OLS getters."""
     for bioregistry_id in bioregistry.read_registry():
         yv = make_ols_getter(bioregistry_id)
@@ -81,7 +79,7 @@ def iter_ols_getters() -> Iterable[Type[Getter]]:
             yield yv
 
 
-def extend_ols_getters(getters: List[Type[Getter]]) -> None:
+def extend_ols_getters(getters: list[type[Getter]]) -> None:
     """Extend the getters, without adding duplicates."""
     for ols_getter in iter_ols_getters():
         if any(getter.bioregistry_id == ols_getter.bioregistry_id for getter in getters):

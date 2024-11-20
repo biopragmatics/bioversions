@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for NPASS."""
 
 from bioversions.utils import Getter, VersionType, get_soup

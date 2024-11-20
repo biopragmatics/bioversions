@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """Generation of charts summarizing bioversions."""
 
 import os
@@ -21,7 +19,7 @@ def version_types_pie_chart():
         "Missing" if getter.version_type is None else getter.version_type.value
         for getter in get_getters()
     )
-    labels, counts = zip(*counts.most_common())
+    labels, counts = zip(*counts.most_common(), strict=False)
     fig, ax = plt.subplots()
     ax.pie(
         counts,
@@ -29,9 +27,7 @@ def version_types_pie_chart():
         autopct="%1.f%%",
         startangle=30,
         explode=[0.01 for _ in range(len(counts))],
-        # shadow=True,
     )
-    # fig.legend(fontsize='medium')
     fig.tight_layout()
     path = os.path.join(IMG, "version_types.svg")
     plt.savefig(path, dpi=300)
@@ -45,7 +41,7 @@ def verioning_date_formats_pie_chart():
         for getter in get_getters()
         if getter.version_type in {VersionType.date, VersionType.month}
     )
-    labels, counts = zip(*counts.most_common())
+    labels, counts = zip(*counts.most_common(), strict=False)
     fig, ax = plt.subplots()
     ax.pie(
         counts,
@@ -67,7 +63,7 @@ def has_release_url():
         for getter in get_getters()
         if getter.version_type != VersionType.unversioned
     )
-    labels, counts = zip(*counts.most_common())
+    labels, counts = zip(*counts.most_common(), strict=False)
     fig, ax = plt.subplots()
     ax.pie(
         counts,

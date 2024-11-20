@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for Rfam."""
 
 from bioversions.utils import Getter, VersionType, _get_ftp_version

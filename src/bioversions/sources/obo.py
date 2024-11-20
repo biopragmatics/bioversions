@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-
 """Getters for OBO ontologies."""
 
-from typing import Iterable, Type
+from collections.abc import Iterable
 
 from bioversions.utils import Getter, OBOFoundryGetter, VersionType
 
@@ -56,7 +54,7 @@ class PrGetter(OBOFoundryGetter):
     homepage_fmt = "https://proconsortium.org/download/release_{version}/"
 
 
-def iter_obo_getters() -> Iterable[Type[Getter]]:
+def iter_obo_getters() -> Iterable[type[Getter]]:
     """Iterate over OBO getters."""
     yield from OBOFoundryGetter.__subclasses__()
 

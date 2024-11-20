@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-
 """A getter for UniProt."""
 
-from xml.etree import ElementTree  # noqa:S405
+from xml.etree import ElementTree
 
 import requests
 

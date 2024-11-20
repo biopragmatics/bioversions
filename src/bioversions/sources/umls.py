@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for UMLS."""
 
 from datetime import datetime

@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-
 """A getter for the NCI Thesaurus."""
 
 import re
-from typing import Dict
 
 from ..utils import Getter, VersionType, get_soup
 
@@ -25,7 +22,7 @@ class NCItGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.other
 
-    def get(self) -> Dict[str, str]:
+    def get(self) -> dict[str, str]:
         """Get the latest NCIt version number."""
         soup = get_soup(URL)
         version_str = soup.find("span", {"class": "vocabularynamelong_ncit"}).contents[0]

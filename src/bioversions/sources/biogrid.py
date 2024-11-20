@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for BioGRID."""
 
 from ..utils import Getter, VersionType, get_soup

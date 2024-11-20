@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-
 """A getter for ChEMBL."""
 
 import ftplib
 import io
+from typing import ClassVar
 
 from bioversions.utils import Getter, VersionType
 
@@ -23,7 +22,7 @@ class ChEMBLGetter(Getter):
     homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_{version}"
     date_fmt = "%d/%m/%Y"
     version_type = VersionType.sequential
-    collection = ["chembl", "chembl.target", "chembl.compound", "chembl.cell"]
+    collection: ClassVar[list[str]] = ["chembl", "chembl.target", "chembl.compound", "chembl.cell"]
 
     def get(self):
         """Get the latest ChEMBL version number."""
@@ -40,7 +39,7 @@ class ChEMBLGetter(Getter):
                 date = _removeprefix(line, DATE_PREFIX).strip()
         if version is None or date is None:
             raise ValueError
-        return dict(date=date, version=version)
+        return {"date": date, "version": version}
 
 
 def _removeprefix(s, prefix):

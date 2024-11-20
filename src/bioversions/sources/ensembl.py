@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for Ensembl."""
 
 from bioversions.utils import Getter, VersionType, get_soup
@@ -25,7 +23,7 @@ class EnsemblGetter(Getter):
         soup = get_soup(URL)
         manifest = soup.find(**{"class": "box-header"}).text
         version, date = manifest.rstrip(")").split("(", 1)
-        return dict(version=version.split()[-1], date=date)
+        return {"version": version.split()[-1], "date": date}
 
 
 if __name__ == "__main__":

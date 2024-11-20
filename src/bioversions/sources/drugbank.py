@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for DrugBank."""
 
 from operator import itemgetter
@@ -26,10 +24,10 @@ class DrugBankGetter(Getter):
 
     def get(self):
         """Get the latest DrugBank version number."""
-        res = requests.get(URL)
+        res = requests.get(URL, timeout=15)
         res.raise_for_status()
         latest = max(res.json(), key=itemgetter("released_on"))
-        return dict(date=latest["released_on"], version=latest["version"])
+        return {"date": latest["released_on"], "version": latest["version"]}
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:

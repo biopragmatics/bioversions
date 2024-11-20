@@ -33,7 +33,7 @@ class HGNCGetter(Getter):
         this_year = int(today.strftime("%Y"))
         this_month = int(today.strftime("%m"))
         maybe = today.strftime("%Y-%m-01")
-        res = requests.head(self.homepage_fmt.format(version=maybe))
+        res = requests.head(self.homepage_fmt.format(version=maybe), timeout=15)
         if res.status_code == 200:
             return maybe
         if this_month == 1:

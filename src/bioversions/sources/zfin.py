@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A getter for ZFIN."""
 
 from datetime import datetime
