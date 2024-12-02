@@ -11,6 +11,10 @@ __all__ = [
 ]
 
 URL = "https://go.drugbank.com/releases.json"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+}
 
 
 class DrugBankGetter(Getter):
@@ -24,7 +28,7 @@ class DrugBankGetter(Getter):
 
     def get(self):
         """Get the latest DrugBank version number."""
-        res = requests.get(URL, timeout=15)
+        res = requests.get(URL, timeout=15, headers=headers)
         res.raise_for_status()
         latest = max(res.json(), key=itemgetter("released_on"))
         return {"date": latest["released_on"], "version": latest["version"]}

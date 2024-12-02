@@ -12,7 +12,7 @@ class ComplexPortalGetter(Getter):
 
     bioregistry_id = "complexportal"
     name = "Complex Portal"
-    homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/{version}/"
+    homepage_fmt = "https://ftp.ebi.ac.uk/pub/databases/intact/complex/{version}/"
     date_version_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
