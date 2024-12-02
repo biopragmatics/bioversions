@@ -15,7 +15,7 @@ from bioversions.resources import (
     write_export,
     write_versions,
 )
-from bioversions.sources import _iter_versions
+from bioversions.sources import FailureTuple, _iter_versions
 from bioversions.version import get_git_hash
 
 __all__ = [
@@ -48,10 +48,10 @@ def _update(force: bool):  # noqa:C901
     today = datetime.now().strftime("%Y-%m-%d")
 
     changes = False
-    errors = []
-    for bv, error in _iter_versions(use_tqdm=True):
-        if error is not None or bv is None:
-            errors.append(error)
+    failure_tuples = []
+    for bv in _iter_versions(use_tqdm=True):
+        if isinstance(bv, FailureTuple):
+            failure_tuples.append(bv)
             continue
 
         if bv.name in versions:
@@ -97,7 +97,15 @@ def _update(force: bool):  # noqa:C901
         write_export(rv)
         write_versions(rv)
 
-    FAILURES_PATH.write_text("# Errors\n\n" + "\n".join(f"- {error}" for error in errors))
+    if failure_tuples:
+        click.secho(f"Writing failure summary to {FAILURES_PATH}")
+        text = "# Summary of Errors\n\n"
+        for t in failure_tuples:
+            text += f"- {t.name} - {t.message}\n"
+        text += "\n"
+        for t in failure_tuples:
+            text += f"## {t.name}\n\n```python-traceback\n{t.trace}\n```\n\n"
+        FAILURES_PATH.write_text(text)
 
 
 def _log_update(bv) -> None:

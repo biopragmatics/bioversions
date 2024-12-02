@@ -189,14 +189,21 @@ def get_rows(use_tqdm: bool | None = False) -> list[Bioversion]:
     """Get the rows, refreshing once per day."""
     return [
         bioversion
-        for bioversion, error in _iter_versions(use_tqdm=use_tqdm)
-        if error is None and bioversion is not None
+        for bioversion in _iter_versions(use_tqdm=use_tqdm)
+        if isinstance(bioversion, Bioversion)
     ]
+
+
+class FailureTuple(NamedTuple):
+    name: str
+    clstype: str
+    message: str
+    trace: str
 
 
 def _iter_versions(
     use_tqdm: bool | None = False,
-) -> Iterable[tuple[Bioversion, None] | tuple[None, str]]:
+) -> Iterable[Bioversion | FailureTuple]:
     it = tqdm(get_getters(), disable=not use_tqdm)
 
     for cls in it:
@@ -206,10 +213,10 @@ def _iter_versions(
         except (OSError, AttributeError, ftplib.error_perm):
             msg = f"failed to resolve {cls.name}"
             tqdm.write(msg)
-            yield None, msg
+            yield FailureTuple(cls.name, cls.__name__, msg, traceback.format_exc())
         except ValueError as e:
             msg = f"issue parsing {cls.name}: {e}"
             tqdm.write(msg)
-            yield None, msg
+            yield FailureTuple(cls.name, cls.__name__, msg, traceback.format_exc())
         else:
-            yield yv, None
+            yield yv
