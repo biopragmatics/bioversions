@@ -104,7 +104,7 @@ def _update(force: bool):  # noqa:C901
             text += f"- {t.name} - {t.message}\n"
         text += "\n"
         for t in failure_tuples:
-            text += f"## {t.name}\n\n```python-traceback\n{t.trace}\n```\n\n"
+            text += f"## {t.name}\n\nUsing class: `{t.clstype}`\n\n```python-traceback\n{t.trace}\n```\n\n"
         FAILURES_PATH.write_text(text)
 
 

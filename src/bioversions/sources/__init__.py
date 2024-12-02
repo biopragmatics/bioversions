@@ -197,6 +197,8 @@ def get_rows(use_tqdm: bool | None = False) -> list[Bioversion]:
 
 
 class FailureTuple(NamedTuple):
+    """Holds information about failures."""
+
     name: str
     clstype: str
     message: str
