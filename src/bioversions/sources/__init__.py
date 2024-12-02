@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import ftplib
 import logging
+import traceback
 from collections.abc import Iterable, Mapping
 from functools import lru_cache
+from typing import NamedTuple
 
 from tqdm import tqdm
 
