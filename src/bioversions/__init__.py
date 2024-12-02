@@ -3,7 +3,7 @@
 from .sources import get_rows, get_version, resolve
 
 __all__ = [
+    "get_rows",
     "get_version",
     "resolve",
-    "get_rows",
 ]

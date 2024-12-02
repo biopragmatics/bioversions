@@ -72,9 +72,9 @@ from .zfin import ZfinGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
 
 __all__ = [
-    "resolve",
     "get_rows",
     "get_version",
+    "resolve",
 ]
 
 logger = logging.getLogger(__name__)
