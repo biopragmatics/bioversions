@@ -5,11 +5,11 @@ from collections.abc import Iterable
 from bioversions.utils import Getter, OBOFoundryGetter, VersionType
 
 __all__ = [
-    "iter_obo_getters",
     "ChebiGetter",
-    "GoGetter",
     "DoidGetter",
+    "GoGetter",
     "PrGetter",
+    "iter_obo_getters",
 ]
 
 
