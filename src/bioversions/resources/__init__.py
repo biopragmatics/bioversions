@@ -7,11 +7,11 @@ from pathlib import Path
 import yaml
 
 __all__ = [
-    "VERSIONS_PATH",
     "EXPORT_PATH",
+    "VERSIONS_PATH",
     "load_versions",
-    "write_versions",
     "write_export",
+    "write_versions",
 ]
 
 HERE = Path(__file__).parent.resolve()
