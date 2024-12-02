@@ -10,7 +10,7 @@ __all__ = [
     "ExPASyGetter",
 ]
 
-URL = "ftp://ftp.expasy.org/databases/enzyme/enzuser.txt"
+URL = "https://ftp.expasy.org/databases/enzyme/enzuser.txt"
 
 
 class ExPASyGetter(Getter):

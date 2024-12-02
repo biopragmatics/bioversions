@@ -11,7 +11,6 @@ import bioregistry
 import pydantic
 import pystow
 import requests
-import requests_ftp
 from bs4 import BeautifulSoup
 from cachier import cachier
 
@@ -19,8 +18,6 @@ BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
 DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, "docs"))
 IMG = os.path.join(DOCS, "img")
-
-requests_ftp.monkeypatch_session()
 
 
 class VersionType(enum.Enum):
