@@ -11,64 +11,6 @@ from typing import NamedTuple
 
 from tqdm import tqdm
 
-from .antibodyregistry import AntibodyRegistryGetter
-from .bigg import BiGGGetter
-from .biogrid import BioGRIDGetter
-from .cellosaurus import CellosaurusGetter
-from .chebi import ChEBIGetter
-from .chembl import ChEMBLGetter
-from .chemidplus import ChemIDplusGetter
-from .civic import CiVICGetter
-from .complexportal import ComplexPortalGetter
-from .daily import NCBIGeneGetter
-from .depmap import DepMapGetter
-from .dgi import DGIGetter
-from .disgenet import DisGeNetGetter
-from .drugbank import DrugBankGetter
-from .drugcentral import DrugCentralGetter
-from .ensembl import EnsemblGetter
-from .expasy import ExPASyGetter
-from .flybase import FlybaseGetter
-from .gtdb import GTDBGetter
-from .guidetopharmacology import GuideToPharmacologyGetter
-from .hgnc import HGNCGetter
-from .homologene import HomoloGeneGetter
-from .icd10 import ICD10Getter
-from .icd11 import ICD11Getter
-from .icf import ICFGetter
-from .intact import IntActGetter
-from .interpro import InterProGetter
-from .itis import ITISGetter
-from .kegg import KEGGGetter
-from .mesh import MeshGetter
-from .mgi import MGIGetter
-from .mirbase import MirbaseGetter
-from .moalmanac import MOAlmanacGetter
-from .msigdb import MSigDBGetter
-from .ncit import NCItGetter
-from .npass import NPASSGetter
-from .obo import iter_obo_getters
-from .ols import extend_ols_getters
-from .omim import OMIMGetter
-from .oncotree import OncoTreeGetter
-from .pathbank import PathBankGetter
-from .pathwaycommons import PathwayCommonsGetter
-from .pfam import PfamGetter
-from .pombase import PombaseGetter
-from .pr import PRGetter
-from .pubchem import PubChemGetter
-from .reactome import ReactomeGetter
-from .rfam import RfamGetter
-from .rgd import RGDGetter
-from .rhea import RheaGetter
-from .rxnorm import RxNormGetter
-from .sgd import SgdGetter
-from .slm import SwissLipidGetter
-from .stringdb import StringDBGetter
-from .umls import UMLSGetter
-from .uniprot import UniProtGetter
-from .wikipathways import WikiPathwaysGetter
-from .zfin import ZfinGetter
 from ..utils import Bioversion, Getter, norm, refresh_daily
 
 __all__ = [
@@ -83,6 +25,65 @@ logger = logging.getLogger(__name__)
 @lru_cache(maxsize=1)
 def get_getters() -> list[type[Getter]]:
     """Get a list of getters."""
+    from .antibodyregistry import AntibodyRegistryGetter
+    from .bigg import BiGGGetter
+    from .biogrid import BioGRIDGetter
+    from .cellosaurus import CellosaurusGetter
+    from .chebi import ChEBIGetter
+    from .chembl import ChEMBLGetter
+    from .chemidplus import ChemIDplusGetter
+    from .civic import CiVICGetter
+    from .complexportal import ComplexPortalGetter
+    from .daily import NCBIGeneGetter
+    from .depmap import DepMapGetter
+    from .dgi import DGIGetter
+    from .disgenet import DisGeNetGetter
+    from .drugbank import DrugBankGetter
+    from .drugcentral import DrugCentralGetter
+    from .ensembl import EnsemblGetter
+    from .expasy import ExPASyGetter
+    from .flybase import FlybaseGetter
+    from .gtdb import GTDBGetter
+    from .guidetopharmacology import GuideToPharmacologyGetter
+    from .hgnc import HGNCGetter
+    from .homologene import HomoloGeneGetter
+    from .icd10 import ICD10Getter
+    from .icd11 import ICD11Getter
+    from .icf import ICFGetter
+    from .intact import IntActGetter
+    from .interpro import InterProGetter
+    from .itis import ITISGetter
+    from .kegg import KEGGGetter
+    from .mesh import MeshGetter
+    from .mgi import MGIGetter
+    from .mirbase import MirbaseGetter
+    from .moalmanac import MOAlmanacGetter
+    from .msigdb import MSigDBGetter
+    from .ncit import NCItGetter
+    from .npass import NPASSGetter
+    from .obo import iter_obo_getters
+    from .ols import extend_ols_getters
+    from .omim import OMIMGetter
+    from .oncotree import OncoTreeGetter
+    from .pathbank import PathBankGetter
+    from .pathwaycommons import PathwayCommonsGetter
+    from .pfam import PfamGetter
+    from .pombase import PombaseGetter
+    from .pr import PRGetter
+    from .pubchem import PubChemGetter
+    from .reactome import ReactomeGetter
+    from .rfam import RfamGetter
+    from .rgd import RGDGetter
+    from .rhea import RheaGetter
+    from .rxnorm import RxNormGetter
+    from .sgd import SgdGetter
+    from .slm import SwissLipidGetter
+    from .stringdb import StringDBGetter
+    from .umls import UMLSGetter
+    from .uniprot import UniProtGetter
+    from .wikipathways import WikiPathwaysGetter
+    from .zfin import ZfinGetter
+
     # TODO replace with entrypoint lookup
     getters: list[type[Getter]] = [
         BioGRIDGetter,

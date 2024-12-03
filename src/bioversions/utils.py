@@ -1,18 +1,21 @@
 """Utilities and implementation for bioversions."""
 
+from __future__ import annotations
+
 import datetime
 import enum
 import ftplib
 import os
 from collections.abc import Mapping
-from typing import Any, ClassVar
+from typing import TYPE_CHECKING, Any, ClassVar
 
-import bioregistry
 import pydantic
 import pystow
 import requests
-from bs4 import BeautifulSoup
 from cachier import cachier
+
+if TYPE_CHECKING:
+    import bs4
 
 BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -45,7 +48,7 @@ def norm(s: str) -> str:
 
 def get_soup(
     url: str, verify: bool = True, timeout: int | None = None, user_agent: str | None = None
-) -> BeautifulSoup:
+) -> bs4.BeautifulSoup:
     """Get a beautiful soup parsed version of the given web page.
 
     :param url: The URL to download and parse with BeautifulSoup
@@ -56,6 +59,8 @@ def get_soup(
     :param user_agent: A custom user-agent to set, e.g., to avoid anti-crawling mechanisms
     :returns: A BeautifulSoup object
     """
+    from bs4 import BeautifulSoup
+
     headers = {}
     if user_agent:
         headers["User-Agent"] = user_agent
@@ -256,7 +261,7 @@ def get_obo_version(url: str) -> str:
         for line in res.iter_lines():
             line = line.decode("utf-8")
             if line.startswith("data-version:"):
-                version = line[len("data-version:") :].strip()
+                version = line[len("data-version:"):].strip()
                 return version
     raise ValueError(f"No data-version line contained in {url}")
 
@@ -271,6 +276,8 @@ class OBOFoundryGetter(Getter):
     @property
     def key(self) -> str:
         """Get the OBO Foundry key."""
+        import bioregistry
+
         rv = bioregistry.get_obofoundry_prefix(self.bioregistry_id)
         if rv is None:
             raise ValueError
@@ -284,9 +291,9 @@ class OBOFoundryGetter(Getter):
     def process(self, version: str) -> str:
         """Post-process the version string."""
         if self.strip_key_prefix:
-            version = version[len(f"{self.key}/") :]
+            version = version[len(f"{self.key}/"):]
         if self.strip_version_prefix:
-            version = version[len("releases/") :]
+            version = version[len("releases/"):]
         if self.strip_file_suffix:
             version = version[: -(len(self.key) + 5)]
         return version
