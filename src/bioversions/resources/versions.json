@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 860,
-    "date": "2024-12-05",
+    "revision": 861,
+    "date": "2024-12-06",
     "author": "runner"
   },
   "database": [
@@ -5357,6 +5357,12 @@
           "version": "2024.3",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.3.zip",
           "date": "2024-10-03"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024.4",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.4.zip",
+          "date": "2024-12-04"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -7392,6 +7398,12 @@
           "version": "2024-11-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-11-07",
           "date": "2024-11-07"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024-12-05",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-12-05",
+          "date": "2024-12-05"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -9093,6 +9105,11 @@
           "retrieved": "2024-12-05",
           "version": "December 3, 2024",
           "date": "2024-12-03"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "December 4, 2024",
+          "date": "2024-12-04"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14787,6 +14804,10 @@
         {
           "retrieved": "2024-12-05",
           "version": "2024-12-05"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024-12-06"
         }
       ],
       "name": "SwissLipids",
@@ -19721,6 +19742,10 @@
         {
           "retrieved": "2024-12-05",
           "version": "2024-12-03"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024-12-04"
         }
       ],
       "name": "Zebrafish Information Network",
