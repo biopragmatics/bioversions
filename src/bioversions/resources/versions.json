@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 862,
-    "date": "2024-12-07",
+    "revision": 863,
+    "date": "2024-12-08",
     "author": "runner"
   },
   "database": [
@@ -1943,6 +1943,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2.229"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2.230"
         }
       ],
       "vtype": "date"
@@ -3982,6 +3986,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "4.187"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "4.188"
         }
       ],
       "vtype": "date"
@@ -4465,6 +4473,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2024-11-12"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-28"
         }
       ],
       "vtype": "date"
@@ -6861,6 +6873,10 @@
         {
           "retrieved": "2024-11-22",
           "version": "2.143"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2.144"
         }
       ],
       "vtype": "date"
@@ -8058,6 +8074,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-07-03"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-25"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -9115,6 +9135,11 @@
           "retrieved": "2024-12-07",
           "version": "December 5, 2024",
           "date": "2024-12-05"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "December 6, 2024",
+          "date": "2024-12-06"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9317,6 +9342,10 @@
         {
           "retrieved": "2024-08-18",
           "version": "2024-08-14"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-25"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -9582,6 +9611,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-12"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-26"
         }
       ],
       "vtype": "date"
@@ -14817,6 +14850,10 @@
         {
           "retrieved": "2024-12-07",
           "version": "2024-12-07"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-12-08"
         }
       ],
       "name": "SwissLipids",
@@ -15463,6 +15500,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-03"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-25"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -15855,6 +15896,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-22"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-23"
         }
       ],
       "vtype": "semver"
@@ -16021,6 +16066,10 @@
         {
           "retrieved": "2024-11-10",
           "version": "2024-11-05"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-22"
         }
       ],
       "vtype": "date"
@@ -19759,6 +19808,10 @@
         {
           "retrieved": "2024-12-07",
           "version": "2024-12-05"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-12-06"
         }
       ],
       "name": "Zebrafish Information Network",
