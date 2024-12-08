@@ -8,6 +8,10 @@ __all__ = [
     "MeshGetter",
 ]
 
+#: In 2024 and before, these were .gz, but after
+#: became .xml files
+SUFFIXES = [".xml", ".xml.gz", ".gz"]
+
 
 class MeshGetter(Getter):
     """A getter for MeSH."""
@@ -22,9 +26,12 @@ class MeshGetter(Getter):
         with ftplib.FTP("nlmpubs.nlm.nih.gov") as ftp:
             ftp.login()
             ftp.cwd("/online/mesh/MESH_FILES/xmlmesh/")
-            for name, _ in ftp.mlsd():
-                if name.startswith("desc") and name.endswith(".gz"):
-                    return name[len("desc") : -len(".gz")]
+            names = [name for name, _ in ftp.mlsd()]
+
+        for name in names:
+            for suffix in SUFFIXES:
+                if name.startswith("desc") and name.endswith(suffix):
+                    return name[len("desc") : -len(suffix)]
         raise ValueError
 
 
