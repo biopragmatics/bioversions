@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 849,
-    "date": "2024-11-20",
+    "revision": 863,
+    "date": "2024-12-08",
     "author": "runner"
   },
   "database": [
@@ -681,6 +681,11 @@
           "retrieved": "2024-11-02",
           "version": "4.4.239",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.239"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "4.4.240",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.240"
         }
       ],
       "vtype": "semver"
@@ -1573,6 +1578,11 @@
           "retrieved": "2024-11-06",
           "version": "237",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel237/"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "238",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel238/"
         }
       ],
       "vtype": "sequential"
@@ -1802,6 +1812,10 @@
         {
           "retrieved": "2024-11-02",
           "version": "01-Nov-2024"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "01-Dec-2024"
         }
       ],
       "name": "CiVIC",
@@ -1929,6 +1943,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2.229"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2.230"
         }
       ],
       "vtype": "date"
@@ -2566,6 +2584,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024d_20240922"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "2024e_20241114"
         }
       ],
       "vtype": "other"
@@ -2880,6 +2902,12 @@
           "version": "2024-11-01",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-11-01",
           "date": "2024-11-01"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-11-27",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-11-27",
+          "date": "2024-11-27"
         }
       ],
       "vtype": "date"
@@ -3819,6 +3847,10 @@
         {
           "retrieved": "2024-10-03",
           "version": "2024-10-02"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-11-27"
         }
       ],
       "vtype": "date"
@@ -3954,6 +3986,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "4.187"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "4.188"
         }
       ],
       "vtype": "date"
@@ -4121,6 +4157,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "3.71.0"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "3.72.0"
         }
       ],
       "vtype": "semver"
@@ -4433,6 +4473,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2024-11-12"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-28"
         }
       ],
       "vtype": "date"
@@ -5031,6 +5075,19 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2024-11-20",
+          "version": "220",
+          "homepage": "https://gtdb.ecogenomic.org/",
+          "date": "2024-04-24"
+        }
+      ],
+      "name": "Genome Taxonomy Database",
+      "prefix": "gtdb",
+      "vtype": "sequential"
+    },
+    {
       "name": "Genomic Epidemiology Ontology",
       "prefix": "genepio",
       "releases": [
@@ -5312,6 +5369,12 @@
           "version": "2024.3",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.3.zip",
           "date": "2024-10-03"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024.4",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.4.zip",
+          "date": "2024-12-04"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -5423,6 +5486,11 @@
           "retrieved": "2024-10-15",
           "version": "2024-10-01",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2024-10-01.json"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-11-01",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2024-11-01.json"
         }
       ],
       "name": "HGNC",
@@ -6152,6 +6220,12 @@
           "version": "102.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/102.0/",
           "date": "2024-10-03"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "103.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/103.0/",
+          "date": "2024-11-28"
         }
       ],
       "vtype": "semver_minor"
@@ -6392,6 +6466,11 @@
           "retrieved": "2024-09-29",
           "version": "112.0",
           "date": "2024-10-01"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "112.1",
+          "date": "2024-12-01"
         }
       ],
       "vtype": "semver_minor"
@@ -6790,6 +6869,14 @@
         {
           "retrieved": "2024-11-03",
           "version": "2.142"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "2.143"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2.144"
         }
       ],
       "vtype": "date"
@@ -7327,6 +7414,12 @@
           "version": "2024-11-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-11-07",
           "date": "2024-11-07"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024-12-05",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-12-05",
+          "date": "2024-12-05"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -7981,6 +8074,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-07-03"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-25"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -8988,6 +9085,61 @@
           "retrieved": "2024-11-20",
           "version": "November 18, 2024",
           "date": "2024-11-18"
+        },
+        {
+          "retrieved": "2024-11-21",
+          "version": "November 19, 2024",
+          "date": "2024-11-19"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "November 20, 2024",
+          "date": "2024-11-20"
+        },
+        {
+          "retrieved": "2024-11-23",
+          "version": "November 21, 2024",
+          "date": "2024-11-21"
+        },
+        {
+          "retrieved": "2024-11-24",
+          "version": "November 22, 2024",
+          "date": "2024-11-22"
+        },
+        {
+          "retrieved": "2024-11-27",
+          "version": "November 25, 2024",
+          "date": "2024-11-25"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "November 27, 2024",
+          "date": "2024-11-27"
+        },
+        {
+          "retrieved": "2024-12-04",
+          "version": "December 2, 2024",
+          "date": "2024-12-02"
+        },
+        {
+          "retrieved": "2024-12-05",
+          "version": "December 3, 2024",
+          "date": "2024-12-03"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "December 4, 2024",
+          "date": "2024-12-04"
+        },
+        {
+          "retrieved": "2024-12-07",
+          "version": "December 5, 2024",
+          "date": "2024-12-05"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "December 6, 2024",
+          "date": "2024-12-06"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9190,6 +9342,10 @@
         {
           "retrieved": "2024-08-18",
           "version": "2024-08-14"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-25"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -9455,6 +9611,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-12"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-26"
         }
       ],
       "vtype": "date"
@@ -10755,6 +10915,12 @@
           "version": "2024-11-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-11-01/",
           "date": "2024-11-01"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-12-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2024-12-01/",
+          "date": "2024-12-01"
         }
       ],
       "name": "PomBase",
@@ -11157,6 +11323,11 @@
           "retrieved": "2024-11-01",
           "version": "2024-11-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-11-01"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-12-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-12-01"
         }
       ],
       "name": "PubChem",
@@ -11466,6 +11637,14 @@
         {
           "retrieved": "2024-11-19",
           "version": "2024-11-15"
+        },
+        {
+          "retrieved": "2024-11-26",
+          "version": "2024-11-22"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-11-29"
         }
       ],
       "name": "Rat Genome Database",
@@ -11894,6 +12073,11 @@
           "retrieved": "2024-10-03",
           "version": "135",
           "date": "2024-10-02"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "136",
+          "date": "2024-11-27"
         }
       ],
       "vtype": "date"
@@ -12095,6 +12279,11 @@
           "retrieved": "2024-11-05",
           "version": "2024-11-04",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_11042024.zip"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-12-02",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_12022024.zip"
         }
       ],
       "name": "RxNorm",
@@ -12236,6 +12425,10 @@
         {
           "retrieved": "2024-06-09",
           "version": "2024-06-05"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "2024-11-18"
         }
       ],
       "name": "Sequence types and features ontology",
@@ -14609,6 +14802,58 @@
         {
           "retrieved": "2024-11-20",
           "version": "2024-11-20"
+        },
+        {
+          "retrieved": "2024-11-21",
+          "version": "2024-11-21"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "2024-11-22"
+        },
+        {
+          "retrieved": "2024-11-23",
+          "version": "2024-11-23"
+        },
+        {
+          "retrieved": "2024-11-24",
+          "version": "2024-11-24"
+        },
+        {
+          "retrieved": "2024-11-25",
+          "version": "2024-11-25"
+        },
+        {
+          "retrieved": "2024-11-26",
+          "version": "2024-11-26"
+        },
+        {
+          "retrieved": "2024-11-27",
+          "version": "2024-11-27"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-12-03"
+        },
+        {
+          "retrieved": "2024-12-04",
+          "version": "2024-12-04"
+        },
+        {
+          "retrieved": "2024-12-05",
+          "version": "2024-12-05"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024-12-06"
+        },
+        {
+          "retrieved": "2024-12-07",
+          "version": "2024-12-07"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-12-08"
         }
       ],
       "name": "SwissLipids",
@@ -14945,6 +15190,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-04"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "2024-11-04"
         }
       ],
       "vtype": "date"
@@ -15251,6 +15500,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-03"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-25"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -15500,6 +15753,12 @@
           "version": "2024_05",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_05/",
           "date": "2024-05-01"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024_06",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2024_06/",
+          "date": "2024-06-01"
         }
       ],
       "vtype": "month"
@@ -15637,6 +15896,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-22"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-23"
         }
       ],
       "vtype": "semver"
@@ -15803,6 +16066,10 @@
         {
           "retrieved": "2024-11-10",
           "version": "2024-11-05"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-11-22"
         }
       ],
       "vtype": "date"
@@ -19493,6 +19760,58 @@
         {
           "retrieved": "2024-11-20",
           "version": "2024-11-18"
+        },
+        {
+          "retrieved": "2024-11-21",
+          "version": "2024-11-19"
+        },
+        {
+          "retrieved": "2024-11-22",
+          "version": "2024-11-20"
+        },
+        {
+          "retrieved": "2024-11-23",
+          "version": "2024-11-21"
+        },
+        {
+          "retrieved": "2024-11-24",
+          "version": "2024-11-22"
+        },
+        {
+          "retrieved": "2024-11-25",
+          "version": "2024-11-23"
+        },
+        {
+          "retrieved": "2024-11-26",
+          "version": "2024-11-24"
+        },
+        {
+          "retrieved": "2024-11-27",
+          "version": "2024-11-25"
+        },
+        {
+          "retrieved": "2024-12-03",
+          "version": "2024-12-01"
+        },
+        {
+          "retrieved": "2024-12-04",
+          "version": "2024-12-02"
+        },
+        {
+          "retrieved": "2024-12-05",
+          "version": "2024-12-03"
+        },
+        {
+          "retrieved": "2024-12-06",
+          "version": "2024-12-04"
+        },
+        {
+          "retrieved": "2024-12-07",
+          "version": "2024-12-05"
+        },
+        {
+          "retrieved": "2024-12-08",
+          "version": "2024-12-06"
         }
       ],
       "name": "Zebrafish Information Network",
