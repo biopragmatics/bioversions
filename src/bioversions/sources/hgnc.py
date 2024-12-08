@@ -1,6 +1,5 @@
 """A getter for HGNC."""
 
-import datetime
 import logging
 
 import requests
@@ -14,7 +13,8 @@ __all__ = [
 logger = logging.getLogger(__name__)
 
 PATH = "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/"
-PREFIX = "hgnc_complete_set_"
+URL = "https://storage.googleapis.com/storage/v1/b/public-download-files/o?prefix=hgnc/archive/archive/monthly"
+PREFIX = "hgnc/archive/archive/monthly/json/hgnc_complete_set_"
 SUFFIX = ".json"
 
 
@@ -28,19 +28,14 @@ class HGNCGetter(Getter):
     version_type = VersionType.date
 
     def get(self) -> str:
-        """Get the latest HGNC version number."""
-        today = datetime.date.today()
-        this_year = int(today.strftime("%Y"))
-        this_month = int(today.strftime("%m"))
-        maybe = today.strftime("%Y-%m-01")
-        res = requests.head(self.homepage_fmt.format(version=maybe), timeout=15)
-        if res.status_code == 200:
-            return maybe
-        if this_month == 1:
-            maybe_last_month = f"{this_year - 1}-12-01"
-        else:
-            maybe_last_month = f"{this_year}-{this_month - 1}-01"
-        return maybe_last_month
+        """Get the latest monthly HGNC version number."""
+        res = requests.get(URL, timeout=5)
+        items = res.json()["items"]
+        return max(
+            item["name"].removeprefix(PREFIX).removesuffix(SUFFIX)
+            for item in items
+            if (name := item["name"]).startswith(PREFIX) and name.endswith(SUFFIX)
+        )
 
 
 if __name__ == "__main__":
