@@ -3,7 +3,6 @@
 - DisGeNet - failed to resolve DisGeNet
 - Antibody Registry - failed to resolve Antibody Registry
 - DrugBank - failed to resolve DrugBank
-- MeSH - issue parsing MeSH: 
 
 ## DisGeNet
 
@@ -141,45 +140,6 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://go.drugbank.com/releases.json
-
-```
-
-## MeSH
-
-Using class: `MeshGetter`
-
-```python-traceback
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 216, in _iter_versions
-    yv = resolve(cls.name)
-         ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 169, in resolve
-    return _resolve_helper_cached(name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
-    return _calc_entry(core, key, func, args, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
-    func_res = func(*args, **kwds)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 176, in _resolve_helper_cached
-    return _resolve_helper(name)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 182, in _resolve_helper
-    return getter.resolve()
-           ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 216, in resolve
-    version=cls.version,
-            ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 94, in version
-    if isinstance(cls._cache_prop, str):
-                  ^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 88, in _cache_prop
-    cls._cache = cls().get()
-                 ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/mesh.py", line 28, in get
-    raise ValueError
-ValueError
 
 ```
 

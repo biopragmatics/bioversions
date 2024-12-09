@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-08'
-  revision: 864
+  date: '2024-12-09'
+  revision: 865
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3012,6 +3012,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2024-11-01.json
     retrieved: '2024-12-03'
     version: '2024-11-01'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2024-12-03.json
+    retrieved: '2024-12-09'
+    version: '2024-12-03'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -3871,6 +3874,9 @@ database:
   - homepage: ftp://nlmpubs.nlm.nih.gov/online/mesh/2024
     retrieved: '2023-12-01'
     version: '2024'
+  - homepage: ftp://nlmpubs.nlm.nih.gov/online/mesh/2025
+    retrieved: '2024-12-09'
+    version: '2025'
   vtype: year
 - name: Metabolomics Standards Initiative Ontology
   prefix: msio
@@ -8085,6 +8091,8 @@ database:
     version: '2024-12-07'
   - retrieved: '2024-12-08'
     version: '2024-12-08'
+  - retrieved: '2024-12-09'
+    version: '2024-12-09'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo

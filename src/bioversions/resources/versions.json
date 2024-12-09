@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 864,
-    "date": "2024-12-08",
+    "revision": 865,
+    "date": "2024-12-09",
     "author": "runner"
   },
   "database": [
@@ -5491,6 +5491,11 @@
           "retrieved": "2024-12-03",
           "version": "2024-11-01",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2024-11-01.json"
+        },
+        {
+          "retrieved": "2024-12-09",
+          "version": "2024-12-03",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2024-12-03.json"
         }
       ],
       "name": "HGNC",
@@ -7047,6 +7052,11 @@
           "retrieved": "2023-12-01",
           "version": "2024",
           "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2024"
+        },
+        {
+          "retrieved": "2024-12-09",
+          "version": "2025",
+          "homepage": "ftp://nlmpubs.nlm.nih.gov/online/mesh/2025"
         }
       ],
       "name": "MeSH",
@@ -14854,6 +14864,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "2024-12-08"
+        },
+        {
+          "retrieved": "2024-12-09",
+          "version": "2024-12-09"
         }
       ],
       "name": "SwissLipids",
