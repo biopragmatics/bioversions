@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-09'
-  revision: 865
+  date: '2024-12-10'
+  revision: 866
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1193,6 +1193,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-09-08/
     retrieved: '2024-09-19'
     version: '2024-09-08'
+  - date: '2024-11-29'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-11-29/
+    retrieved: '2024-12-10'
+    version: '2024-11-29'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -3324,6 +3328,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-09-08/
     retrieved: '2024-09-19'
     version: '2024-09-08'
+  - date: '2024-11-29'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-11-29/
+    retrieved: '2024-12-10'
+    version: '2024-11-29'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -6440,6 +6448,8 @@ database:
     version: '2024-11-22'
   - retrieved: '2024-12-03'
     version: '2024-11-29'
+  - retrieved: '2024-12-10'
+    version: '2024-12-06'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -6524,6 +6534,8 @@ database:
     version: '89'
   - retrieved: '2024-10-03'
     version: '90'
+  - retrieved: '2024-12-10'
+    version: '91'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -8093,6 +8105,8 @@ database:
     version: '2024-12-08'
   - retrieved: '2024-12-09'
     version: '2024-12-09'
+  - retrieved: '2024-12-10'
+    version: '2024-12-10'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10800,6 +10814,8 @@ database:
     version: '2024-12-06'
   - retrieved: '2024-12-08'
     version: '2024-12-07'
+  - retrieved: '2024-12-10'
+    version: '2024-12-08'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
