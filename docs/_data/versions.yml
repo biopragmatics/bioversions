@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-11'
-  revision: 867
+  date: '2024-12-12'
+  revision: 868
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -897,6 +897,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_34
     retrieved: '2024-04-16'
     version: '34'
+  - date: '2024-12-01'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_35
+    retrieved: '2024-12-12'
+    version: '35'
   vtype: sequential
 - name: Chemical Analysis Ontology
   prefix: cao
@@ -4412,6 +4416,9 @@ database:
   - date: '2024-10-28'
     retrieved: '2024-11-14'
     version: 24.10d
+  - date: '2024-11-25'
+    retrieved: '2024-12-12'
+    version: 24.11d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -5079,6 +5086,9 @@ database:
   - date: '2024-12-09'
     retrieved: '2024-12-11'
     version: December 9, 2024
+  - date: '2024-12-10'
+    retrieved: '2024-12-12'
+    version: December 10, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5744,6 +5754,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.1/
     retrieved: '2024-10-10'
     version: '37.1'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.2/
+    retrieved: '2024-12-12'
+    version: '37.2'
   vtype: semver_minor
 - name: Phenotype And Trait Ontology
   prefix: pato
@@ -8112,6 +8125,8 @@ database:
     version: '2024-12-10'
   - retrieved: '2024-12-11'
     version: '2024-12-11'
+  - retrieved: '2024-12-12'
+    version: '2024-12-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10827,6 +10842,8 @@ database:
     version: '2024-12-08'
   - retrieved: '2024-12-11'
     version: '2024-12-09'
+  - retrieved: '2024-12-12'
+    version: '2024-12-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

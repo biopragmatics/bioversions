@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 867,
-    "date": "2024-12-11",
+    "revision": 868,
+    "date": "2024-12-12",
     "author": "runner"
   },
   "database": [
@@ -1642,6 +1642,12 @@
           "version": "34",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_34",
           "date": "2024-03-28"
+        },
+        {
+          "retrieved": "2024-12-12",
+          "version": "35",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_35",
+          "date": "2024-12-01"
         }
       ],
       "vtype": "sequential",
@@ -8011,6 +8017,11 @@
           "retrieved": "2024-11-14",
           "version": "24.10d",
           "date": "2024-10-28"
+        },
+        {
+          "retrieved": "2024-12-12",
+          "version": "24.11d",
+          "date": "2024-11-25"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -9167,6 +9178,11 @@
           "retrieved": "2024-12-11",
           "version": "December 9, 2024",
           "date": "2024-12-09"
+        },
+        {
+          "retrieved": "2024-12-12",
+          "version": "December 10, 2024",
+          "date": "2024-12-10"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10393,6 +10409,11 @@
           "retrieved": "2024-10-10",
           "version": "37.1",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.1/"
+        },
+        {
+          "retrieved": "2024-12-12",
+          "version": "37.2",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.2/"
         }
       ],
       "vtype": "semver_minor"
@@ -14901,6 +14922,10 @@
         {
           "retrieved": "2024-12-11",
           "version": "2024-12-11"
+        },
+        {
+          "retrieved": "2024-12-12",
+          "version": "2024-12-12"
         }
       ],
       "name": "SwissLipids",
@@ -19877,6 +19902,10 @@
         {
           "retrieved": "2024-12-11",
           "version": "2024-12-09"
+        },
+        {
+          "retrieved": "2024-12-12",
+          "version": "2024-12-10"
         }
       ],
       "name": "Zebrafish Information Network",
