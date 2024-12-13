@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 868,
-    "date": "2024-12-12",
+    "revision": 869,
+    "date": "2024-12-13",
     "author": "runner"
   },
   "database": [
@@ -4610,6 +4610,11 @@
           "retrieved": "2024-10-20",
           "version": "2024_05",
           "homepage": "http://ftp.flybase.net/releases/FB2024_05/"
+        },
+        {
+          "retrieved": "2024-12-13",
+          "version": "2024_06",
+          "homepage": "http://ftp.flybase.net/releases/FB2024_06/"
         }
       ],
       "name": "FlyBase",
@@ -9183,6 +9188,11 @@
           "retrieved": "2024-12-12",
           "version": "December 10, 2024",
           "date": "2024-12-10"
+        },
+        {
+          "retrieved": "2024-12-13",
+          "version": "December 11, 2024",
+          "date": "2024-12-11"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14926,6 +14936,10 @@
         {
           "retrieved": "2024-12-12",
           "version": "2024-12-12"
+        },
+        {
+          "retrieved": "2024-12-13",
+          "version": "2024-12-13"
         }
       ],
       "name": "SwissLipids",
@@ -19906,6 +19920,10 @@
         {
           "retrieved": "2024-12-12",
           "version": "2024-12-10"
+        },
+        {
+          "retrieved": "2024-12-13",
+          "version": "2024-12-11"
         }
       ],
       "name": "Zebrafish Information Network",
