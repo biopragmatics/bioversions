@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 870,
-    "date": "2024-12-14",
+    "revision": 871,
+    "date": "2024-12-15",
     "author": "runner"
   },
   "database": [
@@ -1953,6 +1953,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "2.230"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2.231"
         }
       ],
       "vtype": "date"
@@ -3031,6 +3035,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-17"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-04"
         }
       ],
       "name": "Drosophila development",
@@ -3110,6 +3118,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-17"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-05"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -3205,6 +3217,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-17"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-05"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -4002,6 +4018,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "4.188"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "4.189"
         }
       ],
       "vtype": "date"
@@ -4489,6 +4509,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "2024-11-28"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-05"
         }
       ],
       "vtype": "date"
@@ -4706,6 +4730,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "2024-10-17"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-05"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -5831,6 +5859,10 @@
         {
           "retrieved": "2024-08-17",
           "version": "2024-08-13"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-12"
         }
       ],
       "vtype": "date"
@@ -6512,6 +6544,10 @@
         {
           "retrieved": "2021-10-15",
           "version": "2.30"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2.34"
         }
       ],
       "name": "Kinetic Simulation Algorithm Ontology",
@@ -6905,6 +6941,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "2.144"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2.145"
         }
       ],
       "vtype": "date"
@@ -7627,6 +7667,10 @@
         {
           "retrieved": "2024-11-10",
           "version": "2024-11-05"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-03"
         }
       ],
       "vtype": "date"
@@ -9198,6 +9242,11 @@
           "retrieved": "2024-12-14",
           "version": "December 12, 2024",
           "date": "2024-12-12"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "December 13, 2024",
+          "date": "2024-12-13"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10149,6 +10198,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "4.5"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "4.6"
         }
       ],
       "vtype": "semver"
@@ -11805,6 +11858,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "6.236"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "6.238"
         }
       ],
       "vtype": "date"
@@ -14949,6 +15006,10 @@
         {
           "retrieved": "2024-12-14",
           "version": "2024-12-14"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-12-15"
         }
       ],
       "name": "SwissLipids",
@@ -15051,6 +15112,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2016-04-15"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-11-28"
         }
       ],
       "vtype": "date"
@@ -16165,6 +16230,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "2024-11-22"
+        },
+        {
+          "retrieved": "2024-12-15",
+          "version": "2024-11-26"
         }
       ],
       "vtype": "date"
