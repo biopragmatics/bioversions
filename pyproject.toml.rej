@@ -1,0 +1,36 @@
+diff a/pyproject.toml b/pyproject.toml	(rejected hunks)
+@@ -24,9 +24,7 @@ classifiers = [
+     "License :: OSI Approved :: MIT License",
+     "Operating System :: OS Independent",
+     "Framework :: Pytest",
+-    
+     "Framework :: tox",
+-    
+     "Framework :: Sphinx",
+     "Natural Language :: English",
+     "Programming Language :: Python",
+@@ -53,21 +51,19 @@ requires-python = ">=3.10"
+ dependencies = [
+     "more_itertools", # missing from itertools in stdlib
+     "tqdm", # progress bars
+-    
+     "click",
+     "more_click",
+-    
++    "typing-extensions",
+ ]
+ 
+ [project.optional-dependencies]
+ tests = [
+     "pytest",
+-    "coverage",
++    "coverage[toml]",
+ ]
+ docs = [
+     "sphinx>=8",
+-    "sphinx-rtd-theme>=3.0",
+-    "sphinx-click", 
++    "sphinx-rtd-theme>=3.0","sphinx-click", 
+     "sphinx_automodapi",
+     # Include if your project uses Pydantic:
+     # "autodoc_pydantic",
