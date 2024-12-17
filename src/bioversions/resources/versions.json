@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 872,
-    "date": "2024-12-16",
+    "revision": 873,
+    "date": "2024-12-17",
     "author": "runner"
   },
   "database": [
@@ -2544,6 +2544,10 @@
         {
           "retrieved": "2024-06-04",
           "version": "24Q2"
+        },
+        {
+          "retrieved": "2024-12-17",
+          "version": "24Q4"
         }
       ],
       "name": "DepMap",
@@ -11765,6 +11769,10 @@
         {
           "retrieved": "2024-12-10",
           "version": "2024-12-06"
+        },
+        {
+          "retrieved": "2024-12-17",
+          "version": "2024-12-13"
         }
       ],
       "name": "Rat Genome Database",
@@ -15014,6 +15022,10 @@
         {
           "retrieved": "2024-12-16",
           "version": "2024-12-16"
+        },
+        {
+          "retrieved": "2024-12-17",
+          "version": "2024-12-17"
         }
       ],
       "name": "SwissLipids",
@@ -20014,6 +20026,10 @@
         {
           "retrieved": "2024-12-16",
           "version": "2024-12-14"
+        },
+        {
+          "retrieved": "2024-12-17",
+          "version": "2024-12-15"
         }
       ],
       "name": "Zebrafish Information Network",
