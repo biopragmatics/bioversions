@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-18'
-  revision: 874
+  date: '2024-12-19'
+  revision: 875
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -5128,6 +5128,9 @@ database:
   - date: '2024-12-16'
     retrieved: '2024-12-18'
     version: December 16, 2024
+  - date: '2024-12-17'
+    retrieved: '2024-12-19'
+    version: December 17, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8184,6 +8187,8 @@ database:
     version: '2024-12-17'
   - retrieved: '2024-12-18'
     version: '2024-12-18'
+  - retrieved: '2024-12-19'
+    version: '2024-12-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10915,6 +10920,8 @@ database:
     version: '2024-12-15'
   - retrieved: '2024-12-18'
     version: '2024-12-16'
+  - retrieved: '2024-12-19'
+    version: '2024-12-17'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
