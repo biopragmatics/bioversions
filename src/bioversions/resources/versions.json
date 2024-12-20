@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 875,
-    "date": "2024-12-19",
+    "revision": 876,
+    "date": "2024-12-20",
     "author": "runner"
   },
   "database": [
@@ -1378,6 +1378,11 @@
           "retrieved": "2024-09-11",
           "version": "50.0",
           "date": "2024-09-10"
+        },
+        {
+          "retrieved": "2024-12-20",
+          "version": "51.0",
+          "date": "2024-12-19"
         }
       ],
       "name": "Cellosaurus",
@@ -2928,6 +2933,12 @@
           "version": "2024-11-27",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-11-27",
           "date": "2024-11-27"
+        },
+        {
+          "retrieved": "2024-12-20",
+          "version": "2024-12-18",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-12-18",
+          "date": "2024-12-18"
         }
       ],
       "vtype": "date"
@@ -9261,6 +9272,11 @@
           "retrieved": "2024-12-19",
           "version": "December 17, 2024",
           "date": "2024-12-17"
+        },
+        {
+          "retrieved": "2024-12-20",
+          "version": "December 18, 2024",
+          "date": "2024-12-18"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15044,6 +15060,10 @@
         {
           "retrieved": "2024-12-19",
           "version": "2024-12-19"
+        },
+        {
+          "retrieved": "2024-12-20",
+          "version": "2024-12-20"
         }
       ],
       "name": "SwissLipids",
@@ -20056,6 +20076,10 @@
         {
           "retrieved": "2024-12-19",
           "version": "2024-12-17"
+        },
+        {
+          "retrieved": "2024-12-20",
+          "version": "2024-12-18"
         }
       ],
       "name": "Zebrafish Information Network",

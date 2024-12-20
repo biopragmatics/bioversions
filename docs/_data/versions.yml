@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-19'
-  revision: 875
+  date: '2024-12-20'
+  revision: 876
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -739,6 +739,9 @@ database:
   - date: '2024-09-10'
     retrieved: '2024-09-11'
     version: '50.0'
+  - date: '2024-12-19'
+    retrieved: '2024-12-20'
+    version: '51.0'
   vtype: sequential
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
@@ -1619,6 +1622,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-11-27
     retrieved: '2024-12-03'
     version: '2024-11-27'
+  - date: '2024-12-18'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2024-12-18
+    retrieved: '2024-12-20'
+    version: '2024-12-18'
   vtype: date
 - name: DisGeNet
   releases:
@@ -5131,6 +5138,9 @@ database:
   - date: '2024-12-17'
     retrieved: '2024-12-19'
     version: December 17, 2024
+  - date: '2024-12-18'
+    retrieved: '2024-12-20'
+    version: December 18, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8189,6 +8199,8 @@ database:
     version: '2024-12-18'
   - retrieved: '2024-12-19'
     version: '2024-12-19'
+  - retrieved: '2024-12-20'
+    version: '2024-12-20'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10922,6 +10934,8 @@ database:
     version: '2024-12-16'
   - retrieved: '2024-12-19'
     version: '2024-12-17'
+  - retrieved: '2024-12-20'
+    version: '2024-12-18'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
