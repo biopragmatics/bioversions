@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 877,
-    "date": "2024-12-21",
+    "revision": 878,
+    "date": "2024-12-22",
     "author": "runner"
   },
   "database": [
@@ -1962,6 +1962,10 @@
         {
           "retrieved": "2024-12-15",
           "version": "2.231"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "2.232"
         }
       ],
       "vtype": "date"
@@ -4037,6 +4041,10 @@
         {
           "retrieved": "2024-12-15",
           "version": "4.189"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "4.190"
         }
       ],
       "vtype": "date"
@@ -4208,6 +4216,10 @@
         {
           "retrieved": "2024-11-22",
           "version": "3.72.0"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "3.73.0"
         }
       ],
       "vtype": "semver"
@@ -9282,6 +9294,11 @@
           "retrieved": "2024-12-21",
           "version": "December 19, 2024",
           "date": "2024-12-19"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "December 20, 2024",
+          "date": "2024-12-20"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -9414,6 +9431,10 @@
         {
           "retrieved": "2024-11-10",
           "version": "2024-10-25"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "2024-12-05"
         }
       ],
       "vtype": "date"
@@ -10824,6 +10845,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2018-10-26"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "2024-07-09"
         }
       ],
       "vtype": "date"
@@ -15073,6 +15098,10 @@
         {
           "retrieved": "2024-12-21",
           "version": "2024-12-21"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "2024-12-22"
         }
       ],
       "name": "SwissLipids",
@@ -16297,6 +16326,10 @@
         {
           "retrieved": "2024-12-15",
           "version": "2024-11-26"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "2024-12-12"
         }
       ],
       "vtype": "date"
@@ -20093,6 +20126,10 @@
         {
           "retrieved": "2024-12-21",
           "version": "2024-12-19"
+        },
+        {
+          "retrieved": "2024-12-22",
+          "version": "2024-12-20"
         }
       ],
       "name": "Zebrafish Information Network",

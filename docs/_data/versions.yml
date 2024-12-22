@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-21'
-  revision: 877
+  date: '2024-12-22'
+  revision: 878
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1067,6 +1067,8 @@ database:
     version: '2.230'
   - retrieved: '2024-12-15'
     version: '2.231'
+  - retrieved: '2024-12-22'
+    version: '2.232'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2209,6 +2211,8 @@ database:
     version: '4.188'
   - retrieved: '2024-12-15'
     version: '4.189'
+  - retrieved: '2024-12-22'
+    version: '4.190'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2295,6 +2299,8 @@ database:
     version: 3.71.0
   - retrieved: '2024-11-22'
     version: 3.72.0
+  - retrieved: '2024-12-22'
+    version: 3.73.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -5144,6 +5150,9 @@ database:
   - date: '2024-12-19'
     retrieved: '2024-12-21'
     version: December 19, 2024
+  - date: '2024-12-20'
+    retrieved: '2024-12-22'
+    version: December 20, 2024
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5212,6 +5221,8 @@ database:
     version: '2024-10-03'
   - retrieved: '2024-11-10'
     version: '2024-10-25'
+  - retrieved: '2024-12-22'
+    version: '2024-12-05'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -5974,6 +5985,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2018-10-26'
+  - retrieved: '2024-12-22'
+    version: '2024-07-09'
   vtype: date
 - name: Plant Stress Ontology
   prefix: pso
@@ -8206,6 +8219,8 @@ database:
     version: '2024-12-20'
   - retrieved: '2024-12-21'
     version: '2024-12-21'
+  - retrieved: '2024-12-22'
+    version: '2024-12-22'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8858,6 +8873,8 @@ database:
     version: '2024-11-22'
   - retrieved: '2024-12-15'
     version: '2024-11-26'
+  - retrieved: '2024-12-22'
+    version: '2024-12-12'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -10943,6 +10960,8 @@ database:
     version: '2024-12-18'
   - retrieved: '2024-12-21'
     version: '2024-12-19'
+  - retrieved: '2024-12-22'
+    version: '2024-12-20'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
