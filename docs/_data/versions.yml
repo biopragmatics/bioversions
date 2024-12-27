@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-26'
-  revision: 882
+  date: '2024-12-27'
+  revision: 883
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3619,6 +3619,9 @@ database:
   - date: '2024-12-01'
     retrieved: '2024-12-03'
     version: '112.1'
+  - date: '2025-01-01'
+    retrieved: '2024-12-27'
+    version: '113.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -8232,6 +8235,8 @@ database:
     version: '2024-12-25'
   - retrieved: '2024-12-26'
     version: '2024-12-26'
+  - retrieved: '2024-12-27'
+    version: '2024-12-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10979,6 +10984,8 @@ database:
     version: '2024-12-22'
   - retrieved: '2024-12-26'
     version: '2024-12-24'
+  - retrieved: '2024-12-27'
+    version: '2024-12-25'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
