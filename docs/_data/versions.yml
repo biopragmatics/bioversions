@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2024-12-28'
-  revision: 884
+  date: '2024-12-29'
+  revision: 885
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -48,6 +48,8 @@ database:
     version: 2024/06
   - retrieved: '2024-10-16'
     version: 2024/09
+  - retrieved: '2024-12-29'
+    version: 2024/12
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -119,6 +121,8 @@ database:
     version: '2024-04-19'
   - retrieved: '2024-08-25'
     version: '2024-08-15'
+  - retrieved: '2024-12-29'
+    version: '2024-12-24'
   vtype: date
 - name: Apollo Structured Vocabulary (Apollo-SV)
   prefix: apollo_sv
@@ -3716,6 +3720,8 @@ database:
     version: '2024-10-17'
   - retrieved: '2024-11-17'
     version: '2024-11-12'
+  - retrieved: '2024-12-29'
+    version: '2024-12-18'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -8239,6 +8245,8 @@ database:
     version: '2024-12-27'
   - retrieved: '2024-12-28'
     version: '2024-12-28'
+  - retrieved: '2024-12-29'
+    version: '2024-12-29'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8417,6 +8425,8 @@ database:
     version: '2024-09-04'
   - retrieved: '2024-11-22'
     version: '2024-11-04'
+  - retrieved: '2024-12-29'
+    version: '2024-12-20'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -10990,6 +11000,8 @@ database:
     version: '2024-12-25'
   - retrieved: '2024-12-28'
     version: '2024-12-26'
+  - retrieved: '2024-12-29'
+    version: '2024-12-27'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

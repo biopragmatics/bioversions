@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 884,
-    "date": "2024-12-28",
+    "revision": 885,
+    "date": "2024-12-29",
     "author": "runner"
   },
   "database": [
@@ -90,6 +90,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024/09"
+        },
+        {
+          "retrieved": "2024-12-29",
+          "version": "2024/12"
         }
       ],
       "vtype": "date"
@@ -221,6 +225,10 @@
         {
           "retrieved": "2024-08-25",
           "version": "2024-08-15"
+        },
+        {
+          "retrieved": "2024-12-29",
+          "version": "2024-12-24"
         }
       ],
       "name": "Apollo Structured Vocabulary",
@@ -6742,6 +6750,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2024-11-12"
+        },
+        {
+          "retrieved": "2024-12-29",
+          "version": "2024-12-18"
         }
       ],
       "vtype": "date"
@@ -15136,6 +15148,10 @@
         {
           "retrieved": "2024-12-28",
           "version": "2024-12-28"
+        },
+        {
+          "retrieved": "2024-12-29",
+          "version": "2024-12-29"
         }
       ],
       "name": "SwissLipids",
@@ -15480,6 +15496,10 @@
         {
           "retrieved": "2024-11-22",
           "version": "2024-11-04"
+        },
+        {
+          "retrieved": "2024-12-29",
+          "version": "2024-12-20"
         }
       ],
       "vtype": "date"
@@ -20184,6 +20204,10 @@
         {
           "retrieved": "2024-12-28",
           "version": "2024-12-26"
+        },
+        {
+          "retrieved": "2024-12-29",
+          "version": "2024-12-27"
         }
       ],
       "name": "Zebrafish Information Network",
