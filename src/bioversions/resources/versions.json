@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 887,
-    "date": "2024-12-31",
+    "revision": 888,
+    "date": "2025-01-01",
     "author": "runner"
   },
   "database": [
@@ -9321,6 +9321,11 @@
           "retrieved": "2024-12-25",
           "version": "December 23, 2024",
           "date": "2024-12-23"
+        },
+        {
+          "retrieved": "2025-01-01",
+          "version": "December 30, 2024",
+          "date": "2024-12-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11526,6 +11531,11 @@
           "retrieved": "2024-12-03",
           "version": "2024-12-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2024-12-01"
+        },
+        {
+          "retrieved": "2025-01-01",
+          "version": "2025-01-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-01-01"
         }
       ],
       "name": "PubChem",
@@ -15160,6 +15170,10 @@
         {
           "retrieved": "2024-12-31",
           "version": "2024-12-31"
+        },
+        {
+          "retrieved": "2025-01-01",
+          "version": "2025-01-01"
         }
       ],
       "name": "SwissLipids",
@@ -20220,6 +20234,10 @@
         {
           "retrieved": "2024-12-30",
           "version": "2024-12-28"
+        },
+        {
+          "retrieved": "2025-01-01",
+          "version": "2024-12-30"
         }
       ],
       "name": "Zebrafish Information Network",
