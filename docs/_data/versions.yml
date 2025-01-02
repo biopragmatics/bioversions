@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-01-01'
-  revision: 888
+  date: '2025-01-02'
+  revision: 889
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -381,6 +381,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.240
     retrieved: '2024-12-03'
     version: 4.4.240
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.241
+    retrieved: '2025-01-02'
+    version: 4.4.241
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -866,6 +869,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel238/
     retrieved: '2024-12-03'
     version: '238'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel239/
+    retrieved: '2025-01-02'
+    version: '239'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -1003,6 +1009,8 @@ database:
     version: 01-Nov-2024
   - retrieved: '2024-12-03'
     version: 01-Dec-2024
+  - retrieved: '2025-01-02'
+    version: 01-Jan-2025
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -6160,6 +6168,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2024-12-01/
     retrieved: '2024-12-03'
     version: '2024-12-01'
+  - date: '2025-01-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-01-01/
+    retrieved: '2025-01-02'
+    version: '2025-01-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -8259,6 +8271,8 @@ database:
     version: '2024-12-31'
   - retrieved: '2025-01-01'
     version: '2025-01-01'
+  - retrieved: '2025-01-02'
+    version: '2025-01-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11018,6 +11032,8 @@ database:
     version: '2024-12-28'
   - retrieved: '2025-01-01'
     version: '2024-12-30'
+  - retrieved: '2025-01-02'
+    version: '2024-12-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

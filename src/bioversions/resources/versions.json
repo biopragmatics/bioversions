@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 888,
-    "date": "2025-01-01",
+    "revision": 889,
+    "date": "2025-01-02",
     "author": "runner"
   },
   "database": [
@@ -694,6 +694,11 @@
           "retrieved": "2024-12-03",
           "version": "4.4.240",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.240"
+        },
+        {
+          "retrieved": "2025-01-02",
+          "version": "4.4.241",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.241"
         }
       ],
       "vtype": "semver"
@@ -1596,6 +1601,11 @@
           "retrieved": "2024-12-03",
           "version": "238",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel238/"
+        },
+        {
+          "retrieved": "2025-01-02",
+          "version": "239",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel239/"
         }
       ],
       "vtype": "sequential"
@@ -1835,6 +1845,10 @@
         {
           "retrieved": "2024-12-03",
           "version": "01-Dec-2024"
+        },
+        {
+          "retrieved": "2025-01-02",
+          "version": "01-Jan-2025"
         }
       ],
       "name": "CiVIC",
@@ -11124,6 +11138,12 @@
           "version": "2024-12-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2024-12-01/",
           "date": "2024-12-01"
+        },
+        {
+          "retrieved": "2025-01-02",
+          "version": "2025-01-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-01-01/",
+          "date": "2025-01-01"
         }
       ],
       "name": "PomBase",
@@ -15174,6 +15194,10 @@
         {
           "retrieved": "2025-01-01",
           "version": "2025-01-01"
+        },
+        {
+          "retrieved": "2025-01-02",
+          "version": "2025-01-02"
         }
       ],
       "name": "SwissLipids",
@@ -20238,6 +20262,10 @@
         {
           "retrieved": "2025-01-01",
           "version": "2024-12-30"
+        },
+        {
+          "retrieved": "2025-01-02",
+          "version": "2024-12-31"
         }
       ],
       "name": "Zebrafish Information Network",
