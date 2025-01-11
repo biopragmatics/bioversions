@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 897,
-    "date": "2025-01-10",
+    "revision": 898,
+    "date": "2025-01-11",
     "author": "runner"
   },
   "database": [
@@ -9369,6 +9369,11 @@
           "retrieved": "2025-01-10",
           "version": "January 8, 2025",
           "date": "2025-01-08"
+        },
+        {
+          "retrieved": "2025-01-11",
+          "version": "January 9, 2025",
+          "date": "2025-01-09"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15268,6 +15273,10 @@
         {
           "retrieved": "2025-01-10",
           "version": "2025-01-10"
+        },
+        {
+          "retrieved": "2025-01-11",
+          "version": "2025-01-11"
         }
       ],
       "name": "SwissLipids",
@@ -16837,6 +16846,12 @@
           "version": "20241210",
           "homepage": "http://data.wikipathways.org/20241210/",
           "date": "2024-12-10"
+        },
+        {
+          "retrieved": "2025-01-11",
+          "version": "20250110",
+          "homepage": "http://data.wikipathways.org/20250110/",
+          "date": "2025-01-10"
         }
       ],
       "vtype": "date"

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-01-10'
-  revision: 897
+  date: '2025-01-11'
+  revision: 898
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -5193,6 +5193,9 @@ database:
   - date: '2025-01-08'
     retrieved: '2025-01-10'
     version: January 8, 2025
+  - date: '2025-01-09'
+    retrieved: '2025-01-11'
+    version: January 9, 2025
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8311,6 +8314,8 @@ database:
     version: '2025-01-09'
   - retrieved: '2025-01-10'
     version: '2025-01-10'
+  - retrieved: '2025-01-11'
+    version: '2025-01-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9178,6 +9183,10 @@ database:
     homepage: http://data.wikipathways.org/20241210/
     retrieved: '2024-12-11'
     version: '20241210'
+  - date: '2025-01-10'
+    homepage: http://data.wikipathways.org/20250110/
+    retrieved: '2025-01-11'
+    version: '20250110'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
