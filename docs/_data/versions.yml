@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-01-11'
-  revision: 898
+  date: '2025-01-12'
+  revision: 899
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -522,6 +522,8 @@ database:
     version: '2024-04-09'
   - retrieved: '2024-10-16'
     version: '2024-09-26'
+  - retrieved: '2025-01-12'
+    version: '2025-01-04'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -554,6 +556,8 @@ database:
     version: '2024-07-01'
   - retrieved: '2024-10-16'
     version: '2024-09-24'
+  - retrieved: '2025-01-12'
+    version: '2025-01-02'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -602,6 +606,8 @@ database:
     version: '2024-06-05'
   - retrieved: '2024-10-16'
     version: '2024-09-26'
+  - retrieved: '2025-01-12'
+    version: '2025-01-02'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -714,6 +720,8 @@ database:
     version: '2024-08-16'
   - retrieved: '2024-10-16'
     version: '2024-09-26'
+  - retrieved: '2025-01-12'
+    version: '2025-01-07'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -1081,6 +1089,8 @@ database:
     version: '2.231'
   - retrieved: '2024-12-22'
     version: '2.232'
+  - retrieved: '2025-01-12'
+    version: '2.233'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1914,6 +1924,8 @@ database:
     version: '2022-07-19'
   - retrieved: '2024-11-10'
     version: '2024-10-31'
+  - retrieved: '2025-01-12'
+    version: '2025-01-06'
   vtype: date
 - name: eNanoMapper Ontology
   prefix: enm
@@ -2225,6 +2237,8 @@ database:
     version: '4.189'
   - retrieved: '2024-12-22'
     version: '4.190'
+  - retrieved: '2025-01-12'
+    version: '4.191'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2848,6 +2862,8 @@ database:
     version: '2022-02-06'
   - retrieved: '2023-09-28'
     version: '2023-08-19'
+  - retrieved: '2025-01-12'
+    version: '2024-12-18'
   vtype: date
 - name: Genomics Cohorts Knowledge Ontology
   prefix: gecko
@@ -4248,6 +4264,8 @@ database:
     version: '2024-11-05'
   - retrieved: '2024-12-15'
     version: '2024-12-03'
+  - retrieved: '2025-01-12'
+    version: '2025-01-07'
   vtype: date
 - name: MOP
   prefix: mop
@@ -5196,6 +5214,9 @@ database:
   - date: '2025-01-09'
     retrieved: '2025-01-11'
     version: January 9, 2025
+  - date: '2025-01-10'
+    retrieved: '2025-01-12'
+    version: January 10, 2025
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6328,6 +6349,8 @@ database:
     version: '2024-01-04'
   - retrieved: '2024-08-11'
     version: '2024-07-11'
+  - retrieved: '2025-01-12'
+    version: '2025-01-08'
   vtype: date
 - name: PubChem
   releases:
@@ -8316,6 +8339,8 @@ database:
     version: '2025-01-10'
   - retrieved: '2025-01-11'
     version: '2025-01-11'
+  - retrieved: '2025-01-12'
+    version: '2025-01-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8567,6 +8592,8 @@ database:
     version: '1.4'
   - retrieved: '2024-08-11'
     version: '2024-07-07'
+  - retrieved: '2025-01-12'
+    version: '2025-01-07'
   vtype: semver
 - name: The Virus Infectious Disease Ontology
   prefix: vido
@@ -8974,6 +9001,8 @@ database:
     version: '2024-11-26'
   - retrieved: '2024-12-22'
     version: '2024-12-12'
+  - retrieved: '2025-01-12'
+    version: '2025-01-08'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -11099,6 +11128,8 @@ database:
     version: '2025-01-07'
   - retrieved: '2025-01-10'
     version: '2025-01-08'
+  - retrieved: '2025-01-12'
+    version: '2025-01-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
