@@ -1,14 +1,16 @@
 """A getter for ITIS."""
 
-from collections.abc import Mapping
+import datetime
 
-from bioversions.utils import Getter, VersionType, get_soup
+import requests
+
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "ITISGetter",
 ]
 
-URL = "https://itis.gov/downloads/index.html"
+URL = "https://www.itis.gov/DisplayPresentDate"
 
 
 class ITISGetter(Getter):
@@ -16,19 +18,12 @@ class ITISGetter(Getter):
 
     bioregistry_id = "itis"
     name = "ITIS"
-    date_fmt = "%d-%B-%Y"
     version_type = VersionType.date
 
-    def get(self) -> Mapping[str, str]:
+    def get(self) -> datetime.datetime:
         """Get the latest ITIS version number."""
-        soup = get_soup(URL)
-        cells = soup.find_all("td")
-        for cell in cells:
-            if "Database download files are currently from the " not in cell.text:
-                continue
-            bolds = list(cell.find_all("b"))
-            return bolds[1].text
-        raise ValueError
+        res = requests.get(URL, timeout=3).text
+        return datetime.datetime.strptime(res, "%d-%b-%Y")
 
 
 if __name__ == "__main__":
