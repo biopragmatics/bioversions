@@ -1,10 +1,14 @@
 """A getter for the Antibody Registry."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+import requests
+
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "AntibodyRegistryGetter",
 ]
+
+URL = "https://www.antibodyregistry.org/api/datainfo"
 
 
 class AntibodyRegistryGetter(Getter):
@@ -13,12 +17,13 @@ class AntibodyRegistryGetter(Getter):
     bioregistry_id = "antibodyregistry"
     name = "Antibody Registry"
     homepage_fmt = "https://antibodyregistry.org/"
-    version_type = VersionType.semver_minor
+    version_type = VersionType.date
 
     def get(self):
         """Get the latest Antibody Registry version number."""
-        soup = get_soup("https://antibodyregistry.org/")
-        return soup.find(**{"class": "footer"}).find("a").text.lstrip("v")
+        res = requests.get(URL, timeout=3)
+        res_json = res.json()
+        return res_json["lastupdate"]
 
 
 if __name__ == "__main__":
