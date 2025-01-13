@@ -2,7 +2,7 @@
 
 """A getter for the Antibody Registry."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType
 import requests
 
 __all__ = [
@@ -10,6 +10,7 @@ __all__ = [
 ]
 
 URL = "https://www.antibodyregistry.org/api/datainfo"
+
 
 class AntibodyRegistryGetter(Getter):
     """A getter for the Antibody Registry."""
