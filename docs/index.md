@@ -17,7 +17,7 @@ aims to improve the findability of life sciences resources such as datasets,
 software, and training materials. These annotations can either appear on the
 original site, or on a website (like this one) that indexes it or provides
 additional information. The further information here, for example, is the link
-to the BioRegistry. The JSON-LD annotation will make it easier for other tools
+to the Bioregistry. The JSON-LD annotation will make it easier for other tools
 to recognize the content of the table. This includes the
 [Google Dataset finder](https://datasetsearch.research.google.com/), besides
 Bioschemas itself.
