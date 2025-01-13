@@ -24,6 +24,7 @@ from .daily import NCBIGeneGetter
 from .depmap import DepMapGetter
 from .dgi import DGIGetter
 from .disgenet import DisGeNetGetter
+from .signor import SignorGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .ensembl import EnsemblGetter
@@ -141,6 +142,7 @@ def get_getters() -> list[type[Getter]]:
         ICD11Getter,
         CiVICGetter,
         GTDBGetter,
+        SignorGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
