@@ -1,5 +1,6 @@
 """A getter for the OMIM."""
 
+import datetime
 from typing import ClassVar
 
 from bioversions.utils import Getter, VersionType, get_soup
@@ -13,11 +14,10 @@ class OMIMGetter(Getter):
     """A getter for OMIM."""
 
     name = "Online Mendelian Inheritance in Man"
-    date_version_fmt = "%B %d, %Y"
     version_type = VersionType.date
     collection: ClassVar[list[str]] = ["omim.ps", "omim"]
 
-    def get(self) -> str:
+    def get(self) -> datetime.datetime:
         """Get the latest OMIM version number."""
         soup = get_soup("https://omim.org/")
         for tag in soup.find_all("h5"):
@@ -25,7 +25,7 @@ class OMIMGetter(Getter):
             if text.startswith("Updated"):
                 rv = text[len("Updated") :].strip()
                 rv = rv.replace("nd", "").replace("st", "").replace("rd", "").replace("th", "")
-                return rv
+                return datetime.datetime.strptime(rv, "%B %d, %Y")
         raise ValueError
 
 
