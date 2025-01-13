@@ -1,6 +1,8 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["uv>=0.5.13,<0.6.0"]
+# The uv backend entered preview mode in https://github.com/astral-sh/uv/pull/8886/files
+# with the 0.5.0 release. See also https://github.com/astral-sh/uv/issues/3957 for tracking.
+build-backend = "uv"
 
 [project]
 name = "bioversions"
@@ -42,10 +44,11 @@ keywords = [
     "biomedical databases",
 ]
 
-# License Information. This can be any valid SPDX identifiers that can be resolved
-# with URLs like https://spdx.org/licenses/MIT
-# See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
-license = { file = "LICENSE" }
+# License Information.
+# See PEP-639 at https://peps.python.org/pep-0639/#add-license-files-key
+license-files = [
+    "LICENSE",
+]
 
 requires-python = ">=3.10"
 dependencies = [
@@ -69,7 +72,7 @@ dependencies = [
 [project.optional-dependencies]
 tests = [
     "pytest",
-    "coverage",
+    "coverage[toml]",
 ]
 docs = [
     "sphinx>=8",
@@ -93,27 +96,16 @@ web =[
 ]
 
 # See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#urls
+# and also https://packaging.python.org/en/latest/specifications/well-known-project-urls/
 [project.urls]
 "Bug Tracker" = "https://github.com/biopragmatics/bioversions/issues"
 Homepage = "https://github.com/biopragmatics/bioversions"
 Repository = "https://github.com/biopragmatics/bioversions.git"
 Documentation = "https://bioversions.readthedocs.io"
-
-[tool.setuptools]
-package-dir = { "" = "src" }
-
-[tool.setuptools.packages.find]
-# this implicitly sets `packages = ":find"`
-where = ["src"]  # list of folders that contain the packages (["."] by default)
-
-# See https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-[tool.setuptools.package-data]
-"*" = ["*.*"]
-
+Funding = "https://github.com/sponsors/cthoyt"
 
 [project.scripts]
 bioversions = "bioversions.cli:main"
-
 
 [tool.cruft]
 skip = [
