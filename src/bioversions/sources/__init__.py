@@ -63,6 +63,7 @@ from .rgd import RGDGetter
 from .rhea import RheaGetter
 from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
+from .signor import SignorGetter
 from .slm import SwissLipidGetter
 from .stringdb import StringDBGetter
 from .umls import UMLSGetter
@@ -141,6 +142,7 @@ def get_getters() -> list[type[Getter]]:
         ICD11Getter,
         CiVICGetter,
         GTDBGetter,
+        SignorGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
