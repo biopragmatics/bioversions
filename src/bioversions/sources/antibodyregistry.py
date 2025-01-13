@@ -2,8 +2,9 @@
 
 """A getter for the Antibody Registry."""
 
-from bioversions.utils import Getter, VersionType
 import requests
+
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "AntibodyRegistryGetter",
