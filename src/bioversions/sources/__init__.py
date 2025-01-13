@@ -24,7 +24,6 @@ from .daily import NCBIGeneGetter
 from .depmap import DepMapGetter
 from .dgi import DGIGetter
 from .disgenet import DisGeNetGetter
-from .signor import SignorGetter
 from .drugbank import DrugBankGetter
 from .drugcentral import DrugCentralGetter
 from .ensembl import EnsemblGetter
@@ -64,6 +63,7 @@ from .rgd import RGDGetter
 from .rhea import RheaGetter
 from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
+from .signor import SignorGetter
 from .slm import SwissLipidGetter
 from .stringdb import StringDBGetter
 from .umls import UMLSGetter

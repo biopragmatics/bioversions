@@ -1,9 +1,9 @@
 """A getter for `SIGNOR <https://signor.uniroma2.it>`_."""
 
-from typing import ClassVar
-from bioversions.utils import get_soup
 import datetime
-from bioversions.utils import Getter, VersionType
+from typing import ClassVar
+
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     "SignorGetter",
