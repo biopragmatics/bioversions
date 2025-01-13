@@ -14,7 +14,7 @@ TEXT = "Click here to download the latest stable release"
 
 
 class SignorGetter(Getter):
-    """A getter for HomoloGene."""
+    """A getter for SIGNOR."""
 
     name = "SIGNOR"
     version_type = VersionType.date
@@ -22,7 +22,7 @@ class SignorGetter(Getter):
     collection: ClassVar[list[str]] = ["signor", "signor.relation"]
 
     def get(self) -> datetime.datetime:
-        """Get the latest HomoloGene version number."""
+        """Get the latest SIGNOR version number."""
         soup = get_soup(URL)
         for p in soup.find_all("p"):
             if TEXT in p.text:
