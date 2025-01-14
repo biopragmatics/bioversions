@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 900,
-    "date": "2025-01-13",
+    "revision": 901,
+    "date": "2025-01-14",
     "author": "runner"
   },
   "database": [
@@ -194,11 +194,16 @@
           "retrieved": "2021-10-10",
           "version": "3.0",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2025-01-13",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
       "prefix": "antibodyregistry",
-      "vtype": "semver_minor"
+      "vtype": "date"
     },
     {
       "releases": [
@@ -1865,6 +1870,10 @@
         {
           "retrieved": "2025-01-02",
           "version": "01-Jan-2025"
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2025-01-01"
         }
       ],
       "name": "CiVIC",
@@ -6492,6 +6501,10 @@
         {
           "retrieved": "2024-10-05",
           "version": ""
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2024-12-16"
         }
       ],
       "name": "ITIS",
@@ -9415,6 +9428,10 @@
           "retrieved": "2025-01-12",
           "version": "January 10, 2025",
           "date": "2025-01-10"
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2025-01-10"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11305,6 +11322,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2.1.5"
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2.1.7"
         }
       ],
       "name": "PRIDE Controlled Vocabulary",
@@ -11964,6 +11985,10 @@
         {
           "retrieved": "2025-01-07",
           "version": "2025-01-03"
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2025-01-10"
         }
       ],
       "name": "Rat Genome Database",
@@ -12780,6 +12805,16 @@
           "version": "2021-04-15"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-01-14",
+          "version": "2025-01-01"
+        }
+      ],
+      "name": "SIGNOR",
       "vtype": "date"
     },
     {
@@ -15330,6 +15365,10 @@
         {
           "retrieved": "2025-01-13",
           "version": "2025-01-13"
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2025-01-14"
         }
       ],
       "name": "SwissLipids",
@@ -20456,6 +20495,10 @@
         {
           "retrieved": "2025-01-13",
           "version": "2025-01-11"
+        },
+        {
+          "retrieved": "2025-01-14",
+          "version": "2025-01-12"
         }
       ],
       "name": "Zebrafish Information Network",

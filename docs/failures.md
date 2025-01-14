@@ -1,7 +1,6 @@
 # Summary of Errors
 
 - DisGeNet - failed to resolve DisGeNet
-- Antibody Registry - failed to resolve Antibody Registry
 - DrugBank - failed to resolve DrugBank
 
 ## DisGeNet
@@ -26,10 +25,10 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 216, in _iter_versions
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 218, in _iter_versions
     yv = resolve(cls.name)
          ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 169, in resolve
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 171, in resolve
     return _resolve_helper_cached(name)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
@@ -38,10 +37,10 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
     func_res = func(*args, **kwds)
                ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 176, in _resolve_helper_cached
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 178, in _resolve_helper_cached
     return _resolve_helper(name)
            ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 182, in _resolve_helper
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 184, in _resolve_helper
     return getter.resolve()
            ^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 216, in resolve
@@ -62,56 +61,16 @@ requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 
 ```
 
-## Antibody Registry
-
-Using class: `AntibodyRegistryGetter`
-
-```python-traceback
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 216, in _iter_versions
-    yv = resolve(cls.name)
-         ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 169, in resolve
-    return _resolve_helper_cached(name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
-    return _calc_entry(core, key, func, args, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
-    func_res = func(*args, **kwds)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 176, in _resolve_helper_cached
-    return _resolve_helper(name)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 182, in _resolve_helper
-    return getter.resolve()
-           ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 216, in resolve
-    version=cls.version,
-            ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 94, in version
-    if isinstance(cls._cache_prop, str):
-                  ^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 88, in _cache_prop
-    cls._cache = cls().get()
-                 ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/antibodyregistry.py", line 21, in get
-    return soup.find(**{"class": "footer"}).find("a").text.lstrip("v")
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'find'
-
-```
-
 ## DrugBank
 
 Using class: `DrugBankGetter`
 
 ```python-traceback
 Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 216, in _iter_versions
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 218, in _iter_versions
     yv = resolve(cls.name)
          ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 169, in resolve
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 171, in resolve
     return _resolve_helper_cached(name)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
@@ -120,10 +79,10 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
     func_res = func(*args, **kwds)
                ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 176, in _resolve_helper_cached
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 178, in _resolve_helper_cached
     return _resolve_helper(name)
            ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 182, in _resolve_helper
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 184, in _resolve_helper
     return getter.resolve()
            ^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 216, in resolve
@@ -142,3 +101,4 @@ Traceback (most recent call last):
 requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://go.drugbank.com/releases.json
 
 ```
+

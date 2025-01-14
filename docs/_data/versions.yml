@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-01-13'
-  revision: 900
+  date: '2025-01-14'
+  revision: 901
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -105,7 +105,10 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2021-10-10'
     version: '3.0'
-  vtype: semver_minor
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-01-14'
+    version: '2025-01-13'
+  vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
   releases:
@@ -1019,6 +1022,8 @@ database:
     version: 01-Dec-2024
   - retrieved: '2025-01-02'
     version: 01-Jan-2025
+  - retrieved: '2025-01-14'
+    version: '2025-01-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -3576,6 +3581,8 @@ database:
     version: 31-Aug-2023
   - retrieved: '2024-10-05'
     version: ''
+  - retrieved: '2025-01-14'
+    version: '2024-12-16'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -5217,6 +5224,8 @@ database:
   - date: '2025-01-10'
     retrieved: '2025-01-12'
     version: January 10, 2025
+  - retrieved: '2025-01-14'
+    version: '2025-01-10'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6259,6 +6268,8 @@ database:
     version: 2.1.4
   - retrieved: '2024-11-17'
     version: 2.1.5
+  - retrieved: '2025-01-14'
+    version: 2.1.7
   vtype: date
 - name: Probability Distribution Ontology
   prefix: probonto
@@ -6613,6 +6624,8 @@ database:
     version: '2024-12-13'
   - retrieved: '2025-01-07'
     version: '2025-01-03'
+  - retrieved: '2025-01-14'
+    version: '2025-01-10'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -7059,6 +7072,11 @@ database:
     version: '2019-06-26'
   - retrieved: '2021-05-08'
     version: '2021-04-15'
+  vtype: date
+- name: SIGNOR
+  releases:
+  - retrieved: '2025-01-14'
+    version: '2025-01-01'
   vtype: date
 - name: SNOMED CT (International Edition)
   prefix: snomedct
@@ -8343,6 +8361,8 @@ database:
     version: '2025-01-12'
   - retrieved: '2025-01-13'
     version: '2025-01-13'
+  - retrieved: '2025-01-14'
+    version: '2025-01-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11134,6 +11154,8 @@ database:
     version: '2025-01-10'
   - retrieved: '2025-01-13'
     version: '2025-01-11'
+  - retrieved: '2025-01-14'
+    version: '2025-01-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
