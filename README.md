@@ -168,22 +168,24 @@ $ cd bioversions
 $ uv --preview pip install -e .
 ```
 
-Alternatively, install using legacy pip with `UV_PREVIEW` mode enabled until the
-uv build backend becomes a stable feature:
+Alternatively, install using pip:
 
 ```console
 $ UV_PREVIEW=1 python3 -m pip install -e .
 ```
 
+Note that this requires setting `UV_PREVIEW` mode enabled until the uv build
+backend becomes a stable feature.
+
 ### Updating Package Boilerplate
 
 This project uses `cruft` to keep boilerplate (i.e., configuration, contribution
 guidelines, documentation configuration) up-to-date with the upstream
-cookiecutter package. Update with the following:
+cookiecutter package. Install cruft with either `uv tool install cruft` or
+`python3 -m pip install cruft` then run:
 
 ```console
-python3 -m pip install cruft
-cruft update
+$ cruft update
 ```
 
 More info on Cruft's update command is available
@@ -207,10 +209,10 @@ Additionally, these tests are automatically re-run with each commit in a
 The documentation can be built locally using the following:
 
 ```console
-git clone git+https://github.com/biopragmatics/bioversions.git
-cd bioversions
-tox -e docs
-open docs/build/html/index.html
+$ git clone git+https://github.com/biopragmatics/bioversions.git
+$ cd bioversions
+$ tox -e docs
+$ open docs/build/html/index.html
 ```
 
 The documentation automatically installs the package as well as the `docs` extra
