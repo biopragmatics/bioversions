@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 902,
-    "date": "2025-01-15",
-    "author": "runner"
+    "revision": 903,
+    "date": "2025-01-28",
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -203,6 +203,11 @@
         {
           "retrieved": "2025-01-15",
           "version": "2025-01-14",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-27",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -2022,6 +2027,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2.233"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2.234"
         }
       ],
       "vtype": "date"
@@ -4109,6 +4118,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "4.191"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "4.192"
         }
       ],
       "vtype": "date"
@@ -4608,6 +4621,10 @@
         {
           "retrieved": "2025-01-05",
           "version": "2024-12-31"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-14"
         }
       ],
       "vtype": "date"
@@ -6510,6 +6527,10 @@
         {
           "retrieved": "2025-01-14",
           "version": "2024-12-16"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-24"
         }
       ],
       "name": "ITIS",
@@ -7057,6 +7078,10 @@
         {
           "retrieved": "2024-12-15",
           "version": "2.145"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2.146"
         }
       ],
       "vtype": "date"
@@ -9441,6 +9466,10 @@
         {
           "retrieved": "2025-01-15",
           "version": "2025-01-13"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-24"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11998,6 +12027,10 @@
         {
           "retrieved": "2025-01-14",
           "version": "2025-01-10"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-24"
         }
       ],
       "name": "Rat Genome Database",
@@ -12095,6 +12128,10 @@
         {
           "retrieved": "2024-12-15",
           "version": "6.238"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "6.239"
         }
       ],
       "vtype": "date"
@@ -15382,6 +15419,10 @@
         {
           "retrieved": "2025-01-15",
           "version": "2025-01-15"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-28"
         }
       ],
       "name": "SwissLipids",
@@ -16125,6 +16166,10 @@
         {
           "retrieved": "2024-11-10",
           "version": "2024-11-02"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-11"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -20516,6 +20561,10 @@
         {
           "retrieved": "2025-01-15",
           "version": "2025-01-13"
+        },
+        {
+          "retrieved": "2025-01-28",
+          "version": "2025-01-27"
         }
       ],
       "name": "Zebrafish Information Network",

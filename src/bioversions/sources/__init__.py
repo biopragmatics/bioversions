@@ -222,7 +222,7 @@ def _iter_versions(
             msg = f"failed to resolve {cls.name}"
             tqdm.write(msg)
             yield FailureTuple(cls.name, cls.__name__, msg, traceback.format_exc())
-        except ValueError as e:
+        except (ValueError, KeyError) as e:
             msg = f"issue parsing {cls.name}: {e}"
             tqdm.write(msg)
             yield FailureTuple(cls.name, cls.__name__, msg, traceback.format_exc())

@@ -1,7 +1,48 @@
 # Summary of Errors
 
+- CiVIC - issue parsing CiVIC: 'data'
 - DisGeNet - failed to resolve DisGeNet
 - DrugBank - failed to resolve DrugBank
+
+## CiVIC
+
+Using class: `CiVICGetter`
+
+```python-traceback
+Traceback (most recent call last):
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 218, in _iter_versions
+    yv = resolve(cls.name)
+         ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 171, in resolve
+    return _resolve_helper_cached(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
+    return _calc_entry(core, key, func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
+    func_res = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 178, in _resolve_helper_cached
+    return _resolve_helper(name)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 184, in _resolve_helper
+    return getter.resolve()
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 216, in resolve
+    version=cls.version,
+            ^^^^^^^^^^^
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 94, in version
+    if isinstance(cls._cache_prop, str):
+                  ^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 88, in _cache_prop
+    cls._cache = cls().get()
+                 ^^^^^^^^^^^
+  File "/home/runner/work/bioversions/src/bioversions/sources/civic.py", line 41, in get
+    value = res.json()["data"]["dataReleases"][1]["name"]
+            ~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+```
 
 ## DisGeNet
 
@@ -9,7 +50,7 @@ Using class: `DisGeNetGetter`
 
 ```python-traceback
 Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/models.py", line 974, in json
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/requests/models.py", line 974, in json
     return complexjson.loads(self.text, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/json/__init__.py", line 346, in loads
@@ -25,37 +66,37 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 218, in _iter_versions
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 218, in _iter_versions
     yv = resolve(cls.name)
          ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 171, in resolve
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 171, in resolve
     return _resolve_helper_cached(name)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
     return _calc_entry(core, key, func, args, kwds)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
     func_res = func(*args, **kwds)
                ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 178, in _resolve_helper_cached
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 178, in _resolve_helper_cached
     return _resolve_helper(name)
            ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 184, in _resolve_helper
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 184, in _resolve_helper
     return getter.resolve()
            ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 216, in resolve
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 216, in resolve
     version=cls.version,
             ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 94, in version
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 94, in version
     if isinstance(cls._cache_prop, str):
                   ^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 88, in _cache_prop
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 88, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/disgenet.py", line 24, in get
+  File "/home/runner/work/bioversions/src/bioversions/sources/disgenet.py", line 24, in get
     res_json = res.json()
                ^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/models.py", line 978, in json
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/requests/models.py", line 978, in json
     raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
 requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 
@@ -67,38 +108,37 @@ Using class: `DrugBankGetter`
 
 ```python-traceback
 Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 218, in _iter_versions
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 218, in _iter_versions
     yv = resolve(cls.name)
          ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 171, in resolve
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 171, in resolve
     return _resolve_helper_cached(name)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
     return _calc_entry(core, key, func, args, kwds)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
     func_res = func(*args, **kwds)
                ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 178, in _resolve_helper_cached
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 178, in _resolve_helper_cached
     return _resolve_helper(name)
            ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 184, in _resolve_helper
+  File "/home/runner/work/bioversions/src/bioversions/sources/__init__.py", line 184, in _resolve_helper
     return getter.resolve()
            ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 216, in resolve
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 216, in resolve
     version=cls.version,
             ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 94, in version
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 94, in version
     if isinstance(cls._cache_prop, str):
                   ^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 88, in _cache_prop
+  File "/home/runner/work/bioversions/src/bioversions/utils.py", line 88, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/drugbank.py", line 28, in get
+  File "/home/runner/work/bioversions/src/bioversions/sources/drugbank.py", line 28, in get
     res.raise_for_status()
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://go.drugbank.com/releases.json
 
 ```
-
