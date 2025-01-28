@@ -21,7 +21,9 @@ def _get_version_type(bioregistry_id: str) -> VersionType | None:
         raise ValueError(f"Missing OLS prefix for bioregistry:{bioregistry_id}")
     ols_config = ols_processing.get(ols_id)
     if ols_config is None:
-        raise ValueError(f"Missing OLS configuration for bioregistry:{bioregistry_id} / ols:{ols_id}")
+        raise ValueError(
+            f"Missing OLS configuration for bioregistry:{bioregistry_id} / ols:{ols_id}"
+        )
 
     ols_version_type = ols_config.version_type
     ols_version_date_format = ols_config.version_date_format

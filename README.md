@@ -209,9 +209,8 @@ More info on Cruft's update command is available
 ### 🥼 Testing
 
 After cloning the repository and installing `tox` with
-`uv tool install tox --with tox-uv` or
-`python3 -m pip install tox tox-uv`, the unit tests in the `tests/` folder
-can be run reproducibly with:
+`uv tool install tox --with tox-uv` or `python3 -m pip install tox tox-uv`, the
+unit tests in the `tests/` folder can be run reproducibly with:
 
 ```console
 $ tox -e py
@@ -307,9 +306,9 @@ Note that this deprecates previous workflows using `.pypirc`.
 
 #### Uploading to PyPI
 
-After installing the package in development mode and installing
-`tox` with `uv tool install tox --with tox-uv` or
-`python3 -m pip install tox tox-uv`, run the following from the console:
+After installing the package in development mode and installing `tox` with
+`uv tool install tox --with tox-uv` or `python3 -m pip install tox tox-uv`, run
+the following from the console:
 
 ```console
 $ tox -e finish
