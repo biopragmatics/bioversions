@@ -1,6 +1,6 @@
 """A getter for SILVA."""
 
-import datetime
+from datetime import datetime
 
 import requests
 
@@ -11,6 +11,7 @@ __all__ = [
 ]
 
 URL = "https://www.arb-silva.de/fileadmin/silva_databases/current/VERSION.txt"
+HEADER_FMT = "%a, %d %b %Y %H:%M:%S %Z"
 
 
 class SILVAGetter(Getter):
@@ -26,18 +27,14 @@ class SILVAGetter(Getter):
         res = requests.get(URL, timeout=15)
 
         # Get version from the content
-        version = res.text.strip()
+        rv = {"version": res.text.strip()}
 
         # Get date from the Last-Modified header
         date_str = res.headers.get("Last-Modified")
         if date_str:
-            date = datetime.datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %Z").strftime(
-                self.date_fmt
-            )
-        else:
-            date = None
+            rv["date"] = datetime.strptime(date_str, HEADER_FMT)
 
-        return {"version": version, "date": date}
+        return rv
 
 
 if __name__ == "__main__":
