@@ -60,7 +60,7 @@ While https://biopragmatics.github.io/bioversions provides a daily updated
 static listing of the database, you can run a dynamic version with an API from
 your shell with:
 
-```bash
+```console
 $ bioversions web
 ```
 
@@ -84,24 +84,39 @@ assert res['result']['version'] == '4.2.192', 'This was true on Dec 5th, 2020!'
 You can use `bioversions get` to incorporate the latest versions in your shell
 scripts or REPL usage like in:
 
-```bash
+```console
 $ wget "https://downloads.thebiogrid.org/Download/BioGRID/Release-Archive/BIOGRID-$(bioversions get biogrid)/BIOGRID-ALL-$(bioversions get biogrid).mitab.zip"
 ```
 
 ## 🚀 Installation
 
 The most recent release can be installed from
-[PyPI](https://pypi.org/project/bioversions/) with:
+[PyPI](https://pypi.org/project/bioversions/) with uv:
 
 ```console
-python3 -m pip install bioversions
+$ uv pip install bioversions
 ```
 
-The most recent code and data can be installed directly from GitHub with:
+or with pip:
 
 ```console
-python3 -m pip install git+https://github.com/biopragmatics/bioversions.git
+$ python3 -m pip install bioversions
 ```
+
+The most recent code and data can be installed directly from GitHub with uv:
+
+```console
+$ uv --preview pip install git+https://github.com/biopragmatics/bioversions.git
+```
+
+or with pip:
+
+```console
+$ UV_PREVIEW=1 python3 -m pip install git+https://github.com/biopragmatics/bioversions.git
+```
+
+Note that this requires setting `UV_PREVIEW` mode enabled until the uv build
+backend becomes a stable feature.
 
 ## 👐 Contributing
 
@@ -168,22 +183,24 @@ $ cd bioversions
 $ uv --preview pip install -e .
 ```
 
-Alternatively, install using legacy pip with `UV_PREVIEW` mode enabled until the
-uv build backend becomes a stable feature:
+Alternatively, install using pip:
 
 ```console
 $ UV_PREVIEW=1 python3 -m pip install -e .
 ```
 
+Note that this requires setting `UV_PREVIEW` mode enabled until the uv build
+backend becomes a stable feature.
+
 ### Updating Package Boilerplate
 
 This project uses `cruft` to keep boilerplate (i.e., configuration, contribution
 guidelines, documentation configuration) up-to-date with the upstream
-cookiecutter package. Update with the following:
+cookiecutter package. Install cruft with either `uv tool install cruft` or
+`python3 -m pip install cruft` then run:
 
 ```console
-python3 -m pip install cruft
-cruft update
+$ cruft update
 ```
 
 More info on Cruft's update command is available
@@ -192,11 +209,12 @@ More info on Cruft's update command is available
 ### 🥼 Testing
 
 After cloning the repository and installing `tox` with
-`python3 -m pip install tox tox-uv`, the unit tests in the `tests/` folder can
-be run reproducibly with:
+`uv tool install tox --with tox-uv` or
+`python3 -m pip install tox tox-uv`, the unit tests in the `tests/` folder
+can be run reproducibly with:
 
 ```console
-tox -e py
+% tox -e py
 ```
 
 Additionally, these tests are automatically re-run with each commit in a
@@ -207,10 +225,10 @@ Additionally, these tests are automatically re-run with each commit in a
 The documentation can be built locally using the following:
 
 ```console
-git clone git+https://github.com/biopragmatics/bioversions.git
-cd bioversions
-tox -e docs
-open docs/build/html/index.html
+$ git clone git+https://github.com/biopragmatics/bioversions.git
+$ cd bioversions
+$ tox -e docs
+$ open docs/build/html/index.html
 ```
 
 The documentation automatically installs the package as well as the `docs` extra
@@ -289,11 +307,12 @@ Note that this deprecates previous workflows using `.pypirc`.
 
 #### Uploading to PyPI
 
-After installing the package in development mode and installing `tox` with
+After installing the package in development mode and installing
+`tox` with `uv tool install tox --with tox-uv` or
 `python3 -m pip install tox tox-uv`, run the following from the console:
 
 ```console
-tox -e finish
+$ tox -e finish
 ```
 
 This script does the following:

@@ -1,7 +1,8 @@
 """Get versions from the OLS."""
 
 import logging
-from collections.abc import Iterable, Mapping
+from collections.abc import Iterable
+from typing import cast
 
 import bioregistry
 from bioregistry.external.ols import get_ols_processing
@@ -16,9 +17,11 @@ ols_processing = get_ols_processing()
 
 def _get_version_type(bioregistry_id: str) -> VersionType | None:
     ols_id = bioregistry.get_ols_prefix(bioregistry_id)
+    if ols_id is None:
+        raise ValueError(f"Missing OLS prefix for bioregistry:{bioregistry_id}")
     ols_config = ols_processing.get(ols_id)
     if ols_config is None:
-        raise
+        raise ValueError(f"Missing OLS configuration for bioregistry:{bioregistry_id} / ols:{ols_id}")
 
     ols_version_type = ols_config.version_type
     ols_version_date_format = ols_config.version_date_format
@@ -61,12 +64,12 @@ def make_ols_getter(bioregistry_id: str) -> type[Getter] | None:
         """A getter for OLS data from the Bioregistry."""
 
         bioregistry_id = _brid
-        name = _name
+        name = cast(str, _name)
         version_type = _version_type  # type:ignore
 
-        def get(self) -> str | Mapping[str, str]:
+        def get(self) -> str:
             """Get the version from the Bioregistry."""
-            return version
+            return cast(str, version)
 
     return OlsGetter
 

@@ -271,6 +271,8 @@ class OBOFoundryGetter(Getter):
     @property
     def key(self) -> str:
         """Get the OBO Foundry key."""
+        if self.bioregistry_id is None:
+            raise ValueError("missing bioregistry ID")
         rv = bioregistry.get_obofoundry_prefix(self.bioregistry_id)
         if rv is None:
             raise ValueError
