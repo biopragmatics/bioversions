@@ -214,7 +214,7 @@ After cloning the repository and installing `tox` with
 can be run reproducibly with:
 
 ```console
-% tox -e py
+$ tox -e py
 ```
 
 Additionally, these tests are automatically re-run with each commit in a
