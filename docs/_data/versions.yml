@@ -1,7 +1,7 @@
 annotations:
   author: cthoyt
   date: '2025-01-28'
-  revision: 903
+  revision: 904
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -7102,6 +7102,14 @@ database:
   - retrieved: '2025-01-14'
     version: '2025-01-01'
   vtype: date
+- name: SILVA ribosomal RNA database
+  prefix: silva.taxon
+  releases:
+  - date: '2024-03-14'
+    homepage: https://www.arb-silva.de/
+    retrieved: '2025-01-28'
+    version: '138.2'
+  vtype: sequential
 - name: SNOMED CT (International Edition)
   prefix: snomedct
   releases:

@@ -1,6 +1,6 @@
 {
   "annotations": {
-    "revision": 903,
+    "revision": 904,
     "date": "2025-01-28",
     "author": "cthoyt"
   },
@@ -12862,6 +12862,19 @@
       ],
       "name": "SIGNOR",
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-01-28",
+          "version": "138.2",
+          "homepage": "https://www.arb-silva.de/",
+          "date": "2024-03-14"
+        }
+      ],
+      "name": "SILVA ribosomal RNA database",
+      "prefix": "silva.taxon",
+      "vtype": "sequential"
     },
     {
       "releases": [
