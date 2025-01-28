@@ -106,7 +106,7 @@ def _update(force: bool):  # noqa:C901
         for t in failure_tuples:
             text += f"## {t.name}\n\nUsing class: `{t.clstype}`\n\n"
             text += f"```python-traceback\n{t.trace}\n```\n\n"
-        FAILURES_PATH.write_text(text)
+        FAILURES_PATH.write_text(text.rstrip() + "\n")
 
 
 def _log_update(bv) -> None:
