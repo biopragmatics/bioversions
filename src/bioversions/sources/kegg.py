@@ -20,7 +20,7 @@ class KEGGGetter(Getter):
     name = "KEGG"
     date_fmt = "%B %d, %Y"
     version_type = VersionType.semver_minor
-    collection: ClassVar[list[str]] = ["kegg", *bioregistry.get_has_parts("kegg")]
+    collection: ClassVar[list[str]] = ["kegg", *(bioregistry.get_has_parts("kegg") or [])]
 
     def get(self) -> Mapping[str, str]:
         """Get the latest KEGG version number."""
