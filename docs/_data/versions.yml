@@ -1,7 +1,7 @@
 annotations:
-  author: runner
-  date: '2025-01-15'
-  revision: 902
+  author: cthoyt
+  date: '2025-01-28'
+  revision: 903
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -111,6 +111,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-01-15'
     version: '2025-01-14'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-01-28'
+    version: '2025-01-27'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1099,6 +1102,8 @@ database:
     version: '2.232'
   - retrieved: '2025-01-12'
     version: '2.233'
+  - retrieved: '2025-01-28'
+    version: '2.234'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2247,6 +2252,8 @@ database:
     version: '4.190'
   - retrieved: '2025-01-12'
     version: '4.191'
+  - retrieved: '2025-01-28'
+    version: '4.192'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2499,6 +2506,8 @@ database:
     version: '2024-12-05'
   - retrieved: '2025-01-05'
     version: '2024-12-31'
+  - retrieved: '2025-01-28'
+    version: '2025-01-14'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3586,6 +3595,8 @@ database:
     version: ''
   - retrieved: '2025-01-14'
     version: '2024-12-16'
+  - retrieved: '2025-01-28'
+    version: '2025-01-24'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -3878,6 +3889,8 @@ database:
     version: '2.144'
   - retrieved: '2024-12-15'
     version: '2.145'
+  - retrieved: '2025-01-28'
+    version: '2.146'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -5231,6 +5244,8 @@ database:
     version: '2025-01-10'
   - retrieved: '2025-01-15'
     version: '2025-01-13'
+  - retrieved: '2025-01-28'
+    version: '2025-01-24'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6631,6 +6646,8 @@ database:
     version: '2025-01-03'
   - retrieved: '2025-01-14'
     version: '2025-01-10'
+  - retrieved: '2025-01-28'
+    version: '2025-01-24'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -6679,6 +6696,8 @@ database:
     version: '6.236'
   - retrieved: '2024-12-15'
     version: '6.238'
+  - retrieved: '2025-01-28'
+    version: '6.239'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -8370,6 +8389,8 @@ database:
     version: '2025-01-14'
   - retrieved: '2025-01-15'
     version: '2025-01-15'
+  - retrieved: '2025-01-28'
+    version: '2025-01-28'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8757,6 +8778,8 @@ database:
     version: '2024-09-04'
   - retrieved: '2024-11-10'
     version: '2024-11-02'
+  - retrieved: '2025-01-28'
+    version: '2025-01-11'
   vtype: date
 - name: Unified phenotype ontology (uPheno)
   prefix: upheno
@@ -11165,6 +11188,8 @@ database:
     version: '2025-01-12'
   - retrieved: '2025-01-15'
     version: '2025-01-13'
+  - retrieved: '2025-01-28'
+    version: '2025-01-27'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
