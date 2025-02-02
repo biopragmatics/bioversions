@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 908,
-    "date": "2025-02-01",
+    "revision": 909,
+    "date": "2025-02-02",
     "author": "runner"
   },
   "database": [
@@ -223,6 +223,11 @@
         {
           "retrieved": "2025-02-01",
           "version": "2025-01-31",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-02-02",
+          "version": "2025-02-01",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -729,6 +734,11 @@
           "retrieved": "2025-01-02",
           "version": "4.4.241",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.241"
+        },
+        {
+          "retrieved": "2025-02-02",
+          "version": "4.4.242",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.242"
         }
       ],
       "vtype": "semver"
@@ -9507,6 +9517,10 @@
         {
           "retrieved": "2025-02-01",
           "version": "2025-01-30"
+        },
+        {
+          "retrieved": "2025-02-02",
+          "version": "2025-01-31"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11311,6 +11325,12 @@
           "version": "2025-01-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-01-01/",
           "date": "2025-01-01"
+        },
+        {
+          "retrieved": "2025-02-02",
+          "version": "2025-02-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-02-01/",
+          "date": "2025-02-01"
         }
       ],
       "name": "PomBase",
@@ -15494,6 +15514,10 @@
         {
           "retrieved": "2025-02-01",
           "version": "2025-02-01"
+        },
+        {
+          "retrieved": "2025-02-02",
+          "version": "2025-02-02"
         }
       ],
       "name": "SwissLipids",
@@ -20648,6 +20672,10 @@
         {
           "retrieved": "2025-02-01",
           "version": "2025-01-30"
+        },
+        {
+          "retrieved": "2025-02-02",
+          "version": "2025-01-31"
         }
       ],
       "name": "Zebrafish Information Network",

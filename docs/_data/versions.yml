@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-02-01'
-  revision: 908
+  date: '2025-02-02'
+  revision: 909
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -123,6 +123,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-02-01'
     version: '2025-01-31'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-02-02'
+    version: '2025-02-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -402,6 +405,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.241
     retrieved: '2025-01-02'
     version: 4.4.241
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.242
+    retrieved: '2025-02-02'
+    version: 4.4.242
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -5267,6 +5273,8 @@ database:
     version: '2025-01-29'
   - retrieved: '2025-02-01'
     version: '2025-01-30'
+  - retrieved: '2025-02-02'
+    version: '2025-01-31'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6263,6 +6271,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-01-01/
     retrieved: '2025-01-02'
     version: '2025-01-01'
+  - date: '2025-02-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-02-01/
+    retrieved: '2025-02-02'
+    version: '2025-02-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -8431,6 +8443,8 @@ database:
     version: '2025-01-31'
   - retrieved: '2025-02-01'
     version: '2025-02-01'
+  - retrieved: '2025-02-02'
+    version: '2025-02-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11236,6 +11250,8 @@ database:
     version: '2025-01-29'
   - retrieved: '2025-02-01'
     version: '2025-01-30'
+  - retrieved: '2025-02-02'
+    version: '2025-01-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
