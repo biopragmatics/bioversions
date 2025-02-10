@@ -10,12 +10,8 @@ from bioversions.utils import Getter, VersionType
 URL = "https://civicdb.org/releases/main"
 API = "https://civicdb.org/api/graphql"
 GRAPHQL_QUERY = """\
-query dataReleases {
+query DataReleases {
   dataReleases {
-    geneTsv {
-      filename
-      path
-    }
     name
   }
 }
