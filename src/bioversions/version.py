@@ -7,7 +7,7 @@ __all__ = [
     "VERSION",
 ]
 
-VERSION = "0.7.17-dev"
+VERSION = "0.7.17"
 
 
 def get_git_hash() -> str:
