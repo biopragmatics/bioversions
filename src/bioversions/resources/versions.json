@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 917,
-    "date": "2025-02-10",
+    "revision": 918,
+    "date": "2025-02-11",
     "author": "runner"
   },
   "database": [
@@ -1939,6 +1939,10 @@
         {
           "retrieved": "2025-01-14",
           "version": "2025-01-01"
+        },
+        {
+          "retrieved": "2025-02-11",
+          "version": "2025-02-01"
         }
       ],
       "name": "CiVIC",
@@ -12169,6 +12173,10 @@
         {
           "retrieved": "2025-02-04",
           "version": "2025-01-31"
+        },
+        {
+          "retrieved": "2025-02-11",
+          "version": "2025-02-07"
         }
       ],
       "name": "Rat Genome Database",
@@ -15636,6 +15644,10 @@
         {
           "retrieved": "2025-02-10",
           "version": "2025-02-10"
+        },
+        {
+          "retrieved": "2025-02-11",
+          "version": "2025-02-11"
         }
       ],
       "name": "SwissLipids",
@@ -17229,6 +17241,12 @@
           "version": "20250110",
           "homepage": "http://data.wikipathways.org/20250110/",
           "date": "2025-01-10"
+        },
+        {
+          "retrieved": "2025-02-11",
+          "version": "20250210",
+          "homepage": "http://data.wikipathways.org/20250210/",
+          "date": "2025-02-10"
         }
       ],
       "vtype": "date"
@@ -20828,6 +20846,10 @@
         {
           "retrieved": "2025-02-09",
           "version": "2025-02-07"
+        },
+        {
+          "retrieved": "2025-02-11",
+          "version": "2025-02-09"
         }
       ],
       "name": "Zebrafish Information Network",
