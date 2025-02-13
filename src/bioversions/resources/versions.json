@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 919,
-    "date": "2025-02-12",
+    "revision": 920,
+    "date": "2025-02-13",
     "author": "runner"
   },
   "database": [
@@ -263,6 +263,11 @@
         {
           "retrieved": "2025-02-12",
           "version": "2025-02-11",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-02-13",
+          "version": "2025-02-12",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -5296,6 +5301,12 @@
           "version": "2024-11-03",
           "homepage": "http://archive.geneontology.org/full/2024-11-03/",
           "date": "2024-11-03"
+        },
+        {
+          "retrieved": "2025-02-13",
+          "version": "2025-02-06",
+          "homepage": "http://archive.geneontology.org/full/2025-02-06/",
+          "date": "2025-02-06"
         }
       ],
       "vtype": "date"
@@ -6353,6 +6364,11 @@
           "retrieved": "2024-03-25",
           "version": "2024-01",
           "date": "2024-01-01"
+        },
+        {
+          "retrieved": "2025-02-13",
+          "version": "2025-01",
+          "date": "2025-01-01"
         }
       ],
       "name": "International Classification of Diseases, 11th Revision",
@@ -6365,6 +6381,11 @@
           "retrieved": "2024-03-25",
           "version": "2024-01",
           "date": "2024-01-01"
+        },
+        {
+          "retrieved": "2025-02-13",
+          "version": "2025-01",
+          "date": "2025-01-01"
         }
       ],
       "name": "International Classification of Functioning, Disability and Health",
@@ -9611,6 +9632,10 @@
         {
           "retrieved": "2025-02-12",
           "version": "2025-02-10"
+        },
+        {
+          "retrieved": "2025-02-13",
+          "version": "2025-02-11"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15666,6 +15691,10 @@
         {
           "retrieved": "2025-02-12",
           "version": "2025-02-12"
+        },
+        {
+          "retrieved": "2025-02-13",
+          "version": "2025-02-13"
         }
       ],
       "name": "SwissLipids",
@@ -20872,6 +20901,10 @@
         {
           "retrieved": "2025-02-12",
           "version": "2025-02-10"
+        },
+        {
+          "retrieved": "2025-02-13",
+          "version": "2025-02-11"
         }
       ],
       "name": "Zebrafish Information Network",
