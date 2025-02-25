@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-02-24'
-  revision: 931
+  date: '2025-02-25'
+  revision: 932
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -171,6 +171,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-02-22'
     version: '2025-02-21'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-02-25'
+    version: '2025-02-24'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2655,6 +2658,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2024_06/
     retrieved: '2024-12-13'
     version: '2024_06'
+  - homepage: http://ftp.flybase.net/releases/FB2025_01/
+    retrieved: '2025-02-25'
+    version: '2025_01'
   vtype: date
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -3686,6 +3692,8 @@ database:
     version: '2024-12-16'
   - retrieved: '2025-01-28'
     version: '2025-01-24'
+  - retrieved: '2025-02-25'
+    version: '2025-02-20'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -6794,6 +6802,8 @@ database:
     version: '2025-02-07'
   - retrieved: '2025-02-18'
     version: '2025-02-14'
+  - retrieved: '2025-02-25'
+    version: '2025-02-21'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -8605,6 +8615,8 @@ database:
     version: '2025-02-23'
   - retrieved: '2025-02-24'
     version: '2025-02-24'
+  - retrieved: '2025-02-25'
+    version: '2025-02-25'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11462,6 +11474,8 @@ database:
     version: '2025-02-21'
   - retrieved: '2025-02-24'
     version: '2025-02-22'
+  - retrieved: '2025-02-25'
+    version: '2025-02-23'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
