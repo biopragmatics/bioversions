@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-02-26'
-  revision: 933
+  date: '2025-02-27'
+  revision: 934
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -241,6 +241,8 @@ database:
     version: '2024-09-18'
   - retrieved: '2024-10-29'
     version: '2024-10-23'
+  - retrieved: '2025-02-27'
+    version: '2025-02-01'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -321,6 +323,8 @@ database:
     version: 2.8.10
   - retrieved: '2024-03-25'
     version: 2.8.11
+  - retrieved: '2025-02-27'
+    version: 2.8.12
   vtype: semver
 - name: Biofacquim
   releases:
@@ -797,6 +801,8 @@ database:
     version: '2024-09-26'
   - retrieved: '2025-01-12'
     version: '2025-01-07'
+  - retrieved: '2025-02-27'
+    version: '2025-02-13'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -1172,6 +1178,8 @@ database:
     version: '2.233'
   - retrieved: '2025-01-28'
     version: '2.234'
+  - retrieved: '2025-02-27'
+    version: '2.238'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1387,6 +1395,8 @@ database:
     version: '2023-11-16'
   - retrieved: '2024-10-16'
     version: '2024-09-20'
+  - retrieved: '2025-02-27'
+    version: '2025-02-20'
   vtype: date
 - name: Coronavirus Infectious Disease Ontology
   prefix: cido
@@ -1522,6 +1532,8 @@ database:
     version: 2024d_20240922
   - retrieved: '2024-11-22'
     version: 2024e_20241114
+  - retrieved: '2025-02-27'
+    version: 2025a_20250221
   vtype: other
 - name: Dicty Phenotype Ontology (DDPHENO)
   prefix: ddpheno
@@ -1799,6 +1811,8 @@ database:
     version: '2024-10-17'
   - retrieved: '2024-12-15'
     version: '2024-12-04'
+  - retrieved: '2025-02-27'
+    version: '2025-02-12'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1841,6 +1855,8 @@ database:
     version: '2024-10-17'
   - retrieved: '2024-12-15'
     version: '2024-12-05'
+  - retrieved: '2025-02-27'
+    version: '2025-02-13'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1891,6 +1907,8 @@ database:
     version: '2024-10-17'
   - retrieved: '2024-12-15'
     version: '2024-12-05'
+  - retrieved: '2025-02-27'
+    version: '2025-02-13'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -2117,6 +2135,8 @@ database:
     version: '2024-02-16'
   - retrieved: '2024-08-11'
     version: '2024-07-01'
+  - retrieved: '2025-02-27'
+    version: '2025-02-05'
   vtype: date
 - name: Environment Ontology for Livestock
   prefix: eol
@@ -2332,6 +2352,8 @@ database:
     version: '4.191'
   - retrieved: '2025-01-28'
     version: '4.192'
+  - retrieved: '2025-02-27'
+    version: '4.195'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2420,6 +2442,8 @@ database:
     version: 3.72.0
   - retrieved: '2024-12-22'
     version: 3.73.0
+  - retrieved: '2025-02-27'
+    version: 3.75.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2446,6 +2470,8 @@ database:
     version: 0.3.0
   - retrieved: '2023-11-03'
     version: '2023-10-10'
+  - retrieved: '2025-02-27'
+    version: '2025-02-23'
   vtype: semver
 - name: Fission Yeast Phenotype Ontology
   prefix: fypo
@@ -2712,6 +2738,8 @@ database:
     version: '2024-10-17'
   - retrieved: '2024-12-15'
     version: '2024-12-05'
+  - retrieved: '2025-02-27'
+    version: '2025-02-13'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -3036,6 +3064,8 @@ database:
     version: '2024-05-21'
   - retrieved: '2024-10-16'
     version: '2024-09-26'
+  - retrieved: '2025-02-27'
+    version: '2025-01-28'
   vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
@@ -3312,6 +3342,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-03-10'
+  - retrieved: '2025-02-27'
+    version: '2025-01-23'
   vtype: date
 - name: Human Phenotype Ontology
   prefix: hp
@@ -3366,6 +3398,8 @@ database:
     version: '2024-08-13'
   - retrieved: '2024-12-15'
     version: '2024-12-12'
+  - retrieved: '2025-02-27'
+    version: '2025-01-16'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -3869,6 +3903,8 @@ database:
     version: '2024-11-12'
   - retrieved: '2024-12-29'
     version: '2024-12-18'
+  - retrieved: '2025-02-27'
+    version: '2025-01-30'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -3921,6 +3957,8 @@ database:
     version: 4.1.184
   - retrieved: '2024-11-17'
     version: 4.1.185
+  - retrieved: '2025-02-27'
+    version: 4.1.190
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4157,6 +4195,8 @@ database:
     version: '2024-05-21'
   - retrieved: '2024-08-11'
     version: '2024-08-02'
+  - retrieved: '2025-02-27'
+    version: '2025-02-13'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -4393,6 +4433,8 @@ database:
     version: '2024-12-03'
   - retrieved: '2025-01-12'
     version: '2025-01-07'
+  - retrieved: '2025-02-27'
+    version: '2025-02-04'
   vtype: date
 - name: MOP
   prefix: mop
@@ -4445,6 +4487,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-03-10'
+  - retrieved: '2025-02-27'
+    version: '2025-01-23'
   vtype: date
 - name: Mouse Genome Database
   prefix: mgi
@@ -5392,6 +5436,8 @@ database:
     version: '2025-02-21'
   - retrieved: '2025-02-26'
     version: '2025-02-24'
+  - retrieved: '2025-02-27'
+    version: '2025-02-25'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5462,6 +5508,8 @@ database:
     version: '2024-10-25'
   - retrieved: '2024-12-22'
     version: '2024-12-05'
+  - retrieved: '2025-02-27'
+    version: '2025-01-09'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -5640,6 +5688,8 @@ database:
     version: '2024-09-12'
   - retrieved: '2024-12-08'
     version: '2024-11-26'
+  - retrieved: '2025-02-27'
+    version: '2025-01-14'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -5752,6 +5802,8 @@ database:
     version: '2024-01-25'
   - retrieved: '2024-10-16'
     version: '2024-09-30'
+  - retrieved: '2025-02-27'
+    version: '2025-01-24'
   vtype: date
 - name: Ontology of Precision Medicine and Investigation
   prefix: opmi
@@ -5848,6 +5900,8 @@ database:
     version: 2.0.56
   - retrieved: '2024-08-11'
     version: 2.0.57
+  - retrieved: '2025-02-27'
+    version: 2.0.58
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -6116,6 +6170,8 @@ database:
     version: '2024-09-04'
   - retrieved: '2024-11-17'
     version: '2024-11-11'
+  - retrieved: '2025-02-27'
+    version: '2025-02-01'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -6507,6 +6563,12 @@ database:
     retrieved: '2024-08-21'
     version: '70.0'
   vtype: semver_minor
+- name: Proteomics Identification Database Ontology
+  prefix: pride
+  releases:
+  - retrieved: '2025-02-27'
+    version: '2025-02-17'
+  vtype: date
 - name: PROV Namespace
   prefix: prov
   releases:
@@ -6665,6 +6727,8 @@ database:
     version: '2024-05-31'
   - retrieved: '2024-10-29'
     version: '2024-10-23'
+  - retrieved: '2025-02-27'
+    version: '2025-02-18'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -6859,6 +6923,8 @@ database:
     version: '6.238'
   - retrieved: '2025-01-28'
     version: '6.239'
+  - retrieved: '2025-02-27'
+    version: '6.242'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -8624,6 +8690,8 @@ database:
     version: '2025-02-25'
   - retrieved: '2025-02-26'
     version: '2025-02-26'
+  - retrieved: '2025-02-27'
+    version: '2025-02-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -8722,6 +8790,8 @@ database:
     version: '2022-10-05'
   - retrieved: '2023-05-11'
     version: '2023-03-02'
+  - retrieved: '2025-02-27'
+    version: '2025-02-09'
   vtype: date
 - name: The Amphioxus Development and Anatomy Ontology
   prefix: amphx
@@ -8836,6 +8906,8 @@ database:
     version: '2023-05-03'
   - retrieved: '2024-08-11'
     version: '2024-07-12'
+  - retrieved: '2025-02-27'
+    version: '2025-02-01'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
@@ -8877,6 +8949,8 @@ database:
     version: '2024-07-07'
   - retrieved: '2025-01-12'
     version: '2025-01-07'
+  - retrieved: '2025-02-27'
+    version: '2025-02-22'
   vtype: semver
 - name: The Virus Infectious Disease Ontology
   prefix: vido
@@ -8969,6 +9043,8 @@ database:
     version: '2024-09-03'
   - retrieved: '2024-12-08'
     version: '2024-11-25'
+  - retrieved: '2025-02-27'
+    version: '2025-01-15'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -9232,6 +9308,8 @@ database:
     version: '2024-08-14'
   - retrieved: '2024-11-10'
     version: '2024-11-06'
+  - retrieved: '2025-02-27'
+    version: '2025-02-12'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -9292,6 +9370,8 @@ database:
     version: '2024-12-12'
   - retrieved: '2025-01-12'
     version: '2025-01-08'
+  - retrieved: '2025-02-27'
+    version: '2025-02-11'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -9591,6 +9671,8 @@ database:
     version: '2022-03-15'
   - retrieved: '2023-05-11'
     version: '2022-12-09'
+  - retrieved: '2025-02-27'
+    version: '2025-01-28'
   vtype: date
 - name: Zebrafish developmental stages ontology
   prefix: zfs
@@ -11485,6 +11567,8 @@ database:
     version: '2025-02-23'
   - retrieved: '2025-02-26'
     version: '2025-02-24'
+  - retrieved: '2025-02-27'
+    version: '2025-02-25'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
