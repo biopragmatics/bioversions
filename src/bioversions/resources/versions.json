@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 936,
-    "date": "2025-03-01",
+    "revision": 937,
+    "date": "2025-03-02",
     "author": "runner"
   },
   "database": [
@@ -318,6 +318,11 @@
         {
           "retrieved": "2025-03-01",
           "version": "2025-02-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-03-01",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -2015,6 +2020,10 @@
         {
           "retrieved": "2025-02-11",
           "version": "2025-02-01"
+        },
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-03-01"
         }
       ],
       "name": "CiVIC",
@@ -2765,6 +2774,17 @@
       ],
       "name": "DepMap",
       "vtype": "other"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-02-10"
+        }
+      ],
+      "name": "Developing Mouse Brain Atlas",
+      "prefix": "dmba",
+      "vtype": "date"
     },
     {
       "name": "DICOM Controlled Terminology",
@@ -8133,6 +8153,17 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-02-10"
+        }
+      ],
+      "name": "Mouse Brain Atlas",
+      "prefix": "mba",
+      "vtype": "date"
+    },
+    {
       "name": "Mouse Developmental Anatomy Ontology",
       "prefix": "emapa",
       "releases": [
@@ -9831,6 +9862,10 @@
         {
           "retrieved": "2025-03-01",
           "version": "2025-02-27"
+        },
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-02-28"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11661,6 +11696,12 @@
           "version": "2025-02-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-02-01/",
           "date": "2025-02-01"
+        },
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-03-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-03-01/",
+          "date": "2025-03-01"
         }
       ],
       "name": "PomBase",
@@ -16006,6 +16047,10 @@
         {
           "retrieved": "2025-03-01",
           "version": "2025-03-01"
+        },
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-03-02"
         }
       ],
       "name": "SwissLipids",
@@ -21308,6 +21353,10 @@
         {
           "retrieved": "2025-03-01",
           "version": "2025-02-27"
+        },
+        {
+          "retrieved": "2025-03-02",
+          "version": "2025-02-28"
         }
       ],
       "name": "Zebrafish Information Network",
