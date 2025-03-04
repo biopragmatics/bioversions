@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 938,
-    "date": "2025-03-03",
+    "revision": 939,
+    "date": "2025-03-04",
     "author": "runner"
   },
   "database": [
@@ -323,6 +323,11 @@
         {
           "retrieved": "2025-03-02",
           "version": "2025-03-01",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "2025-03-03",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -842,6 +847,11 @@
           "retrieved": "2025-02-02",
           "version": "4.4.242",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.242"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "4.4.243",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.243"
         }
       ],
       "vtype": "semver"
@@ -3183,6 +3193,12 @@
           "version": "2025-02-03",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-02-03",
           "date": "2025-02-03"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "2025-03-03",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-03-03",
+          "date": "2025-03-03"
         }
       ],
       "vtype": "date"
@@ -9866,6 +9882,10 @@
         {
           "retrieved": "2025-03-02",
           "version": "2025-02-28"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "2025-03-02"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12500,6 +12520,10 @@
         {
           "retrieved": "2025-02-25",
           "version": "2025-02-21"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "2025-02-28"
         }
       ],
       "name": "Rat Genome Database",
@@ -13170,6 +13194,11 @@
           "retrieved": "2025-02-04",
           "version": "2025-02-03",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_02032025.zip"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "2025-03-03",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_03032025.zip"
         }
       ],
       "name": "RxNorm",
@@ -16055,6 +16084,10 @@
         {
           "retrieved": "2025-03-03",
           "version": "2025-03-03"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "2025-03-04"
         }
       ],
       "name": "SwissLipids",
@@ -21365,6 +21398,10 @@
         {
           "retrieved": "2025-03-03",
           "version": "2025-03-01"
+        },
+        {
+          "retrieved": "2025-03-04",
+          "version": "2025-03-02"
         }
       ],
       "name": "Zebrafish Information Network",
