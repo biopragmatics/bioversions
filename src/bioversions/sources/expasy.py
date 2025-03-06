@@ -16,7 +16,7 @@ URL = "https://ftp.expasy.org/databases/enzyme/enzuser.txt"
 class ExPASyGetter(Getter):
     """A getter for ExPASy."""
 
-    bioregistry_id = "eccode"
+    bioregistry_id = "ec"
     name = "ExPASy"
     version_type = VersionType.date
 
