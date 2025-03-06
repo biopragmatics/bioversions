@@ -2,6 +2,8 @@
 
 from datetime import datetime
 
+from bs4 import Tag
+
 from ..utils import Getter, VersionType, get_soup
 
 __all__ = [
@@ -22,7 +24,10 @@ class RxNormGetter(Getter):
     def get(self) -> datetime:
         """Get the latest RxNorm version number."""
         soup = get_soup(URL)
-        raw_version = soup.find("th", {"class": "current"}).contents[2].strip()
+        tag = soup.find("th", {"class": "current"})
+        if not isinstance(tag, Tag):
+            raise ValueError
+        raw_version = tag.contents[2].strip()
         raw_fmt = "%B %d, %Y"
         return datetime.strptime(raw_version, raw_fmt)
 
