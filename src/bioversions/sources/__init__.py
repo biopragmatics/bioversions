@@ -7,7 +7,7 @@ import logging
 import traceback
 from collections.abc import Iterable, Mapping
 from functools import lru_cache
-from typing import NamedTuple
+from typing import NamedTuple, Literal, overload
 
 from tqdm import tqdm
 
@@ -185,10 +185,33 @@ def _resolve_helper(name: str) -> Bioversion:
     getter: type[Getter] = get_getter_dict()[norm_name]
     return getter.resolve()
 
+@overload
+def get_version(name: str, *, strict: Literal[True] = True) -> str:...
 
-def get_version(name: str) -> str:
-    """Resolve a database name to its version string."""
-    return resolve(name).version
+@overload
+def get_version(name: str, *, strict: Literal[False] = False) -> str | None:...
+
+
+
+def get_version(name: str, *, strict: bool = True) -> str | None:
+    """Resolve a database name to its version string.
+
+    :param name:
+        The name of the resource to get the version from. Often, this is a Bioregistry
+        prefix, but sometimes can be an ad-hoc key for a database.
+    :param strict:
+        Re-raises errors in version resolution by default. Set explicitly to
+        ``false`` to return None on errors.
+    :return: The version of the resource as a string
+    """
+    try:
+        rv = resolve(name).version
+    except Exception:
+        if strict:
+            raise
+        return None
+    else:
+        return rv
 
 
 def get_rows(use_tqdm: bool | None = False) -> list[Bioversion]:
