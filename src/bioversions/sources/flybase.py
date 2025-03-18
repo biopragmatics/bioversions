@@ -25,7 +25,8 @@ class FlybaseGetter(Getter):
     def get(self):
         """Get the latest flybase version number."""
         res = requests.get(
-            "http://flybase-ftp.s3-website-us-east-1.amazonaws.com/releases/index.html"
+            "http://flybase-ftp.s3-website-us-east-1.amazonaws.com/releases/index.html",
+            timeout=15,
         )
         res.raise_for_status()
         soup = BeautifulSoup(res.text, "html.parser")
