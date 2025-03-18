@@ -17,9 +17,7 @@ class FlybaseGetter(Getter):
 
     bioregistry_id = "flybase"
     name = "FlyBase"
-    homepage_fmt = (
-        "http://flybase-ftp.s3-website-us-east-1.amazonaws.com/releases/FB{version}/"
-    )
+    homepage_fmt = "http://flybase-ftp.s3-website-us-east-1.amazonaws.com/releases/FB{version}/"
     version_type = VersionType.date
 
     def get(self):
