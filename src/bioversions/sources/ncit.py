@@ -8,7 +8,7 @@ __all__ = [
     "NCItGetter",
 ]
 
-URL = "https://ncithesaurus.nci.nih.gov/ncitbrowser/"
+URL = "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/"
 PATTERN = re.compile(
     r"Version:([0-9]{2}\.[0-9]{2}[a-z]) " r"\(Release date:([0-9]{4}-[0-9]{2}-[0-9]{2})"
 )
@@ -25,13 +25,31 @@ class NCItGetter(Getter):
     def get(self) -> dict[str, str]:
         """Get the latest NCIt version number."""
         soup = get_soup(URL)
-        version_str = soup.find("span", {"class": "vocabularynamelong_ncit"}).contents[0]
-        match = re.search(PATTERN, version_str)
-        if match is None:
-            raise ValueError(f"could not parse version from {URL}")
+        # We look at the actual NCIT download which contains the version
+        pattern = re.compile(r"ThesaurusInf_(\d+\.\d+[a-z]?)\.OWL\.zip")
+
+        # We extract all versions along with dates
+        versions_with_dates = []
+        for row in soup.find_all("tr"):
+            link = row.find("a", href=True)
+            date_cell = row.find("td", class_="indexcollastmod")
+
+            if link and date_cell:
+                match = pattern.search(link["href"])
+                if match:
+                    version = match.group(1)
+                    date = date_cell.text.strip().split(" ")[0]
+                    versions_with_dates.append((version, date))
+
+        # Sort to get the highest version
+        latest_version, latest_date = max(
+            versions_with_dates,
+            key=lambda v: [int(v[0].split(".")[0]), float(v[0].split(".")[1][:-1])],
+        )
+
         return {
-            "version": match.group(1),
-            "date": match.group(2),
+            "version": latest_version,
+            "date": latest_date,
         }
 
 
