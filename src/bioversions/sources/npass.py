@@ -1,6 +1,6 @@
 """A getter for NPASS."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType, find, get_soup
 
 __all__ = [
     "NPASSGetter",
@@ -19,7 +19,9 @@ class NPASSGetter(Getter):
     def get(self) -> str:
         """Get the latest NPASS version number."""
         soup = get_soup(URL)
-        for li in soup.find(name="footer").find(name="ul").findAll(name="li"):
+        footer = find(soup, name="footer")
+        ul = find(footer, name="ul")
+        for li in ul.find_all(name="li"):
             if li.text.startswith("Version:"):
                 return li.text[len("Version: ") :]
         raise ValueError(f"could not parse NPASS version from {URL}")

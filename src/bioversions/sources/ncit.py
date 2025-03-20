@@ -2,7 +2,7 @@
 
 import re
 
-from ..utils import Getter, VersionType, get_soup
+from ..utils import Getter, VersionType, find, get_soup
 
 __all__ = [
     "NCItGetter",
@@ -25,7 +25,8 @@ class NCItGetter(Getter):
     def get(self) -> dict[str, str]:
         """Get the latest NCIt version number."""
         soup = get_soup(URL)
-        version_str = soup.find("span", {"class": "vocabularynamelong_ncit"}).contents[0]
+        span = find(soup, "span", {"class": "vocabularynamelong_ncit"})
+        version_str = span.contents[0].text
         match = re.search(PATTERN, version_str)
         if match is None:
             raise ValueError(f"could not parse version from {URL}")

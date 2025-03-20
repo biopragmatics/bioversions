@@ -26,7 +26,9 @@ class GuideToPharmacologyGetter(Getter):
     def get(self) -> dict[str, str]:
         """Get the latest Guide to Pharmacology version number."""
         soup = get_soup(URL)
-        text = soup.findAll("div", {"class": "contentboxfullhelp"})[4].div.ul.li.a.text
+        divs = list(soup.find_all("div", {"class": "contentboxfullhelp"}))
+        # the type ignore is because mypy doesn't understand the attribute-based dispatch
+        text = divs[4].div.ul.li.a.text  # type:ignore[attr-defined]
         search = RE.search(text)
         if not search:
             raise ValueError(
