@@ -26,8 +26,8 @@ class FlybaseGetter(Getter):
 
         releases = []
         # We check links to find ones that look like releases
-        for a_tag in soup.find_all("a", href=True):
-            match = PATTERN.search(a_tag.text)
+        for anchor_tag in soup.find_all("a", href=True):
+            match = PATTERN.search(anchor_tag.text)
             if match:
                 releases.append(match.group().removeprefix("FB"))
         latest_version = max(releases)
