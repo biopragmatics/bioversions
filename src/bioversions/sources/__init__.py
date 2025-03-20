@@ -7,7 +7,7 @@ import logging
 import traceback
 from collections.abc import Iterable, Mapping
 from functools import lru_cache
-from typing import NamedTuple, Literal, overload
+from typing import Literal, NamedTuple, overload
 
 from tqdm import tqdm
 
@@ -185,12 +185,13 @@ def _resolve_helper(name: str) -> Bioversion:
     getter: type[Getter] = get_getter_dict()[norm_name]
     return getter.resolve()
 
-@overload
-def get_version(name: str, *, strict: Literal[True] = True) -> str:...
 
 @overload
-def get_version(name: str, *, strict: Literal[False] = False) -> str | None:...
+def get_version(name: str, *, strict: Literal[True] = True) -> str: ...
 
+
+@overload
+def get_version(name: str, *, strict: Literal[False] = False) -> str | None: ...
 
 
 def get_version(name: str, *, strict: bool = True) -> str | None:
