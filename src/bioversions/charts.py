@@ -13,7 +13,7 @@ from bioversions.utils import IMG, VersionType
 sns.set(style="whitegrid")
 
 
-def version_types_pie_chart():
+def version_types_pie_chart() -> None:
     """Make a pie chart with types of versions."""
     counts = Counter(
         "Missing" if getter.version_type is None else getter.version_type.value
@@ -34,7 +34,7 @@ def version_types_pie_chart():
     plt.close(fig)
 
 
-def verioning_date_formats_pie_chart():
+def verioning_date_formats_pie_chart() -> None:
     """Make a pie chart with types of date/month versions."""
     counts = Counter(
         getter.date_version_fmt
@@ -56,7 +56,7 @@ def verioning_date_formats_pie_chart():
     plt.close(fig)
 
 
-def has_release_url():
+def has_release_url() -> None:
     """Make a pie chart for how many have a release URL."""
     counts = Counter(
         "Has Stable Version URL" if getter.homepage_fmt is not None else "No Stable Version URL"
@@ -79,7 +79,7 @@ def has_release_url():
 
 
 @click.command()
-def charts():
+def charts() -> None:
     """Generate charts for bioversions."""
     version_types_pie_chart()
     verioning_date_formats_pie_chart()

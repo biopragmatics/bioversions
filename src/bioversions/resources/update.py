@@ -29,7 +29,7 @@ def _get_clean_dict(d):
 
 @click.command()
 @click.option("--force", is_flag=True)
-def update(force: bool):
+def update(force: bool) -> None:
     """Update the data file."""
     with logging_redirect_tqdm():
         _update(force=force)
