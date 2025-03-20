@@ -5,7 +5,7 @@ from typing import ClassVar
 
 import bioregistry
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType, find, get_soup
 
 __all__ = [
     "KEGGGetter",
@@ -25,9 +25,12 @@ class KEGGGetter(Getter):
     def get(self) -> Mapping[str, str]:
         """Get the latest KEGG version number."""
         soup = get_soup(URL)
-        header = soup.find("h4")
-        sibling = header.next_sibling.strip()
-        version, date = (part.strip() for part in sibling.split(",", 1))
+        header = find(soup, "h4")
+        sibling = header.next_sibling
+        if not sibling:
+            raise ValueError
+        sibling_text = sibling.text.strip()
+        version, date = (part.strip() for part in sibling_text.split(",", 1))
         version = version[len("Release ") :]
         return {"version": version, "date": date}
 
