@@ -1,8 +1,6 @@
 """A getter for Pathway Commons."""
 
-from bs4 import Tag
-
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType, find, get_soup
 
 __all__ = [
     "PathwayCommonsGetter",
@@ -20,9 +18,7 @@ class PathwayCommonsGetter(Getter):
     def get(self) -> str:
         """Get the latest Pathway Commons version number."""
         soup = get_soup(URL)
-        boost = soup.find({"class": "boost"})
-        if not isinstance(boost, Tag):
-            raise ValueError
+        boost = find(soup, {"class": "boost"})
         boost_text = boost.text[len("Version ") :]
         boost_text = boost_text.split(":")[0]
         return boost_text

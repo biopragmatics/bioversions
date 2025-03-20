@@ -1,10 +1,6 @@
 """A getter for UMLS."""
 
-from datetime import datetime
-
-from bs4 import Tag
-
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType, find, get_soup
 
 __all__ = [
     "UMLSGetter",
@@ -20,21 +16,13 @@ class UMLSGetter(Getter):
     name = "UMLS"
     version_type = VersionType.other
 
-    def get(self) -> datetime:
+    def get(self) -> str:
         """Get the latest UMLS version number."""
         soup = get_soup(URL)
-        main_tag = soup.find("main")
-        if not isinstance(main_tag, Tag):
-            raise ValueError
-        t1 = main_tag.find("div", {"class": "grid-row grid-gap-1"})  # type:ignore
-        if not isinstance(t1, Tag):
-            raise ValueError
-        t2 = t1.find("div", {"class": "tablet:grid-col-12"})
-        if not isinstance(t2, Tag):
-            raise ValueError
-        version_tag = t2.find("h2")
-        if not isinstance(version_tag, Tag):
-            raise ValueError
+        main_tag = find(soup, "main")
+        t1 = find(main_tag, "div", {"class": "grid-row grid-gap-1"})  # type:ignore
+        t2 = find(t1, "div", {"class": "tablet:grid-col-12"})
+        version_tag = find(t2, "h2")
         version = version_tag.text.split()[0]
         return version
 
