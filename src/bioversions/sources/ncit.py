@@ -31,7 +31,7 @@ class NCItGetter(Getter):
             date_cell = row.find("td", class_="indexcollastmod")
 
             if link and date_cell:
-                match = pattern.search(link["href"])
+                match = PATTERN.search(link["href"])
                 if match:
                     version = match.group(1)
                     date = date_cell.text.strip().split(" ")[0]
