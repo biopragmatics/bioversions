@@ -5,6 +5,7 @@ from subprocess import CalledProcessError, check_output
 
 __all__ = [
     "VERSION",
+    "get_git_hash",
 ]
 
 VERSION = "0.7.41-dev"

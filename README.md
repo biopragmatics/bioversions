@@ -106,17 +106,14 @@ $ python3 -m pip install bioversions
 The most recent code and data can be installed directly from GitHub with uv:
 
 ```console
-$ uv --preview pip install git+https://github.com/biopragmatics/bioversions.git
+$ uv pip install git+https://github.com/biopragmatics/bioversions.git
 ```
 
 or with pip:
 
 ```console
-$ UV_PREVIEW=1 python3 -m pip install git+https://github.com/biopragmatics/bioversions.git
+$ python3 -m pip install git+https://github.com/biopragmatics/bioversions.git
 ```
-
-Note that this requires setting `UV_PREVIEW` mode enabled until the uv build
-backend becomes a stable feature.
 
 ## 👐 Contributing
 
@@ -180,17 +177,14 @@ To install in development mode, use the following:
 ```console
 $ git clone git+https://github.com/biopragmatics/bioversions.git
 $ cd bioversions
-$ uv --preview pip install -e .
+$ uv pip install -e .
 ```
 
 Alternatively, install using pip:
 
 ```console
-$ UV_PREVIEW=1 python3 -m pip install -e .
+$ python3 -m pip install -e .
 ```
-
-Note that this requires setting `UV_PREVIEW` mode enabled until the uv build
-backend becomes a stable feature.
 
 ### Updating Package Boilerplate
 
