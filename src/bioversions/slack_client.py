@@ -41,6 +41,7 @@ def post(text: str, channel: str = "random", token: str | None = None) -> SlackR
         if not e.response["ok"]:
             raise ValueError('Response is not "ok"') from e
         logger.warning(f"Got an error: {e.response['error']}")
+        return None
     else:
         return response
 

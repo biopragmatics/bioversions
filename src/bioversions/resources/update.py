@@ -123,13 +123,6 @@ def _log_update(bv) -> None:
     else:
         slack_client.post(text)
 
-    try:
-        from .. import twitter_client
-    except ImportError:
-        pass
-    else:
-        twitter_client.post(text)
-
 
 if __name__ == "__main__":
     update()
