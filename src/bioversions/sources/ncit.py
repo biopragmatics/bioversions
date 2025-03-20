@@ -9,9 +9,7 @@ __all__ = [
 ]
 
 URL = "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/"
-PATTERN = re.compile(
-    r"Version:([0-9]{2}\.[0-9]{2}[a-z]) " r"\(Release date:([0-9]{4}-[0-9]{2}-[0-9]{2})"
-)
+PATTERN = re.compile(r"ThesaurusInf_(\d+\.\d+[a-z]?)\.OWL\.zip")
 
 
 class NCItGetter(Getter):
@@ -25,8 +23,6 @@ class NCItGetter(Getter):
     def get(self) -> dict[str, str]:
         """Get the latest NCIt version number."""
         soup = get_soup(URL)
-        # We look at the actual NCIT download which contains the version
-        pattern = re.compile(r"ThesaurusInf_(\d+\.\d+[a-z]?)\.OWL\.zip")
 
         # We extract all versions along with dates
         versions_with_dates = []
