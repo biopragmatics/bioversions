@@ -1,17 +1,14 @@
 """A getter for the NCI Thesaurus."""
 
-import re
+import requests
 
-from ..utils import Getter, VersionType, find, get_soup
+from ..utils import Getter, VersionType
 
 __all__ = [
     "NCItGetter",
 ]
 
-URL = "https://ncithesaurus.nci.nih.gov/ncitbrowser/"
-PATTERN = re.compile(
-    r"Version:([0-9]{2}\.[0-9]{2}[a-z]) " r"\(Release date:([0-9]{4}-[0-9]{2}-[0-9]{2})"
-)
+URL = "https://evsexplore.semantics.cancer.gov/evsexplore/api/v1/metadata/terminologies"
 
 
 class NCItGetter(Getter):
@@ -19,20 +16,16 @@ class NCItGetter(Getter):
 
     bioregistry_id = "ncit"
     name = "National Cancer Institute Thesaurus"
-    date_fmt = "%Y-%m-%d"
+    date_fmt = "%B %d, %Y"
     version_type = VersionType.other
 
     def get(self) -> dict[str, str]:
         """Get the latest NCIt version number."""
-        soup = get_soup(URL)
-        span = find(soup, "span", {"class": "vocabularynamelong_ncit"})
-        version_str = span.contents[0].text
-        match = re.search(PATTERN, version_str)
-        if match is None:
-            raise ValueError(f"could not parse version from {URL}")
+        records = requests.get(URL, timeout=5).json()
+        ncit_record = next(record for record in records if record["terminology"] == "ncit")
         return {
-            "version": match.group(1),
-            "date": match.group(2),
+            "version": ncit_record["version"],
+            "date": ncit_record["date"],
         }
 
 
