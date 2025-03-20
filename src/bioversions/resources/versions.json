@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 941,
-    "date": "2025-03-06",
+    "revision": 942,
+    "date": "2025-03-20",
     "author": "runner"
   },
   "database": [
@@ -333,6 +333,11 @@
         {
           "retrieved": "2025-03-05",
           "version": "2025-03-05",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-03-19",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -2190,6 +2195,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2.238"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2.239"
         }
       ],
       "vtype": "date"
@@ -4095,7 +4104,7 @@
     },
     {
       "name": "ExPASy",
-      "prefix": "eccode",
+      "prefix": "ec",
       "releases": [
         {
           "retrieved": "2021-01-02",
@@ -4342,6 +4351,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "4.195"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "4.196"
         }
       ],
       "vtype": "date"
@@ -4853,6 +4866,10 @@
         {
           "retrieved": "2025-01-28",
           "version": "2025-01-14"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-02-28"
         }
       ],
       "vtype": "date"
@@ -4988,7 +5005,7 @@
       ],
       "name": "FlyBase",
       "prefix": "flybase",
-      "vtype": "date"
+      "vtype": "month"
     },
     {
       "releases": [
@@ -5909,6 +5926,11 @@
           "retrieved": "2025-02-12",
           "version": "2025-02-04",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-02-04.json"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-03-04",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-03-04.json"
         }
       ],
       "name": "HGNC",
@@ -5999,6 +6021,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "2024-08-19"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-02-24"
         }
       ],
       "vtype": "semver"
@@ -7231,6 +7257,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "4.1.190"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "4.1.191"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -7928,6 +7958,12 @@
           "version": "2025-02-07",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-02-07",
           "date": "2025-02-07"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-03-06",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-03-06",
+          "date": "2025-03-06"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -8529,6 +8565,11 @@
           "retrieved": "2024-12-12",
           "version": "24.11d",
           "date": "2024-11-25"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "25.03c",
+          "date": "2025-03-17"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -9899,6 +9940,10 @@
         {
           "retrieved": "2025-03-06",
           "version": "2025-03-04"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-03-18"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10753,6 +10798,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2.0.58"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2.0.59"
         }
       ],
       "name": "Ontology of units of Measure",
@@ -12537,6 +12586,10 @@
         {
           "retrieved": "2025-03-04",
           "version": "2025-02-28"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-03-14"
         }
       ],
       "name": "Rat Genome Database",
@@ -12642,6 +12695,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "6.242"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "6.243"
         }
       ],
       "vtype": "date"
@@ -16109,6 +16166,10 @@
         {
           "retrieved": "2025-03-06",
           "version": "2025-03-06"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-03-20"
         }
       ],
       "name": "SwissLipids",
@@ -16604,6 +16665,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-22"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-02-23"
         }
       ],
       "name": "The Statistical Methods Ontology",
@@ -17197,6 +17262,10 @@
         {
           "retrieved": "2025-01-05",
           "version": "2024-12-29"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-02-26"
         }
       ],
       "vtype": "semver"
@@ -17732,6 +17801,12 @@
           "version": "20250210",
           "homepage": "http://data.wikipathways.org/20250210/",
           "date": "2025-02-10"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "20250310",
+          "homepage": "http://data.wikipathways.org/20250310/",
+          "date": "2025-03-10"
         }
       ],
       "vtype": "date"
@@ -21431,6 +21506,10 @@
         {
           "retrieved": "2025-03-06",
           "version": "2025-03-04"
+        },
+        {
+          "retrieved": "2025-03-20",
+          "version": "2025-03-19"
         }
       ],
       "name": "Zebrafish Information Network",
