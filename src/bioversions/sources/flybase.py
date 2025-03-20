@@ -2,14 +2,14 @@
 
 import re
 
-import requests
-from bs4 import BeautifulSoup
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     "FlybaseGetter",
 ]
+
+URL = "http://flybase-ftp.s3-website-us-east-1.amazonaws.com/releases/index.html"
+PATTERN = re.compile(r"FB\d{4}_\d{2}")
 
 
 class FlybaseGetter(Getter):
@@ -22,18 +22,12 @@ class FlybaseGetter(Getter):
 
     def get(self):
         """Get the latest flybase version number."""
-        res = requests.get(
-            "http://flybase-ftp.s3-website-us-east-1.amazonaws.com/releases/index.html",
-            timeout=15,
-        )
-        res.raise_for_status()
-        soup = BeautifulSoup(res.text, "html.parser")
+        soup = get_soup(URL)
 
-        release_pattern = re.compile(r"FB\d{4}_\d{2}")
         releases = []
         # We check links to find ones that look like releases
         for a_tag in soup.find_all("a", href=True):
-            match = release_pattern.search(a_tag.text)
+            match = PATTERN.search(a_tag.text)
             if match:
                 # Strip off the leading FB here
                 releases.append(match.group()[2:])
