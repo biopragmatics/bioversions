@@ -31,7 +31,7 @@ class FlybaseGetter(Getter):
             if match:
                 # Strip off the leading FB here
                 releases.append(match.group()[2:])
-        latest_version = sorted(releases, reverse=True)[0]
+        latest_version = max(releases)
         return latest_version
 
 
