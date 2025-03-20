@@ -30,7 +30,7 @@ jobs:
           tox -e bumpversion-release
       - name: Release to PyPI
         run: |
-          tox -e release-headless
+          tox -e release-via-env
         env:
           UV_PUBLISH_USERNAME: ${{ secrets.PYPI_USERNAME }}
           UV_PUBLISH_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
