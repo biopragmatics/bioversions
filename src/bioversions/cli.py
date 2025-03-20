@@ -1,4 +1,4 @@
-"""Command line interface for bioversions."""
+"""Command line interface for :mod:`bioversions`."""
 
 import click
 from click_default_group import DefaultGroup
