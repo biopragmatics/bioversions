@@ -12,13 +12,13 @@ Bootstrap(app)
 
 
 @app.route("/")
-def home():
+def home() -> str:
     """Show the home page with a list of latest database versions."""
     return flask.render_template("home.html", rows=get_rows())
 
 
 @app.route("/database/<name>.json")
-def database(name: str):
+def database(name: str) -> flask.Response:
     """Resolve information about a given database."""
     rv: dict[str, Any] = {"query": name}
     try:
@@ -27,7 +27,7 @@ def database(name: str):
         rv["success"] = False
     else:
         rv["success"] = True
-        rv["result"] = bioversion.dict()
+        rv["result"] = bioversion.model_dump()
     return flask.jsonify(rv)
 
 

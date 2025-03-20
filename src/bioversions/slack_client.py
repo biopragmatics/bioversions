@@ -6,6 +6,7 @@ from functools import lru_cache
 import pystow
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
+from slack_sdk.web import SlackResponse
 
 __all__ = [
     "post",
@@ -22,7 +23,7 @@ def _get_client(token: str | None = None) -> WebClient | None:
     return WebClient(token=token)
 
 
-def post(text: str, channel: str = "random", token: str | None = None):
+def post(text: str, channel: str = "random", token: str | None = None) -> SlackResponse | None:
     """Post the message to a given Slack channel."""
     client = _get_client(token)
     if client is None:
@@ -40,6 +41,7 @@ def post(text: str, channel: str = "random", token: str | None = None):
         if not e.response["ok"]:
             raise ValueError('Response is not "ok"') from e
         logger.warning(f"Got an error: {e.response['error']}")
+        return None
     else:
         return response
 
