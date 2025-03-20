@@ -29,8 +29,7 @@ class FlybaseGetter(Getter):
         for a_tag in soup.find_all("a", href=True):
             match = PATTERN.search(a_tag.text)
             if match:
-                # Strip off the leading FB here
-                releases.append(match.group()[2:])
+                releases.append(match.group().removeprefix("FB"))
         latest_version = max(releases)
         return latest_version
 
