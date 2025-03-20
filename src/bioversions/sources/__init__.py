@@ -186,10 +186,12 @@ def _resolve_helper(name: str) -> Bioversion:
     return getter.resolve()
 
 
+# docstr-coverage:excused `overload`
 @overload
 def get_version(name: str, *, strict: Literal[True] = True) -> str: ...
 
 
+# docstr-coverage:excused `overload`
 @overload
 def get_version(name: str, *, strict: Literal[False] = False) -> str | None: ...
 
