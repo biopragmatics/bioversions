@@ -12,7 +12,7 @@ from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter, get_getters
 class TestGetter(unittest.TestCase):
     """Tests for the Getter class."""
 
-    def test_bioregistry_ids(self):
+    def test_bioregistry_ids(self) -> None:
         """Test Bioregistry prefixes are all canonical."""
         prefixes = set(bioregistry.read_registry())
         for getter in get_getters():
@@ -21,7 +21,7 @@ class TestGetter(unittest.TestCase):
             with self.subTest(name=getter.name):
                 self.assertIn(getter.bioregistry_id, prefixes)
 
-    def test_get(self):
+    def test_get(self) -> None:
         """Test getters."""
         prefixes = [
             "reactome",
@@ -32,12 +32,12 @@ class TestGetter(unittest.TestCase):
                 s = bioversions.get_version(prefix)
                 self.assertIsInstance(s, str)
 
-    def test_getter(self):
+    def test_getter(self) -> None:
         """Test the BioGRID getter."""
         s = BioGRIDGetter.version
         self.assertIsInstance(s, str)
 
-    def test_date(self):
+    def test_date(self) -> None:
         """Test getters that have versions as dates."""
         for getter in [WikiPathwaysGetter]:
             with self.subTest(getter=getter.name):

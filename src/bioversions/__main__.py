@@ -1,4 +1,4 @@
-"""Command line interface for bioversions."""
+"""Entrypoint module, in case you use `python -m bioversions`."""
 
 from .cli import main
 

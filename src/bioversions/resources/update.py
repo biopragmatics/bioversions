@@ -29,7 +29,7 @@ def _get_clean_dict(d):
 
 @click.command()
 @click.option("--force", is_flag=True)
-def update(force: bool):
+def update(force: bool) -> None:
     """Update the data file."""
     with logging_redirect_tqdm():
         _update(force=force)
@@ -122,13 +122,6 @@ def _log_update(bv) -> None:
         pass
     else:
         slack_client.post(text)
-
-    try:
-        from .. import twitter_client
-    except ImportError:
-        pass
-    else:
-        twitter_client.post(text)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-"""Command line interface for bioversions."""
+"""Command line interface for :mod:`bioversions`."""
 
 import click
 from click_default_group import DefaultGroup
@@ -10,7 +10,7 @@ from bioversions.resources.update import update
 
 @click.group(cls=DefaultGroup, default="web", default_if_no_args=True)
 @click.version_option()
-def main():
+def main() -> None:
     """The bioversions CLI."""  # noqa:D401
 
 
@@ -25,19 +25,19 @@ web = make_web_command(
 )
 
 
-@main.command()
+@main.command()  # type:ignore
 @click.argument("key")
-@verbose_option
-def get(key: str):
+@verbose_option  # type:ignore
+def get(key: str) -> None:
     """Print the version."""
     from . import get_version
 
     click.echo(get_version(key))
 
 
-@main.command()
+@main.command()  # type:ignore
 @click.option("--terse", "-t", is_flag=True)
-def ls(terse: bool):
+def ls(terse: bool) -> None:
     """List versions."""
     from . import get_rows
 
