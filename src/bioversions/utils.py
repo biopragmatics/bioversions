@@ -11,7 +11,7 @@ import bioregistry
 import pydantic
 import pystow
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from cachier import cachier
 
 BIOVERSIONS_HOME = pystow.join("bioversions")
@@ -62,6 +62,14 @@ def get_soup(
     res = requests.get(url, verify=verify, timeout=timeout or 15, headers=headers)
     soup = BeautifulSoup(res.text, features="html.parser")
     return soup
+
+
+def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
+    """Find a sub-element."""
+    tag = element.find(*args, **kwargs)
+    if not isinstance(tag, Tag):
+        raise ValueError(f"could not find an element matching {args=} and {kwargs=}")
+    return tag
 
 
 #: A decorator for functions whose return values
