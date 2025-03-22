@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-03-21'
-  revision: 943
+  date: '2025-03-22'
+  revision: 944
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -195,6 +195,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-03-21'
     version: '2025-03-20'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-03-22'
+    version: '2025-03-21'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3003,6 +3006,10 @@ database:
     homepage: http://archive.geneontology.org/full/2025-02-06/
     retrieved: '2025-02-13'
     version: '2025-02-06'
+  - date: '2025-03-16'
+    homepage: http://archive.geneontology.org/full/2025-03-16/
+    retrieved: '2025-03-22'
+    version: '2025-03-16'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -5513,6 +5520,8 @@ database:
     version: '2025-03-18'
   - retrieved: '2025-03-21'
     version: '2025-03-19'
+  - retrieved: '2025-03-22'
+    version: '2025-03-20'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8803,6 +8812,8 @@ database:
     version: '2025-03-20'
   - retrieved: '2025-03-21'
     version: '2025-03-21'
+  - retrieved: '2025-03-22'
+    version: '2025-03-22'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
