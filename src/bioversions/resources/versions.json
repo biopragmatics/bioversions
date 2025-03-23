@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 944,
-    "date": "2025-03-22",
+    "revision": 945,
+    "date": "2025-03-23",
     "author": "runner"
   },
   "database": [
@@ -2209,6 +2209,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "2.239"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2.241"
         }
       ],
       "vtype": "date"
@@ -4365,6 +4369,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "4.196"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "4.197"
         }
       ],
       "vtype": "date"
@@ -4544,6 +4552,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "3.75.0"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "3.76.0"
         }
       ],
       "vtype": "semver"
@@ -6416,6 +6428,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "1.0.187"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-15"
         }
       ],
       "vtype": "semver"
@@ -8166,6 +8182,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-04"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-04"
         }
       ],
       "vtype": "date"
@@ -8675,6 +8695,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "2024-11-25"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-13"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -8905,6 +8929,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2021-04-29"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-14"
         }
       ],
       "vtype": "date"
@@ -9968,6 +9996,10 @@
         {
           "retrieved": "2025-03-22",
           "version": "2025-03-20"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-21"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10321,6 +10353,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-06-20"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-18"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -11147,6 +11183,10 @@
         {
           "retrieved": "2024-10-27",
           "version": "7.86"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "7.88"
         }
       ],
       "name": "Pathway ontology",
@@ -11542,6 +11582,10 @@
         {
           "retrieved": "2024-12-22",
           "version": "2024-07-09"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-13"
         }
       ],
       "vtype": "date"
@@ -12321,6 +12365,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-18"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-02-28"
         }
       ],
       "vtype": "date"
@@ -12723,6 +12771,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "6.243"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "6.244"
         }
       ],
       "vtype": "date"
@@ -12907,6 +12959,10 @@
         {
           "retrieved": "2024-05-05",
           "version": "2024-04-24"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-05"
         }
       ],
       "vtype": "date"
@@ -16202,6 +16258,10 @@
         {
           "retrieved": "2025-03-22",
           "version": "2025-03-22"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-23"
         }
       ],
       "name": "SwissLipids",
@@ -17488,6 +17548,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-11"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-04"
         }
       ],
       "vtype": "date"
@@ -21542,6 +21606,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "2025-03-19"
+        },
+        {
+          "retrieved": "2025-03-23",
+          "version": "2025-03-21"
         }
       ],
       "name": "Zebrafish Information Network",
