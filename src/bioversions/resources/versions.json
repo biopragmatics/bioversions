@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 952,
-    "date": "2025-03-30",
+    "revision": 953,
+    "date": "2025-03-31",
     "author": "runner"
   },
   "database": [
@@ -378,6 +378,11 @@
         {
           "retrieved": "2025-03-29",
           "version": "2025-03-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-03-31",
+          "version": "2025-03-30",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -16358,6 +16363,10 @@
         {
           "retrieved": "2025-03-30",
           "version": "2025-03-30"
+        },
+        {
+          "retrieved": "2025-03-31",
+          "version": "2025-03-31"
         }
       ],
       "name": "SwissLipids",
