@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-04-01'
-  revision: 954
+  date: '2025-04-02'
+  revision: 955
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -222,6 +222,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-04-01'
     version: '2025-03-31'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-04-02'
+    version: '2025-04-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -511,6 +514,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.243
     retrieved: '2025-03-04'
     version: 4.4.243
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.244
+    retrieved: '2025-04-02'
+    version: 4.4.244
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -1815,6 +1821,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-03-03
     retrieved: '2025-03-04'
     version: '2025-03-03'
+  - date: '2025-03-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-03-31
+    retrieved: '2025-04-02'
+    version: '2025-03-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -3221,6 +3231,10 @@ database:
     homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2024.4.zip
     retrieved: '2024-12-06'
     version: '2024.4'
+  - date: '2025-04-01'
+    homepage: https://www.guidetopharmacology.org/DATA/public_iuphardb_v2025.1.zip
+    retrieved: '2025-04-02'
+    version: '2025.1'
   vtype: year_minor
 - name: Health Surveillance Ontology
   prefix: hso
@@ -5580,6 +5594,8 @@ database:
     version: '2025-03-27'
   - retrieved: '2025-03-30'
     version: '2025-03-28'
+  - retrieved: '2025-04-02'
+    version: '2025-03-31'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6602,6 +6618,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-03-01/
     retrieved: '2025-03-02'
     version: '2025-03-01'
+  - date: '2025-04-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-04-01/
+    retrieved: '2025-04-02'
+    version: '2025-04-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -7514,6 +7534,8 @@ database:
   releases:
   - retrieved: '2025-01-14'
     version: '2025-01-01'
+  - retrieved: '2025-04-02'
+    version: '2025-04-01'
   vtype: date
 - name: SILVA ribosomal RNA database
   prefix: silva.taxon
@@ -8912,6 +8934,8 @@ database:
     version: '2025-03-31'
   - retrieved: '2025-04-01'
     version: '2025-04-01'
+  - retrieved: '2025-04-02'
+    version: '2025-04-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11833,6 +11857,8 @@ database:
     version: '2025-03-28'
   - retrieved: '2025-04-01'
     version: '2025-03-30'
+  - retrieved: '2025-04-02'
+    version: '2025-03-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
