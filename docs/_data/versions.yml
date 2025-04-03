@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-04-02'
-  revision: 955
+  date: '2025-04-03'
+  revision: 956
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -225,6 +225,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-04-02'
     version: '2025-04-01'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-04-03'
+    version: '2025-04-02'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -291,6 +294,8 @@ database:
     version: '2024-10-23'
   - retrieved: '2025-02-27'
     version: '2025-02-01'
+  - retrieved: '2025-04-03'
+    version: '2025-03-25'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -373,6 +378,8 @@ database:
     version: 2.8.11
   - retrieved: '2025-02-27'
     version: 2.8.12
+  - retrieved: '2025-04-03'
+    version: 2.8.13
   vtype: semver
 - name: Biofacquim
   releases:
@@ -691,6 +698,8 @@ database:
     version: '2024-09-24'
   - retrieved: '2025-01-12'
     version: '2025-01-02'
+  - retrieved: '2025-04-03'
+    version: '2025-03-26'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -1015,6 +1024,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel239/
     retrieved: '2025-01-02'
     version: '239'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel241/
+    retrieved: '2025-04-03'
+    version: '241'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -1628,6 +1640,8 @@ database:
   releases:
   - retrieved: '2024-03-25'
     version: '2023-12-15'
+  - retrieved: '2025-04-03'
+    version: '2025-03-20'
   vtype: missing
 - name: Disease Ontology
   prefix: doid
@@ -1887,6 +1901,8 @@ database:
     version: '2024-12-04'
   - retrieved: '2025-02-27'
     version: '2025-02-12'
+  - retrieved: '2025-04-03'
+    version: '2025-03-26'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -1931,6 +1947,8 @@ database:
     version: '2024-12-05'
   - retrieved: '2025-02-27'
     version: '2025-02-13'
+  - retrieved: '2025-04-03'
+    version: '2025-03-27'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -1983,6 +2001,8 @@ database:
     version: '2024-12-05'
   - retrieved: '2025-02-27'
     version: '2025-02-13'
+  - retrieved: '2025-04-03'
+    version: '2025-03-27'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -2432,6 +2452,8 @@ database:
     version: '4.196'
   - retrieved: '2025-03-23'
     version: '4.197'
+  - retrieved: '2025-04-03'
+    version: '4.198'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2524,6 +2546,8 @@ database:
     version: 3.75.0
   - retrieved: '2025-03-23'
     version: 3.76.0
+  - retrieved: '2025-04-03'
+    version: 3.76.1
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2694,6 +2718,8 @@ database:
     version: '2025-01-14'
   - retrieved: '2025-03-20'
     version: '2025-02-28'
+  - retrieved: '2025-04-03'
+    version: '2025-03-24'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -2822,6 +2848,8 @@ database:
     version: '2024-12-05'
   - retrieved: '2025-02-27'
     version: '2025-02-13'
+  - retrieved: '2025-04-03'
+    version: '2025-03-27'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -3313,6 +3341,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-03-04.json
     retrieved: '2025-03-20'
     version: '2025-03-04'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-04-01.json
+    retrieved: '2025-04-03'
+    version: '2025-04-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -3828,6 +3859,8 @@ database:
     version: '2025-01-24'
   - retrieved: '2025-02-25'
     version: '2025-02-20'
+  - retrieved: '2025-04-03'
+    version: '2025-03-31'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -5596,6 +5629,8 @@ database:
     version: '2025-03-28'
   - retrieved: '2025-04-02'
     version: '2025-03-31'
+  - retrieved: '2025-04-03'
+    version: '2025-04-01'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -5668,6 +5703,8 @@ database:
     version: '2024-12-05'
   - retrieved: '2025-02-27'
     version: '2025-01-09'
+  - retrieved: '2025-04-03'
+    version: '2025-03-06'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -5708,6 +5745,8 @@ database:
     version: '2024-08-14'
   - retrieved: '2024-12-08'
     version: '2024-11-25'
+  - retrieved: '2025-04-03'
+    version: '2025-03-26'
   vtype: date
 - name: Ontology for Nutritional Studies
   prefix: ons
@@ -5850,6 +5889,8 @@ database:
     version: '2024-11-26'
   - retrieved: '2025-02-27'
     version: '2025-01-14'
+  - retrieved: '2025-04-03'
+    version: '2025-03-28'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -6238,6 +6279,8 @@ database:
     version: '7.86'
   - retrieved: '2025-03-23'
     version: '7.88'
+  - retrieved: '2025-04-03'
+    version: '7.89'
   vtype: date
 - name: PATO
   prefix: pato
@@ -7120,6 +7163,8 @@ database:
     version: '6.243'
   - retrieved: '2025-03-23'
     version: '6.244'
+  - retrieved: '2025-04-03'
+    version: '6.245'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -7160,6 +7205,8 @@ database:
     version: '90'
   - retrieved: '2024-12-10'
     version: '91'
+  - retrieved: '2025-04-03'
+    version: '92'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -8936,6 +8983,8 @@ database:
     version: '2025-04-01'
   - retrieved: '2025-04-02'
     version: '2025-04-02'
+  - retrieved: '2025-04-03'
+    version: '2025-04-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9622,6 +9671,8 @@ database:
     version: '2025-02-11'
   - retrieved: '2025-03-23'
     version: '2025-03-04'
+  - retrieved: '2025-04-03'
+    version: '2025-03-25'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -11859,6 +11910,8 @@ database:
     version: '2025-03-30'
   - retrieved: '2025-04-02'
     version: '2025-03-31'
+  - retrieved: '2025-04-03'
+    version: '2025-04-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

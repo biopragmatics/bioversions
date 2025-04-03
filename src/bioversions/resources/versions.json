@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 955,
-    "date": "2025-04-02",
+    "revision": 956,
+    "date": "2025-04-03",
     "author": "runner"
   },
   "database": [
@@ -394,6 +394,11 @@
           "retrieved": "2025-04-02",
           "version": "2025-04-01",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-04-02",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -525,6 +530,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-01"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-25"
         }
       ],
       "vtype": "date"
@@ -680,6 +689,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2.8.12"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2.8.13"
         }
       ],
       "vtype": "semver"
@@ -1257,6 +1270,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2025-01-02"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-26"
         }
       ],
       "vtype": "date"
@@ -1849,6 +1866,11 @@
           "retrieved": "2025-01-02",
           "version": "239",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel239/"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "241",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel241/"
         }
       ],
       "vtype": "sequential"
@@ -2983,6 +3005,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "2023-12-15"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-20"
         }
       ],
       "name": "Disease Drivers Ontology",
@@ -3402,6 +3428,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-12"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-26"
         }
       ],
       "name": "Drosophila development",
@@ -3489,6 +3519,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-13"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-27"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -3592,6 +3626,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-13"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-27"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -4429,6 +4467,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "4.197"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "4.198"
         }
       ],
       "vtype": "date"
@@ -4612,6 +4654,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "3.76.0"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "3.76.1"
         }
       ],
       "vtype": "semver"
@@ -4948,6 +4994,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "2025-02-28"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-24"
         }
       ],
       "vtype": "date"
@@ -5178,6 +5228,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-13"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-27"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -6021,6 +6075,11 @@
           "retrieved": "2025-03-20",
           "version": "2025-03-04",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-03-04.json"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-04-01",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-04-01.json"
         }
       ],
       "name": "HGNC",
@@ -6931,6 +6990,10 @@
         {
           "retrieved": "2025-02-25",
           "version": "2025-02-20"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-31"
         }
       ],
       "name": "ITIS",
@@ -10100,6 +10163,10 @@
         {
           "retrieved": "2025-04-02",
           "version": "2025-03-31"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-04-01"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -10240,6 +10307,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-01-09"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-06"
         }
       ],
       "vtype": "date"
@@ -10314,6 +10385,10 @@
         {
           "retrieved": "2024-12-08",
           "version": "2024-11-25"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-26"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -10591,6 +10666,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-01-14"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-28"
         }
       ],
       "vtype": "date"
@@ -11287,6 +11366,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "7.88"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "7.89"
         }
       ],
       "name": "Pathway ontology",
@@ -12895,6 +12978,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "6.244"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "6.245"
         }
       ],
       "vtype": "date"
@@ -12974,6 +13061,10 @@
         {
           "retrieved": "2024-12-10",
           "version": "91"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "92"
         }
       ],
       "vtype": "sequential"
@@ -16426,6 +16517,10 @@
         {
           "retrieved": "2025-04-02",
           "version": "2025-04-02"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-04-03"
         }
       ],
       "name": "SwissLipids",
@@ -17716,6 +17811,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-04"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-03-25"
         }
       ],
       "vtype": "date"
@@ -21810,6 +21909,10 @@
         {
           "retrieved": "2025-04-02",
           "version": "2025-03-31"
+        },
+        {
+          "retrieved": "2025-04-03",
+          "version": "2025-04-01"
         }
       ],
       "name": "Zebrafish Information Network",
