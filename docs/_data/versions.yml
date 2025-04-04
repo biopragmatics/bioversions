@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-04-03'
-  revision: 956
+  date: '2025-04-04'
+  revision: 957
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -228,6 +228,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-04-03'
     version: '2025-04-02'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-04-04'
+    version: '2025-04-03'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1391,6 +1394,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2024-11-29/
     retrieved: '2024-12-10'
     version: '2024-11-29'
+  - date: '2025-03-28'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2025-03-28/
+    retrieved: '2025-04-04'
+    version: '2025-03-28'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -3667,6 +3674,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2024-11-29/
     retrieved: '2024-12-10'
     version: '2024-11-29'
+  - date: '2025-03-28'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2025-03-28/
+    retrieved: '2025-04-04'
+    version: '2025-03-28'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -5631,6 +5642,8 @@ database:
     version: '2025-03-31'
   - retrieved: '2025-04-03'
     version: '2025-04-01'
+  - retrieved: '2025-04-04'
+    version: '2025-04-02'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8985,6 +8998,8 @@ database:
     version: '2025-04-02'
   - retrieved: '2025-04-03'
     version: '2025-04-03'
+  - retrieved: '2025-04-04'
+    version: '2025-04-04'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11912,6 +11927,8 @@ database:
     version: '2025-03-31'
   - retrieved: '2025-04-03'
     version: '2025-04-01'
+  - retrieved: '2025-04-04'
+    version: '2025-04-02'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
