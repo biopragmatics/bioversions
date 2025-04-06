@@ -101,7 +101,7 @@ def _update(force: bool):  # noqa:C901
         click.secho(f"Writing failure summary to {FAILURES_PATH}")
         text = "# Summary of Errors\n\n"
         for t in failure_tuples:
-            text += f"- {t.name} - {t.message}\n"
+            text += f"- **{t.name}**\n  `{t.message}`\n"
         text += "\n"
         for t in failure_tuples:
             text += f"## {t.name}\n\nUsing class: `{t.clstype}`\n\n"
