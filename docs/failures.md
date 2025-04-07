@@ -6,16 +6,12 @@
   `issue parsing Pathway Commons: could not find an element matching args=({'class': 'boost'},) and kwargs={}`
 - **DrugBank**
   `failed to resolve DrugBank`
-- **Ensembl**
-  `failed to resolve Ensembl`
 - **International Classification of Diseases, 10th Revision**
   `failed to resolve International Classification of Diseases, 10th Revision`
 - **International Classification of Diseases, 11th Revision**
   `failed to resolve International Classification of Diseases, 11th Revision`
 - **International Classification of Functioning, Disability and Health**
   `failed to resolve International Classification of Functioning, Disability and Health`
-- **ITIS**
-  `issue parsing ITIS: time data '<!doctype html>\n<html>\n  <head>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <title>Page Not Found | Puppet Enterprise</title>\n    <meta name="viewport" content="width=device-width, initial-scale=1">\n    <link rel="stylesheet" type="text/css" href="/404/styles/normalize-8b255ea2eb5f2f8ef944c2b15939ad0b.css">\n    <link rel="stylesheet" type="text/css" href="/404/styles/main-42547b4e8ea0b123fcaf9c4c9b012c47.css">\n  </head>\n  <body>\n    <div id="wrap">\n      <div id="identity">\n        <img src="/auth/images/pe-logo-amber.svg" alt="">\n      </div>\n      <div class="not-found-container">\n        <h1>404</h1>\n        <p>Page not found</p>\n        <a href="/">Return to home</a>\n      </div>\n      <div id="puppet">\n        <img src="/auth/images/logo.svg" alt="">\n      </div>\n      <footer>\n      Copyright &copy; 2022 Puppet<span class="sep">|</span> <a href="http://www.puppet.com">www.puppet.com</a>\n      </footer>\n    </div>\n  </body>\n</html>\n' does not match format '%d-%b-%Y'`
 
 ## DisGeNet
 
@@ -155,46 +151,6 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://go.drugbank.com/releases.json
-
-```
-
-## Ensembl
-
-Using class: `EnsemblGetter`
-
-```python-traceback
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 246, in _iter_versions
-    yv = resolve(cls.name)
-         ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 173, in resolve
-    return _resolve_helper_cached(name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
-    return _calc_entry(core, key, func, args, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
-    func_res = func(*args, **kwds)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 180, in _resolve_helper_cached
-    return _resolve_helper(name)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 186, in _resolve_helper
-    return getter.resolve()
-           ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 224, in resolve
-    version=cls.version,
-            ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 102, in version
-    if isinstance(cls._cache_prop, str):
-                  ^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
-    cls._cache = cls().get()
-                 ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/ensembl.py", line 24, in get
-    manifest = soup.find(**{"class": "box-header"}).text
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'text'
 
 ```
 
@@ -513,50 +469,5 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 698, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='icd.who.int', port=443): Max retries exceeded with url: /browse/latest-release/icf/en (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
-
-```
-
-## ITIS
-
-Using class: `ITISGetter`
-
-```python-traceback
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 246, in _iter_versions
-    yv = resolve(cls.name)
-         ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 173, in resolve
-    return _resolve_helper_cached(name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
-    return _calc_entry(core, key, func, args, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
-    func_res = func(*args, **kwds)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 180, in _resolve_helper_cached
-    return _resolve_helper(name)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 186, in _resolve_helper
-    return getter.resolve()
-           ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 224, in resolve
-    version=cls.version,
-            ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 102, in version
-    if isinstance(cls._cache_prop, str):
-                  ^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
-    cls._cache = cls().get()
-                 ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/itis.py", line 26, in get
-    return datetime.datetime.strptime(res, "%d-%b-%Y")
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/_strptime.py", line 653, in _strptime_datetime
-    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
-                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/_strptime.py", line 432, in _strptime
-    raise ValueError("time data %r does not match format %r" %
-ValueError: time data '<!doctype html>\n<html>\n  <head>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <title>Page Not Found | Puppet Enterprise</title>\n    <meta name="viewport" content="width=device-width, initial-scale=1">\n    <link rel="stylesheet" type="text/css" href="/404/styles/normalize-8b255ea2eb5f2f8ef944c2b15939ad0b.css">\n    <link rel="stylesheet" type="text/css" href="/404/styles/main-42547b4e8ea0b123fcaf9c4c9b012c47.css">\n  </head>\n  <body>\n    <div id="wrap">\n      <div id="identity">\n        <img src="/auth/images/pe-logo-amber.svg" alt="">\n      </div>\n      <div class="not-found-container">\n        <h1>404</h1>\n        <p>Page not found</p>\n        <a href="/">Return to home</a>\n      </div>\n      <div id="puppet">\n        <img src="/auth/images/logo.svg" alt="">\n      </div>\n      <footer>\n      Copyright &copy; 2022 Puppet<span class="sep">|</span> <a href="http://www.puppet.com">www.puppet.com</a>\n      </footer>\n    </div>\n  </body>\n</html>\n' does not match format '%d-%b-%Y'
 
 ```
