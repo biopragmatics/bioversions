@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 968,
-    "date": "2025-04-14",
+    "revision": 969,
+    "date": "2025-04-15",
     "author": "runner"
   },
   "database": [
@@ -443,6 +443,11 @@
         {
           "retrieved": "2025-04-13",
           "version": "2025-04-12",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-14",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -11565,6 +11570,11 @@
           "retrieved": "2024-12-12",
           "version": "37.2",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.2/"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "37.4",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.4/"
         }
       ],
       "vtype": "semver_minor"
@@ -12980,6 +12990,10 @@
         {
           "retrieved": "2025-03-25",
           "version": "2025-03-21"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-11"
         }
       ],
       "name": "Rat Genome Database",
@@ -16689,6 +16703,10 @@
         {
           "retrieved": "2025-04-14",
           "version": "2025-04-14"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-15"
         }
       ],
       "name": "SwissLipids",
@@ -22127,6 +22145,10 @@
         {
           "retrieved": "2025-04-12",
           "version": "2025-04-10"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-13"
         }
       ],
       "name": "Zebrafish Information Network",
