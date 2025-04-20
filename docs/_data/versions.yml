@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-04-19'
-  revision: 973
+  date: '2025-04-20'
+  revision: 974
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -50,6 +50,8 @@ database:
     version: 2024/09
   - retrieved: '2024-12-29'
     version: 2024/12
+  - retrieved: '2025-04-20'
+    version: 2025/03
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -422,6 +424,8 @@ database:
     version: 2.8.12
   - retrieved: '2025-04-03'
     version: 2.8.13
+  - retrieved: '2025-04-20'
+    version: 2.8.14
   vtype: semver
 - name: Biofacquim
   releases:
@@ -706,6 +710,8 @@ database:
     version: '2024-09-26'
   - retrieved: '2025-01-12'
     version: '2025-01-04'
+  - retrieved: '2025-04-20'
+    version: '2025-04-01'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -792,6 +798,8 @@ database:
     version: '2024-09-26'
   - retrieved: '2025-01-12'
     version: '2025-01-02'
+  - retrieved: '2025-04-20'
+    version: '2025-04-01'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -908,6 +916,8 @@ database:
     version: '2025-01-07'
   - retrieved: '2025-02-27'
     version: '2025-02-13'
+  - retrieved: '2025-04-20'
+    version: '2025-04-10'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -1299,6 +1309,8 @@ database:
     version: '2.239'
   - retrieved: '2025-03-23'
     version: '2.241'
+  - retrieved: '2025-04-20'
+    version: '2.242'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1663,6 +1675,8 @@ database:
     version: 2024e_20241114
   - retrieved: '2025-02-27'
     version: 2025a_20250221
+  - retrieved: '2025-04-20'
+    version: 2025b_20250411
   vtype: other
 - name: Dicty Phenotype Ontology (DDPHENO)
   prefix: ddpheno
@@ -2505,6 +2519,8 @@ database:
     version: '4.197'
   - retrieved: '2025-04-03'
     version: '4.198'
+  - retrieved: '2025-04-20'
+    version: '4.199'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2599,6 +2615,8 @@ database:
     version: 3.76.0
   - retrieved: '2025-04-03'
     version: 3.76.1
+  - retrieved: '2025-04-20'
+    version: 3.77.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -2771,6 +2789,8 @@ database:
     version: '2025-02-28'
   - retrieved: '2025-04-03'
     version: '2025-03-24'
+  - retrieved: '2025-04-20'
+    version: '2025-04-07'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3455,6 +3475,8 @@ database:
     version: '2024-08-19'
   - retrieved: '2025-03-20'
     version: '2025-02-24'
+  - retrieved: '2025-04-20'
+    version: '2025-04-01'
   vtype: semver
 - name: Human Cell Atlas Ontology
   prefix: hcao
@@ -4219,6 +4241,8 @@ database:
     version: '2.145'
   - retrieved: '2025-01-28'
     version: '2.146'
+  - retrieved: '2025-04-20'
+    version: '2.147'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -4635,6 +4659,8 @@ database:
     version: '2025-02-04'
   - retrieved: '2025-03-23'
     version: '2025-03-04'
+  - retrieved: '2025-04-20'
+    version: '2025-04-01'
   vtype: date
 - name: MOP
   prefix: mop
@@ -5724,6 +5750,8 @@ database:
     version: '2025-04-16'
   - retrieved: '2025-04-19'
     version: '2025-04-17'
+  - retrieved: '2025-04-20'
+    version: '2025-04-18'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6374,6 +6402,8 @@ database:
     version: '7.88'
   - retrieved: '2025-04-03'
     version: '7.89'
+  - retrieved: '2025-04-20'
+    version: '7.90'
   vtype: date
 - name: PATO
   prefix: pato
@@ -7053,6 +7083,8 @@ database:
     version: '2025-02-18'
   - retrieved: '2025-03-23'
     version: '2025-02-28'
+  - retrieved: '2025-04-20'
+    version: '2025-03-20'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -7263,6 +7295,8 @@ database:
     version: '6.244'
   - retrieved: '2025-04-03'
     version: '6.245'
+  - retrieved: '2025-04-20'
+    version: '6.246'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -9120,6 +9154,8 @@ database:
     version: '2025-04-18'
   - retrieved: '2025-04-19'
     version: '2025-04-19'
+  - retrieved: '2025-04-20'
+    version: '2025-04-20'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9254,6 +9290,8 @@ database:
     version: '2024-08-06'
   - retrieved: '2024-10-16'
     version: '2024-09-17'
+  - retrieved: '2025-04-20'
+    version: '2025-03-28'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -9477,6 +9515,8 @@ database:
     version: '2024-11-25'
   - retrieved: '2025-02-27'
     version: '2025-01-15'
+  - retrieved: '2025-04-20'
+    version: '2025-04-09'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -9810,6 +9850,8 @@ database:
     version: '2025-03-04'
   - retrieved: '2025-04-03'
     version: '2025-03-25'
+  - retrieved: '2025-04-20'
+    version: '2025-04-15'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath

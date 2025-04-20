@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 973,
-    "date": "2025-04-19",
+    "revision": 974,
+    "date": "2025-04-20",
     "author": "runner"
   },
   "database": [
@@ -94,6 +94,10 @@
         {
           "retrieved": "2024-12-29",
           "version": "2024/12"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025/03"
         }
       ],
       "vtype": "date"
@@ -763,6 +767,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2.8.13"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2.8.14"
         }
       ],
       "vtype": "semver"
@@ -1271,6 +1279,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2025-01-04"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "name": "C. elegans development ontology",
@@ -1441,6 +1453,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2025-01-02"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1666,6 +1682,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-13"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-10"
         }
       ],
       "prefix": "cl",
@@ -2364,6 +2384,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2.241"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2.242"
         }
       ],
       "vtype": "date"
@@ -3040,6 +3064,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025a_20250221"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025b_20250411"
         }
       ],
       "vtype": "other"
@@ -4556,6 +4584,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "4.198"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "4.199"
         }
       ],
       "vtype": "date"
@@ -4743,6 +4775,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "3.76.1"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "3.77.0"
         }
       ],
       "vtype": "semver"
@@ -5083,6 +5119,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-24"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-07"
         }
       ],
       "vtype": "date"
@@ -6259,6 +6299,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "2025-02-24"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "vtype": "semver"
@@ -7653,6 +7697,10 @@
         {
           "retrieved": "2025-01-28",
           "version": "2.146"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2.147"
         }
       ],
       "vtype": "date"
@@ -8413,6 +8461,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-04"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "vtype": "date"
@@ -10328,6 +10380,10 @@
         {
           "retrieved": "2025-04-19",
           "version": "2025-04-17"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-18"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11531,6 +11587,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "7.89"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "7.90"
         }
       ],
       "name": "Pathway ontology",
@@ -12734,6 +12794,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-02-28"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-03-20"
         }
       ],
       "vtype": "date"
@@ -13152,6 +13216,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "6.245"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "6.246"
         }
       ],
       "vtype": "date"
@@ -16764,6 +16832,10 @@
         {
           "retrieved": "2025-04-19",
           "version": "2025-04-19"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-20"
         }
       ],
       "name": "SwissLipids",
@@ -17022,6 +17094,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-17"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-03-28"
         }
       ],
       "vtype": "date"
@@ -17450,6 +17526,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-01-15"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-09"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -18062,6 +18142,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-25"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-15"
         }
       ],
       "vtype": "date"
