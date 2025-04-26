@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 979,
-    "date": "2025-04-25",
+    "revision": 980,
+    "date": "2025-04-26",
     "author": "runner"
   },
   "database": [
@@ -10426,6 +10426,10 @@
         {
           "retrieved": "2025-04-25",
           "version": "2025-04-23"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025-04-24"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -16907,6 +16911,10 @@
         {
           "retrieved": "2025-04-25",
           "version": "2025-04-25"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025-04-26"
         }
       ],
       "name": "SwissLipids",
@@ -17866,6 +17874,12 @@
           "version": "2025_01",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_01/",
           "date": "2025-01-01"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025_02",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_02/",
+          "date": "2025-02-01"
         }
       ],
       "vtype": "month"
@@ -22397,6 +22411,10 @@
         {
           "retrieved": "2025-04-25",
           "version": "2025-04-23"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025-04-24"
         }
       ],
       "name": "Zebrafish Information Network",

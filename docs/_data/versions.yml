@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-04-25'
-  revision: 979
+  date: '2025-04-26'
+  revision: 980
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -5776,6 +5776,8 @@ database:
     version: '2025-04-22'
   - retrieved: '2025-04-25'
     version: '2025-04-23'
+  - retrieved: '2025-04-26'
+    version: '2025-04-24'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9195,6 +9197,8 @@ database:
     version: '2025-04-24'
   - retrieved: '2025-04-25'
     version: '2025-04-25'
+  - retrieved: '2025-04-26'
+    version: '2025-04-26'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9711,6 +9715,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_01/
     retrieved: '2025-02-07'
     version: '2025_01'
+  - date: '2025-02-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_02/
+    retrieved: '2025-04-26'
+    version: '2025_02'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -12172,6 +12180,8 @@ database:
     version: '2025-04-22'
   - retrieved: '2025-04-25'
     version: '2025-04-23'
+  - retrieved: '2025-04-26'
+    version: '2025-04-24'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
