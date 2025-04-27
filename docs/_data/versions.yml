@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-04-26'
-  revision: 980
+  date: '2025-04-27'
+  revision: 981
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1323,6 +1323,8 @@ database:
     version: '2.241'
   - retrieved: '2025-04-20'
     version: '2.242'
+  - retrieved: '2025-04-27'
+    version: '2.243'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2535,6 +2537,8 @@ database:
     version: '4.198'
   - retrieved: '2025-04-20'
     version: '4.199'
+  - retrieved: '2025-04-27'
+    version: '4.200'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2805,6 +2809,8 @@ database:
     version: '2025-03-24'
   - retrieved: '2025-04-20'
     version: '2025-04-07'
+  - retrieved: '2025-04-27'
+    version: '2025-04-17'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -4261,6 +4267,8 @@ database:
     version: '2.146'
   - retrieved: '2025-04-20'
     version: '2.147'
+  - retrieved: '2025-04-27'
+    version: '2.148'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -4429,6 +4437,8 @@ database:
     version: '2024-08-02'
   - retrieved: '2025-02-27'
     version: '2025-02-13'
+  - retrieved: '2025-04-27'
+    version: '2025-04-22'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -4715,6 +4725,8 @@ database:
   releases:
   - retrieved: '2025-03-02'
     version: '2025-02-10'
+  - retrieved: '2025-04-27'
+    version: '2025-04-17'
   vtype: date
 - name: Mouse Developmental Anatomy Ontology
   prefix: emapa
@@ -5778,6 +5790,8 @@ database:
     version: '2025-04-23'
   - retrieved: '2025-04-26'
     version: '2025-04-24'
+  - retrieved: '2025-04-27'
+    version: '2025-04-25'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6430,6 +6444,8 @@ database:
     version: '7.89'
   - retrieved: '2025-04-20'
     version: '7.90'
+  - retrieved: '2025-04-27'
+    version: '7.91'
   vtype: date
 - name: PATO
   prefix: pato
@@ -7325,6 +7341,8 @@ database:
     version: '6.245'
   - retrieved: '2025-04-20'
     version: '6.246'
+  - retrieved: '2025-04-27'
+    version: '6.247'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -9199,6 +9217,8 @@ database:
     version: '2025-04-25'
   - retrieved: '2025-04-26'
     version: '2025-04-26'
+  - retrieved: '2025-04-27'
+    version: '2025-04-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9385,6 +9405,8 @@ database:
     version: '2024-11-04'
   - retrieved: '2024-12-29'
     version: '2024-12-20'
+  - retrieved: '2025-04-27'
+    version: '2025-04-18'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -9899,6 +9921,8 @@ database:
     version: '2025-03-25'
   - retrieved: '2025-04-20'
     version: '2025-04-15'
+  - retrieved: '2025-04-27'
+    version: '2025-04-22'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -12182,6 +12206,8 @@ database:
     version: '2025-04-23'
   - retrieved: '2025-04-26'
     version: '2025-04-24'
+  - retrieved: '2025-04-27'
+    version: '2025-04-25'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
