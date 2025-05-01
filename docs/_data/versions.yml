@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-04-30'
-  revision: 984
+  date: '2025-05-01'
+  revision: 985
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -290,6 +290,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-04-30'
     version: '2025-04-29'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-05-01'
+    version: '2025-04-30'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1247,6 +1250,8 @@ database:
     version: '2025-03-01'
   - retrieved: '2025-04-05'
     version: '2025-04-01'
+  - retrieved: '2025-05-01'
+    version: '2025-05-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -2112,6 +2117,9 @@ database:
   - date: '2024-06-01'
     retrieved: '2024-08-14'
     version: 2024-Jun
+  - date: '2025-04-01'
+    retrieved: '2025-05-01'
+    version: 2025-Apr
   vtype: month
 - name: Drug-drug Interaction and Drug-drug Interaction Evidence Ontology
   prefix: dideo
@@ -5808,6 +5816,8 @@ database:
     version: '2025-04-25'
   - retrieved: '2025-04-30'
     version: '2025-04-28'
+  - retrieved: '2025-05-01'
+    version: '2025-04-29'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7103,6 +7113,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-04-01
     retrieved: '2025-04-01'
     version: '2025-04-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-05-01
+    retrieved: '2025-05-01'
+    version: '2025-05-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -9241,6 +9254,8 @@ database:
     version: '2025-04-29'
   - retrieved: '2025-04-30'
     version: '2025-04-30'
+  - retrieved: '2025-05-01'
+    version: '2025-05-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12236,6 +12251,8 @@ database:
     version: '2025-04-27'
   - retrieved: '2025-04-30'
     version: '2025-04-28'
+  - retrieved: '2025-05-01'
+    version: '2025-04-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

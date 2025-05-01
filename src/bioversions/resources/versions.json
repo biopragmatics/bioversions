@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 984,
-    "date": "2025-04-30",
+    "revision": 985,
+    "date": "2025-05-01",
     "author": "runner"
   },
   "database": [
@@ -502,6 +502,11 @@
         {
           "retrieved": "2025-04-30",
           "version": "2025-04-29",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-04-30",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -2255,6 +2260,10 @@
         {
           "retrieved": "2025-04-05",
           "version": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-05-01"
         }
       ],
       "name": "CiVIC",
@@ -3820,6 +3829,11 @@
           "retrieved": "2024-08-14",
           "version": "2024-Jun",
           "date": "2024-06-01"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-Apr",
+          "date": "2025-04-01"
         }
       ],
       "name": "Drug Gene Interaction Database",
@@ -10486,6 +10500,10 @@
         {
           "retrieved": "2025-04-30",
           "version": "2025-04-28"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-04-29"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12824,6 +12842,11 @@
           "retrieved": "2025-04-01",
           "version": "2025-04-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-04-01"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-05-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-05-01"
         }
       ],
       "name": "PubChem",
@@ -16995,6 +17018,10 @@
         {
           "retrieved": "2025-04-30",
           "version": "2025-04-30"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-05-01"
         }
       ],
       "name": "SwissLipids",
@@ -22519,6 +22546,10 @@
         {
           "retrieved": "2025-04-30",
           "version": "2025-04-28"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-04-29"
         }
       ],
       "name": "Zebrafish Information Network",
