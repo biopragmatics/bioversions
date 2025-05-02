@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 985,
-    "date": "2025-05-01",
+    "revision": 986,
+    "date": "2025-05-02",
     "author": "runner"
   },
   "database": [
@@ -507,6 +507,11 @@
         {
           "retrieved": "2025-05-01",
           "version": "2025-04-30",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-01",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -1048,6 +1053,11 @@
           "retrieved": "2025-04-02",
           "version": "4.4.244",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.244"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "4.4.245",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.245"
         }
       ],
       "vtype": "semver"
@@ -8359,6 +8369,12 @@
           "version": "2025-04-03",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-04-03",
           "date": "2025-04-03"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-01",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-05-01",
+          "date": "2025-05-01"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -10504,6 +10520,10 @@
         {
           "retrieved": "2025-05-01",
           "version": "2025-04-29"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-04-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12391,6 +12411,12 @@
           "version": "2025-04-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-04-01/",
           "date": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-05-01/",
+          "date": "2025-05-01"
         }
       ],
       "name": "PomBase",
@@ -17022,6 +17048,10 @@
         {
           "retrieved": "2025-05-01",
           "version": "2025-05-01"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-02"
         }
       ],
       "name": "SwissLipids",
@@ -22550,6 +22580,10 @@
         {
           "retrieved": "2025-05-01",
           "version": "2025-04-29"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-04-30"
         }
       ],
       "name": "Zebrafish Information Network",
