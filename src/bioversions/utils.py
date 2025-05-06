@@ -158,7 +158,7 @@ class MetaGetter(type):
         return version
 
 
-class Bioversion(pydantic.BaseModel):
+class VersionResult(pydantic.BaseModel):
     """A dataclass for information about a database and version."""
 
     #: The database name
@@ -217,9 +217,9 @@ class Getter(metaclass=MetaGetter):
         print(*x, sep=sep, file=file)
 
     @classmethod
-    def resolve(cls) -> Bioversion:
+    def resolve(cls) -> VersionResult:
         """Get a Bioversion data container with the data for this database."""
-        return Bioversion(
+        return VersionResult(
             name=cls.name,
             version=cls.version,
             classname=cls.__name__,

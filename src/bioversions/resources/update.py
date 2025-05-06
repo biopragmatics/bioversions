@@ -15,7 +15,7 @@ from bioversions.resources import (
     write_export,
     write_versions,
 )
-from bioversions.sources import FailureTuple, _iter_versions
+from bioversions.sources import VersionFailure, iter_versions
 from bioversions.version import get_git_hash
 
 __all__ = [
@@ -49,8 +49,8 @@ def _update(force: bool):  # noqa:C901
 
     changes = False
     failure_tuples = []
-    for bv in _iter_versions(use_tqdm=True):
-        if isinstance(bv, FailureTuple):
+    for bv in iter_versions(use_tqdm=True):
+        if isinstance(bv, VersionFailure):
             failure_tuples.append(bv)
             continue
 
