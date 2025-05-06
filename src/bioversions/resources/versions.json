@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 989,
-    "date": "2025-05-05",
+    "revision": 990,
+    "date": "2025-05-06",
     "author": "runner"
   },
   "database": [
@@ -522,6 +522,11 @@
         {
           "retrieved": "2025-05-05",
           "version": "2025-05-04",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-05",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -13989,6 +13994,11 @@
           "retrieved": "2025-04-08",
           "version": "2025-04-07",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_04072025.zip"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-05",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_05052025.zip"
         }
       ],
       "name": "RxNorm",
@@ -17082,6 +17092,10 @@
         {
           "retrieved": "2025-05-05",
           "version": "2025-05-05"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-06"
         }
       ],
       "name": "SwissLipids",
@@ -17830,6 +17844,10 @@
         {
           "retrieved": "2024-11-05",
           "version": "2024AB"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025AA"
         }
       ],
       "name": "UMLS",
@@ -22622,6 +22640,10 @@
         {
           "retrieved": "2025-05-05",
           "version": "2025-05-03"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-04"
         }
       ],
       "name": "Zebrafish Information Network",
