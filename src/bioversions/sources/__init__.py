@@ -71,14 +71,14 @@ from .umls import UMLSGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from .zfin import ZfinGetter
-from ..utils import VersionResult, Getter, norm, refresh_daily
+from ..utils import Getter, VersionResult, norm, refresh_daily
 
 __all__ = [
+    "VersionFailure",
     "clear_cache",
     "get_rows",
     "get_version",
     "iter_versions",
-    "VersionFailure",
     "resolve",
 ]
 
