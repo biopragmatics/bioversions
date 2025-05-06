@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 964,
-    "date": "2025-04-10",
+    "revision": 990,
+    "date": "2025-05-06",
     "author": "runner"
   },
   "database": [
@@ -94,6 +94,10 @@
         {
           "retrieved": "2024-12-29",
           "version": "2024/12"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025/03"
         }
       ],
       "vtype": "date"
@@ -429,6 +433,101 @@
           "retrieved": "2025-04-10",
           "version": "2025-04-09",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-11",
+          "version": "2025-04-10",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-12",
+          "version": "2025-04-11",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-13",
+          "version": "2025-04-12",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-14",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-16",
+          "version": "2025-04-15",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-17",
+          "version": "2025-04-16",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-18",
+          "version": "2025-04-17",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-19",
+          "version": "2025-04-18",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-22",
+          "version": "2025-04-21",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-23",
+          "version": "2025-04-22",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-24",
+          "version": "2025-04-23",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-25",
+          "version": "2025-04-24",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-29",
+          "version": "2025-04-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-04-30",
+          "version": "2025-04-29",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-04-30",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-01",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-03",
+          "version": "2025-05-02",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-05",
+          "version": "2025-05-04",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-05",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -723,6 +822,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2.8.13"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2.8.14"
         }
       ],
       "vtype": "semver"
@@ -965,6 +1068,11 @@
           "retrieved": "2025-04-02",
           "version": "4.4.244",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.244"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "4.4.245",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.245"
         }
       ],
       "vtype": "semver"
@@ -1231,6 +1339,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2025-01-04"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "name": "C. elegans development ontology",
@@ -1401,6 +1513,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2025-01-02"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "name": "C. elegans phenotype",
@@ -1626,6 +1742,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-13"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-10"
         }
       ],
       "prefix": "cl",
@@ -1686,6 +1806,11 @@
           "retrieved": "2024-12-20",
           "version": "51.0",
           "date": "2024-12-19"
+        },
+        {
+          "retrieved": "2025-04-11",
+          "version": "52.0",
+          "date": "2025-04-10"
         }
       ],
       "name": "Cellosaurus",
@@ -2160,6 +2285,10 @@
         {
           "retrieved": "2025-04-05",
           "version": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-05-01"
         }
       ],
       "name": "CiVIC",
@@ -2319,6 +2448,14 @@
         {
           "retrieved": "2025-03-23",
           "version": "2.241"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2.242"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2.243"
         }
       ],
       "vtype": "date"
@@ -2995,6 +3132,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025a_20250221"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025b_20250411"
         }
       ],
       "vtype": "other"
@@ -3349,6 +3490,12 @@
           "version": "2025-03-31",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-03-31",
           "date": "2025-03-31"
+        },
+        {
+          "retrieved": "2025-04-30",
+          "version": "2025-04-29",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-04-29",
+          "date": "2025-04-29"
         }
       ],
       "vtype": "date"
@@ -3707,6 +3854,11 @@
           "retrieved": "2024-08-14",
           "version": "2024-Jun",
           "date": "2024-06-01"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-Apr",
+          "date": "2025-04-01"
         }
       ],
       "name": "Drug Gene Interaction Database",
@@ -4340,6 +4492,10 @@
         {
           "retrieved": "2025-02-06",
           "version": "2025-02-05"
+        },
+        {
+          "retrieved": "2025-04-24",
+          "version": "2025-04-09"
         }
       ],
       "vtype": "date"
@@ -4511,6 +4667,14 @@
         {
           "retrieved": "2025-04-03",
           "version": "4.198"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "4.199"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "4.200"
         }
       ],
       "vtype": "date"
@@ -4698,6 +4862,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "3.76.1"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "3.77.0"
         }
       ],
       "vtype": "semver"
@@ -5038,6 +5206,14 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-24"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-07"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-17"
         }
       ],
       "vtype": "date"
@@ -6214,6 +6390,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "2025-02-24"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "vtype": "semver"
@@ -6903,6 +7083,12 @@
           "version": "104.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/104.0/",
           "date": "2025-02-06"
+        },
+        {
+          "retrieved": "2025-04-25",
+          "version": "105.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/105.0/",
+          "date": "2025-04-24"
         }
       ],
       "vtype": "semver_minor"
@@ -7040,6 +7226,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-31"
+        },
+        {
+          "retrieved": "2025-04-30",
+          "version": "2025-04-25"
         }
       ],
       "name": "ITIS",
@@ -7608,6 +7798,14 @@
         {
           "retrieved": "2025-01-28",
           "version": "2.146"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2.147"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2.148"
         }
       ],
       "vtype": "date"
@@ -7714,6 +7912,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-07-29"
+        },
+        {
+          "retrieved": "2025-04-29",
+          "version": "2025-04-24"
         }
       ],
       "vtype": "date"
@@ -7930,6 +8132,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-13"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-22"
         }
       ],
       "vtype": "date"
@@ -8178,6 +8384,12 @@
           "version": "2025-04-03",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-04-03",
           "date": "2025-04-03"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-01",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-05-01",
+          "date": "2025-05-01"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -8368,6 +8580,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-04"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-01"
         }
       ],
       "vtype": "date"
@@ -8432,6 +8648,10 @@
         {
           "retrieved": "2025-03-02",
           "version": "2025-02-10"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-17"
         }
       ],
       "name": "Mouse Brain Atlas",
@@ -8798,6 +9018,11 @@
           "retrieved": "2025-04-10",
           "version": "25.04a",
           "date": "2025-04-07"
+        },
+        {
+          "retrieved": "2025-04-17",
+          "version": "25.02d",
+          "date": "2025-02-24"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -10250,6 +10475,78 @@
         {
           "retrieved": "2025-04-10",
           "version": "2025-04-08"
+        },
+        {
+          "retrieved": "2025-04-11",
+          "version": "2025-04-09"
+        },
+        {
+          "retrieved": "2025-04-12",
+          "version": "2025-04-10"
+        },
+        {
+          "retrieved": "2025-04-13",
+          "version": "2025-04-11"
+        },
+        {
+          "retrieved": "2025-04-16",
+          "version": "2025-04-14"
+        },
+        {
+          "retrieved": "2025-04-17",
+          "version": "2025-04-15"
+        },
+        {
+          "retrieved": "2025-04-18",
+          "version": "2025-04-16"
+        },
+        {
+          "retrieved": "2025-04-19",
+          "version": "2025-04-17"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-18"
+        },
+        {
+          "retrieved": "2025-04-23",
+          "version": "2025-04-21"
+        },
+        {
+          "retrieved": "2025-04-24",
+          "version": "2025-04-22"
+        },
+        {
+          "retrieved": "2025-04-25",
+          "version": "2025-04-23"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025-04-24"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-25"
+        },
+        {
+          "retrieved": "2025-04-30",
+          "version": "2025-04-28"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-04-29"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-04-30"
+        },
+        {
+          "retrieved": "2025-05-03",
+          "version": "2025-05-01"
+        },
+        {
+          "retrieved": "2025-05-04",
+          "version": "2025-05-02"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -11453,6 +11750,14 @@
         {
           "retrieved": "2025-04-03",
           "version": "7.89"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "7.90"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "7.91"
         }
       ],
       "name": "Pathway ontology",
@@ -11533,6 +11838,11 @@
           "retrieved": "2024-12-12",
           "version": "37.2",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.2/"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "37.4",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.4/"
         }
       ],
       "vtype": "semver_minor"
@@ -12124,6 +12434,12 @@
           "version": "2025-04-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-04-01/",
           "date": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-05-01/",
+          "date": "2025-05-01"
         }
       ],
       "name": "PomBase",
@@ -12575,6 +12891,11 @@
           "retrieved": "2025-04-01",
           "version": "2025-04-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-04-01"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-05-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-05-01"
         }
       ],
       "name": "PubChem",
@@ -12651,6 +12972,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-02-28"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-03-20"
         }
       ],
       "vtype": "date"
@@ -12948,6 +13273,14 @@
         {
           "retrieved": "2025-03-25",
           "version": "2025-03-21"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-11"
+        },
+        {
+          "retrieved": "2025-04-22",
+          "version": "2025-04-18"
         }
       ],
       "name": "Rat Genome Database",
@@ -13065,6 +13398,14 @@
         {
           "retrieved": "2025-04-03",
           "version": "6.245"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "6.246"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "6.247"
         }
       ],
       "vtype": "date"
@@ -13422,6 +13763,11 @@
           "retrieved": "2025-02-06",
           "version": "137",
           "date": "2025-02-05"
+        },
+        {
+          "retrieved": "2025-04-24",
+          "version": "138",
+          "date": "2025-04-09"
         }
       ],
       "vtype": "date"
@@ -13648,6 +13994,11 @@
           "retrieved": "2025-04-08",
           "version": "2025-04-07",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_04072025.zip"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-05",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_05052025.zip"
         }
       ],
       "name": "RxNorm",
@@ -16641,6 +16992,110 @@
         {
           "retrieved": "2025-04-10",
           "version": "2025-04-10"
+        },
+        {
+          "retrieved": "2025-04-11",
+          "version": "2025-04-11"
+        },
+        {
+          "retrieved": "2025-04-12",
+          "version": "2025-04-12"
+        },
+        {
+          "retrieved": "2025-04-13",
+          "version": "2025-04-13"
+        },
+        {
+          "retrieved": "2025-04-14",
+          "version": "2025-04-14"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-15"
+        },
+        {
+          "retrieved": "2025-04-16",
+          "version": "2025-04-16"
+        },
+        {
+          "retrieved": "2025-04-17",
+          "version": "2025-04-17"
+        },
+        {
+          "retrieved": "2025-04-18",
+          "version": "2025-04-18"
+        },
+        {
+          "retrieved": "2025-04-19",
+          "version": "2025-04-19"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-20"
+        },
+        {
+          "retrieved": "2025-04-21",
+          "version": "2025-04-21"
+        },
+        {
+          "retrieved": "2025-04-22",
+          "version": "2025-04-22"
+        },
+        {
+          "retrieved": "2025-04-23",
+          "version": "2025-04-23"
+        },
+        {
+          "retrieved": "2025-04-24",
+          "version": "2025-04-24"
+        },
+        {
+          "retrieved": "2025-04-25",
+          "version": "2025-04-25"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025-04-26"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-27"
+        },
+        {
+          "retrieved": "2025-04-28",
+          "version": "2025-04-28"
+        },
+        {
+          "retrieved": "2025-04-29",
+          "version": "2025-04-29"
+        },
+        {
+          "retrieved": "2025-04-30",
+          "version": "2025-04-30"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-05-01"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-05-02"
+        },
+        {
+          "retrieved": "2025-05-03",
+          "version": "2025-05-03"
+        },
+        {
+          "retrieved": "2025-05-04",
+          "version": "2025-05-04"
+        },
+        {
+          "retrieved": "2025-05-05",
+          "version": "2025-05-05"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-06"
         }
       ],
       "name": "SwissLipids",
@@ -16899,6 +17354,10 @@
         {
           "retrieved": "2024-10-16",
           "version": "2024-09-17"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-03-28"
         }
       ],
       "vtype": "date"
@@ -16997,6 +17456,10 @@
         {
           "retrieved": "2024-12-29",
           "version": "2024-12-20"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-18"
         }
       ],
       "vtype": "date"
@@ -17327,6 +17790,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-01-15"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-09"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -17377,6 +17844,10 @@
         {
           "retrieved": "2024-11-05",
           "version": "2024AB"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025AA"
         }
       ],
       "name": "UMLS",
@@ -17592,6 +18063,12 @@
           "version": "2025_01",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_01/",
           "date": "2025-01-01"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025_02",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_02/",
+          "date": "2025-02-01"
         }
       ],
       "vtype": "month"
@@ -17939,6 +18416,14 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-25"
+        },
+        {
+          "retrieved": "2025-04-20",
+          "version": "2025-04-15"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-22"
         }
       ],
       "vtype": "date"
@@ -18290,6 +18775,12 @@
           "version": "20250310",
           "homepage": "http://data.wikipathways.org/20250310/",
           "date": "2025-03-10"
+        },
+        {
+          "retrieved": "2025-04-11",
+          "version": "20250410",
+          "homepage": "http://data.wikipathways.org/20250410/",
+          "date": "2025-04-10"
         }
       ],
       "vtype": "date"
@@ -22065,6 +22556,94 @@
         {
           "retrieved": "2025-04-10",
           "version": "2025-04-08"
+        },
+        {
+          "retrieved": "2025-04-11",
+          "version": "2025-04-09"
+        },
+        {
+          "retrieved": "2025-04-12",
+          "version": "2025-04-10"
+        },
+        {
+          "retrieved": "2025-04-15",
+          "version": "2025-04-13"
+        },
+        {
+          "retrieved": "2025-04-16",
+          "version": "2025-04-14"
+        },
+        {
+          "retrieved": "2025-04-17",
+          "version": "2025-04-15"
+        },
+        {
+          "retrieved": "2025-04-18",
+          "version": "2025-04-16"
+        },
+        {
+          "retrieved": "2025-04-19",
+          "version": "2025-04-17"
+        },
+        {
+          "retrieved": "2025-04-21",
+          "version": "2025-04-19"
+        },
+        {
+          "retrieved": "2025-04-22",
+          "version": "2025-04-20"
+        },
+        {
+          "retrieved": "2025-04-23",
+          "version": "2025-04-21"
+        },
+        {
+          "retrieved": "2025-04-24",
+          "version": "2025-04-22"
+        },
+        {
+          "retrieved": "2025-04-25",
+          "version": "2025-04-23"
+        },
+        {
+          "retrieved": "2025-04-26",
+          "version": "2025-04-24"
+        },
+        {
+          "retrieved": "2025-04-27",
+          "version": "2025-04-25"
+        },
+        {
+          "retrieved": "2025-04-28",
+          "version": "2025-04-26"
+        },
+        {
+          "retrieved": "2025-04-29",
+          "version": "2025-04-27"
+        },
+        {
+          "retrieved": "2025-04-30",
+          "version": "2025-04-28"
+        },
+        {
+          "retrieved": "2025-05-01",
+          "version": "2025-04-29"
+        },
+        {
+          "retrieved": "2025-05-02",
+          "version": "2025-04-30"
+        },
+        {
+          "retrieved": "2025-05-04",
+          "version": "2025-05-02"
+        },
+        {
+          "retrieved": "2025-05-05",
+          "version": "2025-05-03"
+        },
+        {
+          "retrieved": "2025-05-06",
+          "version": "2025-05-04"
         }
       ],
       "name": "Zebrafish Information Network",

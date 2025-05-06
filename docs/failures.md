@@ -1,19 +1,18 @@
 # Summary of Errors
 
-- **DisGeNet**
-  `failed to resolve DisGeNet`
+- **DisGeNet** `failed to resolve DisGeNet`
 - **Pathway Commons**
   `issue parsing Pathway Commons: could not find an element matching args=({'class': 'boost'},) and kwargs={}`
-- **DrugBank**
-  `failed to resolve DrugBank`
+- **DrugBank** `failed to resolve DrugBank`
+- **FlyBase** `issue parsing FlyBase: max() iterable argument is empty`
+- **Genome Taxonomy Database**
+  `issue parsing Genome Taxonomy Database: Issue in GTDBGetter with date  and fmt %b %d, %Y`
 - **International Classification of Diseases, 10th Revision**
   `failed to resolve International Classification of Diseases, 10th Revision`
 - **International Classification of Diseases, 11th Revision**
   `failed to resolve International Classification of Diseases, 11th Revision`
 - **International Classification of Functioning, Disability and Health**
   `failed to resolve International Classification of Functioning, Disability and Health`
-- **NPASS**
-  `failed to resolve NPASS`
 
 ## DisGeNet
 
@@ -24,13 +23,13 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/models.py", line 974, in json
     return complexjson.loads(self.text, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/json/__init__.py", line 346, in loads
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/json/__init__.py", line 346, in loads
     return _default_decoder.decode(s)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/json/decoder.py", line 338, in decode
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/json/decoder.py", line 338, in decode
     obj, end = self.raw_decode(s, idx=_w(s, 0).end())
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/json/decoder.py", line 356, in raw_decode
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/json/decoder.py", line 356, in raw_decode
     raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 
@@ -156,6 +155,79 @@ requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://go.d
 
 ```
 
+## FlyBase
+
+Using class: `FlybaseGetter`
+
+```python-traceback
+Traceback (most recent call last):
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 246, in _iter_versions
+    yv = resolve(cls.name)
+         ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 173, in resolve
+    return _resolve_helper_cached(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
+    return _calc_entry(core, key, func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
+    func_res = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 180, in _resolve_helper_cached
+    return _resolve_helper(name)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 186, in _resolve_helper
+    return getter.resolve()
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 224, in resolve
+    version=cls.version,
+            ^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 102, in version
+    if isinstance(cls._cache_prop, str):
+                  ^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
+    cls._cache = cls().get()
+                 ^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/flybase.py", line 33, in get
+    latest_version = max(releases)
+                     ^^^^^^^^^^^^^
+ValueError: max() iterable argument is empty
+
+```
+
+## Genome Taxonomy Database
+
+Using class: `GTDBGetter`
+
+```python-traceback
+Traceback (most recent call last):
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 246, in _iter_versions
+    yv = resolve(cls.name)
+         ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 173, in resolve
+    return _resolve_helper_cached(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
+    return _calc_entry(core, key, func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
+    func_res = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 180, in _resolve_helper_cached
+    return _resolve_helper(name)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 186, in _resolve_helper
+    return getter.resolve()
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 228, in resolve
+    date=cls.date,
+         ^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 129, in date
+    raise ValueError(
+ValueError: Issue in GTDBGetter with date  and fmt %b %d, %Y
+
+```
+
 ## International Classification of Diseases, 10th Revision
 
 Using class: `ICD10Getter`
@@ -172,18 +244,18 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
     ssl_sock = ssl_wrap_socket(
                ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 460, in ssl_wrap_socket
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
     ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 504, in _ssl_wrap_socket_impl
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
     return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 455, in wrap_socket
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 455, in wrap_socket
     return self.sslsocket_class._create(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1041, in _create
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1041, in _create
     self.do_handshake()
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1319, in do_handshake
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1319, in do_handshake
     self._sslobj.do_handshake()
 ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 
@@ -278,18 +350,18 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
     ssl_sock = ssl_wrap_socket(
                ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 460, in ssl_wrap_socket
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
     ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 504, in _ssl_wrap_socket_impl
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
     return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 455, in wrap_socket
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 455, in wrap_socket
     return self.sslsocket_class._create(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1041, in _create
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1041, in _create
     self.do_handshake()
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1319, in do_handshake
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1319, in do_handshake
     self._sslobj.do_handshake()
 ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 
@@ -384,18 +456,18 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
     ssl_sock = ssl_wrap_socket(
                ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 460, in ssl_wrap_socket
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 480, in ssl_wrap_socket
     ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 504, in _ssl_wrap_socket_impl
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 524, in _ssl_wrap_socket_impl
     return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 455, in wrap_socket
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 455, in wrap_socket
     return self.sslsocket_class._create(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1041, in _create
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1041, in _create
     self.do_handshake()
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1319, in do_handshake
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1319, in do_handshake
     self._sslobj.do_handshake()
 ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 
@@ -471,119 +543,5 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 698, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='icd.who.int', port=443): Max retries exceeded with url: /browse/latest-release/icf/en (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
-
-```
-
-## NPASS
-
-Using class: `NPASSGetter`
-
-```python-traceback
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
-    httplib_response = super().getresponse()
-                       ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/http/client.py", line 1430, in getresponse
-    response.begin()
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/http/client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/http/client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/socket.py", line 720, in readinto
-    return self._sock.recv_into(b)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1251, in recv_into
-    return self.read(nbytes, buffer)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/ssl.py", line 1103, in read
-    return self._sslobj.read(len, buffer)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TimeoutError: The read operation timed out
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
-    raise reraise(type(error), error, _stacktrace)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
-    raise value
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
-    response = self._make_request(
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
-    raise ReadTimeoutError(
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='bidd.group', port=443): Read timed out. (read timeout=15)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 246, in _iter_versions
-    yv = resolve(cls.name)
-         ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 173, in resolve
-    return _resolve_helper_cached(name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 258, in func_wrapper
-    return _calc_entry(core, key, func, args, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 61, in _calc_entry
-    func_res = func(*args, **kwds)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 180, in _resolve_helper_cached
-    return _resolve_helper(name)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 186, in _resolve_helper
-    return getter.resolve()
-           ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 224, in resolve
-    version=cls.version,
-            ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 102, in version
-    if isinstance(cls._cache_prop, str):
-                  ^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
-    cls._cache = cls().get()
-                 ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/npass.py", line 21, in get
-    soup = get_soup(URL)
-           ^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 62, in get_soup
-    res = requests.get(url, verify=verify, timeout=timeout or 15, headers=headers)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 724, in send
-    history = [resp for resp in gen]
-                                ^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 265, in resolve_redirects
-    resp = self.send(
-           ^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 713, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='bidd.group', port=443): Read timed out. (read timeout=15)
 
 ```

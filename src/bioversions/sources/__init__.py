@@ -3,13 +3,13 @@
 from __future__ import annotations
 
 import ftplib
-import logging
 import traceback
 from collections.abc import Iterable, Mapping
 from functools import lru_cache
 from typing import Literal, NamedTuple, overload
 
 from tqdm import tqdm
+from tqdm.contrib.logging import logging_redirect_tqdm
 
 from .antibodyregistry import AntibodyRegistryGetter
 from .bigg import BiGGGetter
@@ -71,15 +71,23 @@ from .umls import UMLSGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from .zfin import ZfinGetter
-from ..utils import Bioversion, Getter, norm, refresh_daily
+from ..utils import Getter, VersionResult, norm, refresh_daily
 
 __all__ = [
+    "VersionFailure",
+    "clear_cache",
     "get_rows",
     "get_version",
+    "iter_versions",
     "resolve",
 ]
 
-logger = logging.getLogger(__name__)
+#: These are broken beyond fixing at the moment
+SKIPPED = [
+    DrugBankGetter,
+    PathwayCommonsGetter,
+    DisGeNetGetter,
+]
 
 
 @lru_cache(maxsize=1)
@@ -90,7 +98,6 @@ def get_getters() -> list[type[Getter]]:
         BioGRIDGetter,
         ChEMBLGetter,
         ComplexPortalGetter,
-        DrugBankGetter,
         DrugCentralGetter,
         ExPASyGetter,
         IntActGetter,
@@ -109,7 +116,6 @@ def get_getters() -> list[type[Getter]]:
         RheaGetter,
         StringDBGetter,
         HomoloGeneGetter,
-        DisGeNetGetter,
         MeshGetter,
         DGIGetter,
         FlybaseGetter,
@@ -131,7 +137,6 @@ def get_getters() -> list[type[Getter]]:
         SwissLipidGetter,
         ITISGetter,
         DepMapGetter,
-        PathwayCommonsGetter,
         UMLSGetter,
         HGNCGetter,
         RGDGetter,
@@ -167,7 +172,7 @@ def get_getter_dict() -> Mapping[str, type[Getter]]:
     return rv
 
 
-def resolve(name: str, use_cache: bool = True) -> Bioversion:
+def resolve(name: str, use_cache: bool = True) -> VersionResult:
     """Resolve the database name to a :class:`Bioversion` instance."""
     if use_cache:
         return _resolve_helper_cached(name)
@@ -176,11 +181,16 @@ def resolve(name: str, use_cache: bool = True) -> Bioversion:
 
 
 @refresh_daily
-def _resolve_helper_cached(name: str) -> Bioversion:
+def _resolve_helper_cached(name: str) -> VersionResult:
     return _resolve_helper(name)
 
 
-def _resolve_helper(name: str) -> Bioversion:
+def clear_cache() -> None:
+    """Clear the cache."""
+    _resolve_helper_cached.clear_cache()
+
+
+def _resolve_helper(name: str) -> VersionResult:
     norm_name = norm(name)
     getter: type[Getter] = get_getter_dict()[norm_name]
     return getter.resolve()
@@ -217,16 +227,16 @@ def get_version(name: str, *, strict: bool = True) -> str | None:
         return rv
 
 
-def get_rows(use_tqdm: bool | None = False) -> list[Bioversion]:
+def get_rows(use_tqdm: bool | None = False) -> list[VersionResult]:
     """Get the rows, refreshing once per day."""
     return [
         bioversion
-        for bioversion in _iter_versions(use_tqdm=use_tqdm)
-        if isinstance(bioversion, Bioversion)
+        for bioversion in iter_versions(use_tqdm=use_tqdm)
+        if isinstance(bioversion, VersionResult)
     ]
 
 
-class FailureTuple(NamedTuple):
+class VersionFailure(NamedTuple):
     """Holds information about failures."""
 
     name: str
@@ -235,22 +245,23 @@ class FailureTuple(NamedTuple):
     trace: str
 
 
-def _iter_versions(
+def iter_versions(
     use_tqdm: bool | None = False,
-) -> Iterable[Bioversion | FailureTuple]:
-    it = tqdm(get_getters(), disable=not use_tqdm)
-
-    for cls in it:
-        it.set_postfix(name=cls.name)
-        try:
-            yv = resolve(cls.name)
-        except (OSError, AttributeError, ftplib.error_perm):
-            msg = f"failed to resolve {cls.name}"
-            tqdm.write(msg)
-            yield FailureTuple(cls.name, cls.__name__, msg, traceback.format_exc())
-        except (ValueError, KeyError) as e:
-            msg = f"issue parsing {cls.name}: {e}"
-            tqdm.write(msg)
-            yield FailureTuple(cls.name, cls.__name__, msg, traceback.format_exc())
-        else:
-            yield yv
+) -> Iterable[VersionResult | VersionFailure]:
+    """Iterate over versions, without caching."""
+    with logging_redirect_tqdm():
+        it = tqdm(get_getters(), disable=not use_tqdm, desc="Getting versions", unit="resource")
+        for cls in it:
+            it.set_postfix(name=cls.name)
+            try:
+                yv = resolve(cls.name)
+            except (OSError, AttributeError, ftplib.error_perm):
+                msg = f"[{cls.bioregistry_id or cls.name}] failed to resolve"
+                tqdm.write(msg)
+                yield VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
+            except (ValueError, KeyError) as e:
+                msg = f"[{cls.bioregistry_id or cls.name}] issue parsing: {e}"
+                tqdm.write(msg)
+                yield VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
+            else:
+                yield yv

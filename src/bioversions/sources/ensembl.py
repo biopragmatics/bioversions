@@ -6,7 +6,7 @@ __all__ = [
     "EnsemblGetter",
 ]
 
-URL = "https://useast.ensembl.org/index.html"
+URL = "https://www.ensembl.org/index.html"
 
 
 class EnsemblGetter(Getter):
