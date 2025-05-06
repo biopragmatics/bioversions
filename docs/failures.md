@@ -1,13 +1,10 @@
 # Summary of Errors
 
-- **DisGeNet**
-  `failed to resolve DisGeNet`
+- **DisGeNet** `failed to resolve DisGeNet`
 - **Pathway Commons**
   `issue parsing Pathway Commons: could not find an element matching args=({'class': 'boost'},) and kwargs={}`
-- **DrugBank**
-  `failed to resolve DrugBank`
-- **FlyBase**
-  `issue parsing FlyBase: max() iterable argument is empty`
+- **DrugBank** `failed to resolve DrugBank`
+- **FlyBase** `issue parsing FlyBase: max() iterable argument is empty`
 - **Genome Taxonomy Database**
   `issue parsing Genome Taxonomy Database: Issue in GTDBGetter with date  and fmt %b %d, %Y`
 - **International Classification of Diseases, 10th Revision**
