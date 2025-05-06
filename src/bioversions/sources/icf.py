@@ -1,6 +1,9 @@
 """A getter for ICF."""
 
+import warnings
+
 import requests
+from urllib3.exceptions import InsecureRequestWarning
 
 from bioversions.utils import Getter, VersionType
 
@@ -21,7 +24,9 @@ class ICFGetter(Getter):
 
     def get(self) -> str:
         """Get the latest ICF version number."""
-        response = requests.get(URL, allow_redirects=True, timeout=15)
+        with warnings.catch_warnings():
+            warnings.simplefilter(action="ignore", category=InsecureRequestWarning)
+            response = requests.get(URL, allow_redirects=True, timeout=15, verify=False)  # noqa:S501
         final_url = response.url
         return final_url[len("https://icd.who.int/browse/") :].split("/")[0]
 
