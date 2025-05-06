@@ -8,7 +8,7 @@ __all__ = [
     "GTDBGetter",
 ]
 
-URL = "https://data.gtdb.ecogenomic.org/releases/latest/VERSION.txt"
+URL = "https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/VERSION.txt"
 
 
 class GTDBGetter(Getter):
@@ -24,10 +24,15 @@ class GTDBGetter(Getter):
         """Get the latest GTDB version number from VERSION.txt."""
         res = requests.get(URL, timeout=15)
         lines = res.text.strip().split("\n")
+
         # First line contains version like "v220"
-        version = lines[0].strip().lstrip("v")
+        version_line = next(line for line in lines if line.startswith("v"))
+        version = version_line.strip().lstrip("v")
+
         # Third line contains date like "Released Apr 24, 2024"
-        date = lines[2].strip().removeprefix("Released ")
+        date_line = next(line for line in lines if line.startswith("Released "))
+        date = date_line.strip().removeprefix("Released ")
+
         return {"version": version, "date": date}
 
 
