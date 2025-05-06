@@ -33,7 +33,7 @@ class FlybaseGetter(Getter):
             if (match := PATTERN.search(anchor_tag.text))
         ]
         if not releases:
-            raise ValueError('flybase hit anti-scraping measurements')
+            raise ValueError("flybase hit anti-scraping measurements")
         latest_version = max(releases)
         return latest_version
 

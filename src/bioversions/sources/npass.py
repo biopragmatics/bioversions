@@ -29,7 +29,7 @@ def _dynamic_get() -> str:
     ul = find(footer, name="ul")
     for li in ul.find_all(name="li"):
         if li.text.startswith("Version:"):
-            return li.text[len("Version: "):]
+            return li.text[len("Version: ") :]
     raise ValueError(f"could not parse NPASS version from {URL}")
 
 
