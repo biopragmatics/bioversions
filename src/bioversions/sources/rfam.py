@@ -1,6 +1,8 @@
 """A getter for Rfam."""
 
-from bioversions.utils import Getter, VersionType, _get_ftp_version
+import requests
+
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "RfamGetter",
@@ -12,12 +14,17 @@ class RfamGetter(Getter):
 
     bioregistry_id = "rfam"
     name = "Rfam"
-    homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/{version}/"
+    homepage_fmt = "https://ftp.ebi.ac.uk/pub/databases/Rfam/{version}/"
     version_type = VersionType.semver_minor
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest Rfam version number."""
-        return _get_ftp_version("ftp.ebi.ac.uk", "pub/databases/Rfam/")
+        res = requests.get("https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/README", timeout=15)
+        for line in res.iter_lines():
+            line = line.decode("utf8").strip()
+            if line.startswith("Release "):
+                return line[len("Release ") :]
+        raise ValueError
 
 
 if __name__ == "__main__":
