@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-05-06'
-  revision: 990
+  date: '2025-05-07'
+  revision: 991
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -305,6 +305,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-05-06'
     version: '2025-05-05'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-05-07'
+    version: '2025-05-06'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2922,6 +2925,9 @@ database:
   - homepage: http://ftp.flybase.net/releases/FB2025_01/
     retrieved: '2025-02-25'
     version: '2025_01'
+  - homepage: https://s3ftp.flybase.org/releases/FB2025_02/
+    retrieved: '2025-05-07'
+    version: '2025_02'
   vtype: month
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -3216,6 +3222,10 @@ database:
     homepage: https://gtdb.ecogenomic.org/
     retrieved: '2024-11-20'
     version: '220'
+  - date: '2025-04-16'
+    homepage: https://gtdb.ecogenomic.org/
+    retrieved: '2025-05-07'
+    version: '226'
   vtype: sequential
 - name: Genomic Epidemiology Ontology
   prefix: genepio
@@ -3468,6 +3478,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-04-01.json
     retrieved: '2025-04-03'
     version: '2025-04-01'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-05-06.json
+    retrieved: '2025-05-07'
+    version: '2025-05-06'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -5843,6 +5856,8 @@ database:
     version: '2025-05-01'
   - retrieved: '2025-05-04'
     version: '2025-05-02'
+  - retrieved: '2025-05-07'
+    version: '2025-05-05'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9298,6 +9313,8 @@ database:
     version: '2025-05-05'
   - retrieved: '2025-05-06'
     version: '2025-05-06'
+  - retrieved: '2025-05-07'
+    version: '2025-05-07'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12305,6 +12322,8 @@ database:
     version: '2025-05-03'
   - retrieved: '2025-05-06'
     version: '2025-05-04'
+  - retrieved: '2025-05-07'
+    version: '2025-05-05'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

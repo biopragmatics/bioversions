@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 990,
-    "date": "2025-05-06",
+    "revision": 991,
+    "date": "2025-05-07",
     "author": "runner"
   },
   "database": [
@@ -527,6 +527,11 @@
         {
           "retrieved": "2025-05-06",
           "version": "2025-05-05",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-06",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -5345,6 +5350,11 @@
           "retrieved": "2025-02-25",
           "version": "2025_01",
           "homepage": "http://ftp.flybase.net/releases/FB2025_01/"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025_02",
+          "homepage": "https://s3ftp.flybase.org/releases/FB2025_02/"
         }
       ],
       "name": "FlyBase",
@@ -5852,6 +5862,12 @@
           "version": "220",
           "homepage": "https://gtdb.ecogenomic.org/",
           "date": "2024-04-24"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "226",
+          "homepage": "https://gtdb.ecogenomic.org/",
+          "date": "2025-04-16"
         }
       ],
       "name": "Genome Taxonomy Database",
@@ -6296,6 +6312,11 @@
           "retrieved": "2025-04-03",
           "version": "2025-04-01",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-04-01.json"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-06",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-05-06.json"
         }
       ],
       "name": "HGNC",
@@ -10547,6 +10568,10 @@
         {
           "retrieved": "2025-05-04",
           "version": "2025-05-02"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-05"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17096,6 +17121,10 @@
         {
           "retrieved": "2025-05-06",
           "version": "2025-05-06"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-07"
         }
       ],
       "name": "SwissLipids",
@@ -22644,6 +22673,10 @@
         {
           "retrieved": "2025-05-06",
           "version": "2025-05-04"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-05"
         }
       ],
       "name": "Zebrafish Information Network",
