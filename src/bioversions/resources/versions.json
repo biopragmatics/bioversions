@@ -1,8 +1,8 @@
 {
   "annotations": {
-    "revision": 991,
+    "revision": 992,
     "date": "2025-05-07",
-    "author": "runner"
+    "author": "cthoyt"
   },
   "database": [
     {
@@ -532,6 +532,11 @@
         {
           "retrieved": "2025-05-07",
           "version": "2025-05-06",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-07",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4141,6 +4146,12 @@
           "version": "113",
           "homepage": "https://www.ensembl.org",
           "date": "2024-10-01"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "114",
+          "homepage": "https://www.ensembl.org",
+          "date": "2025-05-01"
         }
       ],
       "name": "Ensembl",
@@ -10572,6 +10583,10 @@
         {
           "retrieved": "2025-05-07",
           "version": "2025-05-05"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-06"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -22677,6 +22692,10 @@
         {
           "retrieved": "2025-05-07",
           "version": "2025-05-05"
+        },
+        {
+          "retrieved": "2025-05-07",
+          "version": "2025-05-06"
         }
       ],
       "name": "Zebrafish Information Network",
