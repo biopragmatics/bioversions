@@ -19,7 +19,7 @@ jobs:
           pip install tox tox-uv
       - name: Create local changes
         run: |
-          tox -e update
+          tox -e update,format-markdown,lint-markdown
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"

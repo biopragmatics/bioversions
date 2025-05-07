@@ -107,6 +107,8 @@ def _update(force: bool):  # noqa:C901
             text += f"## {t.name}\n\nUsing class: `{t.clstype}`\n\n"
             text += f"```python-traceback\n{t.trace}\n```\n\n"
         FAILURES_PATH.write_text(text.rstrip() + "\n")
+    else:
+        FAILURES_PATH.write_text("# No Errors :)\n")
 
 
 def _log_update(bv) -> None:
