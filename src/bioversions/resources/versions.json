@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 998,
-    "date": "2025-05-13",
+    "revision": 999,
+    "date": "2025-05-14",
     "author": "runner"
   },
   "database": [
@@ -552,6 +552,11 @@
         {
           "retrieved": "2025-05-13",
           "version": "2025-05-12",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-05-14",
+          "version": "2025-05-13",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -10618,6 +10623,10 @@
         {
           "retrieved": "2025-05-13",
           "version": "2025-05-11"
+        },
+        {
+          "retrieved": "2025-05-14",
+          "version": "2025-05-12"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17199,6 +17208,10 @@
         {
           "retrieved": "2025-05-13",
           "version": "2025-05-13"
+        },
+        {
+          "retrieved": "2025-05-14",
+          "version": "2025-05-14"
         }
       ],
       "name": "SwissLipids",
