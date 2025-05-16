@@ -1,10 +1,10 @@
 # Summary of Errors
 
-- **Antibody Registry** `[antibodyregistry] failed to resolve`
+- **Zebrafish Information Network** `[zfin] failed to resolve`
 
-## Antibody Registry
+## Zebrafish Information Network
 
-Using class: `AntibodyRegistryGetter`
+Using class: `ZfinGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -54,7 +54,7 @@ Traceback (most recent call last):
     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
     raise ReadTimeoutError(
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.antibodyregistry.org', port=443): Read timed out. (read timeout=3)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='zfin.org', port=443): Read timed out. (read timeout=15)
 
 During handling of the above exception, another exception occurred:
 
@@ -86,9 +86,12 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/antibodyregistry.py", line 24, in get
-    res = requests.get(URL, timeout=3)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/zfin.py", line 23, in get
+    soup = get_soup(URL)
+           ^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 62, in get_soup
+    res = requests.get(url, verify=verify, timeout=timeout or 15, headers=headers)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/api.py", line 73, in get
     return request("get", url, params=params, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -103,6 +106,6 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 713, in send
     raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.antibodyregistry.org', port=443): Read timed out. (read timeout=3)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='zfin.org', port=443): Read timed out. (read timeout=15)
 
 ```
