@@ -1,10 +1,10 @@
 # Summary of Errors
 
-- **PathBank** `[pathbank] failed to resolve`
+- **Zebrafish Information Network** `[zfin] failed to resolve`
 
-## PathBank
+## Zebrafish Information Network
 
-Using class: `PathBankGetter`
+Using class: `ZfinGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -54,7 +54,7 @@ Traceback (most recent call last):
     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
     raise ReadTimeoutError(
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='pathbank.org', port=443): Read timed out. (read timeout=15)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='zfin.org', port=443): Read timed out. (read timeout=15)
 
 During handling of the above exception, another exception occurred:
 
@@ -86,7 +86,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/pathbank.py", line 21, in get
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/zfin.py", line 23, in get
     soup = get_soup(URL)
            ^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 62, in get_soup
@@ -106,6 +106,6 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 713, in send
     raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='pathbank.org', port=443): Read timed out. (read timeout=15)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='zfin.org', port=443): Read timed out. (read timeout=15)
 
 ```
