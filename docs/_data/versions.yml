@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-05-31'
-  revision: 1016
+  date: '2025-06-01'
+  revision: 1017
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1324,6 +1324,8 @@ database:
     version: '2025-04-01'
   - retrieved: '2025-05-01'
     version: '2025-05-01'
+  - retrieved: '2025-06-01'
+    version: '2025-06-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -5961,6 +5963,8 @@ database:
     version: '2025-05-28'
   - retrieved: '2025-05-31'
     version: '2025-05-29'
+  - retrieved: '2025-06-01'
+    version: '2025-05-30'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7263,6 +7267,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-05-01
     retrieved: '2025-05-01'
     version: '2025-05-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-06-01
+    retrieved: '2025-06-01'
+    version: '2025-06-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -9468,6 +9475,8 @@ database:
     version: '2025-05-30'
   - retrieved: '2025-05-31'
     version: '2025-05-31'
+  - retrieved: '2025-06-01'
+    version: '2025-06-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12521,6 +12530,8 @@ database:
     version: '2025-05-28'
   - retrieved: '2025-05-31'
     version: '2025-05-29'
+  - retrieved: '2025-06-01'
+    version: '2025-05-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
