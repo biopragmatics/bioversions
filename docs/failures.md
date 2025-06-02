@@ -38,7 +38,7 @@ Traceback (most recent call last):
                 ^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 207, in _new_conn
     raise ConnectTimeoutError(
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f1d32d21df0>, 'Connection to bigg.ucsd.edu timed out. (connect timeout=15)')
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f48c6c67620>, 'Connection to bigg.ucsd.edu timed out. (connect timeout=15)')
 
 The above exception was the direct cause of the following exception:
 
@@ -52,7 +52,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='bigg.ucsd.edu', port=80): Max retries exceeded with url: /api/v2/database_version (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f1d32d21df0>, 'Connection to bigg.ucsd.edu timed out. (connect timeout=15)'))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='bigg.ucsd.edu', port=80): Max retries exceeded with url: /api/v2/database_version (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f48c6c67620>, 'Connection to bigg.ucsd.edu timed out. (connect timeout=15)'))
 
 During handling of the above exception, another exception occurred:
 
@@ -101,6 +101,6 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 688, in send
     raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='bigg.ucsd.edu', port=80): Max retries exceeded with url: /api/v2/database_version (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f1d32d21df0>, 'Connection to bigg.ucsd.edu timed out. (connect timeout=15)'))
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='bigg.ucsd.edu', port=80): Max retries exceeded with url: /api/v2/database_version (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f48c6c67620>, 'Connection to bigg.ucsd.edu timed out. (connect timeout=15)'))
 
 ```
