@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1022,
-    "date": "2025-06-06",
+    "revision": 1023,
+    "date": "2025-06-07",
     "author": "runner"
   },
   "database": [
@@ -642,6 +642,11 @@
         {
           "retrieved": "2025-06-06",
           "version": "2025-06-05",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-06-07",
+          "version": "2025-06-06",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -5971,6 +5976,12 @@
           "version": "2025-03-16",
           "homepage": "http://archive.geneontology.org/full/2025-03-16/",
           "date": "2025-03-16"
+        },
+        {
+          "retrieved": "2025-06-07",
+          "version": "2025-06-01",
+          "homepage": "http://archive.geneontology.org/full/2025-06-01/",
+          "date": "2025-06-01"
         }
       ],
       "vtype": "date"
@@ -9189,6 +9200,11 @@
           "retrieved": "2025-05-30",
           "version": "25.05d",
           "date": "2025-05-27"
+        },
+        {
+          "retrieved": "2025-06-07",
+          "version": "25.06a",
+          "date": "2025-06-02"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -10805,6 +10821,10 @@
         {
           "retrieved": "2025-06-06",
           "version": "2025-06-04"
+        },
+        {
+          "retrieved": "2025-06-07",
+          "version": "2025-06-05"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17502,6 +17522,10 @@
         {
           "retrieved": "2025-06-06",
           "version": "2025-06-06"
+        },
+        {
+          "retrieved": "2025-06-07",
+          "version": "2025-06-07"
         }
       ],
       "name": "SwissLipids",
@@ -23160,6 +23184,10 @@
         {
           "retrieved": "2025-06-06",
           "version": "2025-06-04"
+        },
+        {
+          "retrieved": "2025-06-07",
+          "version": "2025-06-05"
         }
       ],
       "name": "Zebrafish Information Network",
