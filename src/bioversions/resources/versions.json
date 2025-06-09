@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1024,
-    "date": "2025-06-08",
+    "revision": 1025,
+    "date": "2025-06-09",
     "author": "runner"
   },
   "database": [
@@ -2275,6 +2275,10 @@
         {
           "retrieved": "2022-05-10",
           "version": "2022-04-19"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-01-22"
         }
       ],
       "vtype": "date"
@@ -2590,6 +2594,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "2.243"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2.244"
         }
       ],
       "vtype": "date"
@@ -3759,6 +3767,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-26"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-29"
         }
       ],
       "name": "Drosophila development",
@@ -3850,6 +3862,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-27"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-29"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -3957,6 +3973,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-27"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-30"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -4444,6 +4464,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-07-19"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-04-30"
         }
       ],
       "name": "Evidence and Conclusion Ontology",
@@ -4821,6 +4845,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "4.200"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "4.202"
         }
       ],
       "vtype": "date"
@@ -5012,6 +5040,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "3.77.0"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "3.78.0"
         }
       ],
       "vtype": "semver"
@@ -5063,6 +5095,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-23"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-06-01"
         }
       ],
       "name": "FAIRsharing Subject Ontology",
@@ -5360,6 +5396,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "2025-04-17"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-09"
         }
       ],
       "vtype": "date"
@@ -5599,6 +5639,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-27"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-30"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -7836,6 +7880,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "4.1.191"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "4.1.193"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -7983,6 +8031,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "2.148"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2.151"
         }
       ],
       "vtype": "date"
@@ -8313,6 +8365,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "2025-04-22"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-23"
         }
       ],
       "vtype": "date"
@@ -8761,6 +8817,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-06-03"
         }
       ],
       "vtype": "date"
@@ -8981,6 +9041,11 @@
           "retrieved": "2024-08-13",
           "version": "2024.1",
           "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2024.1"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025.1",
+          "homepage": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1"
         }
       ],
       "vtype": "year_minor"
@@ -10978,6 +11043,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-06"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-01"
         }
       ],
       "vtype": "date"
@@ -12045,6 +12114,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "7.91"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "7.93"
         }
       ],
       "name": "Pathway ontology",
@@ -12236,6 +12309,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-01"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-14"
         }
       ],
       "prefix": "pato",
@@ -12495,6 +12572,10 @@
         {
           "retrieved": "2023-09-28",
           "version": "2023-07-17"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-20"
         }
       ],
       "vtype": "date"
@@ -13712,6 +13793,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "6.247"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "6.249"
         }
       ],
       "vtype": "date"
@@ -17539,6 +17624,10 @@
         {
           "retrieved": "2025-06-08",
           "version": "2025-06-08"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-06-09"
         }
       ],
       "name": "SwissLipids",
@@ -17801,6 +17890,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-03-28"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-26"
         }
       ],
       "vtype": "date"
@@ -17920,6 +18013,10 @@
         {
           "retrieved": "2024-09-01",
           "version": "2024-08-22"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-15"
         }
       ],
       "name": "The Echinoderm Anatomy and Development Ontology",
@@ -18237,6 +18334,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-04-09"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-28"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -18661,6 +18762,10 @@
         {
           "retrieved": "2025-03-20",
           "version": "2025-02-26"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-24"
         }
       ],
       "vtype": "semver"
@@ -18867,6 +18972,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "2025-04-22"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-05-05"
         }
       ],
       "vtype": "date"
@@ -23205,6 +23314,10 @@
         {
           "retrieved": "2025-06-08",
           "version": "2025-06-06"
+        },
+        {
+          "retrieved": "2025-06-09",
+          "version": "2025-06-07"
         }
       ],
       "name": "Zebrafish Information Network",
