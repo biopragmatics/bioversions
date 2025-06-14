@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1029,
-    "date": "2025-06-13",
+    "revision": 1030,
+    "date": "2025-06-14",
     "author": "runner"
   },
   "database": [
@@ -672,6 +672,11 @@
         {
           "retrieved": "2025-06-13",
           "version": "2025-06-12",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-06-14",
+          "version": "2025-06-13",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8647,6 +8652,12 @@
           "version": "2025-05-01",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-05-01",
           "date": "2025-05-01"
+        },
+        {
+          "retrieved": "2025-06-14",
+          "version": "2025-06-12",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-06-12",
+          "date": "2025-06-12"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -10940,6 +10951,10 @@
         {
           "retrieved": "2025-06-13",
           "version": "2025-06-11"
+        },
+        {
+          "retrieved": "2025-06-14",
+          "version": "2025-06-12"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17689,6 +17704,10 @@
         {
           "retrieved": "2025-06-13",
           "version": "2025-06-13"
+        },
+        {
+          "retrieved": "2025-06-14",
+          "version": "2025-06-14"
         }
       ],
       "name": "SwissLipids",
@@ -23401,6 +23420,10 @@
         {
           "retrieved": "2025-06-13",
           "version": "2025-06-11"
+        },
+        {
+          "retrieved": "2025-06-14",
+          "version": "2025-06-12"
         }
       ],
       "name": "Zebrafish Information Network",
