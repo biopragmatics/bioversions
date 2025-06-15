@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-06-14'
-  revision: 1030
+  date: '2025-06-15'
+  revision: 1031
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1450,6 +1450,8 @@ database:
     version: '2.243'
   - retrieved: '2025-06-09'
     version: '2.244'
+  - retrieved: '2025-06-15'
+    version: '2.245'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1631,6 +1633,8 @@ database:
     version: '2024-10-21'
   - retrieved: '2024-11-17'
     version: '2024-11-12'
+  - retrieved: '2025-06-15'
+    version: '2025-06-09'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -2689,6 +2693,8 @@ database:
     version: '4.200'
   - retrieved: '2025-06-09'
     version: '4.202'
+  - retrieved: '2025-06-15'
+    version: '4.203'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4454,6 +4460,8 @@ database:
     version: '2.148'
   - retrieved: '2025-06-09'
     version: '2.151'
+  - retrieved: '2025-06-15'
+    version: '2.152'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -6071,6 +6079,8 @@ database:
     version: '2025-06-11'
   - retrieved: '2025-06-14'
     version: '2025-06-12'
+  - retrieved: '2025-06-15'
+    version: '2025-06-13'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7428,6 +7438,8 @@ database:
     version: '2025-02-28'
   - retrieved: '2025-04-20'
     version: '2025-03-20'
+  - retrieved: '2025-06-15'
+    version: '2025-05-30'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -9630,6 +9642,8 @@ database:
     version: '2025-06-13'
   - retrieved: '2025-06-14'
     version: '2025-06-14'
+  - retrieved: '2025-06-15'
+    version: '2025-06-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -9768,6 +9782,8 @@ database:
     version: '2025-03-28'
   - retrieved: '2025-06-09'
     version: '2025-05-26'
+  - retrieved: '2025-06-15'
+    version: '2025-06-12'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -9856,6 +9872,8 @@ database:
     version: '2024-07-12'
   - retrieved: '2025-02-27'
     version: '2025-02-01'
+  - retrieved: '2025-06-15'
+    version: '2025-06-07'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
@@ -12723,6 +12741,8 @@ database:
     version: '2025-06-11'
   - retrieved: '2025-06-14'
     version: '2025-06-12'
+  - retrieved: '2025-06-15'
+    version: '2025-06-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

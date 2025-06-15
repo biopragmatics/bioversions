@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1030,
-    "date": "2025-06-14",
+    "revision": 1031,
+    "date": "2025-06-15",
     "author": "runner"
   },
   "database": [
@@ -2623,6 +2623,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2.244"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2.245"
         }
       ],
       "vtype": "date"
@@ -2945,6 +2949,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2024-11-12"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2025-06-09"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -4874,6 +4882,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "4.202"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "4.203"
         }
       ],
       "vtype": "date"
@@ -8064,6 +8076,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2.151"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2.152"
         }
       ],
       "vtype": "date"
@@ -10955,6 +10971,10 @@
         {
           "retrieved": "2025-06-14",
           "version": "2025-06-12"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2025-06-13"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -13411,6 +13431,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-03-20"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2025-05-30"
         }
       ],
       "vtype": "date"
@@ -17708,6 +17732,10 @@
         {
           "retrieved": "2025-06-14",
           "version": "2025-06-14"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2025-06-15"
         }
       ],
       "name": "SwissLipids",
@@ -17974,6 +18002,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-26"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2025-06-12"
         }
       ],
       "vtype": "date"
@@ -18144,6 +18176,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-01"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2025-06-07"
         }
       ],
       "name": "The Food Ontology",
@@ -23424,6 +23460,10 @@
         {
           "retrieved": "2025-06-14",
           "version": "2025-06-12"
+        },
+        {
+          "retrieved": "2025-06-15",
+          "version": "2025-06-13"
         }
       ],
       "name": "Zebrafish Information Network",
