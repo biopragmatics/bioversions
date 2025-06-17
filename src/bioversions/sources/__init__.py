@@ -66,6 +66,7 @@ from .sgd import SgdGetter
 from .signor import SignorGetter
 from .silva import SILVAGetter
 from .slm import SwissLipidGetter
+from .spdx import SPDXGetter
 from .stringdb import StringDBGetter
 from .umls import UMLSGetter
 from .uniprot import UniProtGetter
@@ -150,6 +151,7 @@ def get_getters() -> list[type[Getter]]:
         GTDBGetter,
         SILVAGetter,
         SignorGetter,
+        SPDXGetter,
     ]
     getters.extend(iter_obo_getters())
     extend_ols_getters(getters)
