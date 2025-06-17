@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1032,
-    "date": "2025-06-16",
+    "revision": 1033,
+    "date": "2025-06-17",
     "author": "runner"
   },
   "database": [
@@ -677,6 +677,11 @@
         {
           "retrieved": "2025-06-14",
           "version": "2025-06-13",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-06-17",
+          "version": "2025-06-16",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -13752,6 +13757,10 @@
         {
           "retrieved": "2025-06-10",
           "version": "2025-06-06"
+        },
+        {
+          "retrieved": "2025-06-17",
+          "version": "2025-06-13"
         }
       ],
       "name": "Rat Genome Database",
@@ -17740,6 +17749,10 @@
         {
           "retrieved": "2025-06-16",
           "version": "2025-06-16"
+        },
+        {
+          "retrieved": "2025-06-17",
+          "version": "2025-06-17"
         }
       ],
       "name": "SwissLipids",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-06-16'
-  revision: 1032
+  date: '2025-06-17'
+  revision: 1033
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -395,6 +395,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-06-14'
     version: '2025-06-13'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-06-17'
+    version: '2025-06-16'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -7600,6 +7603,8 @@ database:
     version: '2025-05-30'
   - retrieved: '2025-06-10'
     version: '2025-06-06'
+  - retrieved: '2025-06-17'
+    version: '2025-06-13'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -9646,6 +9651,8 @@ database:
     version: '2025-06-15'
   - retrieved: '2025-06-16'
     version: '2025-06-16'
+  - retrieved: '2025-06-17'
+    version: '2025-06-17'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
