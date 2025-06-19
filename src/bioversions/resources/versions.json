@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1034,
-    "date": "2025-06-18",
+    "revision": 1035,
+    "date": "2025-06-19",
     "author": "runner"
   },
   "database": [
@@ -687,6 +687,11 @@
         {
           "retrieved": "2025-06-18",
           "version": "2025-06-17",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "2025-06-18",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4709,6 +4714,10 @@
         {
           "retrieved": "2025-04-24",
           "version": "2025-04-09"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "2025-06-18"
         }
       ],
       "vtype": "date"
@@ -6414,6 +6423,12 @@
           "version": "2025.1",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2025.1.zip",
           "date": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "2025.2",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2025.2.zip",
+          "date": "2025-06-18"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -9341,6 +9356,11 @@
           "retrieved": "2025-06-11",
           "version": "25.06b",
           "date": "2025-06-09"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "25.06c",
+          "date": "2025-06-16"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -10989,6 +11009,10 @@
         {
           "retrieved": "2025-06-18",
           "version": "2025-06-16"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "2025-06-17"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14261,6 +14285,11 @@
           "retrieved": "2025-04-24",
           "version": "138",
           "date": "2025-04-09"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "139",
+          "date": "2025-06-18"
         }
       ],
       "vtype": "date"
@@ -17777,6 +17806,10 @@
         {
           "retrieved": "2025-06-18",
           "version": "2025-06-18"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "2025-06-19"
         }
       ],
       "name": "SwissLipids",
@@ -23513,6 +23546,10 @@
         {
           "retrieved": "2025-06-18",
           "version": "2025-06-16"
+        },
+        {
+          "retrieved": "2025-06-19",
+          "version": "2025-06-17"
         }
       ],
       "name": "Zebrafish Information Network",
