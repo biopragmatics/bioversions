@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-06-19'
-  revision: 1035
+  date: '2025-06-20'
+  revision: 1036
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -404,6 +404,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-06-19'
     version: '2025-06-18'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-06-20'
+    version: '2025-06-19'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4088,6 +4091,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/105.0/
     retrieved: '2025-04-25'
     version: '105.0'
+  - date: '2025-06-19'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/106.0/
+    retrieved: '2025-06-20'
+    version: '106.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -6103,6 +6110,8 @@ database:
     version: '2025-06-16'
   - retrieved: '2025-06-19'
     version: '2025-06-17'
+  - retrieved: '2025-06-20'
+    version: '2025-06-18'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9685,6 +9694,8 @@ database:
     version: '2025-06-18'
   - retrieved: '2025-06-19'
     version: '2025-06-19'
+  - retrieved: '2025-06-20'
+    version: '2025-06-20'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10219,6 +10230,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_02/
     retrieved: '2025-04-26'
     version: '2025_02'
+  - date: '2025-03-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_03/
+    retrieved: '2025-06-20'
+    version: '2025_03'
   vtype: month
 - name: Unit Ontology
   prefix: uo
@@ -12790,6 +12805,8 @@ database:
     version: '2025-06-16'
   - retrieved: '2025-06-19'
     version: '2025-06-17'
+  - retrieved: '2025-06-20'
+    version: '2025-06-18'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

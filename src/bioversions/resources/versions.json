@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1035,
-    "date": "2025-06-19",
+    "revision": 1036,
+    "date": "2025-06-20",
     "author": "runner"
   },
   "database": [
@@ -692,6 +692,11 @@
         {
           "retrieved": "2025-06-19",
           "version": "2025-06-18",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-06-20",
+          "version": "2025-06-19",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -7368,6 +7373,12 @@
           "version": "105.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/105.0/",
           "date": "2025-04-24"
+        },
+        {
+          "retrieved": "2025-06-20",
+          "version": "106.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/106.0/",
+          "date": "2025-06-19"
         }
       ],
       "vtype": "semver_minor"
@@ -11013,6 +11024,10 @@
         {
           "retrieved": "2025-06-19",
           "version": "2025-06-17"
+        },
+        {
+          "retrieved": "2025-06-20",
+          "version": "2025-06-18"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17810,6 +17825,10 @@
         {
           "retrieved": "2025-06-19",
           "version": "2025-06-19"
+        },
+        {
+          "retrieved": "2025-06-20",
+          "version": "2025-06-20"
         }
       ],
       "name": "SwissLipids",
@@ -18803,6 +18822,12 @@
           "version": "2025_02",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_02/",
           "date": "2025-02-01"
+        },
+        {
+          "retrieved": "2025-06-20",
+          "version": "2025_03",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_03/",
+          "date": "2025-03-01"
         }
       ],
       "vtype": "month"
@@ -23550,6 +23575,10 @@
         {
           "retrieved": "2025-06-19",
           "version": "2025-06-17"
+        },
+        {
+          "retrieved": "2025-06-20",
+          "version": "2025-06-18"
         }
       ],
       "name": "Zebrafish Information Network",
