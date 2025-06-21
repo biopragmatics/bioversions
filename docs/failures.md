@@ -1,10 +1,10 @@
 # Summary of Errors
 
-- **OncoTree** `[oncotree] failed to resolve`
+- **PathBank** `[pathbank] failed to resolve`
 
-## OncoTree
+## PathBank
 
-Using class: `OncoTreeGetter`
+Using class: `PathBankGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -25,7 +25,13 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/socket.py", line 720, in readinto
     return self._sock.recv_into(b)
            ^^^^^^^^^^^^^^^^^^^^^^^
-TimeoutError: timed out
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
 
 The above exception was the direct cause of the following exception:
 
@@ -48,7 +54,7 @@ Traceback (most recent call last):
     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
     raise ReadTimeoutError(
-urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='oncotree.mskcc.org', port=80): Read timed out. (read timeout=5)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='pathbank.org', port=443): Read timed out. (read timeout=15)
 
 During handling of the above exception, another exception occurred:
 
@@ -80,9 +86,12 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/oncotree.py", line 23, in get
-    res = requests.get(
-          ^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/pathbank.py", line 21, in get
+    soup = get_soup(URL)
+           ^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 62, in get_soup
+    res = requests.get(url, verify=verify, timeout=timeout or 15, headers=headers)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/api.py", line 73, in get
     return request("get", url, params=params, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -97,6 +106,6 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 713, in send
     raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPConnectionPool(host='oncotree.mskcc.org', port=80): Read timed out. (read timeout=5)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='pathbank.org', port=443): Read timed out. (read timeout=15)
 
 ```
