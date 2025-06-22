@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1037,
-    "date": "2025-06-21",
+    "revision": 1038,
+    "date": "2025-06-22",
     "author": "runner"
   },
   "database": [
@@ -838,6 +838,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-25"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-17"
         }
       ],
       "vtype": "date"
@@ -2652,6 +2656,10 @@
         {
           "retrieved": "2025-06-15",
           "version": "2.245"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2.246"
         }
       ],
       "vtype": "date"
@@ -4263,6 +4271,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2025-01-06"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-16"
         }
       ],
       "vtype": "date"
@@ -4915,6 +4927,10 @@
         {
           "retrieved": "2025-06-15",
           "version": "4.203"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "4.204"
         }
       ],
       "vtype": "date"
@@ -5110,6 +5126,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "3.78.0"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "3.79.0"
         }
       ],
       "vtype": "semver"
@@ -8121,6 +8141,10 @@
         {
           "retrieved": "2025-06-15",
           "version": "2.152"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2.153"
         }
       ],
       "vtype": "date"
@@ -11033,6 +11057,10 @@
         {
           "retrieved": "2025-06-20",
           "version": "2025-06-18"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-20"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12660,6 +12688,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-13"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-16"
         }
       ],
       "vtype": "date"
@@ -13943,6 +13975,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "6.249"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "6.250"
         }
       ],
       "vtype": "date"
@@ -17838,6 +17874,10 @@
         {
           "retrieved": "2025-06-21",
           "version": "2025-06-21"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-22"
         }
       ],
       "name": "SwissLipids",
@@ -18108,6 +18148,10 @@
         {
           "retrieved": "2025-06-15",
           "version": "2025-06-12"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-13"
         }
       ],
       "vtype": "date"
@@ -19200,6 +19244,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-05"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-16"
         }
       ],
       "vtype": "date"
@@ -23592,6 +23640,10 @@
         {
           "retrieved": "2025-06-21",
           "version": "2025-06-19"
+        },
+        {
+          "retrieved": "2025-06-22",
+          "version": "2025-06-20"
         }
       ],
       "name": "Zebrafish Information Network",
