@@ -1,13 +1,25 @@
 annotations:
   author: runner
-  date: '2025-06-26'
-  revision: 1042
+  date: '2025-06-27'
+  revision: 1043
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
   releases:
   - retrieved: '2022-01-11'
     version: '2019-04-17'
+  vtype: date
+- name: Addiction Ontology
+  prefix: addicto
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2025-03-17'
+  vtype: date
+- name: African Population Ontology
+  prefix: afpo
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2024-03-21'
   vtype: date
 - name: Agronomy Ontology
   prefix: agro
@@ -52,6 +64,8 @@ database:
     version: 2024/12
   - retrieved: '2025-04-20'
     version: 2025/03
+  - retrieved: '2025-06-27'
+    version: '2025-03-01'
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -419,6 +433,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-06-26'
     version: '2025-06-25'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-06-27'
+    version: '2025-06-26'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1782,6 +1799,12 @@ database:
   - retrieved: '2021-02-04'
     version: 1.0.0
   vtype: semver
+- name: Data Catalog
+  prefix: dcat
+  releases:
+  - retrieved: '2025-06-27'
+    version: '3'
+  vtype: missing
 - name: Data Use Ontology
   prefix: duo
   releases:
@@ -1809,6 +1832,12 @@ database:
   - retrieved: '2024-12-17'
     version: 24Q4
   vtype: other
+- name: Developing Human Brain Atlas
+  prefix: dhba
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2025-02-10'
+  vtype: date
 - name: Developing Mouse Brain Atlas
   prefix: dmba
   releases:
@@ -2345,6 +2374,12 @@ database:
   - retrieved: '2021-06-14'
     version: '2016-07-27'
   vtype: date
+- name: Earth Metabolome Ontology
+  prefix: emi
+  releases:
+  - retrieved: '2025-06-27'
+    version: '0.3'
+  vtype: semver
 - name: Echinoderm Anatomy and Development Ontology
   prefix: ecao
   releases:
@@ -3719,6 +3754,12 @@ database:
   - retrieved: '2025-04-20'
     version: '2025-04-01'
   vtype: semver
+- name: Human Brain Atlas
+  prefix: hba
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2025-02-10'
+  vtype: date
 - name: Human Cell Atlas Ontology
   prefix: hcao
   releases:
@@ -4027,6 +4068,12 @@ database:
     retrieved: '2025-02-13'
     version: 2025-01
   vtype: date
+- name: International Committee on Taxonomy of Viruses Ontology
+  prefix: ictv
+  releases:
+  - retrieved: '2025-06-27'
+    version: '40'
+  vtype: sequential
 - name: InterPro
   prefix: interpro
   releases:
@@ -4732,6 +4779,12 @@ database:
     retrieved: '2023-10-20'
     version: '22.1'
   vtype: semver_minor
+- name: Model Card Report Ontology
+  prefix: mcro
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2023-03-07'
+  vtype: date
 - name: Molecular Interactions Controlled Vocabulary
   prefix: mi
   releases:
@@ -5382,6 +5435,12 @@ database:
     version: '2021-04-29'
   - retrieved: '2025-03-23'
     version: '2025-03-14'
+  vtype: date
+- name: Occupation Ontology
+  prefix: occo
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2024-04-28'
   vtype: date
 - name: 'OGG: Ontology of Genes and Genomes'
   prefix: ogg
@@ -6145,6 +6204,8 @@ database:
     version: '2025-06-23'
   - retrieved: '2025-06-26'
     version: '2025-06-24'
+  - retrieved: '2025-06-27'
+    version: '2025-06-25'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6990,6 +7051,12 @@ database:
     version: '2017-11-06'
   - retrieved: '2024-06-02'
     version: '2023-11-10'
+  vtype: date
+- name: Plant Gall Ontology
+  prefix: gallont
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2024-04-19'
   vtype: date
 - name: Plant Ontology
   prefix: po
@@ -8101,6 +8168,12 @@ database:
   - retrieved: '2023-09-28'
     version: '2023-06-13'
   vtype: garbage
+- name: Semantic Mapping Vocabulary
+  prefix: semapv
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2025-01-06'
+  vtype: date
 - name: Semanticscience Integrated Ontology
   prefix: sio
   releases:
@@ -8217,6 +8290,12 @@ database:
     version: 09-10-2019
   - retrieved: '2021-06-14'
     version: '2019-10-09'
+  vtype: date
+- name: Space Life Sciences Ontology
+  prefix: slso
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2025-02-26'
   vtype: date
 - name: Spider Ontology
   prefix: spd
@@ -9749,6 +9828,8 @@ database:
     version: '2025-06-25'
   - retrieved: '2025-06-26'
     version: '2025-06-26'
+  - retrieved: '2025-06-27'
+    version: '2025-06-27'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10290,6 +10371,12 @@ database:
     retrieved: '2025-06-20'
     version: '2025_03'
   vtype: month
+- name: Uniprot Core Ontology
+  prefix: uniprot.core
+  releases:
+  - retrieved: '2025-06-27'
+    version: '2025_02'
+  vtype: missing
 - name: Unit Ontology
   prefix: uo
   releases:
@@ -12874,6 +12961,8 @@ database:
     version: '2025-06-23'
   - retrieved: '2025-06-26'
     version: '2025-06-24'
+  - retrieved: '2025-06-27'
+    version: '2025-06-25'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1042,
-    "date": "2025-06-26",
+    "revision": 1043,
+    "date": "2025-06-27",
     "author": "runner"
   },
   "database": [
@@ -14,6 +14,28 @@
       ],
       "name": "A nomenclatural ontology for biological names",
       "prefix": "nomen",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-03-17"
+        }
+      ],
+      "name": "Addiction Ontology",
+      "prefix": "addicto",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2024-03-21"
+        }
+      ],
+      "name": "African Population Ontology",
+      "prefix": "afpo",
       "vtype": "date"
     },
     {
@@ -98,6 +120,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025/03"
+        },
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-03-01"
         }
       ],
       "vtype": "date"
@@ -717,6 +743,11 @@
         {
           "retrieved": "2025-06-26",
           "version": "2025-06-25",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-06-26",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -3233,6 +3264,17 @@
       "vtype": "semver"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "3"
+        }
+      ],
+      "name": "Data Catalog",
+      "prefix": "dcat",
+      "vtype": "missing"
+    },
+    {
       "name": "Data Use Ontology",
       "prefix": "duo",
       "releases": [
@@ -3284,6 +3326,17 @@
       ],
       "name": "DepMap",
       "vtype": "other"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-02-10"
+        }
+      ],
+      "name": "Developing Human Brain Atlas",
+      "prefix": "dhba",
+      "vtype": "date"
     },
     {
       "releases": [
@@ -4220,6 +4273,17 @@
         }
       ],
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "0.3"
+        }
+      ],
+      "name": "Earth Metabolome Ontology",
+      "prefix": "emi",
+      "vtype": "semver"
     },
     {
       "name": "Echinoderm Anatomy and Development Ontology",
@@ -6723,6 +6787,17 @@
       "vtype": "semver"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-02-10"
+        }
+      ],
+      "name": "Human Brain Atlas",
+      "prefix": "hba",
+      "vtype": "date"
+    },
+    {
       "name": "Human Cell Atlas Ontology",
       "prefix": "hcao",
       "releases": [
@@ -7284,6 +7359,17 @@
       "name": "International Classification of Functioning, Disability and Health",
       "prefix": "icf",
       "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "40"
+        }
+      ],
+      "name": "International Committee on Taxonomy of Viruses Ontology",
+      "prefix": "ictv",
+      "vtype": "sequential"
     },
     {
       "name": "InterPro",
@@ -8590,6 +8676,17 @@
     {
       "releases": [
         {
+          "retrieved": "2025-06-27",
+          "version": "2023-03-07"
+        }
+      ],
+      "name": "Model Card Report Ontology",
+      "prefix": "mcro",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
           "retrieved": "2021-04-14",
           "version": "2020-04-13"
         }
@@ -9750,6 +9847,17 @@
           "version": "2025-03-14"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2024-04-28"
+        }
+      ],
+      "name": "Occupation Ontology",
+      "prefix": "occo",
       "vtype": "date"
     },
     {
@@ -11089,6 +11197,10 @@
         {
           "retrieved": "2025-06-26",
           "version": "2025-06-24"
+        },
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-06-25"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12664,6 +12776,17 @@
       ],
       "name": "Plant Experimental Conditions Ontology",
       "prefix": "peco",
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2024-04-19"
+        }
+      ],
+      "name": "Plant Gall Ontology",
+      "prefix": "gallont",
       "vtype": "date"
     },
     {
@@ -14661,6 +14784,17 @@
       "vtype": "garbage"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-01-06"
+        }
+      ],
+      "name": "Semantic Mapping Vocabulary",
+      "prefix": "semapv",
+      "vtype": "date"
+    },
+    {
       "name": "Semanticscience Integrated Ontology",
       "prefix": "sio",
       "releases": [
@@ -14880,6 +15014,17 @@
           "version": "2019-10-09"
         }
       ],
+      "vtype": "date"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-02-26"
+        }
+      ],
+      "name": "Space Life Sciences Ontology",
+      "prefix": "slso",
       "vtype": "date"
     },
     {
@@ -17930,6 +18075,10 @@
         {
           "retrieved": "2025-06-26",
           "version": "2025-06-26"
+        },
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-06-27"
         }
       ],
       "name": "SwissLipids",
@@ -18936,6 +19085,17 @@
         }
       ],
       "vtype": "month"
+    },
+    {
+      "releases": [
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025_02"
+        }
+      ],
+      "name": "Uniprot Core Ontology",
+      "prefix": "uniprot.core",
+      "vtype": "missing"
     },
     {
       "name": "Unit Ontology",
@@ -23708,6 +23868,10 @@
         {
           "retrieved": "2025-06-26",
           "version": "2025-06-24"
+        },
+        {
+          "retrieved": "2025-06-27",
+          "version": "2025-06-25"
         }
       ],
       "name": "Zebrafish Information Network",
