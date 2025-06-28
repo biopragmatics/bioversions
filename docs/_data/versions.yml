@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-06-27'
-  revision: 1043
+  date: '2025-06-28'
+  revision: 1044
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -436,6 +436,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-06-27'
     version: '2025-06-26'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-06-28'
+    version: '2025-06-27'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2112,6 +2115,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-05-30
     retrieved: '2025-05-31'
     version: '2025-05-30'
+  - date: '2025-06-27'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-06-27
+    retrieved: '2025-06-28'
+    version: '2025-06-27'
   vtype: date
 - name: DisGeNet
   releases:
@@ -4240,6 +4247,8 @@ database:
     version: '2025-05-21'
   - retrieved: '2025-06-10'
     version: '2025-06-06'
+  - retrieved: '2025-06-28'
+    version: '2025-06-26'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -6206,6 +6215,8 @@ database:
     version: '2025-06-24'
   - retrieved: '2025-06-27'
     version: '2025-06-25'
+  - retrieved: '2025-06-28'
+    version: '2025-06-26'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8282,6 +8293,8 @@ database:
   releases:
   - retrieved: '2025-06-18'
     version: 6a76493
+  - retrieved: '2025-06-28'
+    version: 338d2ce
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -9830,6 +9843,8 @@ database:
     version: '2025-06-26'
   - retrieved: '2025-06-27'
     version: '2025-06-27'
+  - retrieved: '2025-06-28'
+    version: '2025-06-28'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12963,6 +12978,8 @@ database:
     version: '2025-06-24'
   - retrieved: '2025-06-27'
     version: '2025-06-25'
+  - retrieved: '2025-06-28'
+    version: '2025-06-26'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1043,
-    "date": "2025-06-27",
+    "revision": 1044,
+    "date": "2025-06-28",
     "author": "runner"
   },
   "database": [
@@ -748,6 +748,11 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-06-26",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-06-28",
+          "version": "2025-06-27",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -3778,6 +3783,12 @@
           "version": "2025-05-30",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-05-30",
           "date": "2025-05-30"
+        },
+        {
+          "retrieved": "2025-06-28",
+          "version": "2025-06-27",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-06-27",
+          "date": "2025-06-27"
         }
       ],
       "vtype": "date"
@@ -7654,6 +7665,10 @@
         {
           "retrieved": "2025-06-10",
           "version": "2025-06-06"
+        },
+        {
+          "retrieved": "2025-06-28",
+          "version": "2025-06-26"
         }
       ],
       "name": "ITIS",
@@ -11201,6 +11216,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-06-25"
+        },
+        {
+          "retrieved": "2025-06-28",
+          "version": "2025-06-26"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14995,6 +15014,10 @@
         {
           "retrieved": "2025-06-18",
           "version": "6a76493"
+        },
+        {
+          "retrieved": "2025-06-28",
+          "version": "338d2ce"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -18079,6 +18102,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-06-27"
+        },
+        {
+          "retrieved": "2025-06-28",
+          "version": "2025-06-28"
         }
       ],
       "name": "SwissLipids",
@@ -23872,6 +23899,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-06-25"
+        },
+        {
+          "retrieved": "2025-06-28",
+          "version": "2025-06-26"
         }
       ],
       "name": "Zebrafish Information Network",
