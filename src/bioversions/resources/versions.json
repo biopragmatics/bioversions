@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1044,
-    "date": "2025-06-28",
+    "revision": 1045,
+    "date": "2025-06-29",
     "author": "runner"
   },
   "database": [
@@ -11220,6 +11220,10 @@
         {
           "retrieved": "2025-06-28",
           "version": "2025-06-26"
+        },
+        {
+          "retrieved": "2025-06-29",
+          "version": "2025-06-27"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15018,6 +15022,10 @@
         {
           "retrieved": "2025-06-28",
           "version": "338d2ce"
+        },
+        {
+          "retrieved": "2025-06-29",
+          "version": "0ba614f"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -18106,6 +18114,10 @@
         {
           "retrieved": "2025-06-28",
           "version": "2025-06-28"
+        },
+        {
+          "retrieved": "2025-06-29",
+          "version": "2025-06-29"
         }
       ],
       "name": "SwissLipids",
@@ -23903,6 +23915,10 @@
         {
           "retrieved": "2025-06-28",
           "version": "2025-06-26"
+        },
+        {
+          "retrieved": "2025-06-29",
+          "version": "2025-06-27"
         }
       ],
       "name": "Zebrafish Information Network",
