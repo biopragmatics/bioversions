@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1046,
-    "date": "2025-06-30",
+    "revision": 1047,
+    "date": "2025-07-01",
     "author": "runner"
   },
   "database": [
@@ -753,6 +753,11 @@
         {
           "retrieved": "2025-06-28",
           "version": "2025-06-27",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-07-01",
+          "version": "2025-06-30",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -3327,6 +3332,10 @@
         {
           "retrieved": "2024-12-17",
           "version": "24Q4"
+        },
+        {
+          "retrieved": "2025-07-01",
+          "version": "25Q2"
         }
       ],
       "name": "DepMap",
@@ -7803,6 +7812,11 @@
           "retrieved": "2025-04-01",
           "version": "114.0",
           "date": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-07-01",
+          "version": "115.0",
+          "date": "2025-07-01"
         }
       ],
       "vtype": "semver_minor"
@@ -13615,6 +13629,11 @@
           "retrieved": "2025-06-01",
           "version": "2025-06-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-06-01"
+        },
+        {
+          "retrieved": "2025-07-01",
+          "version": "2025-07-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-07-01"
         }
       ],
       "name": "PubChem",
@@ -14024,6 +14043,10 @@
         {
           "retrieved": "2025-06-24",
           "version": "2025-06-21"
+        },
+        {
+          "retrieved": "2025-07-01",
+          "version": "2025-06-27"
         }
       ],
       "name": "Rat Genome Database",
@@ -18122,6 +18145,10 @@
         {
           "retrieved": "2025-06-30",
           "version": "2025-06-30"
+        },
+        {
+          "retrieved": "2025-07-01",
+          "version": "2025-07-01"
         }
       ],
       "name": "SwissLipids",
@@ -23927,6 +23954,10 @@
         {
           "retrieved": "2025-06-30",
           "version": "2025-06-28"
+        },
+        {
+          "retrieved": "2025-07-01",
+          "version": "2025-06-29"
         }
       ],
       "name": "Zebrafish Information Network",

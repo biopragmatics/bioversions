@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-06-30'
-  revision: 1046
+  date: '2025-07-01'
+  revision: 1047
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -439,6 +439,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-06-28'
     version: '2025-06-27'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-01'
+    version: '2025-06-30'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1834,6 +1837,8 @@ database:
     version: 24Q2
   - retrieved: '2024-12-17'
     version: 24Q4
+  - retrieved: '2025-07-01'
+    version: 25Q2
   vtype: other
 - name: Developing Human Brain Atlas
   prefix: dhba
@@ -4328,6 +4333,9 @@ database:
   - date: '2025-04-01'
     retrieved: '2025-04-01'
     version: '114.0'
+  - date: '2025-07-01'
+    retrieved: '2025-07-01'
+    version: '115.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -7544,6 +7552,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-06-01
     retrieved: '2025-06-01'
     version: '2025-06-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-07-01
+    retrieved: '2025-07-01'
+    version: '2025-07-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -7750,6 +7761,8 @@ database:
     version: '2025-06-13'
   - retrieved: '2025-06-24'
     version: '2025-06-21'
+  - retrieved: '2025-07-01'
+    version: '2025-06-27'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -9853,6 +9866,8 @@ database:
     version: '2025-06-29'
   - retrieved: '2025-06-30'
     version: '2025-06-30'
+  - retrieved: '2025-07-01'
+    version: '2025-07-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12992,6 +13007,8 @@ database:
     version: '2025-06-27'
   - retrieved: '2025-06-30'
     version: '2025-06-28'
+  - retrieved: '2025-07-01'
+    version: '2025-06-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
