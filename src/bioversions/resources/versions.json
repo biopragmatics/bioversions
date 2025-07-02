@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1047,
-    "date": "2025-07-01",
+    "revision": 1048,
+    "date": "2025-07-02",
     "author": "runner"
   },
   "database": [
@@ -759,6 +759,11 @@
           "retrieved": "2025-07-01",
           "version": "2025-06-30",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-07-01",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1313,6 +1318,11 @@
           "retrieved": "2025-06-02",
           "version": "4.4.246",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.246"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "4.4.247",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.247"
         }
       ],
       "vtype": "semver"
@@ -2537,6 +2547,10 @@
         {
           "retrieved": "2025-06-01",
           "version": "2025-06-01"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-07-01"
         }
       ],
       "name": "CiVIC",
@@ -6704,6 +6718,11 @@
           "retrieved": "2025-06-06",
           "version": "2025-06-03",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-06-03.json"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-07-01",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-07-01.json"
         }
       ],
       "name": "HGNC",
@@ -11238,6 +11257,10 @@
         {
           "retrieved": "2025-06-29",
           "version": "2025-06-27"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-06-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -13168,6 +13191,12 @@
           "version": "2025-06-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-06-01/",
           "date": "2025-06-01"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-07-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-07-01/",
+          "date": "2025-07-01"
         }
       ],
       "name": "PomBase",
@@ -14973,6 +15002,10 @@
         {
           "retrieved": "2025-04-02",
           "version": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-07-01"
         }
       ],
       "name": "SIGNOR",
@@ -15049,6 +15082,10 @@
         {
           "retrieved": "2025-06-29",
           "version": "0ba614f"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "3.27.0"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -18149,6 +18186,10 @@
         {
           "retrieved": "2025-07-01",
           "version": "2025-07-01"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-07-02"
         }
       ],
       "name": "SwissLipids",
@@ -23958,6 +23999,10 @@
         {
           "retrieved": "2025-07-01",
           "version": "2025-06-29"
+        },
+        {
+          "retrieved": "2025-07-02",
+          "version": "2025-06-30"
         }
       ],
       "name": "Zebrafish Information Network",

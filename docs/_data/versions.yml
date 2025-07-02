@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-07-01'
-  revision: 1047
+  date: '2025-07-02'
+  revision: 1048
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -442,6 +442,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-07-01'
     version: '2025-06-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-02'
+    version: '2025-07-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -748,6 +751,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.246
     retrieved: '2025-06-02'
     version: 4.4.246
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.247
+    retrieved: '2025-07-02'
+    version: 4.4.247
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -1413,6 +1419,8 @@ database:
     version: '2025-05-01'
   - retrieved: '2025-06-01'
     version: '2025-06-01'
+  - retrieved: '2025-07-02'
+    version: '2025-07-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -3703,6 +3711,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-06-03.json
     retrieved: '2025-06-06'
     version: '2025-06-03'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-07-01.json
+    retrieved: '2025-07-02'
+    version: '2025-07-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -6227,6 +6238,8 @@ database:
     version: '2025-06-26'
   - retrieved: '2025-06-29'
     version: '2025-06-27'
+  - retrieved: '2025-07-02'
+    version: '2025-06-30'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7292,6 +7305,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-06-01/
     retrieved: '2025-06-02'
     version: '2025-06-01'
+  - date: '2025-07-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-07-01/
+    retrieved: '2025-07-02'
+    version: '2025-07-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -8270,6 +8287,8 @@ database:
     version: '2025-01-01'
   - retrieved: '2025-04-02'
     version: '2025-04-01'
+  - retrieved: '2025-07-02'
+    version: '2025-07-01'
   vtype: date
 - name: SILVA ribosomal RNA database
   prefix: silva.taxon
@@ -8312,6 +8331,8 @@ database:
     version: 338d2ce
   - retrieved: '2025-06-29'
     version: 0ba614f
+  - retrieved: '2025-07-02'
+    version: 3.27.0
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -9868,6 +9889,8 @@ database:
     version: '2025-06-30'
   - retrieved: '2025-07-01'
     version: '2025-07-01'
+  - retrieved: '2025-07-02'
+    version: '2025-07-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13009,6 +13032,8 @@ database:
     version: '2025-06-28'
   - retrieved: '2025-07-01'
     version: '2025-06-29'
+  - retrieved: '2025-07-02'
+    version: '2025-06-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
