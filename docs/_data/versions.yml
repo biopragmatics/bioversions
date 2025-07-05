@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-07-04'
-  revision: 1050
+  date: '2025-07-05'
+  revision: 1051
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -451,6 +451,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-07-04'
     version: '2025-07-03'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-05'
+    version: '2025-07-04'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3720,6 +3723,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-07-01.json
     retrieved: '2025-07-02'
     version: '2025-07-01'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-07-04.json
+    retrieved: '2025-07-05'
+    version: '2025-07-04'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -3910,6 +3916,8 @@ database:
     version: '2024-12-12'
   - retrieved: '2025-02-27'
     version: '2025-01-16'
+  - retrieved: '2025-07-05'
+    version: '2025-05-06'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -4102,6 +4110,8 @@ database:
   releases:
   - retrieved: '2025-06-27'
     version: '40'
+  - retrieved: '2025-07-05'
+    version: '1'
   vtype: sequential
 - name: InterPro
   prefix: interpro
@@ -4451,6 +4461,8 @@ database:
     version: '2024-12-18'
   - retrieved: '2025-02-27'
     version: '2025-01-30'
+  - retrieved: '2025-07-05'
+    version: '2025-05-22'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -4509,6 +4521,8 @@ database:
     version: 4.1.191
   - retrieved: '2025-06-09'
     version: 4.1.193
+  - retrieved: '2025-07-05'
+    version: 4.1.194
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -6253,6 +6267,8 @@ database:
     version: '2025-07-01'
   - retrieved: '2025-07-04'
     version: '2025-07-02'
+  - retrieved: '2025-07-05'
+    version: '2025-07-03'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6958,6 +6974,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.4/
     retrieved: '2025-04-15'
     version: '37.4'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam38.0/
+    retrieved: '2025-07-05'
+    version: '38.0'
   vtype: semver_minor
 - name: Phenotype And Trait Ontology
   prefix: pato
@@ -9908,6 +9927,8 @@ database:
     version: '2025-07-03'
   - retrieved: '2025-07-04'
     version: '2025-07-04'
+  - retrieved: '2025-07-05'
+    version: '2025-07-05'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13055,6 +13076,8 @@ database:
     version: '2025-07-01'
   - retrieved: '2025-07-04'
     version: '2025-07-02'
+  - retrieved: '2025-07-05'
+    version: '2025-07-03'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
