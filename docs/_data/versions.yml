@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-07-10'
-  revision: 1056
+  date: '2025-07-11'
+  revision: 1057
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -463,6 +463,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-07-10'
     version: '2025-07-09'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-11'
+    version: '2025-07-10'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -6282,6 +6285,8 @@ database:
     version: '2025-07-07'
   - retrieved: '2025-07-10'
     version: '2025-07-08'
+  - retrieved: '2025-07-11'
+    version: '2025-07-09'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9957,6 +9962,8 @@ database:
     version: '2025-07-09'
   - retrieved: '2025-07-10'
     version: '2025-07-10'
+  - retrieved: '2025-07-11'
+    version: '2025-07-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10924,6 +10931,10 @@ database:
     homepage: http://data.wikipathways.org/20250610/
     retrieved: '2025-06-11'
     version: '20250610'
+  - date: '2025-07-10'
+    homepage: http://data.wikipathways.org/20250710/
+    retrieved: '2025-07-11'
+    version: '20250710'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -13116,6 +13127,8 @@ database:
     version: '2025-07-07'
   - retrieved: '2025-07-10'
     version: '2025-07-08'
+  - retrieved: '2025-07-11'
+    version: '2025-07-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
