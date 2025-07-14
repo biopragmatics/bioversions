@@ -36,7 +36,7 @@ Traceback (most recent call last):
                        ^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f943d571be0>: Failed to establish a new connection: [Errno 111] Connection refused
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fe4560daed0>: Failed to establish a new connection: [Errno 111] Connection refused
 
 The above exception was the direct cause of the following exception:
 
@@ -50,7 +50,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/interpro/current_release/release_notes.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f943d571be0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/interpro/current_release/release_notes.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe4560daed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
@@ -99,7 +99,7 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/interpro/current_release/release_notes.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f943d571be0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/interpro/current_release/release_notes.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe4560daed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 ```
 
@@ -246,7 +246,7 @@ Traceback (most recent call last):
                        ^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f943d56a990>: Failed to establish a new connection: [Errno 111] Connection refused
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fe456088b60>: Failed to establish a new connection: [Errno 111] Connection refused
 
 The above exception was the direct cause of the following exception:
 
@@ -260,7 +260,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/Rfam/CURRENT/README (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f943d56a990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/Rfam/CURRENT/README (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe456088b60>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
@@ -312,6 +312,6 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/Rfam/CURRENT/README (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f943d56a990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ftp.ebi.ac.uk', port=443): Max retries exceeded with url: /pub/databases/Rfam/CURRENT/README (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe456088b60>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 ```
