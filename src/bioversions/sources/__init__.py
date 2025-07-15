@@ -316,8 +316,8 @@ def iter_versions(
             it.set_postfix(name=cls.name)
             try:
                 yv = resolve(cls.name)
-            except (OSError, AttributeError, ftplib.error_perm):
-                msg = f"[{cls.bioregistry_id or cls.name}] failed to resolve"
+            except (OSError, AttributeError, ftplib.error_perm) as e:
+                msg = f"[{cls.bioregistry_id or cls.name}] failed to resolve: {e}"
                 tqdm.write(msg)
                 yield VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
             except (ValueError, KeyError) as e:
