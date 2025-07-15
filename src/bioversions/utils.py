@@ -317,11 +317,13 @@ def _get_ftp_version(host: str, directory: str) -> str:
 
 
 def _get_ftp_date_version(host: str, directory: str) -> str:
-    with ftplib.FTP(host) as ftp:
-        ftp.login()
-        ftp.cwd(directory)
-        names = sorted([name for name in ftp.nlst() if _is_iso_8601(name)])
-    return names[-1]
+    url = f"https://{host}/{directory}"
+    soup = get_soup(url)
+    return max(
+        text
+        for anchor in soup.find_all("a")
+        if anchor.text and _is_iso_8601(text := anchor.text.rstrip("/"))
+    )
 
 
 def _is_iso_8601(s: str) -> bool:
