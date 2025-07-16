@@ -1,11 +1,14 @@
 """A web application for listing database versions."""
 
-from typing import Any
-
 import flask
+from fastapi import FastAPI
 from flask_bootstrap import Bootstrap
+from pydantic import BaseModel
 
+from bioversions import VersionResult
 from bioversions.sources import get_rows, resolve
+
+fastapi_app = FastAPI()
 
 app = flask.Flask(__name__)
 Bootstrap(app)
@@ -17,18 +20,26 @@ def home() -> str:
     return flask.render_template("home.html", rows=get_rows())
 
 
-@app.route("/database/<name>.json")
-def database(name: str) -> flask.Response:
+class Respon(BaseModel):
+    """A model for a response."""
+
+    query: str
+    success: bool
+    result: VersionResult | None
+
+
+@fastapi_app.get("/database/<name>.json", response_model=Respon)
+def database(name: str) -> Respon:
     """Resolve information about a given database."""
-    rv: dict[str, Any] = {"query": name}
     try:
-        bioversion = resolve(name)
+        result = resolve(name)
     except KeyError:
-        rv["success"] = False
+        success = False
+        result = None
     else:
-        rv["success"] = True
-        rv["result"] = bioversion.model_dump()
-    return flask.jsonify(rv)
+        success = True
+
+    return Respon(query=name, success=success, result=result)
 
 
 if __name__ == "__main__":
