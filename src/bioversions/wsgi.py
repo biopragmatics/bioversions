@@ -2,16 +2,19 @@
 
 import flask
 from fastapi import FastAPI
-from flask_bootstrap import Bootstrap
+from flask_bootstrap import Bootstrap4
 from pydantic import BaseModel
 
 from bioversions import VersionResult
 from bioversions.sources import get_rows, resolve
+from a2wsgi import WSGIMiddleware
 
 fastapi_app = FastAPI()
 
 app = flask.Flask(__name__)
-Bootstrap(app)
+Bootstrap4(app)
+
+fastapi_app.mount("/", WSGIMiddleware(app))
 
 
 @app.route("/")
@@ -20,7 +23,7 @@ def home() -> str:
     return flask.render_template("home.html", rows=get_rows())
 
 
-class Respon(BaseModel):
+class VersionResponse(BaseModel):
     """A model for a response."""
 
     query: str
@@ -28,8 +31,8 @@ class Respon(BaseModel):
     result: VersionResult | None
 
 
-@fastapi_app.get("/database/<name>.json", response_model=Respon)
-def database(name: str) -> Respon:
+@fastapi_app.get("/database/<name>.json", response_model=VersionResponse)
+def database(name: str) -> VersionResponse:
     """Resolve information about a given database."""
     try:
         result = resolve(name)
@@ -39,8 +42,10 @@ def database(name: str) -> Respon:
     else:
         success = True
 
-    return Respon(query=name, success=success, result=result)
+    return VersionResponse(query=name, success=success, result=result)
 
 
 if __name__ == "__main__":
-    app.run()
+    import uvicorn
+
+    uvicorn.run(fastapi_app, port=8777, host="0.0.0.0")  # noqa:S104

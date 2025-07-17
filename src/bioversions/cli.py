@@ -1,14 +1,13 @@
 """Command line interface for :mod:`bioversions`."""
 
 import click
-from click_default_group import DefaultGroup
-from more_click import make_web_command, verbose_option
+from more_click import verbose_option, port_option, host_option
 from tabulate import tabulate
 
 from bioversions.resources.update import update
 
 
-@click.group(cls=DefaultGroup, default="web", default_if_no_args=True)
+@click.group()
 @click.version_option()
 def main() -> None:
     """The bioversions CLI."""  # noqa:D401
@@ -16,13 +15,17 @@ def main() -> None:
 
 main.add_command(update)
 
-web = make_web_command(
-    app="bioversions.wsgi:app",
-    group=main,
-    command_kwargs={
-        "help": "Run the bioversions web application.",
-    },
-)
+
+@main.command()
+@port_option
+@host_option
+def web(host: str, port: int) -> None:
+    """Run the bioversion sweb application"""
+    from bioversions.wsgi import fastapi_app
+
+    import uvicorn
+
+    uvicorn.run(fastapi_app, port=str(port), host=host)  # noqa:S104
 
 
 @main.command()  # type:ignore
