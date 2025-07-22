@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1067,
-    "date": "2025-07-21",
+    "revision": 1068,
+    "date": "2025-07-22",
     "author": "runner"
   },
   "database": [
@@ -124,6 +124,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-03-01"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-01"
         }
       ],
       "vtype": "date"
@@ -834,6 +838,11 @@
           "retrieved": "2025-07-20",
           "version": "2025-07-19",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-21",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1136,6 +1145,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2.8.14"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2.8.16"
         }
       ],
       "vtype": "semver"
@@ -2066,6 +2079,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-04-10"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-20"
         }
       ],
       "prefix": "cl",
@@ -2800,6 +2817,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "2.246"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2.248"
         }
       ],
       "vtype": "date"
@@ -3205,6 +3226,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-20"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-30"
         }
       ],
       "vtype": "date"
@@ -4721,6 +4746,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-04-30"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-23"
         }
       ],
       "name": "Evidence and Conclusion Ontology",
@@ -5114,6 +5143,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "4.204"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "4.207"
         }
       ],
       "vtype": "date"
@@ -5313,6 +5346,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "3.79.0"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "3.80.0"
         }
       ],
       "vtype": "semver"
@@ -5669,6 +5706,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-09"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-04"
         }
       ],
       "vtype": "date"
@@ -6020,6 +6061,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-05-07"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-15"
         }
       ],
       "vtype": "date"
@@ -8115,6 +8160,10 @@
         {
           "retrieved": "2025-07-05",
           "version": "2025-05-22"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-18"
         }
       ],
       "vtype": "date"
@@ -8390,6 +8439,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "2.153"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2.156"
         }
       ],
       "vtype": "date"
@@ -8534,6 +8587,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-07-19"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-08"
         }
       ],
       "vtype": "date"
@@ -9193,6 +9250,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-06-03"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-01"
         }
       ],
       "vtype": "date"
@@ -9261,6 +9322,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "2025-04-17"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-04"
         }
       ],
       "name": "Mouse Brain Atlas",
@@ -9976,6 +10041,10 @@
         {
           "retrieved": "2024-11-17",
           "version": "2024-11-13"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-18"
         }
       ],
       "vtype": "date"
@@ -11645,6 +11714,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-26"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-30"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -12369,6 +12442,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-06-21"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-28"
         }
       ],
       "name": "Oral Health and Disease Ontology",
@@ -12418,6 +12495,10 @@
         {
           "retrieved": "2024-12-15",
           "version": "4.6"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "4.7"
         }
       ],
       "vtype": "semver"
@@ -13634,6 +13715,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2025-01-08"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-07"
         }
       ],
       "name": "Provisional Cell Ontology",
@@ -13910,6 +13995,10 @@
         {
           "retrieved": "2025-06-15",
           "version": "2025-05-30"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-10"
         }
       ],
       "vtype": "date"
@@ -14247,6 +14336,10 @@
         {
           "retrieved": "2025-07-15",
           "version": "2025-07-11"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-19"
         }
       ],
       "name": "Rat Genome Database",
@@ -14380,6 +14473,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "6.250"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "6.252"
         }
       ],
       "vtype": "date"
@@ -14576,6 +14673,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-05"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-06-24"
         }
       ],
       "vtype": "date"
@@ -18442,6 +18543,10 @@
         {
           "retrieved": "2025-07-21",
           "version": "2025-07-21"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-22"
         }
       ],
       "name": "SwissLipids",
@@ -18716,6 +18821,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "2025-06-13"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-18"
         }
       ],
       "vtype": "date"
@@ -19253,6 +19362,10 @@
         {
           "retrieved": "2025-01-28",
           "version": "2025-01-11"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-11"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -19454,6 +19567,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025_02"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025_03"
         }
       ],
       "name": "Uniprot Core Ontology",
@@ -19609,6 +19726,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-24"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-06"
         }
       ],
       "vtype": "semver"
@@ -19823,6 +19944,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "2025-06-16"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-15"
         }
       ],
       "vtype": "date"
@@ -24333,6 +24458,10 @@
         {
           "retrieved": "2025-07-21",
           "version": "2025-07-19"
+        },
+        {
+          "retrieved": "2025-07-22",
+          "version": "2025-07-20"
         }
       ],
       "name": "Zebrafish Information Network",
