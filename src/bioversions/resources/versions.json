@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1072,
-    "date": "2025-07-26",
+    "revision": 1073,
+    "date": "2025-07-27",
     "author": "runner"
   },
   "database": [
@@ -2383,6 +2383,11 @@
           "retrieved": "2025-04-03",
           "version": "241",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel241/"
+        },
+        {
+          "retrieved": "2025-07-27",
+          "version": "243",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel243/"
         }
       ],
       "vtype": "sequential"
@@ -11535,6 +11540,10 @@
         {
           "retrieved": "2025-07-26",
           "version": "2025-07-24"
+        },
+        {
+          "retrieved": "2025-07-27",
+          "version": "2025-07-25"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -18614,6 +18623,10 @@
         {
           "retrieved": "2025-07-26",
           "version": "2025-07-26"
+        },
+        {
+          "retrieved": "2025-07-27",
+          "version": "2025-07-27"
         }
       ],
       "name": "SwissLipids",
@@ -24545,6 +24558,10 @@
         {
           "retrieved": "2025-07-26",
           "version": "2025-07-24"
+        },
+        {
+          "retrieved": "2025-07-27",
+          "version": "2025-07-25"
         }
       ],
       "name": "Zebrafish Information Network",
