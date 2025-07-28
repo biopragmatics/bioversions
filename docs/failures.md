@@ -1,7 +1,7 @@
 # Summary of Errors
 
 - **SIGNOR**
-  `[SIGNOR] failed to resolve: HTTPSConnectionPool(host='signor.uniroma2.it', port=443): Max retries exceeded with url: /downloads.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4ef927caa0>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)'))`
+  `[SIGNOR] failed to resolve: HTTPSConnectionPool(host='signor.uniroma2.it', port=443): Max retries exceeded with url: /downloads.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6f9168f860>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)'))`
 
 ## SIGNOR
 
@@ -35,7 +35,7 @@ Traceback (most recent call last):
                        ^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connection.py", line 207, in _new_conn
     raise ConnectTimeoutError(
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f4ef927caa0>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)')
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f6f9168f860>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)')
 
 The above exception was the direct cause of the following exception:
 
@@ -49,7 +49,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='signor.uniroma2.it', port=443): Max retries exceeded with url: /downloads.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4ef927caa0>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)'))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='signor.uniroma2.it', port=443): Max retries exceeded with url: /downloads.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6f9168f860>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)'))
 
 During handling of the above exception, another exception occurred:
 
@@ -104,6 +104,6 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 688, in send
     raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='signor.uniroma2.it', port=443): Max retries exceeded with url: /downloads.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4ef927caa0>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)'))
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='signor.uniroma2.it', port=443): Max retries exceeded with url: /downloads.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6f9168f860>, 'Connection to signor.uniroma2.it timed out. (connect timeout=15)'))
 
 ```
