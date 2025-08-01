@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1077,
-    "date": "2025-07-31",
+    "revision": 1078,
+    "date": "2025-08-01",
     "author": "runner"
   },
   "database": [
@@ -877,6 +877,11 @@
         {
           "retrieved": "2025-07-31",
           "version": "2025-07-30",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-08-01",
+          "version": "2025-07-31",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8015,6 +8020,11 @@
           "retrieved": "2025-07-01",
           "version": "115.0",
           "date": "2025-07-01"
+        },
+        {
+          "retrieved": "2025-08-01",
+          "version": "115.1",
+          "date": "2025-08-01"
         }
       ],
       "vtype": "semver_minor"
@@ -13990,6 +14000,11 @@
           "retrieved": "2025-07-01",
           "version": "2025-07-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-07-01"
+        },
+        {
+          "retrieved": "2025-08-01",
+          "version": "2025-08-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-08-01"
         }
       ],
       "name": "PubChem",
@@ -18674,6 +18689,10 @@
         {
           "retrieved": "2025-07-31",
           "version": "2025-07-31"
+        },
+        {
+          "retrieved": "2025-08-01",
+          "version": "2025-08-01"
         }
       ],
       "name": "SwissLipids",
@@ -24621,6 +24640,10 @@
         {
           "retrieved": "2025-07-31",
           "version": "2025-07-29"
+        },
+        {
+          "retrieved": "2025-08-01",
+          "version": "2025-07-30"
         }
       ],
       "name": "Zebrafish Information Network",
