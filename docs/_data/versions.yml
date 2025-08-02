@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-08-01'
-  revision: 1078
+  date: '2025-08-02'
+  revision: 1079
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -516,6 +516,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-08-01'
     version: '2025-07-31'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1344,6 +1347,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel243/
     retrieved: '2025-07-27'
     version: '243'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel244/
+    retrieved: '2025-08-02'
+    version: '244'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -1499,6 +1505,8 @@ database:
     version: '2025-06-01'
   - retrieved: '2025-07-02'
     version: '2025-07-01'
+  - retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -2214,6 +2222,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-06-27
     retrieved: '2025-06-28'
     version: '2025-06-27'
+  - date: '2025-08-01'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-08-01
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: DisGeNet
   releases:
@@ -3816,6 +3828,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-07-04.json
     retrieved: '2025-07-05'
     version: '2025-07-04'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-01.json
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -6414,6 +6429,8 @@ database:
     version: '2025-07-28'
   - retrieved: '2025-07-31'
     version: '2025-07-29'
+  - retrieved: '2025-08-02'
+    version: '2025-07-31'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7492,6 +7509,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-07-01/
     retrieved: '2025-07-02'
     version: '2025-07-01'
+  - date: '2025-08-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-08-01/
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -10160,6 +10181,8 @@ database:
     version: '2025-07-31'
   - retrieved: '2025-08-01'
     version: '2025-08-01'
+  - retrieved: '2025-08-02'
+    version: '2025-08-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
