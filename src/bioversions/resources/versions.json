@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1079,
-    "date": "2025-08-02",
+    "revision": 1080,
+    "date": "2025-08-03",
     "author": "runner"
   },
   "database": [
@@ -2880,6 +2880,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2.248"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2.250"
         }
       ],
       "vtype": "date"
@@ -5212,6 +5216,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "4.207"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "4.209"
         }
       ],
       "vtype": "date"
@@ -6514,6 +6522,10 @@
         {
           "retrieved": "2023-11-02",
           "version": "2023-10-08"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-07-25"
         }
       ],
       "name": "Genotype Ontology",
@@ -8361,6 +8373,10 @@
         {
           "retrieved": "2025-07-05",
           "version": "4.1.194"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "4.1.195"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -8524,6 +8540,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2.156"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2.157"
         }
       ],
       "vtype": "date"
@@ -9407,6 +9427,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-04"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-07-28"
         }
       ],
       "name": "Mouse Brain Atlas",
@@ -12715,6 +12739,10 @@
         {
           "retrieved": "2024-09-08",
           "version": "2024-08-29"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-07-29"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -12837,6 +12865,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "7.93"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "7.94"
         }
       ],
       "name": "Pathway ontology",
@@ -14610,6 +14642,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "6.252"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "6.254"
         }
       ],
       "vtype": "date"
@@ -18732,6 +18768,10 @@
         {
           "retrieved": "2025-08-02",
           "version": "2025-08-02"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-08-03"
         }
       ],
       "name": "SwissLipids",
@@ -19112,6 +19152,10 @@
         {
           "retrieved": "2025-04-27",
           "version": "2025-04-18"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-07-19"
         }
       ],
       "vtype": "date"
@@ -19551,6 +19595,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-11"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-07-21"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -20581,6 +20629,10 @@
         {
           "retrieved": "2024-04-28",
           "version": "2024-04-18"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-07-25"
         }
       ],
       "vtype": "date"
@@ -24683,6 +24735,10 @@
         {
           "retrieved": "2025-08-01",
           "version": "2025-07-30"
+        },
+        {
+          "retrieved": "2025-08-03",
+          "version": "2025-08-01"
         }
       ],
       "name": "Zebrafish Information Network",
