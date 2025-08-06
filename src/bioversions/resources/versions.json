@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1082,
-    "date": "2025-08-05",
+    "revision": 1083,
+    "date": "2025-08-06",
     "author": "runner"
   },
   "database": [
@@ -898,6 +898,11 @@
           "retrieved": "2025-08-05",
           "version": "2025-08-04",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-08-06",
+          "version": "2025-08-05",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1461,6 +1466,11 @@
           "retrieved": "2025-07-02",
           "version": "4.4.247",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.247"
+        },
+        {
+          "retrieved": "2025-08-06",
+          "version": "4.4.248",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.248"
         }
       ],
       "vtype": "semver"
@@ -6946,6 +6956,11 @@
           "retrieved": "2025-08-02",
           "version": "2025-08-01",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-01.json"
+        },
+        {
+          "retrieved": "2025-08-06",
+          "version": "2025-08-05",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-05.json"
         }
       ],
       "name": "HGNC",
@@ -7928,6 +7943,10 @@
         {
           "retrieved": "2025-06-28",
           "version": "2025-06-26"
+        },
+        {
+          "retrieved": "2025-08-06",
+          "version": "2025-08-01"
         }
       ],
       "name": "ITIS",
@@ -18799,6 +18818,10 @@
         {
           "retrieved": "2025-08-05",
           "version": "2025-08-05"
+        },
+        {
+          "retrieved": "2025-08-06",
+          "version": "2025-08-06"
         }
       ],
       "name": "SwissLipids",
@@ -24774,6 +24797,10 @@
         {
           "retrieved": "2025-08-05",
           "version": "2025-08-03"
+        },
+        {
+          "retrieved": "2025-08-06",
+          "version": "2025-08-04"
         }
       ],
       "name": "Zebrafish Information Network",

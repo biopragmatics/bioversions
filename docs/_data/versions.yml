@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-08-05'
-  revision: 1082
+  date: '2025-08-06'
+  revision: 1083
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -525,6 +525,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-08-05'
     version: '2025-08-04'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-06'
+    version: '2025-08-05'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -836,6 +839,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.247
     retrieved: '2025-07-02'
     version: 4.4.247
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.248
+    retrieved: '2025-08-06'
+    version: 4.4.248
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -3843,6 +3849,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-01.json
     retrieved: '2025-08-02'
     version: '2025-08-01'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-05.json
+    retrieved: '2025-08-06'
+    version: '2025-08-05'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -4398,6 +4407,8 @@ database:
     version: '2025-06-06'
   - retrieved: '2025-06-28'
     version: '2025-06-26'
+  - retrieved: '2025-08-06'
+    version: '2025-08-01'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -10218,6 +10229,8 @@ database:
     version: '2025-08-04'
   - retrieved: '2025-08-05'
     version: '2025-08-05'
+  - retrieved: '2025-08-06'
+    version: '2025-08-06'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13443,6 +13456,8 @@ database:
     version: '2025-08-02'
   - retrieved: '2025-08-05'
     version: '2025-08-03'
+  - retrieved: '2025-08-06'
+    version: '2025-08-04'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
