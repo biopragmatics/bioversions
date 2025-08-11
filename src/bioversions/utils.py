@@ -258,15 +258,21 @@ class UnversionedGetter(Getter):
         return "unversioned"
 
 
-def get_obo_version(url: str) -> str:
+def get_obo_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get the data version from an OBO file."""
     with requests.get(url, stream=True, timeout=60) as res:
-        for line in res.iter_lines():
-            line = line.decode("utf-8")
-            if line.startswith("data-version:"):
-                version = line[len("data-version:") :].strip()
-                return version
-    raise ValueError(f"No data-version line contained in {url}")
+        for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+            line = line.strip()
+            if line.startswith("data-version"):
+                return line[len("data-version:") :].strip()
+            if not line:
+                # this means we got past the exposition section
+                return None
+            if i > max_lines:
+                # this might happen if there are tons of axioms
+                # shoved into OBO, but this always comes at the end
+                return None
+    return None
 
 
 class OBOFoundryGetter(Getter):
@@ -289,7 +295,10 @@ class OBOFoundryGetter(Getter):
     def get(self) -> str:
         """Get the OBO version."""
         url = f"https://purl.obolibrary.org/obo/{self.key}.obo"
-        return self.process(get_obo_version(url))
+        version = get_obo_version(url)
+        if version is None:
+            raise ValueError(f"No `data-version` line contained in {url}")
+        return self.process(version)
 
     def process(self, version: str) -> str:
         """Post-process the version string."""
@@ -339,3 +348,26 @@ def _is_version(s: str) -> bool:
 def _is_semantic_version(s: str) -> bool:
     x = s.split(".")
     return len(x) == 3 and x[0].isnumeric() and x[1].isnumeric() and x[2].isnumeric()
+
+
+VERSION_IRI_TAG = "<owl:versionIRI rdf:resource="
+VERSION_IRI_TAG_LEN = len(VERSION_IRI_TAG)
+
+
+def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
+    """Get version from an OWL XML document."""
+    with requests.get(url, stream=True, timeout=60) as res:
+        for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+            line = line.strip()
+            if line.startswith(VERSION_IRI_TAG):
+                return line[VERSION_IRI_TAG_LEN:].removesuffix("/>")
+            if i > max_lines:
+                return None
+    return None
+
+
+def get_obograph_json_version(url: str) -> str | None:
+    """Get version from an OBO Graph JSON document."""
+    res = requests.get(url, timeout=60).json()
+    version = res["graphs"][0]["meta"]["version"]
+    return version
