@@ -358,7 +358,7 @@ def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get version from an OWL XML document."""
     with requests.get(url, stream=True, timeout=60) as res:
         for i, line in enumerate(res.iter_lines(decode_unicode=True)):
-            line = line.strip()
+            line = line.decode("utf-8").strip()
             if line.startswith(VERSION_IRI_TAG):
                 return line[VERSION_IRI_TAG_LEN:].removesuffix("/>")
             if i > max_lines:
