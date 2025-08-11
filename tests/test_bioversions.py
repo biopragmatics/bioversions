@@ -54,7 +54,8 @@ class TestGetter(unittest.TestCase):
     def test_get_obo_version(self) -> None:
         """Test getting an OBO version."""
         version = get_obo_version("https://current.geneontology.org/ontology/go.obo")
-        self.assertIsNotNone(version)
+        if version is None:
+            raise ValueError
         version = version.removeprefix("releases/")
         self.assertRegex(version, YYYYMMDD)
 
