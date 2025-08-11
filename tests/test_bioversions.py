@@ -59,6 +59,13 @@ class TestGetter(unittest.TestCase):
         version = version.removeprefix("releases/")
         self.assertRegex(version, YYYYMMDD)
 
+        # cellosaurus gives bytes
+        v2 = get_obo_version("https://ftp.expasy.org/databases/cellosaurus/cellosaurus.obo")
+        if v2 is None:
+            raise ValueError
+        v2_2 = float(v2)  # they use sequential versioning like 50.1
+        self.assertGreater(v2_2, 50)
+
     def test_get_obograph_version(self) -> None:
         """Test getting an OBO graph version."""
         version = get_obograph_json_version("http://purl.obolibrary.org/obo/go.json")
@@ -66,8 +73,13 @@ class TestGetter(unittest.TestCase):
 
     def test_get_owl_xml_version(self) -> None:
         """Test getting an OWL XML version."""
-        version = get_owl_xml_version("https://current.geneontology.org/ontology/go.owl")
-        self.assertRegex(_clean_owl(version), YYYYMMDD)
+        for url in [
+            "https://current.geneontology.org/ontology/go.owl",
+            "https://addictovocab.org/addicto.owl",
+        ]:
+            with self.subTest(url=url):
+                version = get_owl_xml_version(url)
+                self.assertRegex(_clean_owl(version), YYYYMMDD)
 
 
 def _clean_owl(version: str | None) -> str:
