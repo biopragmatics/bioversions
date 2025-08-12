@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1088,
-    "date": "2025-08-11",
+    "revision": 1089,
+    "date": "2025-08-12",
     "author": "runner"
   },
   "database": [
@@ -918,6 +918,11 @@
           "retrieved": "2025-08-09",
           "version": "2025-08-08",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-08-11",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1057,6 +1062,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "2025-06-17"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-08-01"
         }
       ],
       "vtype": "date"
@@ -2163,6 +2172,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-06-20"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-07-30"
         }
       ],
       "prefix": "cl",
@@ -2919,6 +2932,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "2.250"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2.251"
         }
       ],
       "vtype": "date"
@@ -4587,6 +4604,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "2025-06-16"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-07-31"
         }
       ],
       "vtype": "date"
@@ -8301,6 +8322,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-06-18"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-07-29"
         }
       ],
       "vtype": "date"
@@ -8588,6 +8613,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "2.157"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2.158"
         }
       ],
       "vtype": "date"
@@ -9399,6 +9428,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-01"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-08-05"
         }
       ],
       "vtype": "date"
@@ -11822,6 +11855,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-01"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-07-28"
         }
       ],
       "vtype": "date"
@@ -12404,6 +12441,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-01-24"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-07-31"
         }
       ],
       "name": "Ontology of Organizational Structures of Trauma centers and Trauma systems",
@@ -14204,6 +14245,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-10"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-07-21"
         }
       ],
       "vtype": "date"
@@ -14553,6 +14598,10 @@
         {
           "retrieved": "2025-08-05",
           "version": "2025-08-01"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-08-08"
         }
       ],
       "name": "Rat Genome Database",
@@ -14694,6 +14743,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "6.254"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "6.255"
         }
       ],
       "vtype": "date"
@@ -18857,6 +18910,10 @@
         {
           "retrieved": "2025-08-11",
           "version": "2025-08-11"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-08-12"
         }
       ],
       "name": "SwissLipids",
@@ -19313,6 +19370,10 @@
         {
           "retrieved": "2025-06-15",
           "version": "2025-06-07"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-08-01"
         }
       ],
       "name": "The Food Ontology",
@@ -24858,6 +24919,10 @@
         {
           "retrieved": "2025-08-11",
           "version": "2025-08-09"
+        },
+        {
+          "retrieved": "2025-08-12",
+          "version": "2025-08-10"
         }
       ],
       "name": "Zebrafish Information Network",
