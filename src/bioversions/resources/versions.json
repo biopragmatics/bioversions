@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1089,
-    "date": "2025-08-12",
+    "revision": 1090,
+    "date": "2025-08-13",
     "author": "runner"
   },
   "database": [
@@ -21,6 +21,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-03-17"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-07"
         }
       ],
       "name": "Addiction Ontology",
@@ -922,6 +926,11 @@
         {
           "retrieved": "2025-08-12",
           "version": "2025-08-11",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-12",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4250,6 +4259,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-29"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-07"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -4361,6 +4374,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-30"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-07"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -6087,6 +6104,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-30"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-07"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -8446,6 +8467,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "4.1.195"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "4.1.198"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -15585,6 +15610,10 @@
         {
           "retrieved": "2025-04-06",
           "version": "20200131"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "20250624"
         }
       ],
       "name": "SNOMED CT (International Edition)",
@@ -18914,6 +18943,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2025-08-12"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-13"
         }
       ],
       "name": "SwissLipids",
@@ -20327,6 +20360,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-15"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-07"
         }
       ],
       "vtype": "date"
@@ -24923,6 +24960,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2025-08-10"
+        },
+        {
+          "retrieved": "2025-08-13",
+          "version": "2025-08-11"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 # Summary of Errors
 
 - **Online Mendelian Inheritance in Man**
-  `[Online Mendelian Inheritance in Man] issue parsing: time data 'Augu 8, 2025' does not match format '%B %d, %Y'`
+  `[Online Mendelian Inheritance in Man] issue parsing: time data 'Augu 11, 2025' does not match format '%B %d, %Y'`
 
 ## Online Mendelian Inheritance in Man
 
@@ -47,6 +47,6 @@ Traceback (most recent call last):
                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/_strptime.py", line 432, in _strptime
     raise ValueError("time data %r does not match format %r" %
-ValueError: time data 'Augu 8, 2025' does not match format '%B %d, %Y'
+ValueError: time data 'Augu 11, 2025' does not match format '%B %d, %Y'
 
 ```
