@@ -65,6 +65,7 @@ dependencies = [
     "lxml",
     "pydantic>=2.0",
     "psycopg2-binary",
+    "python-dateutil",
 ]
 
 # see https://peps.python.org/pep-0735/ and https://docs.astral.sh/uv/concepts/dependencies/#dependency-groups
