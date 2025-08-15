@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1091,
-    "date": "2025-08-14",
+    "revision": 1092,
+    "date": "2025-08-15",
     "author": "runner"
   },
   "database": [
@@ -937,6 +937,11 @@
           "retrieved": "2025-08-14",
           "version": "2025-08-13",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-14",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1779,6 +1784,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-12"
         }
       ],
       "name": "C. elegans development ontology",
@@ -1953,6 +1962,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-12"
         }
       ],
       "name": "C. elegans phenotype",
@@ -2255,6 +2268,11 @@
           "retrieved": "2025-04-11",
           "version": "52.0",
           "date": "2025-04-10"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "53.0",
+          "date": "2025-08-14"
         }
       ],
       "name": "Cellosaurus",
@@ -2950,6 +2968,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2.251"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2.252"
         }
       ],
       "vtype": "date"
@@ -5298,6 +5320,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "4.209"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "4.210"
         }
       ],
       "vtype": "date"
@@ -7376,6 +7402,10 @@
         {
           "retrieved": "2025-07-05",
           "version": "2025-05-06"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-11"
         }
       ],
       "vtype": "date"
@@ -8476,6 +8506,10 @@
         {
           "retrieved": "2025-08-13",
           "version": "4.1.198"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "4.1.199"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -11741,6 +11775,10 @@
         {
           "retrieved": "2025-08-14",
           "version": "2025-08-12"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-13"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14781,6 +14819,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "6.255"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "6.256"
         }
       ],
       "vtype": "date"
@@ -18960,6 +19002,10 @@
         {
           "retrieved": "2025-08-14",
           "version": "2025-08-14"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-15"
         }
       ],
       "name": "SwissLipids",
@@ -20222,6 +20268,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-12"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-12"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -24981,6 +25031,10 @@
         {
           "retrieved": "2025-08-14",
           "version": "2025-08-12"
+        },
+        {
+          "retrieved": "2025-08-15",
+          "version": "2025-08-13"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-08-14'
-  revision: 1091
+  date: '2025-08-15'
+  revision: 1092
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -548,6 +548,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-08-14'
     version: '2025-08-13'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-15'
+    version: '2025-08-14'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1006,6 +1009,8 @@ database:
     version: '2025-01-04'
   - retrieved: '2025-04-20'
     version: '2025-04-01'
+  - retrieved: '2025-08-15'
+    version: '2025-08-12'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -1094,6 +1099,8 @@ database:
     version: '2025-01-02'
   - retrieved: '2025-04-20'
     version: '2025-04-01'
+  - retrieved: '2025-08-15'
+    version: '2025-08-12'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -1254,6 +1261,9 @@ database:
   - date: '2025-04-10'
     retrieved: '2025-04-11'
     version: '52.0'
+  - date: '2025-08-14'
+    retrieved: '2025-08-15'
+    version: '53.0'
   vtype: sequential
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
@@ -1639,6 +1649,8 @@ database:
     version: '2.250'
   - retrieved: '2025-08-12'
     version: '2.251'
+  - retrieved: '2025-08-15'
+    version: '2.252'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2930,6 +2942,8 @@ database:
     version: '4.207'
   - retrieved: '2025-08-03'
     version: '4.209'
+  - retrieved: '2025-08-15'
+    version: '4.210'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4078,6 +4092,8 @@ database:
     version: '2025-01-16'
   - retrieved: '2025-07-05'
     version: '2025-05-06'
+  - retrieved: '2025-08-15'
+    version: '2025-08-11'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -4696,6 +4712,8 @@ database:
     version: 4.1.195
   - retrieved: '2025-08-13'
     version: 4.1.198
+  - retrieved: '2025-08-15'
+    version: 4.1.199
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -6504,6 +6522,8 @@ database:
     version: '2025-07-31'
   - retrieved: '2025-08-14'
     version: '2025-08-12'
+  - retrieved: '2025-08-15'
+    version: '2025-08-13'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8158,6 +8178,8 @@ database:
     version: '6.254'
   - retrieved: '2025-08-12'
     version: '6.255'
+  - retrieved: '2025-08-15'
+    version: '6.256'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -10303,6 +10325,8 @@ database:
     version: '2025-08-13'
   - retrieved: '2025-08-14'
     version: '2025-08-14'
+  - retrieved: '2025-08-15'
+    version: '2025-08-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10977,6 +11001,8 @@ database:
     version: '2024-11-06'
   - retrieved: '2025-02-27'
     version: '2025-02-12'
+  - retrieved: '2025-08-15'
+    version: '2025-08-12'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -13552,6 +13578,8 @@ database:
     version: '2025-08-11'
   - retrieved: '2025-08-14'
     version: '2025-08-12'
+  - retrieved: '2025-08-15'
+    version: '2025-08-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
