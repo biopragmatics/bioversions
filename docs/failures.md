@@ -1,10 +1,10 @@
 # Summary of Errors
 
-- **ChEMBL** `[chembl] failed to resolve: [Errno 104] Connection reset by peer`
+- **FlyBase** `[flybase] issue parsing: flybase hit anti-scraping measurements`
 
-## ChEMBL
+## FlyBase
 
-Using class: `ChEMBLGetter`
+Using class: `FlybaseGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -38,26 +38,8 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 96, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/chembl.py", line 30, in get
-    with ftplib.FTP("ftp.ebi.ac.uk") as ftp:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/ftplib.py", line 121, in __init__
-    self.connect(host)
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/ftplib.py", line 162, in connect
-    self.welcome = self.getresp()
-                   ^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/ftplib.py", line 244, in getresp
-    resp = self.getmultiline()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/ftplib.py", line 230, in getmultiline
-    line = self.getline()
-           ^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/ftplib.py", line 212, in getline
-    line = self.file.readline(self.maxline + 1)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/socket.py", line 720, in readinto
-    return self._sock.recv_into(b)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-ConnectionResetError: [Errno 104] Connection reset by peer
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/flybase.py", line 36, in get
+    raise ValueError("flybase hit anti-scraping measurements")
+ValueError: flybase hit anti-scraping measurements
 
 ```
