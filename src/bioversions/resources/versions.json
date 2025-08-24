@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1100,
-    "date": "2025-08-23",
+    "revision": 1101,
+    "date": "2025-08-24",
     "author": "runner"
   },
   "database": [
@@ -1896,6 +1896,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-26"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-19"
         }
       ],
       "vtype": "date"
@@ -4879,6 +4883,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-02-05"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-19"
         }
       ],
       "vtype": "date"
@@ -5359,6 +5367,10 @@
         {
           "retrieved": "2025-08-15",
           "version": "4.210"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "4.211"
         }
       ],
       "vtype": "date"
@@ -5562,6 +5574,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "3.80.0"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "3.81.0"
         }
       ],
       "vtype": "semver"
@@ -5922,6 +5938,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-04"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-13"
         }
       ],
       "vtype": "date"
@@ -8716,6 +8736,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2.158"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2.159"
         }
       ],
       "vtype": "date"
@@ -11843,6 +11867,10 @@
         {
           "retrieved": "2025-08-23",
           "version": "2025-08-21"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-22"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12358,6 +12386,10 @@
         {
           "retrieved": "2025-04-03",
           "version": "2025-03-28"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-20"
         }
       ],
       "vtype": "date"
@@ -14891,6 +14923,10 @@
         {
           "retrieved": "2025-08-15",
           "version": "6.256"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "6.257"
         }
       ],
       "vtype": "date"
@@ -15832,6 +15868,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-02-26"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-18"
         }
       ],
       "name": "Space Life Sciences Ontology",
@@ -19118,6 +19158,10 @@
         {
           "retrieved": "2025-08-23",
           "version": "2025-08-23"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-24"
         }
       ],
       "name": "SwissLipids",
@@ -19852,6 +19896,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-28"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-15"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -20539,6 +20587,10 @@
         {
           "retrieved": "2025-08-13",
           "version": "2025-08-07"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-20"
         }
       ],
       "vtype": "date"
@@ -25175,6 +25227,10 @@
         {
           "retrieved": "2025-08-23",
           "version": "2025-08-21"
+        },
+        {
+          "retrieved": "2025-08-24",
+          "version": "2025-08-22"
         }
       ],
       "name": "Zebrafish Information Network",

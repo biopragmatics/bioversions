@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-08-23'
-  revision: 1100
+  date: '2025-08-24'
+  revision: 1101
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1068,6 +1068,8 @@ database:
     version: '2025-01-02'
   - retrieved: '2025-04-03'
     version: '2025-03-26'
+  - retrieved: '2025-08-24'
+    version: '2025-08-19'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -2718,6 +2720,8 @@ database:
     version: '2024-07-01'
   - retrieved: '2025-02-27'
     version: '2025-02-05'
+  - retrieved: '2025-08-24'
+    version: '2025-08-19'
   vtype: date
 - name: Environment Ontology for Livestock
   prefix: eol
@@ -2965,6 +2969,8 @@ database:
     version: '4.209'
   - retrieved: '2025-08-15'
     version: '4.210'
+  - retrieved: '2025-08-24'
+    version: '4.211'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -3067,6 +3073,8 @@ database:
     version: 3.79.0
   - retrieved: '2025-07-22'
     version: 3.80.0
+  - retrieved: '2025-08-24'
+    version: 3.81.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -3249,6 +3257,8 @@ database:
     version: '2025-05-09'
   - retrieved: '2025-07-22'
     version: '2025-07-04'
+  - retrieved: '2025-08-24'
+    version: '2025-08-13'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -4821,6 +4831,8 @@ database:
     version: '2.157'
   - retrieved: '2025-08-12'
     version: '2.158'
+  - retrieved: '2025-08-24'
+    version: '2.159'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -6560,6 +6572,8 @@ database:
     version: '2025-08-20'
   - retrieved: '2025-08-23'
     version: '2025-08-21'
+  - retrieved: '2025-08-24'
+    version: '2025-08-22'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6826,6 +6840,8 @@ database:
     version: '2025-01-14'
   - retrieved: '2025-04-03'
     version: '2025-03-28'
+  - retrieved: '2025-08-24'
+    version: '2025-08-20'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -8218,6 +8234,8 @@ database:
     version: '6.255'
   - retrieved: '2025-08-15'
     version: '6.256'
+  - retrieved: '2025-08-24'
+    version: '6.257'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -8739,6 +8757,8 @@ database:
   releases:
   - retrieved: '2025-06-27'
     version: '2025-02-26'
+  - retrieved: '2025-08-24'
+    version: '2025-08-18'
   vtype: date
 - name: Spider Ontology
   prefix: spd
@@ -10387,6 +10407,8 @@ database:
     version: '2025-08-22'
   - retrieved: '2025-08-23'
     version: '2025-08-23'
+  - retrieved: '2025-08-24'
+    version: '2025-08-24'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10768,6 +10790,8 @@ database:
     version: '2025-04-09'
   - retrieved: '2025-06-09'
     version: '2025-05-28'
+  - retrieved: '2025-08-24'
+    version: '2025-08-15'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -11141,6 +11165,8 @@ database:
     version: '2025-07-15'
   - retrieved: '2025-08-13'
     version: '2025-08-07'
+  - retrieved: '2025-08-24'
+    version: '2025-08-20'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -13654,6 +13680,8 @@ database:
     version: '2025-08-20'
   - retrieved: '2025-08-23'
     version: '2025-08-21'
+  - retrieved: '2025-08-24'
+    version: '2025-08-22'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
