@@ -2,17 +2,33 @@
 
 import datetime
 import enum
-import ftplib
 import os
 from collections.abc import Mapping
 from typing import Any, ClassVar
 
 import bioregistry
 import pydantic
-import pystow
+import pystow.utils
 import requests
-from bs4 import BeautifulSoup, Tag
+from bs4 import Tag
 from cachier import cachier
+from pystow.utils import get_soup
+
+__all__ = [
+    "DailyGetter",
+    "Getter",
+    "MetaGetter",
+    "OBOFoundryGetter",
+    "UnversionedGetter",
+    "VersionResult",
+    "VersionType",
+    "find",
+    "get_obo_version",
+    "get_obograph_json_version",
+    "get_owl_xml_version",
+    "norm",
+    "refresh_daily",
+]
 
 BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -41,27 +57,6 @@ class VersionType(enum.Enum):
 def norm(s: str) -> str:
     """Normalize a string for dictionary lookup."""
     return s.lower().replace(" ", "").replace("-", "").replace(".", "")
-
-
-def get_soup(
-    url: str, verify: bool = True, timeout: int | None = None, user_agent: str | None = None
-) -> BeautifulSoup:
-    """Get a beautiful soup parsed version of the given web page.
-
-    :param url: The URL to download and parse with BeautifulSoup
-    :param verify: Should SSL be used? This is almost always true,
-        except for Ensembl, which makes a big pain
-    :param timeout: How many integer seconds to wait for a response?
-        Defaults to 15 if none given.
-    :param user_agent: A custom user-agent to set, e.g., to avoid anti-crawling mechanisms
-    :returns: A BeautifulSoup object
-    """
-    headers = {}
-    if user_agent:
-        headers["User-Agent"] = user_agent
-    res = requests.get(url, verify=verify, timeout=timeout or 15, headers=headers)
-    soup = BeautifulSoup(res.text, features="html.parser")
-    return soup
 
 
 def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
@@ -311,20 +306,6 @@ class OBOFoundryGetter(Getter):
         if self.strip_file_suffix:
             version = version[: -(len(self.key) + 5)]
         return version
-
-
-def _get_ftp_version(host: str, directory: str) -> str:
-    with ftplib.FTP(host) as ftp:
-        ftp.login()
-        ftp.cwd(directory)
-        names = sorted(
-            [
-                tuple(int(part) for part in name.split("."))
-                for name in ftp.nlst()
-                if _is_version(name)
-            ]
-        )
-    return ".".join(map(str, names[-1]))
 
 
 def _get_ftp_date_version(host: str, directory: str) -> str:
