@@ -3,20 +3,9 @@
 from bioversions.utils import OBOFoundryGetter, VersionType
 
 __all__ = [
-    "ChebiGetter",
     "DoidGetter",
     "GoGetter",
-    "PrGetter",
 ]
-
-
-class ChebiGetter(OBOFoundryGetter):
-    """A getter for ChEBI."""
-
-    name = "ChEBI"
-    bioregistry_id = "chebi"
-    version_type = VersionType.sequential
-    homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel{version}/"
 
 
 class GoGetter(OBOFoundryGetter):
@@ -40,12 +29,3 @@ class DoidGetter(OBOFoundryGetter):
     strip_version_prefix = True
     strip_file_suffix = True
     date_version_fmt = "%Y-%m-%d"
-
-
-class PrGetter(OBOFoundryGetter):
-    """A getter for the Protein Ontology (PR)."""
-
-    name = "Protein Ontology"
-    bioregistry_id = "pr"
-    version_type = VersionType.semver_minor
-    homepage_fmt = "https://proconsortium.org/download/release_{version}/"

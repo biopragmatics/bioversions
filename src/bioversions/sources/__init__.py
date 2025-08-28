@@ -48,8 +48,8 @@ from .moalmanac import MOAlmanacGetter
 from .msigdb import MSigDBGetter
 from .ncit import NCItGetter
 from .npass import NPASSGetter
-from .obo import ChebiGetter, DoidGetter, GoGetter, PrGetter
-from .ols import iter_ols_getters
+from .obo import DoidGetter, GoGetter
+from .ols import extend_ols
 from .omim import OMIMGetter
 from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
@@ -82,7 +82,6 @@ __all__ = [
     "CellosaurusGetter",
     "ChEBIGetter",
     "ChEMBLGetter",
-    "ChebiGetter",
     "ChemIDplusGetter",
     "CiVICGetter",
     "ComplexPortalGetter",
@@ -160,11 +159,7 @@ version_getter_resolver: ClassResolver[Getter] = ClassResolver.from_subclasses(
     skip=SKIPPED,
     synonym_attribute=["collection"],
 )
-
-for ols_getter in iter_ols_getters():
-    if ols_getter.bioregistry_id in version_getter_resolver:
-        continue
-    version_getter_resolver.register(ols_getter)
+extend_ols(version_getter_resolver)
 
 
 @lru_cache(maxsize=1)
