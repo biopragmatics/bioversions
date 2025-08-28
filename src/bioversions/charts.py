@@ -7,7 +7,7 @@ import click
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from bioversions.sources import get_getters
+from bioversions.sources import getter_resolver
 from bioversions.utils import IMG, VersionType
 
 sns.set(style="whitegrid")
@@ -17,7 +17,7 @@ def version_types_pie_chart() -> None:
     """Make a pie chart with types of versions."""
     counter = Counter(
         "Missing" if getter.version_type is None else getter.version_type.value
-        for getter in get_getters()
+        for getter in getter_resolver
     )
     labels, counts = zip(*counter.most_common(), strict=False)
     fig, ax = plt.subplots()
@@ -38,7 +38,7 @@ def verioning_date_formats_pie_chart() -> None:
     """Make a pie chart with types of date/month versions."""
     counter = Counter(
         getter.date_version_fmt
-        for getter in get_getters()
+        for getter in getter_resolver
         if getter.version_type in {VersionType.date, VersionType.month}
     )
     labels, counts = zip(*counter.most_common(), strict=False)
@@ -60,7 +60,7 @@ def has_release_url() -> None:
     """Make a pie chart for how many have a release URL."""
     counter = Counter(
         "Has Stable Version URL" if getter.homepage_fmt is not None else "No Stable Version URL"
-        for getter in get_getters()
+        for getter in getter_resolver
         if getter.version_type != VersionType.unversioned
     )
     labels, counts = zip(*counter.most_common(), strict=False)

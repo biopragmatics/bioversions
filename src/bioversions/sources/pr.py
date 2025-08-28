@@ -16,7 +16,7 @@ class PRGetter(Getter):
     name = "Protein Ontology"
     version_type = VersionType.semver_minor
     date_fmt = "%m/%d/%Y"
-    homepage_fmt = "https://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel{version}/"
+    homepage_fmt = "https://proconsortium.org/download/release_{version}/"
 
     def get(self):
         """Get the latest Protein Ontology version number."""

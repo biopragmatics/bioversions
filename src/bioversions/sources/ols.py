@@ -1,12 +1,12 @@
 """Get versions from the OLS."""
 
 import logging
-from collections.abc import Iterable
-from typing import cast
+from typing import ClassVar, cast
 
 import bioregistry
 from bioregistry.external.ols import get_ols_processing
 from bioregistry.resolve import get_name
+from class_resolver import ClassResolver
 
 from bioversions.utils import Getter, VersionType
 
@@ -65,32 +65,27 @@ def make_ols_getter(bioregistry_id: str) -> type[Getter] | None:
     class OlsGetter(Getter):
         """A getter for OLS data from the Bioregistry."""
 
-        bioregistry_id = _brid
-        name = cast(str, _name)
-        version_type = _version_type  # type:ignore
+        bioregistry_id: ClassVar[str] = _brid
+        name: ClassVar[str] = cast(str, _name)
+        version_type: ClassVar[str] = _version_type  # type:ignore
 
         def get(self) -> str:
             """Get the version from the Bioregistry."""
             return cast(str, version)
 
-    return OlsGetter
+    return type(f"{_brid.title()}Getter", (OlsGetter,), locals())
 
 
-def iter_ols_getters() -> Iterable[type[Getter]]:
-    """Iterate over OLS getters."""
+def extend_ols(version_getter_resolver: ClassResolver[Getter]) -> None:
+    """Add OLS lookup."""
     for bioregistry_id in bioregistry.read_registry():
-        yv = make_ols_getter(bioregistry_id)
-        if yv is not None:
-            yield yv
-
-
-def extend_ols_getters(getters: list[type[Getter]]) -> None:
-    """Extend the getters, without adding duplicates."""
-    for ols_getter in iter_ols_getters():
-        if any(getter.bioregistry_id == ols_getter.bioregistry_id for getter in getters):
+        try:
+            version_getter_resolver.lookup(bioregistry_id)
+        except KeyError:
+            pass
+        else:
             continue
-        getters.append(ols_getter)
-
-
-if __name__ == "__main__":
-    list(iter_ols_getters())
+        getter = make_ols_getter(bioregistry_id)
+        if getter is None:
+            continue
+        version_getter_resolver.register(getter)
