@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-07-16'
-  revision: 1062
+  date: '2025-08-28'
+  revision: 1105
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -14,6 +14,8 @@ database:
   releases:
   - retrieved: '2025-06-27'
     version: '2025-03-17'
+  - retrieved: '2025-08-13'
+    version: '2025-08-07'
   vtype: date
 - name: African Population Ontology
   prefix: afpo
@@ -66,6 +68,8 @@ database:
     version: 2025/03
   - retrieved: '2025-06-27'
     version: '2025-03-01'
+  - retrieved: '2025-07-22'
+    version: '2025-06-01'
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -475,6 +479,108 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-07-16'
     version: '2025-07-15'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-17'
+    version: '2025-07-16'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-18'
+    version: '2025-07-17'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-19'
+    version: '2025-07-18'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-20'
+    version: '2025-07-19'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-22'
+    version: '2025-07-21'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-23'
+    version: '2025-07-22'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-24'
+    version: '2025-07-23'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-25'
+    version: '2025-07-24'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-26'
+    version: '2025-07-25'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-29'
+    version: '2025-07-28'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-30'
+    version: '2025-07-29'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-07-31'
+    version: '2025-07-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-01'
+    version: '2025-07-31'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-04'
+    version: '2025-08-03'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-05'
+    version: '2025-08-04'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-06'
+    version: '2025-08-05'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-07'
+    version: '2025-08-06'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-08'
+    version: '2025-08-07'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-09'
+    version: '2025-08-08'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-12'
+    version: '2025-08-11'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-13'
+    version: '2025-08-12'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-14'
+    version: '2025-08-13'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-15'
+    version: '2025-08-14'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-16'
+    version: '2025-08-15'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-18'
+    version: '2025-08-14'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-19'
+    version: '2025-08-18'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-20'
+    version: '2025-08-19'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-21'
+    version: '2025-08-20'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-22'
+    version: '2025-08-21'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-23'
+    version: '2025-08-22'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-26'
+    version: '2025-08-25'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-27'
+    version: '2025-08-26'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-28'
+    version: '2025-08-27'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -545,6 +651,8 @@ database:
     version: '2025-03-25'
   - retrieved: '2025-06-22'
     version: '2025-06-17'
+  - retrieved: '2025-08-12'
+    version: '2025-08-01'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -631,6 +739,8 @@ database:
     version: 2.8.13
   - retrieved: '2025-04-20'
     version: 2.8.14
+  - retrieved: '2025-07-22'
+    version: 2.8.16
   vtype: semver
 - name: Biofacquim
   releases:
@@ -784,6 +894,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.247
     retrieved: '2025-07-02'
     version: 4.4.247
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.248
+    retrieved: '2025-08-06'
+    version: 4.4.248
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -926,6 +1039,8 @@ database:
     version: '2025-01-04'
   - retrieved: '2025-04-20'
     version: '2025-04-01'
+  - retrieved: '2025-08-15'
+    version: '2025-08-12'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -962,6 +1077,8 @@ database:
     version: '2025-01-02'
   - retrieved: '2025-04-03'
     version: '2025-03-26'
+  - retrieved: '2025-08-24'
+    version: '2025-08-19'
   vtype: date
 - name: C. elegans phenotype
   prefix: wbphenotype
@@ -1014,6 +1131,8 @@ database:
     version: '2025-01-02'
   - retrieved: '2025-04-20'
     version: '2025-04-01'
+  - retrieved: '2025-08-15'
+    version: '2025-08-12'
   vtype: date
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
@@ -1132,6 +1251,10 @@ database:
     version: '2025-02-13'
   - retrieved: '2025-04-20'
     version: '2025-04-10'
+  - retrieved: '2025-07-22'
+    version: '2025-06-20'
+  - retrieved: '2025-08-12'
+    version: '2025-07-30'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -1170,6 +1293,9 @@ database:
   - date: '2025-04-10'
     retrieved: '2025-04-11'
     version: '52.0'
+  - date: '2025-08-14'
+    retrieved: '2025-08-15'
+    version: '53.0'
   vtype: sequential
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
@@ -1296,6 +1422,12 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel241/
     retrieved: '2025-04-03'
     version: '241'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel243/
+    retrieved: '2025-07-27'
+    version: '243'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel244/
+    retrieved: '2025-08-02'
+    version: '244'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -1451,6 +1583,8 @@ database:
     version: '2025-06-01'
   - retrieved: '2025-07-02'
     version: '2025-07-01'
+  - retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -1541,6 +1675,14 @@ database:
     version: '2.245'
   - retrieved: '2025-06-22'
     version: '2.246'
+  - retrieved: '2025-07-22'
+    version: '2.248'
+  - retrieved: '2025-08-03'
+    version: '2.250'
+  - retrieved: '2025-08-12'
+    version: '2.251'
+  - retrieved: '2025-08-15'
+    version: '2.252'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -1764,6 +1906,8 @@ database:
     version: '2024-09-20'
   - retrieved: '2025-02-27'
     version: '2025-02-20'
+  - retrieved: '2025-07-22'
+    version: '2025-06-30'
   vtype: date
 - name: Coronavirus Infectious Disease Ontology
   prefix: cido
@@ -2162,6 +2306,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-06-27
     retrieved: '2025-06-28'
     version: '2025-06-27'
+  - date: '2025-08-01'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-08-01
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: DisGeNet
   releases:
@@ -2276,6 +2424,8 @@ database:
     version: '2025-03-27'
   - retrieved: '2025-06-09'
     version: '2025-05-29'
+  - retrieved: '2025-08-13'
+    version: '2025-08-07'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -2332,6 +2482,8 @@ database:
     version: '2025-03-27'
   - retrieved: '2025-06-09'
     version: '2025-05-30'
+  - retrieved: '2025-08-13'
+    version: '2025-08-07'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -2467,6 +2619,8 @@ database:
     version: '2025-01-06'
   - retrieved: '2025-06-22'
     version: '2025-06-16'
+  - retrieved: '2025-08-12'
+    version: '2025-07-31'
   vtype: date
 - name: eNanoMapper Ontology
   prefix: enm
@@ -2575,6 +2729,8 @@ database:
     version: '2024-07-01'
   - retrieved: '2025-02-27'
     version: '2025-02-05'
+  - retrieved: '2025-08-24'
+    version: '2025-08-19'
   vtype: date
 - name: Environment Ontology for Livestock
   prefix: eol
@@ -2613,6 +2769,8 @@ database:
     version: '2024-07-19'
   - retrieved: '2025-06-09'
     version: '2025-04-30'
+  - retrieved: '2025-07-22'
+    version: '2025-06-23'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -2814,6 +2972,14 @@ database:
     version: '4.203'
   - retrieved: '2025-06-22'
     version: '4.204'
+  - retrieved: '2025-07-22'
+    version: '4.207'
+  - retrieved: '2025-08-03'
+    version: '4.209'
+  - retrieved: '2025-08-15'
+    version: '4.210'
+  - retrieved: '2025-08-24'
+    version: '4.211'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -2914,6 +3080,10 @@ database:
     version: 3.78.0
   - retrieved: '2025-06-22'
     version: 3.79.0
+  - retrieved: '2025-07-22'
+    version: 3.80.0
+  - retrieved: '2025-08-24'
+    version: 3.81.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -3094,6 +3264,10 @@ database:
     version: '2025-04-17'
   - retrieved: '2025-06-09'
     version: '2025-05-09'
+  - retrieved: '2025-07-22'
+    version: '2025-07-04'
+  - retrieved: '2025-08-24'
+    version: '2025-08-13'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -3175,6 +3349,9 @@ database:
   - homepage: https://s3ftp.flybase.org/releases/FB2025_02/
     retrieved: '2025-05-07'
     version: '2025_02'
+  - homepage: https://s3ftp.flybase.org/releases/FB2025_03/
+    retrieved: '2025-07-17'
+    version: '2025_03'
   vtype: month
 - name: FlyBase Controlled Vocabulary
   prefix: fbcv
@@ -3229,6 +3406,8 @@ database:
     version: '2025-03-27'
   - retrieved: '2025-06-09'
     version: '2025-05-30'
+  - retrieved: '2025-08-13'
+    version: '2025-08-07'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -3283,6 +3462,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-05-07'
+  - retrieved: '2025-07-22'
+    version: '2025-07-15'
   vtype: date
 - name: FuTRES Ontology of Vertebrate Traits
   prefix: fovt
@@ -3461,6 +3642,10 @@ database:
     homepage: http://archive.geneontology.org/full/2025-06-01/
     retrieved: '2025-06-07'
     version: '2025-06-01'
+  - date: '2025-07-22'
+    homepage: http://archive.geneontology.org/full/2025-07-22/
+    retrieved: '2025-07-26'
+    version: '2025-07-22'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -3513,6 +3698,8 @@ database:
     version: '2023-02-21'
   - retrieved: '2023-11-02'
     version: '2023-10-08'
+  - retrieved: '2025-08-03'
+    version: '2025-07-25'
   vtype: date
 - name: GEO
   prefix: geo
@@ -3747,6 +3934,12 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-07-04.json
     retrieved: '2025-07-05'
     version: '2025-07-04'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-01.json
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-05.json
+    retrieved: '2025-08-06'
+    version: '2025-08-05'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -3939,6 +4132,8 @@ database:
     version: '2025-01-16'
   - retrieved: '2025-07-05'
     version: '2025-05-06'
+  - retrieved: '2025-08-15'
+    version: '2025-08-11'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -4302,6 +4497,8 @@ database:
     version: '2025-06-06'
   - retrieved: '2025-06-28'
     version: '2025-06-26'
+  - retrieved: '2025-08-06'
+    version: '2025-08-01'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -4384,6 +4581,9 @@ database:
   - date: '2025-07-01'
     retrieved: '2025-07-01'
     version: '115.0'
+  - date: '2025-08-01'
+    retrieved: '2025-08-01'
+    version: '115.1'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -4484,6 +4684,12 @@ database:
     version: '2025-01-30'
   - retrieved: '2025-07-05'
     version: '2025-05-22'
+  - retrieved: '2025-07-22'
+    version: '2025-06-18'
+  - retrieved: '2025-08-12'
+    version: '2025-07-29'
+  - retrieved: '2025-08-26'
+    version: '2025-08-21'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -4544,6 +4750,12 @@ database:
     version: 4.1.193
   - retrieved: '2025-07-05'
     version: 4.1.194
+  - retrieved: '2025-08-03'
+    version: 4.1.195
+  - retrieved: '2025-08-13'
+    version: 4.1.198
+  - retrieved: '2025-08-15'
+    version: 4.1.199
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4624,6 +4836,14 @@ database:
     version: '2.152'
   - retrieved: '2025-06-22'
     version: '2.153'
+  - retrieved: '2025-07-22'
+    version: '2.156'
+  - retrieved: '2025-08-03'
+    version: '2.157'
+  - retrieved: '2025-08-12'
+    version: '2.158'
+  - retrieved: '2025-08-24'
+    version: '2.159'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -4698,6 +4918,8 @@ database:
     version: '2021-11-17'
   - retrieved: '2023-05-11'
     version: '2022-07-19'
+  - retrieved: '2025-07-22'
+    version: '2025-07-08'
   vtype: date
 - name: MeSH
   prefix: mesh
@@ -5064,6 +5286,10 @@ database:
     version: '2025-04-01'
   - retrieved: '2025-06-09'
     version: '2025-06-03'
+  - retrieved: '2025-07-22'
+    version: '2025-07-01'
+  - retrieved: '2025-08-12'
+    version: '2025-08-05'
   vtype: date
 - name: MOP
   prefix: mop
@@ -5102,6 +5328,10 @@ database:
     version: '2025-02-10'
   - retrieved: '2025-04-27'
     version: '2025-04-17'
+  - retrieved: '2025-07-22'
+    version: '2025-07-04'
+  - retrieved: '2025-08-03'
+    version: '2025-07-28'
   vtype: date
 - name: Mouse Developmental Anatomy Ontology
   prefix: emapa
@@ -5340,6 +5570,12 @@ database:
   - date: '2025-07-14'
     retrieved: '2025-07-16'
     version: 25.07b
+  - date: '2025-06-30'
+    retrieved: '2025-07-23'
+    version: 25.06e
+  - date: '2025-08-18'
+    retrieved: '2025-08-20'
+    version: 25.08c
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -5498,6 +5734,8 @@ database:
     version: '2023-11-02'
   - retrieved: '2024-11-17'
     version: '2024-11-13'
+  - retrieved: '2025-07-22'
+    version: '2025-06-18'
   vtype: date
 - name: Obstetric and Neonatal Ontology
   prefix: ontoneo
@@ -6305,6 +6543,52 @@ database:
     version: '2025-07-11'
   - retrieved: '2025-07-16'
     version: '2025-07-14'
+  - retrieved: '2025-07-17'
+    version: '2025-07-15'
+  - retrieved: '2025-07-18'
+    version: '2025-07-16'
+  - retrieved: '2025-07-19'
+    version: '2025-07-17'
+  - retrieved: '2025-07-20'
+    version: '2025-07-18'
+  - retrieved: '2025-07-23'
+    version: '2025-07-21'
+  - retrieved: '2025-07-24'
+    version: '2025-07-22'
+  - retrieved: '2025-07-25'
+    version: '2025-07-23'
+  - retrieved: '2025-07-26'
+    version: '2025-07-24'
+  - retrieved: '2025-07-27'
+    version: '2025-07-25'
+  - retrieved: '2025-07-30'
+    version: '2025-07-28'
+  - retrieved: '2025-07-31'
+    version: '2025-07-29'
+  - retrieved: '2025-08-02'
+    version: '2025-07-31'
+  - retrieved: '2025-08-14'
+    version: '2025-08-12'
+  - retrieved: '2025-08-15'
+    version: '2025-08-13'
+  - retrieved: '2025-08-16'
+    version: '2025-08-14'
+  - retrieved: '2025-08-17'
+    version: '2025-08-15'
+  - retrieved: '2025-08-20'
+    version: '2025-08-18'
+  - retrieved: '2025-08-21'
+    version: '2025-08-19'
+  - retrieved: '2025-08-22'
+    version: '2025-08-20'
+  - retrieved: '2025-08-23'
+    version: '2025-08-21'
+  - retrieved: '2025-08-24'
+    version: '2025-08-22'
+  - retrieved: '2025-08-27'
+    version: '2025-08-25'
+  - retrieved: '2025-08-28'
+    version: '2025-08-26'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -6381,6 +6665,8 @@ database:
     version: '2025-03-06'
   - retrieved: '2025-06-09'
     version: '2025-05-01'
+  - retrieved: '2025-08-12'
+    version: '2025-07-28'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -6423,6 +6709,8 @@ database:
     version: '2024-11-25'
   - retrieved: '2025-04-03'
     version: '2025-03-26'
+  - retrieved: '2025-07-22'
+    version: '2025-06-30'
   vtype: date
 - name: Ontology for Nutritional Studies
   prefix: ons
@@ -6567,6 +6855,8 @@ database:
     version: '2025-01-14'
   - retrieved: '2025-04-03'
     version: '2025-03-28'
+  - retrieved: '2025-08-24'
+    version: '2025-08-20'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -6681,6 +6971,8 @@ database:
     version: '2024-09-30'
   - retrieved: '2025-02-27'
     version: '2025-01-24'
+  - retrieved: '2025-08-12'
+    version: '2025-07-31'
   vtype: date
 - name: Ontology of Precision Medicine and Investigation
   prefix: opmi
@@ -6819,6 +7111,8 @@ database:
     version: '2024-03-01'
   - retrieved: '2024-08-11'
     version: '2024-06-21'
+  - retrieved: '2025-07-22'
+    version: '2025-06-28'
   vtype: date
 - name: Orphanet Rare Disease Ontology
   prefix: orphanet.ordo
@@ -6843,6 +7137,8 @@ database:
     version: '4.5'
   - retrieved: '2024-12-15'
     version: '4.6'
+  - retrieved: '2025-07-22'
+    version: '4.7'
   vtype: semver
 - name: Orthology Ontology
   prefix: orth
@@ -6900,6 +7196,8 @@ database:
     version: '2024-04-04'
   - retrieved: '2024-09-08'
     version: '2024-08-29'
+  - retrieved: '2025-08-03'
+    version: '2025-07-29'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -6963,6 +7261,8 @@ database:
     version: '7.91'
   - retrieved: '2025-06-09'
     version: '7.93'
+  - retrieved: '2025-08-03'
+    version: '7.94'
   vtype: date
 - name: PATO
   prefix: pato
@@ -7377,6 +7677,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-07-01/
     retrieved: '2025-07-02'
     version: '2025-07-01'
+  - date: '2025-08-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-08-01/
+    retrieved: '2025-08-02'
+    version: '2025-08-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -7526,6 +7830,8 @@ database:
     version: '2024-07-11'
   - retrieved: '2025-01-12'
     version: '2025-01-08'
+  - retrieved: '2025-07-22'
+    version: '2025-07-07'
   vtype: date
 - name: PubChem
   releases:
@@ -7640,6 +7946,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-07-01
     retrieved: '2025-07-01'
     version: '2025-07-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-08-01
+    retrieved: '2025-08-01'
+    version: '2025-08-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -7682,6 +7991,10 @@ database:
     version: '2025-03-20'
   - retrieved: '2025-06-15'
     version: '2025-05-30'
+  - retrieved: '2025-07-22'
+    version: '2025-07-10'
+  - retrieved: '2025-08-12'
+    version: '2025-07-21'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -7852,6 +8165,18 @@ database:
     version: '2025-07-04'
   - retrieved: '2025-07-15'
     version: '2025-07-11'
+  - retrieved: '2025-07-22'
+    version: '2025-07-19'
+  - retrieved: '2025-07-29'
+    version: '2025-07-25'
+  - retrieved: '2025-08-05'
+    version: '2025-08-01'
+  - retrieved: '2025-08-12'
+    version: '2025-08-08'
+  - retrieved: '2025-08-19'
+    version: '2025-08-16'
+  - retrieved: '2025-08-26'
+    version: '2025-08-23'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -7918,6 +8243,16 @@ database:
     version: '6.249'
   - retrieved: '2025-06-22'
     version: '6.250'
+  - retrieved: '2025-07-22'
+    version: '6.252'
+  - retrieved: '2025-08-03'
+    version: '6.254'
+  - retrieved: '2025-08-12'
+    version: '6.255'
+  - retrieved: '2025-08-15'
+    version: '6.256'
+  - retrieved: '2025-08-24'
+    version: '6.257'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -8018,6 +8353,8 @@ database:
     version: '2024-04-24'
   - retrieved: '2025-03-23'
     version: '2025-03-05'
+  - retrieved: '2025-07-22'
+    version: '2025-06-24'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -8265,6 +8602,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_07072025.zip
     retrieved: '2025-07-08'
     version: '2025-07-07'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_08042025.zip
+    retrieved: '2025-08-05'
+    version: '2025-08-04'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -8380,6 +8720,8 @@ database:
     version: '2020-01-31'
   - retrieved: '2025-04-06'
     version: '20200131'
+  - retrieved: '2025-08-13'
+    version: '20250624'
   vtype: date
 - name: Social Insect Behavior Ontology
   prefix: sibo
@@ -8408,6 +8750,16 @@ database:
     version: 0ba614f
   - retrieved: '2025-07-02'
     version: 3.27.0
+  - retrieved: '2025-07-25'
+    version: 553bbad
+  - retrieved: '2025-07-30'
+    version: 5dbff5c
+  - retrieved: '2025-08-19'
+    version: 72f474a
+  - retrieved: '2025-08-20'
+    version: bc4c9c0
+  - retrieved: '2025-08-21'
+    version: f54d7c8
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -8422,6 +8774,8 @@ database:
   releases:
   - retrieved: '2025-06-27'
     version: '2025-02-26'
+  - retrieved: '2025-08-24'
+    version: '2025-08-18'
   vtype: date
 - name: Spider Ontology
   prefix: spd
@@ -9994,6 +10348,92 @@ database:
     version: '2025-07-15'
   - retrieved: '2025-07-16'
     version: '2025-07-16'
+  - retrieved: '2025-07-17'
+    version: '2025-07-17'
+  - retrieved: '2025-07-18'
+    version: '2025-07-18'
+  - retrieved: '2025-07-19'
+    version: '2025-07-19'
+  - retrieved: '2025-07-20'
+    version: '2025-07-20'
+  - retrieved: '2025-07-21'
+    version: '2025-07-21'
+  - retrieved: '2025-07-22'
+    version: '2025-07-22'
+  - retrieved: '2025-07-23'
+    version: '2025-07-23'
+  - retrieved: '2025-07-24'
+    version: '2025-07-24'
+  - retrieved: '2025-07-25'
+    version: '2025-07-25'
+  - retrieved: '2025-07-26'
+    version: '2025-07-26'
+  - retrieved: '2025-07-27'
+    version: '2025-07-27'
+  - retrieved: '2025-07-28'
+    version: '2025-07-28'
+  - retrieved: '2025-07-29'
+    version: '2025-07-29'
+  - retrieved: '2025-07-30'
+    version: '2025-07-30'
+  - retrieved: '2025-07-31'
+    version: '2025-07-31'
+  - retrieved: '2025-08-01'
+    version: '2025-08-01'
+  - retrieved: '2025-08-02'
+    version: '2025-08-02'
+  - retrieved: '2025-08-03'
+    version: '2025-08-03'
+  - retrieved: '2025-08-04'
+    version: '2025-08-04'
+  - retrieved: '2025-08-05'
+    version: '2025-08-05'
+  - retrieved: '2025-08-06'
+    version: '2025-08-06'
+  - retrieved: '2025-08-07'
+    version: '2025-08-07'
+  - retrieved: '2025-08-08'
+    version: '2025-08-08'
+  - retrieved: '2025-08-09'
+    version: '2025-08-09'
+  - retrieved: '2025-08-10'
+    version: '2025-08-10'
+  - retrieved: '2025-08-11'
+    version: '2025-08-11'
+  - retrieved: '2025-08-12'
+    version: '2025-08-12'
+  - retrieved: '2025-08-13'
+    version: '2025-08-13'
+  - retrieved: '2025-08-14'
+    version: '2025-08-14'
+  - retrieved: '2025-08-15'
+    version: '2025-08-15'
+  - retrieved: '2025-08-16'
+    version: '2025-08-16'
+  - retrieved: '2025-08-17'
+    version: '2025-08-17'
+  - retrieved: '2025-08-18'
+    version: '2025-08-18'
+  - retrieved: '2025-08-19'
+    version: '2025-08-19'
+  - retrieved: '2025-08-20'
+    version: '2025-08-20'
+  - retrieved: '2025-08-21'
+    version: '2025-08-21'
+  - retrieved: '2025-08-22'
+    version: '2025-08-22'
+  - retrieved: '2025-08-23'
+    version: '2025-08-23'
+  - retrieved: '2025-08-24'
+    version: '2025-08-24'
+  - retrieved: '2025-08-25'
+    version: '2025-08-25'
+  - retrieved: '2025-08-26'
+    version: '2025-08-26'
+  - retrieved: '2025-08-27'
+    version: '2025-08-27'
+  - retrieved: '2025-08-28'
+    version: '2025-08-28'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10136,6 +10576,8 @@ database:
     version: '2025-06-12'
   - retrieved: '2025-06-22'
     version: '2025-06-13'
+  - retrieved: '2025-07-22'
+    version: '2025-07-18'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -10188,6 +10630,8 @@ database:
     version: '2024-12-20'
   - retrieved: '2025-04-27'
     version: '2025-04-18'
+  - retrieved: '2025-08-03'
+    version: '2025-07-19'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -10226,6 +10670,8 @@ database:
     version: '2025-02-01'
   - retrieved: '2025-06-15'
     version: '2025-06-07'
+  - retrieved: '2025-08-12'
+    version: '2025-08-01'
   vtype: date
 - name: The Ontology of Genes and Genomes
   prefix: ogg
@@ -10369,6 +10815,8 @@ database:
     version: '2025-04-09'
   - retrieved: '2025-06-09'
     version: '2025-05-28'
+  - retrieved: '2025-08-24'
+    version: '2025-08-15'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -10415,6 +10863,10 @@ database:
     version: '2024-11-02'
   - retrieved: '2025-01-28'
     version: '2025-01-11'
+  - retrieved: '2025-07-22'
+    version: '2025-07-11'
+  - retrieved: '2025-08-03'
+    version: '2025-07-21'
   vtype: date
 - name: Unified phenotype ontology (uPheno)
   prefix: upheno
@@ -10540,6 +10992,8 @@ database:
   releases:
   - retrieved: '2025-06-27'
     version: '2025_02'
+  - retrieved: '2025-07-22'
+    version: '2025_03'
   vtype: missing
 - name: Unit Ontology
   prefix: uo
@@ -10618,6 +11072,8 @@ database:
     version: '2025-02-26'
   - retrieved: '2025-06-09'
     version: '2025-05-24'
+  - retrieved: '2025-07-22'
+    version: '2025-07-06'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -10654,6 +11110,8 @@ database:
     version: '2024-11-06'
   - retrieved: '2025-02-27'
     version: '2025-02-12'
+  - retrieved: '2025-08-15'
+    version: '2025-08-12'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -10728,6 +11186,12 @@ database:
     version: '2025-05-05'
   - retrieved: '2025-06-22'
     version: '2025-06-16'
+  - retrieved: '2025-07-22'
+    version: '2025-07-15'
+  - retrieved: '2025-08-13'
+    version: '2025-08-07'
+  - retrieved: '2025-08-24'
+    version: '2025-08-20'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -10965,6 +11429,10 @@ database:
     homepage: http://data.wikipathways.org/20250710/
     retrieved: '2025-07-11'
     version: '20250710'
+  - date: '2025-08-10'
+    homepage: http://data.wikipathways.org/20250810/
+    retrieved: '2025-08-11'
+    version: '20250810'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -11003,6 +11471,8 @@ database:
     version: '2022-09-15'
   - retrieved: '2024-04-28'
     version: '2024-04-18'
+  - retrieved: '2025-08-03'
+    version: '2025-07-25'
   vtype: date
 - name: Yam ontology
   prefix: co_343
@@ -13167,6 +13637,84 @@ database:
     version: '2025-07-12'
   - retrieved: '2025-07-15'
     version: '2025-07-13'
+  - retrieved: '2025-07-17'
+    version: '2025-07-15'
+  - retrieved: '2025-07-18'
+    version: '2025-07-16'
+  - retrieved: '2025-07-19'
+    version: '2025-07-17'
+  - retrieved: '2025-07-20'
+    version: '2025-07-18'
+  - retrieved: '2025-07-21'
+    version: '2025-07-19'
+  - retrieved: '2025-07-22'
+    version: '2025-07-20'
+  - retrieved: '2025-07-23'
+    version: '2025-07-21'
+  - retrieved: '2025-07-24'
+    version: '2025-07-22'
+  - retrieved: '2025-07-25'
+    version: '2025-07-23'
+  - retrieved: '2025-07-26'
+    version: '2025-07-24'
+  - retrieved: '2025-07-27'
+    version: '2025-07-25'
+  - retrieved: '2025-07-28'
+    version: '2025-07-26'
+  - retrieved: '2025-07-30'
+    version: '2025-07-28'
+  - retrieved: '2025-07-31'
+    version: '2025-07-29'
+  - retrieved: '2025-08-01'
+    version: '2025-07-30'
+  - retrieved: '2025-08-03'
+    version: '2025-08-01'
+  - retrieved: '2025-08-04'
+    version: '2025-08-02'
+  - retrieved: '2025-08-05'
+    version: '2025-08-03'
+  - retrieved: '2025-08-06'
+    version: '2025-08-04'
+  - retrieved: '2025-08-07'
+    version: '2025-08-05'
+  - retrieved: '2025-08-09'
+    version: '2025-08-07'
+  - retrieved: '2025-08-10'
+    version: '2025-08-08'
+  - retrieved: '2025-08-11'
+    version: '2025-08-09'
+  - retrieved: '2025-08-12'
+    version: '2025-08-10'
+  - retrieved: '2025-08-13'
+    version: '2025-08-11'
+  - retrieved: '2025-08-14'
+    version: '2025-08-12'
+  - retrieved: '2025-08-15'
+    version: '2025-08-13'
+  - retrieved: '2025-08-16'
+    version: '2025-08-14'
+  - retrieved: '2025-08-17'
+    version: '2025-08-15'
+  - retrieved: '2025-08-18'
+    version: '2025-08-16'
+  - retrieved: '2025-08-19'
+    version: '2025-08-17'
+  - retrieved: '2025-08-21'
+    version: '2025-08-19'
+  - retrieved: '2025-08-22'
+    version: '2025-08-20'
+  - retrieved: '2025-08-23'
+    version: '2025-08-21'
+  - retrieved: '2025-08-24'
+    version: '2025-08-22'
+  - retrieved: '2025-08-25'
+    version: '2025-08-23'
+  - retrieved: '2025-08-26'
+    version: '2025-08-24'
+  - retrieved: '2025-08-27'
+    version: '2025-08-25'
+  - retrieved: '2025-08-28'
+    version: '2025-08-26'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

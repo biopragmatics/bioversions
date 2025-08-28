@@ -3,6 +3,8 @@
 import datetime
 from typing import ClassVar
 
+from dateutil.parser import parse
+
 from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
@@ -24,8 +26,7 @@ class OMIMGetter(Getter):
             text = tag.text.strip()
             if text.startswith("Updated"):
                 rv = text[len("Updated") :].strip()
-                rv = rv.replace("nd", "").replace("st", "").replace("rd", "").replace("th", "")
-                return datetime.datetime.strptime(rv, "%B %d, %Y")
+                return parse(rv)
         raise ValueError
 
 

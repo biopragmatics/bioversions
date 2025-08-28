@@ -1,12 +1,16 @@
 """Tests for bioversions."""
 
 import datetime
+import re
 import unittest
 
 import bioregistry
 
 import bioversions
-from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter, get_getters
+from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter, getter_resolver
+from bioversions.utils import get_obo_version, get_obograph_json_version, get_owl_xml_version
+
+YYYYMMDD = re.compile("\\d{4}-\\d{2}-\\d{2}")
 
 
 class TestGetter(unittest.TestCase):
@@ -15,7 +19,7 @@ class TestGetter(unittest.TestCase):
     def test_bioregistry_ids(self) -> None:
         """Test Bioregistry prefixes are all canonical."""
         prefixes = set(bioregistry.read_registry())
-        for getter in get_getters():
+        for getter in getter_resolver:
             if getter.bioregistry_id is None:
                 continue
             with self.subTest(name=getter.name):
@@ -46,3 +50,43 @@ class TestGetter(unittest.TestCase):
 
                 d = getter.version_date_parsed
                 self.assertIsInstance(d, datetime.date)
+
+    def test_get_obo_version(self) -> None:
+        """Test getting an OBO version."""
+        version = get_obo_version("https://current.geneontology.org/ontology/go.obo")
+        if version is None:
+            raise ValueError
+        version = version.removeprefix("releases/")
+        self.assertRegex(version, YYYYMMDD)
+
+        # cellosaurus gives bytes
+        v2 = get_obo_version("https://ftp.expasy.org/databases/cellosaurus/cellosaurus.obo")
+        if v2 is None:
+            raise ValueError
+        v2_2 = float(v2)  # they use sequential versioning like 50.1
+        self.assertGreater(v2_2, 50)
+
+    def test_get_obograph_version(self) -> None:
+        """Test getting an OBO graph version."""
+        version = get_obograph_json_version("http://purl.obolibrary.org/obo/go.json")
+        self.assertRegex(_clean_owl(version), YYYYMMDD)
+
+    def test_get_owl_xml_version(self) -> None:
+        """Test getting an OWL XML version."""
+        for url in [
+            "https://current.geneontology.org/ontology/go.owl",
+            "https://addictovocab.org/addicto.owl",
+        ]:
+            with self.subTest(url=url):
+                version = get_owl_xml_version(url)
+                self.assertRegex(_clean_owl(version), YYYYMMDD)
+
+
+def _clean_owl(version: str | None) -> str:
+    if version is None:
+        raise ValueError
+    return (
+        version.strip('"')
+        .removeprefix("http://purl.obolibrary.org/obo/go/releases/")
+        .removesuffix("/go.owl")
+    )

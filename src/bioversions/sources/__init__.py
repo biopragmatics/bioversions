@@ -4,10 +4,11 @@ from __future__ import annotations
 
 import ftplib
 import traceback
-from collections.abc import Iterable, Mapping
-from functools import lru_cache
+import warnings
+from collections.abc import Iterable
 from typing import Literal, NamedTuple, overload
 
+from class_resolver import ClassResolver
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
@@ -47,8 +48,8 @@ from .moalmanac import MOAlmanacGetter
 from .msigdb import MSigDBGetter
 from .ncit import NCItGetter
 from .npass import NPASSGetter
-from .obo import iter_obo_getters
-from .ols import extend_ols_getters
+from .obo import DoidGetter, GoGetter
+from .ols import extend_ols
 from .omim import OMIMGetter
 from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
@@ -72,7 +73,14 @@ from .umls import UMLSGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from .zfin import ZfinGetter
-from ..utils import Getter, VersionResult, norm, refresh_daily
+from ..utils import (
+    DailyGetter,
+    Getter,
+    OBOFoundryGetter,
+    UnversionedGetter,
+    VersionResult,
+    refresh_daily,
+)
 
 __all__ = [
     "AntibodyRegistryGetter",
@@ -87,12 +95,14 @@ __all__ = [
     "DGIGetter",
     "DepMapGetter",
     "DisGeNetGetter",
+    "DoidGetter",
     "DrugBankGetter",
     "DrugCentralGetter",
     "EnsemblGetter",
     "ExPASyGetter",
     "FlybaseGetter",
     "GTDBGetter",
+    "GoGetter",
     "GuideToPharmacologyGetter",
     "HGNCGetter",
     "HomoloGeneGetter",
@@ -138,123 +148,58 @@ __all__ = [
     "clear_cache",
     "get_rows",
     "get_version",
+    "getter_resolver",
     "iter_versions",
     "resolve",
 ]
 
 #: These are broken beyond fixing at the moment
-SKIPPED = [
+SKIPPED = {
     DrugBankGetter,
     PathwayCommonsGetter,
     DisGeNetGetter,
-]
+    # Upper-level classes
+    OBOFoundryGetter,
+    UnversionedGetter,
+    DailyGetter,
+}
+
+getter_resolver: ClassResolver[Getter] = ClassResolver.from_subclasses(
+    base=Getter,
+    suffix="Getter",
+    skip=SKIPPED,
+    synonym_attribute=["collection"],
+)
+extend_ols(getter_resolver)
 
 
-@lru_cache(maxsize=1)
 def get_getters() -> list[type[Getter]]:
     """Get a list of getters."""
-    # TODO replace with entrypoint lookup
-    getters: list[type[Getter]] = [
-        BioGRIDGetter,
-        ChEMBLGetter,
-        ComplexPortalGetter,
-        DrugCentralGetter,
-        ExPASyGetter,
-        IntActGetter,
-        InterProGetter,
-        ReactomeGetter,
-        RfamGetter,
-        WikiPathwaysGetter,
-        MirbaseGetter,
-        MSigDBGetter,
-        PfamGetter,
-        UniProtGetter,
-        KEGGGetter,
-        PathBankGetter,
-        NCBIGeneGetter,
-        NPASSGetter,
-        RheaGetter,
-        StringDBGetter,
-        HomoloGeneGetter,
-        MeshGetter,
-        DGIGetter,
-        FlybaseGetter,
-        PombaseGetter,
-        SgdGetter,
-        ZfinGetter,
-        NCItGetter,
-        RxNormGetter,
-        ChemIDplusGetter,
-        GuideToPharmacologyGetter,
-        OncoTreeGetter,
-        MOAlmanacGetter,
-        AntibodyRegistryGetter,
-        EnsemblGetter,
-        BiGGGetter,
-        ChEBIGetter,
-        PRGetter,
-        PubChemGetter,
-        SwissLipidGetter,
-        ITISGetter,
-        DepMapGetter,
-        UMLSGetter,
-        HGNCGetter,
-        RGDGetter,
-        CellosaurusGetter,
-        MGIGetter,
-        OMIMGetter,
-        ICFGetter,
-        ICD10Getter,
-        ICD11Getter,
-        CiVICGetter,
-        GTDBGetter,
-        SILVAGetter,
-        SignorGetter,
-        SPDXGetter,
-    ]
-    getters.extend(iter_obo_getters())
-    extend_ols_getters(getters)
-    getters = sorted(getters, key=lambda cls: (cls.bioregistry_id or "", cls.__name__.casefold()))
-    return getters
+    warnings.warn("iterate over getter_resolver directly", DeprecationWarning, stacklevel=2)
+    return list(getter_resolver)
 
 
-def get_getter_dict() -> Mapping[str, type[Getter]]:
-    """Get a dict of getters."""
-    rv = {}
-    for getter in get_getters():
-        if getter.bioregistry_id:
-            rv[getter.bioregistry_id] = getter
-            rv[norm(getter.bioregistry_id)] = getter
-        rv[getter.name] = getter
-        rv[norm(getter.name)] = getter
-        for pp in getter.collection or []:
-            rv[pp] = getter
-            rv[norm(pp)] = getter
-    return rv
-
-
-def resolve(name: str, use_cache: bool = True) -> VersionResult:
+def resolve(name: str | type[Getter], *, use_cache: bool = True) -> VersionResult:
     """Resolve the database name to a :class:`Bioversion` instance."""
     if use_cache:
+        if isinstance(name, type):
+            name = name.__name__
         return _resolve_helper_cached(name)
     else:
-        return _resolve_helper(name)
+        if isinstance(name, str):
+            name = getter_resolver.lookup(name)
+        return name.resolve()
 
 
 @refresh_daily
 def _resolve_helper_cached(name: str) -> VersionResult:
-    return _resolve_helper(name)
+    getter = getter_resolver.lookup(name)
+    return getter.resolve()
 
 
 def clear_cache() -> None:
     """Clear the cache."""
     _resolve_helper_cached.clear_cache()
-
-
-def _resolve_helper(name: str) -> VersionResult:
-    norm_name = norm(name)
-    getter: type[Getter] = get_getter_dict()[norm_name]
-    return getter.resolve()
 
 
 # docstr-coverage:excused `overload`
@@ -311,11 +256,13 @@ def iter_versions(
 ) -> Iterable[VersionResult | VersionFailure]:
     """Iterate over versions, without caching."""
     with logging_redirect_tqdm():
-        it = tqdm(get_getters(), disable=not use_tqdm, desc="Getting versions", unit="resource")
-        for cls in it:
-            it.set_postfix(name=cls.name)
+        getters = tqdm(
+            getter_resolver, disable=not use_tqdm, desc="Getting versions", unit="resource"
+        )
+        for cls in getters:
+            getters.set_postfix(name=cls.name)
             try:
-                yv = resolve(cls.name)
+                yv = resolve(cls)
             except (OSError, AttributeError, ftplib.error_perm) as e:
                 msg = f"[{cls.bioregistry_id or cls.name}] failed to resolve: {e}"
                 tqdm.write(msg)

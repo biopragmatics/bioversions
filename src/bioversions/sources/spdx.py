@@ -1,5 +1,7 @@
 """A getter for SPDX."""
 
+from typing import ClassVar
+
 import requests
 
 from bioversions.utils import Getter, VersionType
@@ -17,6 +19,7 @@ class SPDXGetter(Getter):
     bioregistry_id = "spdx"
     name = "Software Package Data Exchange License"
     version_type = VersionType.other
+    collection: ClassVar[list[str]] = ["spdx", "spdx.term"]
 
     def get(self) -> str:
         """Get the latest SwissLipids version number."""

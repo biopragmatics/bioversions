@@ -2,17 +2,32 @@
 
 import datetime
 import enum
-import ftplib
 import os
 from collections.abc import Mapping
 from typing import Any, ClassVar
 
 import bioregistry
 import pydantic
-import pystow
+import pystow.utils
 import requests
-from bs4 import BeautifulSoup, Tag
+from bs4 import Tag
 from cachier import cachier
+from pystow.utils import get_soup
+
+__all__ = [
+    "DailyGetter",
+    "Getter",
+    "MetaGetter",
+    "OBOFoundryGetter",
+    "UnversionedGetter",
+    "VersionResult",
+    "VersionType",
+    "find",
+    "get_obo_version",
+    "get_obograph_json_version",
+    "get_owl_xml_version",
+    "refresh_daily",
+]
 
 BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -36,32 +51,6 @@ class VersionType(enum.Enum):
     missing = "Missing"
     #: Saved for the most shameful of data
     garbage = "Garbage"
-
-
-def norm(s: str) -> str:
-    """Normalize a string for dictionary lookup."""
-    return s.lower().replace(" ", "").replace("-", "").replace(".", "")
-
-
-def get_soup(
-    url: str, verify: bool = True, timeout: int | None = None, user_agent: str | None = None
-) -> BeautifulSoup:
-    """Get a beautiful soup parsed version of the given web page.
-
-    :param url: The URL to download and parse with BeautifulSoup
-    :param verify: Should SSL be used? This is almost always true,
-        except for Ensembl, which makes a big pain
-    :param timeout: How many integer seconds to wait for a response?
-        Defaults to 15 if none given.
-    :param user_agent: A custom user-agent to set, e.g., to avoid anti-crawling mechanisms
-    :returns: A BeautifulSoup object
-    """
-    headers = {}
-    if user_agent:
-        headers["User-Agent"] = user_agent
-    res = requests.get(url, verify=verify, timeout=timeout or 15, headers=headers)
-    soup = BeautifulSoup(res.text, features="html.parser")
-    return soup
 
 
 def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
@@ -258,15 +247,23 @@ class UnversionedGetter(Getter):
         return "unversioned"
 
 
-def get_obo_version(url: str) -> str:
+def get_obo_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get the data version from an OBO file."""
     with requests.get(url, stream=True, timeout=60) as res:
-        for line in res.iter_lines():
-            line = line.decode("utf-8")
-            if line.startswith("data-version:"):
-                version = line[len("data-version:") :].strip()
-                return version
-    raise ValueError(f"No data-version line contained in {url}")
+        for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+            if isinstance(line, bytes):
+                line = line.decode("utf-8")
+            line = line.strip()
+            if line.startswith("data-version"):
+                return line[len("data-version:") :].strip()
+            if not line:
+                # this means we got past the exposition section
+                return None
+            if i > max_lines:
+                # this might happen if there are tons of axioms
+                # shoved into OBO, but this always comes at the end
+                return None
+    return None
 
 
 class OBOFoundryGetter(Getter):
@@ -289,7 +286,10 @@ class OBOFoundryGetter(Getter):
     def get(self) -> str:
         """Get the OBO version."""
         url = f"https://purl.obolibrary.org/obo/{self.key}.obo"
-        return self.process(get_obo_version(url))
+        version = get_obo_version(url)
+        if version is None:
+            raise ValueError(f"No `data-version` line contained in {url}")
+        return self.process(version)
 
     def process(self, version: str) -> str:
         """Post-process the version string."""
@@ -300,20 +300,6 @@ class OBOFoundryGetter(Getter):
         if self.strip_file_suffix:
             version = version[: -(len(self.key) + 5)]
         return version
-
-
-def _get_ftp_version(host: str, directory: str) -> str:
-    with ftplib.FTP(host) as ftp:
-        ftp.login()
-        ftp.cwd(directory)
-        names = sorted(
-            [
-                tuple(int(part) for part in name.split("."))
-                for name in ftp.nlst()
-                if _is_version(name)
-            ]
-        )
-    return ".".join(map(str, names[-1]))
 
 
 def _get_ftp_date_version(host: str, directory: str) -> str:
@@ -339,3 +325,28 @@ def _is_version(s: str) -> bool:
 def _is_semantic_version(s: str) -> bool:
     x = s.split(".")
     return len(x) == 3 and x[0].isnumeric() and x[1].isnumeric() and x[2].isnumeric()
+
+
+VERSION_IRI_TAG = "<owl:versionIRI rdf:resource="
+VERSION_IRI_TAG_LEN = len(VERSION_IRI_TAG)
+
+
+def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
+    """Get version from an OWL XML document."""
+    with requests.get(url, stream=True, timeout=60) as res:
+        for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+            if isinstance(line, bytes):
+                line = line.decode("utf-8")
+            line = line.strip()
+            if line.startswith(VERSION_IRI_TAG):
+                return line[VERSION_IRI_TAG_LEN:].removesuffix("/>")
+            if i > max_lines:
+                return None
+    return None
+
+
+def get_obograph_json_version(url: str) -> str | None:
+    """Get version from an OBO Graph JSON document."""
+    res = requests.get(url, timeout=60).json()
+    version = res["graphs"][0]["meta"]["version"]
+    return version
