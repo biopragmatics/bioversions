@@ -26,7 +26,6 @@ __all__ = [
     "get_obo_version",
     "get_obograph_json_version",
     "get_owl_xml_version",
-    "norm",
     "refresh_daily",
 ]
 
@@ -52,11 +51,6 @@ class VersionType(enum.Enum):
     missing = "Missing"
     #: Saved for the most shameful of data
     garbage = "Garbage"
-
-
-def norm(s: str) -> str:
-    """Normalize a string for dictionary lookup."""
-    return s.lower().replace(" ", "").replace("-", "").replace(".", "")
 
 
 def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:

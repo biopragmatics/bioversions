@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import ftplib
 import traceback
-from collections.abc import Iterable, Mapping
-from functools import lru_cache
+import warnings
+from collections.abc import Iterable
 from typing import Literal, NamedTuple, overload
 
 from class_resolver import ClassResolver
@@ -73,7 +73,7 @@ from .umls import UMLSGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from .zfin import ZfinGetter
-from ..utils import Getter, VersionResult, norm, refresh_daily
+from ..utils import Getter, VersionResult, refresh_daily
 
 __all__ = [
     "AntibodyRegistryGetter",
@@ -121,7 +121,6 @@ __all__ = [
     "PathwayCommonsGetter",
     "PfamGetter",
     "PombaseGetter",
-    "PrGetter",
     "PubChemGetter",
     "RGDGetter",
     "ReactomeGetter",
@@ -142,6 +141,7 @@ __all__ = [
     "clear_cache",
     "get_rows",
     "get_version",
+    "getter_resolver",
     "iter_versions",
     "resolve",
 ]
@@ -153,36 +153,19 @@ SKIPPED = {
     DisGeNetGetter,
 }
 
-version_getter_resolver: ClassResolver[Getter] = ClassResolver.from_subclasses(
+getter_resolver: ClassResolver[Getter] = ClassResolver.from_subclasses(
     base=Getter,
     suffix="Getter",
     skip=SKIPPED,
     synonym_attribute=["collection"],
 )
-extend_ols(version_getter_resolver)
+extend_ols(getter_resolver)
 
 
-@lru_cache(maxsize=1)
 def get_getters() -> list[type[Getter]]:
     """Get a list of getters."""
-    getters = list(version_getter_resolver)
-    getters = sorted(getters, key=lambda cls: (cls.bioregistry_id or "", cls.__name__.casefold()))
-    return getters
-
-
-def get_getter_dict() -> Mapping[str, type[Getter]]:
-    """Get a dict of getters."""
-    rv = {}
-    for getter in get_getters():
-        if getter.bioregistry_id:
-            rv[getter.bioregistry_id] = getter
-            rv[norm(getter.bioregistry_id)] = getter
-        rv[getter.name] = getter
-        rv[norm(getter.name)] = getter
-        for pp in getter.collection or []:
-            rv[pp] = getter
-            rv[norm(pp)] = getter
-    return rv
+    warnings.warn("iterate over getter_resolver directly", DeprecationWarning, stacklevel=2)
+    return list(getter_resolver)
 
 
 def resolve(name: str, use_cache: bool = True) -> VersionResult:
@@ -204,8 +187,7 @@ def clear_cache() -> None:
 
 
 def _resolve_helper(name: str) -> VersionResult:
-    norm_name = norm(name)
-    getter: type[Getter] = get_getter_dict()[norm_name]
+    getter: type[Getter] = getter_resolver.lookup(name)
     return getter.resolve()
 
 
@@ -263,7 +245,7 @@ def iter_versions(
 ) -> Iterable[VersionResult | VersionFailure]:
     """Iterate over versions, without caching."""
     with logging_redirect_tqdm():
-        it = tqdm(get_getters(), disable=not use_tqdm, desc="Getting versions", unit="resource")
+        it = tqdm(getter_resolver, disable=not use_tqdm, desc="Getting versions", unit="resource")
         for cls in it:
             it.set_postfix(name=cls.name)
             try:

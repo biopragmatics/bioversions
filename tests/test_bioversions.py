@@ -7,7 +7,7 @@ import unittest
 import bioregistry
 
 import bioversions
-from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter, get_getters
+from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter, getter_resolver
 from bioversions.utils import get_obo_version, get_obograph_json_version, get_owl_xml_version
 
 YYYYMMDD = re.compile("\\d{4}-\\d{2}-\\d{2}")
@@ -19,7 +19,7 @@ class TestGetter(unittest.TestCase):
     def test_bioregistry_ids(self) -> None:
         """Test Bioregistry prefixes are all canonical."""
         prefixes = set(bioregistry.read_registry())
-        for getter in get_getters():
+        for getter in getter_resolver:
             if getter.bioregistry_id is None:
                 continue
             with self.subTest(name=getter.name):
