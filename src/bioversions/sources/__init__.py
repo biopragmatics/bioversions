@@ -8,6 +8,7 @@ from collections.abc import Iterable, Mapping
 from functools import lru_cache
 from typing import Literal, NamedTuple, overload
 
+from class_resolver import ClassResolver
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
@@ -47,8 +48,8 @@ from .moalmanac import MOAlmanacGetter
 from .msigdb import MSigDBGetter
 from .ncit import NCItGetter
 from .npass import NPASSGetter
-from .obo import iter_obo_getters
-from .ols import extend_ols_getters
+from .obo import ChebiGetter, DoidGetter, GoGetter, PrGetter
+from .ols import iter_ols_getters
 from .omim import OMIMGetter
 from .oncotree import OncoTreeGetter
 from .pathbank import PathBankGetter
@@ -81,18 +82,21 @@ __all__ = [
     "CellosaurusGetter",
     "ChEBIGetter",
     "ChEMBLGetter",
+    "ChebiGetter",
     "ChemIDplusGetter",
     "CiVICGetter",
     "ComplexPortalGetter",
     "DGIGetter",
     "DepMapGetter",
     "DisGeNetGetter",
+    "DoidGetter",
     "DrugBankGetter",
     "DrugCentralGetter",
     "EnsemblGetter",
     "ExPASyGetter",
     "FlybaseGetter",
     "GTDBGetter",
+    "GoGetter",
     "GuideToPharmacologyGetter",
     "HGNCGetter",
     "HomoloGeneGetter",
@@ -118,6 +122,7 @@ __all__ = [
     "PathwayCommonsGetter",
     "PfamGetter",
     "PombaseGetter",
+    "PrGetter",
     "PubChemGetter",
     "RGDGetter",
     "ReactomeGetter",
@@ -143,77 +148,29 @@ __all__ = [
 ]
 
 #: These are broken beyond fixing at the moment
-SKIPPED = [
+SKIPPED = {
     DrugBankGetter,
     PathwayCommonsGetter,
     DisGeNetGetter,
-]
+}
+
+version_getter_resolver: ClassResolver[Getter] = ClassResolver.from_subclasses(
+    base=Getter,
+    suffix="Getter",
+    skip=SKIPPED,
+    synonym_attribute=["collection"],
+)
+
+for ols_getter in iter_ols_getters():
+    if ols_getter.bioregistry_id in version_getter_resolver:
+        continue
+    version_getter_resolver.register(ols_getter)
 
 
 @lru_cache(maxsize=1)
 def get_getters() -> list[type[Getter]]:
     """Get a list of getters."""
-    # TODO replace with entrypoint lookup
-    getters: list[type[Getter]] = [
-        BioGRIDGetter,
-        ChEMBLGetter,
-        ComplexPortalGetter,
-        DrugCentralGetter,
-        ExPASyGetter,
-        IntActGetter,
-        InterProGetter,
-        ReactomeGetter,
-        RfamGetter,
-        WikiPathwaysGetter,
-        MirbaseGetter,
-        MSigDBGetter,
-        PfamGetter,
-        UniProtGetter,
-        KEGGGetter,
-        PathBankGetter,
-        NCBIGeneGetter,
-        NPASSGetter,
-        RheaGetter,
-        StringDBGetter,
-        HomoloGeneGetter,
-        MeshGetter,
-        DGIGetter,
-        FlybaseGetter,
-        PombaseGetter,
-        SgdGetter,
-        ZfinGetter,
-        NCItGetter,
-        RxNormGetter,
-        ChemIDplusGetter,
-        GuideToPharmacologyGetter,
-        OncoTreeGetter,
-        MOAlmanacGetter,
-        AntibodyRegistryGetter,
-        EnsemblGetter,
-        BiGGGetter,
-        ChEBIGetter,
-        PRGetter,
-        PubChemGetter,
-        SwissLipidGetter,
-        ITISGetter,
-        DepMapGetter,
-        UMLSGetter,
-        HGNCGetter,
-        RGDGetter,
-        CellosaurusGetter,
-        MGIGetter,
-        OMIMGetter,
-        ICFGetter,
-        ICD10Getter,
-        ICD11Getter,
-        CiVICGetter,
-        GTDBGetter,
-        SILVAGetter,
-        SignorGetter,
-        SPDXGetter,
-    ]
-    getters.extend(iter_obo_getters())
-    extend_ols_getters(getters)
+    getters = list(version_getter_resolver)
     getters = sorted(getters, key=lambda cls: (cls.bioregistry_id or "", cls.__name__.casefold()))
     return getters
 

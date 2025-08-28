@@ -1,15 +1,12 @@
 """Getters for OBO ontologies."""
 
-from collections.abc import Iterable
-
-from bioversions.utils import Getter, OBOFoundryGetter, VersionType
+from bioversions.utils import OBOFoundryGetter, VersionType
 
 __all__ = [
     "ChebiGetter",
     "DoidGetter",
     "GoGetter",
     "PrGetter",
-    "iter_obo_getters",
 ]
 
 
@@ -52,17 +49,3 @@ class PrGetter(OBOFoundryGetter):
     bioregistry_id = "pr"
     version_type = VersionType.semver_minor
     homepage_fmt = "https://proconsortium.org/download/release_{version}/"
-
-
-def iter_obo_getters() -> Iterable[type[Getter]]:
-    """Iterate over OBO getters."""
-    yield from OBOFoundryGetter.__subclasses__()
-
-
-def _main():
-    for getter in iter_obo_getters():
-        getter.print()
-
-
-if __name__ == "__main__":
-    _main()

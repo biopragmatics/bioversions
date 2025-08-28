@@ -84,13 +84,5 @@ def iter_ols_getters() -> Iterable[type[Getter]]:
             yield yv
 
 
-def extend_ols_getters(getters: list[type[Getter]]) -> None:
-    """Extend the getters, without adding duplicates."""
-    for ols_getter in iter_ols_getters():
-        if any(getter.bioregistry_id == ols_getter.bioregistry_id for getter in getters):
-            continue
-        getters.append(ols_getter)
-
-
 if __name__ == "__main__":
     list(iter_ols_getters())
