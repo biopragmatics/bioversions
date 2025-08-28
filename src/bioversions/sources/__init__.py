@@ -73,7 +73,14 @@ from .umls import UMLSGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from .zfin import ZfinGetter
-from ..utils import Getter, VersionResult, refresh_daily
+from ..utils import (
+    DailyGetter,
+    Getter,
+    OBOFoundryGetter,
+    UnversionedGetter,
+    VersionResult,
+    refresh_daily,
+)
 
 __all__ = [
     "AntibodyRegistryGetter",
@@ -151,6 +158,10 @@ SKIPPED = {
     DrugBankGetter,
     PathwayCommonsGetter,
     DisGeNetGetter,
+    # Upper-level classes
+    OBOFoundryGetter,
+    UnversionedGetter,
+    DailyGetter,
 }
 
 getter_resolver: ClassResolver[Getter] = ClassResolver.from_subclasses(
@@ -168,27 +179,27 @@ def get_getters() -> list[type[Getter]]:
     return list(getter_resolver)
 
 
-def resolve(name: str, use_cache: bool = True) -> VersionResult:
+def resolve(name: str | type[Getter], *, use_cache: bool = True) -> VersionResult:
     """Resolve the database name to a :class:`Bioversion` instance."""
     if use_cache:
+        if isinstance(name, type):
+            name = name.__name__
         return _resolve_helper_cached(name)
     else:
-        return _resolve_helper(name)
+        if isinstance(name, str):
+            name = getter_resolver.lookup(name)
+        return name.resolve()
 
 
 @refresh_daily
 def _resolve_helper_cached(name: str) -> VersionResult:
-    return _resolve_helper(name)
+    getter = getter_resolver.lookup(name)
+    return getter.resolve()
 
 
 def clear_cache() -> None:
     """Clear the cache."""
     _resolve_helper_cached.clear_cache()
-
-
-def _resolve_helper(name: str) -> VersionResult:
-    getter: type[Getter] = getter_resolver.lookup(name)
-    return getter.resolve()
 
 
 # docstr-coverage:excused `overload`
@@ -245,11 +256,13 @@ def iter_versions(
 ) -> Iterable[VersionResult | VersionFailure]:
     """Iterate over versions, without caching."""
     with logging_redirect_tqdm():
-        it = tqdm(getter_resolver, disable=not use_tqdm, desc="Getting versions", unit="resource")
-        for cls in it:
-            it.set_postfix(name=cls.name)
+        getters = tqdm(
+            getter_resolver, disable=not use_tqdm, desc="Getting versions", unit="resource"
+        )
+        for cls in getters:
+            getters.set_postfix(name=cls.name)
             try:
-                yv = resolve(cls.name)
+                yv = resolve(cls)
             except (OSError, AttributeError, ftplib.error_perm) as e:
                 msg = f"[{cls.bioregistry_id or cls.name}] failed to resolve: {e}"
                 tqdm.write(msg)
