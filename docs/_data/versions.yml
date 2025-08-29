@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-08-28'
-  revision: 1105
+  date: '2025-08-29'
+  revision: 1106
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -581,6 +581,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-08-28'
     version: '2025-08-27'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-08-29'
+    version: '2025-08-28'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1826,6 +1829,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/complex/2025-03-28/
     retrieved: '2025-04-04'
     version: '2025-03-28'
+  - date: '2025-08-08'
+    homepage: https://ftp.ebi.ac.uk/pub/databases/intact/complex/2025-08-08/
+    retrieved: '2025-08-29'
+    version: '2025-08-08'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -4279,6 +4286,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/intact/2025-03-28/
     retrieved: '2025-04-04'
     version: '2025-03-28'
+  - date: '2025-08-08'
+    homepage: https://ftp.ebi.ac.uk/pub/databases/intact/2025-08-08/
+    retrieved: '2025-08-29'
+    version: '2025-08-08'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -5576,6 +5587,9 @@ database:
   - date: '2025-08-18'
     retrieved: '2025-08-20'
     version: 25.08c
+  - date: '2025-06-30'
+    retrieved: '2025-08-29'
+    version: 25.06e
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -6589,6 +6603,8 @@ database:
     version: '2025-08-25'
   - retrieved: '2025-08-28'
     version: '2025-08-26'
+  - retrieved: '2025-08-29'
+    version: '2025-08-27'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -10434,6 +10450,8 @@ database:
     version: '2025-08-27'
   - retrieved: '2025-08-28'
     version: '2025-08-28'
+  - retrieved: '2025-08-29'
+    version: '2025-08-29'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13715,6 +13733,8 @@ database:
     version: '2025-08-25'
   - retrieved: '2025-08-28'
     version: '2025-08-26'
+  - retrieved: '2025-08-29'
+    version: '2025-08-27'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
