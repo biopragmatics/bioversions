@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1106,
-    "date": "2025-08-29",
+    "revision": 1107,
+    "date": "2025-08-30",
     "author": "runner"
   },
   "database": [
@@ -996,6 +996,11 @@
         {
           "retrieved": "2025-08-29",
           "version": "2025-08-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-08-30",
+          "version": "2025-08-29",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4129,6 +4134,12 @@
           "version": "2025-08-01",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-08-01",
           "date": "2025-08-01"
+        },
+        {
+          "retrieved": "2025-08-30",
+          "version": "2025-08-29",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-08-29",
+          "date": "2025-08-29"
         }
       ],
       "vtype": "date"
@@ -8126,6 +8137,10 @@
         {
           "retrieved": "2025-08-06",
           "version": "2025-08-01"
+        },
+        {
+          "retrieved": "2025-08-30",
+          "version": "2025-08-27"
         }
       ],
       "name": "ITIS",
@@ -11924,6 +11939,10 @@
         {
           "retrieved": "2025-08-29",
           "version": "2025-08-27"
+        },
+        {
+          "retrieved": "2025-08-30",
+          "version": "2025-08-28"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -19239,6 +19258,10 @@
         {
           "retrieved": "2025-08-29",
           "version": "2025-08-29"
+        },
+        {
+          "retrieved": "2025-08-30",
+          "version": "2025-08-30"
         }
       ],
       "name": "SwissLipids",
@@ -25328,6 +25351,10 @@
         {
           "retrieved": "2025-08-29",
           "version": "2025-08-27"
+        },
+        {
+          "retrieved": "2025-08-30",
+          "version": "2025-08-28"
         }
       ],
       "name": "Zebrafish Information Network",
