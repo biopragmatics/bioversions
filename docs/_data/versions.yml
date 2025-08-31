@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-08-30'
-  revision: 1107
+  date: '2025-08-31'
+  revision: 1108
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2595,6 +2595,8 @@ database:
   releases:
   - retrieved: '2025-06-27'
     version: '0.3'
+  - retrieved: '2025-08-31'
+    version: '1.0'
   vtype: semver
 - name: Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -2994,6 +2996,8 @@ database:
     version: '4.210'
   - retrieved: '2025-08-24'
     version: '4.211'
+  - retrieved: '2025-08-31'
+    version: '4.212'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4864,6 +4868,8 @@ database:
     version: '2.158'
   - retrieved: '2025-08-24'
     version: '2.159'
+  - retrieved: '2025-08-31'
+    version: '2.160'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -6616,6 +6622,8 @@ database:
     version: '2025-08-27'
   - retrieved: '2025-08-30'
     version: '2025-08-28'
+  - retrieved: '2025-08-31'
+    version: '2025-08-29'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -10465,6 +10473,8 @@ database:
     version: '2025-08-29'
   - retrieved: '2025-08-30'
     version: '2025-08-30'
+  - retrieved: '2025-08-31'
+    version: '2025-08-31'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13750,6 +13760,8 @@ database:
     version: '2025-08-27'
   - retrieved: '2025-08-30'
     version: '2025-08-28'
+  - retrieved: '2025-08-31'
+    version: '2025-08-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

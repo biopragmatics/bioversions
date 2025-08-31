@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1107,
-    "date": "2025-08-30",
+    "revision": 1108,
+    "date": "2025-08-31",
     "author": "runner"
   },
   "database": [
@@ -4649,6 +4649,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "0.3"
+        },
+        {
+          "retrieved": "2025-08-31",
+          "version": "1.0"
         }
       ],
       "name": "Earth Metabolome Ontology",
@@ -5408,6 +5412,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "4.211"
+        },
+        {
+          "retrieved": "2025-08-31",
+          "version": "4.212"
         }
       ],
       "vtype": "date"
@@ -8791,6 +8799,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "2.159"
+        },
+        {
+          "retrieved": "2025-08-31",
+          "version": "2.160"
         }
       ],
       "vtype": "date"
@@ -11943,6 +11955,10 @@
         {
           "retrieved": "2025-08-30",
           "version": "2025-08-28"
+        },
+        {
+          "retrieved": "2025-08-31",
+          "version": "2025-08-29"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -19262,6 +19278,10 @@
         {
           "retrieved": "2025-08-30",
           "version": "2025-08-30"
+        },
+        {
+          "retrieved": "2025-08-31",
+          "version": "2025-08-31"
         }
       ],
       "name": "SwissLipids",
@@ -25355,6 +25375,10 @@
         {
           "retrieved": "2025-08-30",
           "version": "2025-08-28"
+        },
+        {
+          "retrieved": "2025-08-31",
+          "version": "2025-08-29"
         }
       ],
       "name": "Zebrafish Information Network",
