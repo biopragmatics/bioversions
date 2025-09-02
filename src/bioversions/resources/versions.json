@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1109,
-    "date": "2025-09-01",
+    "revision": 1110,
+    "date": "2025-09-02",
     "author": "runner"
   },
   "database": [
@@ -1002,6 +1002,11 @@
           "retrieved": "2025-08-30",
           "version": "2025-08-29",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-09-02",
+          "version": "2025-09-01",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1574,6 +1579,11 @@
           "retrieved": "2025-08-06",
           "version": "4.4.248",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.248"
+        },
+        {
+          "retrieved": "2025-09-02",
+          "version": "4.4.249",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.249"
         }
       ],
       "vtype": "semver"
@@ -2841,6 +2851,10 @@
         {
           "retrieved": "2025-08-02",
           "version": "2025-08-01"
+        },
+        {
+          "retrieved": "2025-09-02",
+          "version": "2025-09-01"
         }
       ],
       "name": "CiVIC",
@@ -13938,6 +13952,12 @@
           "version": "2025-08-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-08-01/",
           "date": "2025-08-01"
+        },
+        {
+          "retrieved": "2025-09-02",
+          "version": "2025-09-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-09-01/",
+          "date": "2025-09-01"
         }
       ],
       "name": "PomBase",
@@ -19291,6 +19311,10 @@
         {
           "retrieved": "2025-09-01",
           "version": "2025-09-01"
+        },
+        {
+          "retrieved": "2025-09-02",
+          "version": "2025-09-02"
         }
       ],
       "name": "SwissLipids",
@@ -25392,6 +25416,10 @@
         {
           "retrieved": "2025-09-01",
           "version": "2025-08-30"
+        },
+        {
+          "retrieved": "2025-09-02",
+          "version": "2025-08-31"
         }
       ],
       "name": "Zebrafish Information Network",

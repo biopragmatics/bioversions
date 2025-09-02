@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-09-01'
-  revision: 1109
+  date: '2025-09-02'
+  revision: 1110
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -587,6 +587,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-08-30'
     version: '2025-08-29'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-09-02'
+    version: '2025-09-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -903,6 +906,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.248
     retrieved: '2025-08-06'
     version: 4.4.248
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.249
+    retrieved: '2025-09-02'
+    version: 4.4.249
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -1591,6 +1597,8 @@ database:
     version: '2025-07-01'
   - retrieved: '2025-08-02'
     version: '2025-08-01'
+  - retrieved: '2025-09-02'
+    version: '2025-09-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -7716,6 +7724,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-08-01/
     retrieved: '2025-08-02'
     version: '2025-08-01'
+  - date: '2025-09-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-09-01/
+    retrieved: '2025-09-02'
+    version: '2025-09-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -10480,6 +10492,8 @@ database:
     version: '2025-08-31'
   - retrieved: '2025-09-01'
     version: '2025-09-01'
+  - retrieved: '2025-09-02'
+    version: '2025-09-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13769,6 +13783,8 @@ database:
     version: '2025-08-29'
   - retrieved: '2025-09-01'
     version: '2025-08-30'
+  - retrieved: '2025-09-02'
+    version: '2025-08-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
