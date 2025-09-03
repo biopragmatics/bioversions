@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1110,
-    "date": "2025-09-02",
+    "revision": 1111,
+    "date": "2025-09-03",
     "author": "runner"
   },
   "database": [
@@ -1006,6 +1006,11 @@
         {
           "retrieved": "2025-09-02",
           "version": "2025-09-01",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-09-03",
+          "version": "2025-09-02",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4843,6 +4848,12 @@
           "version": "114",
           "homepage": "https://www.ensembl.org",
           "date": "2025-05-01"
+        },
+        {
+          "retrieved": "2025-09-03",
+          "version": "115",
+          "homepage": "https://www.ensembl.org",
+          "date": "2025-09-01"
         }
       ],
       "name": "Ensembl",
@@ -7163,6 +7174,11 @@
           "retrieved": "2025-08-06",
           "version": "2025-08-05",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-08-05.json"
+        },
+        {
+          "retrieved": "2025-09-03",
+          "version": "2025-09-02",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-09-02.json"
         }
       ],
       "name": "HGNC",
@@ -15665,6 +15681,11 @@
           "retrieved": "2025-08-05",
           "version": "2025-08-04",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_08042025.zip"
+        },
+        {
+          "retrieved": "2025-09-03",
+          "version": "2025-09-02",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09022025.zip"
         }
       ],
       "name": "RxNorm",
@@ -19315,6 +19336,10 @@
         {
           "retrieved": "2025-09-02",
           "version": "2025-09-02"
+        },
+        {
+          "retrieved": "2025-09-03",
+          "version": "2025-09-03"
         }
       ],
       "name": "SwissLipids",
@@ -25420,6 +25445,10 @@
         {
           "retrieved": "2025-09-02",
           "version": "2025-08-31"
+        },
+        {
+          "retrieved": "2025-09-03",
+          "version": "2025-09-01"
         }
       ],
       "name": "Zebrafish Information Network",
