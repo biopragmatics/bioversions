@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-09-06'
-  revision: 1114
+  date: '2025-09-07'
+  revision: 1115
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3134,6 +3134,8 @@ database:
     version: '2020-03-10'
   - retrieved: '2022-07-08'
     version: '2022-06-29'
+  - retrieved: '2025-09-07'
+    version: '2025-08-29'
   vtype: date
 - name: Fababean ontology
   prefix: co_365
@@ -4182,6 +4184,8 @@ database:
     version: '2025-05-06'
   - retrieved: '2025-08-15'
     version: '2025-08-11'
+  - retrieved: '2025-09-07'
+    version: '2025-09-01'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -4744,6 +4748,8 @@ database:
     version: '2025-07-29'
   - retrieved: '2025-08-26'
     version: '2025-08-21'
+  - retrieved: '2025-09-07'
+    version: '2025-08-27'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -5350,6 +5356,8 @@ database:
     version: '2025-07-01'
   - retrieved: '2025-08-12'
     version: '2025-08-05'
+  - retrieved: '2025-09-07'
+    version: '2025-09-02'
   vtype: date
 - name: MOP
   prefix: mop
@@ -6664,6 +6672,8 @@ database:
     version: '2025-09-03'
   - retrieved: '2025-09-06'
     version: '2025-09-04'
+  - retrieved: '2025-09-07'
+    version: '2025-09-05'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7048,6 +7058,8 @@ database:
     version: '2025-01-24'
   - retrieved: '2025-08-12'
     version: '2025-07-31'
+  - retrieved: '2025-09-07'
+    version: '2025-08-28'
   vtype: date
 - name: Ontology of Precision Medicine and Investigation
   prefix: opmi
@@ -8077,6 +8089,8 @@ database:
     version: '2025-07-10'
   - retrieved: '2025-08-12'
     version: '2025-07-21'
+  - retrieved: '2025-09-07'
+    version: '2025-08-27'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -8861,6 +8875,8 @@ database:
     version: '2025-02-26'
   - retrieved: '2025-08-24'
     version: '2025-08-18'
+  - retrieved: '2025-09-07'
+    version: '2025-09-02'
   vtype: date
 - name: Spider Ontology
   prefix: spd
@@ -10537,6 +10553,8 @@ database:
     version: '2025-09-05'
   - retrieved: '2025-09-06'
     version: '2025-09-06'
+  - retrieved: '2025-09-07'
+    version: '2025-09-07'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13836,6 +13854,8 @@ database:
     version: '2025-09-03'
   - retrieved: '2025-09-06'
     version: '2025-09-04'
+  - retrieved: '2025-09-07'
+    version: '2025-09-05'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
