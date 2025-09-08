@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1115,
-    "date": "2025-09-07",
+    "revision": 1116,
+    "date": "2025-09-08",
     "author": "runner"
   },
   "database": [
@@ -16046,6 +16046,10 @@
         {
           "retrieved": "2025-08-21",
           "version": "f54d7c8"
+        },
+        {
+          "retrieved": "2025-09-08",
+          "version": "da55931"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -19426,6 +19430,10 @@
         {
           "retrieved": "2025-09-07",
           "version": "2025-09-07"
+        },
+        {
+          "retrieved": "2025-09-08",
+          "version": "2025-09-08"
         }
       ],
       "name": "SwissLipids",
@@ -25551,6 +25559,10 @@
         {
           "retrieved": "2025-09-07",
           "version": "2025-09-05"
+        },
+        {
+          "retrieved": "2025-09-08",
+          "version": "2025-09-06"
         }
       ],
       "name": "Zebrafish Information Network",
