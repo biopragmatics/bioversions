@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1118,
-    "date": "2025-09-10",
+    "revision": 1119,
+    "date": "2025-09-11",
     "author": "runner"
   },
   "database": [
@@ -1036,6 +1036,11 @@
         {
           "retrieved": "2025-09-10",
           "version": "2025-09-09",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-09-11",
+          "version": "2025-09-10",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -7042,6 +7047,12 @@
           "version": "2025.2",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2025.2.zip",
           "date": "2025-06-18"
+        },
+        {
+          "retrieved": "2025-09-11",
+          "version": "2025.3",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2025.3.zip",
+          "date": "2025-09-10"
         }
       ],
       "name": "Guide to Pharmacology",
@@ -12066,6 +12077,10 @@
         {
           "retrieved": "2025-09-10",
           "version": "2025-09-08"
+        },
+        {
+          "retrieved": "2025-09-11",
+          "version": "2025-09-09"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -19465,6 +19480,10 @@
         {
           "retrieved": "2025-09-10",
           "version": "2025-09-10"
+        },
+        {
+          "retrieved": "2025-09-11",
+          "version": "2025-09-11"
         }
       ],
       "name": "SwissLipids",
@@ -21275,6 +21294,12 @@
           "version": "20250810",
           "homepage": "http://data.wikipathways.org/20250810/",
           "date": "2025-08-10"
+        },
+        {
+          "retrieved": "2025-09-11",
+          "version": "20250910",
+          "homepage": "http://data.wikipathways.org/20250910/",
+          "date": "2025-09-10"
         }
       ],
       "vtype": "date"
@@ -25602,6 +25627,10 @@
         {
           "retrieved": "2025-09-10",
           "version": "2025-09-08"
+        },
+        {
+          "retrieved": "2025-09-11",
+          "version": "2025-09-09"
         }
       ],
       "name": "Zebrafish Information Network",
