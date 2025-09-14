@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1120,
-    "date": "2025-09-12",
+    "revision": 1121,
+    "date": "2025-09-14",
     "author": "runner"
   },
   "database": [
@@ -25,6 +25,10 @@
         {
           "retrieved": "2025-08-13",
           "version": "2025-08-07"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "2025-09-08"
         }
       ],
       "name": "Addiction Ontology",
@@ -5481,6 +5485,10 @@
         {
           "retrieved": "2025-08-31",
           "version": "4.212"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "4.213"
         }
       ],
       "vtype": "date"
@@ -12090,6 +12098,10 @@
         {
           "retrieved": "2025-09-12",
           "version": "2025-09-10"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "2025-09-12"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15173,6 +15185,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "6.257"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "6.258"
         }
       ],
       "vtype": "date"
@@ -16135,6 +16151,10 @@
         {
           "retrieved": "2025-09-07",
           "version": "2025-09-02"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "2025-09-09"
         }
       ],
       "name": "Space Life Sciences Ontology",
@@ -19501,6 +19521,10 @@
         {
           "retrieved": "2025-09-12",
           "version": "2025-09-12"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "2025-09-14"
         }
       ],
       "name": "SwissLipids",
@@ -20930,6 +20954,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "2025-08-20"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "2025-09-09"
         }
       ],
       "vtype": "date"
@@ -21483,6 +21511,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-01-28"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "2025-09-05"
         }
       ],
       "vtype": "date"
@@ -25652,6 +25684,10 @@
         {
           "retrieved": "2025-09-12",
           "version": "2025-09-10"
+        },
+        {
+          "retrieved": "2025-09-14",
+          "version": "2025-09-12"
         }
       ],
       "name": "Zebrafish Information Network",

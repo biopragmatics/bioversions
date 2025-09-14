@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-09-12'
-  revision: 1120
+  date: '2025-09-14'
+  revision: 1121
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -16,6 +16,8 @@ database:
     version: '2025-03-17'
   - retrieved: '2025-08-13'
     version: '2025-08-07'
+  - retrieved: '2025-09-14'
+    version: '2025-09-08'
   vtype: date
 - name: African Population Ontology
   prefix: afpo
@@ -3037,6 +3039,8 @@ database:
     version: '4.211'
   - retrieved: '2025-08-31'
     version: '4.212'
+  - retrieved: '2025-09-14'
+    version: '4.213'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -6699,6 +6703,8 @@ database:
     version: '2025-09-09'
   - retrieved: '2025-09-12'
     version: '2025-09-10'
+  - retrieved: '2025-09-14'
+    version: '2025-09-12'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8376,6 +8382,8 @@ database:
     version: '6.256'
   - retrieved: '2025-08-24'
     version: '6.257'
+  - retrieved: '2025-09-14'
+    version: '6.258'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -8908,6 +8916,8 @@ database:
     version: '2025-08-18'
   - retrieved: '2025-09-07'
     version: '2025-09-02'
+  - retrieved: '2025-09-14'
+    version: '2025-09-09'
   vtype: date
 - name: Spider Ontology
   prefix: spd
@@ -10596,6 +10606,8 @@ database:
     version: '2025-09-11'
   - retrieved: '2025-09-12'
     version: '2025-09-12'
+  - retrieved: '2025-09-14'
+    version: '2025-09-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11354,6 +11366,8 @@ database:
     version: '2025-08-07'
   - retrieved: '2025-08-24'
     version: '2025-08-20'
+  - retrieved: '2025-09-14'
+    version: '2025-09-09'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -11685,6 +11699,8 @@ database:
     version: '2022-12-09'
   - retrieved: '2025-02-27'
     version: '2025-01-28'
+  - retrieved: '2025-09-14'
+    version: '2025-09-05'
   vtype: date
 - name: Zebrafish developmental stages ontology
   prefix: zfs
@@ -13911,6 +13927,8 @@ database:
     version: '2025-09-09'
   - retrieved: '2025-09-12'
     version: '2025-09-10'
+  - retrieved: '2025-09-14'
+    version: '2025-09-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
