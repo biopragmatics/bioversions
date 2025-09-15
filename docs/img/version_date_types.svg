@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-09-14T01:10:25.750180</dc:date>
+    <dc:date>2025-09-15T01:10:55.522828</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -439,22 +439,8 @@ z
     </g>
    </g>
    <g id="text_10">
-    <!-- %Y -->
-    <g style="fill: #262626" transform="translate(356.035101 109.788402) scale(0.11 -0.11)">
-     <use xlink:href="#DejaVuSans-25"/>
-     <use xlink:href="#DejaVuSans-59" transform="translate(95.019531 0)"/>
-    </g>
-   </g>
-   <g id="text_11">
-    <!-- 0% -->
-    <g style="fill: #262626" transform="translate(289.924276 139.8152) scale(0.12 -0.12)">
-     <use xlink:href="#DejaVuSans-30"/>
-     <use xlink:href="#DejaVuSans-25" transform="translate(63.623047 0)"/>
-    </g>
-   </g>
-   <g id="text_12">
     <!-- %Y-%b -->
-    <g style="fill: #262626" transform="translate(354.247914 106.495083) scale(0.11 -0.11)">
+    <g style="fill: #262626" transform="translate(356.035101 109.788402) scale(0.11 -0.11)">
      <defs>
       <path id="DejaVuSans-62" d="M 3116 1747 
 Q 3116 2381 2855 2742 
@@ -488,6 +474,20 @@ z
      <use xlink:href="#DejaVuSans-2d" transform="translate(144.228516 0)"/>
      <use xlink:href="#DejaVuSans-25" transform="translate(180.3125 0)"/>
      <use xlink:href="#DejaVuSans-62" transform="translate(275.332031 0)"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- 0% -->
+    <g style="fill: #262626" transform="translate(289.924276 139.8152) scale(0.12 -0.12)">
+     <use xlink:href="#DejaVuSans-30"/>
+     <use xlink:href="#DejaVuSans-25" transform="translate(63.623047 0)"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <!-- %Y -->
+    <g style="fill: #262626" transform="translate(354.247914 106.495083) scale(0.11 -0.11)">
+     <use xlink:href="#DejaVuSans-25"/>
+     <use xlink:href="#DejaVuSans-59" transform="translate(95.019531 0)"/>
     </g>
    </g>
    <g id="text_13">
