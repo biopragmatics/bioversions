@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1125,
-    "date": "2025-09-18",
+    "revision": 1126,
+    "date": "2025-09-20",
     "author": "runner"
   },
   "database": [
@@ -1070,6 +1070,11 @@
         {
           "retrieved": "2025-09-18",
           "version": "2025-09-17",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-09-20",
+          "version": "2025-09-19",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -2701,6 +2706,12 @@
           "version": "35",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_35",
           "date": "2024-12-01"
+        },
+        {
+          "retrieved": "2025-09-20",
+          "version": "36",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_36",
+          "date": "2025-07-28"
         }
       ],
       "vtype": "sequential",
@@ -12130,6 +12141,10 @@
         {
           "retrieved": "2025-09-18",
           "version": "2025-09-16"
+        },
+        {
+          "retrieved": "2025-09-20",
+          "version": "2025-09-18"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -16153,6 +16168,10 @@
         {
           "retrieved": "2025-09-12",
           "version": "f7e82c2"
+        },
+        {
+          "retrieved": "2025-09-20",
+          "version": "3d7f88e"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -19577,6 +19596,10 @@
         {
           "retrieved": "2025-09-18",
           "version": "2025-09-18"
+        },
+        {
+          "retrieved": "2025-09-20",
+          "version": "2025-09-20"
         }
       ],
       "name": "SwissLipids",
@@ -25756,6 +25779,10 @@
         {
           "retrieved": "2025-09-18",
           "version": "2025-09-16"
+        },
+        {
+          "retrieved": "2025-09-20",
+          "version": "2025-09-18"
         }
       ],
       "name": "Zebrafish Information Network",
