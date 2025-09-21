@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1126,
-    "date": "2025-09-20",
+    "revision": 1127,
+    "date": "2025-09-21",
     "author": "runner"
   },
   "database": [
@@ -5727,6 +5727,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "3.81.0"
+        },
+        {
+          "retrieved": "2025-09-21",
+          "version": "3.82.0"
         }
       ],
       "vtype": "semver"
@@ -12145,6 +12149,10 @@
         {
           "retrieved": "2025-09-20",
           "version": "2025-09-18"
+        },
+        {
+          "retrieved": "2025-09-21",
+          "version": "2025-09-19"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14710,6 +14718,10 @@
         {
           "retrieved": "2025-09-07",
           "version": "2025-08-27"
+        },
+        {
+          "retrieved": "2025-09-21",
+          "version": "2025-09-17"
         }
       ],
       "vtype": "date"
@@ -16210,6 +16222,10 @@
         {
           "retrieved": "2025-09-14",
           "version": "2025-09-09"
+        },
+        {
+          "retrieved": "2025-09-21",
+          "version": "2025-09-16"
         }
       ],
       "name": "Space Life Sciences Ontology",
@@ -19600,6 +19616,10 @@
         {
           "retrieved": "2025-09-20",
           "version": "2025-09-20"
+        },
+        {
+          "retrieved": "2025-09-21",
+          "version": "2025-09-21"
         }
       ],
       "name": "SwissLipids",
@@ -25783,6 +25803,10 @@
         {
           "retrieved": "2025-09-20",
           "version": "2025-09-18"
+        },
+        {
+          "retrieved": "2025-09-21",
+          "version": "2025-09-19"
         }
       ],
       "name": "Zebrafish Information Network",

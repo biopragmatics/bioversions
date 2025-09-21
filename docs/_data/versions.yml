@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-09-20'
-  revision: 1126
+  date: '2025-09-21'
+  revision: 1127
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -3164,6 +3164,8 @@ database:
     version: 3.80.0
   - retrieved: '2025-08-24'
     version: 3.81.0
+  - retrieved: '2025-09-21'
+    version: 3.82.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -6730,6 +6732,8 @@ database:
     version: '2025-09-16'
   - retrieved: '2025-09-20'
     version: '2025-09-18'
+  - retrieved: '2025-09-21'
+    version: '2025-09-19'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8147,6 +8151,8 @@ database:
     version: '2025-07-21'
   - retrieved: '2025-09-07'
     version: '2025-08-27'
+  - retrieved: '2025-09-21'
+    version: '2025-09-17'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -8949,6 +8955,8 @@ database:
     version: '2025-09-02'
   - retrieved: '2025-09-14'
     version: '2025-09-09'
+  - retrieved: '2025-09-21'
+    version: '2025-09-16'
   vtype: date
 - name: Spider Ontology
   prefix: spd
@@ -10649,6 +10657,8 @@ database:
     version: '2025-09-18'
   - retrieved: '2025-09-20'
     version: '2025-09-20'
+  - retrieved: '2025-09-21'
+    version: '2025-09-21'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13980,6 +13990,8 @@ database:
     version: '2025-09-16'
   - retrieved: '2025-09-20'
     version: '2025-09-18'
+  - retrieved: '2025-09-21'
+    version: '2025-09-19'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
