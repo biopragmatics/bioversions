@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-09-24'
-  revision: 1130
+  date: '2025-09-25'
+  revision: 1131
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -637,6 +637,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-09-24'
     version: '2025-09-23'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-09-25'
+    version: '2025-09-24'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4866,6 +4869,8 @@ database:
     version: 4.1.198
   - retrieved: '2025-08-15'
     version: 4.1.199
+  - retrieved: '2025-09-25'
+    version: 4.1.200
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -4956,6 +4961,8 @@ database:
     version: '2.159'
   - retrieved: '2025-08-31'
     version: '2.160'
+  - retrieved: '2025-09-25'
+    version: '2.161'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -5745,6 +5752,8 @@ database:
     version: '2024-11-25'
   - retrieved: '2025-03-23'
     version: '2025-03-13'
+  - retrieved: '2025-09-25'
+    version: '2025-09-11'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -6742,6 +6751,8 @@ database:
     version: '2025-09-19'
   - retrieved: '2025-09-24'
     version: '2025-09-22'
+  - retrieved: '2025-09-25'
+    version: '2025-09-23'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8427,6 +8438,8 @@ database:
     version: '6.257'
   - retrieved: '2025-09-14'
     version: '6.258'
+  - retrieved: '2025-09-25'
+    version: '6.259'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -10675,6 +10688,8 @@ database:
     version: '2025-09-23'
   - retrieved: '2025-09-24'
     version: '2025-09-24'
+  - retrieved: '2025-09-25'
+    version: '2025-09-25'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -10729,6 +10744,8 @@ database:
     version: '2016-04-15'
   - retrieved: '2024-12-15'
     version: '2024-11-28'
+  - retrieved: '2025-09-25'
+    version: '2025-09-22'
   vtype: date
 - name: Taxonomy
   prefix: ncbitaxon
@@ -14014,6 +14031,8 @@ database:
     version: '2025-09-21'
   - retrieved: '2025-09-24'
     version: '2025-09-22'
+  - retrieved: '2025-09-25'
+    version: '2025-09-23'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

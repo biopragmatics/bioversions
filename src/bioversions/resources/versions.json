@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1130,
-    "date": "2025-09-24",
+    "revision": 1131,
+    "date": "2025-09-25",
     "author": "runner"
   },
   "database": [
@@ -1085,6 +1085,11 @@
         {
           "retrieved": "2025-09-24",
           "version": "2025-09-23",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "2025-09-24",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8770,6 +8775,10 @@
         {
           "retrieved": "2025-08-15",
           "version": "4.1.199"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "4.1.200"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -8949,6 +8958,10 @@
         {
           "retrieved": "2025-08-31",
           "version": "2.160"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "2.161"
         }
       ],
       "vtype": "date"
@@ -10369,6 +10382,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-13"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "2025-09-11"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -12167,6 +12184,10 @@
         {
           "retrieved": "2025-09-24",
           "version": "2025-09-22"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "2025-09-23"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15266,6 +15287,10 @@
         {
           "retrieved": "2025-09-14",
           "version": "6.258"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "6.259"
         }
       ],
       "vtype": "date"
@@ -19650,6 +19675,10 @@
         {
           "retrieved": "2025-09-24",
           "version": "2025-09-24"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "2025-09-25"
         }
       ],
       "name": "SwissLipids",
@@ -19756,6 +19785,10 @@
         {
           "retrieved": "2024-12-15",
           "version": "2024-11-28"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "2025-09-22"
         }
       ],
       "vtype": "date"
@@ -25849,6 +25882,10 @@
         {
           "retrieved": "2025-09-24",
           "version": "2025-09-22"
+        },
+        {
+          "retrieved": "2025-09-25",
+          "version": "2025-09-23"
         }
       ],
       "name": "Zebrafish Information Network",
