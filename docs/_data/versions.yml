@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-09-30'
-  revision: 1136
+  date: '2025-10-01'
+  revision: 1137
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -652,6 +652,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-09-30'
     version: '2025-09-29'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-10-01'
+    version: '2025-09-30'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2398,6 +2401,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-08-29
     retrieved: '2025-08-30'
     version: '2025-08-29'
+  - date: '2025-09-30'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-09-30
+    retrieved: '2025-10-01'
+    version: '2025-09-30'
   vtype: date
 - name: DisGeNet
   releases:
@@ -4709,6 +4716,9 @@ database:
   - date: '2025-08-01'
     retrieved: '2025-08-01'
     version: '115.1'
+  - date: '2025-10-01'
+    retrieved: '2025-10-01'
+    version: '116.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -6773,6 +6783,8 @@ database:
     version: '2025-09-25'
   - retrieved: '2025-09-28'
     version: '2025-09-26'
+  - retrieved: '2025-10-01'
+    version: '2025-09-29'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8142,6 +8154,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-09-01
     retrieved: '2025-09-01'
     version: '2025-09-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-10-01
+    retrieved: '2025-10-01'
+    version: '2025-10-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -10722,6 +10737,8 @@ database:
     version: '2025-09-29'
   - retrieved: '2025-09-30'
     version: '2025-09-30'
+  - retrieved: '2025-10-01'
+    version: '2025-10-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14075,6 +14092,8 @@ database:
     version: '2025-09-27'
   - retrieved: '2025-09-30'
     version: '2025-09-28'
+  - retrieved: '2025-10-01'
+    version: '2025-09-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
