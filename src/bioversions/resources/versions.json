@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1137,
-    "date": "2025-10-01",
+    "revision": 1138,
+    "date": "2025-10-02",
     "author": "runner"
   },
   "database": [
@@ -1693,6 +1693,11 @@
           "retrieved": "2025-09-02",
           "version": "4.4.249",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.249"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "5.0.250",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.250"
         }
       ],
       "vtype": "semver"
@@ -2970,6 +2975,10 @@
         {
           "retrieved": "2025-09-02",
           "version": "2025-09-01"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "2025-10-01"
         }
       ],
       "name": "CiVIC",
@@ -3795,6 +3804,10 @@
         {
           "retrieved": "2025-07-01",
           "version": "25Q2"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "25Q3"
         }
       ],
       "name": "DepMap",
@@ -12244,6 +12257,10 @@
         {
           "retrieved": "2025-10-01",
           "version": "2025-09-29"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "2025-09-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14233,6 +14250,12 @@
           "version": "2025-09-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-09-01/",
           "date": "2025-09-01"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "2025-10-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-10-01/",
+          "date": "2025-10-01"
         }
       ],
       "name": "PomBase",
@@ -15986,6 +16009,11 @@
           "retrieved": "2025-09-03",
           "version": "2025-09-02",
           "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09022025.zip"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "2025-10-06",
+          "homepage": "https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10062025.zip"
         }
       ],
       "name": "RxNorm",
@@ -16176,6 +16204,10 @@
         {
           "retrieved": "2025-07-02",
           "version": "2025-07-01"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "2025-10-01"
         }
       ],
       "name": "SIGNOR",
@@ -19768,6 +19800,10 @@
         {
           "retrieved": "2025-10-01",
           "version": "2025-10-01"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "2025-10-02"
         }
       ],
       "name": "SwissLipids",
@@ -25999,6 +26035,10 @@
         {
           "retrieved": "2025-10-01",
           "version": "2025-09-29"
+        },
+        {
+          "retrieved": "2025-10-02",
+          "version": "2025-09-30"
         }
       ],
       "name": "Zebrafish Information Network",

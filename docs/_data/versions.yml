@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-10-01'
-  revision: 1137
+  date: '2025-10-02'
+  revision: 1138
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -974,6 +974,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-4.4.249
     retrieved: '2025-09-02'
     version: 4.4.249
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.250
+    retrieved: '2025-10-02'
+    version: 5.0.250
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -1668,6 +1671,8 @@ database:
     version: '2025-08-01'
   - retrieved: '2025-09-02'
     version: '2025-09-01'
+  - retrieved: '2025-10-02'
+    version: '2025-10-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -2108,6 +2113,8 @@ database:
     version: 24Q4
   - retrieved: '2025-07-01'
     version: 25Q2
+  - retrieved: '2025-10-02'
+    version: 25Q3
   vtype: other
 - name: Developing Human Brain Atlas
   prefix: dhba
@@ -6785,6 +6792,8 @@ database:
     version: '2025-09-26'
   - retrieved: '2025-10-01'
     version: '2025-09-29'
+  - retrieved: '2025-10-02'
+    version: '2025-09-30'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7883,6 +7892,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-09-01/
     retrieved: '2025-09-02'
     version: '2025-09-01'
+  - date: '2025-10-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2025-10-01/
+    retrieved: '2025-10-02'
+    version: '2025-10-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -8834,6 +8847,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_09022025.zip
     retrieved: '2025-09-03'
     version: '2025-09-02'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10062025.zip
+    retrieved: '2025-10-02'
+    version: '2025-10-06'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -8933,6 +8949,8 @@ database:
     version: '2025-04-01'
   - retrieved: '2025-07-02'
     version: '2025-07-01'
+  - retrieved: '2025-10-02'
+    version: '2025-10-01'
   vtype: date
 - name: SILVA ribosomal RNA database
   prefix: silva.taxon
@@ -10739,6 +10757,8 @@ database:
     version: '2025-09-30'
   - retrieved: '2025-10-01'
     version: '2025-10-01'
+  - retrieved: '2025-10-02'
+    version: '2025-10-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14094,6 +14114,8 @@ database:
     version: '2025-09-28'
   - retrieved: '2025-10-01'
     version: '2025-09-29'
+  - retrieved: '2025-10-02'
+    version: '2025-09-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
