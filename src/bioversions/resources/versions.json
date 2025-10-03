@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1138,
-    "date": "2025-10-02",
+    "revision": 1139,
+    "date": "2025-10-03",
     "author": "runner"
   },
   "database": [
@@ -1115,6 +1115,11 @@
         {
           "retrieved": "2025-10-01",
           "version": "2025-09-30",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-10-03",
+          "version": "2025-10-02",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -6299,6 +6304,11 @@
           "retrieved": "2025-07-17",
           "version": "2025_03",
           "homepage": "https://s3ftp.flybase.org/releases/FB2025_03/"
+        },
+        {
+          "retrieved": "2025-10-03",
+          "version": "2025_04",
+          "homepage": "https://s3ftp.flybase.org/releases/FB2025_04/"
         }
       ],
       "name": "FlyBase",
@@ -9630,6 +9640,12 @@
           "version": "2025-09-04",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-09-04",
           "date": "2025-09-04"
+        },
+        {
+          "retrieved": "2025-10-03",
+          "version": "2025-10-02",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-10-02",
+          "date": "2025-10-02"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -12261,6 +12277,10 @@
         {
           "retrieved": "2025-10-02",
           "version": "2025-09-30"
+        },
+        {
+          "retrieved": "2025-10-03",
+          "version": "2025-10-01"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -19804,6 +19824,10 @@
         {
           "retrieved": "2025-10-02",
           "version": "2025-10-02"
+        },
+        {
+          "retrieved": "2025-10-03",
+          "version": "2025-10-03"
         }
       ],
       "name": "SwissLipids",
@@ -26039,6 +26063,10 @@
         {
           "retrieved": "2025-10-02",
           "version": "2025-09-30"
+        },
+        {
+          "retrieved": "2025-10-03",
+          "version": "2025-10-01"
         }
       ],
       "name": "Zebrafish Information Network",
