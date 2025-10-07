@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1142,
-    "date": "2025-10-06",
+    "revision": 1143,
+    "date": "2025-10-07",
     "author": "runner"
   },
   "database": [
@@ -1125,6 +1125,11 @@
         {
           "retrieved": "2025-10-04",
           "version": "2025-10-03",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-10-07",
+          "version": "2025-10-06",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -7356,6 +7361,11 @@
           "retrieved": "2025-10-04",
           "version": "2025-10-03",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-10-03.json"
+        },
+        {
+          "retrieved": "2025-10-07",
+          "version": "2025-09-05",
+          "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-09-05.json"
         }
       ],
       "name": "HGNC",
@@ -15256,6 +15266,10 @@
         {
           "retrieved": "2025-09-30",
           "version": "2025-09-26"
+        },
+        {
+          "retrieved": "2025-10-07",
+          "version": "2025-10-03"
         }
       ],
       "name": "Rat Genome Database",
@@ -19858,6 +19872,10 @@
         {
           "retrieved": "2025-10-06",
           "version": "2025-10-06"
+        },
+        {
+          "retrieved": "2025-10-07",
+          "version": "2025-10-07"
         }
       ],
       "name": "SwissLipids",
@@ -26109,6 +26127,10 @@
         {
           "retrieved": "2025-10-06",
           "version": "2025-10-04"
+        },
+        {
+          "retrieved": "2025-10-07",
+          "version": "2025-10-05"
         }
       ],
       "name": "Zebrafish Information Network",

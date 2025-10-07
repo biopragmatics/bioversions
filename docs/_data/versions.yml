@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-10-06'
-  revision: 1142
+  date: '2025-10-07'
+  revision: 1143
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -661,6 +661,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-10-04'
     version: '2025-10-03'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-10-07'
+    version: '2025-10-06'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4081,6 +4084,9 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-10-03.json
     retrieved: '2025-10-04'
     version: '2025-10-03'
+  - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-09-05.json
+    retrieved: '2025-10-07'
+    version: '2025-09-05'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -8432,6 +8438,8 @@ database:
     version: '2025-09-19'
   - retrieved: '2025-09-30'
     version: '2025-09-26'
+  - retrieved: '2025-10-07'
+    version: '2025-10-03'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -10789,6 +10797,8 @@ database:
     version: '2025-10-05'
   - retrieved: '2025-10-06'
     version: '2025-10-06'
+  - retrieved: '2025-10-07'
+    version: '2025-10-07'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14154,6 +14164,8 @@ database:
     version: '2025-10-03'
   - retrieved: '2025-10-06'
     version: '2025-10-04'
+  - retrieved: '2025-10-07'
+    version: '2025-10-05'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
