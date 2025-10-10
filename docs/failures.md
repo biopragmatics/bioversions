@@ -1,10 +1,10 @@
 # Summary of Errors
 
-- **Pfam** `[pfam] failed to resolve: [Errno 104] Connection reset by peer`
+- **ChEMBL** `[chembl] failed to resolve: [Errno 104] Connection reset by peer`
 
-## Pfam
+## ChEMBL
 
-Using class: `PfamGetter`
+Using class: `ChEMBLGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -35,7 +35,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 85, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/pfam.py", line 22, in get
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/chembl.py", line 30, in get
     with ftplib.FTP("ftp.ebi.ac.uk") as ftp:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/ftplib.py", line 121, in __init__

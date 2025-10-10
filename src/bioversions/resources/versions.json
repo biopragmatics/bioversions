@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1145,
-    "date": "2025-10-09",
+    "revision": 1146,
+    "date": "2025-10-10",
     "author": "runner"
   },
   "database": [
@@ -1140,6 +1140,11 @@
         {
           "retrieved": "2025-10-09",
           "version": "2025-10-08",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-10-10",
+          "version": "2025-10-09",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -10398,6 +10403,11 @@
           "retrieved": "2025-10-08",
           "version": "25.09e",
           "date": "2025-09-29"
+        },
+        {
+          "retrieved": "2025-10-10",
+          "version": "25.10a",
+          "date": "2025-10-06"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -10815,6 +10825,12 @@
           "version": "2025-04-08",
           "homepage": "http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_2025_04_08",
           "date": "2025-04-08"
+        },
+        {
+          "retrieved": "2025-10-10",
+          "version": "2025-10-03",
+          "homepage": "http://oncotree.mskcc.org/api/tumorTypes?version=oncotree_2025_10_03",
+          "date": "2025-10-03"
         }
       ],
       "name": "OncoTree",
@@ -12337,6 +12353,10 @@
         {
           "retrieved": "2025-10-09",
           "version": "2025-10-07"
+        },
+        {
+          "retrieved": "2025-10-10",
+          "version": "2025-10-08"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -16404,6 +16424,10 @@
         {
           "retrieved": "2025-09-20",
           "version": "3d7f88e"
+        },
+        {
+          "retrieved": "2025-10-10",
+          "version": "e68f11e"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -19912,6 +19936,10 @@
         {
           "retrieved": "2025-10-09",
           "version": "2025-10-09"
+        },
+        {
+          "retrieved": "2025-10-10",
+          "version": "2025-10-10"
         }
       ],
       "name": "SwissLipids",
@@ -26175,6 +26203,10 @@
         {
           "retrieved": "2025-10-09",
           "version": "2025-10-07"
+        },
+        {
+          "retrieved": "2025-10-10",
+          "version": "2025-10-08"
         }
       ],
       "name": "Zebrafish Information Network",
