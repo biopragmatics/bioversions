@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-10-17'
-  revision: 1153
+  date: '2025-10-18'
+  revision: 1154
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -688,6 +688,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-10-17'
     version: '2025-10-16'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-10-18'
+    version: '2025-10-17'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3803,6 +3806,10 @@ database:
     homepage: http://archive.geneontology.org/full/2025-07-22/
     retrieved: '2025-07-26'
     version: '2025-07-22'
+  - date: '2025-10-10'
+    homepage: http://archive.geneontology.org/full/2025-10-10/
+    retrieved: '2025-10-18'
+    version: '2025-10-10'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -6884,6 +6891,8 @@ database:
     version: '2025-10-14'
   - retrieved: '2025-10-17'
     version: '2025-10-15'
+  - retrieved: '2025-10-18'
+    version: '2025-10-16'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -10889,6 +10898,8 @@ database:
     version: '2025-10-16'
   - retrieved: '2025-10-17'
     version: '2025-10-17'
+  - retrieved: '2025-10-18'
+    version: '2025-10-18'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11443,6 +11454,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_03/
     retrieved: '2025-06-20'
     version: '2025_03'
+  - date: '2025-04-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_04/
+    retrieved: '2025-10-18'
+    version: '2025_04'
   vtype: month
 - name: Uniprot Core Ontology
   prefix: uniprot.core
