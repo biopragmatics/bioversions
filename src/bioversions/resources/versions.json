@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1155,
-    "date": "2025-10-19",
+    "revision": 1156,
+    "date": "2025-10-20",
     "author": "runner"
   },
   "database": [
@@ -29,6 +29,10 @@
         {
           "retrieved": "2025-09-14",
           "version": "2025-09-08"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-09-24"
         }
       ],
       "name": "Addiction Ontology",
@@ -1486,6 +1490,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2.8.16"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2.8.18a"
         }
       ],
       "vtype": "semver"
@@ -2451,6 +2459,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2025-07-30"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-16"
         }
       ],
       "prefix": "cl",
@@ -3234,6 +3246,10 @@
         {
           "retrieved": "2025-08-15",
           "version": "2.252"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2.253"
         }
       ],
       "vtype": "date"
@@ -4475,6 +4491,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-29"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-16"
         }
       ],
       "name": "Drosophila development",
@@ -4574,6 +4594,10 @@
         {
           "retrieved": "2025-08-13",
           "version": "2025-08-07"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-16"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -4689,6 +4713,10 @@
         {
           "retrieved": "2025-08-13",
           "version": "2025-08-07"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-17"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -5643,6 +5671,10 @@
         {
           "retrieved": "2025-09-14",
           "version": "4.213"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "4.215"
         }
       ],
       "vtype": "date"
@@ -5854,6 +5886,10 @@
         {
           "retrieved": "2025-09-21",
           "version": "3.82.0"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "3.83.0"
         }
       ],
       "vtype": "semver"
@@ -6222,6 +6258,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "2025-08-13"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-09-27"
         }
       ],
       "vtype": "date"
@@ -6479,6 +6519,10 @@
         {
           "retrieved": "2025-08-13",
           "version": "2025-08-07"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-17"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -7085,6 +7129,10 @@
         {
           "retrieved": "2025-02-27",
           "version": "2025-01-28"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-10"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -7524,6 +7572,10 @@
         {
           "retrieved": "2025-04-20",
           "version": "2025-04-01"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-14"
         }
       ],
       "vtype": "semver"
@@ -8796,6 +8848,10 @@
         {
           "retrieved": "2025-09-07",
           "version": "2025-08-27"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-09-30"
         }
       ],
       "vtype": "date"
@@ -8928,6 +8984,10 @@
         {
           "retrieved": "2025-09-25",
           "version": "4.1.200"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "4.1.204"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -9111,6 +9171,10 @@
         {
           "retrieved": "2025-09-25",
           "version": "2.161"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2.164"
         }
       ],
       "vtype": "date"
@@ -9449,6 +9513,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-23"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-09-25"
         }
       ],
       "vtype": "date"
@@ -9942,6 +10010,10 @@
         {
           "retrieved": "2025-09-07",
           "version": "2025-09-02"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-07"
         }
       ],
       "vtype": "date"
@@ -10803,6 +10875,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2024-04-28"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-06"
         }
       ],
       "name": "Occupation Ontology",
@@ -12670,6 +12746,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-06-30"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-08-13"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -13691,6 +13771,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "7.94"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "7.95"
         }
       ],
       "name": "Pathway ontology",
@@ -16422,6 +16506,10 @@
         {
           "retrieved": "2025-08-13",
           "version": "20250624"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "20251017"
         }
       ],
       "name": "SNOMED CT (International Edition)",
@@ -20067,6 +20155,10 @@
         {
           "retrieved": "2025-10-19",
           "version": "2025-10-19"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-20"
         }
       ],
       "name": "SwissLipids",
@@ -20177,6 +20269,10 @@
         {
           "retrieved": "2025-09-25",
           "version": "2025-09-22"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-09-24"
         }
       ],
       "vtype": "date"
@@ -20349,6 +20445,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-18"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-09-25"
         }
       ],
       "vtype": "date"
@@ -20906,6 +21006,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "2025-07-21"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-12"
         }
       ],
       "name": "Unified Phenotype Ontology",
@@ -21510,6 +21614,10 @@
         {
           "retrieved": "2025-09-14",
           "version": "2025-09-09"
+        },
+        {
+          "retrieved": "2025-10-20",
+          "version": "2025-10-14"
         }
       ],
       "vtype": "date"
