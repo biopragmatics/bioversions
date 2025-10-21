@@ -19,7 +19,7 @@ class StringDBGetter(Getter):
         soup = get_soup("https://string-db.org/cgi/access")
         table = soup.find(**{"class": "footer_access_archive_table"})
         rows = table.find_all(**{"class": "row"})
-        version, date, link, _summary = (row.text for row in rows[1].find_all(**{"class": "cell"}))
+        version, date, _link, _summary = (row.text for row in rows[1].find_all(**{"class": "cell"}))
         date = date[len("current: since ") :]
         return {"version": version, "date": date}
 

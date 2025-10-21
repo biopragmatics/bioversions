@@ -28,7 +28,7 @@ class GuideToPharmacologyGetter(Getter):
         soup = get_soup(URL)
         divs = list(soup.find_all("div", {"class": "contentboxfullhelp"}))
         # the type ignore is because mypy doesn't understand the attribute-based dispatch
-        text = divs[4].div.ul.li.a.text  # type:ignore[attr-defined]
+        text = divs[4].div.ul.li.a.text  # type:ignore[attr-defined,union-attr]
         search = RE.search(text)
         if not search:
             raise ValueError(
