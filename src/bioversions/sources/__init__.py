@@ -257,7 +257,7 @@ def iter_versions(
     """Iterate over versions, without caching."""
     with logging_redirect_tqdm():
         getters = tqdm(
-            getter_resolver, disable=not use_tqdm, desc="Getting versions", unit="resource"
+            list(getter_resolver), disable=not use_tqdm, desc="Getting versions", unit="resource"
         )
         for cls in getters:
             getters.set_postfix(name=cls.name)
