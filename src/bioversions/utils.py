@@ -10,6 +10,7 @@ import bioregistry
 import pydantic
 import pystow.utils
 import requests
+import requests.exceptions
 from bs4 import Tag
 from cachier import cachier
 from pystow.utils import get_soup
@@ -333,15 +334,18 @@ VERSION_IRI_TAG_LEN = len(VERSION_IRI_TAG)
 
 def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get version from an OWL XML document."""
-    with requests.get(url, stream=True, timeout=60) as res:
-        for i, line in enumerate(res.iter_lines(decode_unicode=True)):
-            if isinstance(line, bytes):
-                line = line.decode("utf-8")
-            line = line.strip()
-            if line.startswith(VERSION_IRI_TAG):
-                return line[VERSION_IRI_TAG_LEN:].removesuffix("/>")
-            if i > max_lines:
-                return None
+    try:
+        with requests.get(url, stream=True, timeout=60) as res:
+            for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+                if isinstance(line, bytes):
+                    line = line.decode("utf-8")
+                line = line.strip()
+                if line.startswith(VERSION_IRI_TAG):
+                    return line[VERSION_IRI_TAG_LEN:].removesuffix("/>")
+                if i > max_lines:
+                    return None
+    except requests.exceptions.SSLError:
+        pass
     return None
 
 
