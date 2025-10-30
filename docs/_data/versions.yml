@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-10-21'
-  revision: 1157
+  date: '2025-10-30'
+  revision: 1158
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -696,6 +696,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-10-21'
     version: '2025-10-20'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-10-30'
+    version: '2025-10-29'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1553,6 +1556,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel244/
     retrieved: '2025-08-02'
     version: '244'
+  - date: '2025-10-16'
+    retrieved: '2025-10-30'
+    version: '245'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -3152,6 +3158,8 @@ database:
     version: '4.213'
   - retrieved: '2025-10-20'
     version: '4.215'
+  - retrieved: '2025-10-30'
+    version: '4.216'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -6936,6 +6944,8 @@ database:
     version: '2025-10-16'
   - retrieved: '2025-10-19'
     version: '2025-10-17'
+  - retrieved: '2025-10-30'
+    version: '2025-10-28'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8562,6 +8572,8 @@ database:
     version: '2025-10-10'
   - retrieved: '2025-10-21'
     version: '2025-10-17'
+  - retrieved: '2025-10-30'
+    version: '2025-10-25'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -9173,6 +9185,8 @@ database:
     version: 17f273c
   - retrieved: '2025-10-16'
     version: 614a375
+  - retrieved: '2025-10-30'
+    version: 88388db
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -10957,6 +10971,8 @@ database:
     version: '2025-10-20'
   - retrieved: '2025-10-21'
     version: '2025-10-21'
+  - retrieved: '2025-10-30'
+    version: '2025-10-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14362,6 +14378,8 @@ database:
     version: '2025-10-15'
   - retrieved: '2025-10-21'
     version: '2025-10-19'
+  - retrieved: '2025-10-30'
+    version: '2025-10-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
