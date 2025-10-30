@@ -1,12 +1,16 @@
 """A getter for ChEBI."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+import requests
+
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "ChEBIGetter",
 ]
 
-URL = "https://ftp.ebi.ac.uk/pub/databases/chebi/archive/"
+README = "https://ftp.ebi.ac.uk/pub/databases/chebi/ontology/README"
+VERSION_PREFIX = "* ChEBI Release:"
+DATE_PREFIX = "* Date of last update:"
 
 
 class ChEBIGetter(Getter):
@@ -16,34 +20,24 @@ class ChEBIGetter(Getter):
     name = "ChEBI"
     version_type = VersionType.sequential
     date_fmt = "%Y-%m-%d"
-    homepage_fmt = "https://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel{version}/"
 
     def get(self):
         """Get the latest ChEBI version number."""
-        soup = get_soup(URL)
+        res = requests.get(README, timeout=5)
+        res.raise_for_status()
 
-        versions = []
-        for row in soup.find_all("tr"):
-            row = list(row)
-            if len(row) < 3:
-                continue
-            anchor = row[1].find("a")
-            if anchor is None:
-                continue
-            version = anchor.attrs["href"].removeprefix("rel").rstrip("/")
-            if not version.isnumeric():
-                continue
-            if not row[2].text:
-                continue
-            versions.append(
-                (
-                    version,
-                    row[2].text.split()[0],
-                )
-            )
+        rv = {}
+        for line in res.iter_lines():
+            line = line.decode()
+            if line.startswith(VERSION_PREFIX):
+                rv["version"] = line.removeprefix(VERSION_PREFIX).strip()
+            elif line.startswith(DATE_PREFIX):
+                rv["date"] = line.removeprefix(DATE_PREFIX).strip()
 
-        version, date = versions[-1]
-        return {"version": version, "date": date}
+        if not rv:
+            raise ValueError(f"was not able to parse ChEBI version from {README}")
+
+        return rv
 
 
 if __name__ == "__main__":
