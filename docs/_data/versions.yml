@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-10-31'
-  revision: 1159
+  date: '2025-11-01'
+  revision: 1160
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1562,6 +1562,9 @@ database:
   - date: '2025-10-16'
     retrieved: '2025-10-30'
     version: '245'
+  - date: '2025-10-31'
+    retrieved: '2025-11-01'
+    version: '246'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -2468,6 +2471,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-09-30
     retrieved: '2025-10-01'
     version: '2025-09-30'
+  - date: '2025-10-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-10-31
+    retrieved: '2025-11-01'
+    version: '2025-10-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -6951,6 +6958,8 @@ database:
     version: '2025-10-28'
   - retrieved: '2025-10-31'
     version: '2025-10-29'
+  - retrieved: '2025-11-01'
+    version: '2025-10-30'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8331,6 +8340,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-10-01
     retrieved: '2025-10-01'
     version: '2025-10-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-11-01
+    retrieved: '2025-11-01'
+    version: '2025-11-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -10980,6 +10992,8 @@ database:
     version: '2025-10-30'
   - retrieved: '2025-10-31'
     version: '2025-10-31'
+  - retrieved: '2025-11-01'
+    version: '2025-11-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14387,6 +14401,8 @@ database:
     version: '2025-10-19'
   - retrieved: '2025-10-30'
     version: '2025-10-29'
+  - retrieved: '2025-11-01'
+    version: '2025-10-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
