@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-11-01'
-  revision: 1160
+  date: '2025-11-02'
+  revision: 1161
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -702,6 +702,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-10-31'
     version: '2025-10-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-11-02'
+    version: '2025-11-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1641,6 +1644,8 @@ database:
     version: '2022-04-19'
   - retrieved: '2025-06-09'
     version: '2025-01-22'
+  - retrieved: '2025-11-02'
+    version: '2025-10-21'
   vtype: date
 - name: ChemIDplus
   prefix: chemidplus
@@ -1730,6 +1735,8 @@ database:
     version: '2025-09-01'
   - retrieved: '2025-10-02'
     version: '2025-10-01'
+  - retrieved: '2025-11-02'
+    version: '2025-11-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -1830,6 +1837,8 @@ database:
     version: '2.252'
   - retrieved: '2025-10-20'
     version: '2.253'
+  - retrieved: '2025-11-02'
+    version: '2.254'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2911,6 +2920,8 @@ database:
     version: '2025-02-05'
   - retrieved: '2025-08-24'
     version: '2025-08-19'
+  - retrieved: '2025-11-02'
+    version: '2025-10-20'
   vtype: date
 - name: Environment Ontology for Livestock
   prefix: eol
@@ -3170,6 +3181,8 @@ database:
     version: '4.215'
   - retrieved: '2025-10-30'
     version: '4.216'
+  - retrieved: '2025-11-02'
+    version: '4.217'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4366,6 +4379,8 @@ database:
     version: '2025-08-11'
   - retrieved: '2025-09-07'
     version: '2025-09-01'
+  - retrieved: '2025-11-02'
+    version: '2025-10-22'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -5011,6 +5026,8 @@ database:
     version: 4.1.200
   - retrieved: '2025-10-20'
     version: 4.1.204
+  - retrieved: '2025-11-02'
+    version: 4.1.207
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -5283,6 +5300,8 @@ database:
     version: '2025-05-23'
   - retrieved: '2025-10-20'
     version: '2025-09-25'
+  - retrieved: '2025-11-02'
+    version: '2025-10-29'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -5607,6 +5626,8 @@ database:
     version: '2025-07-04'
   - retrieved: '2025-08-03'
     version: '2025-07-28'
+  - retrieved: '2025-11-02'
+    version: '2025-10-29'
   vtype: date
 - name: Mouse Developmental Anatomy Ontology
   prefix: emapa
@@ -6960,6 +6981,8 @@ database:
     version: '2025-10-29'
   - retrieved: '2025-11-01'
     version: '2025-10-30'
+  - retrieved: '2025-11-02'
+    version: '2025-10-31'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7038,6 +7061,8 @@ database:
     version: '2025-05-01'
   - retrieved: '2025-08-12'
     version: '2025-07-28'
+  - retrieved: '2025-11-02'
+    version: '2025-10-14'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -7573,6 +7598,8 @@ database:
     version: '2024-08-29'
   - retrieved: '2025-08-03'
     version: '2025-07-29'
+  - retrieved: '2025-11-02'
+    version: '2025-10-29'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -10994,6 +11021,8 @@ database:
     version: '2025-10-31'
   - retrieved: '2025-11-01'
     version: '2025-11-01'
+  - retrieved: '2025-11-02'
+    version: '2025-11-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11768,6 +11797,8 @@ database:
     version: '2025-09-09'
   - retrieved: '2025-10-20'
     version: '2025-10-14'
+  - retrieved: '2025-11-02'
+    version: '2025-10-28'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -14403,6 +14434,8 @@ database:
     version: '2025-10-29'
   - retrieved: '2025-11-01'
     version: '2025-10-30'
+  - retrieved: '2025-11-02'
+    version: '2025-10-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

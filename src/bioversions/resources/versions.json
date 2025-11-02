@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1160,
-    "date": "2025-11-01",
+    "revision": 1161,
+    "date": "2025-11-02",
     "author": "runner"
   },
   "database": [
@@ -1194,6 +1194,11 @@
         {
           "retrieved": "2025-10-31",
           "version": "2025-10-30",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-11-01",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -2912,6 +2917,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-01-22"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-21"
         }
       ],
       "vtype": "date"
@@ -3076,6 +3085,10 @@
         {
           "retrieved": "2025-10-02",
           "version": "2025-10-01"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-11-01"
         }
       ],
       "name": "CiVIC",
@@ -3275,6 +3288,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2.253"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2.254"
         }
       ],
       "vtype": "date"
@@ -5206,6 +5223,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "2025-08-19"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-20"
         }
       ],
       "vtype": "date"
@@ -5710,6 +5731,10 @@
         {
           "retrieved": "2025-10-30",
           "version": "4.216"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "4.217"
         }
       ],
       "vtype": "date"
@@ -7874,6 +7899,10 @@
         {
           "retrieved": "2025-09-07",
           "version": "2025-09-01"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-22"
         }
       ],
       "vtype": "date"
@@ -9023,6 +9052,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "4.1.204"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "4.1.207"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -9552,6 +9585,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-09-25"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-29"
         }
       ],
       "vtype": "date"
@@ -10125,6 +10162,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "2025-07-28"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-29"
         }
       ],
       "name": "Mouse Brain Atlas",
@@ -12559,6 +12600,10 @@
         {
           "retrieved": "2025-11-01",
           "version": "2025-10-30"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-31"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -12711,6 +12756,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2025-07-28"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-14"
         }
       ],
       "vtype": "date"
@@ -13692,6 +13741,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "2025-07-29"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-29"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -20239,6 +20292,10 @@
         {
           "retrieved": "2025-11-01",
           "version": "2025-11-01"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-11-02"
         }
       ],
       "name": "SwissLipids",
@@ -21698,6 +21755,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-10-14"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-28"
         }
       ],
       "vtype": "date"
@@ -26574,6 +26635,10 @@
         {
           "retrieved": "2025-11-01",
           "version": "2025-10-30"
+        },
+        {
+          "retrieved": "2025-11-02",
+          "version": "2025-10-31"
         }
       ],
       "name": "Zebrafish Information Network",
