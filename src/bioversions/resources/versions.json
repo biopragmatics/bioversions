@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1162,
-    "date": "2025-11-03",
+    "revision": 1163,
+    "date": "2025-11-04",
     "author": "runner"
   },
   "database": [
@@ -1200,6 +1200,11 @@
           "retrieved": "2025-11-02",
           "version": "2025-11-01",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-11-04",
+          "version": "2025-11-03",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1786,6 +1791,11 @@
           "retrieved": "2025-10-02",
           "version": "5.0.250",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.250"
+        },
+        {
+          "retrieved": "2025-11-04",
+          "version": "5.0.251",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.251"
         }
       ],
       "vtype": "semver"
@@ -14615,6 +14625,12 @@
           "version": "2025-10-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-10-01/",
           "date": "2025-10-01"
+        },
+        {
+          "retrieved": "2025-11-04",
+          "version": "2025-11-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2025-11-01/",
+          "date": "2025-11-01"
         }
       ],
       "name": "PomBase",
@@ -15598,6 +15614,10 @@
         {
           "retrieved": "2025-10-30",
           "version": "2025-10-25"
+        },
+        {
+          "retrieved": "2025-11-04",
+          "version": "2025-11-01"
         }
       ],
       "name": "Rat Genome Database",
@@ -20300,6 +20320,10 @@
         {
           "retrieved": "2025-11-03",
           "version": "2025-11-03"
+        },
+        {
+          "retrieved": "2025-11-04",
+          "version": "2025-11-04"
         }
       ],
       "name": "SwissLipids",
@@ -26647,6 +26671,10 @@
         {
           "retrieved": "2025-11-03",
           "version": "2025-11-01"
+        },
+        {
+          "retrieved": "2025-11-04",
+          "version": "2025-11-02"
         }
       ],
       "name": "Zebrafish Information Network",
