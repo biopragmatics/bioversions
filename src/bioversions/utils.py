@@ -50,6 +50,7 @@ class VersionType(enum.Enum):
     unversioned = "Unversioned"
     other = "Other"
     missing = "Missing"
+    static = "Static"
     #: Saved for the most shameful of data
     garbage = "Garbage"
 

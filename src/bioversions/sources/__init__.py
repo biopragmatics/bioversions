@@ -15,6 +15,7 @@ from tqdm.contrib.logging import logging_redirect_tqdm
 from .antibodyregistry import AntibodyRegistryGetter
 from .bigg import BiGGGetter
 from .biogrid import BioGRIDGetter
+from .ccle import CCLEGetter
 from .cellosaurus import CellosaurusGetter
 from .chebi import ChEBIGetter
 from .chembl import ChEMBLGetter
@@ -86,6 +87,7 @@ __all__ = [
     "AntibodyRegistryGetter",
     "BiGGGetter",
     "BioGRIDGetter",
+    "CCLEGetter",
     "CellosaurusGetter",
     "ChEBIGetter",
     "ChEMBLGetter",
