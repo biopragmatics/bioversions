@@ -1,5 +1,6 @@
 """A getter for UniProt."""
 
+from typing import ClassVar
 from xml.etree import ElementTree
 
 import requests
@@ -14,7 +15,7 @@ __all__ = [
 class UniProtGetter(Getter):
     """A getter for UniProt."""
 
-    bioregistry_id = "uniprot"
+    collection: ClassVar[list[str]] = ["uniprot", "uniprot.ptm"]
     name = "UniProt"
     homepage_fmt = (
         "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-{version}/"

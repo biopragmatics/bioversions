@@ -1,5 +1,7 @@
 """A getter for UMLS."""
 
+from typing import ClassVar
+
 from bioversions.utils import Getter, VersionType, find, get_soup
 
 __all__ = [
@@ -12,7 +14,7 @@ URL = "https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesource
 class UMLSGetter(Getter):
     """A getter for UMLS."""
 
-    bioregistry_id = "umls"
+    collection: ClassVar[list[str]] = ["umls", "sty", "umls.aui"]
     name = "UMLS"
     version_type = VersionType.other
 

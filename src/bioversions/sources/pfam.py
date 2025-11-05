@@ -1,6 +1,7 @@
 """A getter for Rfam."""
 
 import ftplib
+from typing import ClassVar
 
 from bioversions.utils import Getter, VersionType, _is_version
 
@@ -12,7 +13,7 @@ __all__ = [
 class PfamGetter(Getter):
     """A getter for Pfam."""
 
-    bioregistry_id = "pfam"
+    collection: ClassVar[list[str]] = ["pfam", "pfam.clan"]
     name = "Pfam"
     homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam{version}/"
     version_type = VersionType.semver_minor

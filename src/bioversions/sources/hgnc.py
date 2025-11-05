@@ -1,6 +1,7 @@
 """A getter for HGNC."""
 
 import logging
+from typing import ClassVar
 
 import requests
 
@@ -21,10 +22,8 @@ SUFFIX = ".json"
 class HGNCGetter(Getter):
     """A getter for HGNC."""
 
-    bioregistry_id = "hgnc"
+    collection: ClassVar[list[str]] = ["hgnc", "hgnc.symbol", "hgnc.genegroup", "hgnc.genesymbol"]
     name = "HGNC"
-    homepage_fmt = PATH + "hgnc_complete_set_{version}.json"
-
     version_type = VersionType.date
 
     def get(self) -> str:
