@@ -12,6 +12,8 @@ class CCLEGetter(Getter):
 
     bioregistry_id = "ccle"
     version_type = VersionType.static
+    name = "Cancer Cell Line Encylopedia"
+    date_fmt = "%Y"
 
     def get(self):
         """Get the CCLE version number."""
