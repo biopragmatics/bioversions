@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1164,
-    "date": "2025-11-05",
+    "revision": 1165,
+    "date": "2025-11-21",
     "author": "runner"
   },
   "database": [
@@ -1210,6 +1210,11 @@
           "retrieved": "2025-11-05",
           "version": "2025-11-04",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-20",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1353,6 +1358,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2025-08-01"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-10"
         }
       ],
       "vtype": "date"
@@ -2264,6 +2273,18 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2025-11-21",
+          "version": "2019",
+          "date": "2019-01-01"
+        }
+      ],
+      "name": "Cancer Cell Line Encylopedia",
+      "prefix": "ccle",
+      "vtype": "static"
+    },
+    {
       "name": "Cardiovascular Disease Ontology",
       "prefix": "cvdo",
       "releases": [
@@ -2498,6 +2519,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-10-16"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-03"
         }
       ],
       "prefix": "cl",
@@ -3307,6 +3332,10 @@
         {
           "retrieved": "2025-11-02",
           "version": "2.254"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2.257"
         }
       ],
       "vtype": "date"
@@ -3951,6 +3980,10 @@
         {
           "retrieved": "2025-06-27",
           "version": "2025-02-10"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-13"
         }
       ],
       "name": "Developing Human Brain Atlas",
@@ -4985,6 +5018,10 @@
         {
           "retrieved": "2024-10-13",
           "version": "1.25-20240924T0027Z-unstable(1.26)"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "1.25-20251112T1620Z-unstable(1.26)"
         }
       ],
       "vtype": "date"
@@ -5750,6 +5787,10 @@
         {
           "retrieved": "2025-11-02",
           "version": "4.217"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "4.220"
         }
       ],
       "vtype": "date"
@@ -5965,6 +6006,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "3.83.0"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "3.84.0"
         }
       ],
       "vtype": "semver"
@@ -7554,6 +7599,10 @@
           "retrieved": "2025-11-05",
           "version": "2025-11-04",
           "homepage": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-11-04.json"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-07"
         }
       ],
       "name": "HGNC",
@@ -7951,6 +8000,10 @@
         {
           "retrieved": "2022-03-03",
           "version": "2019-10-28"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "1.5.0"
         }
       ],
       "name": "HUPO-PSI cross-linking and derivatization reagents controlled vocabulary",
@@ -8265,6 +8318,10 @@
         {
           "retrieved": "2025-07-05",
           "version": "1"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "MSL40"
         }
       ],
       "name": "International Committee on Taxonomy of Viruses Ontology",
@@ -8936,6 +8993,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-09-30"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-10-23"
         }
       ],
       "vtype": "date"
@@ -9076,6 +9137,10 @@
         {
           "retrieved": "2025-11-02",
           "version": "4.1.207"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "4.1.214"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -10106,6 +10171,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-10-07"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-04"
         }
       ],
       "vtype": "date"
@@ -12633,6 +12702,10 @@
         {
           "retrieved": "2025-11-05",
           "version": "2025-11-03"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-19"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -13160,6 +13233,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "2025-08-20"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-10-29"
         }
       ],
       "vtype": "date"
@@ -14309,6 +14386,10 @@
         {
           "retrieved": "2024-04-21",
           "version": "2024-04-17"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-10-31"
         }
       ],
       "vtype": "date"
@@ -14382,6 +14463,10 @@
         {
           "retrieved": "2025-06-09",
           "version": "2025-05-20"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-07"
         }
       ],
       "vtype": "date"
@@ -14865,6 +14950,12 @@
           "retrieved": "2025-03-29",
           "version": "71.0",
           "homepage": "https://proconsortium.org/download/release_71.0/"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "72.0",
+          "homepage": "https://proconsortium.org/download/release_72.0/",
+          "date": "2025-11-12"
         }
       ],
       "vtype": "semver_minor"
@@ -15637,6 +15728,10 @@
         {
           "retrieved": "2025-11-04",
           "version": "2025-11-01"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-15"
         }
       ],
       "name": "Rat Genome Database",
@@ -15798,6 +15893,10 @@
         {
           "retrieved": "2025-09-25",
           "version": "6.259"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "6.262"
         }
       ],
       "vtype": "date"
@@ -16763,6 +16862,10 @@
         {
           "retrieved": "2025-10-30",
           "version": "88388db"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2ffd3ae"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -20347,6 +20450,10 @@
         {
           "retrieved": "2025-11-05",
           "version": "2025-11-05"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-21"
         }
       ],
       "name": "SwissLipids",
@@ -20637,6 +20744,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-09-25"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-07"
         }
       ],
       "vtype": "date"
@@ -21151,6 +21262,10 @@
         {
           "retrieved": "2025-05-06",
           "version": "2025AA"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025AB"
         }
       ],
       "name": "UMLS",
@@ -21568,6 +21683,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-07-06"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-01"
         }
       ],
       "vtype": "semver"
@@ -21639,6 +21758,10 @@
         {
           "retrieved": "2025-08-15",
           "version": "2025-08-12"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-07"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -21810,6 +21933,10 @@
         {
           "retrieved": "2025-11-02",
           "version": "2025-10-28"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-11"
         }
       ],
       "vtype": "date"
@@ -22203,6 +22330,12 @@
           "version": "20251010",
           "homepage": "http://data.wikipathways.org/20251010/",
           "date": "2025-10-10"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "20251110",
+          "homepage": "http://data.wikipathways.org/20251110/",
+          "date": "2025-11-10"
         }
       ],
       "vtype": "date"
@@ -26702,6 +26835,10 @@
         {
           "retrieved": "2025-11-05",
           "version": "2025-11-03"
+        },
+        {
+          "retrieved": "2025-11-21",
+          "version": "2025-11-19"
         }
       ],
       "name": "Zebrafish Information Network",

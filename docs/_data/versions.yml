@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-11-05'
-  revision: 1164
+  date: '2025-11-21'
+  revision: 1165
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -711,6 +711,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-11-05'
     version: '2025-11-04'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-11-21'
+    version: '2025-11-20'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -783,6 +786,8 @@ database:
     version: '2025-06-17'
   - retrieved: '2025-08-12'
     version: '2025-08-01'
+  - retrieved: '2025-11-21'
+    version: '2025-11-10'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -1275,6 +1280,13 @@ database:
   - retrieved: '2025-08-15'
     version: '2025-08-12'
   vtype: date
+- name: Cancer Cell Line Encylopedia
+  prefix: ccle
+  releases:
+  - date: '2019-01-01'
+    retrieved: '2025-11-21'
+    version: '2019'
+  vtype: static
 - name: Cardiovascular Disease Ontology
   prefix: cvdo
   releases:
@@ -1398,6 +1410,8 @@ database:
     version: '2025-07-30'
   - retrieved: '2025-10-20'
     version: '2025-10-16'
+  - retrieved: '2025-11-21'
+    version: '2025-11-03'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -1848,6 +1862,8 @@ database:
     version: '2.253'
   - retrieved: '2025-11-02'
     version: '2.254'
+  - retrieved: '2025-11-21'
+    version: '2.257'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2198,6 +2214,8 @@ database:
   releases:
   - retrieved: '2025-06-27'
     version: '2025-02-10'
+  - retrieved: '2025-11-21'
+    version: '2025-11-13'
   vtype: date
 - name: Developing Mouse Brain Atlas
   prefix: dmba
@@ -2789,6 +2807,8 @@ database:
     version: 17-07-2019
   - retrieved: '2024-10-13'
     version: 1.25-20240924T0027Z-unstable(1.26)
+  - retrieved: '2025-11-21'
+    version: 1.25-20251112T1620Z-unstable(1.26)
   vtype: date
 - name: Emotion Ontology
   prefix: mfoem
@@ -3192,6 +3212,8 @@ database:
     version: '4.216'
   - retrieved: '2025-11-02'
     version: '4.217'
+  - retrieved: '2025-11-21'
+    version: '4.220'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -3300,6 +3322,8 @@ database:
     version: 3.82.0
   - retrieved: '2025-10-20'
     version: 3.83.0
+  - retrieved: '2025-11-21'
+    version: 3.84.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -4193,6 +4217,8 @@ database:
   - homepage: https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/json/hgnc_complete_set_2025-11-04.json
     retrieved: '2025-11-05'
     version: '2025-11-04'
+  - retrieved: '2025-11-21'
+    version: '2025-11-07'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -4409,6 +4435,8 @@ database:
   releases:
   - retrieved: '2022-03-03'
     version: '2019-10-28'
+  - retrieved: '2025-11-21'
+    version: 1.5.0
   vtype: date
 - name: Hymenoptera Anatomy Ontology
   prefix: hao
@@ -4591,6 +4619,8 @@ database:
     version: '40'
   - retrieved: '2025-07-05'
     version: '1'
+  - retrieved: '2025-11-21'
+    version: MSL40
   vtype: sequential
 - name: InterPro
   prefix: interpro
@@ -4968,6 +4998,8 @@ database:
     version: '2025-08-27'
   - retrieved: '2025-10-20'
     version: '2025-09-30'
+  - retrieved: '2025-11-21'
+    version: '2025-10-23'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -5040,6 +5072,8 @@ database:
     version: 4.1.204
   - retrieved: '2025-11-02'
     version: 4.1.207
+  - retrieved: '2025-11-21'
+    version: 4.1.214
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -5596,6 +5630,8 @@ database:
     version: '2025-09-02'
   - retrieved: '2025-10-20'
     version: '2025-10-07'
+  - retrieved: '2025-11-21'
+    version: '2025-11-04'
   vtype: date
 - name: MOP
   prefix: mop
@@ -7000,6 +7036,8 @@ database:
     version: '2025-10-31'
   - retrieved: '2025-11-05'
     version: '2025-11-03'
+  - retrieved: '2025-11-21'
+    version: '2025-11-19'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -7272,6 +7310,8 @@ database:
     version: '2025-03-28'
   - retrieved: '2025-08-24'
     version: '2025-08-20'
+  - retrieved: '2025-11-21'
+    version: '2025-10-29'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -7898,6 +7938,8 @@ database:
     version: '2024-02-16'
   - retrieved: '2024-04-21'
     version: '2024-04-17'
+  - retrieved: '2025-11-21'
+    version: '2025-10-31'
   vtype: date
 - name: Plant Phenology Ontology
   prefix: ppo
@@ -7936,6 +7978,8 @@ database:
     version: '2023-07-17'
   - retrieved: '2025-06-09'
     version: '2025-05-20'
+  - retrieved: '2025-11-21'
+    version: '2025-11-07'
   vtype: date
 - name: Platynereis Developmental Stages
   prefix: pdumdv
@@ -8231,6 +8275,10 @@ database:
   - homepage: https://proconsortium.org/download/release_71.0/
     retrieved: '2025-03-29'
     version: '71.0'
+  - date: '2025-11-12'
+    homepage: https://proconsortium.org/download/release_72.0/
+    retrieved: '2025-11-21'
+    version: '72.0'
   vtype: semver_minor
 - name: Proteomics Identification Database Ontology
   prefix: pride
@@ -8641,6 +8689,8 @@ database:
     version: '2025-10-25'
   - retrieved: '2025-11-04'
     version: '2025-11-01'
+  - retrieved: '2025-11-21'
+    version: '2025-11-15'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -8721,6 +8771,8 @@ database:
     version: '6.258'
   - retrieved: '2025-09-25'
     version: '6.259'
+  - retrieved: '2025-11-21'
+    version: '6.262'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -9254,6 +9306,8 @@ database:
     version: 614a375
   - retrieved: '2025-10-30'
     version: 88388db
+  - retrieved: '2025-11-21'
+    version: 2ffd3ae
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -11052,6 +11106,8 @@ database:
     version: '2025-11-04'
   - retrieved: '2025-11-05'
     version: '2025-11-05'
+  - retrieved: '2025-11-21'
+    version: '2025-11-21'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11202,6 +11258,8 @@ database:
     version: '2025-07-18'
   - retrieved: '2025-10-20'
     version: '2025-09-25'
+  - retrieved: '2025-11-21'
+    version: '2025-11-07'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -11469,6 +11527,8 @@ database:
     version: 2024AB
   - retrieved: '2025-05-06'
     version: 2025AA
+  - retrieved: '2025-11-21'
+    version: 2025AB
   vtype: other
 - name: Unified Phenotype Ontology
   prefix: upheno
@@ -11704,6 +11764,8 @@ database:
     version: '2025-05-24'
   - retrieved: '2025-07-22'
     version: '2025-07-06'
+  - retrieved: '2025-11-21'
+    version: '2025-11-01'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -11742,6 +11804,8 @@ database:
     version: '2025-02-12'
   - retrieved: '2025-08-15'
     version: '2025-08-12'
+  - retrieved: '2025-11-21'
+    version: '2025-11-07'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -11828,6 +11892,8 @@ database:
     version: '2025-10-14'
   - retrieved: '2025-11-02'
     version: '2025-10-28'
+  - retrieved: '2025-11-21'
+    version: '2025-11-11'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -12077,6 +12143,10 @@ database:
     homepage: http://data.wikipathways.org/20251010/
     retrieved: '2025-10-11'
     version: '20251010'
+  - date: '2025-11-10'
+    homepage: http://data.wikipathways.org/20251110/
+    retrieved: '2025-11-21'
+    version: '20251110'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -14471,6 +14541,8 @@ database:
     version: '2025-11-02'
   - retrieved: '2025-11-05'
     version: '2025-11-03'
+  - retrieved: '2025-11-21'
+    version: '2025-11-19'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
