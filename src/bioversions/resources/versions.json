@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1169,
-    "date": "2025-11-25",
+    "revision": 1170,
+    "date": "2025-11-26",
     "author": "runner"
   },
   "database": [
@@ -1224,6 +1224,11 @@
         {
           "retrieved": "2025-11-25",
           "version": "2025-11-24",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-11-26",
+          "version": "2025-11-25",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4470,6 +4475,12 @@
           "version": "2025-10-31",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-10-31",
           "date": "2025-10-31"
+        },
+        {
+          "retrieved": "2025-11-26",
+          "version": "2025-11-25",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2025-11-25",
+          "date": "2025-11-25"
         }
       ],
       "vtype": "date"
@@ -12728,6 +12739,10 @@
         {
           "retrieved": "2025-11-23",
           "version": "2025-11-21"
+        },
+        {
+          "retrieved": "2025-11-26",
+          "version": "2025-11-24"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -20504,6 +20519,10 @@
         {
           "retrieved": "2025-11-25",
           "version": "2025-11-25"
+        },
+        {
+          "retrieved": "2025-11-26",
+          "version": "2025-11-26"
         }
       ],
       "name": "SwissLipids",
@@ -26909,6 +26928,10 @@
         {
           "retrieved": "2025-11-25",
           "version": "2025-11-23"
+        },
+        {
+          "retrieved": "2025-11-26",
+          "version": "2025-11-24"
         }
       ],
       "name": "Zebrafish Information Network",
