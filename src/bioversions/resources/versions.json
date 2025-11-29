@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1172,
-    "date": "2025-11-28",
+    "revision": 1173,
+    "date": "2025-11-29",
     "author": "runner"
   },
   "database": [
@@ -1234,6 +1234,11 @@
         {
           "retrieved": "2025-11-27",
           "version": "2025-11-26",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-11-29",
+          "version": "2025-11-28",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -16933,6 +16938,10 @@
         {
           "retrieved": "2025-11-25",
           "version": "bf9d9a6"
+        },
+        {
+          "retrieved": "2025-11-29",
+          "version": "31b6901"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -20549,6 +20558,10 @@
         {
           "retrieved": "2025-11-28",
           "version": "2025-11-28"
+        },
+        {
+          "retrieved": "2025-11-29",
+          "version": "2025-11-29"
         }
       ],
       "name": "SwissLipids",
@@ -26962,6 +26975,10 @@
         {
           "retrieved": "2025-11-28",
           "version": "2025-11-26"
+        },
+        {
+          "retrieved": "2025-11-29",
+          "version": "2025-11-27"
         }
       ],
       "name": "Zebrafish Information Network",
