@@ -1,11 +1,11 @@
 # Summary of Errors
 
-- **Pfam** `[Pfam] failed to resolve: [Errno 104] Connection reset by peer`
+- **ChEMBL** `[chembl] failed to resolve: [Errno 104] Connection reset by peer`
 - **SILVA ribosomal RNA database** `[silva.taxon] issue parsing: 'date'`
 
-## Pfam
+## ChEMBL
 
-Using class: `PfamGetter`
+Using class: `ChEMBLGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -36,7 +36,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 87, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/pfam.py", line 23, in get
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/chembl.py", line 30, in get
     with ftplib.FTP("ftp.ebi.ac.uk") as ftp:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/ftplib.py", line 121, in __init__

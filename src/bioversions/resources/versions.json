@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1173,
-    "date": "2025-11-29",
+    "revision": 1174,
+    "date": "2025-11-30",
     "author": "runner"
   },
   "database": [
@@ -1239,6 +1239,11 @@
         {
           "retrieved": "2025-11-29",
           "version": "2025-11-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-11-30",
+          "version": "2025-11-29",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8040,6 +8045,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "1.5.0"
+        },
+        {
+          "retrieved": "2025-11-30",
+          "version": "1.5.1"
         }
       ],
       "name": "HUPO-PSI cross-linking and derivatization reagents controlled vocabulary",
@@ -9181,6 +9190,10 @@
         {
           "retrieved": "2025-11-23",
           "version": "4.1.215"
+        },
+        {
+          "retrieved": "2025-11-30",
+          "version": "4.1.216"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -20562,6 +20575,10 @@
         {
           "retrieved": "2025-11-29",
           "version": "2025-11-29"
+        },
+        {
+          "retrieved": "2025-11-30",
+          "version": "2025-11-30"
         }
       ],
       "name": "SwissLipids",
@@ -20962,6 +20979,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "2025-07-19"
+        },
+        {
+          "retrieved": "2025-11-30",
+          "version": "2025-11-20"
         }
       ],
       "vtype": "date"
@@ -26979,6 +27000,10 @@
         {
           "retrieved": "2025-11-29",
           "version": "2025-11-27"
+        },
+        {
+          "retrieved": "2025-11-30",
+          "version": "2025-11-28"
         }
       ],
       "name": "Zebrafish Information Network",

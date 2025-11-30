@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-11-29'
-  revision: 1173
+  date: '2025-11-30'
+  revision: 1174
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -729,6 +729,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-11-29'
     version: '2025-11-28'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-11-30'
+    version: '2025-11-29'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4459,6 +4462,8 @@ database:
     version: '2019-10-28'
   - retrieved: '2025-11-21'
     version: 1.5.0
+  - retrieved: '2025-11-30'
+    version: 1.5.1
   vtype: date
 - name: Hymenoptera Anatomy Ontology
   prefix: hao
@@ -5098,6 +5103,8 @@ database:
     version: 4.1.214
   - retrieved: '2025-11-23'
     version: 4.1.215
+  - retrieved: '2025-11-30'
+    version: 4.1.216
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -11166,6 +11173,8 @@ database:
     version: '2025-11-28'
   - retrieved: '2025-11-29'
     version: '2025-11-29'
+  - retrieved: '2025-11-30'
+    version: '2025-11-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -11372,6 +11381,8 @@ database:
     version: '2025-04-18'
   - retrieved: '2025-08-03'
     version: '2025-07-19'
+  - retrieved: '2025-11-30'
+    version: '2025-11-20'
   vtype: date
 - name: The Echinoderm Anatomy and Development Ontology
   prefix: ecao
@@ -14617,6 +14628,8 @@ database:
     version: '2025-11-26'
   - retrieved: '2025-11-29'
     version: '2025-11-27'
+  - retrieved: '2025-11-30'
+    version: '2025-11-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
