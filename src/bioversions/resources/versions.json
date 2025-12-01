@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1174,
-    "date": "2025-11-30",
+    "revision": 1175,
+    "date": "2025-12-01",
     "author": "runner"
   },
   "database": [
@@ -3164,6 +3164,10 @@
         {
           "retrieved": "2025-11-02",
           "version": "2025-11-01"
+        },
+        {
+          "retrieved": "2025-12-01",
+          "version": "2025-12-01"
         }
       ],
       "name": "CiVIC",
@@ -15304,6 +15308,11 @@
           "retrieved": "2025-11-01",
           "version": "2025-11-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-11-01"
+        },
+        {
+          "retrieved": "2025-12-01",
+          "version": "2025-12-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2025-12-01"
         }
       ],
       "name": "PubChem",
@@ -20579,6 +20588,10 @@
         {
           "retrieved": "2025-11-30",
           "version": "2025-11-30"
+        },
+        {
+          "retrieved": "2025-12-01",
+          "version": "2025-12-01"
         }
       ],
       "name": "SwissLipids",
@@ -27004,6 +27017,10 @@
         {
           "retrieved": "2025-11-30",
           "version": "2025-11-28"
+        },
+        {
+          "retrieved": "2025-12-01",
+          "version": "2025-11-29"
         }
       ],
       "name": "Zebrafish Information Network",
