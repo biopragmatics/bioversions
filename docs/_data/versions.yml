@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-12-02'
-  revision: 1176
+  date: '2025-12-03'
+  revision: 1177
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -4252,6 +4252,8 @@ database:
     version: '2025-11-04'
   - retrieved: '2025-11-21'
     version: '2025-11-07'
+  - retrieved: '2025-12-03'
+    version: '2025-12-02'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -7092,6 +7094,8 @@ database:
     version: '2025-11-25'
   - retrieved: '2025-11-28'
     version: '2025-11-26'
+  - retrieved: '2025-12-03'
+    version: '2025-12-01'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -11204,6 +11208,8 @@ database:
     version: '2025-12-01'
   - retrieved: '2025-12-02'
     version: '2025-12-02'
+  - retrieved: '2025-12-03'
+    version: '2025-12-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14663,6 +14669,8 @@ database:
     version: '2025-11-29'
   - retrieved: '2025-12-02'
     version: '2025-11-30'
+  - retrieved: '2025-12-03'
+    version: '2025-12-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
