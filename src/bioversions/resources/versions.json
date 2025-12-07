@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1180,
-    "date": "2025-12-06",
+    "revision": 1181,
+    "date": "2025-12-07",
     "author": "runner"
   },
   "database": [
@@ -2578,6 +2578,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2025-11-03"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-11-25"
         }
       ],
       "prefix": "cl",
@@ -3405,6 +3409,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2.257"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2.259"
         }
       ],
       "vtype": "date"
@@ -5866,6 +5874,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "4.220"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "4.221"
         }
       ],
       "vtype": "date"
@@ -6808,6 +6820,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2020-04-13"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "5.0.0"
         }
       ],
       "name": "Foundational Model of Anatomy",
@@ -8055,6 +8071,10 @@
         {
           "retrieved": "2025-11-02",
           "version": "2025-10-22"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-11-24"
         }
       ],
       "vtype": "date"
@@ -9093,6 +9113,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2025-10-23"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-11-19"
         }
       ],
       "vtype": "date"
@@ -9432,6 +9456,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2.164"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2.166"
         }
       ],
       "vtype": "date"
@@ -10279,6 +10307,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2025-11-04"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-12-02"
         }
       ],
       "vtype": "date"
@@ -12846,6 +12878,10 @@
         {
           "retrieved": "2025-12-06",
           "version": "2025-12-04"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-12-05"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15023,6 +15059,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "1.031.6"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "1.032.4"
         }
       ],
       "name": "Protein modification",
@@ -15482,6 +15522,10 @@
         {
           "retrieved": "2025-09-21",
           "version": "2025-09-17"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-11-26"
         }
       ],
       "vtype": "date"
@@ -20694,6 +20738,10 @@
         {
           "retrieved": "2025-12-06",
           "version": "2025-12-06"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-12-07"
         }
       ],
       "name": "SwissLipids",
@@ -21931,6 +21979,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2025-11-01"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-12-03"
         }
       ],
       "vtype": "semver"
@@ -22185,6 +22237,10 @@
         {
           "retrieved": "2025-11-23",
           "version": "2025-11-18"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-12-02"
         }
       ],
       "vtype": "date"
@@ -27143,6 +27199,10 @@
         {
           "retrieved": "2025-12-06",
           "version": "2025-12-04"
+        },
+        {
+          "retrieved": "2025-12-07",
+          "version": "2025-12-05"
         }
       ],
       "name": "Zebrafish Information Network",
