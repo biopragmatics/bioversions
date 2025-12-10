@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1183,
-    "date": "2025-12-09",
+    "revision": 1184,
+    "date": "2025-12-10",
     "author": "runner"
   },
   "database": [
@@ -1269,6 +1269,11 @@
         {
           "retrieved": "2025-12-09",
           "version": "2025-12-08",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-12-10",
+          "version": "2025-12-09",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -10842,6 +10847,11 @@
           "retrieved": "2025-11-05",
           "version": "25.10d",
           "date": "2025-10-27"
+        },
+        {
+          "retrieved": "2025-12-10",
+          "version": "25.12b",
+          "date": "2025-12-08"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -12887,6 +12897,10 @@
         {
           "retrieved": "2025-12-07",
           "version": "2025-12-05"
+        },
+        {
+          "retrieved": "2025-12-10",
+          "version": "2025-12-08"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -16200,6 +16214,10 @@
         {
           "retrieved": "2025-09-18",
           "version": "94"
+        },
+        {
+          "retrieved": "2025-12-10",
+          "version": "95"
         }
       ],
       "vtype": "sequential"
@@ -20759,6 +20777,10 @@
         {
           "retrieved": "2025-12-09",
           "version": "2025-12-09"
+        },
+        {
+          "retrieved": "2025-12-10",
+          "version": "2025-12-10"
         }
       ],
       "name": "SwissLipids",
@@ -27228,6 +27250,10 @@
         {
           "retrieved": "2025-12-09",
           "version": "2025-12-07"
+        },
+        {
+          "retrieved": "2025-12-10",
+          "version": "2025-12-08"
         }
       ],
       "name": "Zebrafish Information Network",
