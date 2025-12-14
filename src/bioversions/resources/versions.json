@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1187,
-    "date": "2025-12-13",
+    "revision": 1188,
+    "date": "2025-12-14",
     "author": "runner"
   },
   "database": [
@@ -3438,6 +3438,10 @@
         {
           "retrieved": "2025-12-07",
           "version": "2.259"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2.260"
         }
       ],
       "vtype": "date"
@@ -9305,6 +9309,10 @@
         {
           "retrieved": "2025-11-30",
           "version": "4.1.216"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "4.1.221"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -9496,6 +9504,10 @@
         {
           "retrieved": "2025-12-07",
           "version": "2.166"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2.167"
         }
       ],
       "vtype": "date"
@@ -12939,6 +12951,10 @@
         {
           "retrieved": "2025-12-13",
           "version": "2025-12-11"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2025-12-12"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14571,6 +14587,10 @@
         {
           "retrieved": "2024-06-02",
           "version": "2023-11-10"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2025-12-02"
         }
       ],
       "name": "Plant Experimental Conditions Ontology",
@@ -16161,6 +16181,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "6.262"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "6.263"
         }
       ],
       "vtype": "date"
@@ -17197,6 +17221,10 @@
         {
           "retrieved": "2025-09-21",
           "version": "2025-09-16"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2025-12-09"
         }
       ],
       "name": "Space Life Sciences Ontology",
@@ -20831,6 +20859,10 @@
         {
           "retrieved": "2025-12-13",
           "version": "2025-12-13"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2025-12-14"
         }
       ],
       "name": "SwissLipids",
@@ -21125,6 +21157,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2025-11-07"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2025-12-05"
         }
       ],
       "vtype": "date"
@@ -21589,6 +21625,10 @@
         {
           "retrieved": "2025-08-24",
           "version": "2025-08-15"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2025-12-04"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -27322,6 +27362,10 @@
         {
           "retrieved": "2025-12-13",
           "version": "2025-12-11"
+        },
+        {
+          "retrieved": "2025-12-14",
+          "version": "2025-12-12"
         }
       ],
       "name": "Zebrafish Information Network",
