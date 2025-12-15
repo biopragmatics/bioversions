@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1188,
-    "date": "2025-12-14",
+    "revision": 1189,
+    "date": "2025-12-15",
     "author": "runner"
   },
   "database": [
@@ -20863,6 +20863,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "2025-12-14"
+        },
+        {
+          "retrieved": "2025-12-15",
+          "version": "2025-12-15"
         }
       ],
       "name": "SwissLipids",
@@ -27366,6 +27370,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "2025-12-12"
+        },
+        {
+          "retrieved": "2025-12-15",
+          "version": "2025-12-13"
         }
       ],
       "name": "Zebrafish Information Network",
