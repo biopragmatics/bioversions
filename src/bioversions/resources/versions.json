@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1189,
-    "date": "2025-12-15",
+    "revision": 1190,
+    "date": "2025-12-16",
     "author": "runner"
   },
   "database": [
@@ -1289,6 +1289,11 @@
         {
           "retrieved": "2025-12-13",
           "version": "2025-12-12",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-12-16",
+          "version": "2025-12-15",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -10890,6 +10895,11 @@
           "retrieved": "2025-12-10",
           "version": "25.12b",
           "date": "2025-12-08"
+        },
+        {
+          "retrieved": "2025-12-16",
+          "version": "25.10d",
+          "date": "2025-10-27"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -16016,6 +16026,10 @@
         {
           "retrieved": "2025-12-09",
           "version": "2025-12-06"
+        },
+        {
+          "retrieved": "2025-12-16",
+          "version": "2025-12-13"
         }
       ],
       "name": "Rat Genome Database",
@@ -20867,6 +20881,10 @@
         {
           "retrieved": "2025-12-15",
           "version": "2025-12-15"
+        },
+        {
+          "retrieved": "2025-12-16",
+          "version": "2025-12-16"
         }
       ],
       "name": "SwissLipids",
