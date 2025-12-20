@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1193,
-    "date": "2025-12-19",
+    "revision": 1194,
+    "date": "2025-12-20",
     "author": "runner"
   },
   "database": [
@@ -1309,6 +1309,11 @@
         {
           "retrieved": "2025-12-19",
           "version": "2025-12-18",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2025-12-20",
+          "version": "2025-12-19",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -12992,6 +12997,10 @@
         {
           "retrieved": "2025-12-19",
           "version": "2025-12-17"
+        },
+        {
+          "retrieved": "2025-12-20",
+          "version": "2025-12-18"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -20928,6 +20937,10 @@
         {
           "retrieved": "2025-12-19",
           "version": "2025-12-19"
+        },
+        {
+          "retrieved": "2025-12-20",
+          "version": "2025-12-20"
         }
       ],
       "name": "SwissLipids",
@@ -27447,6 +27460,10 @@
         {
           "retrieved": "2025-12-19",
           "version": "2025-12-17"
+        },
+        {
+          "retrieved": "2025-12-20",
+          "version": "2025-12-18"
         }
       ],
       "name": "Zebrafish Information Network",
