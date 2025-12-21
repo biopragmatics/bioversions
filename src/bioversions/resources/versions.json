@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1194,
-    "date": "2025-12-20",
+    "revision": 1195,
+    "date": "2025-12-21",
     "author": "runner"
   },
   "database": [
@@ -140,6 +140,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-06-01"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-01"
         }
       ],
       "vtype": "date"
@@ -2632,6 +2636,10 @@
         {
           "retrieved": "2025-12-07",
           "version": "2025-11-25"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-17"
         }
       ],
       "prefix": "cl",
@@ -3882,6 +3890,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-06-30"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-12"
         }
       ],
       "vtype": "date"
@@ -6151,6 +6163,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "3.84.0"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "3.85.0"
         }
       ],
       "vtype": "semver"
@@ -9338,6 +9354,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "4.1.221"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "4.1.223"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -9533,6 +9553,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "2.167"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2.168"
         }
       ],
       "vtype": "date"
@@ -11017,6 +11041,10 @@
         {
           "retrieved": "2025-09-25",
           "version": "2025-09-11"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-03"
         }
       ],
       "name": "NCBI Taxonomy",
@@ -13001,6 +13029,10 @@
         {
           "retrieved": "2025-12-20",
           "version": "2025-12-18"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-19"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14276,6 +14308,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "7.95"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "7.96"
         }
       ],
       "name": "Pathway ontology",
@@ -14731,6 +14767,10 @@
         {
           "retrieved": "2023-11-22",
           "version": "2023-11-14"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-16"
         }
       ],
       "vtype": "date"
@@ -15649,6 +15689,10 @@
         {
           "retrieved": "2025-12-07",
           "version": "2025-11-26"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-11"
         }
       ],
       "vtype": "date"
@@ -17279,6 +17323,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "2025-12-09"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-11"
         }
       ],
       "name": "Space Life Sciences Ontology",
@@ -20941,6 +20989,10 @@
         {
           "retrieved": "2025-12-20",
           "version": "2025-12-20"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-21"
         }
       ],
       "name": "SwissLipids",
@@ -27464,6 +27516,10 @@
         {
           "retrieved": "2025-12-20",
           "version": "2025-12-18"
+        },
+        {
+          "retrieved": "2025-12-21",
+          "version": "2025-12-19"
         }
       ],
       "name": "Zebrafish Information Network",
