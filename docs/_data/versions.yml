@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-12-29'
-  revision: 1203
+  date: '2025-12-30'
+  revision: 1204
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -794,6 +794,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-12-28'
     version: '2025-12-27'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-12-30'
+    version: '2025-12-29'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -5677,6 +5680,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-10-02
     retrieved: '2025-10-03'
     version: '2025-10-02'
+  - date: '2025-12-26'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-12-26
+    retrieved: '2025-12-30'
+    version: '2025-12-26'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -7245,6 +7252,8 @@ database:
     version: '2025-12-19'
   - retrieved: '2025-12-24'
     version: '2025-12-22'
+  - retrieved: '2025-12-30'
+    version: '2025-12-28'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -11439,6 +11448,8 @@ database:
     version: '2025-12-28'
   - retrieved: '2025-12-29'
     version: '2025-12-29'
+  - retrieved: '2025-12-30'
+    version: '2025-12-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14964,6 +14975,8 @@ database:
     version: '2025-12-26'
   - retrieved: '2025-12-29'
     version: '2025-12-27'
+  - retrieved: '2025-12-30'
+    version: '2025-12-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
