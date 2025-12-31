@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2025-12-30'
-  revision: 1204
+  date: '2025-12-31'
+  revision: 1205
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -797,6 +797,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2025-12-30'
     version: '2025-12-29'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2025-12-31'
+    version: '2025-12-30'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4937,6 +4940,8 @@ database:
     version: '2025-09-24'
   - retrieved: '2025-12-02'
     version: '2025-11-26'
+  - retrieved: '2025-12-31'
+    version: '2025-12-23'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -5028,6 +5033,9 @@ database:
   - date: '2025-12-01'
     retrieved: '2025-12-02'
     version: '116.1'
+  - date: '2026-01-01'
+    retrieved: '2025-12-31'
+    version: '117.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -7254,6 +7262,8 @@ database:
     version: '2025-12-22'
   - retrieved: '2025-12-30'
     version: '2025-12-28'
+  - retrieved: '2025-12-31'
+    version: '2025-12-29'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -11450,6 +11460,8 @@ database:
     version: '2025-12-29'
   - retrieved: '2025-12-30'
     version: '2025-12-30'
+  - retrieved: '2025-12-31'
+    version: '2025-12-31'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14977,6 +14989,8 @@ database:
     version: '2025-12-27'
   - retrieved: '2025-12-30'
     version: '2025-12-28'
+  - retrieved: '2025-12-31'
+    version: '2025-12-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
