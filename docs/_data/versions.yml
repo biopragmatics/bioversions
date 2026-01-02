@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-01-01'
-  revision: 1206
+  date: '2026-01-02'
+  revision: 1207
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1137,6 +1137,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.252
     retrieved: '2025-12-02'
     version: 5.0.252
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.253
+    retrieved: '2026-01-02'
+    version: 5.0.253
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -1866,6 +1869,8 @@ database:
     version: '2025-11-01'
   - retrieved: '2025-12-01'
     version: '2025-12-01'
+  - retrieved: '2026-01-02'
+    version: '2026-01-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -7269,6 +7274,8 @@ database:
     version: '2025-12-29'
   - retrieved: '2026-01-01'
     version: '2025-12-30'
+  - retrieved: '2026-01-02'
+    version: '2025-12-31'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8399,6 +8406,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2025-12-01/
     retrieved: '2025-12-02'
     version: '2025-12-01'
+  - date: '2026-01-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2026-01-01/
+    retrieved: '2026-01-02'
+    version: '2026-01-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -9504,6 +9515,8 @@ database:
     version: '2025-10-01'
   - retrieved: '2025-12-17'
     version: '2025-12-01'
+  - retrieved: '2026-01-02'
+    version: '2026-01-01'
   vtype: date
 - name: SILVA ribosomal RNA database
   prefix: silva.taxon
@@ -11472,6 +11485,8 @@ database:
     version: '2025-12-31'
   - retrieved: '2026-01-01'
     version: '2026-01-01'
+  - retrieved: '2026-01-02'
+    version: '2026-01-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15003,6 +15018,8 @@ database:
     version: '2025-12-29'
   - retrieved: '2026-01-01'
     version: '2025-12-30'
+  - retrieved: '2026-01-02'
+    version: '2025-12-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

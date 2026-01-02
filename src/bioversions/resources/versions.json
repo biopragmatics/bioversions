@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1206,
-    "date": "2026-01-01",
+    "revision": 1207,
+    "date": "2026-01-02",
     "author": "runner"
   },
   "database": [
@@ -1968,6 +1968,11 @@
           "retrieved": "2025-12-02",
           "version": "5.0.252",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.252"
+        },
+        {
+          "retrieved": "2026-01-02",
+          "version": "5.0.253",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.253"
         }
       ],
       "vtype": "semver"
@@ -3309,6 +3314,10 @@
         {
           "retrieved": "2025-12-01",
           "version": "2025-12-01"
+        },
+        {
+          "retrieved": "2026-01-02",
+          "version": "2026-01-01"
         }
       ],
       "name": "CiVIC",
@@ -13123,6 +13132,10 @@
         {
           "retrieved": "2026-01-01",
           "version": "2025-12-30"
+        },
+        {
+          "retrieved": "2026-01-02",
+          "version": "2025-12-31"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15170,6 +15183,12 @@
           "version": "2025-12-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2025-12-01/",
           "date": "2025-12-01"
+        },
+        {
+          "retrieved": "2026-01-02",
+          "version": "2026-01-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-01-01/",
+          "date": "2026-01-01"
         }
       ],
       "name": "PomBase",
@@ -17216,6 +17235,10 @@
         {
           "retrieved": "2025-12-17",
           "version": "2025-12-01"
+        },
+        {
+          "retrieved": "2026-01-02",
+          "version": "2026-01-01"
         }
       ],
       "name": "SIGNOR",
@@ -21132,6 +21155,10 @@
         {
           "retrieved": "2026-01-01",
           "version": "2026-01-01"
+        },
+        {
+          "retrieved": "2026-01-02",
+          "version": "2026-01-02"
         }
       ],
       "name": "SwissLipids",
@@ -27707,6 +27734,10 @@
         {
           "retrieved": "2026-01-01",
           "version": "2025-12-30"
+        },
+        {
+          "retrieved": "2026-01-02",
+          "version": "2025-12-31"
         }
       ],
       "name": "Zebrafish Information Network",
