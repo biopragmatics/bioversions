@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-01-06'
-  revision: 1211
+  date: '2026-01-07'
+  revision: 1212
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -809,6 +809,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-01-06'
     version: '2026-01-05'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-01-07'
+    version: '2026-01-06'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1704,6 +1707,9 @@ database:
   - date: '2025-12-03'
     retrieved: '2025-12-04'
     version: '247'
+  - date: '2026-01-06'
+    retrieved: '2026-01-07'
+    version: '248'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -4367,6 +4373,8 @@ database:
     version: '2025-12-02'
   - retrieved: '2025-12-06'
     version: '2025-12-05'
+  - retrieved: '2026-01-07'
+    version: '2026-01-06'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -6127,6 +6135,9 @@ database:
   - date: '2025-10-27'
     retrieved: '2025-12-16'
     version: 25.10d
+  - date: '2026-01-05'
+    retrieved: '2026-01-07'
+    version: 26.01a
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -7286,6 +7297,8 @@ database:
     version: '2026-01-02'
   - retrieved: '2026-01-05'
     version: '2026-01-03'
+  - retrieved: '2026-01-07'
+    version: '2026-01-05'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9199,6 +9212,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Rfam/15.0/
     retrieved: '2024-09-19'
     version: '15.0'
+  - homepage: https://ftp.ebi.ac.uk/pub/databases/Rfam/15.1/
+    retrieved: '2026-01-07'
+    version: '15.1'
   vtype: semver_minor
 - name: Rhea
   prefix: rhea
@@ -11510,6 +11526,8 @@ database:
     version: '2026-01-05'
   - retrieved: '2026-01-06'
     version: '2026-01-06'
+  - retrieved: '2026-01-07'
+    version: '2026-01-07'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15051,6 +15069,8 @@ database:
     version: '2026-01-03'
   - retrieved: '2026-01-06'
     version: '2026-01-04'
+  - retrieved: '2026-01-07'
+    version: '2026-01-05'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
