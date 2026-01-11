@@ -1,12 +1,46 @@
 # Summary of Errors
 
-- **Ensembl**
-  `[ensembl] failed to resolve: HTTPSConnectionPool(host='useast.ensembl.org', port=443): Read timed out. (read timeout=15)`
 - **SILVA ribosomal RNA database** `[silva.taxon] issue parsing: 'date'`
+- **PathBank**
+  `[pathbank] failed to resolve: HTTPSConnectionPool(host='pathbank.org', port=443): Read timed out. (read timeout=15)`
 
-## Ensembl
+## SILVA ribosomal RNA database
 
-Using class: `EnsemblGetter`
+Using class: `SILVAGetter`
+
+```python-traceback
+Traceback (most recent call last):
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 267, in iter_versions
+    yv = resolve(cls)
+         ^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 189, in resolve
+    return _resolve_helper_cached(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 393, in func_wrapper
+    return _call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 332, in _call
+    return _calc_entry(core, key, func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 66, in _calc_entry
+    func_res = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 199, in _resolve_helper_cached
+    return getter.resolve()
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 219, in resolve
+    date=cls.date,
+         ^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 110, in date
+    date = cls._cache_prop["date"]
+           ~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'date'
+
+```
+
+## PathBank
+
+Using class: `PathBankGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -56,7 +90,7 @@ Traceback (most recent call last):
     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
     raise ReadTimeoutError(
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='useast.ensembl.org', port=443): Read timed out. (read timeout=15)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='pathbank.org', port=443): Read timed out. (read timeout=15)
 
 During handling of the above exception, another exception occurred:
 
@@ -88,7 +122,7 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 87, in _cache_prop
     cls._cache = cls().get()
                  ^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/ensembl.py", line 23, in get
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/pathbank.py", line 21, in get
     soup = get_soup(URL)
            ^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/pystow/utils.py", line 1522, in get_soup
@@ -103,51 +137,11 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
     resp = self.send(prep, **send_kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 724, in send
-    history = [resp for resp in gen]
-                                ^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 265, in resolve_redirects
-    resp = self.send(
-           ^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
     r = adapter.send(request, **kwargs)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 690, in send
     raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='useast.ensembl.org', port=443): Read timed out. (read timeout=15)
-
-```
-
-## SILVA ribosomal RNA database
-
-Using class: `SILVAGetter`
-
-```python-traceback
-Traceback (most recent call last):
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 267, in iter_versions
-    yv = resolve(cls)
-         ^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 189, in resolve
-    return _resolve_helper_cached(name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 393, in func_wrapper
-    return _call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 332, in _call
-    return _calc_entry(core, key, func, args, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 66, in _calc_entry
-    func_res = func(*args, **kwds)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 199, in _resolve_helper_cached
-    return getter.resolve()
-           ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 219, in resolve
-    date=cls.date,
-         ^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 110, in date
-    date = cls._cache_prop["date"]
-           ~~~~~~~~~~~~~~~^^^^^^^^
-KeyError: 'date'
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='pathbank.org', port=443): Read timed out. (read timeout=15)
 
 ```

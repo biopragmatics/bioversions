@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1215,
-    "date": "2026-01-10",
+    "revision": 1216,
+    "date": "2026-01-11",
     "author": "runner"
   },
   "database": [
@@ -6043,6 +6043,10 @@
         {
           "retrieved": "2025-12-07",
           "version": "4.221"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "4.222"
         }
       ],
       "vtype": "date"
@@ -8113,6 +8117,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2013-07-04"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2024-01-11"
         }
       ],
       "vtype": "date"
@@ -9673,6 +9681,10 @@
         {
           "retrieved": "2025-12-21",
           "version": "2.168"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2.169"
         }
       ],
       "vtype": "date"
@@ -10535,6 +10547,10 @@
         {
           "retrieved": "2025-12-07",
           "version": "2025-12-02"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2026-01-06"
         }
       ],
       "vtype": "date"
@@ -10648,6 +10664,10 @@
         {
           "retrieved": "2023-11-22",
           "version": "2023-11-14"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2025-12-30"
         }
       ],
       "vtype": "date"
@@ -13209,6 +13229,10 @@
         {
           "retrieved": "2026-01-10",
           "version": "2026-01-08"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2026-01-09"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -13365,6 +13389,10 @@
         {
           "retrieved": "2025-11-02",
           "version": "2025-10-14"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2025-12-18"
         }
       ],
       "vtype": "date"
@@ -13451,6 +13479,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-08-13"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2026-01-06"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -13779,6 +13811,10 @@
         {
           "retrieved": "2021-04-14",
           "version": "2019-09-17"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2025-12-28"
         }
       ],
       "name": "Ontology of Host-Microbiome Interactions",
@@ -16470,6 +16506,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "6.263"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "6.264"
         }
       ],
       "vtype": "date"
@@ -21754,6 +21794,10 @@
         {
           "retrieved": "2025-08-12",
           "version": "2025-08-01"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2025-12-30"
         }
       ],
       "name": "The Food Ontology",
@@ -23182,6 +23226,12 @@
           "version": "20251210",
           "homepage": "http://data.wikipathways.org/20251210/",
           "date": "2025-12-10"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "20260110",
+          "homepage": "http://data.wikipathways.org/20260110/",
+          "date": "2026-01-10"
         }
       ],
       "vtype": "date"
@@ -27873,6 +27923,10 @@
         {
           "retrieved": "2026-01-10",
           "version": "2026-01-08"
+        },
+        {
+          "retrieved": "2026-01-11",
+          "version": "2026-01-09"
         }
       ],
       "name": "Zebrafish Information Network",
