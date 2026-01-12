@@ -42,6 +42,7 @@ from .intact import IntActGetter
 from .interpro import InterProGetter
 from .itis import ITISGetter
 from .kegg import KEGGGetter
+from .loinc import LOINCGetter
 from .mesh import MeshGetter
 from .mgi import MGIGetter
 from .mirbase import MirbaseGetter
@@ -115,6 +116,7 @@ __all__ = [
     "IntActGetter",
     "InterProGetter",
     "KEGGGetter",
+    "LOINCGetter",
     "MGIGetter",
     "MOAlmanacGetter",
     "MSigDBGetter",
