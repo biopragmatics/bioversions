@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1217,
-    "date": "2026-01-12",
+    "revision": 1218,
+    "date": "2026-01-13",
     "author": "runner"
   },
   "database": [
@@ -1393,6 +1393,11 @@
         {
           "retrieved": "2026-01-10",
           "version": "2026-01-09",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-01-13",
+          "version": "2026-01-12",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -9179,6 +9184,18 @@
       "vtype": "date"
     },
     {
+      "releases": [
+        {
+          "retrieved": "2026-01-13",
+          "version": "2.81",
+          "date": "2025-08-12"
+        }
+      ],
+      "name": "Logical Observation Identifiers Names and Codes",
+      "prefix": "loinc",
+      "vtype": "semver_minor"
+    },
+    {
       "name": "Maize ontology",
       "prefix": "co_322",
       "releases": [
@@ -16337,6 +16354,10 @@
         {
           "retrieved": "2026-01-06",
           "version": "2026-01-03"
+        },
+        {
+          "retrieved": "2026-01-13",
+          "version": "2026-01-10"
         }
       ],
       "name": "Rat Genome Database",
@@ -27931,6 +27952,10 @@
         {
           "retrieved": "2026-01-12",
           "version": "2026-01-10"
+        },
+        {
+          "retrieved": "2026-01-13",
+          "version": "2026-01-11"
         }
       ],
       "name": "Zebrafish Information Network",
