@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1218,
-    "date": "2026-01-13",
+    "revision": 1219,
+    "date": "2026-01-14",
     "author": "runner"
   },
   "database": [
@@ -1398,6 +1398,11 @@
         {
           "retrieved": "2026-01-13",
           "version": "2026-01-12",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-01-14",
+          "version": "2026-01-13",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -5113,6 +5118,11 @@
           "retrieved": "2025-09-09",
           "version": "2025-Sep",
           "date": "2025-09-01"
+        },
+        {
+          "retrieved": "2026-01-14",
+          "version": "2026-Jan",
+          "date": "2026-01-01"
         }
       ],
       "name": "Drug Gene Interaction Database",
@@ -11113,6 +11123,11 @@
           "retrieved": "2026-01-07",
           "version": "26.01a",
           "date": "2026-01-05"
+        },
+        {
+          "retrieved": "2026-01-14",
+          "version": "25.10d",
+          "date": "2025-10-27"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -13250,6 +13265,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2026-01-09"
+        },
+        {
+          "retrieved": "2026-01-14",
+          "version": "2026-01-12"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14631,6 +14650,11 @@
           "retrieved": "2025-07-05",
           "version": "38.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam38.0/"
+        },
+        {
+          "retrieved": "2026-01-14",
+          "version": "38.1",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam38.1/"
         }
       ],
       "vtype": "semver_minor"
@@ -21327,6 +21351,10 @@
         {
           "retrieved": "2026-01-07",
           "version": "2026-01-07"
+        },
+        {
+          "retrieved": "2026-01-14",
+          "version": "2026-01-14"
         }
       ],
       "name": "SwissLipids",
@@ -27956,6 +27984,10 @@
         {
           "retrieved": "2026-01-13",
           "version": "2026-01-11"
+        },
+        {
+          "retrieved": "2026-01-14",
+          "version": "2026-01-12"
         }
       ],
       "name": "Zebrafish Information Network",

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-01-13'
-  revision: 1218
+  date: '2026-01-14'
+  revision: 1219
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -824,6 +824,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-01-13'
     version: '2026-01-12'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-01-14'
+    version: '2026-01-13'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2866,6 +2869,9 @@ database:
   - date: '2025-09-01'
     retrieved: '2025-09-09'
     version: 2025-Sep
+  - date: '2026-01-01'
+    retrieved: '2026-01-14'
+    version: 2026-Jan
   vtype: month
 - name: Drug-drug Interaction and Drug-drug Interaction Evidence Ontology
   prefix: dideo
@@ -6170,6 +6176,9 @@ database:
   - date: '2026-01-05'
     retrieved: '2026-01-07'
     version: 26.01a
+  - date: '2025-10-27'
+    retrieved: '2026-01-14'
+    version: 25.10d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -7339,6 +7348,8 @@ database:
     version: '2026-01-08'
   - retrieved: '2026-01-11'
     version: '2026-01-09'
+  - retrieved: '2026-01-14'
+    version: '2026-01-12'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8083,6 +8094,9 @@ database:
   - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam38.0/
     retrieved: '2025-07-05'
     version: '38.0'
+  - homepage: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam38.1/
+    retrieved: '2026-01-14'
+    version: '38.1'
   vtype: semver_minor
 - name: Phenotype And Trait Ontology
   prefix: pato
@@ -11578,6 +11592,8 @@ database:
     version: '2026-01-06'
   - retrieved: '2026-01-07'
     version: '2026-01-07'
+  - retrieved: '2026-01-14'
+    version: '2026-01-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15137,6 +15153,8 @@ database:
     version: '2026-01-10'
   - retrieved: '2026-01-13'
     version: '2026-01-11'
+  - retrieved: '2026-01-14'
+    version: '2026-01-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
