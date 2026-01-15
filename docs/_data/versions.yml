@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-01-14'
-  revision: 1219
+  date: '2026-01-15'
+  revision: 1220
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -827,6 +827,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-01-14'
     version: '2026-01-13'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-01-15'
+    version: '2026-01-14'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2153,6 +2156,10 @@ database:
     homepage: https://ftp.ebi.ac.uk/pub/databases/intact/complex/2025-08-08/
     retrieved: '2025-08-29'
     version: '2025-08-08'
+  - date: '2026-01-09'
+    homepage: https://ftp.ebi.ac.uk/pub/databases/intact/complex/2026-01-09/
+    retrieved: '2026-01-15'
+    version: '2026-01-09'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -4752,6 +4759,10 @@ database:
     homepage: https://ftp.ebi.ac.uk/pub/databases/intact/2025-08-08/
     retrieved: '2025-08-29'
     version: '2025-08-08'
+  - date: '2026-01-09'
+    homepage: https://ftp.ebi.ac.uk/pub/databases/intact/2026-01-09/
+    retrieved: '2026-01-15'
+    version: '2026-01-09'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -7350,6 +7361,8 @@ database:
     version: '2026-01-09'
   - retrieved: '2026-01-14'
     version: '2026-01-12'
+  - retrieved: '2026-01-15'
+    version: '2026-01-13'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -11594,6 +11607,8 @@ database:
     version: '2026-01-07'
   - retrieved: '2026-01-14'
     version: '2026-01-14'
+  - retrieved: '2026-01-15'
+    version: '2026-01-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15155,6 +15170,8 @@ database:
     version: '2026-01-11'
   - retrieved: '2026-01-14'
     version: '2026-01-12'
+  - retrieved: '2026-01-15'
+    version: '2026-01-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

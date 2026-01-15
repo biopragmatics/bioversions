@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1219,
-    "date": "2026-01-14",
+    "revision": 1220,
+    "date": "2026-01-15",
     "author": "runner"
   },
   "database": [
@@ -1403,6 +1403,11 @@
         {
           "retrieved": "2026-01-14",
           "version": "2026-01-13",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-01-15",
+          "version": "2026-01-14",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -3833,6 +3838,12 @@
           "version": "2025-08-08",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/2025-08-08/",
           "date": "2025-08-08"
+        },
+        {
+          "retrieved": "2026-01-15",
+          "version": "2026-01-09",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/2026-01-09/",
+          "date": "2026-01-09"
         }
       ],
       "vtype": "date"
@@ -8547,6 +8558,12 @@
           "version": "2025-08-08",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/2025-08-08/",
           "date": "2025-08-08"
+        },
+        {
+          "retrieved": "2026-01-15",
+          "version": "2026-01-09",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/2026-01-09/",
+          "date": "2026-01-09"
         }
       ],
       "vtype": "date"
@@ -13269,6 +13286,10 @@
         {
           "retrieved": "2026-01-14",
           "version": "2026-01-12"
+        },
+        {
+          "retrieved": "2026-01-15",
+          "version": "2026-01-13"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -21355,6 +21376,10 @@
         {
           "retrieved": "2026-01-14",
           "version": "2026-01-14"
+        },
+        {
+          "retrieved": "2026-01-15",
+          "version": "2026-01-15"
         }
       ],
       "name": "SwissLipids",
@@ -27988,6 +28013,10 @@
         {
           "retrieved": "2026-01-14",
           "version": "2026-01-12"
+        },
+        {
+          "retrieved": "2026-01-15",
+          "version": "2026-01-13"
         }
       ],
       "name": "Zebrafish Information Network",
