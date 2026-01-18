@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-01-17'
-  revision: 1222
+  date: '2026-01-18'
+  revision: 1223
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -108,6 +108,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2014-12-05'
+  - retrieved: '2026-01-18'
+    version: '2022-09-13'
   vtype: date
 - name: Animal Trait Ontology for Livestock
   prefix: atol
@@ -912,6 +914,8 @@ database:
     version: '2025-11-10'
   - retrieved: '2025-12-28'
     version: '2025-12-19'
+  - retrieved: '2026-01-18'
+    version: '2026-01-12'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -2015,6 +2019,8 @@ database:
     version: '2.259'
   - retrieved: '2025-12-14'
     version: '2.260'
+  - retrieved: '2026-01-18'
+    version: '2.261'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -2744,6 +2750,8 @@ database:
     version: '2025-05-29'
   - retrieved: '2025-10-20'
     version: '2025-10-16'
+  - retrieved: '2026-01-18'
+    version: '2026-01-13'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -2796,6 +2804,8 @@ database:
     version: '2025-08-07'
   - retrieved: '2025-10-20'
     version: '2025-10-16'
+  - retrieved: '2026-01-18'
+    version: '2026-01-13'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -2856,6 +2866,8 @@ database:
     version: '2025-08-07'
   - retrieved: '2025-10-20'
     version: '2025-10-17'
+  - retrieved: '2026-01-18'
+    version: '2026-01-13'
   vtype: date
 - name: Drosophila Phenotype Ontology (DPO)
   prefix: dpo
@@ -3159,6 +3171,8 @@ database:
     version: '2025-04-30'
   - retrieved: '2025-07-22'
     version: '2025-06-23'
+  - retrieved: '2026-01-18'
+    version: '2026-01-09'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -3386,6 +3400,8 @@ database:
     version: '4.221'
   - retrieved: '2026-01-11'
     version: '4.222'
+  - retrieved: '2026-01-18'
+    version: '4.223'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -3834,6 +3850,8 @@ database:
     version: '2025-08-07'
   - retrieved: '2025-10-20'
     version: '2025-10-17'
+  - retrieved: '2026-01-18'
+    version: '2026-01-13'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -4612,6 +4630,8 @@ database:
     version: '2025-10-22'
   - retrieved: '2025-12-07'
     version: '2025-11-24'
+  - retrieved: '2026-01-18'
+    version: '2026-01-08'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -5302,6 +5322,8 @@ database:
     version: 4.1.221
   - retrieved: '2025-12-21'
     version: 4.1.223
+  - retrieved: '2026-01-18'
+    version: 4.1.226
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -5587,6 +5609,8 @@ database:
     version: '2025-09-25'
   - retrieved: '2025-11-02'
     version: '2025-10-29'
+  - retrieved: '2026-01-18'
+    version: '2026-01-13'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -5909,6 +5933,8 @@ database:
   releases:
   - retrieved: '2021-04-14'
     version: '2017-02-07'
+  - retrieved: '2026-01-18'
+    version: '2026-01-09'
   vtype: date
 - name: Mouse Brain Atlas
   prefix: mba
@@ -7373,6 +7399,8 @@ database:
     version: '2026-01-14'
   - retrieved: '2026-01-17'
     version: '2026-01-15'
+  - retrieved: '2026-01-18'
+    version: '2026-01-16'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8067,6 +8095,8 @@ database:
     version: '7.95'
   - retrieved: '2025-12-21'
     version: '7.96'
+  - retrieved: '2026-01-18'
+    version: '7.97'
   vtype: date
 - name: PATO
   prefix: pato
@@ -8288,6 +8318,8 @@ database:
     version: '2024-04-17'
   - retrieved: '2025-11-21'
     version: '2025-10-31'
+  - retrieved: '2026-01-18'
+    version: '2026-01-09'
   vtype: date
 - name: Plant Phenology Ontology
   prefix: ppo
@@ -8312,6 +8344,8 @@ database:
     version: '2023-11-14'
   - retrieved: '2025-12-21'
     version: '2025-12-16'
+  - retrieved: '2026-01-18'
+    version: '2026-01-08'
   vtype: date
 - name: Plant Trait Ontology
   prefix: to
@@ -8330,6 +8364,8 @@ database:
     version: '2025-05-20'
   - retrieved: '2025-11-21'
     version: '2025-11-07'
+  - retrieved: '2026-01-18'
+    version: '2026-01-14'
   vtype: date
 - name: Platynereis Developmental Stages
   prefix: pdumdv
@@ -11625,6 +11661,8 @@ database:
     version: '2026-01-16'
   - retrieved: '2026-01-17'
     version: '2026-01-17'
+  - retrieved: '2026-01-18'
+    version: '2026-01-18'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12225,6 +12263,8 @@ database:
     version: '2020-03-10'
   - retrieved: '2023-06-29'
     version: '2023-05-25'
+  - retrieved: '2026-01-18'
+    version: '2026-01-09'
   vtype: date
 - name: Vaccine Ontology
   prefix: vo
@@ -12427,6 +12467,8 @@ database:
     version: '2025-11-18'
   - retrieved: '2025-12-07'
     version: '2025-12-02'
+  - retrieved: '2026-01-18'
+    version: '2026-01-13'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -15192,6 +15234,8 @@ database:
     version: '2026-01-14'
   - retrieved: '2026-01-17'
     version: '2026-01-15'
+  - retrieved: '2026-01-18'
+    version: '2026-01-16'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
