@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1227,
-    "date": "2026-01-22",
+    "revision": 1228,
+    "date": "2026-01-23",
     "author": "runner"
   },
   "database": [
@@ -1437,6 +1437,11 @@
         {
           "retrieved": "2026-01-22",
           "version": "2026-01-21",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-01-23",
+          "version": "2026-01-22",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -13383,6 +13388,10 @@
         {
           "retrieved": "2026-01-22",
           "version": "2026-01-20"
+        },
+        {
+          "retrieved": "2026-01-23",
+          "version": "2026-01-21"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14773,6 +14782,11 @@
           "retrieved": "2026-01-14",
           "version": "38.1",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam38.1/"
+        },
+        {
+          "retrieved": "2026-01-23",
+          "version": "38.2",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam38.2/"
         }
       ],
       "vtype": "semver_minor"
@@ -17705,6 +17719,10 @@
         {
           "retrieved": "2026-01-17",
           "version": "aee8c14"
+        },
+        {
+          "retrieved": "2026-01-23",
+          "version": "d34325e"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -21525,6 +21543,10 @@
         {
           "retrieved": "2026-01-22",
           "version": "2026-01-22"
+        },
+        {
+          "retrieved": "2026-01-23",
+          "version": "2026-01-23"
         }
       ],
       "name": "SwissLipids",
@@ -28198,6 +28220,10 @@
         {
           "retrieved": "2026-01-22",
           "version": "2026-01-20"
+        },
+        {
+          "retrieved": "2026-01-23",
+          "version": "2026-01-21"
         }
       ],
       "name": "Zebrafish Information Network",
