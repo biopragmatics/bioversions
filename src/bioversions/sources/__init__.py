@@ -64,6 +64,7 @@ from .reactome import ReactomeGetter
 from .rfam import RfamGetter
 from .rgd import RGDGetter
 from .rhea import RheaGetter
+from .ror import RORGetter
 from .rxnorm import RxNormGetter
 from .sgd import SgdGetter
 from .signor import SignorGetter
@@ -134,6 +135,7 @@ __all__ = [
     "PombaseGetter",
     "PubChemGetter",
     "RGDGetter",
+    "RORGetter",
     "ReactomeGetter",
     "RfamGetter",
     "RheaGetter",

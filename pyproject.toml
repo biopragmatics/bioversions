@@ -67,6 +67,7 @@ dependencies = [
     "psycopg2-binary",
     "python-dateutil",
     "class-resolver>=0.7.1",
+    "ror-downloader",
 ]
 
 # see https://peps.python.org/pep-0735/ and https://docs.astral.sh/uv/concepts/dependencies/#dependency-groups
