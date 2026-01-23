@@ -15,11 +15,12 @@ class RORGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self) -> str:
+    def get(self) -> dict[str, str]:
         """Get the latest ROR version."""
         import ror_downloader
 
-        return ror_downloader.get_version_info(download=False).version
+        version_info = ror_downloader.get_version_info(download=False)
+        return {"version": version_info.version, "date": version_info.date.isoformat()}
 
 
 if __name__ == "__main__":
