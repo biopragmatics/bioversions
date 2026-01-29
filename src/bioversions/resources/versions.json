@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1233,
-    "date": "2026-01-28",
+    "revision": 1234,
+    "date": "2026-01-29",
     "author": "runner"
   },
   "database": [
@@ -1462,6 +1462,11 @@
         {
           "retrieved": "2026-01-28",
           "version": "2026-01-27",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-01-29",
+          "version": "2026-01-28",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -5912,6 +5917,10 @@
         {
           "retrieved": "2025-10-16",
           "version": "2025-10-15"
+        },
+        {
+          "retrieved": "2026-01-29",
+          "version": "2026-01-28"
         }
       ],
       "vtype": "date"
@@ -11251,6 +11260,11 @@
           "retrieved": "2026-01-14",
           "version": "25.10d",
           "date": "2025-10-27"
+        },
+        {
+          "retrieved": "2026-01-29",
+          "version": "26.01d",
+          "date": "2026-01-26"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -17131,6 +17145,11 @@
           "retrieved": "2025-06-19",
           "version": "139",
           "date": "2025-06-18"
+        },
+        {
+          "retrieved": "2026-01-29",
+          "version": "140",
+          "date": "2026-01-21"
         }
       ],
       "vtype": "date"
@@ -21607,6 +21626,10 @@
         {
           "retrieved": "2026-01-28",
           "version": "2026-01-28"
+        },
+        {
+          "retrieved": "2026-01-29",
+          "version": "2026-01-29"
         }
       ],
       "name": "SwissLipids",
@@ -28304,6 +28327,10 @@
         {
           "retrieved": "2026-01-28",
           "version": "2026-01-26"
+        },
+        {
+          "retrieved": "2026-01-29",
+          "version": "2026-01-27"
         }
       ],
       "name": "Zebrafish Information Network",
