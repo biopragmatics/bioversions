@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-01-29'
-  revision: 1234
+  date: '2026-01-30'
+  revision: 1235
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -865,6 +865,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-01-29'
     version: '2026-01-28'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-01-30'
+    version: '2026-01-29'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4964,6 +4967,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/107.0/
     retrieved: '2025-10-17'
     version: '107.0'
+  - date: '2026-01-29'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/108.0/
+    retrieved: '2026-01-30'
+    version: '108.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -7445,6 +7452,8 @@ database:
     version: '2026-01-23'
   - retrieved: '2026-01-28'
     version: '2026-01-26'
+  - retrieved: '2026-01-30'
+    version: '2026-01-28'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9811,6 +9820,8 @@ database:
     version: aee8c14
   - retrieved: '2026-01-23'
     version: d34325e
+  - retrieved: '2026-01-30'
+    version: 6dae64a
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -11741,6 +11752,8 @@ database:
     version: '2026-01-28'
   - retrieved: '2026-01-29'
     version: '2026-01-29'
+  - retrieved: '2026-01-30'
+    version: '2026-01-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12319,6 +12332,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_04/
     retrieved: '2025-10-18'
     version: '2025_04'
+  - date: '2026-01-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2026_01/
+    retrieved: '2026-01-30'
+    version: '2026_01'
   vtype: month
 - name: Uniprot Core Ontology
   prefix: uniprot.core
@@ -15336,6 +15353,8 @@ database:
     version: '2026-01-26'
   - retrieved: '2026-01-29'
     version: '2026-01-27'
+  - retrieved: '2026-01-30'
+    version: '2026-01-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1234,
-    "date": "2026-01-29",
+    "revision": 1235,
+    "date": "2026-01-30",
     "author": "runner"
   },
   "database": [
@@ -1467,6 +1467,11 @@
         {
           "retrieved": "2026-01-29",
           "version": "2026-01-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-01-30",
+          "version": "2026-01-29",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8898,6 +8903,12 @@
           "version": "107.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/107.0/",
           "date": "2025-10-16"
+        },
+        {
+          "retrieved": "2026-01-30",
+          "version": "108.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/108.0/",
+          "date": "2026-01-29"
         }
       ],
       "vtype": "semver_minor"
@@ -13442,6 +13453,10 @@
         {
           "retrieved": "2026-01-28",
           "version": "2026-01-26"
+        },
+        {
+          "retrieved": "2026-01-30",
+          "version": "2026-01-28"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17782,6 +17797,10 @@
         {
           "retrieved": "2026-01-23",
           "version": "d34325e"
+        },
+        {
+          "retrieved": "2026-01-30",
+          "version": "6dae64a"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -21630,6 +21649,10 @@
         {
           "retrieved": "2026-01-29",
           "version": "2026-01-29"
+        },
+        {
+          "retrieved": "2026-01-30",
+          "version": "2026-01-30"
         }
       ],
       "name": "SwissLipids",
@@ -22707,6 +22730,12 @@
           "version": "2025_04",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2025_04/",
           "date": "2025-04-01"
+        },
+        {
+          "retrieved": "2026-01-30",
+          "version": "2026_01",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2026_01/",
+          "date": "2026-01-01"
         }
       ],
       "vtype": "month"
@@ -28331,6 +28360,10 @@
         {
           "retrieved": "2026-01-29",
           "version": "2026-01-27"
+        },
+        {
+          "retrieved": "2026-01-30",
+          "version": "2026-01-28"
         }
       ],
       "name": "Zebrafish Information Network",
