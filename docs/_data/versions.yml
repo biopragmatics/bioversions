@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-01-31'
-  revision: 1236
+  date: '2026-02-01'
+  revision: 1237
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -6083,6 +6083,9 @@ database:
   - homepage: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1
     retrieved: '2025-06-09'
     version: '2025.1'
+  - homepage: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1
+    retrieved: '2026-02-01'
+    version: '2026.1'
   vtype: year_minor
 - name: Mungbean ontology
   prefix: co_346
@@ -7463,6 +7466,8 @@ database:
     version: '2026-01-28'
   - retrieved: '2026-01-31'
     version: '2026-01-29'
+  - retrieved: '2026-02-01'
+    version: '2026-01-30'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8906,6 +8911,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-01-01
     retrieved: '2026-01-01'
     version: '2026-01-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-02-01
+    retrieved: '2026-02-01'
+    version: '2026-02-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -11767,6 +11775,8 @@ database:
     version: '2026-01-30'
   - retrieved: '2026-01-31'
     version: '2026-01-31'
+  - retrieved: '2026-02-01'
+    version: '2026-02-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15370,6 +15380,8 @@ database:
     version: '2026-01-28'
   - retrieved: '2026-01-31'
     version: '2026-01-29'
+  - retrieved: '2026-02-01'
+    version: '2026-01-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
