@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1239,
-    "date": "2026-02-03",
+    "revision": 1240,
+    "date": "2026-02-04",
     "author": "runner"
   },
   "database": [
@@ -1482,6 +1482,11 @@
         {
           "retrieved": "2026-02-03",
           "version": "2026-02-02",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-02-04",
+          "version": "2026-02-03",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8047,6 +8052,10 @@
         {
           "retrieved": "2026-01-07",
           "version": "2026-01-06"
+        },
+        {
+          "retrieved": "2026-02-04",
+          "version": "2026-02-03"
         }
       ],
       "name": "HGNC",
@@ -11312,6 +11321,11 @@
           "retrieved": "2026-01-29",
           "version": "26.01d",
           "date": "2026-01-26"
+        },
+        {
+          "retrieved": "2026-02-04",
+          "version": "26.02a",
+          "date": "2026-02-02"
         }
       ],
       "name": "National Cancer Institute Thesaurus",
@@ -13505,6 +13519,10 @@
         {
           "retrieved": "2026-02-02",
           "version": "2026-01-31"
+        },
+        {
+          "retrieved": "2026-02-04",
+          "version": "2026-02-02"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -15596,6 +15614,12 @@
           "version": "2026-01-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-01-01/",
           "date": "2026-01-01"
+        },
+        {
+          "retrieved": "2026-02-04",
+          "version": "2026-02-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-02-01/",
+          "date": "2026-02-01"
         }
       ],
       "name": "PomBase",
@@ -21735,6 +21759,10 @@
         {
           "retrieved": "2026-02-03",
           "version": "2026-02-03"
+        },
+        {
+          "retrieved": "2026-02-04",
+          "version": "2026-02-04"
         }
       ],
       "name": "SwissLipids",
@@ -28462,6 +28490,10 @@
         {
           "retrieved": "2026-02-03",
           "version": "2026-02-01"
+        },
+        {
+          "retrieved": "2026-02-04",
+          "version": "2026-02-02"
         }
       ],
       "name": "Zebrafish Information Network",
