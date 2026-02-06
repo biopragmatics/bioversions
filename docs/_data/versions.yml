@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-02-05'
-  revision: 1241
+  date: '2026-02-06'
+  revision: 1242
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1244,6 +1244,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-11-06'
+  - retrieved: '2026-02-06'
+    version: '2026-01-23'
   vtype: date
 - name: Biological Spatial Ontology
   prefix: bspo
@@ -2068,6 +2070,8 @@ database:
     version: '2.260'
   - retrieved: '2026-01-18'
     version: '2.261'
+  - retrieved: '2026-02-06'
+    version: '2.263'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3224,6 +3228,8 @@ database:
     version: '2025-06-23'
   - retrieved: '2026-01-18'
     version: '2026-01-09'
+  - retrieved: '2026-02-06'
+    version: '2026-01-15'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -3455,6 +3461,8 @@ database:
     version: '4.222'
   - retrieved: '2026-01-18'
     version: '4.223'
+  - retrieved: '2026-02-06'
+    version: '4.225'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -3567,6 +3575,8 @@ database:
     version: 3.84.0
   - retrieved: '2025-12-21'
     version: 3.85.0
+  - retrieved: '2026-02-06'
+    version: 3.86.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -3755,6 +3765,8 @@ database:
     version: '2025-08-13'
   - retrieved: '2025-10-20'
     version: '2025-09-27'
+  - retrieved: '2026-02-06'
+    version: '2026-01-16'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -5389,6 +5401,8 @@ database:
     version: 4.1.223
   - retrieved: '2026-01-18'
     version: 4.1.226
+  - retrieved: '2026-02-06'
+    version: 4.1.231
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -5547,6 +5561,8 @@ database:
     version: '2024-07-29'
   - retrieved: '2025-04-29'
     version: '2025-04-24'
+  - retrieved: '2026-02-06'
+    version: '2026-01-15'
   vtype: date
 - name: Mental Disease Ontology
   prefix: mfomd
@@ -7497,6 +7513,8 @@ database:
     version: '2026-02-02'
   - retrieved: '2026-02-05'
     version: '2026-02-03'
+  - retrieved: '2026-02-06'
+    version: '2026-02-04'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8122,6 +8140,8 @@ database:
     version: '2025-07-29'
   - retrieved: '2025-11-02'
     version: '2025-10-29'
+  - retrieved: '2026-02-06'
+    version: '2026-01-26'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -8784,6 +8804,8 @@ database:
   releases:
   - retrieved: '2025-02-27'
     version: '2025-02-17'
+  - retrieved: '2026-02-06'
+    version: '2026-01-17'
   vtype: date
 - name: PROV Namespace
   prefix: prov
@@ -9001,6 +9023,8 @@ database:
     version: '2025-11-26'
   - retrieved: '2025-12-21'
     version: '2025-12-11'
+  - retrieved: '2026-02-06'
+    version: '2026-01-15'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -9307,6 +9331,8 @@ database:
     version: '6.263'
   - retrieved: '2026-01-11'
     version: '6.264'
+  - retrieved: '2026-02-06'
+    version: '6.266'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -9413,6 +9439,8 @@ database:
     version: '2025-03-05'
   - retrieved: '2025-07-22'
     version: '2025-06-24'
+  - retrieved: '2026-02-06'
+    version: '2025-12-17'
   vtype: date
 - name: REPRODUCE-ME Ontology
   prefix: reproduceme
@@ -11823,6 +11851,8 @@ database:
     version: '2026-02-04'
   - retrieved: '2026-02-05'
     version: '2026-02-05'
+  - retrieved: '2026-02-06'
+    version: '2026-02-06'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12429,6 +12459,8 @@ database:
     version: '2023-05-25'
   - retrieved: '2026-01-18'
     version: '2026-01-09'
+  - retrieved: '2026-02-06'
+    version: '2026-01-16'
   vtype: date
 - name: Vaccine Ontology
   prefix: vo
@@ -12499,6 +12531,8 @@ database:
     version: '2025-11-01'
   - retrieved: '2025-12-07'
     version: '2025-12-03'
+  - retrieved: '2026-02-06'
+    version: '2026-01-23'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -12633,6 +12667,8 @@ database:
     version: '2025-12-02'
   - retrieved: '2026-01-18'
     version: '2026-01-13'
+  - retrieved: '2026-02-06'
+    version: '2026-01-21'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -15436,6 +15472,8 @@ database:
     version: '2026-02-02'
   - retrieved: '2026-02-05'
     version: '2026-02-03'
+  - retrieved: '2026-02-06'
+    version: '2026-02-04'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
