@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1242,
-    "date": "2026-02-06",
+    "revision": 1243,
+    "date": "2026-02-07",
     "author": "runner"
   },
   "database": [
@@ -1492,6 +1492,11 @@
         {
           "retrieved": "2026-02-05",
           "version": "2026-02-05",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-02-07",
+          "version": "2026-02-06",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8085,6 +8090,10 @@
         {
           "retrieved": "2026-02-04",
           "version": "2026-02-03"
+        },
+        {
+          "retrieved": "2026-02-07",
+          "version": "2026-02-06"
         }
       ],
       "name": "HGNC",
@@ -10568,6 +10577,12 @@
           "version": "2025-12-26",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-12-26",
           "date": "2025-12-26"
+        },
+        {
+          "retrieved": "2026-02-07",
+          "version": "2026-02-05",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-02-05",
+          "date": "2026-02-05"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -13568,6 +13583,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-02-04"
+        },
+        {
+          "retrieved": "2026-02-07",
+          "version": "2026-02-05"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -21836,6 +21855,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-02-06"
+        },
+        {
+          "retrieved": "2026-02-07",
+          "version": "2026-02-07"
         }
       ],
       "name": "SwissLipids",
@@ -28587,6 +28610,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-02-04"
+        },
+        {
+          "retrieved": "2026-02-07",
+          "version": "2026-02-05"
         }
       ],
       "name": "Zebrafish Information Network",
