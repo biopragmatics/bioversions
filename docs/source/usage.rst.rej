@@ -1,0 +1,8 @@
+diff a/docs/source/usage.rst b/docs/source/usage.rst	(rejected hunks)
+@@ -2,5 +2,4 @@
+  Usage
+ #######
+ 
+-.. automodule:: bioversions.api
+-    :members:
++.. automodapi:: bioversions.api
