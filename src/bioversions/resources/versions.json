@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1260,
-    "date": "2026-02-24",
+    "revision": 1261,
+    "date": "2026-02-25",
     "author": "runner"
   },
   "database": [
@@ -1552,6 +1552,11 @@
         {
           "retrieved": "2026-02-24",
           "version": "2026-02-23",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-02-25",
+          "version": "2026-02-24",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -9478,6 +9483,11 @@
           "retrieved": "2026-01-13",
           "version": "2.81",
           "date": "2025-08-12"
+        },
+        {
+          "retrieved": "2026-02-25",
+          "version": "2.82",
+          "date": "2026-02-24"
         }
       ],
       "name": "Logical Observation Identifiers Names and Codes",
@@ -13711,6 +13721,10 @@
         {
           "retrieved": "2026-02-22",
           "version": "2026-02-20"
+        },
+        {
+          "retrieved": "2026-02-25",
+          "version": "2026-02-23"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -22067,6 +22081,10 @@
         {
           "retrieved": "2026-02-24",
           "version": "2026-02-24"
+        },
+        {
+          "retrieved": "2026-02-25",
+          "version": "2026-02-25"
         }
       ],
       "name": "SwissLipids",
@@ -28892,6 +28910,10 @@
         {
           "retrieved": "2026-02-24",
           "version": "2026-02-22"
+        },
+        {
+          "retrieved": "2026-02-25",
+          "version": "2026-02-23"
         }
       ],
       "name": "Zebrafish Information Network",
