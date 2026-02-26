@@ -1,6 +1,6 @@
 # Summary of Errors
 
-- **SILVA ribosomal RNA database** `[silva.taxon] issue parsing: 'date'`
+- **Mouse Genome Database** `[mgi] issue parsing: `
 - **Research Organization Registry** `[ror] issue parsing: Could not look up
   zenodo/api_token and no default given.
 
@@ -35,10 +35,11 @@ information. `
 
 - **Ensembl**
   `[ensembl] failed to resolve: HTTPSConnectionPool(host='useast.ensembl.org', port=443): Read timed out. (read timeout=15)`
+- **SILVA ribosomal RNA database** `[silva.taxon] issue parsing: 'date'`
 
-## SILVA ribosomal RNA database
+## Mouse Genome Database
 
-Using class: `SILVAGetter`
+Using class: `MGIGetter`
 
 ```python-traceback
 Traceback (most recent call last):
@@ -60,13 +61,18 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 203, in _resolve_helper_cached
     return getter.resolve()
            ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 219, in resolve
-    date=cls.date,
-         ^^^^^^^^
-  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 110, in date
-    date = cls._cache_prop["date"]
-           ~~~~~~~~~~~~~~~^^^^^^^^
-KeyError: 'date'
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 215, in resolve
+    version=cls.version,
+            ^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 93, in version
+    if isinstance(cls._cache_prop, str):
+                  ^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 87, in _cache_prop
+    cls._cache = cls().get()
+                 ^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/mgi.py", line 30, in get
+    raise ValueError
+ValueError
 
 ```
 
@@ -257,5 +263,39 @@ Traceback (most recent call last):
   File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/requests/adapters.py", line 690, in send
     raise ReadTimeout(e, request=request)
 requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='useast.ensembl.org', port=443): Read timed out. (read timeout=15)
+
+```
+
+## SILVA ribosomal RNA database
+
+Using class: `SILVAGetter`
+
+```python-traceback
+Traceback (most recent call last):
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 271, in iter_versions
+    yv = resolve(cls)
+         ^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 193, in resolve
+    return _resolve_helper_cached(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 393, in func_wrapper
+    return _call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 332, in _call
+    return _calc_entry(core, key, func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/.tox/update/lib/python3.12/site-packages/cachier/core.py", line 66, in _calc_entry
+    func_res = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/sources/__init__.py", line 203, in _resolve_helper_cached
+    return getter.resolve()
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 219, in resolve
+    date=cls.date,
+         ^^^^^^^^
+  File "/home/runner/work/bioversions/bioversions/src/bioversions/utils.py", line 110, in date
+    date = cls._cache_prop["date"]
+           ~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'date'
 
 ```
