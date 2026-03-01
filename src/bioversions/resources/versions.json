@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1264,
-    "date": "2026-02-28",
+    "revision": 1265,
+    "date": "2026-03-01",
     "author": "runner"
   },
   "database": [
@@ -3554,6 +3554,10 @@
         {
           "retrieved": "2026-02-02",
           "version": "2026-02-01"
+        },
+        {
+          "retrieved": "2026-03-01",
+          "version": "2026-03-01"
         }
       ],
       "name": "CiVIC",
@@ -4929,6 +4933,12 @@
           "version": "2026-02-02",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-02-02",
           "date": "2026-02-02"
+        },
+        {
+          "retrieved": "2026-03-01",
+          "version": "2026-02-28",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-02-28",
+          "date": "2026-02-28"
         }
       ],
       "vtype": "date"
@@ -13761,6 +13771,10 @@
         {
           "retrieved": "2026-02-28",
           "version": "2026-02-26"
+        },
+        {
+          "retrieved": "2026-03-01",
+          "version": "2026-02-27"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -16381,6 +16395,11 @@
           "retrieved": "2026-02-01",
           "version": "2026-02-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-02-01"
+        },
+        {
+          "retrieved": "2026-03-01",
+          "version": "2026-03-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-03-01"
         }
       ],
       "name": "PubChem",
@@ -22133,6 +22152,10 @@
         {
           "retrieved": "2026-02-28",
           "version": "2026-02-28"
+        },
+        {
+          "retrieved": "2026-03-01",
+          "version": "2026-03-01"
         }
       ],
       "name": "SwissLipids",
@@ -28974,6 +28997,10 @@
         {
           "retrieved": "2026-02-28",
           "version": "2026-02-26"
+        },
+        {
+          "retrieved": "2026-03-01",
+          "version": "2026-02-27"
         }
       ],
       "name": "Zebrafish Information Network",
