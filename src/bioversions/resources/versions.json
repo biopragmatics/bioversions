@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1265,
-    "date": "2026-03-01",
+    "revision": 1266,
+    "date": "2026-03-02",
     "author": "runner"
   },
   "database": [
@@ -15876,6 +15876,12 @@
           "version": "2026-02-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-02-01/",
           "date": "2026-02-01"
+        },
+        {
+          "retrieved": "2026-03-02",
+          "version": "2026-03-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-03-01/",
+          "date": "2026-03-01"
         }
       ],
       "name": "PomBase",
@@ -22156,6 +22162,10 @@
         {
           "retrieved": "2026-03-01",
           "version": "2026-03-01"
+        },
+        {
+          "retrieved": "2026-03-02",
+          "version": "2026-03-02"
         }
       ],
       "name": "SwissLipids",
@@ -29001,6 +29011,10 @@
         {
           "retrieved": "2026-03-01",
           "version": "2026-02-27"
+        },
+        {
+          "retrieved": "2026-03-02",
+          "version": "2026-02-28"
         }
       ],
       "name": "Zebrafish Information Network",
