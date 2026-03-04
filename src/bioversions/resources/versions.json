@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1267,
-    "date": "2026-03-03",
+    "revision": 1268,
+    "date": "2026-03-04",
     "author": "runner"
   },
   "database": [
@@ -1577,6 +1577,11 @@
         {
           "retrieved": "2026-03-03",
           "version": "2026-03-02",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-03-03",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -3791,6 +3796,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2.263"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2.266"
         }
       ],
       "vtype": "date"
@@ -4129,6 +4138,10 @@
         {
           "retrieved": "2025-06-15",
           "version": "2025-06-09"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-15"
         }
       ],
       "name": "Compositional Dietary Nutrition Ontology",
@@ -5829,6 +5842,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2023-02-14"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-17"
         }
       ],
       "name": "Environmental conditions, treatments and exposures ontology",
@@ -6325,6 +6342,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "4.225"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "4.227"
         }
       ],
       "vtype": "date"
@@ -6552,6 +6573,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "3.86.0"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "3.87.0"
         }
       ],
       "vtype": "semver"
@@ -6928,6 +6953,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-01-16"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-25"
         }
       ],
       "vtype": "date"
@@ -7709,6 +7738,10 @@
         {
           "retrieved": "2025-08-03",
           "version": "2025-07-25"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-02"
         }
       ],
       "name": "Genotype Ontology",
@@ -8194,6 +8227,10 @@
         {
           "retrieved": "2026-02-07",
           "version": "2026-02-06"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-03-03"
         }
       ],
       "name": "HGNC",
@@ -8575,6 +8612,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-08"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-16"
         }
       ],
       "vtype": "date"
@@ -8722,6 +8763,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-15"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-28"
         }
       ],
       "vtype": "semver"
@@ -9677,6 +9722,10 @@
         {
           "retrieved": "2025-12-28",
           "version": "2025-12-18"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-17"
         }
       ],
       "vtype": "date"
@@ -9845,6 +9894,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "4.1.231"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "4.1.236"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -10048,6 +10101,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2.169"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2.170"
         }
       ],
       "vtype": "date"
@@ -10407,6 +10464,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-13"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-10"
         }
       ],
       "vtype": "date"
@@ -10928,6 +10989,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2026-01-06"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-03"
         }
       ],
       "vtype": "date"
@@ -10985,6 +11050,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-09"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-24"
         }
       ],
       "name": "Mouse adult gross anatomy",
@@ -11049,6 +11118,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2025-12-30"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-11"
         }
       ],
       "vtype": "date"
@@ -13785,6 +13858,10 @@
         {
           "retrieved": "2026-03-01",
           "version": "2026-02-27"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-03-02"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14076,6 +14153,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2024-07-03"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-06"
         }
       ],
       "vtype": "date"
@@ -14178,6 +14259,10 @@
         {
           "retrieved": "2025-03-23",
           "version": "2025-03-18"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-14"
         }
       ],
       "name": "Ontology for the Anatomy of the Insect SkeletoMuscular system",
@@ -16130,6 +16215,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-01-17"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-23"
         }
       ],
       "name": "Proteomics Identification Database Ontology",
@@ -17158,6 +17247,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "6.266"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "6.270"
         }
       ],
       "vtype": "date"
@@ -22189,6 +22282,10 @@
         {
           "retrieved": "2026-03-03",
           "version": "2026-03-03"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-03-04"
         }
       ],
       "name": "SwissLipids",
@@ -23285,6 +23382,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025_03"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026_01"
         }
       ],
       "name": "Uniprot Core Ontology",
@@ -23730,6 +23831,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-01-21"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-02-23"
         }
       ],
       "vtype": "date"
@@ -29042,6 +29147,10 @@
         {
           "retrieved": "2026-03-03",
           "version": "2026-03-01"
+        },
+        {
+          "retrieved": "2026-03-04",
+          "version": "2026-03-02"
         }
       ],
       "name": "Zebrafish Information Network",
