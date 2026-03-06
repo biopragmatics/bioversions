@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-03-05'
-  revision: 1269
+  date: '2026-03-06'
+  revision: 1270
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -937,6 +937,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-03-05'
     version: '2026-03-04'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-03-06'
+    version: '2026-03-05'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -5984,6 +5987,10 @@ database:
     homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-02-05
     retrieved: '2026-02-07'
     version: '2026-02-05'
+  - date: '2026-03-05'
+    homepage: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-03-05
+    retrieved: '2026-03-06'
+    version: '2026-03-05'
   vtype: date
 - name: Molecular Process Ontology
   prefix: mop
@@ -7682,6 +7689,8 @@ database:
     version: '2026-03-02'
   - retrieved: '2026-03-05'
     version: '2026-03-03'
+  - retrieved: '2026-03-06'
+    version: '2026-03-04'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -10102,6 +10111,8 @@ database:
     version: 297da51
   - retrieved: '2026-02-21'
     version: 3.28.0
+  - retrieved: '2026-03-06'
+    version: 1ff5448
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -12102,6 +12113,8 @@ database:
     version: '2026-03-04'
   - retrieved: '2026-03-05'
     version: '2026-03-05'
+  - retrieved: '2026-03-06'
+    version: '2026-03-06'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15783,6 +15796,8 @@ database:
     version: '2026-03-02'
   - retrieved: '2026-03-05'
     version: '2026-03-03'
+  - retrieved: '2026-03-06'
+    version: '2026-03-04'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

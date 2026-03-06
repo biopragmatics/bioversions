@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1269,
-    "date": "2026-03-05",
+    "revision": 1270,
+    "date": "2026-03-06",
     "author": "runner"
   },
   "database": [
@@ -1587,6 +1587,11 @@
         {
           "retrieved": "2026-03-05",
           "version": "2026-03-04",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-03-06",
+          "version": "2026-03-05",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -10768,6 +10773,12 @@
           "version": "2026-02-05",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-02-05",
           "date": "2026-02-05"
+        },
+        {
+          "retrieved": "2026-03-06",
+          "version": "2026-03-05",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-03-05",
+          "date": "2026-03-05"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -13871,6 +13882,10 @@
         {
           "retrieved": "2026-03-05",
           "version": "2026-03-03"
+        },
+        {
+          "retrieved": "2026-03-06",
+          "version": "2026-03-04"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -18311,6 +18326,10 @@
         {
           "retrieved": "2026-02-21",
           "version": "3.28.0"
+        },
+        {
+          "retrieved": "2026-03-06",
+          "version": "1ff5448"
         }
       ],
       "name": "Software Package Data Exchange License",
@@ -22299,6 +22318,10 @@
         {
           "retrieved": "2026-03-05",
           "version": "2026-03-05"
+        },
+        {
+          "retrieved": "2026-03-06",
+          "version": "2026-03-06"
         }
       ],
       "name": "SwissLipids",
@@ -29168,6 +29191,10 @@
         {
           "retrieved": "2026-03-05",
           "version": "2026-03-03"
+        },
+        {
+          "retrieved": "2026-03-06",
+          "version": "2026-03-04"
         }
       ],
       "name": "Zebrafish Information Network",
