@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1279,
-    "date": "2026-03-15",
+    "revision": 1280,
+    "date": "2026-03-16",
     "author": "runner"
   },
   "database": [
@@ -1633,6 +1633,11 @@
           "retrieved": "2026-03-14",
           "version": "2026-03-13",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-15",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1668,6 +1673,10 @@
         {
           "retrieved": "2024-12-29",
           "version": "2024-12-24"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-13"
         }
       ],
       "name": "Apollo Structured Vocabulary",
@@ -3855,6 +3864,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2.266"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2.268"
         }
       ],
       "vtype": "date"
@@ -6401,6 +6414,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "4.227"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "4.229"
         }
       ],
       "vtype": "date"
@@ -8722,6 +8739,10 @@
         {
           "retrieved": "2025-11-30",
           "version": "1.5.1"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "1.5.2"
         }
       ],
       "name": "HUPO-PSI cross-linking and derivatization reagents controlled vocabulary",
@@ -9968,6 +9989,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "4.1.236"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "4.1.243"
         }
       ],
       "name": "Mass spectrometry ontology",
@@ -10175,6 +10200,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2.170"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2.172"
         }
       ],
       "vtype": "date"
@@ -11069,6 +11098,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-03"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-03"
         }
       ],
       "vtype": "date"
@@ -14220,6 +14253,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2026-01-06"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-05"
         }
       ],
       "name": "Ontology for Modeling and Representation of Social Entities",
@@ -15139,6 +15176,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-01-26"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-12"
         }
       ],
       "name": "Pathogen Host Interaction Phenotype Ontology",
@@ -15175,6 +15216,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-10-10"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-13"
         }
       ],
       "vtype": "date"
@@ -16327,6 +16372,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-23"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-05"
         }
       ],
       "name": "Proteomics Identification Database Ontology",
@@ -16725,6 +16774,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-01-15"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-05"
         }
       ],
       "vtype": "date"
@@ -17363,6 +17416,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "6.270"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "6.271"
         }
       ],
       "vtype": "date"
@@ -22446,6 +22503,10 @@
         {
           "retrieved": "2026-03-15",
           "version": "2026-03-15"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-16"
         }
       ],
       "name": "SwissLipids",
@@ -22858,6 +22919,10 @@
         {
           "retrieved": "2025-12-28",
           "version": "2025-12-19"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-04"
         }
       ],
       "vtype": "date"
@@ -23725,6 +23790,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-01-23"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-06"
         }
       ],
       "vtype": "semver"
@@ -23995,6 +24064,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-23"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-03"
         }
       ],
       "vtype": "date"
@@ -29361,6 +29434,10 @@
         {
           "retrieved": "2026-03-15",
           "version": "2026-03-13"
+        },
+        {
+          "retrieved": "2026-03-16",
+          "version": "2026-03-14"
         }
       ],
       "name": "Zebrafish Information Network",
