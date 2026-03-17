@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1280,
-    "date": "2026-03-16",
+    "revision": 1281,
+    "date": "2026-03-17",
     "author": "runner"
   },
   "database": [
@@ -1637,6 +1637,11 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-15",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-03-17",
+          "version": "2026-03-16",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -17235,6 +17240,10 @@
         {
           "retrieved": "2026-03-10",
           "version": "2026-03-07"
+        },
+        {
+          "retrieved": "2026-03-17",
+          "version": "2026-03-14"
         }
       ],
       "name": "Rat Genome Database",
@@ -22507,6 +22516,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-16"
+        },
+        {
+          "retrieved": "2026-03-17",
+          "version": "2026-03-17"
         }
       ],
       "name": "SwissLipids",
@@ -29438,6 +29451,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-14"
+        },
+        {
+          "retrieved": "2026-03-17",
+          "version": "2026-03-15"
         }
       ],
       "name": "Zebrafish Information Network",
