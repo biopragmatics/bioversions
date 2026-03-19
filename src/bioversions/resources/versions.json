@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1282,
-    "date": "2026-03-18",
+    "revision": 1283,
+    "date": "2026-03-19",
     "author": "runner"
   },
   "database": [
@@ -1648,6 +1648,11 @@
           "retrieved": "2026-03-18",
           "version": "2026-03-17",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2026-03-18",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -1807,6 +1812,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-12"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2026-03-14"
         }
       ],
       "vtype": "date"
@@ -3878,6 +3887,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2.268"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2.269"
         }
       ],
       "vtype": "date"
@@ -6428,6 +6441,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "4.229"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "4.230"
         }
       ],
       "vtype": "date"
@@ -6659,6 +6676,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "3.87.0"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "3.88.0"
         }
       ],
       "vtype": "semver"
@@ -10214,6 +10235,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2.172"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2.173"
         }
       ],
       "vtype": "date"
@@ -14017,6 +14042,10 @@
         {
           "retrieved": "2026-03-18",
           "version": "2026-03-16"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2026-03-17"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14611,6 +14640,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2025-12-28"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2026-03-15"
         }
       ],
       "name": "Ontology of Host-Microbiome Interactions",
@@ -15027,6 +15060,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-06-28"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2026-03-16"
         }
       ],
       "name": "Oral Health and Disease Ontology",
@@ -22533,6 +22570,10 @@
         {
           "retrieved": "2026-03-18",
           "version": "2026-03-18"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2026-03-19"
         }
       ],
       "name": "SwissLipids",
@@ -29472,6 +29513,10 @@
         {
           "retrieved": "2026-03-18",
           "version": "2026-03-16"
+        },
+        {
+          "retrieved": "2026-03-19",
+          "version": "2026-03-17"
         }
       ],
       "name": "Zebrafish Information Network",

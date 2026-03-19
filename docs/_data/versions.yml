@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-03-18'
-  revision: 1282
+  date: '2026-03-19'
+  revision: 1283
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -973,6 +973,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-03-18'
     version: '2026-03-17'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-03-19'
+    version: '2026-03-18'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1053,6 +1056,8 @@ database:
     version: '2025-12-19'
   - retrieved: '2026-01-18'
     version: '2026-01-12'
+  - retrieved: '2026-03-19'
+    version: '2026-03-14'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -2182,6 +2187,8 @@ database:
     version: '2.266'
   - retrieved: '2026-03-16'
     version: '2.268'
+  - retrieved: '2026-03-19'
+    version: '2.269'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3585,6 +3592,8 @@ database:
     version: '4.227'
   - retrieved: '2026-03-16'
     version: '4.229'
+  - retrieved: '2026-03-19'
+    version: '4.230'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -3701,6 +3710,8 @@ database:
     version: 3.86.0
   - retrieved: '2026-03-04'
     version: 3.87.0
+  - retrieved: '2026-03-19'
+    version: 3.88.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -5673,6 +5684,8 @@ database:
     version: '2.170'
   - retrieved: '2026-03-16'
     version: '2.172'
+  - retrieved: '2026-03-19'
+    version: '2.173'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -7764,6 +7777,8 @@ database:
     version: '2026-03-13'
   - retrieved: '2026-03-18'
     version: '2026-03-16'
+  - retrieved: '2026-03-19'
+    version: '2026-03-17'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8072,6 +8087,8 @@ database:
     version: '2019-09-17'
   - retrieved: '2026-01-11'
     version: '2025-12-28'
+  - retrieved: '2026-03-19'
+    version: '2026-03-15'
   vtype: date
 - name: Ontology of Medically Related Social Entities
   prefix: omrse
@@ -8308,6 +8325,8 @@ database:
     version: '2024-06-21'
   - retrieved: '2025-07-22'
     version: '2025-06-28'
+  - retrieved: '2026-03-19'
+    version: '2026-03-16'
   vtype: date
 - name: Orphanet Rare Disease Ontology
   prefix: orphanet.ordo
@@ -12228,6 +12247,8 @@ database:
     version: '2026-03-17'
   - retrieved: '2026-03-18'
     version: '2026-03-18'
+  - retrieved: '2026-03-19'
+    version: '2026-03-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15945,6 +15966,8 @@ database:
     version: '2026-03-15'
   - retrieved: '2026-03-18'
     version: '2026-03-16'
+  - retrieved: '2026-03-19'
+    version: '2026-03-17'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
