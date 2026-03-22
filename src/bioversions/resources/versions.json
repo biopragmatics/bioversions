@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1285,
-    "date": "2026-03-21",
+    "revision": 1286,
+    "date": "2026-03-22",
     "author": "runner"
   },
   "database": [
@@ -3019,6 +3019,10 @@
         {
           "retrieved": "2025-12-21",
           "version": "2025-12-17"
+        },
+        {
+          "retrieved": "2026-03-22",
+          "version": "2026-03-17"
         }
       ],
       "prefix": "cl",
@@ -7969,6 +7973,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-10-10"
+        },
+        {
+          "retrieved": "2026-03-22",
+          "version": "2026-03-14"
         }
       ],
       "name": "Glycan Naming and Subsumption Ontology",
@@ -12055,6 +12063,10 @@
         {
           "retrieved": "2025-07-22",
           "version": "2025-06-18"
+        },
+        {
+          "retrieved": "2026-03-22",
+          "version": "2026-03-16"
         }
       ],
       "vtype": "date"
@@ -14064,6 +14076,10 @@
         {
           "retrieved": "2026-03-21",
           "version": "2026-03-19"
+        },
+        {
+          "retrieved": "2026-03-22",
+          "version": "2026-03-20"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -22600,6 +22616,10 @@
         {
           "retrieved": "2026-03-21",
           "version": "2026-03-21"
+        },
+        {
+          "retrieved": "2026-03-22",
+          "version": "2026-03-22"
         }
       ],
       "name": "SwissLipids",
@@ -24161,6 +24181,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-03"
+        },
+        {
+          "retrieved": "2026-03-22",
+          "version": "2026-03-17"
         }
       ],
       "vtype": "date"
@@ -29551,6 +29575,10 @@
         {
           "retrieved": "2026-03-21",
           "version": "2026-03-19"
+        },
+        {
+          "retrieved": "2026-03-22",
+          "version": "2026-03-20"
         }
       ],
       "name": "Zebrafish Information Network",
