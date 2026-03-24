@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1287,
-    "date": "2026-03-23",
+    "revision": 1288,
+    "date": "2026-03-24",
     "author": "runner"
   },
   "database": [
@@ -1662,6 +1662,11 @@
         {
           "retrieved": "2026-03-21",
           "version": "2026-03-20",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-03-24",
+          "version": "2026-03-23",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -22624,6 +22629,10 @@
         {
           "retrieved": "2026-03-23",
           "version": "2026-03-23"
+        },
+        {
+          "retrieved": "2026-03-24",
+          "version": "2026-03-24"
         }
       ],
       "name": "SwissLipids",
@@ -29587,6 +29596,10 @@
         {
           "retrieved": "2026-03-23",
           "version": "2026-03-21"
+        },
+        {
+          "retrieved": "2026-03-24",
+          "version": "2026-03-22"
         }
       ],
       "name": "Zebrafish Information Network",
