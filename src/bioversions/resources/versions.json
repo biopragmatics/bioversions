@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1289,
-    "date": "2026-03-25",
+    "revision": 1290,
+    "date": "2026-03-26",
     "author": "runner"
   },
   "database": [
@@ -1672,6 +1672,11 @@
         {
           "retrieved": "2026-03-25",
           "version": "2026-03-24",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-25",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -7501,6 +7506,10 @@
         {
           "retrieved": "2023-06-29",
           "version": "2023-05-31"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-19"
         }
       ],
       "vtype": "date"
@@ -9876,6 +9885,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-17"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-18"
         }
       ],
       "vtype": "date"
@@ -14094,6 +14107,10 @@
         {
           "retrieved": "2026-03-25",
           "version": "2026-03-23"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-24"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14692,6 +14709,10 @@
         {
           "retrieved": "2026-03-19",
           "version": "2026-03-15"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-21"
         }
       ],
       "name": "Ontology of Host-Microbiome Interactions",
@@ -22646,6 +22667,10 @@
         {
           "retrieved": "2026-03-25",
           "version": "2026-03-25"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-26"
         }
       ],
       "name": "SwissLipids",
@@ -22944,6 +22969,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "2025-12-05"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-19"
         }
       ],
       "vtype": "date"
@@ -29617,6 +29646,10 @@
         {
           "retrieved": "2026-03-25",
           "version": "2026-03-23"
+        },
+        {
+          "retrieved": "2026-03-26",
+          "version": "2026-03-24"
         }
       ],
       "name": "Zebrafish Information Network",
