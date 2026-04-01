@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-03-31'
-  revision: 1293
+  date: '2026-04-01'
+  revision: 1294
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1000,6 +1000,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-03-31'
     version: '2026-03-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-01'
+    version: '2026-03-31'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1770,6 +1773,9 @@ database:
   - date: '2025-11-27'
     retrieved: '2025-11-28'
     version: '54.0'
+  - date: '2026-03-31'
+    retrieved: '2026-04-01'
+    version: '55.0'
   vtype: sequential
 - name: Cellular Microscopy Phenotype Ontology
   prefix: cmpo
@@ -2886,6 +2892,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-02-28
     retrieved: '2026-03-01'
     version: '2026-02-28'
+  - date: '2026-03-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-03-31
+    retrieved: '2026-04-01'
+    version: '2026-03-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -5390,6 +5400,9 @@ database:
   - date: '2026-01-01'
     retrieved: '2025-12-31'
     version: '117.0'
+  - date: '2026-04-01'
+    retrieved: '2026-04-01'
+    version: '118.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -7827,6 +7840,8 @@ database:
     version: '2026-03-25'
   - retrieved: '2026-03-29'
     version: '2026-03-27'
+  - retrieved: '2026-04-01'
+    version: '2026-03-30'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9308,6 +9323,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-03-01
     retrieved: '2026-03-01'
     version: '2026-03-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-04-01
+    retrieved: '2026-04-01'
+    version: '2026-04-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -12319,6 +12337,8 @@ database:
     version: '2026-03-29'
   - retrieved: '2026-03-31'
     version: '2026-03-31'
+  - retrieved: '2026-04-01'
+    version: '2026-04-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16064,6 +16084,8 @@ database:
     version: '2026-03-28'
   - retrieved: '2026-03-31'
     version: '2026-03-29'
+  - retrieved: '2026-04-01'
+    version: '2026-03-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

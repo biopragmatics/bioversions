@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1293,
-    "date": "2026-03-31",
+    "revision": 1294,
+    "date": "2026-04-01",
     "author": "runner"
   },
   "database": [
@@ -1693,6 +1693,11 @@
           "retrieved": "2026-03-31",
           "version": "2026-03-30",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "2026-03-31",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -3128,6 +3133,11 @@
           "retrieved": "2025-11-28",
           "version": "54.0",
           "date": "2025-11-27"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "55.0",
+          "date": "2026-03-31"
         }
       ],
       "name": "Cellosaurus",
@@ -5097,6 +5107,12 @@
           "version": "2026-02-28",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-02-28",
           "date": "2026-02-28"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "2026-03-31",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-03-31",
+          "date": "2026-03-31"
         }
       ],
       "vtype": "date"
@@ -9656,6 +9672,11 @@
           "retrieved": "2025-12-31",
           "version": "117.0",
           "date": "2026-01-01"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "118.0",
+          "date": "2026-04-01"
         }
       ],
       "vtype": "semver_minor"
@@ -14134,6 +14155,10 @@
         {
           "retrieved": "2026-03-29",
           "version": "2026-03-27"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "2026-03-30"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -16805,6 +16830,11 @@
           "retrieved": "2026-03-01",
           "version": "2026-03-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-03-01"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "2026-04-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-04-01"
         }
       ],
       "name": "PubChem",
@@ -22706,6 +22736,10 @@
         {
           "retrieved": "2026-03-31",
           "version": "2026-03-31"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "2026-04-01"
         }
       ],
       "name": "SwissLipids",
@@ -29701,6 +29735,10 @@
         {
           "retrieved": "2026-03-31",
           "version": "2026-03-29"
+        },
+        {
+          "retrieved": "2026-04-01",
+          "version": "2026-03-30"
         }
       ],
       "name": "Zebrafish Information Network",
