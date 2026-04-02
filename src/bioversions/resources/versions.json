@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1294,
-    "date": "2026-04-01",
+    "revision": 1295,
+    "date": "2026-04-02",
     "author": "runner"
   },
   "database": [
@@ -1698,6 +1698,11 @@
           "retrieved": "2026-04-01",
           "version": "2026-03-31",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-04-01",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "name": "Antibody Registry",
@@ -2329,6 +2334,11 @@
           "retrieved": "2026-03-03",
           "version": "5.0.255",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.255"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "5.0.256",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.256"
         }
       ],
       "vtype": "semver"
@@ -3393,6 +3403,11 @@
           "retrieved": "2026-03-12",
           "version": "250",
           "date": "2026-03-11"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "251",
+          "date": "2026-04-01"
         }
       ],
       "vtype": "sequential"
@@ -3710,6 +3725,10 @@
         {
           "retrieved": "2026-03-01",
           "version": "2026-03-01"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-04-01"
         }
       ],
       "name": "CiVIC",
@@ -8417,6 +8436,10 @@
         {
           "retrieved": "2026-03-07",
           "version": "2026-03-06"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-04-01"
         }
       ],
       "name": "HGNC",
@@ -14159,6 +14182,10 @@
         {
           "retrieved": "2026-04-01",
           "version": "2026-03-30"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-03-31"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -16298,6 +16325,12 @@
           "version": "2026-03-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-03-01/",
           "date": "2026-03-01"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-04-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-04-01/",
+          "date": "2026-04-01"
         }
       ],
       "name": "PomBase",
@@ -18472,6 +18505,10 @@
         {
           "retrieved": "2026-01-02",
           "version": "2026-01-01"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-04-01"
         }
       ],
       "name": "SIGNOR",
@@ -22740,6 +22777,10 @@
         {
           "retrieved": "2026-04-01",
           "version": "2026-04-01"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-04-02"
         }
       ],
       "name": "SwissLipids",
@@ -29739,6 +29780,10 @@
         {
           "retrieved": "2026-04-01",
           "version": "2026-03-30"
+        },
+        {
+          "retrieved": "2026-04-02",
+          "version": "2026-03-31"
         }
       ],
       "name": "Zebrafish Information Network",
