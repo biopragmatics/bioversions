@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-02'
-  revision: 1295
+  date: '2026-04-03'
+  revision: 1296
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1006,6 +1006,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-04-02'
     version: '2026-04-01'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-03'
+    version: '2026-04-02'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2584,6 +2587,8 @@ database:
     version: 25Q2
   - retrieved: '2025-10-02'
     version: 25Q3
+  - retrieved: '2026-04-03'
+    version: 26Q1
   vtype: other
 - name: Developing Human Brain Atlas
   prefix: dhba
@@ -4354,6 +4359,10 @@ database:
     homepage: http://archive.geneontology.org/full/2026-01-23/
     retrieved: '2026-01-31'
     version: '2026-01-23'
+  - date: '2026-03-25'
+    homepage: http://archive.geneontology.org/full/2026-03-25/
+    retrieved: '2026-04-03'
+    version: '2026-03-25'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -7857,6 +7866,8 @@ database:
     version: '2026-03-30'
   - retrieved: '2026-04-02'
     version: '2026-03-31'
+  - retrieved: '2026-04-03'
+    version: '2026-04-01'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9775,6 +9786,8 @@ database:
     version: '94'
   - retrieved: '2025-12-10'
     version: '95'
+  - retrieved: '2026-04-03'
+    version: '96'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -12362,6 +12375,8 @@ database:
     version: '2026-04-01'
   - retrieved: '2026-04-02'
     version: '2026-04-02'
+  - retrieved: '2026-04-03'
+    version: '2026-04-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16111,6 +16126,8 @@ database:
     version: '2026-03-30'
   - retrieved: '2026-04-02'
     version: '2026-03-31'
+  - retrieved: '2026-04-03'
+    version: '2026-04-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
