@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1302,
-    "date": "2026-04-09",
+    "revision": 1303,
+    "date": "2026-04-10",
     "author": "runner"
   },
   "database": [
@@ -1731,6 +1731,11 @@
         {
           "retrieved": "2026-04-09",
           "version": "2026-04-08",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-09",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4805,6 +4810,10 @@
         {
           "retrieved": "2026-04-05",
           "version": "2026-03-27"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-03-31"
         }
       ],
       "name": "Disease Drivers Ontology",
@@ -5312,6 +5321,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-13"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-02"
         }
       ],
       "name": "Drosophila development",
@@ -5419,6 +5432,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-13"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-03"
         }
       ],
       "name": "Drosophila gross anatomy",
@@ -5542,6 +5559,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-13"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-03"
         }
       ],
       "name": "Drosophila Phenotype Ontology",
@@ -6100,6 +6121,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2026-01-15"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-05"
         }
       ],
       "name": "Evidence and Conclusion Ontology",
@@ -7184,6 +7209,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-25"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-02"
         }
       ],
       "vtype": "date"
@@ -7459,6 +7488,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "2026-01-13"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-03"
         }
       ],
       "name": "FlyBase Controlled Vocabulary",
@@ -11070,6 +11103,12 @@
           "version": "2026-03-05",
           "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-03-05",
           "date": "2026-03-05"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-09",
+          "homepage": "https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-04-09",
+          "date": "2026-04-09"
         }
       ],
       "name": "Molecular Oncology Almanac",
@@ -11433,6 +11472,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-11"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-01"
         }
       ],
       "vtype": "date"
@@ -14273,6 +14316,10 @@
         {
           "retrieved": "2026-04-09",
           "version": "2026-04-07"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-08"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14433,6 +14480,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2025-12-18"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-03-19"
         }
       ],
       "vtype": "date"
@@ -22909,6 +22960,10 @@
         {
           "retrieved": "2026-04-09",
           "version": "2026-04-09"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-10"
         }
       ],
       "name": "SwissLipids",
@@ -23695,6 +23750,10 @@
         {
           "retrieved": "2025-12-14",
           "version": "2025-12-04"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-01"
         }
       ],
       "name": "Uber Anatomy Ontology",
@@ -24482,6 +24541,10 @@
         {
           "retrieved": "2026-03-22",
           "version": "2026-03-17"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-01"
         }
       ],
       "vtype": "date"
@@ -25079,6 +25142,10 @@
         {
           "retrieved": "2026-04-05",
           "version": "2026-03-30"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-03-31"
         }
       ],
       "vtype": "date"
@@ -25090,6 +25157,10 @@
         {
           "retrieved": "2021-02-02",
           "version": "2020-03-10"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-03-31"
         }
       ],
       "vtype": "date"
@@ -29944,6 +30015,10 @@
         {
           "retrieved": "2026-04-09",
           "version": "2026-04-07"
+        },
+        {
+          "retrieved": "2026-04-10",
+          "version": "2026-04-08"
         }
       ],
       "name": "Zebrafish Information Network",
