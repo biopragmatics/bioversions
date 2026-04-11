@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-10'
-  revision: 1303
+  date: '2026-04-11'
+  revision: 1304
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1026,6 +1026,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-04-10'
     version: '2026-04-09'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-11'
+    version: '2026-04-10'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -5371,6 +5374,8 @@ database:
     version: '2026-01-22'
   - retrieved: '2026-02-28'
     version: '2026-02-24'
+  - retrieved: '2026-04-11'
+    version: '2026-03-26'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -7929,6 +7934,8 @@ database:
     version: '2026-04-07'
   - retrieved: '2026-04-10'
     version: '2026-04-08'
+  - retrieved: '2026-04-11'
+    version: '2026-04-09'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -10391,6 +10398,8 @@ database:
     version: 3.28.0
   - retrieved: '2026-03-06'
     version: 1ff5448
+  - retrieved: '2026-04-11'
+    version: 7c49795
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -12459,6 +12468,8 @@ database:
     version: '2026-04-09'
   - retrieved: '2026-04-10'
     version: '2026-04-10'
+  - retrieved: '2026-04-11'
+    version: '2026-04-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13564,6 +13575,10 @@ database:
     homepage: http://data.wikipathways.org/20260310/
     retrieved: '2026-03-11'
     version: '20260310'
+  - date: '2026-04-10'
+    homepage: http://data.wikipathways.org/20260410/
+    retrieved: '2026-04-11'
+    version: '20260410'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -16234,6 +16249,8 @@ database:
     version: '2026-04-07'
   - retrieved: '2026-04-10'
     version: '2026-04-08'
+  - retrieved: '2026-04-11'
+    version: '2026-04-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
