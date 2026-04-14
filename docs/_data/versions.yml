@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-13'
-  revision: 1306
+  date: '2026-04-14'
+  revision: 1307
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1029,6 +1029,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-04-11'
     version: '2026-04-10'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-14'
+    version: '2026-04-13'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2259,6 +2262,8 @@ database:
     version: '2.268'
   - retrieved: '2026-03-19'
     version: '2.269'
+  - retrieved: '2026-04-14'
+    version: '2.270'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3682,6 +3687,8 @@ database:
     version: '4.229'
   - retrieved: '2026-03-19'
     version: '4.230'
+  - retrieved: '2026-04-14'
+    version: '4.231'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -5803,6 +5810,8 @@ database:
     version: '2.172'
   - retrieved: '2026-03-19'
     version: '2.173'
+  - retrieved: '2026-04-14'
+    version: '2.174'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -6300,6 +6309,8 @@ database:
     version: '2026-02-03'
   - retrieved: '2026-03-16'
     version: '2026-03-03'
+  - retrieved: '2026-04-14'
+    version: '2026-04-07'
   vtype: date
 - name: MOP
   prefix: mop
@@ -6370,6 +6381,8 @@ database:
     version: '2026-02-11'
   - retrieved: '2026-04-10'
     version: '2026-04-01'
+  - retrieved: '2026-04-14'
+    version: '2026-04-08'
   vtype: date
 - name: Mouse Developmental Stages
   prefix: mmusdv
@@ -8072,6 +8085,8 @@ database:
     version: '2026-01-06'
   - retrieved: '2026-03-16'
     version: '2026-03-05'
+  - retrieved: '2026-04-14'
+    version: '2026-04-07'
   vtype: date
 - name: Ontology for Nutritional Studies
   prefix: ons
@@ -8160,6 +8175,8 @@ database:
     version: 1.2.44
   - retrieved: '2023-05-11'
     version: 1.2.47
+  - retrieved: '2026-04-14'
+    version: 1.2.54
   vtype: semver
 - name: Ontology of Arthropod Circulatory Systems
   prefix: oarcs
@@ -9720,6 +9737,8 @@ database:
     version: '2026-03-14'
   - retrieved: '2026-04-07'
     version: '2026-04-04'
+  - retrieved: '2026-04-14'
+    version: '2026-04-11'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -9812,6 +9831,8 @@ database:
     version: '6.270'
   - retrieved: '2026-03-16'
     version: '6.271'
+  - retrieved: '2026-04-14'
+    version: '6.272'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -10402,6 +10423,8 @@ database:
     version: 1ff5448
   - retrieved: '2026-04-11'
     version: 7c49795
+  - retrieved: '2026-04-14'
+    version: 8da21bb
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -12476,6 +12499,8 @@ database:
     version: '2026-04-12'
   - retrieved: '2026-04-13'
     version: '2026-04-13'
+  - retrieved: '2026-04-14'
+    version: '2026-04-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16261,6 +16286,8 @@ database:
     version: '2026-04-10'
   - retrieved: '2026-04-13'
     version: '2026-04-11'
+  - retrieved: '2026-04-14'
+    version: '2026-04-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
