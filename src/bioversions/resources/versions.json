@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1307,
-    "date": "2026-04-14",
+    "revision": 1308,
+    "date": "2026-04-15",
     "author": "runner"
   },
   "database": [
@@ -1746,6 +1746,11 @@
         {
           "retrieved": "2026-04-14",
           "version": "2026-04-13",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2026-04-14",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4020,6 +4025,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "2.270"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2.271"
         }
       ],
       "vtype": "date"
@@ -6612,6 +6621,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "4.231"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "4.232"
         }
       ],
       "vtype": "date"
@@ -7995,6 +8008,10 @@
         {
           "retrieved": "2025-01-12",
           "version": "2024-12-18"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2026-04-13"
         }
       ],
       "vtype": "date"
@@ -9063,6 +9080,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "2022-11-07"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2026-03-30"
         }
       ],
       "vtype": "date"
@@ -10465,6 +10486,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "2.174"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2.175"
         }
       ],
       "vtype": "date"
@@ -14362,6 +14387,10 @@
         {
           "retrieved": "2026-04-12",
           "version": "2026-04-10"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2026-04-13"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -17830,6 +17859,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "6.272"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "6.273"
         }
       ],
       "vtype": "date"
@@ -23046,6 +23079,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "2026-04-14"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2026-04-15"
         }
       ],
       "name": "SwissLipids",
@@ -30123,6 +30160,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "2026-04-12"
+        },
+        {
+          "retrieved": "2026-04-15",
+          "version": "2026-04-13"
         }
       ],
       "name": "Zebrafish Information Network",

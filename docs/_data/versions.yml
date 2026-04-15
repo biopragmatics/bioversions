@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-14'
-  revision: 1307
+  date: '2026-04-15'
+  revision: 1308
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1032,6 +1032,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-04-14'
     version: '2026-04-13'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-15'
+    version: '2026-04-14'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2264,6 +2267,8 @@ database:
     version: '2.269'
   - retrieved: '2026-04-14'
     version: '2.270'
+  - retrieved: '2026-04-15'
+    version: '2.271'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3689,6 +3694,8 @@ database:
     version: '4.230'
   - retrieved: '2026-04-14'
     version: '4.231'
+  - retrieved: '2026-04-15'
+    version: '4.232'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4444,6 +4451,8 @@ database:
     version: '2023-08-19'
   - retrieved: '2025-01-12'
     version: '2024-12-18'
+  - retrieved: '2026-04-15'
+    version: '2026-04-13'
   vtype: date
 - name: Genomics Cohorts Knowledge Ontology
   prefix: gecko
@@ -5038,6 +5047,8 @@ database:
     version: '2020-12-09'
   - retrieved: '2023-05-11'
     version: '2022-11-07'
+  - retrieved: '2026-04-15'
+    version: '2026-03-30'
   vtype: date
 - name: Informed Consent Ontology
   prefix: ico
@@ -5812,6 +5823,8 @@ database:
     version: '2.173'
   - retrieved: '2026-04-14'
     version: '2.174'
+  - retrieved: '2026-04-15'
+    version: '2.175'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -7951,6 +7964,8 @@ database:
     version: '2026-04-09'
   - retrieved: '2026-04-12'
     version: '2026-04-10'
+  - retrieved: '2026-04-15'
+    version: '2026-04-13'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9833,6 +9848,8 @@ database:
     version: '6.271'
   - retrieved: '2026-04-14'
     version: '6.272'
+  - retrieved: '2026-04-15'
+    version: '6.273'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -12501,6 +12518,8 @@ database:
     version: '2026-04-13'
   - retrieved: '2026-04-14'
     version: '2026-04-14'
+  - retrieved: '2026-04-15'
+    version: '2026-04-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16288,6 +16307,8 @@ database:
     version: '2026-04-11'
   - retrieved: '2026-04-14'
     version: '2026-04-12'
+  - retrieved: '2026-04-15'
+    version: '2026-04-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
