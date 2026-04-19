@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-18'
-  revision: 1311
+  date: '2026-04-19'
+  revision: 1312
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1544,6 +1544,8 @@ database:
     version: '2025-04-01'
   - retrieved: '2025-08-15'
     version: '2025-08-12'
+  - retrieved: '2026-04-19'
+    version: '2026-04-16'
   vtype: date
 - name: C. elegans Gross Anatomy Ontology
   prefix: wbbt
@@ -1636,6 +1638,8 @@ database:
     version: '2025-04-01'
   - retrieved: '2025-08-15'
     version: '2025-08-12'
+  - retrieved: '2026-04-19'
+    version: '2026-04-15'
   vtype: date
 - name: Cancer Cell Line Encylopedia
   prefix: ccle
@@ -3823,6 +3827,8 @@ database:
     version: 3.87.0
   - retrieved: '2026-03-19'
     version: 3.88.0
+  - retrieved: '2026-04-19'
+    version: 3.89.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -7985,6 +7991,8 @@ database:
     version: '2026-04-15'
   - retrieved: '2026-04-18'
     version: '2026-04-16'
+  - retrieved: '2026-04-19'
+    version: '2026-04-17'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8211,6 +8219,8 @@ database:
     version: 1.2.47
   - retrieved: '2026-04-14'
     version: 1.2.54
+  - retrieved: '2026-04-19'
+    version: '2026-04-15'
   vtype: semver
 - name: Ontology of Arthropod Circulatory Systems
   prefix: oarcs
@@ -12545,6 +12555,8 @@ database:
     version: '2026-04-17'
   - retrieved: '2026-04-18'
     version: '2026-04-18'
+  - retrieved: '2026-04-19'
+    version: '2026-04-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13277,6 +13289,8 @@ database:
     version: '2025-08-12'
   - retrieved: '2025-11-21'
     version: '2025-11-07'
+  - retrieved: '2026-04-19'
+    version: '2026-04-15'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -13381,6 +13395,8 @@ database:
     version: '2026-03-17'
   - retrieved: '2026-04-10'
     version: '2026-04-01'
+  - retrieved: '2026-04-19'
+    version: '2026-04-14'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -16340,6 +16356,8 @@ database:
     version: '2026-04-15'
   - retrieved: '2026-04-18'
     version: '2026-04-16'
+  - retrieved: '2026-04-19'
+    version: '2026-04-17'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

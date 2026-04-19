@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1311,
-    "date": "2026-04-18",
+    "revision": 1312,
+    "date": "2026-04-19",
     "author": "runner"
   },
   "database": [
@@ -2685,6 +2685,10 @@
         {
           "retrieved": "2025-08-15",
           "version": "2025-08-12"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-16"
         }
       ],
       "name": "C. elegans development ontology",
@@ -2867,6 +2871,10 @@
         {
           "retrieved": "2025-08-15",
           "version": "2025-08-12"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-15"
         }
       ],
       "name": "C. elegans phenotype",
@@ -6875,6 +6883,10 @@
         {
           "retrieved": "2026-03-19",
           "version": "3.88.0"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "3.89.0"
         }
       ],
       "vtype": "semver"
@@ -14424,6 +14436,10 @@
         {
           "retrieved": "2026-04-18",
           "version": "2026-04-16"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-17"
         }
       ],
       "name": "Online Mendelian Inheritance in Man",
@@ -14860,6 +14876,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "1.2.54"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-15"
         }
       ],
       "name": "Ontology of Adverse Events",
@@ -23128,6 +23148,10 @@
         {
           "retrieved": "2026-04-18",
           "version": "2026-04-18"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-19"
         }
       ],
       "name": "SwissLipids",
@@ -24502,6 +24526,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2025-11-07"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-15"
         }
       ],
       "name": "Vertebrate Breed Ontology",
@@ -24709,6 +24737,10 @@
         {
           "retrieved": "2026-04-10",
           "version": "2026-04-01"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-14"
         }
       ],
       "vtype": "date"
@@ -30221,6 +30253,10 @@
         {
           "retrieved": "2026-04-18",
           "version": "2026-04-16"
+        },
+        {
+          "retrieved": "2026-04-19",
+          "version": "2026-04-17"
         }
       ],
       "name": "Zebrafish Information Network",
