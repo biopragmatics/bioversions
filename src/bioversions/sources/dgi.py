@@ -24,6 +24,8 @@ class DGIGetter(Getter):
         if time_tag is None:
             raise ValueError
         datetime_str = time_tag.attrs["datetime"]
+        if not isinstance(datetime_str, str):
+            raise ValueError
         dt_obj = dateutil.parser.parse(datetime_str)
         version = dt_obj.strftime(self.date_version_fmt)
         return version

@@ -28,6 +28,8 @@ def _dynamic_get() -> str:
     footer = find(soup, name="footer")
     ul = find(footer, name="ul")
     for li in ul.find_all(name="li"):
+        if not isinstance(li.text, str) or not li.text:
+            continue
         if li.text.startswith("Version:"):
             return li.text[len("Version: ") :]
     raise ValueError(f"could not parse NPASS version from {URL}")

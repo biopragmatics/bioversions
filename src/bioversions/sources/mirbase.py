@@ -2,7 +2,7 @@
 
 from typing import ClassVar
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType, find_text, get_soup
 
 __all__ = [
     "MirbaseGetter",
@@ -31,7 +31,8 @@ def _old() -> str:
     # most of their FTP server and downloads
     url = "http://www.mirbase.org/download_readme/"
     soup = get_soup(url, verify=False)
-    return soup.find("p").text.splitlines()[0].split()[-1]
+    text = find_text(soup, "p")
+    return text.splitlines()[0].split()[-1]
 
 
 if __name__ == "__main__":

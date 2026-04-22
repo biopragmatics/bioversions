@@ -7,6 +7,7 @@ from bioversions.utils import Getter, VersionType
 __all__ = [
     "RfamGetter",
 ]
+URL = "https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/README"
 
 
 class RfamGetter(Getter):
@@ -19,9 +20,10 @@ class RfamGetter(Getter):
 
     def get(self) -> str:
         """Get the latest Rfam version number."""
-        res = requests.get("https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/README", timeout=15)
-        for line in res.iter_lines():
-            line = line.decode("utf8").strip()
+        res = requests.get(URL, timeout=15)
+        res.raise_for_status()
+        for line_bytes in res.iter_lines():
+            line: str = line_bytes.decode("utf-8").strip()
             if line.startswith("Release "):
                 return line[len("Release ") :]
         raise ValueError

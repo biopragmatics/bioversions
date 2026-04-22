@@ -32,7 +32,7 @@ class SILVAGetter(Getter):
         # Get date from the Last-Modified header
         date_str = res.headers.get("Last-Modified")
         if date_str:
-            rv["date"] = datetime.strptime(date_str, HEADER_FMT)
+            rv["date"] = datetime.strptime(date_str, HEADER_FMT).isoformat()
 
         return rv
 

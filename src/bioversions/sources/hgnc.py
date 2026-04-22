@@ -29,7 +29,7 @@ class HGNCGetter(Getter):
     def get(self) -> str:
         """Get the latest monthly HGNC version number."""
         res = requests.get(URL, timeout=5)
-        items = res.json()["items"]
+        items: list[dict[str, str]] = res.json()["items"]
         return max(
             item["name"].removeprefix(PREFIX).removesuffix(SUFFIX)
             for item in items

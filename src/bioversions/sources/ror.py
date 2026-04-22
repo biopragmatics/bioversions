@@ -18,9 +18,13 @@ class RORGetter(Getter):
     def get(self) -> dict[str, str]:
         """Get the latest ROR version."""
         import ror_downloader
+        from ror_downloader.api import VersionInfoShort
 
-        version_info = ror_downloader.get_version_info(download=False)
-        return {"version": version_info.version, "date": version_info.date.isoformat()}
+        version_info: VersionInfoShort = ror_downloader.get_version_info(download=False)
+        rv = {"version": version_info.version}
+        if version_info.date is not None:
+            rv["date"] = version_info.date.isoformat()
+        return rv
 
 
 if __name__ == "__main__":

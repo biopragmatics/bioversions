@@ -1,6 +1,6 @@
 """A getter for PathBank."""
 
-from bioversions.utils import Getter, VersionType, find, get_soup
+from bioversions.utils import Getter, VersionType, find, find_text, get_soup
 
 __all__ = [
     "PathBankGetter",
@@ -22,8 +22,8 @@ class PathBankGetter(Getter):
         main = find(soup, id="main")
         footer = find(main, name="footer")
         clear = find(footer, **{"class": "wishart-clear"})
-        strong = find(clear, name="strong")
-        return strong.text
+        strong = find_text(clear, name="strong")
+        return strong
 
 
 if __name__ == "__main__":

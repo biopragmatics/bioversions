@@ -1,5 +1,7 @@
 """A getter for the Antibody Registry."""
 
+from typing import cast
+
 import requests
 
 from bioversions.utils import Getter, VersionType
@@ -23,7 +25,7 @@ class AntibodyRegistryGetter(Getter):
         """Get the latest Antibody Registry version number."""
         res = requests.get(URL, timeout=3)
         res_json = res.json()
-        return res_json["lastupdate"]
+        return cast(str, res_json["lastupdate"])
 
 
 if __name__ == "__main__":

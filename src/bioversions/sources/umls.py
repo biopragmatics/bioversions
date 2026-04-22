@@ -2,7 +2,7 @@
 
 from typing import ClassVar
 
-from bioversions.utils import Getter, VersionType, find, get_soup
+from bioversions.utils import Getter, VersionType, find, find_text, get_soup
 
 __all__ = [
     "UMLSGetter",
@@ -24,8 +24,8 @@ class UMLSGetter(Getter):
         main_tag = find(soup, "main")
         t1 = find(main_tag, "div", {"class": "grid-row grid-gap-1"})  # type:ignore
         t2 = find(t1, "div", {"class": "tablet:grid-col-12"})
-        version_tag = find(t2, "h2")
-        version = version_tag.text.split()[0]
+        version_tag_text = find_text(t2, "h2")
+        version = version_tag_text.split()[0]
         return version
 
 

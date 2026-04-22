@@ -1,6 +1,6 @@
 """A getter for WikiPathways."""
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, find_text
 
 __all__ = [
     "WikiPathwaysGetter",
@@ -17,10 +17,8 @@ def get_wikidata_version() -> str:
     soup = get_soup(URL)
     if soup is None:
         raise ValueError(f"could not get WikiPathways data from {URL}")
-    anchor = soup.find(id="File")
-    if anchor is None or not isinstance(anchor.text, str):
-        raise ValueError(f"could could not parse WikiPathways data from {URL}")
-    return anchor.text.split("-")[1]
+    text = find_text(soup, id="File")
+    return text.split("-")[1]
 
 
 class WikiPathwaysGetter(Getter):

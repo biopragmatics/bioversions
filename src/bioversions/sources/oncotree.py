@@ -1,12 +1,16 @@
 """A getter for OncoTree."""
 
+from typing import cast
+
 import requests
 
-from ..utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType
 
 __all__ = [
     "OncoTreeGetter",
 ]
+
+URL = "http://oncotree.mskcc.org/api/versions"
 
 
 class OncoTreeGetter(Getter):
@@ -20,14 +24,12 @@ class OncoTreeGetter(Getter):
 
     def get(self) -> str:
         """Get the latest OncoTree version number."""
-        res = requests.get(
-            "http://oncotree.mskcc.org/api/versions", params={"format": "json"}, timeout=5
-        )
+        res = requests.get(URL, params={"format": "json"}, timeout=5)
         res_json = res.json()
         version = next(
             r["release_date"] for r in res_json if r["api_identifier"] == "oncotree_latest_stable"
         )
-        return version
+        return cast(str, version)
 
     @staticmethod
     def homepage_version_transform(version: str) -> str:

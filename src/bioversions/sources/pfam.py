@@ -24,14 +24,10 @@ class PfamGetter(Getter):
             ftp.login()
             ftp.cwd("pub/databases/Pfam/releases/")
             names = [name[len("Pfam") :] for name in ftp.nlst() if name.startswith("Pfam")]
-            names = sorted(
-                [
-                    tuple(int(part) for part in name.split("."))
-                    for name in names
-                    if _is_version(name)
-                ]
+            last = max(
+                tuple(int(part) for part in name.split(".")) for name in names if _is_version(name)
             )
-        return ".".join(map(str, names[-1]))
+        return ".".join(map(str, last))
 
 
 if __name__ == "__main__":

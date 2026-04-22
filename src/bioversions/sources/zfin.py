@@ -1,8 +1,8 @@
 """A getter for ZFIN."""
 
-from datetime import datetime
+import datetime
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType, find_text, get_soup
 
 __all__ = [
     "ZfinGetter",
@@ -21,9 +21,9 @@ class ZfinGetter(Getter):
     def get(self) -> str:
         """Get the latest ZFIN version number."""
         soup = get_soup(URL)
-        header = soup.find("h2")
-        version = header.text[len("ZFIN Data Reports from: ") :].strip()
-        return datetime.strptime(version, "%d %b %Y").strftime("%Y-%m-%d")
+        header_text = find_text(soup, "h2")
+        version = header_text[len("ZFIN Data Reports from: ") :].strip()
+        return datetime.date.strptime(version, "%d %b %Y").isoformat()
 
 
 if __name__ == "__main__":

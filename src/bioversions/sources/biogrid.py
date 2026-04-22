@@ -2,7 +2,7 @@
 
 from pystow.utils import get_soup
 
-from ..utils import Getter, VersionType, find
+from ..utils import Getter, VersionType, find, find_text
 
 __all__ = [
     "BioGRIDGetter",
@@ -23,8 +23,8 @@ class BioGRIDGetter(Getter):
         """Get the latest BioGRID version number."""
         soup = get_soup(URL)
         manifest = find(soup, id="manifestDesc")
-        header = find(manifest, "h2")
-        return header.text[len("BioGRID Release ") :]
+        text = find_text(manifest, "h2")
+        return text[len("BioGRID Release ") :]
 
 
 if __name__ == "__main__":

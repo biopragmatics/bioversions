@@ -27,6 +27,7 @@ __all__ = [
     "VersionResult",
     "VersionType",
     "find",
+    "find_text",
     "get_obo_version",
     "get_obograph_json_version",
     "get_owl_xml_version",
@@ -65,6 +66,14 @@ def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
     if not isinstance(tag, Tag):
         raise ValueError(f"could not find an element matching {args=} and {kwargs=}")
     return tag
+
+
+def find_text(element: Tag, *args: Any, **kwargs: Any) -> str:
+    """Find a sub-element."""
+    tag = find(element, *args, **kwargs)
+    if not isinstance(tag.text, str) or not tag.text:
+        raise ValueError
+    return tag.text
 
 
 #: A decorator for functions whose return values
@@ -204,7 +213,15 @@ class Getter(metaclass=MetaGetter):
     @classmethod
     def print(cls, sep: str = "\t", file=None) -> None:
         """Print the latest version of this database."""
-        x = [cls.bioregistry_id, cls.name, cls.version]
+        x = []
+        if cls.bioregistry_id:
+            x.append(cls.bioregistry_id)
+        elif cls.collection:
+            x.append("/".join(cls.collection))
+        else:
+            raise ValueError("<no prefix>")
+        x.append(cls.name)
+        x.append(cls.version)
         if cls.date:
             x.append(f"({cls.date})")
         if cls.homepage:
