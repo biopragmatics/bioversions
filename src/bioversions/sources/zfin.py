@@ -23,7 +23,7 @@ class ZfinGetter(Getter):
         soup = get_soup(URL)
         header_text = find_text(soup, "h2")
         version = header_text[len("ZFIN Data Reports from: ") :].strip()
-        return datetime.date.strptime(version, "%d %b %Y")
+        return datetime.datetime.strptime(version, "%d %b %Y").date()
 
 
 if __name__ == "__main__":
