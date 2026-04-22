@@ -1,5 +1,7 @@
 """A getter for DepMap."""
 
+from typing import cast
+
 import requests
 
 from bioversions.utils import Getter, VersionType
@@ -21,7 +23,7 @@ class DepMapGetter(Getter):
         """Get the latest DepMap version number."""
         res = requests.get(URL, timeout=15)
         latest = next(release for release in res.json()["releaseData"] if release["isLatest"])
-        return latest["releaseName"][len("DepMap Public ") :]
+        return cast(str, latest["releaseName"][len("DepMap Public ") :])
 
 
 if __name__ == "__main__":

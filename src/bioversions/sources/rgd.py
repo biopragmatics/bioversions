@@ -19,7 +19,7 @@ class RGDGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest RGD version number."""
         with requests.Session() as session:
             res = session.get(URL, stream=True)

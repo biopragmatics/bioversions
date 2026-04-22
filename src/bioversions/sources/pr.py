@@ -18,7 +18,7 @@ class PRGetter(Getter):
     date_fmt = "%m/%d/%Y"
     homepage_fmt = "https://proconsortium.org/download/release_{version}/"
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest Protein Ontology version number."""
         soup = get_soup(URL)
         rows = soup.find("table", **{"class": "nrm11"}).find_all("tr")

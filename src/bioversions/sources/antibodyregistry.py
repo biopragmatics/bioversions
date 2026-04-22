@@ -19,7 +19,7 @@ class AntibodyRegistryGetter(Getter):
     homepage_fmt = "https://antibodyregistry.org/"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest Antibody Registry version number."""
         res = requests.get(URL, timeout=3)
         res_json = res.json()

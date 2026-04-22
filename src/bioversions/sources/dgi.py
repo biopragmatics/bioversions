@@ -16,7 +16,7 @@ class DGIGetter(Getter):
     version_type = VersionType.month
     date_version_fmt = "%Y-%b"
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest DGI version number."""
         res = requests.get(GITHUB_PAGE, timeout=15)
         soup = bs4.BeautifulSoup(res.content, features="html.parser")

@@ -22,7 +22,7 @@ class SILVAGetter(Getter):
     version_type = VersionType.sequential
     homepage_fmt = "https://www.arb-silva.de/"
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest SILVA version number from VERSION.txt."""
         res = requests.get(URL, timeout=15)
 

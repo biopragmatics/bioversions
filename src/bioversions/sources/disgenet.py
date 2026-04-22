@@ -18,7 +18,7 @@ class DisGeNetGetter(Getter):
     date_fmt = "%B %Y"
     version_type = VersionType.sequential
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest DisGeNet version number."""
         res = requests.get(URL, params={"format": "json"}, timeout=15)
         res_json = res.json()

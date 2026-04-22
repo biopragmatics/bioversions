@@ -18,7 +18,7 @@ class EnsemblGetter(Getter):
     date_fmt = "%B %Y"
     version_type = VersionType.sequential
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest Ensembl version number."""
         soup = get_soup(URL)
         manifest = soup.find(**{"class": "box-header"}).text

@@ -14,7 +14,7 @@ class StringDBGetter(Getter):
     date_fmt = "%B %d, %Y"
     version_type = VersionType.other
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest StringDB version number."""
         soup = get_soup("https://string-db.org/cgi/access")
         table = soup.find(**{"class": "footer_access_archive_table"})

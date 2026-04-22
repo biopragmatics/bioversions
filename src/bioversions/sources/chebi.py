@@ -21,7 +21,7 @@ class ChEBIGetter(Getter):
     version_type = VersionType.sequential
     date_fmt = "%Y-%m-%d"
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest ChEBI version number."""
         res = requests.get(README, timeout=5)
         res.raise_for_status()

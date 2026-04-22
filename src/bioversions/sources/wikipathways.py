@@ -18,7 +18,7 @@ class WikiPathwaysGetter(Getter):
     date_version_fmt = "%Y%m%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest WikiPathways version number."""
         soup = get_soup(URL)
         if soup is None:

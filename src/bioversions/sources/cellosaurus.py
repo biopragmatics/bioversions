@@ -20,7 +20,7 @@ class CellosaurusGetter(Getter):
     date_fmt = "%m:%d:%Y %H:%M"
 
     #   12:15:2022 12:00
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest Cellosaurus version number."""
         res = requests.get(URL, stream=True, timeout=15)
         data = {}

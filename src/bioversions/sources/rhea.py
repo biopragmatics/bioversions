@@ -19,7 +19,7 @@ class RheaGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest Rhea version number."""
         with requests.Session() as session:
             res = session.get(VERSION_FILE)

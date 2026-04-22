@@ -1,17 +1,21 @@
 """Resources."""
 
 import datetime
-import json
 from pathlib import Path
+from typing import Any
 
 import yaml
+from pydantic import BaseModel
+from pystow.utils.pydantic_utils import read_pydantic_yaml
+
+from bioversions.utils import VersionType
 
 __all__ = [
     "EXPORT_PATH",
     "VERSIONS_PATH",
     "load_versions",
-    "write_export",
-    "write_versions",
+    "write_json",
+    "write_yaml",
 ]
 
 HERE = Path(__file__).parent.resolve()
@@ -25,34 +29,51 @@ EXPORT_PATH = EXPORTS_DIRECTORY.joinpath("versions.yml")
 FAILURES_PATH = DOCS.joinpath("failures.md")
 
 
-def load_versions():
+class Annotations(BaseModel):
+    revision: int
+    date: datetime.date
+    author: str
+
+
+class Release(BaseModel):
+    retrieved: datetime.date
+    version: str
+    homepage: str | None = None
+    date: str | None = None
+
+
+class Record(BaseModel):
+    name: str
+    prefix: str | None = None
+    vtype: VersionType
+    releases: list[Release]
+
+
+class Database(BaseModel):
+    annotations: Annotations
+    database: list[Record]
+
+
+def load_versions() -> Database:
     """Load Bioversions data."""
     if not VERSIONS_PATH.is_file():
         raise RuntimeError(
             f"bioversions was not packaged/built/installed properly -"
             f"{VERSIONS_PATH.name} was not found inside the distribution"
         )
-    with open(VERSIONS_PATH) as file:
-        return json.load(file)
+    return read_pydantic_yaml(VERSIONS_PATH, Database)
 
 
-def _date_converter(o):
-    if isinstance(o, datetime.datetime | datetime.date):
-        return o.strftime("%Y-%m-%d")
-
-
-def write_versions(versions, indent: int = 2, **kwargs) -> None:
+def write_json(versions: Database, indent: int = 2, **kwargs: Any) -> None:
     """Write Bioversions data."""
     _ensure_editable()
-    with open(VERSIONS_PATH, "w") as file:
-        json.dump(versions, file, indent=indent, default=_date_converter, **kwargs)
+    VERSIONS_PATH.write_text(versions.model_dump_json(indent=indent, exclude_none=True, **kwargs))
 
 
-def write_export(versions) -> None:
+def write_yaml(versions: Database) -> None:
     """Write Bioversions data to the export directory."""
     _ensure_editable()
-    with open(EXPORT_PATH, "w") as file:
-        yaml.safe_dump(versions, file)
+    EXPORT_PATH.write_text(yaml.safe_dump(versions.model_dump(exclude_none=True, mode="json")))
 
 
 def _ensure_editable() -> None:

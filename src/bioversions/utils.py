@@ -30,6 +30,7 @@ __all__ = [
     "get_obo_version",
     "get_obograph_json_version",
     "get_owl_xml_version",
+    "get_soup",
     "refresh_daily",
 ]
 
@@ -39,7 +40,7 @@ DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, "docs"))
 IMG = os.path.join(DOCS, "img")
 
 
-class VersionType(enum.Enum):
+class VersionType(str, enum.Enum):
     """Different types of versions."""
 
     semver = "SemVer (X.Y.Z)"
@@ -78,7 +79,7 @@ refresh_daily = cachier(
 class MetaGetter(type):
     """A metatype to expose two class properties."""
 
-    _cache = None
+    _cache: ClassVar[str | dict[str, str], datetime.datetime | None] = None
 
     date_fmt: str | None
     date_version_fmt: str | None
@@ -201,7 +202,7 @@ class Getter(metaclass=MetaGetter):
         raise NotImplementedError
 
     @classmethod
-    def print(cls, sep: str = "\t", file=None):
+    def print(cls, sep: str = "\t", file=None) -> None:
         """Print the latest version of this database."""
         x = [cls.bioregistry_id, cls.name, cls.version]
         if cls.date:

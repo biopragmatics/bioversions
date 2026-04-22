@@ -23,7 +23,7 @@ class UniProtGetter(Getter):
     date_version_fmt = "%Y_%m"
     version_type = VersionType.month
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest UniProt version number."""
         session = requests.Session()
         f = session.get(

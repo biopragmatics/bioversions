@@ -18,7 +18,7 @@ class PfamGetter(Getter):
     homepage_fmt = "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam{version}/"
     version_type = VersionType.semver_minor
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest Pfam version number."""
         with ftplib.FTP("ftp.ebi.ac.uk") as ftp:
             ftp.login()

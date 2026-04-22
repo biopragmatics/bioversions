@@ -20,12 +20,12 @@ class MirbaseGetter(Getter):
     version_type = VersionType.semver_minor
     collection: ClassVar[list[str]] = ["mirbase", "mirbase.family", "mirbase.mature"]
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest miRBase version number."""
         return "22.1"
 
 
-def _old():
+def _old() -> str:
     """Get miRBase version number from the old server."""
     # Old code, doesn't work anymore because miRBase site deleted
     # most of their FTP server and downloads

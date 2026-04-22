@@ -16,7 +16,7 @@ class ReactomeGetter(Getter):
     name = "Reactome"
     version_type = VersionType.sequential
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest BioGRID version number."""
         soup = get_soup(URL)
         manifest = soup.find(id="fav-portfoliowrap")

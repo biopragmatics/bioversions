@@ -24,7 +24,7 @@ class DrugCentralGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest DrugCentral version number."""
         import psycopg2
 

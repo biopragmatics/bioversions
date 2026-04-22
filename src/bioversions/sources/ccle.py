@@ -15,7 +15,7 @@ class CCLEGetter(Getter):
     name = "Cancer Cell Line Encylopedia"
     date_fmt = "%Y"
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the CCLE version number."""
         return {"version": "2019", "date": "2019"}
 

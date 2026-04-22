@@ -17,7 +17,7 @@ class MSigDBGetter(Getter):
     homepage_fmt = "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/{version}"
     version_type = VersionType.year_minor
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest MSigDB version number."""
         soup = get_soup(URL)
 

@@ -22,7 +22,7 @@ class InterProGetter(Getter):
     date_fmt = "%d %B %Y"
     version_type = VersionType.semver_minor
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest InterPro version number."""
         with requests.Session() as session:
             res = session.get(

@@ -20,7 +20,7 @@ class GTDBGetter(Getter):
     date_fmt = "%b %d, %Y"  # Format to match "Apr 24, 2024"
     homepage_fmt = "https://gtdb.ecogenomic.org/"
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest GTDB version number from VERSION.txt."""
         res = requests.get(URL, timeout=15)
         lines = res.text.strip().split("\n")

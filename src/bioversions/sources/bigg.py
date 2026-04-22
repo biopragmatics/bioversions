@@ -19,7 +19,7 @@ class BiGGGetter(Getter):
     name = "BiGG"
     version_type = VersionType.semver
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest BiGG version number."""
         res = requests.get(URL, timeout=15).json()
         date = datetime.fromisoformat(res["last_updated"])

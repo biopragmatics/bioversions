@@ -16,7 +16,7 @@ class PombaseGetter(Getter):
     homepage_fmt = "https://www.pombase.org/data/releases/pombase-{version}/"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest pombase version number."""
         soup = get_soup("https://www.pombase.org/data/releases/")
         tr = soup.find_all("tr")[-2]

@@ -1,6 +1,5 @@
 """A getter for KEGG."""
 
-from collections.abc import Mapping
 from typing import ClassVar
 
 import bioregistry
@@ -22,7 +21,7 @@ class KEGGGetter(Getter):
     version_type = VersionType.semver_minor
     collection: ClassVar[list[str]] = ["kegg", *(bioregistry.get_has_parts("kegg") or [])]
 
-    def get(self) -> Mapping[str, str]:
+    def get(self) -> dict[str, str]:
         """Get the latest KEGG version number."""
         soup = get_soup(URL)
         header = find(soup, "h4")

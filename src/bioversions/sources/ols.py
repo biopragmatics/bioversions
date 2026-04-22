@@ -30,7 +30,7 @@ def _get_version_type(bioregistry_id: str) -> VersionType | None:
     if ols_version_date_format:
         return VersionType.date
     elif ols_version_type:
-        return getattr(VersionType, ols_version_type)
+        return VersionType[ols_version_type.name]
     else:
         logger.warning("[%s] missing version type", bioregistry_id)
         return None
@@ -66,7 +66,7 @@ def make_ols_getter(bioregistry_id: str) -> type[Getter] | None:
         """A getter for OLS data from the Bioregistry."""
 
         bioregistry_id: ClassVar[str] = _brid
-        name: ClassVar[str] = cast(str, _name)
+        name: ClassVar[str] = _name
         version_type: ClassVar[str] = _version_type  # type:ignore
 
         def get(self) -> str:

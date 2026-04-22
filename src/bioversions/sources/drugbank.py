@@ -22,7 +22,7 @@ class DrugBankGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.semver
 
-    def get(self):
+    def get(self) -> dict[str, str]:
         """Get the latest DrugBank version number."""
         res = requests.get(URL, timeout=15)
         res.raise_for_status()
