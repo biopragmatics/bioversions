@@ -7,7 +7,7 @@ import io
 import os
 from collections.abc import Generator, Iterable, Mapping
 from contextlib import contextmanager
-from typing import Any, ClassVar
+from typing import Any, ClassVar, TextIO, cast
 
 import bioregistry
 import pydantic
@@ -88,16 +88,16 @@ refresh_daily = cachier(
 class MetaGetter(type):
     """A metatype to expose two class properties."""
 
-    _cache: ClassVar[str | dict[str, str], datetime.datetime | None] = None
+    _cache: ClassVar[str | dict[str, str] | datetime.datetime | datetime.date | None] = None
 
     date_fmt: str | None
     date_version_fmt: str | None
     homepage_fmt: str | None
 
     @property
-    def _cache_prop(cls):
+    def _cache_prop(cls) -> str | dict[str, str] | datetime.datetime | datetime.date:
         if cls._cache is None:
-            cls._cache = cls().get()
+            cls._cache = cls().get()  # type:ignore
         return cls._cache
 
     @property
@@ -107,7 +107,7 @@ class MetaGetter(type):
             return cls._cache_prop
         elif isinstance(cls._cache_prop, dict):
             return cls._cache_prop["version"]
-        elif isinstance(cls._cache_prop, datetime.datetime):
+        elif isinstance(cls._cache_prop, datetime.datetime | datetime.date):
             return cls._cache_prop.strftime("%Y-%m-%d")
         else:
             raise TypeError(f"_cache_prop was a {type(cls._cache_prop)}")
@@ -211,7 +211,7 @@ class Getter(metaclass=MetaGetter):
         raise NotImplementedError
 
     @classmethod
-    def print(cls, sep: str = "\t", file=None) -> None:
+    def print(cls, sep: str = "\t", file: TextIO | None = None) -> None:
         """Print the latest version of this database."""
         x = []
         if cls.bioregistry_id:
@@ -219,7 +219,7 @@ class Getter(metaclass=MetaGetter):
         elif cls.collection:
             x.append("/".join(cls.collection))
         else:
-            raise ValueError("<no prefix>")
+            x.append("<no prefix>")
         x.append(cls.name)
         x.append(cls.version)
         if cls.date:
@@ -331,7 +331,9 @@ def _get_ftp_date_version(host: str, directory: str) -> str:
     return max(
         text
         for anchor in soup.find_all("a")
-        if anchor.text and _is_iso_8601(text := anchor.text.rstrip("/"))
+        if isinstance(anchor.text, str)
+        and anchor.text
+        and _is_iso_8601(text := anchor.text.rstrip("/"))
     )
 
 
@@ -375,7 +377,7 @@ def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
 def _iterate_lines(url: str) -> Generator[Iterable[str], None, None]:
     with requests.get(url, stream=True, timeout=60) as res:
         if url.endswith(".gz"):
-            compressed_stream = io.BufferedReader(res.raw)
+            compressed_stream = io.BufferedReader(res.raw)  # type:ignore
             with gzip.open(compressed_stream, "rt", encoding="utf-8") as file:
                 yield file
         else:
@@ -386,4 +388,4 @@ def get_obograph_json_version(url: str) -> str | None:
     """Get version from an OBO Graph JSON document."""
     res = requests.get(url, timeout=60).json()
     version = res["graphs"][0]["meta"]["version"]
-    return version
+    return cast(str, version)

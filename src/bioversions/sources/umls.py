@@ -22,7 +22,7 @@ class UMLSGetter(Getter):
         """Get the latest UMLS version number."""
         soup = get_soup(URL)
         main_tag = find(soup, "main")
-        t1 = find(main_tag, "div", {"class": "grid-row grid-gap-1"})  # type:ignore
+        t1 = find(main_tag, "div", {"class": "grid-row grid-gap-1"})
         t2 = find(t1, "div", {"class": "tablet:grid-col-12"})
         version_tag_text = find_text(t2, "h2")
         version = version_tag_text.split()[0]

@@ -21,7 +21,7 @@ class PathBankGetter(Getter):
         soup = get_soup(URL)
         main = find(soup, id="main")
         footer = find(main, name="footer")
-        clear = find(footer, **{"class": "wishart-clear"})
+        clear = find(footer, class_="wishart-clear")
         strong = find_text(clear, name="strong")
         return strong
 
