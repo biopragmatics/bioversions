@@ -61,7 +61,7 @@ class VersionType(str, enum.Enum):
     garbage = "garbage"
 
     @property
-    def label(self) -> str:
+    def label(self) -> str:  # noqa:C901
         """Get the human-readable label."""
         match self:
             case self.semver:

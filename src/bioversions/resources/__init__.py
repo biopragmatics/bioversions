@@ -77,9 +77,7 @@ def load_versions() -> Database:
 def write_json(versions: Database, indent: int = 2, **kwargs: Any) -> None:
     """Write Bioversions data."""
     _ensure_editable()
-    VERSIONS_PATH.write_text(
-        versions.model_dump_json(indent=indent, exclude_none=True, sort_keys=True, **kwargs)
-    )
+    VERSIONS_PATH.write_text(versions.model_dump_json(indent=indent, exclude_none=True, **kwargs))
 
 
 def write_yaml(versions: Database) -> None:
