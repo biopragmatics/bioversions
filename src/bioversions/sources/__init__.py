@@ -210,12 +210,12 @@ def clear_cache() -> None:
 
 # docstr-coverage:excused `overload`
 @overload
-def get_version(name: str, *, strict: Literal[True] = True) -> str: ...
+def get_version(name: str, *, strict: Literal[True] = ...) -> str: ...
 
 
 # docstr-coverage:excused `overload`
 @overload
-def get_version(name: str, *, strict: Literal[False] = False) -> str | None: ...
+def get_version(name: str, *, strict: Literal[False] = ...) -> str | None: ...
 
 
 def get_version(name: str, *, strict: bool = True) -> str | None:
