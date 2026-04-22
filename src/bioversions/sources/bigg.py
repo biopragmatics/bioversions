@@ -4,7 +4,7 @@ from datetime import datetime
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "BiGGGetter",
@@ -19,7 +19,7 @@ class BiGGGetter(Getter):
     name = "BiGG"
     version_type = VersionType.semver
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest BiGG version number."""
         res = requests.get(URL, timeout=15).json()
         date = datetime.fromisoformat(res["last_updated"])

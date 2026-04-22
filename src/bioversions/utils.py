@@ -7,7 +7,7 @@ import io
 import os
 from collections.abc import Generator, Iterable, Mapping
 from contextlib import contextmanager
-from typing import Any, ClassVar, TextIO, cast
+from typing import Any, ClassVar, NotRequired, TextIO, TypedDict, cast
 
 import bioregistry
 import pydantic
@@ -23,6 +23,7 @@ __all__ = [
     "Getter",
     "MetaGetter",
     "OBOFoundryGetter",
+    "ReleaseDict",
     "UnversionedGetter",
     "VersionResult",
     "VersionType",
@@ -123,6 +124,8 @@ class MetaGetter(type):
         date = cls._cache_prop["date"]
         if isinstance(date, datetime.datetime):
             return date.date()
+        elif isinstance(date, datetime.date):
+            return date
         if not cls.date_fmt:
             raise TypeError(
                 f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date}"
@@ -181,6 +184,13 @@ class VersionResult(pydantic.BaseModel):
     bioregistry_id: str | None
 
 
+class ReleaseDict(TypedDict):
+    """A release dict."""
+
+    version: str
+    date: NotRequired[str | datetime.datetime | datetime.date]
+
+
 class Getter(metaclass=MetaGetter):
     """A class for holding the name of a database and implementation of the version getter."""
 
@@ -206,7 +216,7 @@ class Getter(metaclass=MetaGetter):
     #: Prefixes this getter works for
     collection: ClassVar[list[str] | None] = None
 
-    def get(self) -> str | Mapping[str, str] | datetime.datetime:
+    def get(self) -> str | ReleaseDict | datetime.datetime:
         """Get the latest of this database."""
         raise NotImplementedError
 
@@ -252,7 +262,7 @@ class DailyGetter(Getter):
 
     version_type = VersionType.daily
 
-    def get(self) -> str | Mapping[str, str]:
+    def get(self) -> str:
         """Return a constant "daily" string."""
         return "daily"
 
@@ -265,7 +275,7 @@ class UnversionedGetter(Getter):
     #: Has this database been apparently abandoned (true) or is it still updated (false)
     abandoned: ClassVar[bool]
 
-    def get(self) -> str | Mapping[str, str]:
+    def get(self) -> str:
         """Return a constant unversioned string."""
         return "unversioned"
 

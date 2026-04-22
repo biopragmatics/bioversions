@@ -1,8 +1,10 @@
 """A getter for ChEBI."""
 
+from typing import cast
+
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "ChEBIGetter",
@@ -21,12 +23,12 @@ class ChEBIGetter(Getter):
     version_type = VersionType.sequential
     date_fmt = "%Y-%m-%d"
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest ChEBI version number."""
         res = requests.get(README, timeout=5)
         res.raise_for_status()
 
-        rv = {}
+        rv: dict[str, str] = {}
         for line in res.iter_lines():
             line = line.decode()
             if line.startswith(VERSION_PREFIX):
@@ -37,7 +39,7 @@ class ChEBIGetter(Getter):
         if not rv:
             raise ValueError(f"was not able to parse ChEBI version from {README}")
 
-        return rv
+        return cast(ReleaseDict, rv)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "DisGeNetGetter",
@@ -18,7 +18,7 @@ class DisGeNetGetter(Getter):
     date_fmt = "%B %Y"
     version_type = VersionType.sequential
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest DisGeNet version number."""
         res = requests.get(URL, params={"format": "json"}, timeout=15)
         res_json = res.json()

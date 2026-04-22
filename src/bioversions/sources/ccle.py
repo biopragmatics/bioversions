@@ -1,6 +1,6 @@
 """A getter for CCLE."""
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "CCLEGetter",
@@ -15,7 +15,7 @@ class CCLEGetter(Getter):
     name = "Cancer Cell Line Encylopedia"
     date_fmt = "%Y"
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the CCLE version number."""
         return {"version": "2019", "date": "2019"}
 

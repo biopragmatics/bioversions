@@ -4,7 +4,7 @@ import re
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "InterProGetter",
@@ -22,7 +22,7 @@ class InterProGetter(Getter):
     date_fmt = "%d %B %Y"
     version_type = VersionType.semver_minor
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest InterPro version number."""
         with requests.Session() as session:
             res = session.get(

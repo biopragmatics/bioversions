@@ -4,7 +4,7 @@ from operator import itemgetter
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "DrugBankGetter",
@@ -22,7 +22,7 @@ class DrugBankGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.semver
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest DrugBank version number."""
         res = requests.get(URL, timeout=15)
         res.raise_for_status()

@@ -5,7 +5,7 @@ from operator import itemgetter
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "SgdGetter",
@@ -24,7 +24,7 @@ class SgdGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest SGD version number."""
         version_to_date: dict[str, str] = {}
         with requests.get(VERSION_FILE, stream=True, timeout=5) as res:

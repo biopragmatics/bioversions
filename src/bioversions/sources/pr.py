@@ -1,6 +1,6 @@
 """A getter for the Protein Ontology."""
 
-from bioversions.utils import Getter, VersionType, find, get_soup
+from bioversions.utils import Getter, ReleaseDict, VersionType, find, get_soup
 
 __all__ = [
     "PRGetter",
@@ -18,7 +18,7 @@ class PRGetter(Getter):
     date_fmt = "%m/%d/%Y"
     homepage_fmt = "https://proconsortium.org/download/release_{version}/"
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest Protein Ontology version number."""
         soup = get_soup(URL)
         rows = find(soup, "table", class_="nrm11").find_all("tr")

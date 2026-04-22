@@ -1,6 +1,6 @@
 """A getter for Ensembl."""
 
-from bioversions.utils import Getter, VersionType, find_text, get_soup
+from bioversions.utils import Getter, ReleaseDict, VersionType, find_text, get_soup
 
 __all__ = [
     "EnsemblGetter",
@@ -18,7 +18,7 @@ class EnsemblGetter(Getter):
     date_fmt = "%B %Y"
     version_type = VersionType.sequential
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest Ensembl version number."""
         soup = get_soup(URL)
         text = find_text(soup, class_="box-header")

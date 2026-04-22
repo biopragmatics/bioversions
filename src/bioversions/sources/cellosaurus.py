@@ -2,7 +2,7 @@
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "CellosaurusGetter",
@@ -20,7 +20,7 @@ class CellosaurusGetter(Getter):
     date_fmt = "%m:%d:%Y %H:%M"
 
     #   12:15:2022 12:00
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest Cellosaurus version number."""
         res = requests.get(URL, stream=True, timeout=15)
         data = {}

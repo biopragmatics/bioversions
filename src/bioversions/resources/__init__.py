@@ -2,10 +2,10 @@
 
 import datetime
 from pathlib import Path
-from typing import Any
+from typing import Annotated, Any
 
 import yaml
-from pydantic import BaseModel
+from pydantic import BaseModel, BeforeValidator
 from pystow.utils.pydantic_utils import read_pydantic_yaml
 
 from bioversions.utils import VersionType
@@ -43,7 +43,16 @@ class Release(BaseModel):
     retrieved: datetime.date
     version: str
     homepage: str | None = None
-    date: str | None = None
+    date: datetime.date | None = None
+
+
+def _cleanup(x: str | VersionType) -> VersionType:
+    if isinstance(x, VersionType):
+        return x
+    elif isinstance(x, str):
+        return VersionType[x]
+    else:
+        raise TypeError(f"invalid: {x}")
 
 
 class Record(BaseModel):
@@ -51,7 +60,7 @@ class Record(BaseModel):
 
     name: str
     prefix: str | None = None
-    vtype: VersionType
+    vtype: Annotated[VersionType, BeforeValidator(_cleanup)]
     releases: list[Release]
 
 
