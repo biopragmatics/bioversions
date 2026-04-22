@@ -29,13 +29,17 @@ EXPORT_PATH = EXPORTS_DIRECTORY.joinpath("versions.yml")
 FAILURES_PATH = DOCS.joinpath("failures.md")
 
 
-class Annotations(BaseModel):
+class Metadata(BaseModel):
+    """Represents metadata on the database."""
+
     revision: int
     date: datetime.date
     author: str
 
 
 class Release(BaseModel):
+    """Represents a release of a resource tracked by the database."""
+
     retrieved: datetime.date
     version: str
     homepage: str | None = None
@@ -43,6 +47,8 @@ class Release(BaseModel):
 
 
 class Record(BaseModel):
+    """Represents a resource tracked by the database."""
+
     name: str
     prefix: str | None = None
     vtype: VersionType
@@ -50,7 +56,9 @@ class Record(BaseModel):
 
 
 class Database(BaseModel):
-    annotations: Annotations
+    """Represents a version database."""
+
+    annotations: Metadata
     database: list[Record]
 
 
