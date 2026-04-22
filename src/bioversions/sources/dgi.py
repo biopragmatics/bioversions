@@ -16,7 +16,7 @@ class DGIGetter(Getter):
     version_type = VersionType.month
     date_version_fmt = "%Y-%b"
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest DGI version number."""
         res = requests.get(GITHUB_PAGE, timeout=15)
         soup = bs4.BeautifulSoup(res.content, features="html.parser")
@@ -24,6 +24,8 @@ class DGIGetter(Getter):
         if time_tag is None:
             raise ValueError
         datetime_str = time_tag.attrs["datetime"]
+        if not isinstance(datetime_str, str):
+            raise ValueError
         dt_obj = dateutil.parser.parse(datetime_str)
         version = dt_obj.strftime(self.date_version_fmt)
         return version

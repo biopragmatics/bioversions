@@ -16,7 +16,7 @@ class IntActGetter(Getter):
     date_version_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest IntAct version number."""
         return _get_ftp_date_version("ftp.ebi.ac.uk", "pub/databases/intact/")
 

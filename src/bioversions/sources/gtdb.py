@@ -2,7 +2,7 @@
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "GTDBGetter",
@@ -20,7 +20,7 @@ class GTDBGetter(Getter):
     date_fmt = "%b %d, %Y"  # Format to match "Apr 24, 2024"
     homepage_fmt = "https://gtdb.ecogenomic.org/"
 
-    def get(self):
+    def get(self) -> ReleaseDict:
         """Get the latest GTDB version number from VERSION.txt."""
         res = requests.get(URL, timeout=15)
         lines = res.text.strip().split("\n")

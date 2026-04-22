@@ -11645,7 +11645,6 @@
       "prefix": "msigdb",
       "releases": [
         {
-          "date": "September 2020",
           "retrieved": "2020-12-22",
           "version": "7.2"
         },

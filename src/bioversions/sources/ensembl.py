@@ -1,6 +1,6 @@
 """A getter for Ensembl."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, ReleaseDict, VersionType, find_text, get_soup
 
 __all__ = [
     "EnsemblGetter",
@@ -18,11 +18,11 @@ class EnsemblGetter(Getter):
     date_fmt = "%B %Y"
     version_type = VersionType.sequential
 
-    def get(self):
+    def get(self) -> ReleaseDict:
         """Get the latest Ensembl version number."""
         soup = get_soup(URL)
-        manifest = soup.find(**{"class": "box-header"}).text
-        version, date = manifest.rstrip(")").split("(", 1)
+        text = find_text(soup, class_="box-header")
+        version, date = text.rstrip(")").split("(", 1)
         return {"version": version.split()[-1], "date": date}
 
 

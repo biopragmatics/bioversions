@@ -1,5 +1,7 @@
 """A getter for RGD."""
 
+from collections.abc import Iterator
+
 import requests
 
 from bioversions.utils import Getter, VersionType
@@ -19,11 +21,11 @@ class RGDGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest RGD version number."""
         with requests.Session() as session:
             res = session.get(URL, stream=True)
-            lines = res.iter_lines(decode_unicode=True)
+            lines: Iterator[str] = res.iter_lines(decode_unicode=True)
             next(lines)
             next(lines)
             date = next(lines).split(" ")[2].replace("/", "-")

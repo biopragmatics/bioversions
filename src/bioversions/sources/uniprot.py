@@ -11,6 +11,8 @@ __all__ = [
     "UniProtGetter",
 ]
 
+URL = "https://ftp.uniprot.org/pub/databases/uniprot/current_release/RELEASE.metalink"
+
 
 class UniProtGetter(Getter):
     """A getter for UniProt."""
@@ -23,14 +25,14 @@ class UniProtGetter(Getter):
     date_version_fmt = "%Y_%m"
     version_type = VersionType.month
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest UniProt version number."""
         session = requests.Session()
-        f = session.get(
-            "https://ftp.uniprot.org/pub/databases/uniprot/current_release/RELEASE.metalink"
-        )
+        f = session.get(URL, timeout=15)
         tree = ElementTree.fromstring(f.text)  # noqa:S314
         version_tag = tree.find("{http://www.metalinker.org/}version")
+        if version_tag is None or not isinstance(version_tag.text, str) or not version_tag.text:
+            raise ValueError
         return version_tag.text
 
 

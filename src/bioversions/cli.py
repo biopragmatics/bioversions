@@ -25,9 +25,9 @@ web = make_web_command(
 )
 
 
-@main.command()  # type:ignore
+@main.command()
 @click.argument("key")
-@verbose_option  # type:ignore
+@verbose_option
 def get(key: str) -> None:
     """Print the version."""
     from . import get_version
@@ -35,7 +35,7 @@ def get(key: str) -> None:
     click.echo(get_version(key))
 
 
-@main.command()  # type:ignore
+@main.command()
 @click.option("--terse", "-t", is_flag=True)
 def ls(terse: bool) -> None:
     """List versions."""

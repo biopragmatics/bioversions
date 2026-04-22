@@ -23,7 +23,9 @@ class SPDXGetter(Getter):
 
     def get(self) -> str:
         """Get the latest SwissLipids version number."""
-        return requests.get(DATA_URL, timeout=5).json()["licenseListVersion"]
+        res = requests.get(DATA_URL, timeout=5)
+        res_json: dict[str, str] = res.json()
+        return res_json["licenseListVersion"]
 
 
 if __name__ == "__main__":

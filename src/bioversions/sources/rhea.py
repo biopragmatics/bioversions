@@ -2,7 +2,7 @@
 
 import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "RheaGetter",
@@ -19,7 +19,7 @@ class RheaGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> ReleaseDict:
         """Get the latest Rhea version number."""
         with requests.Session() as session:
             res = session.get(VERSION_FILE)

@@ -1,8 +1,10 @@
 """Update the web page."""
 
+from __future__ import annotations
+
+import datetime
 import getpass
 import sys
-from datetime import datetime
 
 import click
 from tqdm import tqdm
@@ -11,20 +13,19 @@ from tqdm.contrib.logging import logging_redirect_tqdm
 from bioversions.resources import (
     EXPORT_PATH,
     FAILURES_PATH,
+    Record,
+    Release,
     load_versions,
-    write_export,
-    write_versions,
+    write_json,
+    write_yaml,
 )
 from bioversions.sources import VersionFailure, iter_versions
+from bioversions.utils import VersionResult
 from bioversions.version import get_git_hash
 
 __all__ = [
     "update",
 ]
-
-
-def _get_clean_dict(d):
-    return {k: v for k, v in d.to_dict().items() if k and v}
 
 
 @click.command()
@@ -35,17 +36,14 @@ def update(force: bool) -> None:
         _update(force=force)
 
 
-def _update(force: bool):  # noqa:C901
+def _update(force: bool) -> None:
     if not get_git_hash():
         click.secho("Not on development installation", fg="red")
-        return sys.exit(1)
+        raise sys.exit(1)
 
+    today = datetime.date.today()
     data = load_versions()
-
-    revision = data["annotations"]["revision"]
-    versions = {entry["name"]: entry for entry in data["database"]}
-
-    today = datetime.now().strftime("%Y-%m-%d")
+    name_to_version = {entry.name: entry for entry in data.database}
 
     changes = False
     failure_tuples = []
@@ -53,49 +51,38 @@ def _update(force: bool):  # noqa:C901
         if isinstance(bv, VersionFailure):
             failure_tuples.append(bv)
             continue
-
-        if bv.name in versions:
-            v = versions[bv.name]
-        else:
-            v = versions[bv.name] = {
-                "releases": [],
-            }
-
-        if bv.name:
-            v["name"] = bv.name
-        if bv.bioregistry_id:
-            v["prefix"] = bv.bioregistry_id
-        if bv.vtype:
-            v["vtype"] = bv.vtype.name
-
-        if not v["releases"] or v["releases"][-1]["version"] != bv.version:
-            _log_update(bv)
+        new_release = Release(
+            retrieved=today,
+            version=bv.version,
+            homepage=bv.homepage,
+            date=bv.date,
+        )
+        if not (record := name_to_version.get(bv.name)):
             changes = True
-            append_dict = {
-                "retrieved": today,
-                "version": bv.version,
-            }
-            if bv.homepage:
-                append_dict["homepage"] = bv.homepage
-            if bv.date:
-                append_dict["date"] = bv.date.strftime("%Y-%m-%d")
-            v["releases"].append(append_dict)
+            record = Record(
+                name=bv.name,
+                vtype=bv.vtype,
+                releases=[new_release],
+                prefix=bv.bioregistry_id,
+            )
+            data.database.append(record)
+            _log_update(bv)
+        elif all(bv.version != release.version for release in record.releases):
+            changes = True
+            _log_update(bv)
+            record.releases.append(new_release)
 
     if not changes and not force:
         tqdm.write(click.style(f"No changes to {EXPORT_PATH}", fg="yellow", bold=True))
     else:
-        rv_database = sorted(versions.values(), key=lambda version: version["name"].lower())
-        rv = {
-            "annotations": {
-                "revision": revision + 1,
-                "date": datetime.today().strftime("%Y-%m-%d"),
-                "author": getpass.getuser(),
-            },
-            "database": rv_database,
-        }
+        data.database = sorted(data.database, key=lambda x: x.name.casefold())
+        data.annotations.revision += 1
+        data.annotations.date = today
+        data.annotations.author = getpass.getuser()
+
         tqdm.write(click.style(f"Writing new {EXPORT_PATH}", fg="green", bold=True))
-        write_export(rv)
-        write_versions(rv)
+        write_yaml(data)
+        write_json(data)
 
     if failure_tuples:
         click.secho(f"Writing failure summary to {FAILURES_PATH}")
@@ -111,7 +98,7 @@ def _update(force: bool):  # noqa:C901
         FAILURES_PATH.write_text("# No Errors :)\n")
 
 
-def _log_update(bv) -> None:
+def _log_update(bv: VersionResult) -> None:
     text = f"{bv.name} was updated to v{bv.version}"
     if bv.homepage:
         text += f". See {bv.homepage}"

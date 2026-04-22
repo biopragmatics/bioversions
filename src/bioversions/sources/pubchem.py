@@ -16,7 +16,7 @@ class PubChemGetter(Getter):
     homepage_fmt = "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/{version}"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest PubChem version number."""
         return datetime.datetime.now().strftime("%Y-%m-01")
 

@@ -4,7 +4,7 @@ import ftplib
 import io
 from typing import ClassVar
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "ChEMBLGetter",
@@ -24,7 +24,7 @@ class ChEMBLGetter(Getter):
     version_type = VersionType.sequential
     collection: ClassVar[list[str]] = ["chembl", "chembl.target", "chembl.compound", "chembl.cell"]
 
-    def get(self):
+    def get(self) -> ReleaseDict:
         """Get the latest ChEMBL version number."""
         bio = io.BytesIO()
         with ftplib.FTP("ftp.ebi.ac.uk") as ftp:
@@ -42,7 +42,7 @@ class ChEMBLGetter(Getter):
         return {"date": date, "version": version}
 
 
-def _removeprefix(s, prefix):
+def _removeprefix(s: str, prefix: str) -> str:
     if s.startswith(prefix):
         return s[len(prefix) :]
     return s

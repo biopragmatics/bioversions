@@ -1,6 +1,6 @@
 """A getter for Pathway Commons."""
 
-from bioversions.utils import Getter, VersionType, find, get_soup
+from bioversions.utils import Getter, VersionType, find_text, get_soup
 
 __all__ = [
     "PathwayCommonsGetter",
@@ -18,8 +18,8 @@ class PathwayCommonsGetter(Getter):
     def get(self) -> str:
         """Get the latest Pathway Commons version number."""
         soup = get_soup(URL)
-        boost = find(soup, {"class": "boost"})
-        boost_text = boost.text[len("Version ") :]
+        boost_text = find_text(soup, {"class": "boost"})
+        boost_text = boost_text[len("Version ") :]
         boost_text = boost_text.split(":")[0]
         return boost_text
 

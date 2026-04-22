@@ -23,10 +23,11 @@ class MGIGetter(Getter):
         cells = soup.find_all("td")
         search_string = "MGI"
         for cell in cells:
-            text = cell.text
-            if text and text.strip().startswith("last database update"):
-                idx = text.find(search_string)
-                return text[idx + len(search_string) :].strip()
+            if not isinstance(cell.text, str) or not cell.text:
+                continue
+            if cell.text.strip().startswith("last database update"):
+                idx = cell.text.find(search_string)
+                return cell.text[idx + len(search_string) :].strip()
         raise ValueError
 
 

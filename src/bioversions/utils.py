@@ -1,10 +1,15 @@
 """Utilities and implementation for bioversions."""
 
+from __future__ import annotations
+
 import datetime
 import enum
+import gzip
+import io
 import os
-from collections.abc import Mapping
-from typing import Any, ClassVar
+from collections.abc import Generator, Iterable, Mapping
+from contextlib import contextmanager
+from typing import Any, ClassVar, TextIO, TypedDict, cast
 
 import bioregistry
 import pydantic
@@ -14,19 +19,23 @@ import requests.exceptions
 from bs4 import Tag
 from cachier import cachier
 from pystow.utils import get_soup
+from typing_extensions import NotRequired
 
 __all__ = [
     "DailyGetter",
     "Getter",
     "MetaGetter",
     "OBOFoundryGetter",
+    "ReleaseDict",
     "UnversionedGetter",
     "VersionResult",
     "VersionType",
     "find",
+    "find_text",
     "get_obo_version",
     "get_obograph_json_version",
     "get_owl_xml_version",
+    "get_soup",
     "refresh_daily",
 ]
 
@@ -36,23 +45,55 @@ DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, "docs"))
 IMG = os.path.join(DOCS, "img")
 
 
-class VersionType(enum.Enum):
+class VersionType(str, enum.Enum):
     """Different types of versions."""
 
-    semver = "SemVer (X.Y.Z)"
-    date = "CalVer (YYYY-MM-DD)"
-    month = "CalVer (YYYY-MM)"
-    year = "CalVer (YYYY)"
-    year_minor = "CalVer (YYYY.X)"
-    semver_minor = "SemVer (X.Y)"
-    sequential = "Sequential (X)"
-    daily = "Daily"
-    unversioned = "Unversioned"
-    other = "Other"
-    missing = "Missing"
-    static = "Static"
+    semver = "semver"
+    date = "date"
+    month = "month"
+    year = "year"
+    year_minor = "year_minor"
+    semver_minor = "semver_minor"
+    sequential = "sequential"
+    daily = "daily"
+    unversioned = "unversioned"
+    other = "other"
+    missing = "missing"
+    static = "static"
     #: Saved for the most shameful of data
-    garbage = "Garbage"
+    garbage = "garbage"
+
+    @property
+    def label(self) -> str:  # noqa:C901
+        """Get the human-readable label."""
+        match self:
+            case self.semver:
+                return "SemVer (X.Y.Z)"
+            case self.date:
+                return "CalVer (YYYY-MM-DD)"
+            case self.month:
+                return "CalVer (YYYY-MM)"
+            case self.year:
+                return "CalVer (YYYY)"
+            case self.year_minor:
+                return "CalVer (YYYY.X)"
+            case self.semver_minor:
+                return "SemVer (X.Y)"
+            case self.sequential:
+                return "Sequential (X)"
+            case self.daily:
+                return "Daily"
+            case self.unversioned:
+                return "Unversioned"
+            case self.other:
+                return "Other"
+            case self.missing:
+                return "Missing"
+            case self.static:
+                return "Static"
+            #: Saved for the most shameful of data
+            case self.garbage:
+                return "Garbage"
 
 
 def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
@@ -61,6 +102,14 @@ def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
     if not isinstance(tag, Tag):
         raise ValueError(f"could not find an element matching {args=} and {kwargs=}")
     return tag
+
+
+def find_text(element: Tag, *args: Any, **kwargs: Any) -> str:
+    """Find a sub-element."""
+    tag = find(element, *args, **kwargs)
+    if not isinstance(tag.text, str) or not tag.text:
+        raise ValueError
+    return tag.text
 
 
 #: A decorator for functions whose return values
@@ -75,16 +124,16 @@ refresh_daily = cachier(
 class MetaGetter(type):
     """A metatype to expose two class properties."""
 
-    _cache = None
+    _cache: ClassVar[str | ReleaseDict | datetime.datetime | datetime.date | None] = None
 
     date_fmt: str | None
     date_version_fmt: str | None
     homepage_fmt: str | None
 
     @property
-    def _cache_prop(cls):
+    def _cache_prop(cls) -> str | ReleaseDict | datetime.datetime | datetime.date:
         if cls._cache is None:
-            cls._cache = cls().get()
+            cls._cache = cls().get()  # type:ignore
         return cls._cache
 
     @property
@@ -94,7 +143,7 @@ class MetaGetter(type):
             return cls._cache_prop
         elif isinstance(cls._cache_prop, dict):
             return cls._cache_prop["version"]
-        elif isinstance(cls._cache_prop, datetime.datetime):
+        elif isinstance(cls._cache_prop, datetime.datetime | datetime.date):
             return cls._cache_prop.strftime("%Y-%m-%d")
         else:
             raise TypeError(f"_cache_prop was a {type(cls._cache_prop)}")
@@ -110,6 +159,8 @@ class MetaGetter(type):
         date = cls._cache_prop["date"]
         if isinstance(date, datetime.datetime):
             return date.date()
+        elif isinstance(date, datetime.date):
+            return date
         if not cls.date_fmt:
             raise TypeError(
                 f"Need to set {cls.__name__} class variable `date_fmt` to parse date {date}"
@@ -168,6 +219,13 @@ class VersionResult(pydantic.BaseModel):
     bioregistry_id: str | None
 
 
+class ReleaseDict(TypedDict):
+    """A release dict."""
+
+    version: str
+    date: NotRequired[str | datetime.datetime | datetime.date]
+
+
 class Getter(metaclass=MetaGetter):
     """A class for holding the name of a database and implementation of the version getter."""
 
@@ -193,14 +251,22 @@ class Getter(metaclass=MetaGetter):
     #: Prefixes this getter works for
     collection: ClassVar[list[str] | None] = None
 
-    def get(self) -> str | Mapping[str, str] | datetime.datetime:
+    def get(self) -> str | ReleaseDict | datetime.datetime | datetime.date:
         """Get the latest of this database."""
         raise NotImplementedError
 
     @classmethod
-    def print(cls, sep: str = "\t", file=None):
+    def print(cls, sep: str = "\t", file: TextIO | None = None) -> None:
         """Print the latest version of this database."""
-        x = [cls.bioregistry_id, cls.name, cls.version]
+        x = []
+        if cls.bioregistry_id:
+            x.append(cls.bioregistry_id)
+        elif cls.collection:
+            x.append("/".join(cls.collection))
+        else:
+            x.append("<no prefix>")
+        x.append(cls.name)
+        x.append(cls.version)
         if cls.date:
             x.append(f"({cls.date})")
         if cls.homepage:
@@ -231,7 +297,7 @@ class DailyGetter(Getter):
 
     version_type = VersionType.daily
 
-    def get(self) -> str | Mapping[str, str]:
+    def get(self) -> str:
         """Return a constant "daily" string."""
         return "daily"
 
@@ -244,15 +310,15 @@ class UnversionedGetter(Getter):
     #: Has this database been apparently abandoned (true) or is it still updated (false)
     abandoned: ClassVar[bool]
 
-    def get(self) -> str | Mapping[str, str]:
+    def get(self) -> str:
         """Return a constant unversioned string."""
         return "unversioned"
 
 
 def get_obo_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get the data version from an OBO file."""
-    with requests.get(url, stream=True, timeout=60) as res:
-        for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+    with _iterate_lines(url) as file:
+        for i, line in enumerate(file):
             if isinstance(line, bytes):
                 line = line.decode("utf-8")
             line = line.strip()
@@ -310,7 +376,9 @@ def _get_ftp_date_version(host: str, directory: str) -> str:
     return max(
         text
         for anchor in soup.find_all("a")
-        if anchor.text and _is_iso_8601(text := anchor.text.rstrip("/"))
+        if isinstance(anchor.text, str)
+        and anchor.text
+        and _is_iso_8601(text := anchor.text.rstrip("/"))
     )
 
 
@@ -336,8 +404,8 @@ VERSION_IRI_TAG_LEN = len(VERSION_IRI_TAG)
 def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get version from an OWL XML document."""
     try:
-        with requests.get(url, stream=True, timeout=60) as res:
-            for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+        with _iterate_lines(url) as file:
+            for i, line in enumerate(file):
                 if isinstance(line, bytes):
                     line = line.decode("utf-8")
                 line = line.strip()
@@ -350,8 +418,19 @@ def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
     return None
 
 
+@contextmanager
+def _iterate_lines(url: str) -> Generator[Iterable[str], None, None]:
+    with requests.get(url, stream=True, timeout=60) as res:
+        if url.endswith(".gz"):
+            compressed_stream = io.BufferedReader(res.raw)  # type:ignore
+            with gzip.open(compressed_stream, "rt", encoding="utf-8") as file:
+                yield file
+        else:
+            yield res.iter_lines(decode_unicode=True)
+
+
 def get_obograph_json_version(url: str) -> str | None:
     """Get version from an OBO Graph JSON document."""
     res = requests.get(url, timeout=60).json()
     version = res["graphs"][0]["meta"]["version"]
-    return version
+    return cast(str, version)

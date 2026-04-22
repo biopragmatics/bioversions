@@ -20,7 +20,7 @@ class ChemIDplusGetter(Getter):
     homepage_fmt = "https://ftp.nlm.nih.gov/projects/chemidlease/chem.xml.{version}.zip"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest ChemIDplus version number."""
         latest_url = "https://ftp.nlm.nih.gov/projects/chemidlease/CurrentChemID.xml"
         headers = {"Range": "bytes=0-300"}  # leave some slack to capture date

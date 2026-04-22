@@ -1,6 +1,6 @@
 """A getter for LOINC."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, ReleaseDict, VersionType, get_soup
 
 __all__ = ["LOINCGetter"]
 
@@ -13,7 +13,7 @@ class LOINCGetter(Getter):
     version_type = VersionType.semver_minor
     date_fmt = "%Y-%m-%d"
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest LOINC version number."""
         soup = get_soup("https://loinc.org")
         current_version_div = soup.find(id="current-version")

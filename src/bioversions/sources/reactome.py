@@ -1,6 +1,6 @@
 """A getter for Reactome."""
 
-from ..utils import Getter, VersionType, get_soup
+from ..utils import Getter, VersionType, find, find_text, get_soup
 
 __all__ = [
     "ReactomeGetter",
@@ -16,12 +16,12 @@ class ReactomeGetter(Getter):
     name = "Reactome"
     version_type = VersionType.sequential
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest BioGRID version number."""
         soup = get_soup(URL)
-        manifest = soup.find(id="fav-portfoliowrap")
-        header = manifest.find("h3")
-        return header.text.split()[1]
+        manifest = find(soup, id="fav-portfoliowrap")
+        header = find_text(manifest, "h3")
+        return header.split()[1]
 
 
 if __name__ == "__main__":

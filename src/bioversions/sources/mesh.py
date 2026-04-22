@@ -25,7 +25,7 @@ class MeshGetter(Getter):
     homepage_fmt = "ftp://nlmpubs.nlm.nih.gov/online/mesh/{version}"
     version_type = VersionType.year
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest MeSH version number."""
         try:
             with ftplib.FTP("nlmpubs.nlm.nih.gov") as ftp:

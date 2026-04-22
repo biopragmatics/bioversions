@@ -2,7 +2,7 @@
 
 from contextlib import closing
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "DrugCentralGetter",
@@ -24,7 +24,7 @@ class DrugCentralGetter(Getter):
     date_fmt = "%Y-%m-%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> ReleaseDict:
         """Get the latest DrugCentral version number."""
         import psycopg2
 

@@ -2,7 +2,7 @@
 
 import requests
 
-from ..utils import Getter, VersionType
+from ..utils import Getter, ReleaseDict, VersionType
 
 __all__ = [
     "NCItGetter",
@@ -19,7 +19,7 @@ class NCItGetter(Getter):
     date_fmt = "%B %d, %Y"
     version_type = VersionType.other
 
-    def get(self) -> dict[str, str]:
+    def get(self) -> ReleaseDict:
         """Get the latest NCIt version number."""
         records = requests.get(URL, timeout=5).json()
         ncit_record = next(record for record in records if record["terminology"] == "ncit")

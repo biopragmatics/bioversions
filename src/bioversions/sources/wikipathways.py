@@ -1,12 +1,24 @@
 """A getter for WikiPathways."""
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import Getter, VersionType, find_text
 
 __all__ = [
     "WikiPathwaysGetter",
+    "get_wikidata_version",
 ]
 
 URL = "http://data.wikipathways.org/current/gmt/"
+
+
+def get_wikidata_version() -> str:
+    """Get the latest WikiPathways version number."""
+    from pystow.utils import get_soup
+
+    soup = get_soup(URL)
+    if soup is None:
+        raise ValueError(f"could not get WikiPathways data from {URL}")
+    text = find_text(soup, id="File")
+    return text.split("-")[1]
 
 
 class WikiPathwaysGetter(Getter):
@@ -18,13 +30,9 @@ class WikiPathwaysGetter(Getter):
     date_version_fmt = "%Y%m%d"
     version_type = VersionType.date
 
-    def get(self):
+    def get(self) -> str:
         """Get the latest WikiPathways version number."""
-        soup = get_soup(URL)
-        if soup is None:
-            raise ValueError(f"could not get WikiPathways data from {URL}")
-        anchor = soup.find(id="File")
-        return anchor.text.split("-")[1]
+        return get_wikidata_version()
 
 
 if __name__ == "__main__":
