@@ -2,8 +2,11 @@
 
 import datetime
 import enum
+import gzip
+import io
 import os
-from collections.abc import Mapping
+from collections.abc import Generator, Iterable, Mapping
+from contextlib import contextmanager
 from typing import Any, ClassVar
 
 import bioregistry
@@ -251,8 +254,8 @@ class UnversionedGetter(Getter):
 
 def get_obo_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get the data version from an OBO file."""
-    with requests.get(url, stream=True, timeout=60) as res:
-        for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+    with _iterate_lines(url) as file:
+        for i, line in enumerate(file):
             if isinstance(line, bytes):
                 line = line.decode("utf-8")
             line = line.strip()
@@ -336,8 +339,8 @@ VERSION_IRI_TAG_LEN = len(VERSION_IRI_TAG)
 def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
     """Get version from an OWL XML document."""
     try:
-        with requests.get(url, stream=True, timeout=60) as res:
-            for i, line in enumerate(res.iter_lines(decode_unicode=True)):
+        with _iterate_lines(url) as file:
+            for i, line in enumerate(file):
                 if isinstance(line, bytes):
                     line = line.decode("utf-8")
                 line = line.strip()
@@ -348,6 +351,17 @@ def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
     except requests.exceptions.SSLError:
         pass
     return None
+
+
+@contextmanager
+def _iterate_lines(url: str) -> Generator[Iterable[str], None, None]:
+    with requests.get(url, stream=True, timeout=60) as res:
+        if url.endswith(".gz"):
+            compressed_stream = io.BufferedReader(res.raw)
+            with gzip.open(compressed_stream, "rt", encoding="utf-8") as file:
+                yield file
+        else:
+            yield res.iter_lines(decode_unicode=True)
 
 
 def get_obograph_json_version(url: str) -> str | None:
