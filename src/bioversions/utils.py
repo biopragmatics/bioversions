@@ -1,5 +1,7 @@
 """Utilities and implementation for bioversions."""
 
+from __future__ import annotations
+
 import datetime
 import enum
 import gzip
@@ -7,7 +9,7 @@ import io
 import os
 from collections.abc import Generator, Iterable, Mapping
 from contextlib import contextmanager
-from typing import Any, ClassVar, NotRequired, TextIO, TypedDict, cast
+from typing import Any, ClassVar, TextIO, TypedDict, cast
 
 import bioregistry
 import pydantic
@@ -17,6 +19,7 @@ import requests.exceptions
 from bs4 import Tag
 from cachier import cachier
 from pystow.utils import get_soup
+from typing_extensions import NotRequired
 
 __all__ = [
     "DailyGetter",
@@ -121,14 +124,14 @@ refresh_daily = cachier(
 class MetaGetter(type):
     """A metatype to expose two class properties."""
 
-    _cache: ClassVar[str | dict[str, str] | datetime.datetime | datetime.date | None] = None
+    _cache: ClassVar[str | ReleaseDict | datetime.datetime | datetime.date | None] = None
 
     date_fmt: str | None
     date_version_fmt: str | None
     homepage_fmt: str | None
 
     @property
-    def _cache_prop(cls) -> str | dict[str, str] | datetime.datetime | datetime.date:
+    def _cache_prop(cls) -> str | ReleaseDict | datetime.datetime | datetime.date:
         if cls._cache is None:
             cls._cache = cls().get()  # type:ignore
         return cls._cache
@@ -248,7 +251,7 @@ class Getter(metaclass=MetaGetter):
     #: Prefixes this getter works for
     collection: ClassVar[list[str] | None] = None
 
-    def get(self) -> str | ReleaseDict | datetime.datetime:
+    def get(self) -> str | ReleaseDict | datetime.datetime | datetime.date:
         """Get the latest of this database."""
         raise NotImplementedError
 

@@ -1,5 +1,7 @@
 """Update the web page."""
 
+from __future__ import annotations
+
 import datetime
 import getpass
 import sys

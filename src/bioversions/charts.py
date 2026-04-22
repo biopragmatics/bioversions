@@ -1,5 +1,7 @@
 """Generation of charts summarizing bioversions."""
 
+from __future__ import annotations
+
 import os
 from collections import Counter
 
