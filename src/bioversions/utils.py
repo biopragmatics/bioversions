@@ -45,20 +45,52 @@ IMG = os.path.join(DOCS, "img")
 class VersionType(str, enum.Enum):
     """Different types of versions."""
 
-    semver = "SemVer (X.Y.Z)"
-    date = "CalVer (YYYY-MM-DD)"
-    month = "CalVer (YYYY-MM)"
-    year = "CalVer (YYYY)"
-    year_minor = "CalVer (YYYY.X)"
-    semver_minor = "SemVer (X.Y)"
-    sequential = "Sequential (X)"
-    daily = "Daily"
-    unversioned = "Unversioned"
-    other = "Other"
-    missing = "Missing"
-    static = "Static"
+    semver = "semver"
+    date = "date"
+    month = "month"
+    year = "year"
+    year_minor = "year_minor"
+    semver_minor = "semver_minor"
+    sequential = "sequential"
+    daily = "daily"
+    unversioned = "unversioned"
+    other = "other"
+    missing = "missing"
+    static = "static"
     #: Saved for the most shameful of data
-    garbage = "Garbage"
+    garbage = "garbage"
+
+    @property
+    def label(self) -> str:
+        """Get the human-readable label."""
+        match self:
+            case self.semver:
+                return "SemVer (X.Y.Z)"
+            case self.date:
+                return "CalVer (YYYY-MM-DD)"
+            case self.month:
+                return "CalVer (YYYY-MM)"
+            case self.year:
+                return "CalVer (YYYY)"
+            case self.year_minor:
+                return "CalVer (YYYY.X)"
+            case self.semver_minor:
+                return "SemVer (X.Y)"
+            case self.sequential:
+                return "Sequential (X)"
+            case self.daily:
+                return "Daily"
+            case self.unversioned:
+                return "Unversioned"
+            case self.other:
+                return "Other"
+            case self.missing:
+                return "Missing"
+            case self.static:
+                return "Static"
+            #: Saved for the most shameful of data
+            case self.garbage:
+                return "Garbage"
 
 
 def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:

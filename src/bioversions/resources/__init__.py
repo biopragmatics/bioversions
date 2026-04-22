@@ -2,10 +2,10 @@
 
 import datetime
 from pathlib import Path
-from typing import Annotated, Any
+from typing import Any
 
 import yaml
-from pydantic import BaseModel, BeforeValidator
+from pydantic import BaseModel, ConfigDict
 from pystow.utils.pydantic_utils import read_pydantic_yaml
 
 from bioversions.utils import VersionType
@@ -46,22 +46,15 @@ class Release(BaseModel):
     date: datetime.date | None = None
 
 
-def _cleanup(x: str | VersionType) -> VersionType:
-    if isinstance(x, VersionType):
-        return x
-    elif isinstance(x, str):
-        return VersionType[x]
-    else:
-        raise TypeError(f"invalid: {x}")
-
-
 class Record(BaseModel):
     """Represents a resource tracked by the database."""
 
+    model_config = ConfigDict(use_enum_values=False)
+
     name: str
     prefix: str | None = None
-    vtype: Annotated[VersionType, BeforeValidator(_cleanup)]
     releases: list[Release]
+    vtype: VersionType
 
 
 class Database(BaseModel):
@@ -84,7 +77,9 @@ def load_versions() -> Database:
 def write_json(versions: Database, indent: int = 2, **kwargs: Any) -> None:
     """Write Bioversions data."""
     _ensure_editable()
-    VERSIONS_PATH.write_text(versions.model_dump_json(indent=indent, exclude_none=True, **kwargs))
+    VERSIONS_PATH.write_text(
+        versions.model_dump_json(indent=indent, exclude_none=True, sort_keys=True, **kwargs)
+    )
 
 
 def write_yaml(versions: Database) -> None:

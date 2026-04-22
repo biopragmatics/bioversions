@@ -49,24 +49,26 @@ def _update(force: bool) -> None:
         if isinstance(bv, VersionFailure):
             failure_tuples.append(bv)
             continue
-        release = Release(
+        new_release = Release(
             retrieved=today,
             version=bv.version,
             homepage=bv.homepage,
             date=bv.date,
         )
         if not (record := name_to_version.get(bv.name)):
+            changes = True
             record = Record(
                 name=bv.name,
                 vtype=bv.vtype,
-                releases=[release],
+                releases=[new_release],
                 prefix=bv.bioregistry_id,
             )
             data.database.append(record)
             _log_update(bv)
         elif all(bv.version != release.version for release in record.releases):
+            changes = True
             _log_update(bv)
-            record.releases.append(release)
+            record.releases.append(new_release)
 
     if not changes and not force:
         tqdm.write(click.style(f"No changes to {EXPORT_PATH}", fg="yellow", bold=True))
