@@ -1,6 +1,5 @@
 """A getter for Cellosaurus."""
 
-
 from bioversions.utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
