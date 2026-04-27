@@ -2,7 +2,7 @@
 
 import dateutil.parser
 
-from bioversions.utils import Getter, VersionType, find, get_soup
+from bioversions.utils import Getter, VersionType, find_soup_tag, get_soup
 
 GITHUB_PAGE = "https://github.com/dgidb/dgidb-v5"
 
@@ -17,7 +17,7 @@ class DGIGetter(Getter):
     def get(self) -> str:
         """Get the latest DGI version number."""
         soup = get_soup(GITHUB_PAGE)
-        time_tag = find(soup, "relative-time")
+        time_tag = find_soup_tag(soup, "relative-time")
         datetime_str = time_tag.attrs["datetime"]
         if not isinstance(datetime_str, str):
             raise ValueError

@@ -2,7 +2,7 @@
 
 import datetime
 
-from bioversions.utils import Getter, VersionType, find_text, get_soup
+from bioversions.utils import Getter, VersionType, find_soup_text, get_soup
 
 __all__ = [
     "ZfinGetter",
@@ -21,7 +21,7 @@ class ZfinGetter(Getter):
     def get(self) -> datetime.date:
         """Get the latest ZFIN version number."""
         soup = get_soup(URL)
-        header_text = find_text(soup, "h2")
+        header_text = find_soup_text(soup, "h2")
         version = header_text[len("ZFIN Data Reports from: ") :].strip()
         return datetime.datetime.strptime(version, "%d %b %Y").date()
 

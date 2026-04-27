@@ -32,8 +32,8 @@ __all__ = [
     "UnversionedGetter",
     "VersionResult",
     "VersionType",
-    "find",
-    "find_text",
+    "find_soup_tag",
+    "find_soup_text",
     "get_obo_version",
     "get_obograph_json_version",
     "get_owl_xml_version",
@@ -128,7 +128,7 @@ class VersionType(str, enum.Enum):
                 return "Garbage"
 
 
-def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
+def find_soup_tag(element: Tag, *args: Any, **kwargs: Any) -> Tag:
     """Find a sub-element."""
     tag = element.find(*args, **kwargs)
     if not isinstance(tag, Tag):
@@ -136,9 +136,9 @@ def find(element: Tag, *args: Any, **kwargs: Any) -> Tag:
     return tag
 
 
-def find_text(element: Tag, *args: Any, **kwargs: Any) -> str:
+def find_soup_text(element: Tag, *args: Any, **kwargs: Any) -> str:
     """Find a sub-element."""
-    tag = find(element, *args, **kwargs)
+    tag = find_soup_tag(element, *args, **kwargs)
     if not isinstance(tag.text, str) or not tag.text:
         raise ValueError
     return tag.text

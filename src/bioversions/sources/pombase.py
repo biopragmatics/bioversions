@@ -1,6 +1,6 @@
 """A getter for PomBase."""
 
-from bioversions.utils import Getter, VersionType, find_text, get_soup
+from bioversions.utils import Getter, VersionType, find_soup_text, get_soup
 
 __all__ = [
     "PombaseGetter",
@@ -21,7 +21,7 @@ class PombaseGetter(Getter):
         soup = get_soup("https://www.pombase.org/data/releases/")
         tr = soup.find_all("tr")[-2]
         td = tr.find_all("td")[1]
-        anchor_text = find_text(td, "a")
+        anchor_text = find_soup_text(td, "a")
         return anchor_text[len("pombase-") :].rstrip("/")
 
 

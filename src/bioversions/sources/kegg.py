@@ -4,7 +4,7 @@ from typing import ClassVar
 
 import bioregistry
 
-from bioversions.utils import Getter, ReleaseDict, VersionType, find, get_soup
+from bioversions.utils import Getter, ReleaseDict, VersionType, find_soup_tag, get_soup
 
 __all__ = [
     "KEGGGetter",
@@ -24,7 +24,7 @@ class KEGGGetter(Getter):
     def get(self) -> ReleaseDict:
         """Get the latest KEGG version number."""
         soup = get_soup(URL)
-        header = find(soup, "h4")
+        header = find_soup_tag(soup, "h4")
         sibling = header.next_sibling
         if not sibling:
             raise ValueError

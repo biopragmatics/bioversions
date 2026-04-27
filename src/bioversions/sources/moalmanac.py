@@ -1,6 +1,6 @@
 """A getter for the Molecular Oncology Almanac."""
 
-from ..utils import Getter, VersionType, find, find_text, get_soup
+from ..utils import Getter, VersionType, find_soup_tag, find_soup_text, get_soup
 
 __all__ = [
     "MOAlmanacGetter",
@@ -18,8 +18,8 @@ class MOAlmanacGetter(Getter):
     def get(self) -> str:
         """Get the latest MOAlmanac version number."""
         soup = get_soup("https://moalmanac.org/")
-        sub_footer = find(soup, "div", {"class": "text-right"})
-        anchor_text = find_text(sub_footer, "a")
+        sub_footer = find_soup_tag(soup, "div", {"class": "text-right"})
+        anchor_text = find_soup_text(sub_footer, "a")
         version = anchor_text.strip("v").strip(".")
         return version
 

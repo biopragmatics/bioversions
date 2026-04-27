@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-from ..utils import Getter, VersionType, find, get_soup
+from ..utils import Getter, VersionType, find_soup_tag, get_soup
 
 __all__ = [
     "RxNormGetter",
@@ -22,7 +22,7 @@ class RxNormGetter(Getter):
     def get(self) -> datetime:
         """Get the latest RxNorm version number."""
         soup = get_soup(URL)
-        tag = find(soup, "th", {"class": "current"})
+        tag = find_soup_tag(soup, "th", {"class": "current"})
         raw_version = tag.contents[2].text.strip()
         raw_fmt = "%B %d, %Y"
         return datetime.strptime(raw_version, raw_fmt)

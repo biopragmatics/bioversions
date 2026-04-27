@@ -1,6 +1,6 @@
 """A getter for BioGRID."""
 
-from ..utils import Getter, VersionType, find, find_text, get_soup
+from ..utils import Getter, VersionType, find_soup_tag, find_soup_text, get_soup
 
 __all__ = [
     "BioGRIDGetter",
@@ -20,8 +20,8 @@ class BioGRIDGetter(Getter):
     def get(self) -> str:
         """Get the latest BioGRID version number."""
         soup = get_soup(URL)
-        manifest = find(soup, id="manifestDesc")
-        text = find_text(manifest, "h2")
+        manifest = find_soup_tag(soup, id="manifestDesc")
+        text = find_soup_text(manifest, "h2")
         return text[len("BioGRID Release ") :]
 
 

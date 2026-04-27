@@ -1,6 +1,6 @@
 """A getter for PathBank."""
 
-from bioversions.utils import Getter, VersionType, find, find_text, get_soup
+from bioversions.utils import Getter, VersionType, find_soup_tag, find_soup_text, get_soup
 
 __all__ = [
     "PathBankGetter",
@@ -19,10 +19,10 @@ class PathBankGetter(Getter):
     def get(self) -> str:
         """Get the latest PathBank version number."""
         soup = get_soup(URL)
-        main = find(soup, id="main")
-        footer = find(main, name="footer")
-        clear = find(footer, class_="wishart-clear")
-        strong = find_text(clear, name="strong")
+        main = find_soup_tag(soup, id="main")
+        footer = find_soup_tag(main, name="footer")
+        clear = find_soup_tag(footer, class_="wishart-clear")
+        strong = find_soup_text(clear, name="strong")
         return strong
 
 
