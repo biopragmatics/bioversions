@@ -2,10 +2,7 @@
 
 from typing import cast
 
-import requests
-
-from bioversions.utils import Getter, VersionType
-from bioversions.version import get_version
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "DepMapGetter",
@@ -23,11 +20,7 @@ class DepMapGetter(Getter):
 
     def get(self) -> str:
         """Get the latest DepMap version number."""
-        res = requests.get(
-            URL,
-            timeout=15,
-            headers={"User-Agent": f"bioversions v{get_version(with_git_hash=True)}"},
-        )
+        res = requests_get(URL, timeout=15)
         res_json = res.json()
         latest = next(release for release in res_json["releaseData"] if release["isLatest"])
         rv = cast(str, latest["releaseName"][len("DepMap Public ") :])

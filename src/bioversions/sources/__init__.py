@@ -4,9 +4,9 @@ from __future__ import annotations
 
 import ftplib
 import traceback
-import warnings
 from collections.abc import Iterable
-from typing import Literal, NamedTuple, cast, overload
+from functools import lru_cache
+from typing import Literal, NamedTuple, overload
 
 from class_resolver import ClassResolver
 from tqdm import tqdm
@@ -76,14 +76,7 @@ from .umls import UMLSGetter
 from .uniprot import UniProtGetter
 from .wikipathways import WikiPathwaysGetter
 from .zfin import ZfinGetter
-from ..utils import (
-    DailyGetter,
-    Getter,
-    OBOFoundryGetter,
-    UnversionedGetter,
-    VersionResult,
-    refresh_daily,
-)
+from ..utils import DailyGetter, Getter, OBOFoundryGetter, UnversionedGetter, VersionResult
 
 __all__ = [
     "AntibodyRegistryGetter",
@@ -179,46 +172,46 @@ getter_resolver: ClassResolver[Getter] = ClassResolver.from_subclasses(
 extend_ols(getter_resolver)
 
 
-def get_getters() -> list[type[Getter]]:
-    """Get a list of getters."""
-    warnings.warn("iterate over getter_resolver directly", DeprecationWarning, stacklevel=2)
-    return list(getter_resolver)
+# docstr-coverage:excused `overload`
+@overload
+def resolve(name: str | type[Getter], strict: Literal[False] = ...) -> VersionResult | None: ...
 
 
-def resolve(name: str | type[Getter], *, use_cache: bool = True) -> VersionResult:
+# docstr-coverage:excused `overload`
+@overload
+def resolve(name: str | type[Getter], strict: Literal[True] = ...) -> VersionResult: ...
+
+
+@lru_cache(None)
+def resolve(name: str | type[Getter], strict: bool = True) -> VersionResult | None:
     """Resolve the database name to a :class:`Bioversion` instance."""
-    if use_cache:
-        if isinstance(name, type):
-            name = name.__name__
-        return cast(VersionResult, _resolve_helper_cached(name))
-    else:
-        if isinstance(name, str):
-            name = getter_resolver.lookup(name)
-        return name.resolve()
-
-
-@refresh_daily  # type:ignore
-def _resolve_helper_cached(name: str) -> VersionResult:
     getter = getter_resolver.lookup(name)
-    return getter.resolve()
+    try:
+        rv = getter.resolve()
+    except Exception:
+        if strict:
+            raise
+        return None
+    else:
+        return rv
 
 
 def clear_cache() -> None:
     """Clear the cache."""
-    _resolve_helper_cached.clear_cache()
+    resolve.cache_clear()  # type: ignore[attr-defined]
 
 
 # docstr-coverage:excused `overload`
 @overload
-def get_version(name: str, *, strict: Literal[True] = ...) -> str: ...
+def get_version(name: str | type[Getter], *, strict: Literal[True] = ...) -> str: ...
 
 
 # docstr-coverage:excused `overload`
 @overload
-def get_version(name: str, *, strict: Literal[False] = ...) -> str | None: ...
+def get_version(name: str | type[Getter], *, strict: Literal[False] = ...) -> str | None: ...
 
 
-def get_version(name: str, *, strict: bool = True) -> str | None:
+def get_version(name: str | type[Getter], *, strict: bool = True) -> str | None:
     """Resolve a database name to its version string.
 
     :param name:
@@ -229,17 +222,15 @@ def get_version(name: str, *, strict: bool = True) -> str | None:
         ``false`` to return None on errors.
     :return: The version of the resource as a string
     """
-    try:
-        rv = resolve(name).version
-    except Exception:
-        if strict:
-            raise
+    if strict:
+        return resolve(name, strict=True).version
+    rv = resolve(name, strict=False)
+    if rv is None:
         return None
-    else:
-        return rv
+    return rv.version
 
 
-def get_rows(use_tqdm: bool | None = False) -> list[VersionResult]:
+def get_rows(*, use_tqdm: bool | None = False) -> list[VersionResult]:
     """Get the rows, refreshing once per day."""
     return [
         bioversion
@@ -258,6 +249,7 @@ class VersionFailure(NamedTuple):
 
 
 def iter_versions(
+    *,
     use_tqdm: bool | None = False,
 ) -> Iterable[VersionResult | VersionFailure]:
     """Iterate over versions, without caching."""
@@ -268,14 +260,15 @@ def iter_versions(
         for cls in getters:
             getters.set_postfix(name=cls.name)
             try:
-                yv = resolve(cls)
+                yv = resolve(cls, strict=False)
             except (OSError, AttributeError, ftplib.error_perm) as e:
-                msg = f"[{cls.bioregistry_id or cls.name}] failed to resolve: {e}"
+                msg = f"[bioversions:{cls.bioregistry_id or cls.name}] failed to resolve: {e}"
                 tqdm.write(msg)
                 yield VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
             except (ValueError, KeyError) as e:
-                msg = f"[{cls.bioregistry_id or cls.name}] issue parsing: {e}"
+                msg = f"[bioversions:{cls.bioregistry_id or cls.name}] issue parsing: {e}"
                 tqdm.write(msg)
                 yield VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
             else:
-                yield yv
+                if yv is not None:
+                    yield yv

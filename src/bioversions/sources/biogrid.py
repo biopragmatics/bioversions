@@ -1,8 +1,6 @@
 """A getter for BioGRID."""
 
-from pystow.utils import get_soup
-
-from ..utils import Getter, VersionType, find, find_text
+from ..utils import Getter, VersionType, find, find_text, get_soup
 
 __all__ = [
     "BioGRIDGetter",

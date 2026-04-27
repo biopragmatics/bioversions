@@ -1,6 +1,6 @@
 """A getter for WikiPathways."""
 
-from bioversions.utils import Getter, VersionType, find_text
+from bioversions.utils import Getter, VersionType, find_text, get_soup
 
 __all__ = [
     "WikiPathwaysGetter",
@@ -12,8 +12,6 @@ URL = "http://data.wikipathways.org/current/gmt/"
 
 def get_wikidata_version() -> str:
     """Get the latest WikiPathways version number."""
-    from pystow.utils import get_soup
-
     soup = get_soup(URL)
     if soup is None:
         raise ValueError(f"could not get WikiPathways data from {URL}")

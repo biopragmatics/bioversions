@@ -22,12 +22,12 @@ def database(name: str) -> flask.Response:
     """Resolve information about a given database."""
     rv: dict[str, Any] = {"query": name}
     try:
-        bioversion = resolve(name)
-    except KeyError:
+        version_result = resolve(name, strict=True)
+    except Exception:
         rv["success"] = False
     else:
         rv["success"] = True
-        rv["result"] = bioversion.model_dump()
+        rv["result"] = version_result.model_dump()
     return flask.jsonify(rv)
 
 

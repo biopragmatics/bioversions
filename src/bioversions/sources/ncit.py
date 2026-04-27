@@ -1,8 +1,6 @@
 """A getter for the NCI Thesaurus."""
 
-import requests
-
-from ..utils import Getter, ReleaseDict, VersionType
+from ..utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
     "NCItGetter",
@@ -21,7 +19,7 @@ class NCItGetter(Getter):
 
     def get(self) -> ReleaseDict:
         """Get the latest NCIt version number."""
-        records = requests.get(URL, timeout=5).json()
+        records = requests_get(URL, timeout=15).json()
         ncit_record = next(record for record in records if record["terminology"] == "ncit")
         return {
             "version": ncit_record["version"],

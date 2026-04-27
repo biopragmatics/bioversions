@@ -16,12 +16,14 @@ import pydantic
 import pystow.utils
 import requests
 import requests.exceptions
-from bs4 import Tag
-from cachier import cachier
-from pystow.utils import get_soup
+from bs4 import BeautifulSoup, Tag
+from pystow.constants import TimeoutHint
 from typing_extensions import NotRequired
 
+from .version import VERSION
+
 __all__ = [
+    "BIOVERSIONS_USER_AGENT",
     "DailyGetter",
     "Getter",
     "MetaGetter",
@@ -36,13 +38,44 @@ __all__ = [
     "get_obograph_json_version",
     "get_owl_xml_version",
     "get_soup",
-    "refresh_daily",
+    "requests_get",
 ]
 
 BIOVERSIONS_HOME = pystow.join("bioversions")
 HERE = os.path.abspath(os.path.dirname(__file__))
 DOCS = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, "docs"))
 IMG = os.path.join(DOCS, "img")
+
+BIOVERSIONS_USER_AGENT = f"bioversions v{VERSION}"
+
+
+def get_soup(
+    url: str,
+    *,
+    verify: bool = True,
+    timeout: TimeoutHint | None = None,
+    user_agent: str | None = None,
+) -> BeautifulSoup:
+    """Wrap getting soup with the user agent."""
+    if user_agent is None:
+        user_agent = BIOVERSIONS_USER_AGENT
+    return pystow.utils.get_soup(url, verify=verify, timeout=timeout, user_agent=user_agent)
+
+
+def requests_get(url: str, *args: Any, timeout: int | float, **kwargs: Any) -> requests.Response:
+    """Wrap :func:`requests.get` that automatically adds a User-Agent."""
+    if "headers" not in kwargs:
+        kwargs["headers"] = {}
+    if "User-Agent" not in kwargs["headers"]:
+        kwargs["headers"]["User-Agent"] = BIOVERSIONS_USER_AGENT
+    res = requests.get(
+        url,
+        *args,
+        timeout=timeout,
+        **kwargs,
+    )
+    res.raise_for_status()
+    return res
 
 
 class VersionType(str, enum.Enum):
@@ -110,15 +143,6 @@ def find_text(element: Tag, *args: Any, **kwargs: Any) -> str:
     if not isinstance(tag.text, str) or not tag.text:
         raise ValueError
     return tag.text
-
-
-#: A decorator for functions whose return values
-#: should be cached and refreshed once per day
-refresh_daily = cachier(
-    stale_after=datetime.timedelta(days=1),
-    backend="memory",
-    cache_dir=BIOVERSIONS_HOME,
-)
 
 
 class MetaGetter(type):
@@ -431,6 +455,6 @@ def _iterate_lines(url: str) -> Generator[Iterable[str], None, None]:
 
 def get_obograph_json_version(url: str) -> str | None:
     """Get version from an OBO Graph JSON document."""
-    res = requests.get(url, timeout=60).json()
+    res = requests_get(url, timeout=60).json()
     version = res["graphs"][0]["meta"]["version"]
     return cast(str, version)
