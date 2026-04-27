@@ -22,9 +22,7 @@ class ChemIDplusGetter(Getter):
 
     def get(self) -> str:
         """Get the latest ChemIDplus version number."""
-        headers = {
-            "Range": "bytes=0-300",
-        }  # leave some slack to capture date
+        headers = {"Range": "bytes=0-300"}  # leave some slack to capture date
         r = requests_get(LATEST_URL, headers=headers, timeout=30)
         if r.status_code == 206:
             result = re.search(r" date=\"([0-9]{4}-[0-9]{2}-[0-9]{2})\">", r.text)
