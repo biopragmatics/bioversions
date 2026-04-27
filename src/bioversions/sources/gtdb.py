@@ -1,8 +1,6 @@
 """A getter for GTDB."""
 
-import requests
-
-from bioversions.utils import Getter, ReleaseDict, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
     "GTDBGetter",
@@ -22,7 +20,7 @@ class GTDBGetter(Getter):
 
     def get(self) -> ReleaseDict:
         """Get the latest GTDB version number from VERSION.txt."""
-        res = requests.get(URL, timeout=15)
+        res = requests_get(URL, timeout=15)
         lines = res.text.strip().split("\n")
 
         # First line contains version like "v220"

@@ -4,9 +4,7 @@ from __future__ import annotations
 
 from datetime import datetime
 
-import requests
-
-from bioversions.utils import Getter, ReleaseDict, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
     "SILVAGetter",
@@ -26,7 +24,7 @@ class SILVAGetter(Getter):
 
     def get(self) -> ReleaseDict:
         """Get the latest SILVA version number from VERSION.txt."""
-        res = requests.get(URL, timeout=15)
+        res = requests_get(URL, timeout=15)
 
         # Get version from the content
         rv: ReleaseDict = {"version": res.text.strip()}

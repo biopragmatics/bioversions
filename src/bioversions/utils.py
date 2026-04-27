@@ -74,7 +74,6 @@ def requests_get(url: str, *args: Any, timeout: int | float, **kwargs: Any) -> r
         timeout=timeout,
         **kwargs,
     )
-    res.raise_for_status()
     return res
 
 
@@ -444,7 +443,9 @@ def get_owl_xml_version(url: str, *, max_lines: int = 200) -> str | None:
 
 @contextmanager
 def _iterate_lines(url: str) -> Generator[Iterable[str], None, None]:
-    with requests.get(url, stream=True, timeout=60) as res:
+    with requests.get(
+        url, stream=True, timeout=60, headers={"User-Agent": BIOVERSIONS_USER_AGENT}
+    ) as res:
         if url.endswith(".gz"):
             compressed_stream = io.BufferedReader(res.raw)  # type:ignore
             with gzip.open(compressed_stream, "rt", encoding="utf-8") as file:
