@@ -3,9 +3,7 @@
 import logging
 from typing import ClassVar
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "HGNCGetter",
@@ -28,7 +26,7 @@ class HGNCGetter(Getter):
 
     def get(self) -> str:
         """Get the latest monthly HGNC version number."""
-        res = requests.get(URL, timeout=5)
+        res = requests_get(URL, timeout=5)
         items: list[dict[str, str]] = res.json()["items"]
         return max(
             item["name"].removeprefix(PREFIX).removesuffix(SUFFIX)

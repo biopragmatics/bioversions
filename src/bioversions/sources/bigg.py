@@ -2,9 +2,7 @@
 
 from datetime import datetime
 
-import requests
-
-from bioversions.utils import Getter, ReleaseDict, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
     "BiGGGetter",
@@ -21,7 +19,7 @@ class BiGGGetter(Getter):
 
     def get(self) -> ReleaseDict:
         """Get the latest BiGG version number."""
-        res = requests.get(URL, timeout=15).json()
+        res = requests_get(URL, timeout=15).json()
         date = datetime.fromisoformat(res["last_updated"])
         return {
             "version": res["bigg_models_version"],

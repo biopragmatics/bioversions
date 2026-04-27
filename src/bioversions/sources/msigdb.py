@@ -1,6 +1,6 @@
 """A getter for MSigDB."""
 
-from bioversions.utils import Getter, VersionType, find, get_soup
+from bioversions.utils import Getter, VersionType, find_soup_tag, get_soup
 
 __all__ = [
     "MSigDBGetter",
@@ -20,7 +20,7 @@ class MSigDBGetter(Getter):
     def get(self) -> str:
         """Get the latest MSigDB version number."""
         soup = get_soup(URL)
-        x = find(soup, text="Current Version")
+        x = find_soup_tag(soup, text="Current Version")
         if x.parent is None:
             raise ValueError
         paragraph = x.parent.find_next_sibling("p")

@@ -3,7 +3,7 @@
 import datetime
 from typing import ClassVar
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import BIOVERSIONS_USER_AGENT, Getter, VersionType, get_soup
 
 __all__ = [
     "SignorGetter",
@@ -23,7 +23,7 @@ class SignorGetter(Getter):
 
     def get(self) -> datetime.datetime:
         """Get the latest SIGNOR version number."""
-        soup = get_soup(URL)
+        soup = get_soup(URL, user_agent=BIOVERSIONS_USER_AGENT)
         for p in soup.find_all("p"):
             if TEXT in p.text:
                 _, _, after = p.text.partition(TEXT)

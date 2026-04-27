@@ -1,10 +1,8 @@
 """A getter for the `Drug Gene Interaction Database (DGI-DB) <http://www.dgidb.org>`_."""
 
-import bs4
 import dateutil.parser
-import requests
 
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, find_soup_tag, get_soup
 
 GITHUB_PAGE = "https://github.com/dgidb/dgidb-v5"
 
@@ -18,11 +16,8 @@ class DGIGetter(Getter):
 
     def get(self) -> str:
         """Get the latest DGI version number."""
-        res = requests.get(GITHUB_PAGE, timeout=15)
-        soup = bs4.BeautifulSoup(res.content, features="html.parser")
-        time_tag = soup.find("relative-time")
-        if time_tag is None:
-            raise ValueError
+        soup = get_soup(GITHUB_PAGE)
+        time_tag = find_soup_tag(soup, "relative-time")
         datetime_str = time_tag.attrs["datetime"]
         if not isinstance(datetime_str, str):
             raise ValueError

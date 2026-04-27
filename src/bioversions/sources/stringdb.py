@@ -1,6 +1,6 @@
 """A getter for StringDB."""
 
-from bioversions.utils import Getter, ReleaseDict, VersionType, find, get_soup
+from bioversions.utils import Getter, ReleaseDict, VersionType, find_soup_tag, get_soup
 
 __all__ = [
     "StringDBGetter",
@@ -17,7 +17,7 @@ class StringDBGetter(Getter):
     def get(self) -> ReleaseDict:
         """Get the latest StringDB version number."""
         soup = get_soup("https://string-db.org/cgi/access")
-        table = find(soup, class_="footer_access_archive_table")
+        table = find_soup_tag(soup, class_="footer_access_archive_table")
         rows = table.find_all(class_="row")
         row = rows[1]
         version, date, _address, _content = row.find_all(class_="cell")

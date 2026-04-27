@@ -2,9 +2,7 @@
 
 import datetime
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "SwissLipidGetter",
@@ -23,7 +21,7 @@ class SwissLipidGetter(Getter):
 
     def get(self) -> datetime.date:
         """Get the latest SwissLipids version number."""
-        res = requests.get(URL, timeout=15).json()
+        res = requests_get(URL, timeout=15).json()
         record = next(record for record in res if record["file"] == "lipids.tsv")
         return datetime.datetime.strptime(record["date"], "%B %d %Y").date()
 

@@ -1,8 +1,6 @@
 """A getter for HomoloGene."""
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "HomoloGeneGetter",
@@ -20,8 +18,7 @@ class HomoloGeneGetter(Getter):
 
     def get(self) -> str:
         """Get the latest HomoloGene version number."""
-        s = requests.Session()
-        res = s.get(URL, stream=True)
+        res = requests_get(URL, timeout=15)
         return res.text.strip()
 
 

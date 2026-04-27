@@ -2,9 +2,7 @@
 
 from typing import cast
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "AntibodyRegistryGetter",
@@ -23,7 +21,7 @@ class AntibodyRegistryGetter(Getter):
 
     def get(self) -> str:
         """Get the latest Antibody Registry version number."""
-        res = requests.get(URL, timeout=3)
+        res = requests_get(URL, timeout=3)
         res_json = res.json()
         return cast(str, res_json["lastupdate"])
 

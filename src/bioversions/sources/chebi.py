@@ -2,9 +2,7 @@
 
 from typing import cast
 
-import requests
-
-from bioversions.utils import Getter, ReleaseDict, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
     "ChEBIGetter",
@@ -25,7 +23,7 @@ class ChEBIGetter(Getter):
 
     def get(self) -> ReleaseDict:
         """Get the latest ChEBI version number."""
-        res = requests.get(README, timeout=5)
+        res = requests_get(README, timeout=5)
         res.raise_for_status()
 
         rv: dict[str, str] = {}

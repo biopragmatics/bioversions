@@ -1,32 +1,26 @@
 """A getter for DisGeNet."""
 
-import requests
-
-from bioversions.utils import Getter, ReleaseDict, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "DisGeNetGetter",
 ]
 
-URL = "https://www.disgenet.org/api/version/"
+URL = "https://ca346j0lmg.execute-api.eu-central-1.amazonaws.com/releases"
 
 
 class DisGeNetGetter(Getter):
     """A getter for DisGeNet."""
 
     name = "DisGeNet"
-    date_fmt = "%B %Y"
     version_type = VersionType.sequential
 
-    def get(self) -> ReleaseDict:
+    def get(self) -> str:
         """Get the latest DisGeNet version number."""
-        res = requests.get(URL, params={"format": "json"}, timeout=15)
+        res = requests_get(URL, timeout=15)
         res_json = res.json()
-        version = res_json["database_version"].split()[-1].lstrip("v")
-        return {
-            "version": version,
-            "date": res_json["lastUpdate"],
-        }
+        version: str = res_json["releases"][0]["version"]
+        return version.lstrip("v")
 
 
 if __name__ == "__main__":

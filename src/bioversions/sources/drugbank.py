@@ -2,9 +2,7 @@
 
 from operator import itemgetter
 
-import requests
-
-from bioversions.utils import Getter, ReleaseDict, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
     "DrugBankGetter",
@@ -24,7 +22,7 @@ class DrugBankGetter(Getter):
 
     def get(self) -> ReleaseDict:
         """Get the latest DrugBank version number."""
-        res = requests.get(URL, timeout=15)
+        res = requests_get(URL, timeout=15)
         res.raise_for_status()
         latest = max(res.json(), key=itemgetter("released_on"))
         return {"date": latest["released_on"], "version": latest["version"]}

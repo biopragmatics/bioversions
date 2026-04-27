@@ -2,9 +2,7 @@
 
 import datetime
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "ITISGetter",
@@ -22,7 +20,7 @@ class ITISGetter(Getter):
 
     def get(self) -> datetime.datetime:
         """Get the latest ITIS version number."""
-        res = requests.get(URL, timeout=3).text
+        res = requests_get(URL, timeout=3).text
         return datetime.datetime.strptime(res, "%d-%b-%Y")
 
 

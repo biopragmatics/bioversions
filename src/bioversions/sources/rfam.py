@@ -1,8 +1,6 @@
 """A getter for Rfam."""
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "RfamGetter",
@@ -20,7 +18,7 @@ class RfamGetter(Getter):
 
     def get(self) -> str:
         """Get the latest Rfam version number."""
-        res = requests.get(URL, timeout=15)
+        res = requests_get(URL, timeout=15)
         res.raise_for_status()
         for line_bytes in res.iter_lines():
             line: str = line_bytes.decode("utf-8").strip()

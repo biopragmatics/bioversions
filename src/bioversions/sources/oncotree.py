@@ -2,9 +2,7 @@
 
 from typing import cast
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "OncoTreeGetter",
@@ -24,7 +22,7 @@ class OncoTreeGetter(Getter):
 
     def get(self) -> str:
         """Get the latest OncoTree version number."""
-        res = requests.get(URL, params={"format": "json"}, timeout=5)
+        res = requests_get(URL, params={"format": "json"}, timeout=15)
         res_json = res.json()
         version = next(
             r["release_date"] for r in res_json if r["api_identifier"] == "oncotree_latest_stable"

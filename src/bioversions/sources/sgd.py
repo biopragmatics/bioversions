@@ -3,9 +3,7 @@
 from itertools import islice
 from operator import itemgetter
 
-import requests
-
-from bioversions.utils import Getter, ReleaseDict, VersionType
+from bioversions.utils import Getter, ReleaseDict, VersionType, requests_get
 
 __all__ = [
     "SgdGetter",
@@ -27,7 +25,7 @@ class SgdGetter(Getter):
     def get(self) -> ReleaseDict:
         """Get the latest SGD version number."""
         version_to_date: dict[str, str] = {}
-        with requests.get(VERSION_FILE, stream=True, timeout=5) as res:
+        with requests_get(VERSION_FILE, stream=True, timeout=5) as res:
             for line_bytes in islice(res.iter_lines(decode_unicode=True), 3, None):
                 version, date, *_ = line_bytes.decode("utf-8").strip().split()
                 # Some lines contain extra information

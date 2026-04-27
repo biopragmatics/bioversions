@@ -1,6 +1,6 @@
 """A getter for NPASS."""
 
-from bioversions.utils import Getter, VersionType, find, get_soup
+from bioversions.utils import Getter, VersionType, find_soup_tag, get_soup
 
 __all__ = [
     "NPASSGetter",
@@ -25,8 +25,8 @@ def _dynamic_get() -> str:
     # this has been retired since the website is so slow and this
     # resource is effectively static
     soup = get_soup(URL)
-    footer = find(soup, name="footer")
-    ul = find(footer, name="ul")
+    footer = find_soup_tag(soup, name="footer")
+    ul = find_soup_tag(footer, name="ul")
     for li in ul.find_all(name="li"):
         if not isinstance(li.text, str) or not li.text:
             continue

@@ -2,13 +2,13 @@
 
 import re
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "ChemIDplusGetter",
 ]
+
+LATEST_URL = "https://ftp.nlm.nih.gov/projects/chemidlease/CurrentChemID.xml"
 
 
 class ChemIDplusGetter(Getter):
@@ -22,9 +22,8 @@ class ChemIDplusGetter(Getter):
 
     def get(self) -> str:
         """Get the latest ChemIDplus version number."""
-        latest_url = "https://ftp.nlm.nih.gov/projects/chemidlease/CurrentChemID.xml"
         headers = {"Range": "bytes=0-300"}  # leave some slack to capture date
-        r = requests.get(latest_url, headers=headers, timeout=15)
+        r = requests_get(LATEST_URL, headers=headers, timeout=30)
         if r.status_code == 206:
             result = re.search(r" date=\"([0-9]{4}-[0-9]{2}-[0-9]{2})\">", r.text)
             if result:

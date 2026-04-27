@@ -2,9 +2,7 @@
 
 from typing import ClassVar
 
-import requests
-
-from bioversions.utils import Getter, VersionType
+from bioversions.utils import Getter, VersionType, requests_get
 
 __all__ = [
     "SPDXGetter",
@@ -23,7 +21,7 @@ class SPDXGetter(Getter):
 
     def get(self) -> str:
         """Get the latest SwissLipids version number."""
-        res = requests.get(DATA_URL, timeout=5)
+        res = requests_get(DATA_URL, timeout=5)
         res_json: dict[str, str] = res.json()
         return res_json["licenseListVersion"]
 
