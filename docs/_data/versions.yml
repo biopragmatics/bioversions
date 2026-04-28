@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-20'
-  revision: 1313
+  date: '2026-04-28'
+  revision: 1314
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1044,6 +1044,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-04-18'
     version: '2026-04-17'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-28'
+    version: '2026-04-27'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1126,6 +1129,8 @@ database:
     version: '2026-01-12'
   - retrieved: '2026-03-19'
     version: '2026-03-14'
+  - retrieved: '2026-04-28'
+    version: '2026-04-20'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -2282,6 +2287,8 @@ database:
     version: '2.270'
   - retrieved: '2026-04-15'
     version: '2.271'
+  - retrieved: '2026-04-28'
+    version: '2.272'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3709,6 +3716,8 @@ database:
     version: '4.231'
   - retrieved: '2026-04-15'
     version: '4.232'
+  - retrieved: '2026-04-28'
+    version: '4.233'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4228,6 +4237,8 @@ database:
     version: '2020-04-13'
   - retrieved: '2025-12-07'
     version: 5.0.0
+  - retrieved: '2026-04-28'
+    version: 5.1.0
   vtype: date
 - name: Fungal gross anatomy
   prefix: fao
@@ -5642,6 +5653,8 @@ database:
     version: '2026-03-18'
   - retrieved: '2026-04-05'
     version: '2026-03-24'
+  - retrieved: '2026-04-28'
+    version: '2026-04-22'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -5732,6 +5745,8 @@ database:
     version: 4.1.236
   - retrieved: '2026-03-16'
     version: 4.1.243
+  - retrieved: '2026-04-28'
+    version: 4.1.246
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -5844,6 +5859,8 @@ database:
     version: '2.174'
   - retrieved: '2026-04-15'
     version: '2.175'
+  - retrieved: '2026-04-28'
+    version: '2.176'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -6415,6 +6432,8 @@ database:
     version: '2026-04-01'
   - retrieved: '2026-04-14'
     version: '2026-04-08'
+  - retrieved: '2026-04-28'
+    version: '2026-04-24'
   vtype: date
 - name: Mouse Developmental Stages
   prefix: mmusdv
@@ -6455,8 +6474,7 @@ database:
 - name: MSigDB
   prefix: msigdb
   releases:
-  - date: September 2020
-    retrieved: '2020-12-22'
+  - retrieved: '2020-12-22'
     version: '7.2'
   - date: '2021-03-01'
     homepage: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.3
@@ -7993,6 +8011,8 @@ database:
     version: '2026-04-16'
   - retrieved: '2026-04-19'
     version: '2026-04-17'
+  - retrieved: '2026-04-28'
+    version: '2026-04-24'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8577,6 +8597,8 @@ database:
     version: '4.6'
   - retrieved: '2025-07-22'
     version: '4.7'
+  - retrieved: '2026-04-28'
+    version: '4.8'
   vtype: semver
 - name: Orthology Ontology
   prefix: orth
@@ -9263,6 +9285,8 @@ database:
     version: 1.031.6
   - retrieved: '2025-12-07'
     version: 1.032.4
+  - retrieved: '2026-04-28'
+    version: 1.033.0
   vtype: date
 - name: Protein Modification Ontology
   prefix: mod
@@ -9783,6 +9807,8 @@ database:
     version: '2026-04-04'
   - retrieved: '2026-04-14'
     version: '2026-04-11'
+  - retrieved: '2026-04-28'
+    version: '2026-04-25'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -9879,6 +9905,8 @@ database:
     version: '6.272'
   - retrieved: '2026-04-15'
     version: '6.273'
+  - retrieved: '2026-04-28'
+    version: '6.274'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -10471,6 +10499,8 @@ database:
     version: 7c49795
   - retrieved: '2026-04-14'
     version: 8da21bb
+  - retrieved: '2026-04-28'
+    version: '9937298'
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -12559,6 +12589,8 @@ database:
     version: '2026-04-19'
   - retrieved: '2026-04-20'
     version: '2026-04-20'
+  - retrieved: '2026-04-28'
+    version: '2026-04-28'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -12864,6 +12896,8 @@ database:
     version: '2025-02-22'
   - retrieved: '2025-03-20'
     version: '2025-02-23'
+  - retrieved: '2026-04-28'
+    version: '2026-04-20'
   vtype: semver
 - name: The Virus Infectious Disease Ontology
   prefix: vido
@@ -13399,6 +13433,8 @@ database:
     version: '2026-04-01'
   - retrieved: '2026-04-19'
     version: '2026-04-14'
+  - retrieved: '2026-04-28'
+    version: '2026-04-22'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -16362,6 +16398,8 @@ database:
     version: '2026-04-17'
   - retrieved: '2026-04-20'
     version: '2026-04-18'
+  - retrieved: '2026-04-28'
+    version: '2026-04-26'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
