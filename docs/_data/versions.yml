@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-28'
-  revision: 1314
+  date: '2026-04-29'
+  revision: 1315
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1047,6 +1047,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-04-28'
     version: '2026-04-27'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-29'
+    version: '2026-04-28'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4827,6 +4830,20 @@ database:
       \ think this is a server error, please contact\nthe <a href=\"mailto:%5bno%20address%20given%5d\"\
       >webmaster</a>.\n\n</p>\n\n<h2>Error 404</h2>\n<address>\n  <a href=\"/\">ftp.ncbi.nih.gov</a><br\
       \ />\n  <span>Apache</span>\n</address>\n</body>\n</html>"
+  - retrieved: '2026-04-29'
+    version: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"\
+      -//W3C//DTD XHTML 1.0 Strict//EN\"\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"\
+      >\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"\
+      >\n<head>\n<title>Object not found!</title>\n<link rev=\"made\" href=\"mailto:webadmin@ncbi.nlm.nih.gov\"\
+      \ />\n<style type=\"text/css\"><!--/*--><![CDATA[/*><!--*/ \n    body { color:\
+      \ #000000; background-color: #FFFFFF; }\n    a:link { color: #0000CC; }\n  \
+      \  p, address {margin-left: 3em;}\n    span {font-size: smaller;}\n/*]]>*/--></style>\n\
+      </head>\n\n<body>\n<h1>Object not found!</h1>\n<p>\n\n\n    The requested URL\
+      \ was not found on this server.\n\n  \n\n    If you entered the URL manually\
+      \ please check your\n    spelling and try again.\n\n  \n\n</p>\n<p>\nIf you\
+      \ think this is a server error, please contact\nthe <a href=\"mailto:webadmin@ncbi.nlm.nih.gov\"\
+      >webmaster</a>.\n\n</p>\n\n<h2>Error 404</h2>\n<address>\n  <a href=\"/\">ftp.ncbi.nih.gov</a><br\
+      \ />\n  <span>Apache</span>\n</address>\n</body>\n</html>"
   vtype: sequential
 - name: Homology Ontology
   prefix: hom
@@ -8013,6 +8030,8 @@ database:
     version: '2026-04-17'
   - retrieved: '2026-04-28'
     version: '2026-04-24'
+  - retrieved: '2026-04-29'
+    version: '2026-04-27'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -10501,6 +10520,8 @@ database:
     version: 8da21bb
   - retrieved: '2026-04-28'
     version: '9937298'
+  - retrieved: '2026-04-29'
+    version: 230a95b
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -12591,6 +12612,8 @@ database:
     version: '2026-04-20'
   - retrieved: '2026-04-28'
     version: '2026-04-28'
+  - retrieved: '2026-04-29'
+    version: '2026-04-29'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16400,6 +16423,8 @@ database:
     version: '2026-04-18'
   - retrieved: '2026-04-28'
     version: '2026-04-26'
+  - retrieved: '2026-04-29'
+    version: '2026-04-27'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
