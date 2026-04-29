@@ -33,7 +33,7 @@ class TestGetter(unittest.TestCase):
         self.assertIsNone(
             g1,
             msg="As of https://github.com/biopragmatics/bioregistry/pull/1935, `orpha` is "
-                "the canonical prefix with the OLS link",
+            "the canonical prefix with the OLS link",
         )
 
         canonical_resource = bioregistry.get_resource("orpha", strict=True)
