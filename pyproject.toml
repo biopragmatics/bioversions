@@ -60,7 +60,7 @@ dependencies = [
     "more_click",
     "pyyaml",
     "tqdm",
-    "bioregistry[align]>=0.13.0",
+    "bioregistry[align]>=0.13.47",
     "lxml",
     "pydantic>=2.0",
     "psycopg2-binary",

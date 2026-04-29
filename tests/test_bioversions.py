@@ -8,6 +8,7 @@ import bioregistry
 
 import bioversions
 from bioversions.sources import BioGRIDGetter, WikiPathwaysGetter, getter_resolver
+from bioversions.sources.ols import make_ols_getter
 from bioversions.utils import get_obo_version, get_obograph_json_version, get_owl_xml_version
 
 YYYYMMDD = re.compile("\\d{4}-\\d{2}-\\d{2}")
@@ -25,11 +26,32 @@ class TestGetter(unittest.TestCase):
             with self.subTest(name=getter.name):
                 self.assertIn(getter.bioregistry_id, prefixes)
 
+    def test_ols(self) -> None:
+        """Test getting getters."""
+        non_canonical_resource = bioregistry.get_resource("orphanet.ordo", strict=True)
+        g1 = make_ols_getter(non_canonical_resource)
+        self.assertIsNone(
+            g1,
+            msg="As of https://github.com/biopragmatics/bioregistry/pull/1935, `orpha` is "
+                "the canonical prefix with the OLS link",
+        )
+
+        canonical_resource = bioregistry.get_resource("orpha", strict=True)
+        g = make_ols_getter(canonical_resource)
+        self.assertIsNotNone(g)
+
+    def test_bad_lookup(self) -> None:
+        """Test looking up a missing key."""
+        self.assertIsNone(bioversions.get_version("asasgaasgagasg", strict=False))
+        with self.assertRaises(KeyError):
+            bioversions.get_version("asasgaasgagasg", strict=True)
+
     def test_get(self) -> None:
         """Test getters."""
         prefixes = [
             "reactome",
             "kegg",
+            "orphanet.ordo",
         ]
         for prefix in prefixes:
             with self.subTest(prefix=prefix):

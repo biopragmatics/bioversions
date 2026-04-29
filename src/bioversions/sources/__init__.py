@@ -155,8 +155,6 @@ __all__ = [
 #: These are broken beyond fixing at the moment
 SKIPPED = {
     DrugBankGetter,
-    PathwayCommonsGetter,
-    DisGeNetGetter,
     # Upper-level classes
     OBOFoundryGetter,
     UnversionedGetter,
@@ -185,8 +183,10 @@ def resolve(name: str | type[Getter], strict: Literal[True] = ...) -> VersionRes
 @lru_cache(None)
 def resolve(name: str | type[Getter], strict: bool = True) -> VersionResult | None:
     """Resolve the database name to a :class:`Bioversion` instance."""
-    getter = getter_resolver.lookup(name)
     try:
+        # this can throw a key error if it can't be looked up
+        getter = getter_resolver.lookup(name)
+        # this can throw all sorts of errors during resolution
         rv = getter.resolve()
     except Exception:
         if strict:

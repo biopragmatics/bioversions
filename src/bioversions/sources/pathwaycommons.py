@@ -1,12 +1,12 @@
 """A getter for Pathway Commons."""
 
-from bioversions.utils import Getter, VersionType, find_soup_text, get_soup
+from bioversions.utils import Getter, VersionType, get_soup
 
 __all__ = [
     "PathwayCommonsGetter",
 ]
 
-URL = "https://www.pathwaycommons.org/"
+URL = "https://download.baderlab.org/PathwayCommons/PC2/"
 
 
 class PathwayCommonsGetter(Getter):
@@ -18,10 +18,15 @@ class PathwayCommonsGetter(Getter):
     def get(self) -> str:
         """Get the latest Pathway Commons version number."""
         soup = get_soup(URL)
-        boost_text = find_soup_text(soup, {"class": "boost"})
-        boost_text = boost_text[len("Version ") :]
-        boost_text = boost_text.split(":")[0]
-        return boost_text
+        hrefs = {
+            int(anchor.attrs["href"].lstrip("v").rstrip("/"))
+            for anchor in soup.find_all("a")
+            if anchor.attrs is not None
+            and "href" in anchor.attrs
+            and isinstance(anchor.attrs["href"], str)
+            and anchor.attrs["href"].startswith("v")
+        }
+        return str(max(hrefs))
 
 
 if __name__ == "__main__":

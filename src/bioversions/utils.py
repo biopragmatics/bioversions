@@ -48,6 +48,11 @@ IMG = os.path.join(DOCS, "img")
 
 BIOVERSIONS_USER_AGENT = f"bioversions v{VERSION}"
 
+HUMAN_BROWSER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+)
+
 
 def get_soup(
     url: str,

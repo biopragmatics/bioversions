@@ -2,7 +2,7 @@
 
 import re
 
-from bioversions.utils import Getter, VersionType, get_soup
+from bioversions.utils import HUMAN_BROWSER_AGENT, Getter, VersionType, get_soup
 
 __all__ = [
     "FlybaseGetter",
@@ -10,10 +10,6 @@ __all__ = [
 
 URL = "https://s3ftp.flybase.org/releases/"
 PATTERN = re.compile(r"FB\d{4}_\d{2}")
-AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
-)
 
 
 class FlybaseGetter(Getter):
@@ -26,7 +22,7 @@ class FlybaseGetter(Getter):
 
     def get(self) -> str:
         """Get the latest FlyBase version."""
-        soup = get_soup(URL, user_agent=AGENT)
+        soup = get_soup(URL, user_agent=HUMAN_BROWSER_AGENT)
         releases = [
             match.group().removeprefix("FB")
             for anchor_tag in soup.find_all("a", href=True)
