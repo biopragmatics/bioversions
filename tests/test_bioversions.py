@@ -51,7 +51,7 @@ class TestGetter(unittest.TestCase):
         prefixes = [
             "reactome",
             "kegg",
-            "orphanet.ordo",
+            "orpha",
         ]
         for prefix in prefixes:
             with self.subTest(prefix=prefix):
