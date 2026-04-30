@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-04-29'
-  revision: 1315
+  date: '2026-04-30'
+  revision: 1316
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1050,6 +1050,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-04-29'
     version: '2026-04-28'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-04-30'
+    version: '2026-04-29'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2979,6 +2982,8 @@ database:
   - date: '2021-02-01'
     retrieved: '2021-03-06'
     version: '7'
+  - retrieved: '2026-04-30'
+    version: '26.1'
   vtype: sequential
 - name: Drosophila Anatomy Ontology (DAO)
   prefix: fbbt
@@ -5538,6 +5543,9 @@ database:
   - date: '2026-04-01'
     retrieved: '2026-04-01'
     version: '118.0'
+  - date: '2026-05-01'
+    retrieved: '2026-04-30'
+    version: '118.1'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -8032,6 +8040,8 @@ database:
     version: '2026-04-24'
   - retrieved: '2026-04-29'
     version: '2026-04-27'
+  - retrieved: '2026-04-30'
+    version: '2026-04-28'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -8591,6 +8601,12 @@ database:
   - retrieved: '2026-03-19'
     version: '2026-03-16'
   vtype: date
+- name: Orphanet
+  prefix: orpha
+  releases:
+  - retrieved: '2026-04-30'
+    version: '4.8'
+  vtype: semver
 - name: Orphanet Rare Disease Ontology
   prefix: orphanet.ordo
   releases:
@@ -8710,6 +8726,8 @@ database:
     version: '12'
   - retrieved: '2023-03-24'
     version: ''
+  - retrieved: '2026-04-30'
+    version: '14'
   vtype: sequential
 - name: Pathway Ontology
   prefix: pw
@@ -12614,6 +12632,8 @@ database:
     version: '2026-04-28'
   - retrieved: '2026-04-29'
     version: '2026-04-29'
+  - retrieved: '2026-04-30'
+    version: '2026-04-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16425,6 +16445,8 @@ database:
     version: '2026-04-26'
   - retrieved: '2026-04-29'
     version: '2026-04-27'
+  - retrieved: '2026-04-30'
+    version: '2026-04-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

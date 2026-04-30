@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1315,
-    "date": "2026-04-29",
+    "revision": 1316,
+    "date": "2026-04-30",
     "author": "runner"
   },
   "database": [
@@ -1778,6 +1778,11 @@
         {
           "retrieved": "2026-04-29",
           "version": "2026-04-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-04-30",
+          "version": "2026-04-29",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -5261,6 +5266,10 @@
           "retrieved": "2021-03-06",
           "version": "7",
           "date": "2021-02-01"
+        },
+        {
+          "retrieved": "2026-04-30",
+          "version": "26.1"
         }
       ],
       "vtype": "sequential"
@@ -9902,6 +9911,11 @@
           "retrieved": "2026-04-01",
           "version": "118.0",
           "date": "2026-04-01"
+        },
+        {
+          "retrieved": "2026-04-30",
+          "version": "118.1",
+          "date": "2026-05-01"
         }
       ],
       "vtype": "semver_minor"
@@ -14495,6 +14509,10 @@
         {
           "retrieved": "2026-04-29",
           "version": "2026-04-27"
+        },
+        {
+          "retrieved": "2026-04-30",
+          "version": "2026-04-28"
         }
       ],
       "vtype": "date"
@@ -15538,6 +15556,17 @@
       "vtype": "date"
     },
     {
+      "name": "Orphanet",
+      "prefix": "orpha",
+      "releases": [
+        {
+          "retrieved": "2026-04-30",
+          "version": "4.8"
+        }
+      ],
+      "vtype": "semver"
+    },
+    {
       "name": "Orphanet Rare Disease Ontology",
       "prefix": "orphanet.ordo",
       "releases": [
@@ -15756,6 +15785,10 @@
         {
           "retrieved": "2023-03-24",
           "version": ""
+        },
+        {
+          "retrieved": "2026-04-30",
+          "version": "14"
         }
       ],
       "vtype": "sequential"
@@ -23243,6 +23276,10 @@
         {
           "retrieved": "2026-04-29",
           "version": "2026-04-29"
+        },
+        {
+          "retrieved": "2026-04-30",
+          "version": "2026-04-30"
         }
       ],
       "vtype": "date"
@@ -30368,6 +30405,10 @@
         {
           "retrieved": "2026-04-29",
           "version": "2026-04-27"
+        },
+        {
+          "retrieved": "2026-04-30",
+          "version": "2026-04-28"
         }
       ],
       "vtype": "date"
