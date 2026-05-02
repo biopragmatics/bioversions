@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1317,
-    "date": "2026-05-01",
+    "revision": 1318,
+    "date": "2026-05-02",
     "author": "runner"
   },
   "database": [
@@ -1789,6 +1789,11 @@
           "retrieved": "2026-05-01",
           "version": "2026-04-30",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "2026-05-01",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "vtype": "date"
@@ -2427,6 +2432,11 @@
           "retrieved": "2026-04-02",
           "version": "5.0.256",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.256"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "5.0.257",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.257"
         }
       ],
       "vtype": "semver"
@@ -3512,6 +3522,11 @@
           "retrieved": "2026-04-02",
           "version": "251",
           "date": "2026-04-01"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "252",
+          "date": "2026-05-01"
         }
       ],
       "vtype": "sequential"
@@ -3834,6 +3849,10 @@
         {
           "retrieved": "2026-04-02",
           "version": "2026-04-01"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "2026-05-01"
         }
       ],
       "vtype": "date"
@@ -8644,6 +8663,10 @@
         {
           "retrieved": "2026-04-08",
           "version": "2026-04-07"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "2026-05-01"
         }
       ],
       "vtype": "date"
@@ -14528,6 +14551,10 @@
         {
           "retrieved": "2026-05-01",
           "version": "2026-04-29"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "2026-04-30"
         }
       ],
       "vtype": "date"
@@ -16708,6 +16735,12 @@
           "version": "2026-04-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-04-01/",
           "date": "2026-04-01"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "2026-05-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-05-01/",
+          "date": "2026-05-01"
         }
       ],
       "vtype": "date"
@@ -23304,6 +23337,10 @@
         {
           "retrieved": "2026-05-01",
           "version": "2026-05-01"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "2026-05-02"
         }
       ],
       "vtype": "date"
@@ -30437,6 +30474,10 @@
         {
           "retrieved": "2026-05-01",
           "version": "2026-04-29"
+        },
+        {
+          "retrieved": "2026-05-02",
+          "version": "2026-04-30"
         }
       ],
       "vtype": "date"

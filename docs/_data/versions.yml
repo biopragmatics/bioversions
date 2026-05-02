@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-05-01'
-  revision: 1317
+  date: '2026-05-02'
+  revision: 1318
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1056,6 +1056,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-05-01'
     version: '2026-04-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-05-02'
+    version: '2026-05-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1410,6 +1413,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.256
     retrieved: '2026-04-02'
     version: 5.0.256
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.257
+    retrieved: '2026-05-02'
+    version: 5.0.257
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -1995,6 +2001,9 @@ database:
   - date: '2026-04-01'
     retrieved: '2026-04-02'
     version: '251'
+  - date: '2026-05-01'
+    retrieved: '2026-05-02'
+    version: '252'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -2174,6 +2183,8 @@ database:
     version: '2026-03-01'
   - retrieved: '2026-04-02'
     version: '2026-04-01'
+  - retrieved: '2026-05-02'
+    version: '2026-05-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -4814,6 +4825,8 @@ database:
     version: '2026-04-01'
   - retrieved: '2026-04-08'
     version: '2026-04-07'
+  - retrieved: '2026-05-02'
+    version: '2026-05-01'
   vtype: date
 - name: Histopathology Ontology
   prefix: hpath
@@ -8051,6 +8064,8 @@ database:
     version: '2026-04-28'
   - retrieved: '2026-05-01'
     version: '2026-04-29'
+  - retrieved: '2026-05-02'
+    version: '2026-04-30'
   vtype: date
 - name: 'OntoAvida: ontology for Avida digital evolution platform'
   prefix: ontoavida
@@ -9253,6 +9268,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2026-04-01/
     retrieved: '2026-04-02'
     version: '2026-04-01'
+  - date: '2026-05-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2026-05-01/
+    retrieved: '2026-05-02'
+    version: '2026-05-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -12648,6 +12667,8 @@ database:
     version: '2026-04-30'
   - retrieved: '2026-05-01'
     version: '2026-05-01'
+  - retrieved: '2026-05-02'
+    version: '2026-05-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16463,6 +16484,8 @@ database:
     version: '2026-04-28'
   - retrieved: '2026-05-01'
     version: '2026-04-29'
+  - retrieved: '2026-05-02'
+    version: '2026-04-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
