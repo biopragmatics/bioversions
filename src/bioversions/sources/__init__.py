@@ -10,6 +10,7 @@ from typing import Literal, NamedTuple, overload
 
 from class_resolver import ClassResolver
 from tqdm import tqdm
+from tqdm.contrib.concurrent import thread_map
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 from .antibodyregistry import AntibodyRegistryGetter
@@ -254,21 +255,27 @@ def iter_versions(
 ) -> Iterable[VersionResult | VersionFailure]:
     """Iterate over versions, without caching."""
     with logging_redirect_tqdm():
-        getters = tqdm(
-            list(getter_resolver), disable=not use_tqdm, desc="Getting versions", unit="resource"
-        )
-        for cls in getters:
-            getters.set_postfix(name=cls.name)
-            try:
-                yv = resolve(cls, strict=False)
-            except (OSError, AttributeError, ftplib.error_perm) as e:
-                msg = f"[bioversions:{cls.bioregistry_id or cls.name}] failed to resolve: {e}"
-                tqdm.write(msg)
-                yield VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
-            except (ValueError, KeyError) as e:
-                msg = f"[bioversions:{cls.bioregistry_id or cls.name}] issue parsing: {e}"
-                tqdm.write(msg)
-                yield VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
-            else:
-                if yv is not None:
-                    yield yv
+        for yv in thread_map(
+            _safe_resolve,
+            list(getter_resolver),
+            disable=not use_tqdm,
+            desc="Getting versions",
+            unit="resource",
+        ):
+            if yv:
+                yield yv
+
+
+def _safe_resolve(cls: type[Getter]) -> VersionResult | VersionFailure | None:
+    try:
+        yv = resolve(cls, strict=False)
+    except (OSError, AttributeError, ftplib.error_perm) as e:
+        msg = f"[bioversions:{cls.bioregistry_id or cls.name}] failed to resolve: {e}"
+        tqdm.write(msg)
+        return VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
+    except (ValueError, KeyError) as e:
+        msg = f"[bioversions:{cls.bioregistry_id or cls.name}] issue parsing: {e}"
+        tqdm.write(msg)
+        return VersionFailure(cls.name, cls.__name__, msg, traceback.format_exc())
+    else:
+        return yv
