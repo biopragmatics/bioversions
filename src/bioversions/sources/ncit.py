@@ -14,7 +14,7 @@ class NCItGetter(Getter):
 
     bioregistry_id = "ncit"
     name = "National Cancer Institute Thesaurus"
-    date_fmt = "%B %d, %Y"
+    date_fmt = "%Y-%m-%d"
     version_type = VersionType.other
 
     def get(self) -> ReleaseDict:
