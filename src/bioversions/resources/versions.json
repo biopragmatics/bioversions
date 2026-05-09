@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1324,
-    "date": "2026-05-08",
+    "revision": 1325,
+    "date": "2026-05-09",
     "author": "runner"
   },
   "database": [
@@ -35,6 +35,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2025-09-24"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-05"
         }
       ],
       "vtype": "date"
@@ -1814,6 +1818,11 @@
           "retrieved": "2026-05-08",
           "version": "2026-05-07",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-08",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "vtype": "date"
@@ -2150,6 +2159,10 @@
         {
           "retrieved": "2025-10-20",
           "version": "2.8.18a"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2.8.19"
         }
       ],
       "vtype": "semver"
@@ -4119,6 +4132,10 @@
         {
           "retrieved": "2026-04-28",
           "version": "2.272"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-06"
         }
       ],
       "vtype": "date"
@@ -4548,6 +4565,10 @@
         {
           "retrieved": "2025-12-21",
           "version": "2025-12-12"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2025-12-15"
         }
       ],
       "vtype": "date"
@@ -6353,6 +6374,17 @@
       "vtype": "date"
     },
     {
+      "name": "EVORA Ontology",
+      "prefix": "evorao",
+      "releases": [
+        {
+          "retrieved": "2026-05-09",
+          "version": "1.1.68"
+        }
+      ],
+      "vtype": "semver"
+    },
+    {
       "name": "ExPASy",
       "prefix": "ec",
       "releases": [
@@ -6729,6 +6761,10 @@
         {
           "retrieved": "2026-04-28",
           "version": "4.233"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-06"
         }
       ],
       "vtype": "date"
@@ -9124,6 +9160,10 @@
         {
           "retrieved": "2026-04-05",
           "version": "1.5.3"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "1.5.4"
         }
       ],
       "vtype": "date"
@@ -10641,6 +10681,10 @@
         {
           "retrieved": "2026-04-28",
           "version": "2.176"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-06"
         }
       ],
       "vtype": "date"
@@ -11555,6 +11599,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "2026-04-07"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-05"
         }
       ],
       "vtype": "date"
@@ -11696,6 +11744,10 @@
         {
           "retrieved": "2026-04-28",
           "version": "2026-04-24"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-05"
         }
       ],
       "vtype": "date"
@@ -12271,6 +12323,10 @@
         {
           "retrieved": "2025-12-21",
           "version": "2025-12-03"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-05"
         }
       ],
       "vtype": "date"
@@ -14615,6 +14671,10 @@
         {
           "retrieved": "2026-05-08",
           "version": "2026-05-06"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-07"
         }
       ],
       "vtype": "date"
@@ -15981,6 +16041,10 @@
         {
           "retrieved": "2026-01-18",
           "version": "7.97"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-06"
         }
       ],
       "vtype": "date"
@@ -16429,6 +16493,10 @@
         {
           "retrieved": "2025-06-22",
           "version": "2025-06-16"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-06"
         }
       ],
       "vtype": "date"
@@ -18135,6 +18203,10 @@
         {
           "retrieved": "2026-04-28",
           "version": "6.274"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "6.275"
         }
       ],
       "vtype": "date"
@@ -18898,6 +18970,10 @@
         {
           "retrieved": "2023-05-11",
           "version": "1.59"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "1.61"
         }
       ],
       "vtype": "semver"
@@ -19094,6 +19170,17 @@
         },
         {
           "retrieved": "2023-05-11",
+          "version": "2023-03-05"
+        }
+      ],
+      "vtype": "semver"
+    },
+    {
+      "name": "Software Ontology",
+      "prefix": "swo",
+      "releases": [
+        {
+          "retrieved": "2026-05-09",
           "version": "2023-03-05"
         }
       ],
@@ -23434,6 +23521,10 @@
         {
           "retrieved": "2026-05-08",
           "version": "2026-05-08"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-09"
         }
       ],
       "vtype": "date"
@@ -23738,6 +23829,10 @@
         {
           "retrieved": "2026-03-29",
           "version": "2026-03-23"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-04-28"
         }
       ],
       "vtype": "date"
@@ -30599,6 +30694,10 @@
         {
           "retrieved": "2026-05-08",
           "version": "2026-05-06"
+        },
+        {
+          "retrieved": "2026-05-09",
+          "version": "2026-05-07"
         }
       ],
       "vtype": "date"
