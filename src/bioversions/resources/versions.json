@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1326,
-    "date": "2026-05-10",
+    "revision": 1327,
+    "date": "2026-05-11",
     "author": "runner"
   },
   "database": [
@@ -23529,6 +23529,10 @@
         {
           "retrieved": "2026-05-10",
           "version": "2026-05-10"
+        },
+        {
+          "retrieved": "2026-05-11",
+          "version": "2026-05-11"
         }
       ],
       "vtype": "date"
@@ -25561,6 +25565,12 @@
           "version": "20260410",
           "homepage": "http://data.wikipathways.org/20260410/",
           "date": "2026-04-10"
+        },
+        {
+          "retrieved": "2026-05-11",
+          "version": "20260510",
+          "homepage": "http://data.wikipathways.org/20260510/",
+          "date": "2026-05-10"
         }
       ],
       "vtype": "date"
@@ -30706,6 +30716,10 @@
         {
           "retrieved": "2026-05-10",
           "version": "2026-05-08"
+        },
+        {
+          "retrieved": "2026-05-11",
+          "version": "2026-05-09"
         }
       ],
       "vtype": "date"
