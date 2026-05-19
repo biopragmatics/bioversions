@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-05-18'
-  revision: 1334
+  date: '2026-05-19'
+  revision: 1335
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1091,6 +1091,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-05-16'
     version: '2026-05-15'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-05-19'
+    version: '2026-05-18'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2345,6 +2348,8 @@ database:
     version: '2.272'
   - retrieved: '2026-05-09'
     version: '2026-05-06'
+  - retrieved: '2026-05-19'
+    version: '2026-05-09'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3537,6 +3542,8 @@ database:
     version: '2026-01-15'
   - retrieved: '2026-04-10'
     version: '2026-04-05'
+  - retrieved: '2026-05-19'
+    version: '2026-05-15'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -3790,6 +3797,8 @@ database:
     version: '4.233'
   - retrieved: '2026-05-09'
     version: '2026-05-06'
+  - retrieved: '2026-05-19'
+    version: '2026-05-09'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -6541,6 +6550,8 @@ database:
     version: '2026-04-24'
   - retrieved: '2026-05-09'
     version: '2026-05-05'
+  - retrieved: '2026-05-19'
+    version: '2026-05-12'
   vtype: date
 - name: Mouse Developmental Stages
   prefix: mmusdv
@@ -6873,6 +6884,8 @@ database:
     version: '2025-12-03'
   - retrieved: '2026-05-09'
     version: '2026-05-05'
+  - retrieved: '2026-05-19'
+    version: '2026-05-13'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -8438,6 +8451,8 @@ database:
     version: '2025-08-20'
   - retrieved: '2025-11-21'
     version: '2025-10-29'
+  - retrieved: '2026-05-19'
+    version: '2026-05-15'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -8466,6 +8481,8 @@ database:
     version: '2026-03-15'
   - retrieved: '2026-03-26'
     version: '2026-03-21'
+  - retrieved: '2026-05-19'
+    version: '2026-05-14'
   vtype: date
 - name: Ontology of Medically Related Social Entities
   prefix: omrse
@@ -8880,6 +8897,8 @@ database:
     version: '7.97'
   - retrieved: '2026-05-09'
     version: '2026-05-06'
+  - retrieved: '2026-05-19'
+    version: '2026-05-09'
   vtype: date
 - name: PATO
   prefix: pato
@@ -9493,6 +9512,8 @@ database:
     version: '2026-02-23'
   - retrieved: '2026-03-16'
     version: '2026-03-05'
+  - retrieved: '2026-05-19'
+    version: '2026-04-28'
   vtype: date
 - name: PROV Namespace
   prefix: prov
@@ -9965,6 +9986,8 @@ database:
     version: '2026-05-02'
   - retrieved: '2026-05-12'
     version: '2026-05-09'
+  - retrieved: '2026-05-19'
+    version: '2026-05-15'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -10065,6 +10088,8 @@ database:
     version: '6.274'
   - retrieved: '2026-05-09'
     version: '6.275'
+  - retrieved: '2026-05-19'
+    version: '2026-05-09'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -12804,6 +12829,8 @@ database:
     version: '2026-05-17'
   - retrieved: '2026-05-18'
     version: '2026-05-18'
+  - retrieved: '2026-05-19'
+    version: '2026-05-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13502,6 +13529,8 @@ database:
     version: '2026-01-23'
   - retrieved: '2026-03-16'
     version: '2026-03-06'
+  - retrieved: '2026-05-19'
+    version: '2026-05-07'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -16659,6 +16688,8 @@ database:
     version: '2026-05-15'
   - retrieved: '2026-05-18'
     version: '2026-05-16'
+  - retrieved: '2026-05-19'
+    version: '2026-05-17'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

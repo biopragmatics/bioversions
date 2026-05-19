@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1334,
-    "date": "2026-05-18",
+    "revision": 1335,
+    "date": "2026-05-19",
     "author": "runner"
   },
   "database": [
@@ -1847,6 +1847,11 @@
         {
           "retrieved": "2026-05-16",
           "version": "2026-05-15",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-18",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4161,6 +4166,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "2026-05-06"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-09"
         }
       ],
       "vtype": "date"
@@ -6296,6 +6305,10 @@
         {
           "retrieved": "2026-04-10",
           "version": "2026-04-05"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-15"
         }
       ],
       "vtype": "date"
@@ -6790,6 +6803,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "2026-05-06"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-09"
         }
       ],
       "vtype": "date"
@@ -11773,6 +11790,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "2026-05-05"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-12"
         }
       ],
       "vtype": "date"
@@ -12352,6 +12373,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "2026-05-05"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-13"
         }
       ],
       "vtype": "date"
@@ -15265,6 +15290,10 @@
         {
           "retrieved": "2025-11-21",
           "version": "2025-10-29"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-15"
         }
       ],
       "vtype": "date"
@@ -15318,6 +15347,10 @@
         {
           "retrieved": "2026-03-26",
           "version": "2026-03-21"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-14"
         }
       ],
       "vtype": "date"
@@ -16070,6 +16103,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "2026-05-06"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-09"
         }
       ],
       "vtype": "date"
@@ -17144,6 +17181,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-05"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-04-28"
         }
       ],
       "vtype": "date"
@@ -18037,6 +18078,10 @@
         {
           "retrieved": "2026-05-12",
           "version": "2026-05-09"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-15"
         }
       ],
       "vtype": "date"
@@ -18236,6 +18281,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "6.275"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-09"
         }
       ],
       "vtype": "date"
@@ -23594,6 +23643,10 @@
         {
           "retrieved": "2026-05-18",
           "version": "2026-05-18"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-19"
         }
       ],
       "vtype": "date"
@@ -24903,6 +24956,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-06"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-07"
         }
       ],
       "vtype": "semver"
@@ -30805,6 +30862,10 @@
         {
           "retrieved": "2026-05-18",
           "version": "2026-05-16"
+        },
+        {
+          "retrieved": "2026-05-19",
+          "version": "2026-05-17"
         }
       ],
       "vtype": "date"
