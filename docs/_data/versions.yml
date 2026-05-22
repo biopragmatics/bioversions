@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-05-21'
-  revision: 1337
+  date: '2026-05-22'
+  revision: 1338
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1100,6 +1100,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-05-21'
     version: '2026-05-20'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-05-22'
+    version: '2026-05-21'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3805,6 +3808,8 @@ database:
     version: '2026-05-06'
   - retrieved: '2026-05-19'
     version: '2026-05-09'
+  - retrieved: '2026-05-22'
+    version: '2026-05-16'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -3925,6 +3930,8 @@ database:
     version: 3.88.0
   - retrieved: '2026-04-19'
     version: 3.89.0
+  - retrieved: '2026-05-22'
+    version: 3.90.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -5767,6 +5774,8 @@ database:
     version: '2026-03-24'
   - retrieved: '2026-04-28'
     version: '2026-04-22'
+  - retrieved: '2026-05-22'
+    version: '2026-05-19'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -8249,6 +8258,8 @@ database:
     version: '2025-12-18'
   - retrieved: '2026-04-10'
     version: '2026-03-19'
+  - retrieved: '2026-05-22'
+    version: '2026-05-08'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -8905,6 +8916,8 @@ database:
     version: '2026-05-06'
   - retrieved: '2026-05-19'
     version: '2026-05-09'
+  - retrieved: '2026-05-22'
+    version: '2026-05-16'
   vtype: date
 - name: PATO
   prefix: pato
@@ -10096,6 +10109,8 @@ database:
     version: '6.275'
   - retrieved: '2026-05-19'
     version: '2026-05-09'
+  - retrieved: '2026-05-22'
+    version: '2026-05-16'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -12841,6 +12856,8 @@ database:
     version: '2026-05-20'
   - retrieved: '2026-05-21'
     version: '2026-05-21'
+  - retrieved: '2026-05-22'
+    version: '2026-05-22'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16704,6 +16721,8 @@ database:
     version: '2026-05-18'
   - retrieved: '2026-05-21'
     version: '2026-05-19'
+  - retrieved: '2026-05-22'
+    version: '2026-05-20'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
