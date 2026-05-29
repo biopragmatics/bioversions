@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-05-28'
-  revision: 1344
+  date: '2026-05-29'
+  revision: 1345
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1115,6 +1115,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-05-28'
     version: '2026-05-27'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-05-29'
+    version: '2026-05-28'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4557,6 +4560,10 @@ database:
     homepage: http://archive.geneontology.org/full/2026-03-25/
     retrieved: '2026-04-03'
     version: '2026-03-25'
+  - date: '2026-05-19'
+    homepage: http://archive.geneontology.org/full/2026-05-19/
+    retrieved: '2026-05-29'
+    version: '2026-05-19'
   vtype: date
 - name: GENO ontology
   prefix: geno
@@ -5660,6 +5667,9 @@ database:
   - date: '2026-05-01'
     retrieved: '2026-04-30'
     version: '118.1'
+  - date: '2026-06-01'
+    retrieved: '2026-05-29'
+    version: '118.2'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -10740,6 +10750,8 @@ database:
     version: 230a95b
   - retrieved: '2026-05-15'
     version: 0527b2d
+  - retrieved: '2026-05-29'
+    version: 3dfd9aa
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -12890,6 +12902,8 @@ database:
     version: '2026-05-27'
   - retrieved: '2026-05-28'
     version: '2026-05-28'
+  - retrieved: '2026-05-29'
+    version: '2026-05-29'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16767,6 +16781,8 @@ database:
     version: '2026-05-25'
   - retrieved: '2026-05-28'
     version: '2026-05-26'
+  - retrieved: '2026-05-29'
+    version: '2026-05-27'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
