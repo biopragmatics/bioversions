@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1346,
-    "date": "2026-05-30",
+    "revision": 1347,
+    "date": "2026-05-31",
     "author": "runner"
   },
   "database": [
@@ -5415,6 +5415,12 @@
           "version": "2026-04-30",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-04-30",
           "date": "2026-04-30"
+        },
+        {
+          "retrieved": "2026-05-31",
+          "version": "2026-05-30",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-05-30",
+          "date": "2026-05-30"
         }
       ],
       "vtype": "date"
@@ -23798,6 +23804,10 @@
         {
           "retrieved": "2026-05-30",
           "version": "2026-05-30"
+        },
+        {
+          "retrieved": "2026-05-31",
+          "version": "2026-05-31"
         }
       ],
       "vtype": "date"
@@ -31061,6 +31071,10 @@
         {
           "retrieved": "2026-05-30",
           "version": "2026-05-28"
+        },
+        {
+          "retrieved": "2026-05-31",
+          "version": "2026-05-29"
         }
       ],
       "vtype": "date"
