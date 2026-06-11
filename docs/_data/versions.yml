@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-06-10'
-  revision: 1357
+  date: '2026-06-11'
+  revision: 1358
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1142,6 +1142,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-06-10'
     version: '2026-06-09'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-06-11'
+    version: '2026-06-10'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3509,6 +3512,10 @@ database:
     homepage: https://www.ensembl.org
     retrieved: '2025-09-03'
     version: '115'
+  - date: '2026-06-01'
+    homepage: https://www.ensembl.org
+    retrieved: '2026-06-11'
+    version: '116'
   vtype: sequential
 - name: Ensembl Glossary
   prefix: ensemblglossary
@@ -13015,6 +13022,8 @@ database:
     version: '2026-06-09'
   - retrieved: '2026-06-10'
     version: '2026-06-10'
+  - retrieved: '2026-06-11'
+    version: '2026-06-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14144,6 +14153,10 @@ database:
     homepage: http://data.wikipathways.org/20260510/
     retrieved: '2026-05-11'
     version: '20260510'
+  - date: '2026-06-10'
+    homepage: http://data.wikipathways.org/20260610/
+    retrieved: '2026-06-11'
+    version: '20260610'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -16924,6 +16937,8 @@ database:
     version: '2026-06-07'
   - retrieved: '2026-06-10'
     version: '2026-06-08'
+  - retrieved: '2026-06-11'
+    version: '2026-06-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

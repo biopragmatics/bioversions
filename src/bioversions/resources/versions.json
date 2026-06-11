@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1357,
-    "date": "2026-06-10",
+    "revision": 1358,
+    "date": "2026-06-11",
     "author": "runner"
   },
   "database": [
@@ -1932,6 +1932,11 @@
         {
           "retrieved": "2026-06-10",
           "version": "2026-06-09",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-06-11",
+          "version": "2026-06-10",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -6224,6 +6229,12 @@
           "version": "115",
           "homepage": "https://www.ensembl.org",
           "date": "2025-09-01"
+        },
+        {
+          "retrieved": "2026-06-11",
+          "version": "116",
+          "homepage": "https://www.ensembl.org",
+          "date": "2026-06-01"
         }
       ],
       "vtype": "sequential"
@@ -23984,6 +23995,10 @@
         {
           "retrieved": "2026-06-10",
           "version": "2026-06-10"
+        },
+        {
+          "retrieved": "2026-06-11",
+          "version": "2026-06-11"
         }
       ],
       "vtype": "date"
@@ -26030,6 +26045,12 @@
           "version": "20260510",
           "homepage": "http://data.wikipathways.org/20260510/",
           "date": "2026-05-10"
+        },
+        {
+          "retrieved": "2026-06-11",
+          "version": "20260610",
+          "homepage": "http://data.wikipathways.org/20260610/",
+          "date": "2026-06-10"
         }
       ],
       "vtype": "date"
@@ -31303,6 +31324,10 @@
         {
           "retrieved": "2026-06-10",
           "version": "2026-06-08"
+        },
+        {
+          "retrieved": "2026-06-11",
+          "version": "2026-06-09"
         }
       ],
       "vtype": "date"
