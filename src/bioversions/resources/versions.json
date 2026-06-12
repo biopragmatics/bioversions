@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1358,
-    "date": "2026-06-11",
+    "revision": 1359,
+    "date": "2026-06-12",
     "author": "runner"
   },
   "database": [
@@ -1937,6 +1937,11 @@
         {
           "retrieved": "2026-06-11",
           "version": "2026-06-10",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-06-12",
+          "version": "2026-06-11",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -6652,6 +6657,10 @@
         {
           "retrieved": "2026-01-29",
           "version": "2026-01-28"
+        },
+        {
+          "retrieved": "2026-06-12",
+          "version": "2026-06-10"
         }
       ],
       "vtype": "date"
@@ -9856,6 +9865,12 @@
           "version": "108.0",
           "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/108.0/",
           "date": "2026-01-29"
+        },
+        {
+          "retrieved": "2026-06-12",
+          "version": "109.0",
+          "homepage": "ftp://ftp.ebi.ac.uk/pub/databases/interpro/109.0/",
+          "date": "2026-06-11"
         }
       ],
       "vtype": "semver_minor"
@@ -18933,6 +18948,11 @@
           "retrieved": "2026-01-29",
           "version": "140",
           "date": "2026-01-21"
+        },
+        {
+          "retrieved": "2026-06-12",
+          "version": "141",
+          "date": "2026-06-10"
         }
       ],
       "vtype": "date"
@@ -23999,6 +24019,10 @@
         {
           "retrieved": "2026-06-11",
           "version": "2026-06-11"
+        },
+        {
+          "retrieved": "2026-06-12",
+          "version": "2026-06-12"
         }
       ],
       "vtype": "date"
@@ -31328,6 +31352,10 @@
         {
           "retrieved": "2026-06-11",
           "version": "2026-06-09"
+        },
+        {
+          "retrieved": "2026-06-12",
+          "version": "2026-06-10"
         }
       ],
       "vtype": "date"

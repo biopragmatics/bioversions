@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-06-11'
-  revision: 1358
+  date: '2026-06-12'
+  revision: 1359
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1145,6 +1145,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-06-11'
     version: '2026-06-10'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-06-12'
+    version: '2026-06-11'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3733,6 +3736,8 @@ database:
     version: '2025-10-15'
   - retrieved: '2026-01-29'
     version: '2026-01-28'
+  - retrieved: '2026-06-12'
+    version: '2026-06-10'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -5521,6 +5526,10 @@ database:
     homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/108.0/
     retrieved: '2026-01-30'
     version: '108.0'
+  - date: '2026-06-11'
+    homepage: ftp://ftp.ebi.ac.uk/pub/databases/interpro/109.0/
+    retrieved: '2026-06-12'
+    version: '109.0'
   vtype: semver_minor
 - name: ITIS
   prefix: itis
@@ -10450,6 +10459,9 @@ database:
   - date: '2026-01-21'
     retrieved: '2026-01-29'
     version: '140'
+  - date: '2026-06-10'
+    retrieved: '2026-06-12'
+    version: '141'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -13024,6 +13036,8 @@ database:
     version: '2026-06-10'
   - retrieved: '2026-06-11'
     version: '2026-06-11'
+  - retrieved: '2026-06-12'
+    version: '2026-06-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16939,6 +16953,8 @@ database:
     version: '2026-06-08'
   - retrieved: '2026-06-11'
     version: '2026-06-09'
+  - retrieved: '2026-06-12'
+    version: '2026-06-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
