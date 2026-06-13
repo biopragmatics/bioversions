@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1359,
-    "date": "2026-06-12",
+    "revision": 1360,
+    "date": "2026-06-13",
     "author": "runner"
   },
   "database": [
@@ -1942,6 +1942,11 @@
         {
           "retrieved": "2026-06-12",
           "version": "2026-06-11",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-06-13",
+          "version": "2026-06-12",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -24023,6 +24028,10 @@
         {
           "retrieved": "2026-06-12",
           "version": "2026-06-12"
+        },
+        {
+          "retrieved": "2026-06-13",
+          "version": "2026-06-13"
         }
       ],
       "vtype": "date"
@@ -25132,6 +25141,12 @@
           "version": "2026_01",
           "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2026_01/",
           "date": "2026-01-01"
+        },
+        {
+          "retrieved": "2026-06-13",
+          "version": "2026_02",
+          "homepage": "ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2026_02/",
+          "date": "2026-02-01"
         }
       ],
       "vtype": "month"
