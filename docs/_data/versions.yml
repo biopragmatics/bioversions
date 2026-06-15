@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-06-14'
-  revision: 1361
+  date: '2026-06-15'
+  revision: 1362
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -13050,6 +13050,8 @@ database:
     version: '2026-06-13'
   - retrieved: '2026-06-14'
     version: '2026-06-14'
+  - retrieved: '2026-06-15'
+    version: '2026-06-15'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -16973,6 +16975,8 @@ database:
     version: '2026-06-10'
   - retrieved: '2026-06-14'
     version: '2026-06-12'
+  - retrieved: '2026-06-15'
+    version: '2026-06-13'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
