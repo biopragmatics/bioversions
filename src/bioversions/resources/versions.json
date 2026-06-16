@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1362,
-    "date": "2026-06-15",
+    "revision": 1363,
+    "date": "2026-06-16",
     "author": "runner"
   },
   "database": [
@@ -1952,6 +1952,11 @@
         {
           "retrieved": "2026-06-14",
           "version": "2026-06-13",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-06-16",
+          "version": "2026-06-15",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8693,6 +8698,12 @@
           "version": "2026.1",
           "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2026.1.zip",
           "date": "2025-12-10"
+        },
+        {
+          "retrieved": "2026-06-16",
+          "version": "2026.2",
+          "homepage": "https://www.guidetopharmacology.org/DATA/public_iuphardb_v2026.2.zip",
+          "date": "2026-06-15"
         }
       ],
       "vtype": "year_minor"
@@ -18350,6 +18361,10 @@
         {
           "retrieved": "2026-06-09",
           "version": "2026-06-05"
+        },
+        {
+          "retrieved": "2026-06-16",
+          "version": "2026-06-13"
         }
       ],
       "vtype": "date"
@@ -24049,6 +24064,10 @@
         {
           "retrieved": "2026-06-15",
           "version": "2026-06-15"
+        },
+        {
+          "retrieved": "2026-06-16",
+          "version": "2026-06-16"
         }
       ],
       "vtype": "date"
@@ -31396,6 +31415,10 @@
         {
           "retrieved": "2026-06-15",
           "version": "2026-06-13"
+        },
+        {
+          "retrieved": "2026-06-16",
+          "version": "2026-06-14"
         }
       ],
       "vtype": "date"
