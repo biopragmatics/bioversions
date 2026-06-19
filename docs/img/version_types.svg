@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-06-18T03:24:08.485395</dc:date>
+    <dc:date>2026-06-19T03:46:03.908842</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -665,8 +665,17 @@ z
     </g>
    </g>
    <g id="text_10">
+    <!-- year -->
+    <g style="fill: #262626" transform="translate(348.45511 111.667097) scale(0.11 -0.11)">
+     <use xlink:href="#DejaVuSans-5c"/>
+     <use xlink:href="#DejaVuSans-48" transform="translate(59.1875 0)"/>
+     <use xlink:href="#DejaVuSans-44" transform="translate(120.71875 0)"/>
+     <use xlink:href="#DejaVuSans-55" transform="translate(182 0)"/>
+    </g>
+   </g>
+   <g id="text_11">
     <!-- daily -->
-    <g style="fill: #262626" transform="translate(348.45511 111.667527) scale(0.11 -0.11)">
+    <g style="fill: #262626" transform="translate(346.992729 108.850848) scale(0.11 -0.11)">
      <use xlink:href="#DejaVuSans-47"/>
      <use xlink:href="#DejaVuSans-44" transform="translate(63.484375 0)"/>
      <use xlink:href="#DejaVuSans-4c" transform="translate(124.765625 0)"/>
@@ -674,9 +683,9 @@ z
      <use xlink:href="#DejaVuSans-5c" transform="translate(180.328125 0)"/>
     </g>
    </g>
-   <g id="text_11">
+   <g id="text_12">
     <!-- static -->
-    <g style="fill: #262626" transform="translate(346.992729 108.850848) scale(0.11 -0.11)">
+    <g style="fill: #262626" transform="translate(345.467738 106.06757) scale(0.11 -0.11)">
      <defs>
       <path id="DejaVuSans-46" d="M 3122 3366 
 L 3122 2828 
@@ -706,15 +715,6 @@ z
      <use xlink:href="#DejaVuSans-57" transform="translate(152.578125 0)"/>
      <use xlink:href="#DejaVuSans-4c" transform="translate(191.78125 0)"/>
      <use xlink:href="#DejaVuSans-46" transform="translate(219.5625 0)"/>
-    </g>
-   </g>
-   <g id="text_12">
-    <!-- year -->
-    <g style="fill: #262626" transform="translate(345.467738 106.06714) scale(0.11 -0.11)">
-     <use xlink:href="#DejaVuSans-5c"/>
-     <use xlink:href="#DejaVuSans-48" transform="translate(59.1875 0)"/>
-     <use xlink:href="#DejaVuSans-44" transform="translate(120.71875 0)"/>
-     <use xlink:href="#DejaVuSans-55" transform="translate(182 0)"/>
     </g>
    </g>
    <g id="text_13">
