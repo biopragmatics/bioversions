@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1372,
-    "date": "2026-06-25",
+    "revision": 1373,
+    "date": "2026-06-26",
     "author": "runner"
   },
   "database": [
@@ -39,6 +39,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "2026-05-05"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-16"
         }
       ],
       "vtype": "date"
@@ -1998,6 +2002,11 @@
           "retrieved": "2026-06-25",
           "version": "2026-06-24",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-25",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "vtype": "date"
@@ -2167,6 +2176,10 @@
         {
           "retrieved": "2026-05-24",
           "version": "2026-05-21"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-16"
         }
       ],
       "vtype": "date"
@@ -3219,6 +3232,10 @@
         {
           "retrieved": "2024-08-11",
           "version": "2.1.188"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-19"
         }
       ],
       "vtype": "semver"
@@ -3400,6 +3417,10 @@
         {
           "retrieved": "2026-04-05",
           "version": "2026-03-26"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-08"
         }
       ],
       "vtype": "date"
@@ -3481,6 +3502,11 @@
           "retrieved": "2026-04-01",
           "version": "55.0",
           "date": "2026-03-31"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "56.0",
+          "date": "2026-06-25"
         }
       ],
       "vtype": "sequential"
@@ -4444,6 +4470,10 @@
         {
           "retrieved": "2021-10-01",
           "version": "2021-09-27"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-16"
         }
       ],
       "vtype": "date"
@@ -4686,6 +4716,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-15"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-10"
         }
       ],
       "vtype": "date"
@@ -5794,6 +5828,10 @@
         {
           "retrieved": "2026-04-10",
           "version": "2026-04-03"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-11"
         }
       ],
       "vtype": "date"
@@ -7007,6 +7045,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-05-30"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-13"
         }
       ],
       "vtype": "date"
@@ -7250,6 +7292,10 @@
         {
           "retrieved": "2026-05-22",
           "version": "3.90.0"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "3.91.0"
         }
       ],
       "vtype": "semver"
@@ -9389,6 +9435,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-16"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-06"
         }
       ],
       "vtype": "date"
@@ -10568,6 +10618,10 @@
         {
           "retrieved": "2026-05-22",
           "version": "2026-05-19"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-17"
         }
       ],
       "vtype": "date"
@@ -10754,6 +10808,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "4.1.248"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "4.1.255"
         }
       ],
       "vtype": "date"
@@ -10987,6 +11045,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-05-30"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-20"
         }
       ],
       "vtype": "date"
@@ -12062,6 +12124,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-05-29"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-08"
         }
       ],
       "vtype": "date"
@@ -15873,6 +15939,10 @@
         {
           "retrieved": "2024-03-25",
           "version": "1.0.166"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-20"
         }
       ],
       "vtype": "semver"
@@ -17555,6 +17625,10 @@
         {
           "retrieved": "2026-06-10",
           "version": "1.035.0"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "1.037.0"
         }
       ],
       "vtype": "date"
@@ -18630,6 +18704,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-05-30"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-20"
         }
       ],
       "vtype": "date"
@@ -19380,6 +19458,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-06-02"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-10"
         }
       ],
       "vtype": "date"
@@ -24158,6 +24240,10 @@
         {
           "retrieved": "2026-06-25",
           "version": "2026-06-25"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-26"
         }
       ],
       "vtype": "date"
@@ -24212,6 +24298,17 @@
         {
           "retrieved": "2024-05-26",
           "version": "2024-05-17"
+        }
+      ],
+      "vtype": "date"
+    },
+    {
+      "name": "Systematized Nomenclature of Medicine - Clinical Terms",
+      "prefix": "snomedct",
+      "releases": [
+        {
+          "retrieved": "2026-06-26",
+          "version": "20251017"
         }
       ],
       "vtype": "date"
@@ -24584,6 +24681,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-04"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-04"
         }
       ],
       "vtype": "date"
@@ -24707,6 +24808,10 @@
         {
           "retrieved": "2021-06-14",
           "version": "2021-06-08"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-09"
         }
       ],
       "vtype": "date"
@@ -25292,6 +25397,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026_01"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026_02"
         }
       ],
       "vtype": "missing"
@@ -25477,6 +25586,10 @@
         {
           "retrieved": "2026-05-19",
           "version": "2026-05-07"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-12"
         }
       ],
       "vtype": "semver"
@@ -25775,6 +25888,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-05-29"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-12"
         }
       ],
       "vtype": "date"
@@ -31545,6 +31662,10 @@
         {
           "retrieved": "2026-06-25",
           "version": "2026-06-23"
+        },
+        {
+          "retrieved": "2026-06-26",
+          "version": "2026-06-24"
         }
       ],
       "vtype": "date"
