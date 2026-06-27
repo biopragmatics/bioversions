@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1373,
-    "date": "2026-06-26",
+    "revision": 1374,
+    "date": "2026-06-27",
     "author": "runner"
   },
   "database": [
@@ -2006,6 +2006,11 @@
         {
           "retrieved": "2026-06-26",
           "version": "2026-06-25",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-06-27",
+          "version": "2026-06-26",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -8402,6 +8407,12 @@
           "version": "2026-05-19",
           "homepage": "http://archive.geneontology.org/full/2026-05-19/",
           "date": "2026-05-19"
+        },
+        {
+          "retrieved": "2026-06-27",
+          "version": "2026-06-15",
+          "homepage": "http://archive.geneontology.org/full/2026-06-15/",
+          "date": "2026-06-15"
         }
       ],
       "vtype": "date"
@@ -24244,6 +24255,10 @@
         {
           "retrieved": "2026-06-26",
           "version": "2026-06-26"
+        },
+        {
+          "retrieved": "2026-06-27",
+          "version": "2026-06-27"
         }
       ],
       "vtype": "date"
@@ -31666,6 +31681,10 @@
         {
           "retrieved": "2026-06-26",
           "version": "2026-06-24"
+        },
+        {
+          "retrieved": "2026-06-27",
+          "version": "2026-06-25"
         }
       ],
       "vtype": "date"
