@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-06-30'
-  revision: 1377
+  date: '2026-07-01'
+  revision: 1378
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1192,6 +1192,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-06-30'
     version: '2026-06-29'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-07-01'
+    version: '2026-06-30'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -5809,6 +5812,9 @@ database:
   - date: '2026-06-01'
     retrieved: '2026-05-29'
     version: '118.2'
+  - date: '2026-07-01'
+    retrieved: '2026-07-01'
+    version: '119.0'
   vtype: semver_minor
 - name: Kinetic Simulation Algorithm Ontology
   prefix: biomodels.kisao
@@ -9920,6 +9926,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-06-01
     retrieved: '2026-06-01'
     version: '2026-06-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-07-01
+    retrieved: '2026-07-01'
+    version: '2026-07-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -10390,6 +10399,8 @@ database:
     version: '95'
   - retrieved: '2026-04-03'
     version: '96'
+  - retrieved: '2026-07-01'
+    version: '97'
   vtype: sequential
 - name: Regulation of Gene Expression Ontology
   prefix: rexo
@@ -13177,6 +13188,8 @@ database:
     version: '2026-06-29'
   - retrieved: '2026-06-30'
     version: '2026-06-30'
+  - retrieved: '2026-07-01'
+    version: '2026-07-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17148,6 +17161,8 @@ database:
     version: '2026-06-27'
   - retrieved: '2026-06-30'
     version: '2026-06-28'
+  - retrieved: '2026-07-01'
+    version: '2026-06-29'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
