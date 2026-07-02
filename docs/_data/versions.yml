@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-07-01'
-  revision: 1378
+  date: '2026-07-02'
+  revision: 1379
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1195,6 +1195,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-07-01'
     version: '2026-06-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-07-02'
+    version: '2026-07-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2345,6 +2348,8 @@ database:
     version: '2026-05-01'
   - retrieved: '2026-06-01'
     version: '2026-06-01'
+  - retrieved: '2026-07-02'
+    version: '2026-07-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -3170,6 +3175,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-05-30
     retrieved: '2026-05-31'
     version: '2026-05-30'
+  - date: '2026-06-30'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-06-30
+    retrieved: '2026-07-02'
+    version: '2026-06-30'
   vtype: date
 - name: DisGeNet
   releases:
@@ -5709,6 +5718,8 @@ database:
     version: '2026-05-04'
   - retrieved: '2026-05-30'
     version: '2026-05-27'
+  - retrieved: '2026-07-02'
+    version: '2026-06-26'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -7045,6 +7056,9 @@ database:
   - date: '2026-06-22'
     retrieved: '2026-06-24'
     version: 26.06d
+  - date: '2026-06-29'
+    retrieved: '2026-07-02'
+    version: 26.06e
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -9600,6 +9614,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2026-06-01/
     retrieved: '2026-06-01'
     version: '2026-06-01'
+  - date: '2026-07-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2026-07-01/
+    retrieved: '2026-07-02'
+    version: '2026-07-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -10860,6 +10878,8 @@ database:
     version: '2026-01-01'
   - retrieved: '2026-04-02'
     version: '2026-04-01'
+  - retrieved: '2026-07-02'
+    version: '2026-07-01'
   vtype: date
 - name: SILVA ribosomal RNA database
   prefix: silva.taxon
@@ -13190,6 +13210,8 @@ database:
     version: '2026-06-30'
   - retrieved: '2026-07-01'
     version: '2026-07-01'
+  - retrieved: '2026-07-02'
+    version: '2026-07-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17163,6 +17185,8 @@ database:
     version: '2026-06-28'
   - retrieved: '2026-07-01'
     version: '2026-06-29'
+  - retrieved: '2026-07-02'
+    version: '2026-06-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1378,
-    "date": "2026-07-01",
+    "revision": 1379,
+    "date": "2026-07-02",
     "author": "runner"
   },
   "database": [
@@ -2021,6 +2021,11 @@
         {
           "retrieved": "2026-07-01",
           "version": "2026-06-30",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-07-01",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4125,6 +4130,10 @@
         {
           "retrieved": "2026-06-01",
           "version": "2026-06-01"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-07-01"
         }
       ],
       "vtype": "date"
@@ -5587,6 +5596,12 @@
           "version": "2026-05-30",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-05-30",
           "date": "2026-05-30"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-06-30",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-06-30",
+          "date": "2026-06-30"
         }
       ],
       "vtype": "date"
@@ -10207,6 +10222,10 @@
         {
           "retrieved": "2026-05-30",
           "version": "2026-05-27"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-06-26"
         }
       ],
       "vtype": "date"
@@ -12643,6 +12662,11 @@
           "retrieved": "2026-06-24",
           "version": "26.06d",
           "date": "2026-06-22"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "26.06e",
+          "date": "2026-06-29"
         }
       ],
       "vtype": "other"
@@ -17324,6 +17348,12 @@
           "version": "2026-06-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-06-01/",
           "date": "2026-06-01"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-07-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-07-01/",
+          "date": "2026-07-01"
         }
       ],
       "vtype": "date"
@@ -19663,6 +19693,10 @@
         {
           "retrieved": "2026-04-02",
           "version": "2026-04-01"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-07-01"
         }
       ],
       "vtype": "date"
@@ -24303,6 +24337,10 @@
         {
           "retrieved": "2026-07-01",
           "version": "2026-07-01"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-07-02"
         }
       ],
       "vtype": "date"
@@ -31745,6 +31783,10 @@
         {
           "retrieved": "2026-07-01",
           "version": "2026-06-29"
+        },
+        {
+          "retrieved": "2026-07-02",
+          "version": "2026-06-30"
         }
       ],
       "vtype": "date"
