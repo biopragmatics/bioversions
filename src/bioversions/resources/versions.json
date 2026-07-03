@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1379,
-    "date": "2026-07-02",
+    "revision": 1380,
+    "date": "2026-07-03",
     "author": "runner"
   },
   "database": [
@@ -2027,6 +2027,11 @@
           "retrieved": "2026-07-02",
           "version": "2026-07-01",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-07-03",
+          "version": "2026-07-02",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "vtype": "date"
@@ -2687,6 +2692,11 @@
           "retrieved": "2026-06-02",
           "version": "5.0.258",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.258"
+        },
+        {
+          "retrieved": "2026-07-03",
+          "version": "5.0.259",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.259"
         }
       ],
       "vtype": "semver"
@@ -24341,6 +24351,10 @@
         {
           "retrieved": "2026-07-02",
           "version": "2026-07-02"
+        },
+        {
+          "retrieved": "2026-07-03",
+          "version": "2026-07-03"
         }
       ],
       "vtype": "date"
@@ -31787,6 +31801,10 @@
         {
           "retrieved": "2026-07-02",
           "version": "2026-06-30"
+        },
+        {
+          "retrieved": "2026-07-03",
+          "version": "2026-07-01"
         }
       ],
       "vtype": "date"
