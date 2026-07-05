@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-07-04'
-  revision: 1381
+  date: '2026-07-05'
+  revision: 1382
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1204,6 +1204,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-07-04'
     version: '2026-07-03'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-07-05'
+    version: '2026-07-04'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1599,6 +1602,8 @@ database:
     version: '2026-01-23'
   - retrieved: '2026-04-05'
     version: '2026-03-30'
+  - retrieved: '2026-07-05'
+    version: '2026-06-25'
   vtype: date
 - name: Biological Spatial Ontology
   prefix: bspo
@@ -5302,6 +5307,8 @@ database:
     version: '2026-02-16'
   - retrieved: '2026-06-26'
     version: '2026-06-06'
+  - retrieved: '2026-07-05'
+    version: '2026-06-23'
   vtype: date
 - name: Human Reference Atlas Common Coordinate Framework Ontology
   prefix: ccf
@@ -13227,6 +13234,8 @@ database:
     version: '2026-07-03'
   - retrieved: '2026-07-04'
     version: '2026-07-04'
+  - retrieved: '2026-07-05'
+    version: '2026-07-05'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13650,6 +13659,8 @@ database:
     version: '2025-12-04'
   - retrieved: '2026-04-10'
     version: '2026-04-01'
+  - retrieved: '2026-07-05'
+    version: '2026-06-19'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -14099,6 +14110,8 @@ database:
     version: '2026-05-29'
   - retrieved: '2026-06-26'
     version: '2026-06-12'
+  - retrieved: '2026-07-05'
+    version: '2026-06-24'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -17206,6 +17219,8 @@ database:
     version: '2026-07-01'
   - retrieved: '2026-07-04'
     version: '2026-07-02'
+  - retrieved: '2026-07-05'
+    version: '2026-07-03'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
