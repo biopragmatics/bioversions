@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-07-11'
-  revision: 1388
+  date: '2026-07-12'
+  revision: 1389
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -82,6 +82,8 @@ database:
     version: '2025-12-01'
   - retrieved: '2026-04-05'
     version: '2026-03-01'
+  - retrieved: '2026-07-12'
+    version: '2026-06-01'
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -2515,6 +2517,8 @@ database:
     version: '2026-05-09'
   - retrieved: '2026-06-07'
     version: '2026-05-30'
+  - retrieved: '2026-07-12'
+    version: '2026-06-27'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3288,6 +3292,8 @@ database:
     version: '2026-01-13'
   - retrieved: '2026-04-10'
     version: '2026-04-02'
+  - retrieved: '2026-07-12'
+    version: '2026-07-09'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -3531,6 +3537,8 @@ database:
     version: 1.25-20240924T0027Z-unstable(1.26)
   - retrieved: '2025-11-21'
     version: 1.25-20251112T1620Z-unstable(1.26)
+  - retrieved: '2026-07-12'
+    version: 1.25-20260626T1230Z
   vtype: date
 - name: Emotion Ontology
   prefix: mfoem
@@ -3679,6 +3687,8 @@ database:
     version: '2025-08-19'
   - retrieved: '2025-11-02'
     version: '2025-10-20'
+  - retrieved: '2026-07-12'
+    version: '2026-06-26'
   vtype: date
 - name: Environment Ontology for Livestock
   prefix: eol
@@ -3785,6 +3795,8 @@ database:
   releases:
   - retrieved: '2026-05-09'
     version: 1.1.68
+  - retrieved: '2026-07-12'
+    version: 1.1.87
   vtype: semver
 - name: ExPASy
   prefix: ec
@@ -3992,6 +4004,8 @@ database:
     version: '2026-05-30'
   - retrieved: '2026-06-26'
     version: '2026-06-13'
+  - retrieved: '2026-07-12'
+    version: '2026-06-27'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4312,6 +4326,8 @@ database:
     version: '2026-04-02'
   - retrieved: '2026-05-24'
     version: '2026-05-21'
+  - retrieved: '2026-07-12'
+    version: '2026-07-02'
   vtype: date
 - name: Flora Phenotype Ontology
   prefix: flopo
@@ -4320,6 +4336,8 @@ database:
     version: 09-09-2019
   - retrieved: '2021-06-14'
     version: '2019-09-09'
+  - retrieved: '2026-07-12'
+    version: '2026-06-29'
   vtype: date
 - name: Fly taxonomy
   prefix: fbsp
@@ -6101,6 +6119,8 @@ database:
     version: 4.1.248
   - retrieved: '2026-06-26'
     version: 4.1.255
+  - retrieved: '2026-07-12'
+    version: 4.1.256
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -6221,6 +6241,8 @@ database:
     version: '2026-05-30'
   - retrieved: '2026-06-26'
     version: '2026-06-20'
+  - retrieved: '2026-07-12'
+    version: '2026-06-27'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -6728,6 +6750,8 @@ database:
     version: '2026-05-05'
   - retrieved: '2026-06-07'
     version: '2026-06-02'
+  - retrieved: '2026-07-12'
+    version: '2026-07-06'
   vtype: date
 - name: MOP
   prefix: mop
@@ -6810,6 +6834,8 @@ database:
     version: '2026-05-29'
   - retrieved: '2026-06-26'
     version: '2026-06-08'
+  - retrieved: '2026-07-12'
+    version: '2026-06-26'
   vtype: date
 - name: Mouse Developmental Stages
   prefix: mmusdv
@@ -9001,6 +9027,8 @@ database:
   releases:
   - retrieved: '2026-04-30'
     version: '4.8'
+  - retrieved: '2026-07-12'
+    version: '4.9'
   vtype: semver
 - name: Orphanet Rare Disease Ontology
   prefix: orphanet.ordo
@@ -10410,6 +10438,8 @@ database:
     version: '2026-05-30'
   - retrieved: '2026-06-26'
     version: '2026-06-20'
+  - retrieved: '2026-07-12'
+    version: '2026-07-04'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -13276,6 +13306,8 @@ database:
     version: '2026-07-10'
   - retrieved: '2026-07-11'
     version: '2026-07-11'
+  - retrieved: '2026-07-12'
+    version: '2026-07-12'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17277,6 +17309,8 @@ database:
     version: '2026-07-08'
   - retrieved: '2026-07-11'
     version: '2026-07-09'
+  - retrieved: '2026-07-12'
+    version: '2026-07-10'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
