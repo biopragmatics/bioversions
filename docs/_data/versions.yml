@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-07-13'
-  revision: 1390
+  date: '2026-07-14'
+  revision: 1391
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1227,6 +1227,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-07-11'
     version: '2026-07-10'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-07-14'
+    version: '2026-07-13'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -10330,6 +10333,8 @@ database:
     version: '2026-06-27'
   - retrieved: '2026-07-07'
     version: '2026-07-04'
+  - retrieved: '2026-07-14'
+    version: '2026-07-11'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -11068,6 +11073,8 @@ database:
     version: 0527b2d
   - retrieved: '2026-05-29'
     version: 3dfd9aa
+  - retrieved: '2026-07-14'
+    version: 5e59516
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -13310,6 +13317,8 @@ database:
     version: '2026-07-12'
   - retrieved: '2026-07-13'
     version: '2026-07-13'
+  - retrieved: '2026-07-14'
+    version: '2026-07-14'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17315,6 +17324,8 @@ database:
     version: '2026-07-10'
   - retrieved: '2026-07-13'
     version: '2026-07-11'
+  - retrieved: '2026-07-14'
+    version: '2026-07-12'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
