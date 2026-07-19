@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1395,
-    "date": "2026-07-18",
+    "revision": 1396,
+    "date": "2026-07-19",
     "author": "runner"
   },
   "database": [
@@ -24596,6 +24596,10 @@
         {
           "retrieved": "2026-07-18",
           "version": "2026-07-18"
+        },
+        {
+          "retrieved": "2026-07-19",
+          "version": "2026-07-19"
         }
       ],
       "vtype": "date"
@@ -32120,6 +32124,10 @@
         {
           "retrieved": "2026-07-18",
           "version": "2026-07-16"
+        },
+        {
+          "retrieved": "2026-07-19",
+          "version": "2026-07-17"
         }
       ],
       "vtype": "date"
