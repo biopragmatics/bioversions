@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1408,
-    "date": "2026-07-31",
+    "revision": 1409,
+    "date": "2026-08-01",
     "author": "runner"
   },
   "database": [
@@ -2146,6 +2146,11 @@
           "retrieved": "2026-07-31",
           "version": "2026-07-30",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-08-01",
+          "version": "2026-07-31",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "vtype": "date"
@@ -4267,6 +4272,10 @@
         {
           "retrieved": "2026-07-02",
           "version": "2026-07-01"
+        },
+        {
+          "retrieved": "2026-08-01",
+          "version": "2026-08-01"
         }
       ],
       "vtype": "date"
@@ -5739,6 +5748,12 @@
           "version": "2026-06-30",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-06-30",
           "date": "2026-06-30"
+        },
+        {
+          "retrieved": "2026-08-01",
+          "version": "2026-07-31",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-07-31",
+          "date": "2026-07-31"
         }
       ],
       "vtype": "date"
@@ -18147,6 +18162,11 @@
           "retrieved": "2026-07-01",
           "version": "2026-07-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-07-01"
+        },
+        {
+          "retrieved": "2026-08-01",
+          "version": "2026-08-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-08-01"
         }
       ],
       "vtype": "date"
@@ -24705,6 +24725,10 @@
         {
           "retrieved": "2026-07-31",
           "version": "2026-07-31"
+        },
+        {
+          "retrieved": "2026-08-01",
+          "version": "2026-08-01"
         }
       ],
       "vtype": "date"
@@ -32281,6 +32305,10 @@
         {
           "retrieved": "2026-07-31",
           "version": "2026-07-29"
+        },
+        {
+          "retrieved": "2026-08-01",
+          "version": "2026-07-30"
         }
       ],
       "vtype": "date"

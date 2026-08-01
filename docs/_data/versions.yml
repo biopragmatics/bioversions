@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-07-31'
-  revision: 1408
+  date: '2026-08-01'
+  revision: 1409
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1269,6 +1269,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-07-31'
     version: '2026-07-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-08-01'
+    version: '2026-07-31'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -2429,6 +2432,8 @@ database:
     version: '2026-06-01'
   - retrieved: '2026-07-02'
     version: '2026-07-01'
+  - retrieved: '2026-08-01'
+    version: '2026-08-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -3260,6 +3265,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-06-30
     retrieved: '2026-07-02'
     version: '2026-06-30'
+  - date: '2026-07-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-07-31
+    retrieved: '2026-08-01'
+    version: '2026-07-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -10066,6 +10075,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-07-01
     retrieved: '2026-07-01'
     version: '2026-07-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-08-01
+    retrieved: '2026-08-01'
+    version: '2026-08-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -13408,6 +13420,8 @@ database:
     version: '2026-07-30'
   - retrieved: '2026-07-31'
     version: '2026-07-31'
+  - retrieved: '2026-08-01'
+    version: '2026-08-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17449,6 +17463,8 @@ database:
     version: '2026-07-28'
   - retrieved: '2026-07-31'
     version: '2026-07-29'
+  - retrieved: '2026-08-01'
+    version: '2026-07-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
