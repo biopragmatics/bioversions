@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-08-01'
-  revision: 1409
+  date: '2026-08-02'
+  revision: 1410
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1292,6 +1292,8 @@ database:
     version: '2024-12-24'
   - retrieved: '2026-03-16'
     version: '2026-03-13'
+  - retrieved: '2026-08-02'
+    version: '2026-07-19'
   vtype: date
 - name: Apollo Structured Vocabulary (Apollo-SV)
   prefix: apollo_sv
@@ -1641,6 +1643,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.259
     retrieved: '2026-07-03'
     version: 5.0.259
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.260
+    retrieved: '2026-08-02'
+    version: 5.0.260
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -2566,6 +2571,8 @@ database:
     version: '2026-05-30'
   - retrieved: '2026-07-12'
     version: '2026-06-27'
+  - retrieved: '2026-08-02'
+    version: '2026-07-25'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3403,6 +3410,8 @@ database:
     version: '2026-04-03'
   - retrieved: '2026-06-26'
     version: '2026-06-11'
+  - retrieved: '2026-08-02'
+    version: '2026-07-09'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -3769,6 +3778,8 @@ database:
     version: '2023-02-14'
   - retrieved: '2026-03-04'
     version: '2026-02-17'
+  - retrieved: '2026-08-02'
+    version: '2026-07-28'
   vtype: date
 - name: Evidence and Conclusion Ontology
   prefix: eco
@@ -3793,6 +3804,8 @@ database:
     version: '2026-04-05'
   - retrieved: '2026-05-19'
     version: '2026-05-15'
+  - retrieved: '2026-08-02'
+    version: '2026-07-10'
   vtype: date
 - name: Evidence Code Ontology
   prefix: eco
@@ -3851,6 +3864,8 @@ database:
     version: 1.1.68
   - retrieved: '2026-07-12'
     version: 1.1.87
+  - retrieved: '2026-08-02'
+    version: 1.2.0
   vtype: semver
 - name: ExPASy
   prefix: ec
@@ -4060,6 +4075,8 @@ database:
     version: '2026-06-13'
   - retrieved: '2026-07-12'
     version: '2026-06-27'
+  - retrieved: '2026-08-02'
+    version: '2026-07-29'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4184,6 +4201,8 @@ database:
     version: 3.90.0
   - retrieved: '2026-06-26'
     version: 3.91.0
+  - retrieved: '2026-08-02'
+    version: 3.92.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -4542,6 +4561,8 @@ database:
     version: '2026-01-13'
   - retrieved: '2026-04-10'
     version: '2026-04-03'
+  - retrieved: '2026-08-02'
+    version: '2026-07-10'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -4926,6 +4947,8 @@ database:
     version: '2025-10-10'
   - retrieved: '2026-03-22'
     version: '2026-03-14'
+  - retrieved: '2026-08-02'
+    version: '2026-07-24'
   vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
@@ -6079,6 +6102,8 @@ database:
     version: '2026-05-19'
   - retrieved: '2026-06-26'
     version: '2026-06-17'
+  - retrieved: '2026-08-02'
+    version: '2026-07-22'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -6299,6 +6324,8 @@ database:
     version: '2026-06-20'
   - retrieved: '2026-07-12'
     version: '2026-06-27'
+  - retrieved: '2026-08-02'
+    version: '2026-07-29'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -7241,6 +7268,8 @@ database:
     version: '2026-05-05'
   - retrieved: '2026-05-19'
     version: '2026-05-13'
+  - retrieved: '2026-08-02'
+    version: '2026-07-12'
   vtype: date
 - name: NCI Thesaurus
   prefix: ncit
@@ -8652,6 +8681,8 @@ database:
     version: '2026-03-05'
   - retrieved: '2026-04-14'
     version: '2026-04-07'
+  - retrieved: '2026-08-02'
+    version: '2026-07-08'
   vtype: date
 - name: Ontology for Nutritional Studies
   prefix: ons
@@ -8810,6 +8841,8 @@ database:
     version: '2025-10-29'
   - retrieved: '2026-05-19'
     version: '2026-05-15'
+  - retrieved: '2026-08-02'
+    version: '2026-07-14'
   vtype: date
 - name: Ontology of Genetic Susceptibility Factor
   prefix: ogsf
@@ -9746,6 +9779,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2026-07-01/
     retrieved: '2026-07-02'
     version: '2026-07-01'
+  - date: '2026-08-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2026-08-01/
+    retrieved: '2026-08-02'
+    version: '2026-08-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -9889,6 +9926,8 @@ database:
     version: '2026-04-28'
   - retrieved: '2026-06-07'
     version: '2026-06-01'
+  - retrieved: '2026-08-02'
+    version: '2026-06-19'
   vtype: date
 - name: PROV Namespace
   prefix: prov
@@ -10136,6 +10175,8 @@ database:
     version: '2026-01-15'
   - retrieved: '2026-03-16'
     version: '2026-03-05'
+  - retrieved: '2026-08-02'
+    version: '2026-07-16'
   vtype: date
 - name: Rat Genome Database
   prefix: rgd
@@ -10508,6 +10549,8 @@ database:
     version: '2026-06-20'
   - retrieved: '2026-07-12'
     version: '2026-07-04'
+  - retrieved: '2026-08-02'
+    version: '2026-07-29'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -13422,6 +13465,8 @@ database:
     version: '2026-07-31'
   - retrieved: '2026-08-01'
     version: '2026-08-01'
+  - retrieved: '2026-08-02'
+    version: '2026-08-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13588,6 +13633,8 @@ database:
     version: '2026-03-23'
   - retrieved: '2026-05-09'
     version: '2026-04-28'
+  - retrieved: '2026-08-02'
+    version: '2026-06-16'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -14298,6 +14345,8 @@ database:
     version: '2026-06-12'
   - retrieved: '2026-07-05'
     version: '2026-06-24'
+  - retrieved: '2026-08-02'
+    version: '2026-07-23'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -14677,6 +14726,8 @@ database:
     version: '2026-03-31'
   - retrieved: '2026-06-07'
     version: '2026-06-02'
+  - retrieved: '2026-08-02'
+    version: '2026-07-16'
   vtype: date
 - name: Zebrafish developmental stages ontology
   prefix: zfs
@@ -14687,6 +14738,8 @@ database:
     version: '2026-03-31'
   - retrieved: '2026-06-07'
     version: '2026-06-02'
+  - retrieved: '2026-08-02'
+    version: '2026-07-16'
   vtype: date
 - name: Zebrafish Experimental Conditions Ontology
   prefix: zeco
@@ -17465,6 +17518,8 @@ database:
     version: '2026-07-29'
   - retrieved: '2026-08-01'
     version: '2026-07-30'
+  - retrieved: '2026-08-02'
+    version: '2026-07-31'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp

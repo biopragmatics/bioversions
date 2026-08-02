@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1409,
-    "date": "2026-08-01",
+    "revision": 1410,
+    "date": "2026-08-02",
     "author": "runner"
   },
   "database": [
@@ -2190,6 +2190,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-13"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-19"
         }
       ],
       "vtype": "date"
@@ -2816,6 +2820,11 @@
           "retrieved": "2026-07-03",
           "version": "5.0.259",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.259"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "5.0.260",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.260"
         }
       ],
       "vtype": "semver"
@@ -4538,6 +4547,10 @@
         {
           "retrieved": "2026-07-12",
           "version": "2026-06-27"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-25"
         }
       ],
       "vtype": "date"
@@ -6018,6 +6031,10 @@
         {
           "retrieved": "2026-06-26",
           "version": "2026-06-11"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-09"
         }
       ],
       "vtype": "date"
@@ -6687,6 +6704,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-17"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-28"
         }
       ],
       "vtype": "date"
@@ -6734,6 +6755,10 @@
         {
           "retrieved": "2026-05-19",
           "version": "2026-05-15"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-10"
         }
       ],
       "vtype": "date"
@@ -6847,6 +6872,10 @@
         {
           "retrieved": "2026-07-12",
           "version": "1.1.87"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "1.2.0"
         }
       ],
       "vtype": "semver"
@@ -7256,6 +7285,10 @@
         {
           "retrieved": "2026-07-12",
           "version": "2026-06-27"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-29"
         }
       ],
       "vtype": "date"
@@ -7503,6 +7536,10 @@
         {
           "retrieved": "2026-06-26",
           "version": "3.91.0"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "3.92.0"
         }
       ],
       "vtype": "semver"
@@ -8185,6 +8222,10 @@
         {
           "retrieved": "2026-04-10",
           "version": "2026-04-03"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-10"
         }
       ],
       "vtype": "date"
@@ -8849,6 +8890,10 @@
         {
           "retrieved": "2026-03-22",
           "version": "2026-03-14"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-24"
         }
       ],
       "vtype": "semver"
@@ -10868,6 +10913,10 @@
         {
           "retrieved": "2026-06-26",
           "version": "2026-06-17"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-22"
         }
       ],
       "vtype": "date"
@@ -11303,6 +11352,10 @@
         {
           "retrieved": "2026-07-12",
           "version": "2026-06-27"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-29"
         }
       ],
       "vtype": "date"
@@ -12998,6 +13051,10 @@
         {
           "retrieved": "2026-05-19",
           "version": "2026-05-13"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-12"
         }
       ],
       "vtype": "date"
@@ -15612,6 +15669,10 @@
         {
           "retrieved": "2026-04-14",
           "version": "2026-04-07"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-08"
         }
       ],
       "vtype": "date"
@@ -15919,6 +15980,10 @@
         {
           "retrieved": "2026-05-19",
           "version": "2026-05-15"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-14"
         }
       ],
       "vtype": "date"
@@ -17580,6 +17645,12 @@
           "version": "2026-07-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-07-01/",
           "date": "2026-07-01"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-08-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-08-01/",
+          "date": "2026-08-01"
         }
       ],
       "vtype": "date"
@@ -17842,6 +17913,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-06-01"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-06-19"
         }
       ],
       "vtype": "date"
@@ -18282,6 +18357,10 @@
         {
           "retrieved": "2026-03-16",
           "version": "2026-03-05"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-16"
         }
       ],
       "vtype": "date"
@@ -19024,6 +19103,10 @@
         {
           "retrieved": "2026-07-12",
           "version": "2026-07-04"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-29"
         }
       ],
       "vtype": "date"
@@ -24729,6 +24812,10 @@
         {
           "retrieved": "2026-08-01",
           "version": "2026-08-01"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-08-02"
         }
       ],
       "vtype": "date"
@@ -25048,6 +25135,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "2026-04-28"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-06-16"
         }
       ],
       "vtype": "date"
@@ -26385,6 +26476,10 @@
         {
           "retrieved": "2026-07-05",
           "version": "2026-06-24"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-23"
         }
       ],
       "vtype": "date"
@@ -27014,6 +27109,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-06-02"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-16"
         }
       ],
       "vtype": "date"
@@ -27033,6 +27132,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-06-02"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-16"
         }
       ],
       "vtype": "date"
@@ -32309,6 +32412,10 @@
         {
           "retrieved": "2026-08-01",
           "version": "2026-07-30"
+        },
+        {
+          "retrieved": "2026-08-02",
+          "version": "2026-07-31"
         }
       ],
       "vtype": "date"
