@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1416,
-    "date": "2026-08-08",
+    "revision": 1417,
+    "date": "2026-08-10",
     "author": "runner"
   },
   "database": [
@@ -8689,6 +8689,12 @@
           "version": "2026-06-15",
           "homepage": "http://archive.geneontology.org/full/2026-06-15/",
           "date": "2026-06-15"
+        },
+        {
+          "retrieved": "2026-08-10",
+          "version": "2026-07-26",
+          "homepage": "http://archive.geneontology.org/full/2026-07-26/",
+          "date": "2026-07-26"
         }
       ],
       "vtype": "date"
@@ -24882,6 +24888,10 @@
         {
           "retrieved": "2026-08-08",
           "version": "2026-08-08"
+        },
+        {
+          "retrieved": "2026-08-10",
+          "version": "2026-08-10"
         }
       ],
       "vtype": "date"
@@ -32506,6 +32516,10 @@
         {
           "retrieved": "2026-08-08",
           "version": "2026-08-06"
+        },
+        {
+          "retrieved": "2026-08-10",
+          "version": "2026-08-08"
         }
       ],
       "vtype": "date"
