@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-08-10'
-  revision: 1417
+  date: '2026-08-11'
+  revision: 1418
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1287,6 +1287,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-08-08'
     version: '2026-08-07'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-08-11'
+    version: '2026-08-10'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4426,6 +4429,8 @@ database:
     version: '2019-09-09'
   - retrieved: '2026-07-12'
     version: '2026-06-29'
+  - retrieved: '2026-08-11'
+    version: '2026-07-31'
   vtype: date
 - name: Fly taxonomy
   prefix: fbsp
@@ -6225,6 +6230,8 @@ database:
     version: 4.1.255
   - retrieved: '2026-07-12'
     version: 4.1.256
+  - retrieved: '2026-08-11'
+    version: 4.1.257
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -6858,6 +6865,8 @@ database:
     version: '2026-06-02'
   - retrieved: '2026-07-12'
     version: '2026-07-06'
+  - retrieved: '2026-08-11'
+    version: '2026-08-04'
   vtype: date
 - name: MOP
   prefix: mop
@@ -8652,6 +8661,8 @@ database:
     version: '2026-03-19'
   - retrieved: '2026-05-22'
     version: '2026-05-08'
+  - retrieved: '2026-08-11'
+    version: '2026-07-27'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -9237,6 +9248,8 @@ database:
     version: '2026-01-26'
   - retrieved: '2026-03-16'
     version: '2026-03-12'
+  - retrieved: '2026-08-11'
+    version: '2026-08-06'
   vtype: date
 - name: Pathogen Host Interactions Phenotype Ontology
   prefix: phipo
@@ -9987,6 +10000,8 @@ database:
     version: 1.035.0
   - retrieved: '2026-06-26'
     version: 1.037.0
+  - retrieved: '2026-08-11'
+    version: 1.038.0
   vtype: date
 - name: PubChem
   releases:
@@ -10464,6 +10479,8 @@ database:
     version: '2026-07-24'
   - retrieved: '2026-08-04'
     version: '2026-08-01'
+  - retrieved: '2026-08-11'
+    version: '2026-08-07'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -10576,6 +10593,8 @@ database:
     version: '2026-07-04'
   - retrieved: '2026-08-02'
     version: '2026-07-29'
+  - retrieved: '2026-08-11'
+    version: '2026-08-01'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -11068,6 +11087,8 @@ database:
     version: '2024-06-05'
   - retrieved: '2024-11-22'
     version: '2024-11-18'
+  - retrieved: '2026-08-11'
+    version: '2026-08-07'
   vtype: date
 - name: Sickle Cell Disease Ontology
   prefix: scdo
@@ -13509,6 +13530,8 @@ database:
     version: '2026-08-08'
   - retrieved: '2026-08-10'
     version: '2026-08-10'
+  - retrieved: '2026-08-11'
+    version: '2026-08-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -13537,6 +13560,8 @@ database:
     version: '2024-02-09'
   - retrieved: '2024-05-26'
     version: '2024-05-17'
+  - retrieved: '2026-08-11'
+    version: '2026-07-30'
   vtype: date
 - name: Systematized Nomenclature of Medicine - Clinical Terms
   prefix: snomedct
@@ -13677,6 +13702,8 @@ database:
     version: '2026-04-28'
   - retrieved: '2026-08-02'
     version: '2026-06-16'
+  - retrieved: '2026-08-11'
+    version: '2026-08-06'
   vtype: date
 - name: The COVID-19 Infectious Disease Ontology
   prefix: idocovid19
@@ -14153,6 +14180,8 @@ database:
     version: '2026-01-09'
   - retrieved: '2026-02-06'
     version: '2026-01-16'
+  - retrieved: '2026-08-11'
+    version: '2026-07-31'
   vtype: date
 - name: Vaccine Ontology
   prefix: vo
@@ -14674,6 +14703,10 @@ database:
     homepage: http://data.wikipathways.org/20260710/
     retrieved: '2026-07-11'
     version: '20260710'
+  - date: '2026-08-10'
+    homepage: http://data.wikipathways.org/20260810/
+    retrieved: '2026-08-11'
+    version: '20260810'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -17576,6 +17609,8 @@ database:
     version: '2026-08-06'
   - retrieved: '2026-08-10'
     version: '2026-08-08'
+  - retrieved: '2026-08-11'
+    version: '2026-08-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
