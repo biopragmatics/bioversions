@@ -28,10 +28,9 @@ class DrugCentralGetter(Getter):
         """Get the latest DrugCentral version number."""
         import psycopg2
 
-        with closing(psycopg2.connect(**PARAMS)) as conn:
-            with closing(conn.cursor()) as cur:
-                cur.execute("SELECT version, dtime FROM public.dbversion")
-                version, dtime = cur.fetchone()
+        with closing(psycopg2.connect(**PARAMS)) as conn, closing(conn.cursor()) as cur:
+            cur.execute("SELECT version, dtime FROM public.dbversion")
+            version, dtime = cur.fetchone()
 
         # TODO update return format to allow datetime type
         return {

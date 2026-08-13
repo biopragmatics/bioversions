@@ -43,7 +43,9 @@ def make_ols_getter(resource: bioregistry.Resource) -> type[Getter] | None:
 
     version = resource.ols.get("version")
     if version is None:
-        logger.debug("[%s] no OLS version", resource)
+        logger.log(
+            1, "[bioversions] %s has no version in the Bioregistry's OLS metadata", resource.prefix
+        )
         return None
     _name = resource.get_name()
     if _name is None:

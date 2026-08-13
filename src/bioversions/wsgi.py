@@ -23,7 +23,7 @@ def database(name: str) -> flask.Response:
     rv: dict[str, Any] = {"query": name}
     try:
         version_result = resolve(name, strict=True)
-    except Exception:
+    except Exception:  # noqa:BLE001
         rv["success"] = False
     else:
         rv["success"] = True

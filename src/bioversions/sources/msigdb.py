@@ -27,7 +27,7 @@ class MSigDBGetter(Getter):
         if paragraph is None:
             raise ValueError
         if not isinstance(paragraph.text, str):
-            raise ValueError
+            raise TypeError
         version = paragraph.text.strip().split()[2][len("v") : -len(".Hs")]
         return version
 

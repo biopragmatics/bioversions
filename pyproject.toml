@@ -234,6 +234,7 @@ ignore = [
     "D105", # Missing docstring in magic method
     "E203", # Black conflicts with the following
     "S321", # ftp forever, scientists
+    "DTZ",
 ]
 
 # See https://docs.astral.sh/ruff/settings/#per-file-ignores

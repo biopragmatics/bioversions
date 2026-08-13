@@ -20,7 +20,7 @@ class DGIGetter(Getter):
         time_tag = find_soup_tag(soup, "relative-time")
         datetime_str = time_tag.attrs["datetime"]
         if not isinstance(datetime_str, str):
-            raise ValueError
+            raise TypeError
         dt_obj = dateutil.parser.parse(datetime_str)
         version = dt_obj.strftime(self.date_version_fmt)
         return version

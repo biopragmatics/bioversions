@@ -67,7 +67,7 @@ def get_soup(
     return pystow.utils.get_soup(url, verify=verify, timeout=timeout, user_agent=user_agent)
 
 
-def requests_get(url: str, *args: Any, timeout: int | float, **kwargs: Any) -> requests.Response:
+def requests_get(url: str, *args: Any, timeout: float, **kwargs: Any) -> requests.Response:
     """Wrap :func:`requests.get` that automatically adds a User-Agent."""
     if "headers" not in kwargs:
         kwargs["headers"] = {}
@@ -137,7 +137,7 @@ def find_soup_tag(element: Tag, *args: Any, **kwargs: Any) -> Tag:
     """Find a sub-element."""
     tag = element.find(*args, **kwargs)
     if not isinstance(tag, Tag):
-        raise ValueError(f"could not find an element matching {args=} and {kwargs=}")
+        raise TypeError(f"could not find an element matching {args=} and {kwargs=}")
     return tag
 
 
@@ -145,7 +145,7 @@ def find_soup_text(element: Tag, *args: Any, **kwargs: Any) -> str:
     """Find a sub-element."""
     tag = find_soup_tag(element, *args, **kwargs)
     if not isinstance(tag.text, str) or not tag.text:
-        raise ValueError
+        raise TypeError("element does not have a text string")
     return tag.text
 
 

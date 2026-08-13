@@ -27,7 +27,7 @@ class OMIMGetter(Getter):
             if text.startswith("Updated"):
                 rv = text[len("Updated") :].strip()
                 return parse(rv)
-        raise ValueError
+        raise ValueError("omim failed to parse")
 
 
 if __name__ == "__main__":

@@ -41,11 +41,11 @@ can be found at https://biopragmatics.github.io/bioversions.
 ```python
 import bioversions
 
-assert bioversions.get_version('biogrid') == '4.2.192', 'This was true on Dec 5th, 2020!'
+assert bioversions.get_version("biogrid") == "4.2.192", "This was true on Dec 5th, 2020!"
 
 # If you want more information, use the resolve() function
-bioversion = bioversions.resolve('biogrid')
-assert bioversion.version == '4.2.192'
+bioversion = bioversions.resolve("biogrid")
+assert bioversion.version == "4.2.192"
 ```
 
 By default, the results are cached and only refreshed once per day with the help
@@ -73,10 +73,10 @@ programmatically resolve given databases with the
 ```python
 import requests
 
-res = requests.get('http://localhost:5000/database/biogrid').json()
-assert res['success']
-assert res['result']['name'] == 'BioGRID'
-assert res['result']['version'] == '4.2.192', 'This was true on Dec 5th, 2020!'
+res = requests.get("http://localhost:5000/database/biogrid").json()
+assert res["success"]
+assert res["result"]["name"] == "BioGRID"
+assert res["result"]["version"] == "4.2.192", "This was true on Dec 5th, 2020!"
 ```
 
 ## CLI Usage
