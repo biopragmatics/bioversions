@@ -9,7 +9,7 @@ import io
 import os
 from collections.abc import Generator, Iterable, Mapping
 from contextlib import contextmanager
-from typing import Any, ClassVar, TextIO, TypedDict, cast
+from typing import Any, ClassVar, NotRequired, TextIO, TypedDict, cast
 
 import bioregistry
 import pydantic
@@ -18,7 +18,6 @@ import requests
 import requests.exceptions
 from bs4 import BeautifulSoup, Tag
 from pystow.constants import TimeoutHint
-from typing_extensions import NotRequired
 
 from .version import VERSION
 
@@ -82,7 +81,7 @@ def requests_get(url: str, *args: Any, timeout: float, **kwargs: Any) -> request
     return res
 
 
-class VersionType(str, enum.Enum):
+class VersionType(enum.StrEnum):
     """Different types of versions."""
 
     semver = "semver"
@@ -452,7 +451,7 @@ def _iterate_lines(url: str) -> Generator[Iterable[str], None, None]:
         url, stream=True, timeout=60, headers={"User-Agent": BIOVERSIONS_USER_AGENT}
     ) as res:
         if url.endswith(".gz"):
-            compressed_stream = io.BufferedReader(res.raw)  # type:ignore
+            compressed_stream = io.BufferedReader(res.raw)
             with gzip.open(compressed_stream, "rt", encoding="utf-8") as file:
                 yield file
         else:

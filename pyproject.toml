@@ -26,7 +26,6 @@ classifiers = [
     "Framework :: Sphinx",
     "Natural Language :: English",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -49,18 +48,18 @@ license-files = [
     "LICENSE",
 ]
 
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "requests",
     "beautifulsoup4",
-    "pystow[bs4]>=0.8.0",
+    "pystow[bs4]>=0.9.0",
     "click",
     "click-default-group",
     "tabulate",
     "more_click",
     "pyyaml",
     "tqdm",
-    "bioregistry[align]>=0.13.47",
+    "bioregistry[align]>=0.14.0",
     "lxml",
     "pydantic>=2.0",
     "psycopg2-binary",
