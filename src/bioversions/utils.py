@@ -9,7 +9,7 @@ import io
 import os
 from collections.abc import Generator, Iterable, Mapping
 from contextlib import contextmanager
-from typing import Any, ClassVar, TextIO, TypedDict, cast
+from typing import Any, ClassVar, NotRequired, TextIO, TypedDict, cast
 
 import bioregistry
 import pydantic
@@ -18,7 +18,6 @@ import requests
 import requests.exceptions
 from bs4 import BeautifulSoup, Tag
 from pystow.constants import TimeoutHint
-from typing_extensions import NotRequired
 
 from .version import VERSION
 
@@ -67,7 +66,7 @@ def get_soup(
     return pystow.utils.get_soup(url, verify=verify, timeout=timeout, user_agent=user_agent)
 
 
-def requests_get(url: str, *args: Any, timeout: int | float, **kwargs: Any) -> requests.Response:
+def requests_get(url: str, *args: Any, timeout: float, **kwargs: Any) -> requests.Response:
     """Wrap :func:`requests.get` that automatically adds a User-Agent."""
     if "headers" not in kwargs:
         kwargs["headers"] = {}
@@ -82,7 +81,7 @@ def requests_get(url: str, *args: Any, timeout: int | float, **kwargs: Any) -> r
     return res
 
 
-class VersionType(str, enum.Enum):
+class VersionType(enum.StrEnum):
     """Different types of versions."""
 
     semver = "semver"
@@ -137,7 +136,7 @@ def find_soup_tag(element: Tag, *args: Any, **kwargs: Any) -> Tag:
     """Find a sub-element."""
     tag = element.find(*args, **kwargs)
     if not isinstance(tag, Tag):
-        raise ValueError(f"could not find an element matching {args=} and {kwargs=}")
+        raise TypeError(f"could not find an element matching {args=} and {kwargs=}")
     return tag
 
 
@@ -145,7 +144,7 @@ def find_soup_text(element: Tag, *args: Any, **kwargs: Any) -> str:
     """Find a sub-element."""
     tag = find_soup_tag(element, *args, **kwargs)
     if not isinstance(tag.text, str) or not tag.text:
-        raise ValueError
+        raise TypeError("element does not have a text string")
     return tag.text
 
 
@@ -452,7 +451,7 @@ def _iterate_lines(url: str) -> Generator[Iterable[str], None, None]:
         url, stream=True, timeout=60, headers={"User-Agent": BIOVERSIONS_USER_AGENT}
     ) as res:
         if url.endswith(".gz"):
-            compressed_stream = io.BufferedReader(res.raw)  # type:ignore
+            compressed_stream = io.BufferedReader(res.raw)
             with gzip.open(compressed_stream, "rt", encoding="utf-8") as file:
                 yield file
         else:

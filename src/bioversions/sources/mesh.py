@@ -33,7 +33,7 @@ class MeshGetter(Getter):
                 ftp.cwd("/online/mesh/MESH_FILES/xmlmesh/")
                 names = [name for name, _ in ftp.mlsd()]
 
-        except Exception as e:
+        except Exception as e:  # noqa:BLE001
             logger.warning(
                 "could not look up MeSH version, falling back to current year. exception: %s", e
             )
