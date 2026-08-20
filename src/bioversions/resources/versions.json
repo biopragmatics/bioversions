@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1426,
-    "date": "2026-08-19",
+    "revision": 1427,
+    "date": "2026-08-20",
     "author": "runner"
   },
   "database": [
@@ -209,6 +209,10 @@
         {
           "retrieved": "2022-03-26",
           "version": "2022-03-09"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-17"
         }
       ],
       "vtype": "date"
@@ -2215,6 +2219,11 @@
         {
           "retrieved": "2026-08-19",
           "version": "2026-08-18",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-19",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4621,6 +4630,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-07-25"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-15"
         }
       ],
       "vtype": "date"
@@ -7359,6 +7372,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-07-29"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-15"
         }
       ],
       "vtype": "date"
@@ -7610,6 +7627,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "3.92.0"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "3.93.0"
         }
       ],
       "vtype": "semver"
@@ -11811,6 +11832,10 @@
         {
           "retrieved": "2026-03-04",
           "version": "2026-02-10"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-10"
         }
       ],
       "vtype": "date"
@@ -18021,6 +18046,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-06-19"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-13"
         }
       ],
       "vtype": "date"
@@ -19231,6 +19260,10 @@
         {
           "retrieved": "2026-08-11",
           "version": "2026-08-01"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-15"
         }
       ],
       "vtype": "date"
@@ -25013,6 +25046,10 @@
         {
           "retrieved": "2026-08-19",
           "version": "2026-08-19"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-20"
         }
       ],
       "vtype": "date"
@@ -32695,6 +32732,10 @@
         {
           "retrieved": "2026-08-19",
           "version": "2026-08-17"
+        },
+        {
+          "retrieved": "2026-08-20",
+          "version": "2026-08-18"
         }
       ],
       "vtype": "date"
