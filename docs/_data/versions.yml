@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-08-22'
-  revision: 1429
+  date: '2026-08-23'
+  revision: 1430
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -9500,12 +9500,16 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2020-04-13'
+  - retrieved: '2026-08-23'
+    version: '2026-03-31'
   vtype: date
 - name: Physico-chemical process
   prefix: rex
   releases:
   - retrieved: '2021-02-02'
     version: '2017-11-19'
+  - retrieved: '2026-08-23'
+    version: '2026-03-31'
   vtype: date
 - name: Pigeonpea ontology
   prefix: co_341
@@ -13603,6 +13607,8 @@ database:
     version: '2026-08-21'
   - retrieved: '2026-08-22'
     version: '2026-08-22'
+  - retrieved: '2026-08-23'
+    version: '2026-08-23'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17704,6 +17710,8 @@ database:
     version: '2026-08-19'
   - retrieved: '2026-08-22'
     version: '2026-08-20'
+  - retrieved: '2026-08-23'
+    version: '2026-08-21'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
