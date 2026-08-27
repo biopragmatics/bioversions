@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1433,
-    "date": "2026-08-26",
+    "revision": 1434,
+    "date": "2026-08-27",
     "author": "runner"
   },
   "database": [
@@ -2249,6 +2249,11 @@
         {
           "retrieved": "2026-08-26",
           "version": "2026-08-25",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-08-27",
+          "version": "2026-08-26",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -20257,6 +20262,12 @@
           "version": "138.2",
           "homepage": "https://www.arb-silva.de/",
           "date": "2024-03-14"
+        },
+        {
+          "retrieved": "2026-08-27",
+          "version": "144",
+          "homepage": "https://www.arb-silva.de/",
+          "date": "2026-08-26"
         }
       ],
       "vtype": "sequential"
@@ -25125,6 +25136,10 @@
         {
           "retrieved": "2026-08-26",
           "version": "2026-08-26"
+        },
+        {
+          "retrieved": "2026-08-27",
+          "version": "2026-08-27"
         }
       ],
       "vtype": "date"
@@ -32835,6 +32850,10 @@
         {
           "retrieved": "2026-08-26",
           "version": "2026-08-24"
+        },
+        {
+          "retrieved": "2026-08-27",
+          "version": "2026-08-26"
         }
       ],
       "vtype": "date"
