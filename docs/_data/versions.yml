@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-08-29'
-  revision: 1436
+  date: '2026-08-30'
+  revision: 1437
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2323,6 +2323,8 @@ database:
   releases:
   - retrieved: '2021-02-02'
     version: '2015-11-23'
+  - retrieved: '2026-08-30'
+    version: '2026-08-24'
   vtype: date
 - name: ChEMBL
   prefix: chembl
@@ -2646,6 +2648,8 @@ database:
     version: '2026-07-25'
   - retrieved: '2026-08-20'
     version: '2026-08-15'
+  - retrieved: '2026-08-30'
+    version: '2026-08-22'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -6193,6 +6197,8 @@ database:
     version: '2026-06-17'
   - retrieved: '2026-08-02'
     version: '2026-07-22'
+  - retrieved: '2026-08-30'
+    version: '2026-08-25'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -6293,6 +6299,8 @@ database:
     version: 4.1.256
   - retrieved: '2026-08-11'
     version: 4.1.257
+  - retrieved: '2026-08-30'
+    version: 4.1.258
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -6608,6 +6616,8 @@ database:
     version: '2026-02-10'
   - retrieved: '2026-08-20'
     version: '2026-08-10'
+  - retrieved: '2026-08-30'
+    version: '2026-08-26'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -7014,6 +7024,8 @@ database:
     version: '2026-06-08'
   - retrieved: '2026-07-12'
     version: '2026-06-26'
+  - retrieved: '2026-08-30'
+    version: '2026-08-25'
   vtype: date
 - name: Mouse Developmental Stages
   prefix: mmusdv
@@ -10673,6 +10685,8 @@ database:
     version: '2026-08-01'
   - retrieved: '2026-08-20'
     version: '2026-08-15'
+  - retrieved: '2026-08-30'
+    version: '2026-08-22'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -13657,6 +13671,8 @@ database:
     version: '2026-08-28'
   - retrieved: '2026-08-29'
     version: '2026-08-29'
+  - retrieved: '2026-08-30'
+    version: '2026-08-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17770,6 +17786,8 @@ database:
     version: '2026-08-26'
   - retrieved: '2026-08-28'
     version: '2026-08-27'
+  - retrieved: '2026-08-30'
+    version: '2026-08-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
