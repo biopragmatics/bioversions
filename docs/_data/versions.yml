@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-08-31'
-  revision: 1438
+  date: '2026-09-01'
+  revision: 1439
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1343,6 +1343,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-08-31'
     version: '2026-08-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-09-01'
+    version: '2026-08-31'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3356,6 +3359,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-07-31
     retrieved: '2026-08-01'
     version: '2026-07-31'
+  - date: '2026-08-31'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-08-31
+    retrieved: '2026-09-01'
+    version: '2026-08-31'
   vtype: date
 - name: DisGeNet
   releases:
@@ -10242,6 +10249,9 @@ database:
   - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-08-01
     retrieved: '2026-08-01'
     version: '2026-08-01'
+  - homepage: https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-09-01
+    retrieved: '2026-09-01'
+    version: '2026-09-01'
   vtype: date
 - name: Radiation Biology Ontology
   prefix: rbo
@@ -10572,6 +10582,8 @@ database:
     version: '2026-08-14'
   - retrieved: '2026-08-25'
     version: '2026-08-21'
+  - retrieved: '2026-09-01'
+    version: '2026-08-28'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -13678,6 +13690,8 @@ database:
     version: '2026-08-30'
   - retrieved: '2026-08-31'
     version: '2026-08-31'
+  - retrieved: '2026-09-01'
+    version: '2026-09-01'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -17795,6 +17809,8 @@ database:
     version: '2026-08-28'
   - retrieved: '2026-08-31'
     version: '2026-08-29'
+  - retrieved: '2026-09-01'
+    version: '2026-08-30'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
