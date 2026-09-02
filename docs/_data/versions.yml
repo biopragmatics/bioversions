@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-09-01'
-  revision: 1439
+  date: '2026-09-02'
+  revision: 1440
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1346,6 +1346,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-09-01'
     version: '2026-08-31'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-09-02'
+    version: '2026-09-01'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1720,6 +1723,9 @@ database:
   - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.260
     retrieved: '2026-08-02'
     version: 5.0.260
+  - homepage: https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.261
+    retrieved: '2026-09-02'
+    version: 5.0.261
   vtype: semver
 - name: Bioinformatics operations, data types, formats, identifiers and topics
   prefix: edam
@@ -2323,6 +2329,9 @@ database:
   - date: '2026-08-14'
     retrieved: '2026-08-15'
     version: '254'
+  - date: '2026-09-01'
+    retrieved: '2026-09-02'
+    version: '255'
   vtype: sequential
 - name: ChEBI Integrated Role Ontology
   prefix: chiro
@@ -2518,6 +2527,8 @@ database:
     version: '2026-07-01'
   - retrieved: '2026-08-01'
     version: '2026-08-01'
+  - retrieved: '2026-09-02'
+    version: '2026-09-01'
   vtype: date
 - name: clinical LABoratory Ontology
   prefix: labo
@@ -9911,6 +9922,10 @@ database:
     homepage: https://www.pombase.org/data/releases/pombase-2026-08-01/
     retrieved: '2026-08-02'
     version: '2026-08-01'
+  - date: '2026-09-01'
+    homepage: https://www.pombase.org/data/releases/pombase-2026-09-01/
+    retrieved: '2026-09-02'
+    version: '2026-09-01'
   vtype: date
 - name: Population and Community Ontology
   prefix: pco
@@ -13692,6 +13707,8 @@ database:
     version: '2026-08-31'
   - retrieved: '2026-09-01'
     version: '2026-09-01'
+  - retrieved: '2026-09-02'
+    version: '2026-09-02'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
