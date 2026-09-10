@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1447,
-    "date": "2026-09-09",
+    "revision": 1448,
+    "date": "2026-09-10",
     "author": "runner"
   },
   "database": [
@@ -213,6 +213,10 @@
         {
           "retrieved": "2026-08-20",
           "version": "2026-08-17"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-08-31"
         }
       ],
       "vtype": "date"
@@ -2304,6 +2308,11 @@
         {
           "retrieved": "2026-09-09",
           "version": "2026-09-08",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-09",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -4736,6 +4745,10 @@
         {
           "retrieved": "2026-08-30",
           "version": "2026-08-22"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-08-29"
         }
       ],
       "vtype": "date"
@@ -8135,6 +8148,10 @@
         {
           "retrieved": "2026-07-12",
           "version": "2026-07-02"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-08"
         }
       ],
       "vtype": "date"
@@ -8306,6 +8323,11 @@
           "retrieved": "2026-06-18",
           "version": "2026_02",
           "homepage": "https://s3ftp.flybase.org/releases/FB2026_02/"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026_03",
+          "homepage": "https://s3ftp.flybase.org/releases/FB2026_03/"
         }
       ],
       "vtype": "month"
@@ -9942,6 +9964,10 @@
         {
           "retrieved": "2026-07-05",
           "version": "2026-06-23"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-01"
         }
       ],
       "vtype": "date"
@@ -11358,6 +11384,10 @@
         {
           "retrieved": "2026-08-30",
           "version": "4.1.258"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "4.1.259"
         }
       ],
       "vtype": "date"
@@ -11603,6 +11633,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-07-29"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-08-29"
         }
       ],
       "vtype": "date"
@@ -12541,6 +12575,10 @@
         {
           "retrieved": "2026-08-11",
           "version": "2026-08-04"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-01"
         }
       ],
       "vtype": "date"
@@ -12706,6 +12744,10 @@
         {
           "retrieved": "2026-08-30",
           "version": "2026-08-25"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-04"
         }
       ],
       "vtype": "date"
@@ -15945,6 +15987,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-07-08"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-03"
         }
       ],
       "vtype": "date"
@@ -19662,6 +19708,10 @@
         {
           "retrieved": "2026-02-06",
           "version": "2025-12-17"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-04"
         }
       ],
       "vtype": "date"
@@ -25345,6 +25395,10 @@
         {
           "retrieved": "2026-09-09",
           "version": "2026-09-09"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-10"
         }
       ],
       "vtype": "date"
@@ -25676,6 +25730,10 @@
         {
           "retrieved": "2026-08-11",
           "version": "2026-08-06"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-08"
         }
       ],
       "vtype": "date"
@@ -26524,6 +26582,10 @@
         {
           "retrieved": "2026-06-26",
           "version": "2026_02"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026_03"
         }
       ],
       "vtype": "missing"
@@ -33109,6 +33171,10 @@
         {
           "retrieved": "2026-09-09",
           "version": "2026-09-07"
+        },
+        {
+          "retrieved": "2026-09-10",
+          "version": "2026-09-08"
         }
       ],
       "vtype": "date"
