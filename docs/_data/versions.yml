@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-09-12'
-  revision: 1450
+  date: '2026-09-13'
+  revision: 1451
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -6686,6 +6686,8 @@ database:
     version: '2026-08-10'
   - retrieved: '2026-08-30'
     version: '2026-08-26'
+  - retrieved: '2026-09-13'
+    version: '2026-09-09'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -9155,6 +9157,8 @@ database:
     version: '2025-07-31'
   - retrieved: '2025-09-07'
     version: '2025-08-28'
+  - retrieved: '2026-09-13'
+    version: '2026-09-10'
   vtype: date
 - name: Ontology of Precision Medicine and Investigation
   prefix: opmi
@@ -13796,6 +13800,8 @@ database:
     version: '2026-09-11'
   - retrieved: '2026-09-12'
     version: '2026-09-12'
+  - retrieved: '2026-09-13'
+    version: '2026-09-13'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14690,6 +14696,8 @@ database:
     version: '2026-06-24'
   - retrieved: '2026-08-02'
     version: '2026-07-23'
+  - retrieved: '2026-09-13'
+    version: '2026-09-09'
   vtype: date
 - name: VEuPathDB Ontology
   prefix: eupath
@@ -17947,6 +17955,8 @@ database:
     version: '2026-09-09'
   - retrieved: '2026-09-12'
     version: '2026-09-10'
+  - retrieved: '2026-09-13'
+    version: '2026-09-11'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
