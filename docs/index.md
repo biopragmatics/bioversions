@@ -8,8 +8,11 @@ layout: home
 
 This site and accompanying package are a resource for informing you what the
 latest version of each biological database is. Last updated on
+
 {{ site.data.versions.annotations.date }} (revision
+
 {{ site.data.versions.annotations.revision }}) by
+
 {{ site.data.versions.annotations.author }}.
 
 This site also includes [Bioschemas](https://bioschemas.org/) annotations, which
