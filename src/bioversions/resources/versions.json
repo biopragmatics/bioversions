@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1468,
-    "date": "2026-09-30",
+    "revision": 1469,
+    "date": "2026-10-01",
     "author": "runner"
   },
   "database": [
@@ -2384,6 +2384,11 @@
           "retrieved": "2026-09-30",
           "version": "2026-09-29",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "2026-09-30",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "vtype": "date"
@@ -4541,6 +4546,10 @@
         {
           "retrieved": "2026-09-02",
           "version": "2026-09-01"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "2026-10-01"
         }
       ],
       "vtype": "date"
@@ -6045,6 +6054,12 @@
           "version": "2026-08-31",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-08-31",
           "date": "2026-08-31"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "2026-09-30",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-09-30",
+          "date": "2026-09-30"
         }
       ],
       "vtype": "date"
@@ -11000,6 +11015,11 @@
           "retrieved": "2026-07-01",
           "version": "119.0",
           "date": "2026-07-01"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "120.0",
+          "date": "2026-10-01"
         }
       ],
       "vtype": "semver_minor"
@@ -13362,6 +13382,11 @@
           "retrieved": "2026-08-26",
           "version": "26.08d",
           "date": "2026-08-24"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "26.09d",
+          "date": "2026-09-28"
         }
       ],
       "vtype": "other"
@@ -18705,6 +18730,11 @@
           "retrieved": "2026-09-01",
           "version": "2026-09-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-09-01"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "2026-10-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-10-01"
         }
       ],
       "vtype": "date"
@@ -25613,6 +25643,10 @@
         {
           "retrieved": "2026-09-30",
           "version": "2026-09-30"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "2026-10-01"
         }
       ],
       "vtype": "date"
@@ -33479,6 +33513,10 @@
         {
           "retrieved": "2026-09-30",
           "version": "2026-09-28"
+        },
+        {
+          "retrieved": "2026-10-01",
+          "version": "2026-09-29"
         }
       ],
       "vtype": "date"
