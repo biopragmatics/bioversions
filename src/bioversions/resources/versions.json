@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1469,
-    "date": "2026-10-01",
+    "revision": 1470,
+    "date": "2026-10-02",
     "author": "runner"
   },
   "database": [
@@ -2389,6 +2389,11 @@
           "retrieved": "2026-10-01",
           "version": "2026-09-30",
           "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-10-02",
+          "version": "2026-10-01",
+          "homepage": "https://antibodyregistry.org/"
         }
       ],
       "vtype": "date"
@@ -3068,6 +3073,11 @@
           "retrieved": "2026-09-02",
           "version": "5.0.261",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.261"
+        },
+        {
+          "retrieved": "2026-10-02",
+          "version": "5.0.262",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.262"
         }
       ],
       "vtype": "semver"
@@ -18126,6 +18136,12 @@
           "version": "2026-09-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-09-01/",
           "date": "2026-09-01"
+        },
+        {
+          "retrieved": "2026-10-02",
+          "version": "2026-10-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-10-01/",
+          "date": "2026-10-01"
         }
       ],
       "vtype": "date"
@@ -20600,6 +20616,10 @@
         {
           "retrieved": "2026-07-02",
           "version": "2026-07-01"
+        },
+        {
+          "retrieved": "2026-10-02",
+          "version": "2026-10-01"
         }
       ],
       "vtype": "date"
@@ -25647,6 +25667,10 @@
         {
           "retrieved": "2026-10-01",
           "version": "2026-10-01"
+        },
+        {
+          "retrieved": "2026-10-02",
+          "version": "2026-10-02"
         }
       ],
       "vtype": "date"
@@ -33517,6 +33541,10 @@
         {
           "retrieved": "2026-10-01",
           "version": "2026-09-29"
+        },
+        {
+          "retrieved": "2026-10-02",
+          "version": "2026-09-30"
         }
       ],
       "vtype": "date"
