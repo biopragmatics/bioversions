@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1471,
-    "date": "2026-10-03",
+    "revision": 1472,
+    "date": "2026-10-04",
     "author": "runner"
   },
   "database": [
@@ -4847,6 +4847,10 @@
         {
           "retrieved": "2026-09-18",
           "version": "2026-09-12"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-19"
         }
       ],
       "vtype": "date"
@@ -11311,6 +11315,10 @@
         {
           "retrieved": "2026-08-30",
           "version": "2026-08-25"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-23"
         }
       ],
       "vtype": "date"
@@ -11521,6 +11529,10 @@
         {
           "retrieved": "2026-09-18",
           "version": "4.1.260"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "4.2.2"
         }
       ],
       "vtype": "date"
@@ -13736,6 +13748,10 @@
         {
           "retrieved": "2026-03-22",
           "version": "2026-03-16"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-25"
         }
       ],
       "vtype": "date"
@@ -18421,6 +18437,10 @@
         {
           "retrieved": "2026-08-20",
           "version": "2026-08-13"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-22"
         }
       ],
       "vtype": "date"
@@ -18494,6 +18514,10 @@
         {
           "retrieved": "2026-08-11",
           "version": "1.038.0"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "1.039.0"
         }
       ],
       "vtype": "date"
@@ -18879,6 +18903,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-07-16"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-23"
         }
       ],
       "vtype": "date"
@@ -25684,6 +25712,10 @@
         {
           "retrieved": "2026-10-03",
           "version": "2026-10-03"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-10-04"
         }
       ],
       "vtype": "date"
@@ -26023,6 +26055,10 @@
         {
           "retrieved": "2026-09-18",
           "version": "2026-09-11"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-29"
         }
       ],
       "vtype": "date"
@@ -26145,6 +26181,10 @@
         {
           "retrieved": "2026-06-26",
           "version": "2026-06-04"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-19"
         }
       ],
       "vtype": "date"
@@ -26227,6 +26267,10 @@
         {
           "retrieved": "2026-01-11",
           "version": "2025-12-30"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-20"
         }
       ],
       "vtype": "date"
@@ -27382,6 +27426,10 @@
         {
           "retrieved": "2026-09-13",
           "version": "2026-09-09"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-09-23"
         }
       ],
       "vtype": "date"
@@ -33562,6 +33610,10 @@
         {
           "retrieved": "2026-10-03",
           "version": "2026-10-01"
+        },
+        {
+          "retrieved": "2026-10-04",
+          "version": "2026-10-02"
         }
       ],
       "vtype": "date"
