@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-10-10'
-  revision: 1478
+  date: '2026-10-11'
+  revision: 1479
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -24,6 +24,8 @@ database:
     version: '2026-05-05'
   - retrieved: '2026-06-26'
     version: '2026-06-16'
+  - retrieved: '2026-10-11'
+    version: '2026-10-08'
   vtype: date
 - name: African Population Ontology
   prefix: afpo
@@ -84,6 +86,8 @@ database:
     version: '2026-03-01'
   - retrieved: '2026-07-12'
     version: '2026-06-01'
+  - retrieved: '2026-10-11'
+    version: '2026-09-01'
   vtype: date
 - name: Alzheimer's Disease Ontology
   prefix: ado
@@ -114,6 +118,8 @@ database:
     version: '2026-08-17'
   - retrieved: '2026-09-10'
     version: '2026-08-31'
+  - retrieved: '2026-10-11'
+    version: '2026-10-08'
   vtype: date
 - name: Anatomical Entity Ontology
   prefix: aeo
@@ -1438,6 +1444,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-10-10'
     version: '2026-10-09'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-10-11'
+    version: '2026-10-10'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -1528,6 +1537,8 @@ database:
     version: '2026-05-21'
   - retrieved: '2026-06-26'
     version: '2026-06-16'
+  - retrieved: '2026-10-11'
+    version: '2026-09-30'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -2770,6 +2781,8 @@ database:
     version: '2026-09-12'
   - retrieved: '2026-10-04'
     version: '2026-09-19'
+  - retrieved: '2026-10-11'
+    version: '2026-10-03'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3559,6 +3572,8 @@ database:
     version: '2026-04-02'
   - retrieved: '2026-07-12'
     version: '2026-07-09'
+  - retrieved: '2026-10-11'
+    version: '2026-09-30'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -3619,6 +3634,8 @@ database:
     version: '2026-06-11'
   - retrieved: '2026-08-02'
     version: '2026-07-09'
+  - retrieved: '2026-10-11'
+    version: '2026-10-01'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -4635,6 +4652,8 @@ database:
     version: '2026-06-29'
   - retrieved: '2026-08-11'
     version: '2026-07-31'
+  - retrieved: '2026-10-11'
+    version: '2026-10-05'
   vtype: date
 - name: Fly taxonomy
   prefix: fbsp
@@ -4790,6 +4809,8 @@ database:
     version: '2026-04-03'
   - retrieved: '2026-08-02'
     version: '2026-07-10'
+  - retrieved: '2026-10-11'
+    version: '2026-10-01'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -6598,6 +6619,8 @@ database:
     version: '2026-08-29'
   - retrieved: '2026-09-18'
     version: '2026-09-12'
+  - retrieved: '2026-10-11'
+    version: '2026-10-03'
   vtype: date
 - name: Medaka Developmental Stages
   prefix: olatdv
@@ -7119,6 +7142,8 @@ database:
     version: '2026-08-04'
   - retrieved: '2026-09-10'
     version: '2026-09-01'
+  - retrieved: '2026-10-11'
+    version: '2026-10-06'
   vtype: date
 - name: MOP
   prefix: mop
@@ -7207,6 +7232,8 @@ database:
     version: '2026-08-25'
   - retrieved: '2026-09-10'
     version: '2026-09-04'
+  - retrieved: '2026-10-11'
+    version: '2026-10-02'
   vtype: date
 - name: Mouse Developmental Stages
   prefix: mmusdv
@@ -9417,6 +9444,8 @@ database:
     version: '2025-06-28'
   - retrieved: '2026-03-19'
     version: '2026-03-16'
+  - retrieved: '2026-10-11'
+    version: '2026-10-01'
   vtype: date
 - name: Orphanet
   prefix: orpha
@@ -9713,6 +9742,8 @@ database:
     version: '2025-02-01'
   - retrieved: '2025-06-09'
     version: '2025-05-14'
+  - retrieved: '2026-10-11'
+    version: '2026-10-01'
   vtype: date
 - name: PHI-base Ontology
   prefix: phi
@@ -13998,6 +14029,8 @@ database:
     version: '2026-10-09'
   - retrieved: '2026-10-10'
     version: '2026-10-10'
+  - retrieved: '2026-10-11'
+    version: '2026-10-11'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14439,6 +14472,8 @@ database:
     version: '2026-04-01'
   - retrieved: '2026-07-05'
     version: '2026-06-19'
+  - retrieved: '2026-10-11'
+    version: '2026-10-01'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -15197,6 +15232,10 @@ database:
     homepage: http://data.wikipathways.org/20260910/
     retrieved: '2026-09-11'
     version: '20260910'
+  - date: '2026-10-10'
+    homepage: http://data.wikipathways.org/20261010/
+    retrieved: '2026-10-11'
+    version: '20261010'
   vtype: date
 - name: Woody Plant Ontology ontology
   prefix: co_357
@@ -18215,6 +18254,8 @@ database:
     version: '2026-10-07'
   - retrieved: '2026-10-10'
     version: '2026-10-08'
+  - retrieved: '2026-10-11'
+    version: '2026-10-09'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
@@ -18229,4 +18270,6 @@ database:
     version: '2024-01-22'
   - retrieved: '2024-04-21'
     version: '2024-04-18'
+  - retrieved: '2026-10-11'
+    version: '2026-10-08'
   vtype: date
