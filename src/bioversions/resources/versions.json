@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1485,
-    "date": "2026-10-17",
+    "revision": 1486,
+    "date": "2026-10-18",
     "author": "runner"
   },
   "database": [
@@ -4936,6 +4936,10 @@
         {
           "retrieved": "2026-10-11",
           "version": "2026-10-03"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-10"
         }
       ],
       "vtype": "date"
@@ -7715,6 +7719,10 @@
         {
           "retrieved": "2026-09-18",
           "version": "2026-09-12"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-10"
         }
       ],
       "vtype": "date"
@@ -8397,6 +8405,10 @@
         {
           "retrieved": "2026-10-11",
           "version": "2026-10-05"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-14"
         }
       ],
       "vtype": "date"
@@ -11643,6 +11655,10 @@
         {
           "retrieved": "2026-10-04",
           "version": "4.2.2"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "4.2.6"
         }
       ],
       "vtype": "date"
@@ -11900,6 +11916,10 @@
         {
           "retrieved": "2026-10-11",
           "version": "2026-10-03"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-10"
         }
       ],
       "vtype": "date"
@@ -16594,6 +16614,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-07-14"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-10"
         }
       ],
       "vtype": "date"
@@ -19839,6 +19863,10 @@
         {
           "retrieved": "2026-09-18",
           "version": "2026-09-12"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-10"
         }
       ],
       "vtype": "date"
@@ -20657,6 +20685,10 @@
         {
           "retrieved": "2026-05-09",
           "version": "1.61"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "1.62"
         }
       ],
       "vtype": "semver"
@@ -25911,6 +25943,10 @@
         {
           "retrieved": "2026-10-17",
           "version": "2026-10-17"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-18"
         }
       ],
       "vtype": "date"
@@ -27156,6 +27192,10 @@
         {
           "retrieved": "2026-08-11",
           "version": "2026-07-31"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-12"
         }
       ],
       "vtype": "date"
@@ -27629,6 +27669,10 @@
         {
           "retrieved": "2026-10-04",
           "version": "2026-09-23"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-02"
         }
       ],
       "vtype": "date"
@@ -33871,6 +33915,10 @@
         {
           "retrieved": "2026-10-17",
           "version": "2026-10-15"
+        },
+        {
+          "retrieved": "2026-10-18",
+          "version": "2026-10-16"
         }
       ],
       "vtype": "date"
