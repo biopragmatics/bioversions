@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-10-18'
-  revision: 1486
+  date: '2026-10-19'
+  revision: 1487
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -14078,6 +14078,8 @@ database:
     version: '2026-10-17'
   - retrieved: '2026-10-18'
     version: '2026-10-18'
+  - retrieved: '2026-10-19'
+    version: '2026-10-19'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
