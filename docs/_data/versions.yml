@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-10-24'
-  revision: 1492
+  date: '2026-10-25'
+  revision: 1493
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1477,6 +1477,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-10-24'
     version: '2026-10-23'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-10-25'
+    version: '2026-10-24'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4347,6 +4350,8 @@ database:
     version: '2026-09-12'
   - retrieved: '2026-10-18'
     version: '2026-10-10'
+  - retrieved: '2026-10-25'
+    version: '2026-10-17'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4477,6 +4482,8 @@ database:
     version: 3.93.0
   - retrieved: '2026-09-18'
     version: 3.94.0
+  - retrieved: '2026-10-25'
+    version: 3.95.0
   vtype: semver
 - name: Exposure ontology
   prefix: exo
@@ -6861,6 +6868,8 @@ database:
     version: '2026-09-09'
   - retrieved: '2026-09-18'
     version: '2026-09-15'
+  - retrieved: '2026-10-25'
+    version: '2026-10-20'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -14110,6 +14119,8 @@ database:
     version: '2026-10-23'
   - retrieved: '2026-10-24'
     version: '2026-10-24'
+  - retrieved: '2026-10-25'
+    version: '2026-10-25'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14609,6 +14620,8 @@ database:
     version: '2025-07-21'
   - retrieved: '2025-10-20'
     version: '2025-10-12'
+  - retrieved: '2026-10-25'
+    version: '2026-10-19'
   vtype: date
 - name: Unified phenotype ontology (uPheno)
   prefix: upheno
@@ -18363,6 +18376,8 @@ database:
     version: '2026-10-21'
   - retrieved: '2026-10-24'
     version: '2026-10-22'
+  - retrieved: '2026-10-25'
+    version: '2026-10-23'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
