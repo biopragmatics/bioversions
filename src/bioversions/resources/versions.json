@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1494,
-    "date": "2026-10-26",
+    "revision": 1495,
+    "date": "2026-10-27",
     "author": "runner"
   },
   "database": [
@@ -2500,6 +2500,11 @@
         {
           "retrieved": "2026-10-25",
           "version": "2026-10-24",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-10-27",
+          "version": "2026-10-26",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -5240,6 +5245,12 @@
           "version": "2026-01-09",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/2026-01-09/",
           "date": "2026-01-09"
+        },
+        {
+          "retrieved": "2026-10-27",
+          "version": "2026-10-17",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/2026-10-17/",
+          "date": "2026-10-17"
         }
       ],
       "vtype": "date"
@@ -10548,6 +10559,12 @@
           "version": "2026-01-09",
           "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/2026-01-09/",
           "date": "2026-01-09"
+        },
+        {
+          "retrieved": "2026-10-27",
+          "version": "2026-10-17",
+          "homepage": "https://ftp.ebi.ac.uk/pub/databases/intact/2026-10-17/",
+          "date": "2026-10-17"
         }
       ],
       "vtype": "date"
@@ -19675,6 +19692,10 @@
         {
           "retrieved": "2026-10-20",
           "version": "2026-10-16"
+        },
+        {
+          "retrieved": "2026-10-27",
+          "version": "2026-10-23"
         }
       ],
       "vtype": "date"
@@ -26030,6 +26051,10 @@
         {
           "retrieved": "2026-10-26",
           "version": "2026-10-26"
+        },
+        {
+          "retrieved": "2026-10-27",
+          "version": "2026-10-27"
         }
       ],
       "vtype": "date"
@@ -34034,6 +34059,10 @@
         {
           "retrieved": "2026-10-26",
           "version": "2026-10-24"
+        },
+        {
+          "retrieved": "2026-10-27",
+          "version": "2026-10-25"
         }
       ],
       "vtype": "date"
