@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1497,
-    "date": "2026-10-29",
+    "revision": 1498,
+    "date": "2026-10-30",
     "author": "runner"
   },
   "database": [
@@ -2515,6 +2515,11 @@
         {
           "retrieved": "2026-10-29",
           "version": "2026-10-28",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-10-30",
+          "version": "2026-10-29",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -6224,6 +6229,12 @@
           "version": "2026-09-30",
           "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-09-30",
           "date": "2026-09-30"
+        },
+        {
+          "retrieved": "2026-10-30",
+          "version": "2026-10-29",
+          "homepage": "https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-10-29",
+          "date": "2026-10-29"
         }
       ],
       "vtype": "date"
@@ -11053,6 +11064,10 @@
         {
           "retrieved": "2026-09-26",
           "version": "2026-09-22"
+        },
+        {
+          "retrieved": "2026-10-30",
+          "version": "2026-10-28"
         }
       ],
       "vtype": "date"
@@ -13639,6 +13654,11 @@
           "retrieved": "2026-10-29",
           "version": "26.10c",
           "date": "2026-10-19"
+        },
+        {
+          "retrieved": "2026-10-30",
+          "version": "26.10d",
+          "date": "2026-10-26"
         }
       ],
       "vtype": "other"
@@ -26090,6 +26110,10 @@
         {
           "retrieved": "2026-10-29",
           "version": "2026-10-29"
+        },
+        {
+          "retrieved": "2026-10-30",
+          "version": "2026-10-30"
         }
       ],
       "vtype": "date"
@@ -34106,6 +34130,10 @@
         {
           "retrieved": "2026-10-29",
           "version": "2026-10-27"
+        },
+        {
+          "retrieved": "2026-10-30",
+          "version": "2026-10-28"
         }
       ],
       "vtype": "date"

@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-10-29'
-  revision: 1497
+  date: '2026-10-30'
+  revision: 1498
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1489,6 +1489,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-10-29'
     version: '2026-10-28'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-10-30'
+    version: '2026-10-29'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3545,6 +3548,10 @@ database:
     homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-09-30
     retrieved: '2026-10-01'
     version: '2026-09-30'
+  - date: '2026-10-29'
+    homepage: https://github.com/DiseaseOntology/HumanDiseaseOntology/tree/main/src/ontology/releases/2026-10-29
+    retrieved: '2026-10-30'
+    version: '2026-10-29'
   vtype: date
 - name: DisGeNet
   releases:
@@ -6193,6 +6200,8 @@ database:
     version: '2026-08-26'
   - retrieved: '2026-09-26'
     version: '2026-09-22'
+  - retrieved: '2026-10-30'
+    version: '2026-10-28'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -7607,6 +7616,9 @@ database:
   - date: '2026-10-19'
     retrieved: '2026-10-29'
     version: 26.10c
+  - date: '2026-10-26'
+    retrieved: '2026-10-30'
+    version: 26.10d
   vtype: other
 - name: NCBI Gene
   prefix: ncbigene
@@ -14157,6 +14169,8 @@ database:
     version: '2026-10-28'
   - retrieved: '2026-10-29'
     version: '2026-10-29'
+  - retrieved: '2026-10-30'
+    version: '2026-10-30'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -18422,6 +18436,8 @@ database:
     version: '2026-10-26'
   - retrieved: '2026-10-29'
     version: '2026-10-27'
+  - retrieved: '2026-10-30'
+    version: '2026-10-28'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
