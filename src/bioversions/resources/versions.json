@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1499,
-    "date": "2026-10-31",
+    "revision": 1500,
+    "date": "2026-11-01",
     "author": "runner"
   },
   "database": [
@@ -3214,6 +3214,11 @@
           "retrieved": "2026-10-02",
           "version": "5.0.262",
           "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.262"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "5.0.263",
+          "homepage": "https://downloads.thebiogrid.org/BioGRID/Release-Archive/BIOGRID-5.0.263"
         }
       ],
       "vtype": "semver"
@@ -4493,6 +4498,10 @@
         {
           "retrieved": "2026-06-07",
           "version": "2026-05-28"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-05-27"
         }
       ],
       "vtype": "date"
@@ -4706,6 +4715,10 @@
         {
           "retrieved": "2026-10-01",
           "version": "2026-10-01"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-11-01"
         }
       ],
       "vtype": "date"
@@ -7144,6 +7157,10 @@
         {
           "retrieved": "2026-07-12",
           "version": "2026-06-26"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-10-23"
         }
       ],
       "vtype": "date"
@@ -8489,6 +8506,10 @@
         {
           "retrieved": "2026-10-18",
           "version": "2026-10-14"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-10-25"
         }
       ],
       "vtype": "date"
@@ -11749,6 +11770,10 @@
         {
           "retrieved": "2026-10-18",
           "version": "4.2.6"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "4.2.12"
         }
       ],
       "vtype": "date"
@@ -18699,6 +18724,10 @@
         {
           "retrieved": "2026-10-04",
           "version": "2026-09-22"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-10-26"
         }
       ],
       "vtype": "date"
@@ -19042,6 +19071,11 @@
           "retrieved": "2026-10-01",
           "version": "2026-10-01",
           "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-10-01"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-11-01",
+          "homepage": "https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Monthly/2026-11-01"
         }
       ],
       "vtype": "date"
@@ -26123,6 +26157,10 @@
         {
           "retrieved": "2026-10-31",
           "version": "2026-10-31"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-11-01"
         }
       ],
       "vtype": "date"
@@ -34147,6 +34185,10 @@
         {
           "retrieved": "2026-10-31",
           "version": "2026-10-29"
+        },
+        {
+          "retrieved": "2026-11-01",
+          "version": "2026-10-30"
         }
       ],
       "vtype": "date"
