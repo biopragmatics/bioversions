@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1500,
-    "date": "2026-11-01",
+    "revision": 1501,
+    "date": "2026-11-02",
     "author": "runner"
   },
   "database": [
@@ -18450,6 +18450,12 @@
           "version": "2026-10-01",
           "homepage": "https://www.pombase.org/data/releases/pombase-2026-10-01/",
           "date": "2026-10-01"
+        },
+        {
+          "retrieved": "2026-11-02",
+          "version": "2026-11-01",
+          "homepage": "https://www.pombase.org/data/releases/pombase-2026-11-01/",
+          "date": "2026-11-01"
         }
       ],
       "vtype": "date"
@@ -26161,6 +26167,10 @@
         {
           "retrieved": "2026-11-01",
           "version": "2026-11-01"
+        },
+        {
+          "retrieved": "2026-11-02",
+          "version": "2026-11-02"
         }
       ],
       "vtype": "date"
@@ -34189,6 +34199,10 @@
         {
           "retrieved": "2026-11-01",
           "version": "2026-10-30"
+        },
+        {
+          "retrieved": "2026-11-02",
+          "version": "2026-10-31"
         }
       ],
       "vtype": "date"
