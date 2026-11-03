@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-11-02'
-  revision: 1501
+  date: '2026-11-03'
+  revision: 1502
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1495,6 +1495,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-10-31'
     version: '2026-10-30'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-11-03'
+    version: '2026-11-02'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -10939,6 +10942,8 @@ database:
     version: '2026-10-16'
   - retrieved: '2026-10-27'
     version: '2026-10-23'
+  - retrieved: '2026-11-03'
+    version: '2026-10-30'
   vtype: date
 - name: Rat Strain Ontology
   prefix: rs
@@ -11478,6 +11483,9 @@ database:
   - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_10052026.zip
     retrieved: '2026-10-06'
     version: '2026-10-05'
+  - homepage: https://download.nlm.nih.gov/umls/kss/rxnorm/RxNorm_full_11022026.zip
+    retrieved: '2026-11-03'
+    version: '2026-11-02'
   vtype: date
 - name: Saccharomyces Genome Database
   prefix: sgd
@@ -14202,6 +14210,8 @@ database:
     version: '2026-11-01'
   - retrieved: '2026-11-02'
     version: '2026-11-02'
+  - retrieved: '2026-11-03'
+    version: '2026-11-03'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14677,6 +14687,8 @@ database:
     version: 2025AB
   - retrieved: '2026-05-05'
     version: 2026AA
+  - retrieved: '2026-11-03'
+    version: 2026AB
   vtype: other
 - name: Unified Phenotype Ontology
   prefix: upheno
@@ -18475,6 +18487,8 @@ database:
     version: '2026-10-30'
   - retrieved: '2026-11-02'
     version: '2026-10-31'
+  - retrieved: '2026-11-03'
+    version: '2026-11-01'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
