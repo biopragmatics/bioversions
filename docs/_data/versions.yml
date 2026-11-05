@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-11-04'
-  revision: 1503
+  date: '2026-11-05'
+  revision: 1504
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1501,6 +1501,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-11-04'
     version: '2026-11-03'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-11-05'
+    version: '2026-11-04'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -4232,6 +4235,8 @@ database:
     version: '2026-06-10'
   - retrieved: '2026-09-03'
     version: '2026-09-02'
+  - retrieved: '2026-11-05'
+    version: '2026-11-04'
   vtype: date
 - name: Experimental condition ontology
   prefix: xco
@@ -11304,6 +11309,9 @@ database:
   - date: '2026-09-02'
     retrieved: '2026-09-03'
     version: '142'
+  - date: '2026-11-04'
+    retrieved: '2026-11-05'
+    version: '143'
   vtype: date
 - name: Rice ontology
   prefix: co_320
@@ -14220,6 +14228,8 @@ database:
     version: '2026-11-03'
   - retrieved: '2026-11-04'
     version: '2026-11-04'
+  - retrieved: '2026-11-05'
+    version: '2026-11-05'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
