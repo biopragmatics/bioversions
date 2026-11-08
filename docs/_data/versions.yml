@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-11-07'
-  revision: 1506
+  date: '2026-11-08'
+  revision: 1507
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1602,6 +1602,8 @@ database:
     version: '2026-06-16'
   - retrieved: '2026-10-11'
     version: '2026-09-30'
+  - retrieved: '2026-11-08'
+    version: '2026-10-30'
   vtype: date
 - name: Bambara groundnut ontology
   prefix: co_366
@@ -2861,6 +2863,8 @@ database:
     version: '2026-10-03'
   - retrieved: '2026-10-18'
     version: '2026-10-10'
+  - retrieved: '2026-11-08'
+    version: '2026-10-31'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3660,6 +3664,8 @@ database:
     version: '2026-07-09'
   - retrieved: '2026-10-11'
     version: '2026-09-30'
+  - retrieved: '2026-11-08'
+    version: '2026-11-02'
   vtype: date
 - name: Drosophila gross anatomy
   prefix: fbbt
@@ -3722,6 +3728,8 @@ database:
     version: '2026-07-09'
   - retrieved: '2026-10-11'
     version: '2026-10-01'
+  - retrieved: '2026-11-08'
+    version: '2026-11-02'
   vtype: date
 - name: Drosophila Phenotype Ontology
   prefix: dpo
@@ -4404,6 +4412,8 @@ database:
     version: '2026-10-10'
   - retrieved: '2026-10-25'
     version: '2026-10-17'
+  - retrieved: '2026-11-08'
+    version: '2026-10-31'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4911,6 +4921,8 @@ database:
     version: '2026-07-10'
   - retrieved: '2026-10-11'
     version: '2026-10-01'
+  - retrieved: '2026-11-08'
+    version: '2026-11-02'
   vtype: date
 - name: FlyBase Controlled Vocabulary (FBcv)
   prefix: fbcv
@@ -5003,6 +5015,8 @@ database:
   releases:
   - retrieved: '2021-11-14'
     version: 2.0.5
+  - retrieved: '2026-11-08'
+    version: 2.0.11
   vtype: semver
 - name: Gene Expression Ontology
   prefix: gexo
@@ -6493,6 +6507,8 @@ database:
     version: '2026-08-25'
   - retrieved: '2026-10-04'
     version: '2026-09-23'
+  - retrieved: '2026-11-08'
+    version: '2026-10-29'
   vtype: date
 - name: Mass Spectrometry Controlled Vocabulary
   prefix: ms
@@ -6605,6 +6621,8 @@ database:
     version: 4.2.6
   - retrieved: '2026-11-01'
     version: 4.2.12
+  - retrieved: '2026-11-08'
+    version: 4.2.14
   vtype: date
 - name: Mathematical modeling ontology
   prefix: mamo
@@ -7262,6 +7280,8 @@ database:
     version: '2026-09-01'
   - retrieved: '2026-10-11'
     version: '2026-10-06'
+  - retrieved: '2026-11-08'
+    version: '2026-11-03'
   vtype: date
 - name: MOP
   prefix: mop
@@ -9575,6 +9595,8 @@ database:
     version: '2026-03-16'
   - retrieved: '2026-10-11'
     version: '2026-10-01'
+  - retrieved: '2026-11-08'
+    version: '2026-11-04'
   vtype: date
 - name: Orphanet
   prefix: orpha
@@ -11093,6 +11115,8 @@ database:
     version: '2026-09-12'
   - retrieved: '2026-10-18'
     version: '2026-10-10'
+  - retrieved: '2026-11-08'
+    version: '2026-10-31'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -14250,6 +14274,8 @@ database:
     version: '2026-11-06'
   - retrieved: '2026-11-07'
     version: '2026-11-07'
+  - retrieved: '2026-11-08'
+    version: '2026-11-08'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -14693,6 +14719,8 @@ database:
     version: '2026-06-19'
   - retrieved: '2026-10-11'
     version: '2026-10-01'
+  - retrieved: '2026-11-08'
+    version: '2026-11-05'
   vtype: date
 - name: UBERON
   prefix: uberon
@@ -14888,6 +14916,10 @@ database:
     homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2026_03/
     retrieved: '2026-09-09'
     version: '2026_03'
+  - date: '2026-04-01'
+    homepage: ftp://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2026_04/
+    retrieved: '2026-11-08'
+    version: '2026_04'
   vtype: month
 - name: Uniprot Core Ontology
   prefix: uniprot.core
@@ -15002,6 +15034,8 @@ database:
     version: '2026-05-07'
   - retrieved: '2026-06-26'
     version: '2026-06-12'
+  - retrieved: '2026-11-08'
+    version: '2026-11-02'
   vtype: semver
 - name: Variation Ontology
   prefix: vario
@@ -18531,6 +18565,8 @@ database:
     version: '2026-11-04'
   - retrieved: '2026-11-07'
     version: '2026-11-05'
+  - retrieved: '2026-11-08'
+    version: '2026-11-06'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
