@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1511,
-    "date": "2026-11-12",
+    "revision": 1512,
+    "date": "2026-11-13",
     "author": "runner"
   },
   "database": [
@@ -2565,6 +2565,11 @@
         {
           "retrieved": "2026-11-12",
           "version": "2026-11-11",
+          "homepage": "https://antibodyregistry.org/"
+        },
+        {
+          "retrieved": "2026-11-13",
+          "version": "2026-11-12",
           "homepage": "https://antibodyregistry.org/"
         }
       ],
@@ -26338,6 +26343,10 @@
         {
           "retrieved": "2026-11-12",
           "version": "2026-11-12"
+        },
+        {
+          "retrieved": "2026-11-13",
+          "version": "2026-11-13"
         }
       ],
       "vtype": "date"
