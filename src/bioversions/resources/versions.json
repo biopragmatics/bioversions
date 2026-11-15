@@ -1,7 +1,7 @@
 {
   "annotations": {
-    "revision": 1513,
-    "date": "2026-11-14",
+    "revision": 1514,
+    "date": "2026-11-15",
     "author": "runner"
   },
   "database": [
@@ -8158,6 +8158,10 @@
         {
           "retrieved": "2026-10-25",
           "version": "3.95.0"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "3.96.0"
         }
       ],
       "vtype": "semver"
@@ -11875,6 +11879,10 @@
         {
           "retrieved": "2026-11-08",
           "version": "4.2.14"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "4.2.17"
         }
       ],
       "vtype": "date"
@@ -13912,6 +13920,10 @@
         {
           "retrieved": "2026-08-02",
           "version": "2026-07-12"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "2026-11-09"
         }
       ],
       "vtype": "date"
@@ -18853,6 +18865,10 @@
         {
           "retrieved": "2026-11-01",
           "version": "2026-10-26"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "2026-11-11"
         }
       ],
       "vtype": "date"
@@ -18930,6 +18946,10 @@
         {
           "retrieved": "2026-10-04",
           "version": "1.039.0"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "1.41.0"
         }
       ],
       "vtype": "date"
@@ -26356,6 +26376,10 @@
         {
           "retrieved": "2026-11-14",
           "version": "2026-11-14"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "2026-11-15"
         }
       ],
       "vtype": "date"
@@ -26699,6 +26723,10 @@
         {
           "retrieved": "2026-10-04",
           "version": "2026-09-29"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "2026-11-10"
         }
       ],
       "vtype": "date"
@@ -28104,6 +28132,10 @@
         {
           "retrieved": "2026-10-18",
           "version": "2026-10-02"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "2026-11-06"
         }
       ],
       "vtype": "date"
@@ -34448,6 +34480,10 @@
         {
           "retrieved": "2026-11-14",
           "version": "2026-11-11"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "2026-11-13"
         }
       ],
       "vtype": "date"
@@ -34479,6 +34515,10 @@
         {
           "retrieved": "2026-10-11",
           "version": "2026-10-08"
+        },
+        {
+          "retrieved": "2026-11-15",
+          "version": "2026-11-10"
         }
       ],
       "vtype": "date"
