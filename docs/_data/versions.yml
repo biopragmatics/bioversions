@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-11-22'
-  revision: 1521
+  date: '2026-11-23'
+  revision: 1522
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -2321,6 +2321,8 @@ database:
     version: '2026-03-26'
   - retrieved: '2026-06-26'
     version: '2026-06-08'
+  - retrieved: '2026-11-23'
+    version: '2026-11-13'
   vtype: date
 - name: Cell Type Ontology
   prefix: cl
@@ -2898,6 +2900,8 @@ database:
     version: '2026-10-10'
   - retrieved: '2026-11-08'
     version: '2026-10-31'
+  - retrieved: '2026-11-23'
+    version: '2026-11-14'
   vtype: date
 - name: Clinical Trials Ontology
   prefix: cto
@@ -3099,6 +3103,8 @@ database:
     version: '2026-02-15'
   - retrieved: '2026-06-26'
     version: '2026-06-10'
+  - retrieved: '2026-11-23'
+    version: '2026-11-17'
   vtype: date
 - name: Confidence Information Ontology
   prefix: cio
@@ -3270,6 +3276,8 @@ database:
     version: '2025-02-10'
   - retrieved: '2025-11-21'
     version: '2025-11-13'
+  - retrieved: '2026-11-23'
+    version: '2026-11-06'
   vtype: date
 - name: Developing Mouse Brain Atlas
   prefix: dmba
@@ -4447,6 +4455,8 @@ database:
     version: '2026-10-17'
   - retrieved: '2026-11-08'
     version: '2026-10-31'
+  - retrieved: '2026-11-23'
+    version: '2026-11-14'
   vtype: date
 - name: Experimental Factor Ontology
   prefix: efo
@@ -4799,6 +4809,8 @@ database:
     version: '2026-10-14'
   - retrieved: '2026-11-01'
     version: '2026-10-25'
+  - retrieved: '2026-11-23'
+    version: '2026-11-15'
   vtype: date
 - name: Fly taxonomy
   prefix: fbsp
@@ -5350,6 +5362,8 @@ database:
     version: '2026-03-14'
   - retrieved: '2026-08-02'
     version: '2026-07-24'
+  - retrieved: '2026-11-23'
+    version: '2026-11-16'
   vtype: semver
 - name: Glycan Naming and Subsumption Ontology (GNOme)
   prefix: gno
@@ -6991,6 +7005,8 @@ database:
     version: '2026-09-15'
   - retrieved: '2026-10-25'
     version: '2026-10-20'
+  - retrieved: '2026-11-23'
+    version: '2026-11-18'
   vtype: date
 - name: MIAPA Ontology
   prefix: miapa
@@ -7367,6 +7383,8 @@ database:
     version: '2025-07-28'
   - retrieved: '2025-11-02'
     version: '2025-10-29'
+  - retrieved: '2026-11-23'
+    version: '2026-11-05'
   vtype: date
 - name: Mouse Developmental Anatomy Ontology
   prefix: emapa
@@ -9146,6 +9164,8 @@ database:
     version: '2026-05-08'
   - retrieved: '2026-08-11'
     version: '2026-07-27'
+  - retrieved: '2026-11-23'
+    version: '2026-11-03'
   vtype: date
 - name: Ontology for General Medical Science
   prefix: ogms
@@ -9594,6 +9614,8 @@ database:
     version: 2.0.58
   - retrieved: '2025-03-20'
     version: 2.0.59
+  - retrieved: '2026-11-23'
+    version: 2.0.60
   vtype: semver
 - name: Ontology of units of Measure (OM)
   prefix: om
@@ -9640,6 +9662,8 @@ database:
     version: '2026-10-01'
   - retrieved: '2026-11-08'
     version: '2026-11-04'
+  - retrieved: '2026-11-23'
+    version: '2026-11-18'
   vtype: date
 - name: Orphanet
   prefix: orpha
@@ -9824,6 +9848,8 @@ database:
     version: '2026-05-09'
   - retrieved: '2026-05-22'
     version: '2026-05-16'
+  - retrieved: '2026-11-23'
+    version: '2026-11-14'
   vtype: date
 - name: PATO
   prefix: pato
@@ -10486,6 +10512,8 @@ database:
     version: '2026-10-26'
   - retrieved: '2026-11-15'
     version: '2026-11-11'
+  - retrieved: '2026-11-23'
+    version: '2026-11-16'
   vtype: date
 - name: PROV Namespace
   prefix: prov
@@ -10514,6 +10542,8 @@ database:
     version: '2025-01-08'
   - retrieved: '2025-07-22'
     version: '2025-07-07'
+  - retrieved: '2026-11-23'
+    version: '2026-11-16'
   vtype: date
 - name: PSI-MOD Protein Modifications Ontology
   prefix: mod
@@ -11166,6 +11196,8 @@ database:
     version: '2026-10-10'
   - retrieved: '2026-11-08'
     version: '2026-10-31'
+  - retrieved: '2026-11-23'
+    version: '2026-11-14'
   vtype: date
 - name: Reactome
   prefix: reactome
@@ -14355,6 +14387,8 @@ database:
     version: '2026-11-21'
   - retrieved: '2026-11-22'
     version: '2026-11-22'
+  - retrieved: '2026-11-23'
+    version: '2026-11-23'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -15159,6 +15193,8 @@ database:
     version: '2025-11-07'
   - retrieved: '2026-04-19'
     version: '2026-04-15'
+  - retrieved: '2026-11-23'
+    version: '2026-11-17'
   vtype: date
 - name: Vertebrate Skeletal Anatomy Ontology
   prefix: vsao
@@ -18680,6 +18716,8 @@ database:
     version: '2026-11-19'
   - retrieved: '2026-11-22'
     version: '2026-11-20'
+  - retrieved: '2026-11-23'
+    version: '2026-11-21'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
