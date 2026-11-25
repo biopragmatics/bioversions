@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-11-24'
-  revision: 1523
+  date: '2026-11-25'
+  revision: 1524
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1546,6 +1546,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-11-24'
     version: '2026-11-23'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-11-25'
+    version: '2026-11-24'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -3062,6 +3065,10 @@ database:
     homepage: https://ftp.ebi.ac.uk/pub/databases/intact/complex/2026-10-17/
     retrieved: '2026-10-27'
     version: '2026-10-17'
+  - date: '2026-11-20'
+    homepage: https://ftp.ebi.ac.uk/pub/databases/intact/complex/2026-11-20/
+    retrieved: '2026-11-25'
+    version: '2026-11-20'
   vtype: date
 - name: Compositional Dietary Nutrition Ontology
   prefix: cdno
@@ -6028,6 +6035,10 @@ database:
     homepage: https://ftp.ebi.ac.uk/pub/databases/intact/2026-10-17/
     retrieved: '2026-10-27'
     version: '2026-10-17'
+  - date: '2026-11-20'
+    homepage: https://ftp.ebi.ac.uk/pub/databases/intact/2026-11-20/
+    retrieved: '2026-11-25'
+    version: '2026-11-20'
   vtype: date
 - name: Integrative and Conjugative Element Ontology
   prefix: iceo
@@ -14396,6 +14407,8 @@ database:
     version: '2026-11-23'
   - retrieved: '2026-11-24'
     version: '2026-11-24'
+  - retrieved: '2026-11-25'
+    version: '2026-11-25'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
@@ -18727,6 +18740,8 @@ database:
     version: '2026-11-21'
   - retrieved: '2026-11-24'
     version: '2026-11-23'
+  - retrieved: '2026-11-25'
+    version: '2026-11-24'
   vtype: date
 - name: Zebrafish Phenotype Ontology
   prefix: zp
