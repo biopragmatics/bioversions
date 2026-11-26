@@ -1,7 +1,7 @@
 annotations:
   author: runner
-  date: '2026-11-25'
-  revision: 1524
+  date: '2026-11-26'
+  revision: 1525
 database:
 - name: A nomenclatural ontology for biological names
   prefix: nomen
@@ -1549,6 +1549,9 @@ database:
   - homepage: https://antibodyregistry.org/
     retrieved: '2026-11-25'
     version: '2026-11-24'
+  - homepage: https://antibodyregistry.org/
+    retrieved: '2026-11-26'
+    version: '2026-11-25'
   vtype: date
 - name: Apollo Structured Vocabulary
   prefix: apollosv
@@ -6317,6 +6320,8 @@ database:
     version: '2026-09-22'
   - retrieved: '2026-10-30'
     version: '2026-10-28'
+  - retrieved: '2026-11-26'
+    version: '2026-11-23'
   vtype: date
 - name: KEGG
   prefix: kegg.pathway
@@ -11898,6 +11903,8 @@ database:
     version: 8791eda
   - retrieved: '2026-11-18'
     version: ddf7382
+  - retrieved: '2026-11-26'
+    version: 4103e93
   vtype: other
 - name: Sorghum ontology
   prefix: co_324
@@ -14409,6 +14416,8 @@ database:
     version: '2026-11-24'
   - retrieved: '2026-11-25'
     version: '2026-11-25'
+  - retrieved: '2026-11-26'
+    version: '2026-11-26'
   vtype: date
 - name: SWO (The Software Ontology)
   prefix: swo
